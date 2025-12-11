@@ -29,6 +29,9 @@ CrowdstrikeFalcon:
     - thehive
     - automation
     difficulty: intermediate
+  registration_required: true
+  subscription_required: true
+  free_subscription: false
   integrations:
     analyzers:
     - name: CrowdstrikeFalcon_Sandbox_Linux
@@ -189,3 +192,95 @@ CrowdstrikeFalcon:
     totalResponders: 9
     totalFunctions: 1
     total: 21
+Slack:
+  id: Slack
+  name: Slack
+  description: Slack is a cloud-based collaboration platform that enables teams to communicate, share files, and integrate
+    with various tools through channels, direct messages, and automated workflows.
+  category: Collaboration
+  tags:
+  - communication
+  - collaboration
+  - notifications
+  - chat
+  - automation
+  - webhooks
+  homepage: https://slack.com
+  logo:
+    light:
+      file: docs/vendors/Slack/assets/slack.svg
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack.svg
+    dark:
+      file: docs/vendors/Slack/assets/slack-dark.svg
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack-dark.svg
+  useCases:
+  - name: Alert Notifications
+    description: Automatically notify your security team in Slack when new alerts are created in TheHive, with rich formatting
+      and quick action buttons.
+    documentation:
+      file: docs/vendors/Slack/./alert-notifications.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/./alert-notifications.md
+    title: Send TheHive alerts to Slack channels
+    tags:
+    - alerts
+    - notifications
+    - slack
+    - automation
+    - thehive
+    difficulty: beginner
+  - name: Interactive Incident Response
+    description: Manage TheHive cases and tasks directly from Slack using slash commands and interactive modals for faster
+      incident response.
+    documentation:
+      file: docs/vendors/Slack/./interactive-response.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/./interactive-response.md
+    title: Interactive incident response with Slack slash commands
+    tags:
+    - incident-response
+    - slack
+    - slash-commands
+    - interactive
+    - thehive
+    difficulty: advanced
+  - name: Investigation Collaboration
+    description: Automatically create dedicated Slack channels for each TheHive case, with team members added and updates
+      synced in real-time.
+    documentation:
+      file: docs/vendors/Slack/./investigation-collaboration.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/./investigation-collaboration.md
+    title: Automated investigation channels for case collaboration
+    tags:
+    - collaboration
+    - investigation
+    - slack
+    - automation
+    - case-management
+    difficulty: intermediate
+  registration_required: true
+  subscription_required: false
+  free_subscription: true
+  integrations:
+    analyzers: []
+    responders:
+    - name: Slack_CreateChannel
+      version: '1.0'
+      description: Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and
+        description.
+      dataTypes:
+      - thehive:case
+      file: cortex/responders/Slack/Slack_CreateChannel.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Slack/Slack_CreateChannel.json
+    - name: Slack_SyncChannel
+      version: '1.0'
+      description: Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments
+        for traceability.
+      dataTypes:
+      - thehive:case
+      file: cortex/responders/Slack/Slack_SyncChannel.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Slack/Slack_SyncChannel.json
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 2
+    totalFunctions: 0
+    total: 2

@@ -1,0 +1,29 @@
+id: Slack
+name: "Slack"
+description: "Slack is a cloud-based collaboration platform that enables teams to communicate, share files, and integrate with various tools through channels, direct messages, and automated workflows."
+category: Collaboration
+tags:
+  - communication
+  - collaboration
+  - notifications
+  - chat
+  - automation
+  - webhooks
+homepage: "https://slack.com"
+
+logo:
+  light: "assets/slack.svg"
+  dark: "assets/slack-dark.svg"
+
+use-cases:
+  - name: "Alert Notifications"
+    description: "Send TheHive alerts and case updates to Slack channels for team visibility"
+    documentation: "./alert-notifications.md"
+
+  - name: "Interactive Incident Response"
+    description: "Manage incidents directly from Slack using slash commands and interactive buttons"
+    documentation: "./interactive-response.md"
+
+  - name: "Investigation Collaboration"
+    description: "Create dedicated Slack channels for case investigations with automated updates"
+    documentation: "./investigation-collaboration.md"
