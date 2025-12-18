@@ -110,6 +110,101 @@ jobs:
             return 0
           }
 
+          # Sync vendor logo from upstream to docs/vendors/[vendor]/
+          sync_vendor_logo() {
+            local vendor="$1"
+            local local_docs_dir="docs/vendors/$vendor"
+            local formats=("svg" "png" "jpg" "jpeg")
+
+            # Create vendor docs directory if it doesn't exist
+            mkdir -p "$local_docs_dir" || return 0
+
+            # Try to find logo in upstream analyzers or responders directory
+            for type in analyzers responders; do
+              local upstream_vendor_dir="upstream-cortex-analyzers/$type/$vendor"
+
+              if [ ! -d "$upstream_vendor_dir" ]; then
+                continue
+              fi
+
+              # Check for logo files in various naming patterns
+              local logo_found=false
+
+              # Pattern 1: logo.*
+              for ext in "${formats[@]}"; do
+                if [ -f "$upstream_vendor_dir/logo.$ext" ]; then
+                  local upstream_logo="$upstream_vendor_dir/logo.$ext"
+                  local local_logo="$local_docs_dir/logo.$ext"
+
+                  if [ ! -f "$local_logo" ] || ! cmp -s "$upstream_logo" "$local_logo"; then
+                    if cp "$upstream_logo" "$local_logo"; then
+                      echo "  📷 **Logo synced:** \`logo.$ext\` (from $type)" >> $GITHUB_STEP_SUMMARY
+                      logo_found=true
+                      break 2
+                    fi
+                  fi
+                fi
+              done
+
+              # Pattern 2: icon.*
+              if ! $logo_found; then
+                for ext in "${formats[@]}"; do
+                  if [ -f "$upstream_vendor_dir/icon.$ext" ]; then
+                    local upstream_icon="$upstream_vendor_dir/icon.$ext"
+                    local local_logo="$local_docs_dir/icon.$ext"
+
+                    if [ ! -f "$local_logo" ] || ! cmp -s "$upstream_icon" "$local_logo"; then
+                      if cp "$upstream_icon" "$local_logo"; then
+                        echo "  📷 **Icon synced:** \`icon.$ext\` (from $type)" >> $GITHUB_STEP_SUMMARY
+                        logo_found=true
+                        break 2
+                      fi
+                    fi
+                  fi
+                done
+              fi
+
+              # Pattern 3: [vendorname].* (exact match)
+              if ! $logo_found; then
+                for ext in "${formats[@]}"; do
+                  if [ -f "$upstream_vendor_dir/$vendor.$ext" ]; then
+                    local upstream_vendor_logo="$upstream_vendor_dir/$vendor.$ext"
+                    local local_logo="$local_docs_dir/logo.$ext"
+
+                    if [ ! -f "$local_logo" ] || ! cmp -s "$upstream_vendor_logo" "$local_logo"; then
+                      if cp "$upstream_vendor_logo" "$local_logo"; then
+                        echo "  📷 **Logo synced:** \`$vendor.$ext\` → \`logo.$ext\` (from $type)" >> $GITHUB_STEP_SUMMARY
+                        logo_found=true
+                        break 2
+                      fi
+                    fi
+                  fi
+                done
+              fi
+
+              # Pattern 4: [vendorname-lowercase].*
+              if ! $logo_found; then
+                local vendor_lower=$(echo "$vendor" | tr '[:upper:]' '[:lower:]')
+                for ext in "${formats[@]}"; do
+                  if [ -f "$upstream_vendor_dir/$vendor_lower.$ext" ]; then
+                    local upstream_vendor_logo="$upstream_vendor_dir/$vendor_lower.$ext"
+                    local local_logo="$local_docs_dir/logo.$ext"
+
+                    if [ ! -f "$local_logo" ] || ! cmp -s "$upstream_vendor_logo" "$local_logo"; then
+                      if cp "$upstream_vendor_logo" "$local_logo"; then
+                        echo "  📷 **Logo synced:** \`$vendor_lower.$ext\` → \`logo.$ext\` (from $type)" >> $GITHUB_STEP_SUMMARY
+                        logo_found=true
+                        break 2
+                      fi
+                    fi
+                  fi
+                done
+              fi
+            done
+
+            return 0
+          }
+
           # Sync files for a specific type (analyzers or responders)
           sync_vendor_type() {
             local vendor="$1"
@@ -309,6 +404,9 @@ jobs:
           for vendor in "${FILTERED_VENDORS[@]}"; do
             echo "Processing vendor: $vendor"
 
+            # Sync vendor logo first
+            sync_vendor_logo "$vendor"
+
             # Sync both analyzers and responders
             sync_vendor_type "$vendor" "analyzers"
             sync_vendor_type "$vendor" "responders"
@@ -348,12 +446,12 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          if [ -n "$(git status --porcelain cortex/ catalogs/)" ]; then
+          if [ -n "$(git status --porcelain cortex/ catalogs/ docs/)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "### Changes detected" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-            git status --short cortex/ catalogs/ >> $GITHUB_STEP_SUMMARY
+            git status --short cortex/ catalogs/ docs/ >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -365,10 +463,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cortex/ catalogs/
+          git add cortex/ catalogs/ docs/
           git commit -m "Auto-sync Cortex configs and regenerate manifests [skip ci]
 
           - Synced analyzer/responder configs from Cortex-Analyzers
+          - Synced vendor logos
           - Regenerated integration manifests"
           git pull --rebase origin ${{ github.ref_name }}
           git push
