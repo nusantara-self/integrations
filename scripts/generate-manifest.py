@@ -408,8 +408,8 @@ def main():
 
     print(f"Using base URL: {BASE_URL}\n")
 
-    # Create catalogs directory
-    catalogs_path = Path('catalogs')
+    # Create .generated directory
+    catalogs_path = Path('.generated')
     catalogs_path.mkdir(exist_ok=True)
 
     for vendor in vendors:
@@ -436,7 +436,7 @@ def main():
             json.dump(manifest, f, indent=2, ensure_ascii=False)
         print(f"  → {manifest_json_path}")
 
-    # Write combined manifest (JSON and YAML) to catalogs directory
+    # Write combined manifest (JSON and YAML) to .generated directory
     output_path = catalogs_path / 'integration-manifest.json'
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(all_manifests, f, indent=2, ensure_ascii=False)
