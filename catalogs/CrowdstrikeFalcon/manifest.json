@@ -17,20 +17,6 @@
   },
   "useCases": [
     {
-      "name": "Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script",
-      "description": "Ingest CrowdStrike Falcon detections and incidents into TheHive as alerts via an external script",
-      "documentation": {
-        "file": "docs/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md"
-      },
-      "tags": [
-        "alert-ingestion",
-        "crowdstrike",
-        "thehive",
-        "automation"
-      ]
-    },
-    {
       "name": "Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents",
       "description": "Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.",
       "documentation": {
@@ -52,16 +38,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "CrowdstrikeFalcon_Sandbox_Linux",
-        "version": "1.0",
-        "description": "Send a file to CrowdstrikeFalcon Sandbox",
-        "dataTypes": [
-          "file"
-        ],
-        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json"
-      },
-      {
         "name": "CrowdstrikeFalcon_getDeviceAlerts22",
         "version": "1.0",
         "description": "Get Device alerts from Crowdstrike Falcon",
@@ -82,6 +58,26 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json"
       },
       {
+        "name": "CrowdstrikeFalcon_Sandbox_Win7_64",
+        "version": "1.0",
+        "description": "Send a file to CrowdstrikeFalcon Sandbox",
+        "dataTypes": [
+          "file"
+        ],
+        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json"
+      },
+      {
+        "name": "CrowdstrikeFalcon_getDeviceAlerts",
+        "version": "1.0",
+        "description": "Get Device alerts from Crowdstrike Falcon",
+        "dataTypes": [
+          "hostname"
+        ],
+        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json"
+      },
+      {
         "name": "CrowdstrikeFalcon_Sandbox_Android",
         "version": "1.0",
         "description": "Send a file to CrowdstrikeFalcon Sandbox",
@@ -90,6 +86,36 @@
         ],
         "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json"
+      },
+      {
+        "name": "CrowdstrikeFalcon_Sandbox_MacOS",
+        "version": "1.0",
+        "description": "Send a file to CrowdstrikeFalcon Sandbox",
+        "dataTypes": [
+          "file"
+        ],
+        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json"
+      },
+      {
+        "name": "CrowdstrikeFalcon_Sandbox_Win11",
+        "version": "1.0",
+        "description": "Send a file to CrowdstrikeFalcon Sandbox",
+        "dataTypes": [
+          "file"
+        ],
+        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json"
+      },
+      {
+        "name": "CrowdstrikeFalcon_GetDeviceVulnerabilities",
+        "version": "1.0",
+        "description": "Get device vulnerabilities from hostname",
+        "dataTypes": [
+          "hostname"
+        ],
+        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json"
       },
       {
         "name": "CrowdstrikeFalcon_Sandbox_Win10",
@@ -112,54 +138,14 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json"
       },
       {
-        "name": "CrowdstrikeFalcon_Sandbox_Win11",
+        "name": "CrowdstrikeFalcon_Sandbox_Linux",
         "version": "1.0",
         "description": "Send a file to CrowdstrikeFalcon Sandbox",
         "dataTypes": [
           "file"
         ],
-        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json"
-      },
-      {
-        "name": "CrowdstrikeFalcon_Sandbox_MacOS",
-        "version": "1.0",
-        "description": "Send a file to CrowdstrikeFalcon Sandbox",
-        "dataTypes": [
-          "file"
-        ],
-        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json"
-      },
-      {
-        "name": "CrowdstrikeFalcon_Sandbox_Win7_64",
-        "version": "1.0",
-        "description": "Send a file to CrowdstrikeFalcon Sandbox",
-        "dataTypes": [
-          "file"
-        ],
-        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json"
-      },
-      {
-        "name": "CrowdstrikeFalcon_GetDeviceVulnerabilities",
-        "version": "1.0",
-        "description": "Get device vulnerabilities from hostname",
-        "dataTypes": [
-          "hostname"
-        ],
-        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json"
-      },
-      {
-        "name": "CrowdstrikeFalcon_getDeviceAlerts",
-        "version": "1.0",
-        "description": "Get Device alerts from Crowdstrike Falcon",
-        "dataTypes": [
-          "hostname"
-        ],
-        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json"
+        "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json"
       }
     ],
     "responders": [
@@ -174,6 +160,16 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json"
       },
       {
+        "name": "CrowdStrikeFalcon_suppressDetections",
+        "version": "1.0",
+        "description": "Supress detections for the host.",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": "cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json"
+      },
+      {
         "name": "CrowdStrikeFalcon_HostContainment",
         "version": "1.0",
         "description": "This action contains the host, which stops any network communications to locations other than the CrowdStrike cloud and IPs specified in your containment policy",
@@ -184,14 +180,24 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json"
       },
       {
-        "name": "CrowdStrikeFalcon_suppressDetections",
+        "name": "CrowdStrikeFalcon_hideHost",
         "version": "1.0",
-        "description": "Supress detections for the host.",
+        "description": "This action will delete a host. After the host is deleted, no new detections for that host will be reported via UI or APIs",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json"
+        "file": "cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json"
+      },
+      {
+        "name": "CrowdStrikeFalcon_LiftContainmentHost",
+        "version": "1.0",
+        "description": "This action lifts containment on the host, which returns its network communications to normal",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": "cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json"
       },
       {
         "name": "CrowdStrikeFalcon_Sync",
@@ -205,16 +211,6 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json"
       },
       {
-        "name": "CrowdStrikeFalcon_hideHost",
-        "version": "1.0",
-        "description": "This action will delete a host. After the host is deleted, no new detections for that host will be reported via UI or APIs",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": "cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json"
-      },
-      {
         "name": "CrowdStrikeFalcon_AddIOC",
         "version": "1.0",
         "description": "Add IOC to IoC Management on Crowdstrike - supports domain, url, IPs & different kind of hashes",
@@ -225,14 +221,14 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json"
       },
       {
-        "name": "CrowdStrikeFalcon_LiftContainmentHost",
+        "name": "CrowdStrikeFalcon_unsuppressDetections",
         "version": "1.0",
-        "description": "This action lifts containment on the host, which returns its network communications to normal",
+        "description": "Allow detections for the host.",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json"
+        "file": "cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json"
       },
       {
         "name": "CrowdStrikeFalcon_RemoveIOC",
@@ -243,16 +239,6 @@
         ],
         "file": "cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json"
-      },
-      {
-        "name": "CrowdStrikeFalcon_unsuppressDetections",
-        "version": "1.0",
-        "description": "Allow detections for the host.",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": "cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json"
       }
     ],
     "functions": [
