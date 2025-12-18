@@ -66,6 +66,21 @@ jobs:
             # Sync analyzers
             if [ -d "upstream-cortex-analyzers/analyzers/$vendor" ]; then
               mkdir -p "cortex/analyzers/$vendor"
+
+              # Delete local JSON files that don't exist upstream
+              if [ -d "cortex/analyzers/$vendor" ]; then
+                for local_file in cortex/analyzers/$vendor/*.json; do
+                  if [ -f "$local_file" ]; then
+                    filename=$(basename "$local_file")
+                    if [ ! -f "upstream-cortex-analyzers/analyzers/$vendor/$filename" ]; then
+                      rm "$local_file"
+                      echo "🗑️  Deleted analyzer $filename for $vendor (no longer in upstream)" >> $GITHUB_STEP_SUMMARY
+                    fi
+                  fi
+                done
+              fi
+
+              # Copy upstream files to local
               cp upstream-cortex-analyzers/analyzers/$vendor/*.json cortex/analyzers/$vendor/ 2>/dev/null || true
               echo "✅ Synced analyzers for $vendor" >> $GITHUB_STEP_SUMMARY
             fi
@@ -73,6 +88,21 @@ jobs:
             # Sync responders
             if [ -d "upstream-cortex-analyzers/responders/$vendor" ]; then
               mkdir -p "cortex/responders/$vendor"
+
+              # Delete local JSON files that don't exist upstream
+              if [ -d "cortex/responders/$vendor" ]; then
+                for local_file in cortex/responders/$vendor/*.json; do
+                  if [ -f "$local_file" ]; then
+                    filename=$(basename "$local_file")
+                    if [ ! -f "upstream-cortex-analyzers/responders/$vendor/$filename" ]; then
+                      rm "$local_file"
+                      echo "🗑️  Deleted responder $filename for $vendor (no longer in upstream)" >> $GITHUB_STEP_SUMMARY
+                    fi
+                  fi
+                done
+              fi
+
+              # Copy upstream files to local
               cp upstream-cortex-analyzers/responders/$vendor/*.json cortex/responders/$vendor/ 2>/dev/null || true
               echo "✅ Synced responders for $vendor" >> $GITHUB_STEP_SUMMARY
             fi
