@@ -53,7 +53,7 @@ def parse_function_metadata(file_path: str) -> Optional[Dict]:
 
 def scan_analyzers(vendor: str) -> tuple[List[Dict], Dict]:
     """Scan analyzers for a vendor and extract subscription info."""
-    analyzers_path = Path('cortex') / 'analyzers' / vendor
+    analyzers_path = Path('.upstream') / 'cortex' / 'analyzers' / vendor
     if not analyzers_path.exists():
         return [], {}
     
@@ -68,8 +68,8 @@ def scan_analyzers(vendor: str) -> tuple[List[Dict], Dict]:
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = json.load(f)
-            
-            relative_path = f"cortex/analyzers/{vendor}/{file_path.name}"
+
+            relative_path = f".upstream/cortex/analyzers/{vendor}/{file_path.name}"
             
             analyzers.append({
                 'name': content.get('name'),
@@ -95,7 +95,7 @@ def scan_analyzers(vendor: str) -> tuple[List[Dict], Dict]:
 
 def scan_responders(vendor: str) -> tuple[List[Dict], Dict]:
     """Scan responders for a vendor and extract subscription info."""
-    responders_path = Path('cortex') / 'responders' / vendor
+    responders_path = Path('.upstream') / 'cortex' / 'responders' / vendor
     if not responders_path.exists():
         return [], {}
     
@@ -110,8 +110,8 @@ def scan_responders(vendor: str) -> tuple[List[Dict], Dict]:
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = json.load(f)
-            
-            relative_path = f"cortex/responders/{vendor}/{file_path.name}"
+
+            relative_path = f".upstream/cortex/responders/{vendor}/{file_path.name}"
             
             responders.append({
                 'name': content.get('name'),
@@ -352,14 +352,14 @@ def read_vendor_metadata(vendor: str) -> Dict:
 def find_vendors() -> List[str]:
     """Find all vendors from directory structure."""
     vendors = set()
-    
+
     # Check cortex analyzers
-    analyzers_path = Path('cortex') / 'analyzers'
+    analyzers_path = Path('.upstream') / 'cortex' / 'analyzers'
     if analyzers_path.exists():
         vendors.update([d.name for d in analyzers_path.iterdir() if d.is_dir()])
-    
+
     # Check cortex responders
-    responders_path = Path('cortex') / 'responders'
+    responders_path = Path('.upstream') / 'cortex' / 'responders'
     if responders_path.exists():
         vendors.update([d.name for d in responders_path.iterdir() if d.is_dir()])
     

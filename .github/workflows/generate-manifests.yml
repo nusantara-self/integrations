@@ -8,10 +8,10 @@ on:
       - develop
     paths:
       - 'catalogs/**'
-      - 'cortex/**'
+      - '.upstream/cortex/**'
       - 'thehive/**'
       - 'docs/vendors/**'
-      - 'generate-manifest.py'
+      - 'scripts/generate-manifest.py'
       - '.github/workflows/generate-manifests.yml'
   schedule:
     - cron: '0 2 * * *'      # Daily at 2 AM UTC
@@ -59,7 +59,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
           # Run validation and capture output
-          if python validate-vendor-metadata.py --strict 2>&1 | tee validation_output.txt; then
+          if python scripts/validate-vendor-metadata.py --strict 2>&1 | tee validation_output.txt; then
             echo "✅ All vendor.yml files are valid" >> $GITHUB_STEP_SUMMARY
           else
             echo "❌ Validation failed - check details below" >> $GITHUB_STEP_SUMMARY
@@ -234,7 +234,7 @@ jobs:
             local vendor="$1"
             local type="$2"  # "analyzers" or "responders"
             local upstream_dir="upstream-cortex-analyzers/$type/$vendor"
-            local local_dir="cortex/$type/$vendor"
+            local local_dir=".upstream/cortex/$type/$vendor"
 
             local added=0
             local updated=0
@@ -404,8 +404,8 @@ jobs:
 
           # Clean up local vendor directories deleted from upstream
           for type in analyzers responders; do
-            if [ -d "cortex/$type" ]; then
-              for local_vendor_dir in cortex/$type/*/; do
+            if [ -d ".upstream/cortex/$type" ]; then
+              for local_vendor_dir in .upstream/cortex/$type/*/; do
                 if [ -d "$local_vendor_dir" ]; then
                   vendor=$(basename "$local_vendor_dir")
                   # Check if vendor still exists upstream
@@ -465,17 +465,17 @@ jobs:
           fi
 
       - name: Generate manifests
-        run: python generate-manifest.py
+        run: python scripts/generate-manifest.py
 
       - name: Check for changes
         id: git-check
         run: |
-          if [ -n "$(git status --porcelain cortex/ catalogs/ docs/)" ]; then
+          if [ -n "$(git status --porcelain .upstream/cortex/ catalogs/ docs/)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "### Changes detected" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-            git status --short cortex/ catalogs/ docs/ >> $GITHUB_STEP_SUMMARY
+            git status --short .upstream/cortex/ catalogs/ docs/ >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -487,7 +487,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cortex/ catalogs/ docs/
+          git add .upstream/cortex/ catalogs/ docs/
           git commit -m "Auto-sync Cortex configs and regenerate manifests [skip ci]
 
           - Synced analyzer/responder configs from Cortex-Analyzers
