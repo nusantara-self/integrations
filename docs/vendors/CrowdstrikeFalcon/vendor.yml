@@ -11,5 +11,5 @@ tags:
 homepage: "https://www.crowdstrike.com"
 
 logo:
-  light: "assets/crowdstrike.png"
-  # dark: "assets/crowdstrike-dark.png"  # Optional
+  light: "assets/logo.png"
+  # dark: "assets/logo-dark.png"  # Optional

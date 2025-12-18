@@ -7,5 +7,5 @@ tags:
 homepage: "https://www.proofpoint.com"
 
 logo:
-  light: "assets/proofpoint.png"
-  # dark: "assets/proofpoint-dark.png"  # Optional
+  light: "assets/logo.png"
+  # dark: "assets/logo-dark.png"  # Optional
