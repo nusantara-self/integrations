@@ -4,8 +4,8 @@
 
 id: Slack
 name: Slack
-description: Slack is a cloud-based collaboration platform that enables teams to communicate, share files, and integrate with
-  various tools through channels, direct messages, and automated workflows.
+description: Slack is a is a team collaboration platform that provides channels, direct messaging, file sharing, and an app
+  ecosystem for workflows and incident response.
 category: Collaboration
 tags:
 - communication
@@ -14,14 +14,10 @@ tags:
 - chat
 homepage: https://slack.com
 logo:
-  light:
-    file: docs/vendors/Slack/assets/slack.svg
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack.svg
-  dark:
-    file: docs/vendors/Slack/assets/slack-dark.svg
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack-dark.svg
+  file: docs/vendors/Slack/assets/slack-logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack-logo.png
 useCases:
-- name: Slack Case Assignee Change Notifier
+- name: Notify Slack When a Case Assignee Changes in TheHive
   description: For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here will
     inform only active users.
   documentation:
@@ -31,7 +27,7 @@ useCases:
   - slack
   - communication
   - notification
-- name: Slack Alert Creation Notifier
+- name: Notify Slack When an Alert Is Created in TheHive
   description: For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
   documentation:
     file: docs/vendors/Slack/slack-notifier-alert-creation.md

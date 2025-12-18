@@ -15,19 +15,28 @@ CrowdstrikeFalcon:
     file: docs/vendors/CrowdstrikeFalcon/assets/crowdstrike.png
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/assets/crowdstrike.png
   useCases:
+  - name: Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script
+    description: Ingest CrowdStrike Falcon detections and incidents into TheHive as alerts via an external script
+    documentation:
+      file: docs/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md
+    tags:
+    - alert-ingestion
+    - crowdstrike
+    - thehive
+    - automation
   - name: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
     description: Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync
       responder.
     documentation:
-      file: docs/vendors/CrowdstrikeFalcon/crwd-status-sync.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/crwd-status-sync.md
+      file: docs/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md
     tags:
     - status
     - sync
     - crowdstrike
     - thehive
     - automation
-    difficulty: intermediate
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -204,7 +213,7 @@ Proofpoint:
     file: docs/vendors/Proofpoint/assets/proofpoint.png
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/assets/proofpoint.png
   useCases:
-  - name: Alert ingestion for Proofpoint TAP alerts – Clicks Permitted
+  - name: Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
     description: Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked
       on malicious links that were not blocked by Proofpoint and may require investigation.
     documentation:
@@ -215,7 +224,7 @@ Proofpoint:
     - tap
     - clicksPermitted
     - alert-ingestion
-  - name: Alert ingestion for Proofpoint TAP alerts – Message Delivered
+  - name: Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
     description: Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have
       reached user mailboxes and may require investigation.
     documentation:
@@ -261,8 +270,8 @@ Proofpoint:
 Slack:
   id: Slack
   name: Slack
-  description: Slack is a cloud-based collaboration platform that enables teams to communicate, share files, and integrate
-    with various tools through channels, direct messages, and automated workflows.
+  description: Slack is a is a team collaboration platform that provides channels, direct messaging, file sharing, and an
+    app ecosystem for workflows and incident response.
   category: Collaboration
   tags:
   - communication
@@ -271,14 +280,10 @@ Slack:
   - chat
   homepage: https://slack.com
   logo:
-    light:
-      file: docs/vendors/Slack/assets/slack.svg
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack.svg
-    dark:
-      file: docs/vendors/Slack/assets/slack-dark.svg
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack-dark.svg
+    file: docs/vendors/Slack/assets/slack-logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack-logo.png
   useCases:
-  - name: Slack Case Assignee Change Notifier
+  - name: Notify Slack When a Case Assignee Changes in TheHive
     description: For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here
       will inform only active users.
     documentation:
@@ -288,7 +293,7 @@ Slack:
     - slack
     - communication
     - notification
-  - name: Slack Alert Creation Notifier
+  - name: Notify Slack When an Alert Is Created in TheHive
     description: For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
     documentation:
       file: docs/vendors/Slack/slack-notifier-alert-creation.md

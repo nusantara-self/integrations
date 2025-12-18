@@ -17,11 +17,25 @@
   },
   "useCases": [
     {
+      "name": "Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script",
+      "description": "Ingest CrowdStrike Falcon detections and incidents into TheHive as alerts via an external script",
+      "documentation": {
+        "file": "docs/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md"
+      },
+      "tags": [
+        "alert-ingestion",
+        "crowdstrike",
+        "thehive",
+        "automation"
+      ]
+    },
+    {
       "name": "Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents",
       "description": "Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.",
       "documentation": {
-        "file": "docs/vendors/CrowdstrikeFalcon/crwd-status-sync.md",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/crwd-status-sync.md"
+        "file": "docs/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md"
       },
       "tags": [
         "status",
@@ -29,8 +43,7 @@
         "crowdstrike",
         "thehive",
         "automation"
-      ],
-      "difficulty": "intermediate"
+      ]
     }
   ],
   "registration_required": true,
