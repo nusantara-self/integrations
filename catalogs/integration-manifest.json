@@ -39,16 +39,6 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "CrowdstrikeFalcon_getDeviceAlerts22",
-          "version": "1.0",
-          "description": "Get Device alerts from Crowdstrike Falcon",
-          "dataTypes": [
-            "hostname"
-          ],
-          "file": "cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts copy.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts copy.json"
-        },
-        {
           "name": "CrowdstrikeFalcon_Sandbox_Win7",
           "version": "1.0",
           "description": "Send a file to CrowdstrikeFalcon Sandbox",
@@ -255,10 +245,10 @@
       ]
     },
     "stats": {
-      "totalAnalyzers": 11,
+      "totalAnalyzers": 10,
       "totalResponders": 9,
       "totalFunctions": 1,
-      "total": 21
+      "total": 20
     }
   },
   "Proofpoint": {
