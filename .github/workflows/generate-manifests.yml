@@ -15,7 +15,6 @@ on:
       - '.github/workflows/generate-manifests.yml'
   schedule:
     - cron: '0 2 * * *'      # Daily at 2 AM UTC
-    - cron: '0 2 * * 0'      # Weekly on Sunday at 2 AM UTC
   workflow_dispatch:          # Allow manual trigger
 
 # Prevent concurrent runs to avoid conflicts
@@ -60,12 +59,46 @@ jobs:
           echo "### Syncing from Cortex-Analyzers" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
+          # Initialize counters
+          total_added=0
+          total_updated=0
+          total_deleted=0
+          total_invalid=0
+
+          # Clean up local vendor directories not in tracked list or deleted from upstream
+          for type in analyzers responders; do
+            if [ -d "cortex/$type" ]; then
+              for local_vendor_dir in cortex/$type/*/; do
+                if [ -d "$local_vendor_dir" ]; then
+                  vendor=$(basename "$local_vendor_dir")
+                  # Check if vendor is in tracked list
+                  if [[ ! " ${VENDORS[@]} " =~ " ${vendor} " ]]; then
+                    rm -rf "$local_vendor_dir"
+                    echo "🗑️ Removed untracked vendor directory: $type/$vendor" >> $GITHUB_STEP_SUMMARY
+                    continue
+                  fi
+                  # Check if vendor still exists upstream
+                  if [ ! -d "upstream-cortex-analyzers/$type/$vendor" ]; then
+                    rm -rf "$local_vendor_dir"
+                    echo "🗑️ Removed vendor directory: $type/$vendor (deleted from upstream)" >> $GITHUB_STEP_SUMMARY
+                  fi
+                fi
+              done
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+
           for vendor in "${VENDORS[@]}"; do
             echo "Processing vendor: $vendor"
 
             # Sync analyzers
             if [ -d "upstream-cortex-analyzers/analyzers/$vendor" ]; then
               mkdir -p "cortex/analyzers/$vendor"
+
+              added=0
+              updated=0
+              deleted=0
 
               # Delete local JSON files that don't exist upstream
               if [ -d "cortex/analyzers/$vendor" ]; then
@@ -74,20 +107,57 @@ jobs:
                     filename=$(basename "$local_file")
                     if [ ! -f "upstream-cortex-analyzers/analyzers/$vendor/$filename" ]; then
                       rm "$local_file"
-                      echo "🗑️  Deleted analyzer $filename for $vendor (no longer in upstream)" >> $GITHUB_STEP_SUMMARY
+                      echo "  🗑️ Deleted: $filename" >> $GITHUB_STEP_SUMMARY
+                      ((deleted++))
+                      ((total_deleted++))
                     fi
                   fi
                 done
               fi
 
-              # Copy upstream files to local
-              cp upstream-cortex-analyzers/analyzers/$vendor/*.json cortex/analyzers/$vendor/ 2>/dev/null || true
-              echo "✅ Synced analyzers for $vendor" >> $GITHUB_STEP_SUMMARY
+              # Copy upstream files and track changes
+              for upstream_file in upstream-cortex-analyzers/analyzers/$vendor/*.json; do
+                if [ -f "$upstream_file" ]; then
+                  filename=$(basename "$upstream_file")
+                  local_file="cortex/analyzers/$vendor/$filename"
+
+                  if [ -f "$local_file" ]; then
+                    # File exists, check if it changed
+                    if ! cmp -s "$upstream_file" "$local_file"; then
+                      ((updated++))
+                      ((total_updated++))
+                    fi
+                  else
+                    # New file
+                    ((added++))
+                    ((total_added++))
+                  fi
+
+                  cp "$upstream_file" "$local_file"
+
+                  # Validate JSON
+                  if ! python -c "import json; json.load(open('$local_file'))" 2>/dev/null; then
+                    echo "  ⚠️ Invalid JSON: $filename" >> $GITHUB_STEP_SUMMARY
+                    ((total_invalid++))
+                  fi
+                fi
+              done
+
+              # Summary for this vendor's analyzers
+              if [ $added -gt 0 ] || [ $updated -gt 0 ] || [ $deleted -gt 0 ]; then
+                echo "**Analyzers - $vendor:** +$added ~$updated -$deleted" >> $GITHUB_STEP_SUMMARY
+              else
+                echo "**Analyzers - $vendor:** No changes" >> $GITHUB_STEP_SUMMARY
+              fi
             fi
 
             # Sync responders
             if [ -d "upstream-cortex-analyzers/responders/$vendor" ]; then
               mkdir -p "cortex/responders/$vendor"
+
+              added=0
+              updated=0
+              deleted=0
 
               # Delete local JSON files that don't exist upstream
               if [ -d "cortex/responders/$vendor" ]; then
@@ -96,18 +166,56 @@ jobs:
                     filename=$(basename "$local_file")
                     if [ ! -f "upstream-cortex-analyzers/responders/$vendor/$filename" ]; then
                       rm "$local_file"
-                      echo "🗑️  Deleted responder $filename for $vendor (no longer in upstream)" >> $GITHUB_STEP_SUMMARY
+                      echo "  🗑️ Deleted: $filename" >> $GITHUB_STEP_SUMMARY
+                      ((deleted++))
+                      ((total_deleted++))
                     fi
                   fi
                 done
               fi
 
-              # Copy upstream files to local
-              cp upstream-cortex-analyzers/responders/$vendor/*.json cortex/responders/$vendor/ 2>/dev/null || true
-              echo "✅ Synced responders for $vendor" >> $GITHUB_STEP_SUMMARY
+              # Copy upstream files and track changes
+              for upstream_file in upstream-cortex-analyzers/responders/$vendor/*.json; do
+                if [ -f "$upstream_file" ]; then
+                  filename=$(basename "$upstream_file")
+                  local_file="cortex/responders/$vendor/$filename"
+
+                  if [ -f "$local_file" ]; then
+                    # File exists, check if it changed
+                    if ! cmp -s "$upstream_file" "$local_file"; then
+                      ((updated++))
+                      ((total_updated++))
+                    fi
+                  else
+                    # New file
+                    ((added++))
+                    ((total_added++))
+                  fi
+
+                  cp "$upstream_file" "$local_file"
+
+                  # Validate JSON
+                  if ! python -c "import json; json.load(open('$local_file'))" 2>/dev/null; then
+                    echo "  ⚠️ Invalid JSON: $filename" >> $GITHUB_STEP_SUMMARY
+                    ((total_invalid++))
+                  fi
+                fi
+              done
+
+              # Summary for this vendor's responders
+              if [ $added -gt 0 ] || [ $updated -gt 0 ] || [ $deleted -gt 0 ]; then
+                echo "**Responders - $vendor:** +$added ~$updated -$deleted" >> $GITHUB_STEP_SUMMARY
+              else
+                echo "**Responders - $vendor:** No changes" >> $GITHUB_STEP_SUMMARY
+              fi
             fi
           done
 
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total:** $total_added added, $total_updated updated, $total_deleted deleted" >> $GITHUB_STEP_SUMMARY
+          if [ $total_invalid -gt 0 ]; then
+            echo "⚠️ **$total_invalid invalid JSON files detected**" >> $GITHUB_STEP_SUMMARY
+          fi
           echo "" >> $GITHUB_STEP_SUMMARY
 
       - name: Generate manifests
@@ -138,6 +246,7 @@ jobs:
 
           - Synced analyzer/responder configs from Cortex-Analyzers
           - Regenerated integration manifests"
+          git pull --rebase origin ${{ github.ref_name }}
           git push
 
       - name: Upload artifacts
