@@ -11,7 +11,8 @@ on:
       - '.upstream/cortex/**'
       - 'thehive/**'
       - 'docs/vendors/**'
-      - 'scripts/generate-manifest.py'
+      - 'schemas/**'
+      - 'scripts/**'
       - '.github/workflows/generate-manifests.yml'
   schedule:
     - cron: '0 2 * * *'      # Daily at 2 AM UTC
