@@ -51,7 +51,31 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml
+          pip install pyyaml jsonschema
+
+      - name: Validate vendor metadata
+        run: |
+          echo "### Vendor Metadata Validation" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Run validation and capture output
+          if python validate-vendor-metadata.py --strict 2>&1 | tee validation_output.txt; then
+            echo "✅ All vendor.yml files are valid" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Validation failed - check details below" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          fi
+
+          # Count missing vendor.yml files
+          missing_count=$(grep -c "⚠️" validation_output.txt || true)
+          if [ $missing_count -gt 0 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ **$missing_count vendor(s) missing vendor.yml** (will use empty defaults)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          rm -f validation_output.txt
+          echo "" >> $GITHUB_STEP_SUMMARY
+        continue-on-error: false
 
       - name: Checkout Cortex-Analyzers upstream
         uses: actions/checkout@v4
