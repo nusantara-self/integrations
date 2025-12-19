@@ -8,6 +8,24 @@ Proofpoint is an enterprise email security and threat protection platform that p
 **Homepage:** https://www.proofpoint.com  
 **Tags:** email-security
 
+## Use Cases (2)
+
+### Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
+Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked on malicious links that were not blocked by Proofpoint and may require investigation.
+
+**Tags:** proofpoint, tap, clicksPermitted, alert-ingestion
+📄 [Documentation](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/alert-ingestion-clicksPermitted.md)
+
+---
+
+### Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
+Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have reached user mailboxes and may require investigation.
+
+**Tags:** proofpoint, tap, messagesDelivered, alert-ingestion
+📄 [Documentation](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/alert-ingestion-messageDelivered.md)
+
+---
+
 ## Analyzers (1)
 
 ### Proofpoint_Lookup `v1.0`

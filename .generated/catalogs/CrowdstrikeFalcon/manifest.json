@@ -15,7 +15,23 @@
     "file": "integrations/vendors/CrowdstrikeFalcon/assets/logo.png",
     "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.png"
   },
-  "useCases": [],
+  "useCases": [
+    {
+      "name": "Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents",
+      "description": "Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.",
+      "documentation": {
+        "file": "integrations/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md"
+      },
+      "tags": [
+        "status",
+        "sync",
+        "crowdstrike",
+        "thehive",
+        "automation"
+      ]
+    }
+  ],
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,

@@ -14,6 +14,24 @@ Slack is a is a team collaboration platform that provides channels, direct messa
 - **Subscription Required:** No
 - **Free Subscription Available:** Yes
 
+## Use Cases (2)
+
+### Notify Slack When an Alert Is Created in TheHive
+For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
+
+**Tags:** slack, communication, notification
+📄 [Documentation](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/slack-notifier-alert-creation.md)
+
+---
+
+### Notify Slack When a Case Assignee Changes in TheHive
+For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here will inform only active users.
+
+**Tags:** slack, communication, notification
+📄 [Documentation](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/slack-case-assignee-change.md)
+
+---
+
 ## Responders (2)
 
 ### Slack_SyncChannel `v1.0`

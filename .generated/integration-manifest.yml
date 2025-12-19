@@ -902,7 +902,19 @@ CrowdstrikeFalcon:
   logo:
     file: integrations/vendors/CrowdstrikeFalcon/assets/logo.png
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.png
-  useCases: []
+  useCases:
+  - name: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
+    description: Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync
+      responder.
+    documentation:
+      file: integrations/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md
+    tags:
+    - status
+    - sync
+    - crowdstrike
+    - thehive
+    - automation
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -4866,7 +4878,29 @@ Proofpoint:
   logo:
     file: integrations/vendors/Proofpoint/assets/logo.png
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/assets/logo.png
-  useCases: []
+  useCases:
+  - name: Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
+    description: Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked
+      on malicious links that were not blocked by Proofpoint and may require investigation.
+    documentation:
+      file: integrations/vendors/Proofpoint/alert-ingestion-clicksPermitted.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/alert-ingestion-clicksPermitted.md
+    tags:
+    - proofpoint
+    - tap
+    - clicksPermitted
+    - alert-ingestion
+  - name: Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
+    description: Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have
+      reached user mailboxes and may require investigation.
+    documentation:
+      file: integrations/vendors/Proofpoint/alert-ingestion-messageDelivered.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/alert-ingestion-messageDelivered.md
+    tags:
+    - proofpoint
+    - tap
+    - messagesDelivered
+    - alert-ingestion
   integrations:
     analyzers:
     - name: Proofpoint_Lookup
@@ -5548,7 +5582,26 @@ Slack:
   logo:
     file: integrations/vendors/Slack/assets/logo.png
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/assets/logo.png
-  useCases: []
+  useCases:
+  - name: Notify Slack When an Alert Is Created in TheHive
+    description: For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
+    documentation:
+      file: integrations/vendors/Slack/slack-notifier-alert-creation.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/slack-notifier-alert-creation.md
+    tags:
+    - slack
+    - communication
+    - notification
+  - name: Notify Slack When a Case Assignee Changes in TheHive
+    description: For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here
+      will inform only active users.
+    documentation:
+      file: integrations/vendors/Slack/slack-case-assignee-change.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/slack-case-assignee-change.md
+    tags:
+    - slack
+    - communication
+    - notification
   registration_required: true
   subscription_required: false
   free_subscription: true
