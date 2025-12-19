@@ -14,6 +14,22 @@ Slack is a is a team collaboration platform that provides channels, direct messa
 - **Subscription Required:** No
 - **Free Subscription Available:** Yes
 
+## Responders (2)
+
+### Slack_SyncChannel `v1.0`
+Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.
+
+- **Data Types:** `thehive:case`
+- **Configuration:** [.upstream/cortex/responders/Slack/Slack_SyncChannel.json](.upstream/cortex/responders/Slack/Slack_SyncChannel.json)
+
+### Slack_CreateChannel `v1.0`
+Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and description.
+
+- **Data Types:** `thehive:case`
+- **Configuration:** [.upstream/cortex/responders/Slack/Slack_CreateChannel.json](.upstream/cortex/responders/Slack/Slack_CreateChannel.json)
+
+---
+
 ## Use Cases (2)
 
 ### Notify Slack When an Alert Is Created in TheHive
@@ -29,22 +45,6 @@ For each assignee change for a case in TheHive, create a Slack block message and
 
 **Tags:** slack, communication, notification
 📄 [Documentation](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/slack-case-assignee-change.md)
-
----
-
-## Responders (2)
-
-### Slack_SyncChannel `v1.0`
-Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.
-
-- **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Slack/Slack_SyncChannel.json](.upstream/cortex/responders/Slack/Slack_SyncChannel.json)
-
-### Slack_CreateChannel `v1.0`
-Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and description.
-
-- **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Slack/Slack_CreateChannel.json](.upstream/cortex/responders/Slack/Slack_CreateChannel.json)
 
 ---
 

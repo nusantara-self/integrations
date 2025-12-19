@@ -14,16 +14,6 @@ CrowdStrike Falcon is a cloud-native endpoint protection platform that provides 
 - **Subscription Required:** Yes
 - **Free Subscription Available:** No
 
-## Use Cases (1)
-
-### Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
-Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.
-
-**Tags:** status, sync, crowdstrike, thehive, automation
-📄 [Documentation](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md)
-
----
-
 ## Analyzers (10)
 
 ### CrowdstrikeFalcon_Sandbox_Win7 `v1.0`
@@ -154,6 +144,16 @@ Ingests CrowdstrikeFalcon Alerts, also processes observables & TTPs.
 - **Kind:** function
 - **Mode:** Enabled
 - **File:** [integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js](integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js)
+
+---
+
+## Use Cases (1)
+
+### Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
+Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.
+
+**Tags:** status, sync, crowdstrike, thehive, automation
+📄 [Documentation](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md)
 
 ---
 
