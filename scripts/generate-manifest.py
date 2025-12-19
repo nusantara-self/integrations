@@ -485,33 +485,6 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             lines.append(f"- **Free Subscription Available:** {value}")
         lines.append("")
 
-    # Use Cases
-    use_cases = manifest.get('useCases', [])
-    if use_cases:
-        lines.append(f"## Use Cases ({len(use_cases)})")
-        lines.append("")
-
-        for uc in use_cases:
-            lines.append(f"### {uc['name']}")
-            if uc.get('description'):
-                lines.append(uc['description'])
-            lines.append("")
-
-            # Optional metadata
-            if uc.get('difficulty'):
-                lines.append(f"**Difficulty:** {uc['difficulty'].title()}")
-            if uc.get('tags'):
-                tags_str = ', '.join(uc['tags'])
-                lines.append(f"**Tags:** {tags_str}")
-
-            # Documentation link
-            if uc.get('documentation', {}).get('url'):
-                lines.append(f"📄 [Documentation]({uc['documentation']['url']})")
-
-            lines.append("")
-            lines.append("---")
-            lines.append("")
-
     # Analyzers
     analyzers = manifest.get('integrations', {}).get('analyzers', [])
     if analyzers:
@@ -592,6 +565,31 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
         lines.append("---")
         lines.append("")
+
+    # Use Cases
+    use_cases = manifest.get('useCases', [])
+    if use_cases:
+        lines.append(f"## Use Cases ({len(use_cases)})")
+        lines.append("")
+
+        for uc in use_cases:
+            lines.append(f"### {uc['name']}")
+            if uc.get('description'):
+                lines.append(uc['description'])
+            lines.append("")
+
+            # Optional metadata
+            if uc.get('tags'):
+                tags_str = ', '.join(uc['tags'])
+                lines.append(f"**Tags:** {tags_str}")
+
+            # Documentation link
+            if uc.get('documentation', {}).get('url'):
+                lines.append(f"📄 [Documentation]({uc['documentation']['url']})")
+
+            lines.append("")
+            lines.append("---")
+            lines.append("")
 
     # Statistics
     stats = manifest.get('stats', {})
