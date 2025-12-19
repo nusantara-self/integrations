@@ -5,11 +5,26 @@ import json
 import yaml
 import re
 import shutil
+import subprocess
 from pathlib import Path
 from typing import Dict, List, Optional, Union
 
-# Configuration
-BASE_URL = "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main"
+def get_current_branch() -> str:
+    """Get the current git branch name."""
+    try:
+        result = subprocess.run(
+            ['git', 'branch', '--show-current'],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        return result.stdout.strip() or 'main'
+    except Exception:
+        return 'main'
+
+# Configuration - dynamically use current branch
+CURRENT_BRANCH = get_current_branch()
+BASE_URL = f"https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/{CURRENT_BRANCH}"
 
 def build_url(relative_path: str) -> str:
     """Build full URL from relative path."""
@@ -793,6 +808,7 @@ def main():
     vendors = find_vendors()
     all_manifests = {}
 
+    print(f"Using branch: {CURRENT_BRANCH}")
     print(f"Using base URL: {BASE_URL}\n")
 
     # Create .generated directory structure
