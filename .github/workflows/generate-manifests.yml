@@ -437,6 +437,28 @@ jobs:
 
           # Final summary
           echo "" >> $GITHUB_STEP_SUMMARY
+          # Clean up vendor directories that no longer exist upstream
+          echo "### Cleanup" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          for type in "analyzers" "responders"; do
+            if [ -d ".upstream/cortex/$type" ]; then
+              for local_vendor_dir in .upstream/cortex/$type/*/; do
+                if [ -d "$local_vendor_dir" ]; then
+                  vendor_name=$(basename "$local_vendor_dir")
+                  upstream_vendor_dir="upstream-cortex-analyzers/$type/$vendor_name"
+
+                  # If vendor doesn't exist upstream, delete it locally
+                  if [ ! -d "$upstream_vendor_dir" ]; then
+                    echo "🗑️ Deleting obsolete vendor: $type/$vendor_name" >> $GITHUB_STEP_SUMMARY
+                    rm -rf "$local_vendor_dir"
+                  fi
+                fi
+              done
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Summary" >> $GITHUB_STEP_SUMMARY
