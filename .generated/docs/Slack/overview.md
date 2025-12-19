@@ -1,5 +1,7 @@
 # Slack
 
+![Slack Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png)
+
 Slack is a is a team collaboration platform that provides channels, direct messaging, file sharing, and an app ecosystem for workflows and incident response.
 
 **Category:** Collaboration  
