@@ -13,7 +13,7 @@
   "homepage": "https://www.crowdstrike.com",
   "logo": {
     "file": "integrations/vendors/CrowdstrikeFalcon/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.png"
   },
   "useCases": [],
   "registration_required": true,
@@ -29,7 +29,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json"
       },
       {
         "name": "CrowdstrikeFalcon_Sandbox_Win7_64",
@@ -39,7 +39,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json"
       },
       {
         "name": "CrowdstrikeFalcon_getDeviceAlerts",
@@ -49,7 +49,7 @@
           "hostname"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json"
       },
       {
         "name": "CrowdstrikeFalcon_Sandbox_Android",
@@ -59,7 +59,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json"
       },
       {
         "name": "CrowdstrikeFalcon_Sandbox_MacOS",
@@ -69,7 +69,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json"
       },
       {
         "name": "CrowdstrikeFalcon_Sandbox_Win11",
@@ -79,7 +79,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json"
       },
       {
         "name": "CrowdstrikeFalcon_GetDeviceVulnerabilities",
@@ -89,7 +89,7 @@
           "hostname"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json"
       },
       {
         "name": "CrowdstrikeFalcon_Sandbox_Win10",
@@ -99,7 +99,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json"
       },
       {
         "name": "CrowdstrikeFalcon_getDeviceDetails",
@@ -109,7 +109,7 @@
           "hostname"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json"
       },
       {
         "name": "CrowdstrikeFalcon_Sandbox_Linux",
@@ -119,7 +119,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json"
       }
     ],
     "responders": [
@@ -131,7 +131,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json"
       },
       {
         "name": "CrowdStrikeFalcon_suppressDetections",
@@ -141,7 +141,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json"
       },
       {
         "name": "CrowdStrikeFalcon_HostContainment",
@@ -151,7 +151,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json"
       },
       {
         "name": "CrowdStrikeFalcon_hideHost",
@@ -161,7 +161,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json"
       },
       {
         "name": "CrowdStrikeFalcon_LiftContainmentHost",
@@ -171,7 +171,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json"
       },
       {
         "name": "CrowdStrikeFalcon_Sync",
@@ -182,7 +182,7 @@
           "thehive:alert"
         ],
         "file": ".upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json"
       },
       {
         "name": "CrowdStrikeFalcon_AddIOC",
@@ -192,7 +192,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json"
       },
       {
         "name": "CrowdStrikeFalcon_unsuppressDetections",
@@ -202,7 +202,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json"
       },
       {
         "name": "CrowdStrikeFalcon_RemoveIOC",
@@ -212,7 +212,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json"
       }
     ],
     "functions": [
@@ -223,7 +223,7 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js"
       }
     ]
   },

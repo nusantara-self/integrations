@@ -9,7 +9,7 @@
   "homepage": "https://www.proofpoint.com",
   "logo": {
     "file": "integrations/vendors/Proofpoint/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/assets/logo.png"
   },
   "useCases": [],
   "integrations": {
@@ -24,7 +24,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json"
       }
     ],
     "responders": [],
@@ -36,7 +36,7 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered"
       },
       {
         "name": "alertFeeder_ProofPoint_clicksPermitted",
@@ -45,7 +45,7 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted"
       }
     ]
   },
