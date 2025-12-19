@@ -402,6 +402,174 @@ def generate_vendor_manifest(vendor: str) -> Dict:
     
     return manifest
 
+def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
+    """Generate human-readable markdown overview from manifest."""
+    lines = []
+
+    # Header
+    lines.append(f"# {manifest['name']}")
+    lines.append("")
+
+    # Description
+    if manifest.get('description'):
+        lines.append(manifest['description'])
+        lines.append("")
+
+    # Metadata
+    if manifest.get('category'):
+        lines.append(f"**Category:** {manifest['category']}  ")
+    if manifest.get('homepage'):
+        lines.append(f"**Homepage:** {manifest['homepage']}  ")
+    if manifest.get('tags'):
+        tags_str = ', '.join(manifest['tags'])
+        lines.append(f"**Tags:** {tags_str}")
+    lines.append("")
+
+    # Subscription Information
+    subscription_fields = ['registration_required', 'subscription_required', 'free_subscription']
+    has_subscription_info = any(manifest.get(field) is not None for field in subscription_fields)
+
+    if has_subscription_info:
+        lines.append("## Subscription Information")
+        lines.append("")
+
+        if manifest.get('registration_required') is not None:
+            value = "Yes" if manifest['registration_required'] else "No"
+            lines.append(f"- **Registration Required:** {value}")
+        if manifest.get('subscription_required') is not None:
+            value = "Yes" if manifest['subscription_required'] else "No"
+            lines.append(f"- **Subscription Required:** {value}")
+        if manifest.get('free_subscription') is not None:
+            value = "Yes" if manifest['free_subscription'] else "No"
+            lines.append(f"- **Free Subscription Available:** {value}")
+        lines.append("")
+
+    # Use Cases
+    use_cases = manifest.get('useCases', [])
+    if use_cases:
+        lines.append(f"## Use Cases ({len(use_cases)})")
+        lines.append("")
+
+        for uc in use_cases:
+            lines.append(f"### {uc['name']}")
+            if uc.get('description'):
+                lines.append(uc['description'])
+            lines.append("")
+
+            # Optional metadata
+            if uc.get('difficulty'):
+                lines.append(f"**Difficulty:** {uc['difficulty'].title()}")
+            if uc.get('tags'):
+                tags_str = ', '.join(uc['tags'])
+                lines.append(f"**Tags:** {tags_str}")
+
+            # Documentation link
+            if uc.get('documentation', {}).get('url'):
+                lines.append(f"📄 [Documentation]({uc['documentation']['url']})")
+
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+
+    # Analyzers
+    analyzers = manifest.get('integrations', {}).get('analyzers', [])
+    if analyzers:
+        lines.append(f"## Analyzers ({len(analyzers)})")
+        lines.append("")
+
+        for analyzer in analyzers:
+            name = analyzer.get('name', 'Unknown')
+            version = analyzer.get('version', '')
+            lines.append(f"### {name} `v{version}`")
+
+            if analyzer.get('description'):
+                lines.append(analyzer['description'])
+                lines.append("")
+
+            if analyzer.get('dataTypes'):
+                data_types = ', '.join(f"`{dt}`" for dt in analyzer['dataTypes'])
+                lines.append(f"- **Data Types:** {data_types}")
+
+            if analyzer.get('file'):
+                lines.append(f"- **Configuration:** [{analyzer['file']}]({analyzer['file']})")
+
+            lines.append("")
+
+        lines.append("---")
+        lines.append("")
+
+    # Responders
+    responders = manifest.get('integrations', {}).get('responders', [])
+    if responders:
+        lines.append(f"## Responders ({len(responders)})")
+        lines.append("")
+
+        for responder in responders:
+            name = responder.get('name', 'Unknown')
+            version = responder.get('version', '')
+            lines.append(f"### {name} `v{version}`")
+
+            if responder.get('description'):
+                lines.append(responder['description'])
+                lines.append("")
+
+            if responder.get('dataTypes'):
+                data_types = ', '.join(f"`{dt}`" for dt in responder['dataTypes'])
+                lines.append(f"- **Data Types:** {data_types}")
+
+            if responder.get('file'):
+                lines.append(f"- **Configuration:** [{responder['file']}]({responder['file']})")
+
+            lines.append("")
+
+        lines.append("---")
+        lines.append("")
+
+    # Functions
+    functions = manifest.get('integrations', {}).get('functions', [])
+    if functions:
+        lines.append(f"## Functions ({len(functions)})")
+        lines.append("")
+
+        for func in functions:
+            name = func.get('name', 'Unknown')
+            version = func.get('version', '')
+            lines.append(f"### {name} `v{version}`")
+
+            if func.get('description'):
+                lines.append(func['description'])
+                lines.append("")
+
+            if func.get('kind'):
+                lines.append(f"- **Kind:** {func['kind']}")
+            if func.get('mode'):
+                lines.append(f"- **Mode:** {func['mode']}")
+            if func.get('file'):
+                lines.append(f"- **File:** [{func['file']}]({func['file']})")
+
+            lines.append("")
+
+        lines.append("---")
+        lines.append("")
+
+    # Statistics
+    stats = manifest.get('stats', {})
+    lines.append("## Statistics")
+    lines.append("")
+    lines.append(f"- **Total Analyzers:** {stats.get('totalAnalyzers', 0)}")
+    lines.append(f"- **Total Responders:** {stats.get('totalResponders', 0)}")
+    lines.append(f"- **Total Functions:** {stats.get('totalFunctions', 0)}")
+    lines.append(f"- **Total Integrations:** {stats.get('total', 0)}")
+    lines.append("")
+
+    # Footer
+    lines.append("---")
+    lines.append("")
+    lines.append("*This file is auto-generated from the integration manifest. Do not edit manually.*")
+    lines.append("")
+
+    return '\n'.join(lines)
+
 def main():
     """Main execution."""
     vendors = find_vendors()
@@ -409,15 +577,28 @@ def main():
 
     print(f"Using base URL: {BASE_URL}\n")
 
-    # Create .generated directory
-    catalogs_path = Path('.generated')
+    # Create .generated directory structure
+    generated_path = Path('.generated')
+    generated_path.mkdir(exist_ok=True)
+
+    catalogs_path = generated_path / 'catalogs'
     catalogs_path.mkdir(exist_ok=True)
 
-    # Clean up obsolete vendor manifests
+    docs_path = generated_path / 'docs'
+    docs_path.mkdir(exist_ok=True)
+
+    # Clean up obsolete vendor catalogs
     if catalogs_path.exists():
         for vendor_dir in catalogs_path.iterdir():
             if vendor_dir.is_dir() and vendor_dir.name not in vendors:
-                print(f"Cleaning up obsolete manifest: {vendor_dir.name}")
+                print(f"Cleaning up obsolete catalog: {vendor_dir.name}")
+                shutil.rmtree(vendor_dir)
+
+    # Clean up obsolete vendor docs
+    if docs_path.exists():
+        for vendor_dir in docs_path.iterdir():
+            if vendor_dir.is_dir() and vendor_dir.name not in vendors:
+                print(f"Cleaning up obsolete docs: {vendor_dir.name}")
                 shutil.rmtree(vendor_dir)
 
     for vendor in vendors:
@@ -444,13 +625,23 @@ def main():
             json.dump(manifest, f, indent=2, ensure_ascii=False)
         print(f"  → {manifest_json_path}")
 
-    # Write combined manifest (JSON and YAML) to .generated directory
-    output_path = catalogs_path / 'integration-manifest.json'
+        # Generate human-readable markdown overview
+        vendor_docs_path = docs_path / vendor
+        vendor_docs_path.mkdir(parents=True, exist_ok=True)
+
+        overview_content = generate_markdown_overview(vendor, manifest)
+        overview_path = vendor_docs_path / 'overview.md'
+        with open(overview_path, 'w', encoding='utf-8') as f:
+            f.write(overview_content)
+        print(f"  → {overview_path}")
+
+    # Write combined manifest (JSON and YAML) to .generated directory root
+    output_path = generated_path / 'integration-manifest.json'
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(all_manifests, f, indent=2, ensure_ascii=False)
     print(f"\nCombined manifest generated: {output_path}")
 
-    yaml_output_path = catalogs_path / 'integration-manifest.yml'
+    yaml_output_path = generated_path / 'integration-manifest.yml'
     with open(yaml_output_path, 'w', encoding='utf-8') as f:
         yaml.dump(all_manifests, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=120)
     print(f"Combined YAML manifest generated: {yaml_output_path}")
