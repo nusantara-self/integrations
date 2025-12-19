@@ -1,6 +1,6 @@
 # Proofpoint
 
-![Proofpoint Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/assets/logo.png)
+![Proofpoint Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/assets/logo.png)
 
 Proofpoint is an enterprise email security and threat protection platform that provides advanced threat detection, URL defense, and forensic analysis capabilities
 
