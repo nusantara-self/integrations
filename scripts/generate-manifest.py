@@ -410,6 +410,32 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     lines.append(f"# {manifest['name']}")
     lines.append("")
 
+    # Logo (if available)
+    logo = manifest.get('logo')
+    if logo:
+        # Check if it's light/dark mode or simple format
+        if isinstance(logo, dict):
+            if 'light' in logo and 'dark' in logo:
+                # Both light and dark logos - use picture element for theme support
+                lines.append("<picture>")
+                lines.append(f"  <source media=\"(prefers-color-scheme: dark)\" srcset=\"{logo['dark']['url']}\">")
+                lines.append(f"  <source media=\"(prefers-color-scheme: light)\" srcset=\"{logo['light']['url']}\">")
+                lines.append(f"  <img alt=\"{manifest['name']} Logo\" src=\"{logo['light']['url']}\" width=\"200\">")
+                lines.append("</picture>")
+                lines.append("")
+            elif 'light' in logo:
+                # Only light logo
+                lines.append(f"![{manifest['name']} Logo]({logo['light']['url']})")
+                lines.append("")
+            elif 'dark' in logo:
+                # Only dark logo
+                lines.append(f"![{manifest['name']} Logo]({logo['dark']['url']})")
+                lines.append("")
+            elif 'url' in logo:
+                # Simple format with url key
+                lines.append(f"![{manifest['name']} Logo]({logo['url']})")
+                lines.append("")
+
     # Description
     if manifest.get('description'):
         lines.append(manifest['description'])
