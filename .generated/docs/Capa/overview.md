@@ -1,5 +1,12 @@
-# Capa
+# CAPA
 
+![CAPA Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Capa/assets/logo.png)
+
+CAPA (FLARE Capability Analysis) is a malware analysis tool that automatically identifies malware capabilities and behaviors by detecting common techniques and functions, helping analysts quickly understand what malware can do during reverse engineering and incident response
+
+**Category:** Malware Analysis  
+**Homepage:** https://github.com/mandiant/capa  
+**Tags:** malware-analysis, capability-detection, reverse-engineering, behavior-analysis, incident-response
 
 ## Subscription Information
 

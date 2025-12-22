@@ -1,5 +1,12 @@
 # VirusTotal
 
+![VirusTotal Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/VirusTotal/assets/logo.png)
+
+VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus engines and security tools, enabling rapid file, URL, domain, and IP reputation checks during incident investigations
+
+**Category:** Malware Analysis  
+**Homepage:** https://www.virustotal.com  
+**Tags:** malware-analysis, threat-intelligence, file-analysis, url-analysis, multi-scanner, incident-response
 
 ## Subscription Information
 

@@ -4,11 +4,20 @@
 
 id: IPinfo
 name: IPinfo
-description: ''
-category: ''
-tags: []
-homepage: ''
-logo: {}
+description: IPinfo provides comprehensive IP address intelligence including geolocation, ASN ownership, company details,
+  and hosted domains, enabling analysts to quickly profile network infrastructure and identify suspicious connections
+category: OSINT & Enrichment
+tags:
+- ip-intelligence
+- geolocation
+- asn-lookup
+- network-intelligence
+- incident-response
+homepage: https://ipinfo.io
+logo:
+  file: integrations/vendors/IPinfo/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.png
 useCases: []
 integrations:
   analyzers:

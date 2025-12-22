@@ -780,12 +780,22 @@
   },
   "Capa": {
     "id": "Capa",
-    "name": "Capa",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "name": "CAPA",
+    "description": "CAPA (FLARE Capability Analysis) is a malware analysis tool that automatically identifies malware capabilities and behaviors by detecting common techniques and functions, helping analysts quickly understand what malware can do during reverse engineering and incident response",
+    "category": "Malware Analysis",
+    "tags": [
+      "malware-analysis",
+      "capability-detection",
+      "reverse-engineering",
+      "behavior-analysis",
+      "incident-response"
+    ],
+    "homepage": "https://github.com/mandiant/capa",
+    "logo": {
+      "file": "integrations/vendors/Capa/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Capa/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Capa/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": false,
     "subscription_required": false,
@@ -3963,11 +3973,21 @@
   "IPinfo": {
     "id": "IPinfo",
     "name": "IPinfo",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "IPinfo provides comprehensive IP address intelligence including geolocation, ASN ownership, company details, and hosted domains, enabling analysts to quickly profile network infrastructure and identify suspicious connections",
+    "category": "OSINT & Enrichment",
+    "tags": [
+      "ip-intelligence",
+      "geolocation",
+      "asn-lookup",
+      "network-intelligence",
+      "incident-response"
+    ],
+    "homepage": "https://ipinfo.io",
+    "logo": {
+      "file": "integrations/vendors/IPinfo/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.png"
+    },
     "useCases": [],
     "integrations": {
       "analyzers": [
@@ -4630,12 +4650,23 @@
   },
   "MSDefenderEndpoints": {
     "id": "MSDefenderEndpoints",
-    "name": "MSDefenderEndpoints",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "name": "Microsoft Defender for Endpoint",
+    "description": "Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, investigation, and automated response capabilities across Windows, macOS, Linux, iOS, and Android devices for comprehensive endpoint security",
+    "category": "EDR",
+    "tags": [
+      "edr",
+      "endpoint-protection",
+      "threat-detection",
+      "automated-response",
+      "incident-response",
+      "microsoft"
+    ],
+    "homepage": "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint",
+    "logo": {
+      "file": "integrations/vendors/MSDefenderEndpoints/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -4743,12 +4774,23 @@
   },
   "MSDefenderOffice365": {
     "id": "MSDefenderOffice365",
-    "name": "MSDefenderOffice365",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "name": "Microsoft Defender for Office 365",
+    "description": "Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting phishing, malware, and business email compromise attempts with automated investigation and response capabilities",
+    "category": "Email Security",
+    "tags": [
+      "email-security",
+      "phishing-protection",
+      "malware-detection",
+      "threat-protection",
+      "incident-response",
+      "microsoft"
+    ],
+    "homepage": "https://www.microsoft.com/security/business/threat-protection/office-365-defender",
+    "logo": {
+      "file": "integrations/vendors/MSDefenderOffice365/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -5202,11 +5244,21 @@
   "MaxMind": {
     "id": "MaxMind",
     "name": "MaxMind",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "MaxMind provides geolocation and network intelligence data that maps IP addresses to geographic locations, ISPs, and network types, enabling analysts to identify attack origins and detect anomalous access patterns during investigations",
+    "category": "OSINT & Enrichment",
+    "tags": [
+      "geolocation",
+      "ip-intelligence",
+      "network-intelligence",
+      "threat-detection",
+      "incident-response"
+    ],
+    "homepage": "https://www.maxmind.com",
+    "logo": {
+      "file": "integrations/vendors/MaxMind/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MaxMind/assets/logo.png"
+    },
     "useCases": [],
     "integrations": {
       "analyzers": [
@@ -7484,11 +7536,22 @@
   "Shuffle": {
     "id": "Shuffle",
     "name": "Shuffle",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "Shuffle is an open-source security orchestration, automation and response (SOAR) platform that automates repetitive security tasks, orchestrates incident response workflows, and integrates security tools to accelerate threat detection and remediation",
+    "category": "SOAR & Automation",
+    "tags": [
+      "soar",
+      "automation",
+      "orchestration",
+      "workflow",
+      "incident-response",
+      "security-automation"
+    ],
+    "homepage": "https://shuffler.io",
+    "logo": {
+      "file": "integrations/vendors/Shuffle/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Shuffle/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Shuffle/assets/logo.png"
+    },
     "useCases": [],
     "integrations": {
       "analyzers": [],
@@ -7816,11 +7879,22 @@
   "Splunk": {
     "id": "Splunk",
     "name": "Splunk",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across the enterprise, enabling real-time threat detection, security analytics, and incident investigation through powerful search and correlation capabilities",
+    "category": "SIEM & Analytics",
+    "tags": [
+      "siem",
+      "log-analysis",
+      "security-analytics",
+      "threat-detection",
+      "correlation",
+      "incident-response"
+    ],
+    "homepage": "https://www.splunk.com",
+    "logo": {
+      "file": "integrations/vendors/Splunk/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": false,
     "subscription_required": false,
@@ -8129,11 +8203,21 @@
   "Telegram": {
     "id": "Telegram",
     "name": "Telegram",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "Telegram is a cloud-based messaging platform that enables real-time security alerts, incident notifications, and team collaboration during security operations with bot-based automation and secure communication channels",
+    "category": "Collaboration",
+    "tags": [
+      "communication",
+      "notifications",
+      "alerts",
+      "team-collaboration",
+      "incident-response"
+    ],
+    "homepage": "https://telegram.org",
+    "logo": {
+      "file": "integrations/vendors/Telegram/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Telegram/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Telegram/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": false,
@@ -8937,11 +9021,22 @@
   "VirusTotal": {
     "id": "VirusTotal",
     "name": "VirusTotal",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus engines and security tools, enabling rapid file, URL, domain, and IP reputation checks during incident investigations",
+    "category": "Malware Analysis",
+    "tags": [
+      "malware-analysis",
+      "threat-intelligence",
+      "file-analysis",
+      "url-analysis",
+      "multi-scanner",
+      "incident-response"
+    ],
+    "homepage": "https://www.virustotal.com",
+    "logo": {
+      "file": "integrations/vendors/VirusTotal/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/VirusTotal/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/VirusTotal/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": [

@@ -32,14 +32,23 @@ Auto-generated catalog of TheHive and Cortex integrations.
 **[Slack](docs/Slack/overview.md)** (2 integrations)
   Slack is a is a team collaboration platform that provides channels, direct messaging, file sharin...
 
+**[Telegram](docs/Telegram/overview.md)** (1 integrations)
+  Telegram is a cloud-based messaging platform that enables real-time security alerts, incident not...
+
 
 ### EDR
 
 **[CrowdStrike Falcon](docs/CrowdstrikeFalcon/overview.md)** (20 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
 
+**[Microsoft Defender for Endpoint](docs/MSDefenderEndpoints/overview.md)** (8 integrations)
+  Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, inv...
+
 
 ### Email Security
+
+**[Microsoft Defender for Office 365](docs/MSDefenderOffice365/overview.md)** (2 integrations)
+  Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration...
 
 **[Proofpoint](docs/Proofpoint/overview.md)** (3 integrations)
   Proofpoint is an enterprise email security and threat protection platform that provides advanced ...
@@ -51,10 +60,37 @@ Auto-generated catalog of TheHive and Cortex integrations.
   Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access managem...
 
 
+### Malware Analysis
+
+**[CAPA](docs/Capa/overview.md)** (1 integrations)
+  CAPA (FLARE Capability Analysis) is a malware analysis tool that automatically identifies malware...
+
+**[VirusTotal](docs/VirusTotal/overview.md)** (4 integrations)
+  VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus en...
+
+
+### OSINT & Enrichment
+
+**[IPinfo](docs/IPinfo/overview.md)** (2 integrations)
+  IPinfo provides comprehensive IP address intelligence including geolocation, ASN ownership, compa...
+
+**[MaxMind](docs/MaxMind/overview.md)** (1 integrations)
+  MaxMind provides geolocation and network intelligence data that maps IP addresses to geographic l...
+
+
 ### SIEM & Analytics
 
 **[Elasticsearch](docs/Elasticsearch/overview.md)** (1 integrations)
   Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log ana...
+
+**[Splunk](docs/Splunk/overview.md)** (11 integrations)
+  Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
+
+
+### SOAR & Automation
+
+**[Shuffle](docs/Shuffle/overview.md)** (1 integrations)
+  Shuffle is an open-source security orchestration, automation and response (SOAR) platform that au...
 
 
 ### Threat Intelligence
@@ -96,13 +132,13 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[BackscatterIO](docs/BackscatterIO/overview.md)** - *Uncategorized* - 2 analyzers
 - **[BinalyzeAIR](docs/BinalyzeAIR/overview.md)** - *Uncategorized* - 2 responders
 - **[C1fApp](docs/C1fApp/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CAPA](docs/Capa/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[CERTatPassiveDNS](docs/CERTatPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCLHashlookup](docs/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCLPassiveDNS](docs/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCLPassiveSSL](docs/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCLVulnerabilityLookup](docs/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CISMCAP](docs/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Capa](docs/Capa/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Censys](docs/Censys/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ChainAbuse](docs/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CheckPhish](docs/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
@@ -165,7 +201,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[IBMXForce](docs/IBMXForce/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IP-API](docs/IP-API/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IPVoid](docs/IPVoid/overview.md)** - *Uncategorized* - 1 analyzers
-- **[IPinfo](docs/IPinfo/overview.md)** - *Uncategorized* - 2 analyzers
+- **[IPinfo](docs/IPinfo/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[IVRE](docs/IVRE/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Inoitsu](docs/Inoitsu/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IntezerCommunity](docs/IntezerCommunity/overview.md)** - *Uncategorized* - 1 analyzers
@@ -181,8 +217,6 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[LupovisProwl](docs/LupovisProwl/overview.md)** - *Uncategorized* - 1 analyzers
 - **[MISP](docs/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MISPWarningLists](docs/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
-- **[MSDefenderEndpoints](docs/MSDefenderEndpoints/overview.md)** - *Uncategorized* - 8 responders
-- **[MSDefenderOffice365](docs/MSDefenderOffice365/overview.md)** - *Uncategorized* - 2 responders
 - **[MailIncidentStatus](docs/MailIncidentStatus/overview.md)** - *Uncategorized* - 1 responders
 - **[Mailer](docs/Mailer/overview.md)** - *Uncategorized* - 1 responders
 - **[Malpedia](docs/Malpedia/overview.md)** - *Uncategorized* - 1 analyzers
@@ -190,8 +224,10 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[MalwareBazaar](docs/MalwareBazaar/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MalwareClustering](docs/MalwareClustering/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Malwares](docs/Malwares/overview.md)** - *Uncategorized* - 2 analyzers
-- **[MaxMind](docs/MaxMind/overview.md)** - *Uncategorized* - 1 analyzers
+- **[MaxMind](docs/MaxMind/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[MetaDefender](docs/MetaDefender/overview.md)** - *Uncategorized* - 5 analyzers
+- **[Microsoft Defender for Endpoint](docs/MSDefenderEndpoints/overview.md)** - *EDR* - 8 responders
+- **[Microsoft Defender for Office 365](docs/MSDefenderOffice365/overview.md)** - *Email Security* - 2 responders
 - **[Microsoft Entra ID](docs/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
 - **[Minemeld](docs/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MnemonicPDNS](docs/MnemonicPDNS/overview.md)** - *Uncategorized* - 2 analyzers
@@ -227,20 +263,20 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[SendGrid](docs/SendGrid/overview.md)** - *Uncategorized* - 1 responders
 - **[SentinelOne](docs/SentinelOne/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Shodan](docs/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers
-- **[Shuffle](docs/Shuffle/overview.md)** - *Uncategorized* - 1 responders
+- **[Shuffle](docs/Shuffle/overview.md)** - *SOAR & Automation* - 1 responders
 - **[SinkDB](docs/SinkDB/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Slack](docs/Slack/overview.md)** - *Collaboration* - 2 responders
 - **[SoltraEdge](docs/SoltraEdge/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SophosIntelix](docs/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](docs/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SpamhausDBL](docs/SpamhausDBL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Splunk](docs/Splunk/overview.md)** - *Uncategorized* - 11 analyzers
+- **[Splunk](docs/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers
 - **[StamusNetworks](docs/StamusNetworks/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StaxxSearch](docs/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StopForumSpam](docs/StopForumSpam/overview.md)** - *Uncategorized* - 1 analyzers
 - **[TalosReputation](docs/TalosReputation/overview.md)** - *Uncategorized* - No integrations
 - **[TeamCymruMHR](docs/TeamCymruMHR/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Telegram](docs/Telegram/overview.md)** - *Uncategorized* - 1 responders
+- **[Telegram](docs/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](docs/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[TestAnalyzer](docs/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
 - **[ThreatGrid](docs/ThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
@@ -261,7 +297,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[ValidateObservable](docs/ValidateObservable/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Velociraptor](docs/Velociraptor/overview.md)** - *Uncategorized* - 1 responders
 - **[Verifalia](docs/Verifalia/overview.md)** - *Uncategorized* - 1 analyzers
-- **[VirusTotal](docs/VirusTotal/overview.md)** - *Uncategorized* - 4 analyzers
+- **[VirusTotal](docs/VirusTotal/overview.md)** - *Malware Analysis* - 4 analyzers
 - **[Virusshare](docs/Virusshare/overview.md)** - *Uncategorized* - 1 analyzers
 - **[VirustotalDownloader](docs/VirustotalDownloader/overview.md)** - *Uncategorized* - 1 responders
 - **[Vulners](docs/Vulners/overview.md)** - *Uncategorized* - 2 analyzers

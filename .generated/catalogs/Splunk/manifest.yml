@@ -4,11 +4,22 @@
 
 id: Splunk
 name: Splunk
-description: ''
-category: ''
-tags: []
-homepage: ''
-logo: {}
+description: Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across the enterprise,
+  enabling real-time threat detection, security analytics, and incident investigation through powerful search and correlation
+  capabilities
+category: SIEM & Analytics
+tags:
+- siem
+- log-analysis
+- security-analytics
+- threat-detection
+- correlation
+- incident-response
+homepage: https://www.splunk.com
+logo:
+  file: integrations/vendors/Splunk/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/assets/logo.png
 useCases: []
 registration_required: false
 subscription_required: false

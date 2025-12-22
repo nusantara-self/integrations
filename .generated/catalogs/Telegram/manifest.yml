@@ -4,11 +4,20 @@
 
 id: Telegram
 name: Telegram
-description: ''
-category: ''
-tags: []
-homepage: ''
-logo: {}
+description: Telegram is a cloud-based messaging platform that enables real-time security alerts, incident notifications,
+  and team collaboration during security operations with bot-based automation and secure communication channels
+category: Collaboration
+tags:
+- communication
+- notifications
+- alerts
+- team-collaboration
+- incident-response
+homepage: https://telegram.org
+logo:
+  file: integrations/vendors/Telegram/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Telegram/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Telegram/assets/logo.png
 useCases: []
 registration_required: true
 subscription_required: false

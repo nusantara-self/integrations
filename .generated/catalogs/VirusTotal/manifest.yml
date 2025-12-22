@@ -4,11 +4,21 @@
 
 id: VirusTotal
 name: VirusTotal
-description: ''
-category: ''
-tags: []
-homepage: ''
-logo: {}
+description: VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus engines and security
+  tools, enabling rapid file, URL, domain, and IP reputation checks during incident investigations
+category: Malware Analysis
+tags:
+- malware-analysis
+- threat-intelligence
+- file-analysis
+- url-analysis
+- multi-scanner
+- incident-response
+homepage: https://www.virustotal.com
+logo:
+  file: integrations/vendors/VirusTotal/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/VirusTotal/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/VirusTotal/assets/logo.png
 useCases: []
 registration_required: true
 subscription_required:

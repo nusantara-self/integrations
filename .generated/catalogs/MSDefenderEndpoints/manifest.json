@@ -1,11 +1,22 @@
 {
   "id": "MSDefenderEndpoints",
-  "name": "MSDefenderEndpoints",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
-  "logo": {},
+  "name": "Microsoft Defender for Endpoint",
+  "description": "Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, investigation, and automated response capabilities across Windows, macOS, Linux, iOS, and Android devices for comprehensive endpoint security",
+  "category": "EDR",
+  "tags": [
+    "edr",
+    "endpoint-protection",
+    "threat-detection",
+    "automated-response",
+    "incident-response",
+    "microsoft"
+  ],
+  "homepage": "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint",
+  "logo": {
+    "file": "integrations/vendors/MSDefenderEndpoints/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png"
+  },
   "useCases": [],
   "registration_required": true,
   "subscription_required": true,

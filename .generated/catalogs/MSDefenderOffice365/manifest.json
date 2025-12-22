@@ -1,11 +1,22 @@
 {
   "id": "MSDefenderOffice365",
-  "name": "MSDefenderOffice365",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
-  "logo": {},
+  "name": "Microsoft Defender for Office 365",
+  "description": "Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting phishing, malware, and business email compromise attempts with automated investigation and response capabilities",
+  "category": "Email Security",
+  "tags": [
+    "email-security",
+    "phishing-protection",
+    "malware-detection",
+    "threat-protection",
+    "incident-response",
+    "microsoft"
+  ],
+  "homepage": "https://www.microsoft.com/security/business/threat-protection/office-365-defender",
+  "logo": {
+    "file": "integrations/vendors/MSDefenderOffice365/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png"
+  },
   "useCases": [],
   "registration_required": true,
   "subscription_required": true,

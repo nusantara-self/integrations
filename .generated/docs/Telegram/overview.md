@@ -1,5 +1,12 @@
 # Telegram
 
+![Telegram Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Telegram/assets/logo.png)
+
+Telegram is a cloud-based messaging platform that enables real-time security alerts, incident notifications, and team collaboration during security operations with bot-based automation and secure communication channels
+
+**Category:** Collaboration  
+**Homepage:** https://telegram.org  
+**Tags:** communication, notifications, alerts, team-collaboration, incident-response
 
 ## Subscription Information
 
