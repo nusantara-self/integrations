@@ -1,6 +1,6 @@
 # Microsoft Defender for Office 365
 
-![Microsoft Defender for Office 365 Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png)
+![Microsoft Defender for Office 365 Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.svg)
 
 Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting phishing, malware, and business email compromise attempts with automated investigation and response capabilities
 

@@ -15,9 +15,9 @@ tags:
 - incident-response
 homepage: https://telegram.org
 logo:
-  file: integrations/vendors/Telegram/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Telegram/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Telegram/assets/logo.png
+  file: integrations/vendors/Telegram/assets/logo.svg
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Telegram/assets/logo.svg
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Telegram/assets/logo.svg
 useCases: []
 registration_required: true
 subscription_required: false

@@ -12,9 +12,9 @@
   ],
   "homepage": "https://www.abuseipdb.com",
   "logo": {
-    "file": "integrations/vendors/AbuseIPDB/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.png"
+    "file": "integrations/vendors/AbuseIPDB/assets/logo.svg",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.svg",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.svg"
   },
   "useCases": [],
   "registration_required": true,

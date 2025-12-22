@@ -16,9 +16,9 @@ tags:
 - microsoft
 homepage: https://www.microsoft.com/security/business/threat-protection/office-365-defender
 logo:
-  file: integrations/vendors/MSDefenderOffice365/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
+  file: integrations/vendors/MSDefenderOffice365/assets/logo.svg
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.svg
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.svg
 useCases: []
 registration_required: true
 subscription_required: true

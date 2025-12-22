@@ -204,9 +204,9 @@
     ],
     "homepage": "https://www.abuseipdb.com",
     "logo": {
-      "file": "integrations/vendors/AbuseIPDB/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.png"
+      "file": "integrations/vendors/AbuseIPDB/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.svg"
     },
     "useCases": [],
     "registration_required": true,
@@ -791,11 +791,7 @@
       "incident-response"
     ],
     "homepage": "https://github.com/mandiant/capa",
-    "logo": {
-      "file": "integrations/vendors/Capa/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Capa/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Capa/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "registration_required": false,
     "subscription_required": false,
@@ -2436,11 +2432,7 @@
       "incident-response"
     ],
     "homepage": "https://www.elastic.co",
-    "logo": {
-      "file": "integrations/vendors/Elasticsearch/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Elasticsearch/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Elasticsearch/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "integrations": {
       "analyzers": [
@@ -3159,9 +3151,9 @@
     ],
     "homepage": "https://threatlabs.google.com",
     "logo": {
-      "file": "integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png"
+      "file": "integrations/vendors/GoogleThreatIntelligence/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.svg"
     },
     "useCases": [],
     "registration_required": true,
@@ -3325,11 +3317,7 @@
       "incident-response"
     ],
     "homepage": "https://haveibeenpwned.com",
-    "logo": {
-      "file": "integrations/vendors/HIBP/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HIBP/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HIBP/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "integrations": {
       "analyzers": [
@@ -3984,9 +3972,9 @@
     ],
     "homepage": "https://ipinfo.io",
     "logo": {
-      "file": "integrations/vendors/IPinfo/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.png"
+      "file": "integrations/vendors/IPinfo/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.svg"
     },
     "useCases": [],
     "integrations": {
@@ -4663,9 +4651,9 @@
     ],
     "homepage": "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint",
     "logo": {
-      "file": "integrations/vendors/MSDefenderEndpoints/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png"
+      "file": "integrations/vendors/MSDefenderEndpoints/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.svg"
     },
     "useCases": [],
     "registration_required": true,
@@ -4787,9 +4775,9 @@
     ],
     "homepage": "https://www.microsoft.com/security/business/threat-protection/office-365-defender",
     "logo": {
-      "file": "integrations/vendors/MSDefenderOffice365/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png"
+      "file": "integrations/vendors/MSDefenderOffice365/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.svg"
     },
     "useCases": [],
     "registration_required": true,
@@ -4846,9 +4834,9 @@
     ],
     "homepage": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id",
     "logo": {
-      "file": "integrations/vendors/MSEntraID/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.png"
+      "file": "integrations/vendors/MSEntraID/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.svg"
     },
     "useCases": [],
     "registration_required": true,
@@ -5121,11 +5109,7 @@
       "incident-response"
     ],
     "homepage": "https://bazaar.abuse.ch",
-    "logo": {
-      "file": "integrations/vendors/MalwareBazaar/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MalwareBazaar/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MalwareBazaar/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -5254,11 +5238,7 @@
       "incident-response"
     ],
     "homepage": "https://www.maxmind.com",
-    "logo": {
-      "file": "integrations/vendors/MaxMind/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MaxMind/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "integrations": {
       "analyzers": [
@@ -5669,11 +5649,7 @@
       "incident-response"
     ],
     "homepage": "https://otx.alienvault.com",
-    "logo": {
-      "file": "integrations/vendors/OTXQuery/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/OTXQuery/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/OTXQuery/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -5755,11 +5731,7 @@
       "incident-response"
     ],
     "homepage": "https://www.onyphe.io",
-    "logo": {
-      "file": "integrations/vendors/Onyphe/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Onyphe/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Onyphe/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -6872,11 +6844,7 @@
       "incident-response"
     ],
     "homepage": "https://www.recordedfuture.com",
-    "logo": {
-      "file": "integrations/vendors/RecordedFuture/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/RecordedFuture/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/RecordedFuture/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -7547,11 +7515,7 @@
       "security-automation"
     ],
     "homepage": "https://shuffler.io",
-    "logo": {
-      "file": "integrations/vendors/Shuffle/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Shuffle/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Shuffle/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "integrations": {
       "analyzers": [],
@@ -7890,11 +7854,7 @@
       "incident-response"
     ],
     "homepage": "https://www.splunk.com",
-    "logo": {
-      "file": "integrations/vendors/Splunk/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "registration_required": false,
     "subscription_required": false,
@@ -8214,9 +8174,9 @@
     ],
     "homepage": "https://telegram.org",
     "logo": {
-      "file": "integrations/vendors/Telegram/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Telegram/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Telegram/assets/logo.png"
+      "file": "integrations/vendors/Telegram/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Telegram/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Telegram/assets/logo.svg"
     },
     "useCases": [],
     "registration_required": true,
@@ -8650,11 +8610,7 @@
       "incident-response"
     ],
     "homepage": "https://urlhaus.abuse.ch",
-    "logo": {
-      "file": "integrations/vendors/URLhaus/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/URLhaus/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/URLhaus/assets/logo.png"
-    },
+    "logo": {},
     "useCases": [],
     "registration_required": true,
     "subscription_required": false,
@@ -9033,9 +8989,9 @@
     ],
     "homepage": "https://www.virustotal.com",
     "logo": {
-      "file": "integrations/vendors/VirusTotal/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/VirusTotal/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/VirusTotal/assets/logo.png"
+      "file": "integrations/vendors/VirusTotal/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/VirusTotal/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/VirusTotal/assets/logo.svg"
     },
     "useCases": [],
     "registration_required": true,

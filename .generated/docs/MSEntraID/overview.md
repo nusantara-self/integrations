@@ -1,6 +1,6 @@
 # Microsoft Entra ID
 
-![Microsoft Entra ID Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.png)
+![Microsoft Entra ID Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.svg)
 
 Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access management platform that provides user authentication data, sign-in logs, and security insights to investigate account compromises, suspicious access patterns, and identity-based attacks
 
