@@ -7,7 +7,7 @@
 Fetch observable details from a YETI instance.
 
 - **Data Types:** `domain`, `fqdn`, `ip`, `url`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Yeti/Yeti.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Yeti/Yeti.json)
+- **Configuration:** [.upstream/cortex/analyzers/Yeti/Yeti.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Yeti/Yeti.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Yeti/Yeti.json))
 
 ---
 

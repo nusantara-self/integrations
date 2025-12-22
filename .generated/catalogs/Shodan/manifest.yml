@@ -20,6 +20,7 @@ integrations:
     - fqdn
     file: .upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
   - name: Shodan_InfoDomain
     version: '1.0'
     description: Retrieve key Shodan information on a domain.
@@ -28,6 +29,7 @@ integrations:
     - fqdn
     file: .upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
   - name: Shodan_Host_History
     version: '1.0'
     description: Retrieve Shodan history scan results  for an IP address.
@@ -35,6 +37,7 @@ integrations:
     - ip
     file: .upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
   - name: Shodan_Search
     version: '2.0'
     description: Search query on Shodan
@@ -42,6 +45,7 @@ integrations:
     - other
     file: .upstream/cortex/analyzers/Shodan/Shodan_Search.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
   - name: Shodan_Host
     version: '1.0'
     description: Retrieve key Shodan information on an IP address.
@@ -49,6 +53,7 @@ integrations:
     - ip
     file: .upstream/cortex/analyzers/Shodan/Shodan_Host.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host.json
   - name: Shodan_ReverseDNS
     version: '1.0'
     description: Retrieve ip reverse DNS resolutions on Shodan.
@@ -56,6 +61,7 @@ integrations:
     - ip
     file: .upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
   responders: []
   functions: []
 stats:

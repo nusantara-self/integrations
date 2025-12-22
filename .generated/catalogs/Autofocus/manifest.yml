@@ -19,6 +19,7 @@ integrations:
     - hash
     file: .upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
   - name: Autofocus_SearchJSON
     version: '1.0'
     description: Search samples in Autofocus with a full search query in JSON
@@ -26,6 +27,7 @@ integrations:
     - other
     file: .upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
   - name: Autofocus_SearchIOC
     version: '1.0'
     description: Search samples in Autofocus based on a single IOC
@@ -40,6 +42,7 @@ integrations:
     - url
     file: .upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
   responders: []
   functions: []
 stats:

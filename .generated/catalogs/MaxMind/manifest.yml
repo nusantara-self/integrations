@@ -19,6 +19,7 @@ integrations:
     - ip
     file: .upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json
   responders: []
   functions: []
 stats:

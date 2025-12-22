@@ -7,7 +7,7 @@
 Perform domain lookup to Spamhaus DBL
 
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json)
+- **Configuration:** [.upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json))
 
 ---
 

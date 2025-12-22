@@ -13,7 +13,7 @@
 Get the latest Maltiverse report for an hash, domain or an IP address.
 
 - **Data Types:** `hash`, `domain`, `ip`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json)
+- **Configuration:** [.upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json))
 
 ---
 

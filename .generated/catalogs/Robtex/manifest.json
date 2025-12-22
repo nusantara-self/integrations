@@ -17,7 +17,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json"
       },
       {
         "name": "Robtex_Forward_PDNS_Query",
@@ -28,7 +29,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json"
       },
       {
         "name": "Robtex_IP_Query",
@@ -38,7 +40,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json"
       }
     ],
     "responders": [],

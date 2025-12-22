@@ -7,7 +7,7 @@
 WHOIS queries from threatminer.org
 
 - **Data Types:** `ip`, `domain`
-- **Configuration:** [.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json)
+- **Configuration:** [.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json))
 
 ---
 

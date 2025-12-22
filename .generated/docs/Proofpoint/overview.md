@@ -14,7 +14,7 @@ Proofpoint is an enterprise email security and threat protection platform that p
 Check URL, file, SHA256 against Proofpoint forensics
 
 - **Data Types:** `url`, `file`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json)
+- **Configuration:** [.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json))
 
 ---
 
@@ -25,14 +25,14 @@ Ingests ProofPoint messageDelivered alerts in TheHive
 
 - **Kind:** function
 - **Mode:** Enabled
-- **File:** [integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered)
+- **File:** [integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered))
 
 ### alertFeeder_ProofPoint_clicksPermitted `v1.0.0`
 Ingests ProofPoint clicksPermitted alerts in TheHive
 
 - **Kind:** function
 - **Mode:** Enabled
-- **File:** [integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted)
+- **File:** [integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted))
 
 ---
 
@@ -42,7 +42,7 @@ Ingests ProofPoint clicksPermitted alerts in TheHive
 Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked on malicious links that were not blocked by Proofpoint and may require investigation.
 
 **Tags:** proofpoint, tap, clicksPermitted, alert-ingestion
-📄 [Documentation](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/alert-ingestion-clicksPermitted.md)
+📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/alert-ingestion-clicksPermitted.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/alert-ingestion-clicksPermitted.md))
 
 ---
 
@@ -50,7 +50,7 @@ Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and resp
 Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have reached user mailboxes and may require investigation.
 
 **Tags:** proofpoint, tap, messagesDelivered, alert-ingestion
-📄 [Documentation](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/alert-ingestion-messageDelivered.md)
+📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/alert-ingestion-messageDelivered.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/alert-ingestion-messageDelivered.md))
 
 ---
 

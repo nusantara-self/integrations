@@ -18,7 +18,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json"
       },
       {
         "name": "AMPforEndpoints_IsolationStart",
@@ -28,7 +29,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json"
       },
       {
         "name": "AMPforEndpoints_MoveGUID",
@@ -38,7 +40,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json"
       },
       {
         "name": "AMPforEndpoints_IsolationStop",
@@ -48,7 +51,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json"
       },
       {
         "name": "AMPforEndpoints_SCDRemove",
@@ -58,7 +62,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json"
       }
     ],
     "functions": []

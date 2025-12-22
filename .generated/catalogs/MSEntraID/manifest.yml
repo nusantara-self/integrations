@@ -22,6 +22,7 @@ integrations:
     - mail
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
   - name: MSEntraID_GetUserInfo
     version: '1.0'
     description: Get information about the user from Microsoft Entra ID, using the mail
@@ -29,6 +30,7 @@ integrations:
     - mail
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
   - name: MSEntraID_GetSignIns
     version: '1.0'
     description: Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
@@ -36,6 +38,7 @@ integrations:
     - mail
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
   - name: MSEntraID_GetManagedDevicesInfo
     version: '1.0'
     description: Get Microsoft Intune Managed Device(s) Details from hostname or mail
@@ -44,6 +47,7 @@ integrations:
     - hostname
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
   responders:
   - name: MSEntraID_enableUser
     version: '1.0'
@@ -52,6 +56,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
   - name: MSEntraID_revokeSignInSessions
     version: '1.1'
     description: Invalidates all the refresh tokens issued to applications for a Microsoft Entra ID user (as well as session
@@ -60,6 +65,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
   - name: MSEntraID_disableUser
     version: '1.0'
     description: Disable user in Microsoft Entra ID for a User Principal Name. (mail)
@@ -67,6 +73,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
   - name: MSEntraID_ForcePasswordResetWithMFA
     version: '1.0'
     description: Force password reset at next login with MFA verification before password change for a User Principal Name.
@@ -75,6 +82,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
   - name: MSEntraID_ForcePasswordReset
     version: '1.0'
     description: Force password reset at next login for a User Principal Name. (mail)
@@ -82,6 +90,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
   functions: []
 stats:
   totalAnalyzers: 4

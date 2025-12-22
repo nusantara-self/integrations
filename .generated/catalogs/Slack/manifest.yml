@@ -16,12 +16,14 @@ homepage: https://slack.com
 logo:
   file: integrations/vendors/Slack/assets/logo.png
   url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Slack/assets/logo.png
 useCases:
 - name: Notify Slack When an Alert Is Created in TheHive
   description: For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
   documentation:
     file: integrations/vendors/Slack/slack-notifier-alert-creation.md
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/slack-notifier-alert-creation.md
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Slack/slack-notifier-alert-creation.md
   tags:
   - slack
   - communication
@@ -32,6 +34,7 @@ useCases:
   documentation:
     file: integrations/vendors/Slack/slack-case-assignee-change.md
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/slack-case-assignee-change.md
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Slack/slack-case-assignee-change.md
   tags:
   - slack
   - communication
@@ -50,6 +53,7 @@ integrations:
     - thehive:case
     file: .upstream/cortex/responders/Slack/Slack_SyncChannel.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
   - name: Slack_CreateChannel
     version: '1.0'
     description: Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and
@@ -58,6 +62,7 @@ integrations:
     - thehive:case
     file: .upstream/cortex/responders/Slack/Slack_CreateChannel.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_CreateChannel.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Slack/Slack_CreateChannel.json
   functions: []
 stats:
   totalAnalyzers: 0

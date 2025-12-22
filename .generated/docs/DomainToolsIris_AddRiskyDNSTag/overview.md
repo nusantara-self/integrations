@@ -7,7 +7,7 @@
 Add Tag saying that the case contains a risky DNS.
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json)
+- **Configuration:** [.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json))
 
 ---
 

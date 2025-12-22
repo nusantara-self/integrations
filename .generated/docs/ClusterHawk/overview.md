@@ -13,7 +13,7 @@
 ClusterHawk prediction analyzer for IP address threat intelligence using pre-trained models
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json)
+- **Configuration:** [.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json))
 
 ---
 

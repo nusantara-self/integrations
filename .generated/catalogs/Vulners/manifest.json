@@ -22,7 +22,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Vulners/Vulners_IOC.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json"
       },
       {
         "name": "Vulners_CVE",
@@ -32,7 +33,8 @@
           "cve"
         ],
         "file": ".upstream/cortex/analyzers/Vulners/Vulners_CVE.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json"
       }
     ],
     "responders": [],

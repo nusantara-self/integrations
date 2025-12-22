@@ -7,7 +7,7 @@
 Query the Umbrella Reporting API for recent DNS queries and their status.
 
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Umbrella/Umbrella_Report.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Umbrella/Umbrella_Report.json)
+- **Configuration:** [.upstream/cortex/analyzers/Umbrella/Umbrella_Report.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Umbrella/Umbrella_Report.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Umbrella/Umbrella_Report.json))
 
 ---
 

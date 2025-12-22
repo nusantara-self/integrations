@@ -7,7 +7,7 @@
 Query domains, IPs, hashes and URLs against IBM X-Force threat intelligence sharing platform.
 
 - **Data Types:** `domain`, `ip`, `hash`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json)
+- **Configuration:** [.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json))
 
 ---
 

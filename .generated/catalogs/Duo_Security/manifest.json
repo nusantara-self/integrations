@@ -18,7 +18,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json"
       },
       {
         "name": "DuoBypassUserAccount",
@@ -28,7 +29,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json"
       },
       {
         "name": "DuoLockUserAccount",
@@ -38,7 +40,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json"
       }
     ],
     "functions": []

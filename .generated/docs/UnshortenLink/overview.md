@@ -7,7 +7,7 @@
 Use UnshortenLink to reveal the real URL.
 
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json)
+- **Configuration:** [.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json))
 
 ---
 

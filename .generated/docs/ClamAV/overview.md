@@ -7,7 +7,7 @@
 Use Clamscan with custom rules
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json)
+- **Configuration:** [.upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json))
 
 ---
 

@@ -13,7 +13,7 @@
 Determine whether an IP has known scanning activity using GreyNoise.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/GreyNoise/GreyNoise.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GreyNoise/GreyNoise.json)
+- **Configuration:** [.upstream/cortex/analyzers/GreyNoise/GreyNoise.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GreyNoise/GreyNoise.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GreyNoise/GreyNoise.json))
 
 ---
 

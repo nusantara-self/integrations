@@ -13,13 +13,13 @@
 Use DomainTools Iris API to pivot on ssl_hash, ip, or email.
 
 - **Data Types:** `hash`, `ip`, `mail`
-- **Configuration:** [.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json)
+- **Configuration:** [.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json))
 
 ### DomainToolsIris_Investigate `v1.0`
 Use DomainTools Iris API to investigate a domain.
 
 - **Data Types:** `domain`
-- **Configuration:** [.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json)
+- **Configuration:** [.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json))
 
 ---
 

@@ -7,7 +7,7 @@
 Query haveibeenpwned.com for a compromised email address
 
 - **Data Types:** `mail`
-- **Configuration:** [.upstream/cortex/analyzers/HIBP/HIBP_Query.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/HIBP/HIBP_Query.json)
+- **Configuration:** [.upstream/cortex/analyzers/HIBP/HIBP_Query.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/HIBP/HIBP_Query.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/HIBP/HIBP_Query.json))
 
 ---
 

@@ -7,7 +7,7 @@
 Closing the QRadar Offense associated to your case in one clic !
 
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json)
+- **Configuration:** [.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json))
 
 ---
 

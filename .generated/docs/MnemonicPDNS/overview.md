@@ -7,13 +7,13 @@
 Query IP addresses and domains against Mnemonic pDNS restricted service.
 
 - **Data Types:** `ip`, `domain`
-- **Configuration:** [.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json)
+- **Configuration:** [.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json))
 
 ### Mnemonic_pDNS_Public `v3.0`
 Query IP addresses and domains against Mnemonic pDNS public service.
 
 - **Data Types:** `ip`, `domain`
-- **Configuration:** [.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json)
+- **Configuration:** [.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json))
 
 ---
 

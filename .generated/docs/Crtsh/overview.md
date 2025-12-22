@@ -13,7 +13,7 @@
 Query domains against the certificate transparency lists available at crt.sh.
 
 - **Data Types:** `domain`
-- **Configuration:** [.upstream/cortex/analyzers/Crtsh/Crtsh.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Crtsh/Crtsh.json)
+- **Configuration:** [.upstream/cortex/analyzers/Crtsh/Crtsh.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Crtsh/Crtsh.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Crtsh/Crtsh.json))
 
 ---
 

@@ -7,7 +7,7 @@
 Search for IoCs in Elasticsearch
 
 - **Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json)
+- **Configuration:** [.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json))
 
 ---
 

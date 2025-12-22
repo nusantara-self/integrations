@@ -23,6 +23,7 @@ integrations:
     - url
     file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
   - name: Urlscan.io_Scan
     version: 0.1.0
     description: Scan URLs on urlscan.io
@@ -32,6 +33,7 @@ integrations:
     - fqdn
     file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
   responders: []
   functions: []
 stats:

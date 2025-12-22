@@ -18,7 +18,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json"
       },
       {
         "name": "Shodan_InfoDomain",
@@ -29,7 +30,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json"
       },
       {
         "name": "Shodan_Host_History",
@@ -39,7 +41,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_Host_History.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json"
       },
       {
         "name": "Shodan_Search",
@@ -49,7 +52,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_Search.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_Search.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_Search.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Search.json"
       },
       {
         "name": "Shodan_Host",
@@ -59,7 +63,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_Host.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host.json"
       },
       {
         "name": "Shodan_ReverseDNS",
@@ -69,7 +74,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json"
       }
     ],
     "responders": [],

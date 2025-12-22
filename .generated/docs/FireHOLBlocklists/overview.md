@@ -13,7 +13,7 @@
 Check IP addresses against the FireHOL blocklists
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/FireHOLBlocklists/FireHOLBlocklists.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FireHOLBlocklists/FireHOLBlocklists.json)
+- **Configuration:** [.upstream/cortex/analyzers/FireHOLBlocklists/FireHOLBlocklists.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/FireHOLBlocklists/FireHOLBlocklists.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FireHOLBlocklists/FireHOLBlocklists.json))
 
 ---
 

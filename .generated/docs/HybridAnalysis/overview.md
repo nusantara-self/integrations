@@ -7,7 +7,7 @@
 Fetch Hybrid Analysis reports associated with hashes and filenames.
 
 - **Data Types:** `hash`, `file`, `filename`, `url`, `domain`
-- **Configuration:** [.upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json)
+- **Configuration:** [.upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json))
 
 ---
 

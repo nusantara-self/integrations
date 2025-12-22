@@ -20,6 +20,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
   - name: Gmail_DeleteMessage
     version: '1.0'
     description: Move a given message into the trash folder
@@ -27,6 +28,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
   - name: Gmail_UnblockSender
     version: '1.0'
     description: Remove a message filter for a given sender
@@ -34,6 +36,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
   - name: Gmail_BlockSender
     version: '1.0'
     description: Move emails from a given sender to trash
@@ -41,6 +44,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Gmail/Gmail_BlockSender.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json
   - name: Gmail_BlockDomain
     version: '1.0'
     description: Move emails from a given domain to trash
@@ -48,6 +52,7 @@ integrations:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Gmail/Gmail_BlockDomain.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json
   functions: []
 stats:
   totalAnalyzers: 0

@@ -7,7 +7,7 @@
 Close alert in Zerofox
 
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json)
+- **Configuration:** [.upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json))
 
 ---
 

@@ -18,7 +18,8 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json"
       }
     ],
     "functions": []

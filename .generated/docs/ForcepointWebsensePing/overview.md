@@ -13,7 +13,7 @@
 Use ForcepointWebsensePing to determine which category a certain URL is assigned to.
 
 - **Data Types:** `url`, `ip`, `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json)
+- **Configuration:** [.upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json))
 
 ---
 

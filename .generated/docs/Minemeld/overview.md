@@ -13,7 +13,7 @@
 Submit indicator to Minemeld
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/Minemeld/minemeld.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Minemeld/minemeld.json)
+- **Configuration:** [.upstream/cortex/responders/Minemeld/minemeld.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Minemeld/minemeld.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Minemeld/minemeld.json))
 
 ---
 

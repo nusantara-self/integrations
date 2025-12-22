@@ -7,7 +7,7 @@
 Run Velociraptor artifact collection
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/Velociraptor/velociraptor_flow.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Velociraptor/velociraptor_flow.json)
+- **Configuration:** [.upstream/cortex/responders/Velociraptor/velociraptor_flow.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Velociraptor/velociraptor_flow.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Velociraptor/velociraptor_flow.json))
 
 ---
 

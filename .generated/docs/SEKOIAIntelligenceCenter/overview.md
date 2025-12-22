@@ -13,19 +13,19 @@
 Query the Intelligence Center to retrieve indicators
 
 - **Data Types:** `domain`, `fqdn`, `url`, `hash`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json)
+- **Configuration:** [.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json))
 
 ### SEKOIAIntelligenceCenter_Observables `v1.0`
 Query the Intelligence Center to retrieve known observables
 
 - **Data Types:** `domain`, `fqdn`, `url`, `hash`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json)
+- **Configuration:** [.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json))
 
 ### SEKOIAIntelligenceCenter_Context `v1.0`
 Query the Intelligence Center to retrieve the context of an observable
 
 - **Data Types:** `domain`, `fqdn`, `url`, `hash`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json)
+- **Configuration:** [.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json))
 
 ---
 

@@ -7,7 +7,7 @@
 Send an email with information from a TheHive case or alert via SendGrid API over HTTPS
 
 - **Data Types:** `thehive:case`, `thehive:alert`
-- **Configuration:** [.upstream/cortex/responders/SendGrid/SendGrid.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/SendGrid/SendGrid.json)
+- **Configuration:** [.upstream/cortex/responders/SendGrid/SendGrid.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/SendGrid/SendGrid.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/SendGrid/SendGrid.json))
 
 ---
 

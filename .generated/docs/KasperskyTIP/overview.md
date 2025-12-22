@@ -7,7 +7,7 @@
 Analyze IP address, domain or hash via Kaspersky Threat Intelligence Portal
 
 - **Data Types:** `ip`, `domain`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/KasperskyTIP/KasperskyTIP.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/KasperskyTIP/KasperskyTIP.json)
+- **Configuration:** [.upstream/cortex/analyzers/KasperskyTIP/KasperskyTIP.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/KasperskyTIP/KasperskyTIP.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/KasperskyTIP/KasperskyTIP.json))
 
 ---
 

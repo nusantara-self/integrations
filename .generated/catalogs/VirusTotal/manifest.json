@@ -22,7 +22,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json"
       },
       {
         "name": "VirusTotal_GetReport",
@@ -37,7 +38,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json"
       },
       {
         "name": "VirusTotal_Scan",
@@ -48,7 +50,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json"
       },
       {
         "name": "VirusTotal_Rescan",
@@ -58,7 +61,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json"
       }
     ],
     "responders": [],

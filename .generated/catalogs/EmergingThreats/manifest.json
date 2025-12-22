@@ -21,7 +21,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json"
       },
       {
         "name": "EmergingThreats_MalwareInfo",
@@ -32,7 +33,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json"
       },
       {
         "name": "EmergingThreats_IPInfo",
@@ -42,7 +44,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json"
       }
     ],
     "responders": [],

@@ -22,7 +22,8 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/Shuffle/shuffle.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Shuffle/shuffle.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Shuffle/shuffle.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Shuffle/shuffle.json"
       }
     ],
     "functions": []
