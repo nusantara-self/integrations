@@ -15,36 +15,7 @@
     "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/assets/logo.png",
     "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Slack/assets/logo.png"
   },
-  "useCases": [
-    {
-      "name": "Notify Slack When an Alert Is Created in TheHive",
-      "description": "For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.",
-      "documentation": {
-        "file": "integrations/vendors/Slack/slack-notifier-alert-creation.md",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/slack-notifier-alert-creation.md",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Slack/slack-notifier-alert-creation.md"
-      },
-      "tags": [
-        "slack",
-        "communication",
-        "notification"
-      ]
-    },
-    {
-      "name": "Notify Slack When a Case Assignee Changes in TheHive",
-      "description": "For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here will inform only active users.",
-      "documentation": {
-        "file": "integrations/vendors/Slack/slack-case-assignee-change.md",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/slack-case-assignee-change.md",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Slack/slack-case-assignee-change.md"
-      },
-      "tags": [
-        "slack",
-        "communication",
-        "notification"
-      ]
-    }
-  ],
+  "useCases": [],
   "registration_required": true,
   "subscription_required": false,
   "free_subscription": true,

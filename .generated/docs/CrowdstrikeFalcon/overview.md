@@ -154,24 +154,6 @@ Ingests CrowdstrikeFalcon Alerts, also processes observables & TTPs.
 
 ---
 
-## Use Cases (2)
-
-### Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
-Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.
-
-**Tags:** status, sync, crowdstrike, thehive, automation
-📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md))
-
----
-
-### Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script
-TO DO LATER
-
-**Tags:** alert-ingestion, crowdstrike, thehive, automation
-📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md))
-
----
-
 ## Statistics
 
 - **Total Analyzers:** 10
