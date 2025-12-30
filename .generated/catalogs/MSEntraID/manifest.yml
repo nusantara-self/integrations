@@ -18,9 +18,9 @@ tags:
 - incident-response
 homepage: https://www.microsoft.com/security/business/identity-access/microsoft-entra-id
 logo:
-  file: integrations/vendors/MSEntraID/assets/logo.svg
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.svg
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.svg
+  file: integrations/vendors/MSEntraID/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.png
 useCases: []
 registration_required: true
 subscription_required: true

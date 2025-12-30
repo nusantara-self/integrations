@@ -1134,11 +1134,17 @@
   },
   "Crowdsec": {
     "id": "Crowdsec",
-    "name": "Crowdsec",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
+    "name": "CrowdSec",
+    "description": "CrowdSec is a collaborative security platform that aggregates attack data from community-deployed sensors to identify malicious IPs and attack patterns, enabling real-time blocking decisions and threat intelligence sharing for collective defense",
+    "category": "Threat Intelligence",
+    "tags": [
+      "threat-intelligence",
+      "collaborative-defense",
+      "ip-reputation",
+      "attack-detection",
+      "community-intelligence"
+    ],
+    "homepage": "https://www.crowdsec.net",
     "logo": {},
     "useCases": [],
     "registration_required": true,
@@ -4718,9 +4724,9 @@
     ],
     "homepage": "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint",
     "logo": {
-      "file": "integrations/vendors/MSDefenderEndpoints/assets/logo.svg",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.svg",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.svg"
+      "file": "integrations/vendors/MSDefenderEndpoints/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png"
     },
     "useCases": [],
     "registration_required": true,
@@ -4842,9 +4848,9 @@
     ],
     "homepage": "https://www.microsoft.com/security/business/threat-protection/office-365-defender",
     "logo": {
-      "file": "integrations/vendors/MSDefenderOffice365/assets/logo.svg",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.svg",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.svg"
+      "file": "integrations/vendors/MSDefenderOffice365/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png"
     },
     "useCases": [],
     "registration_required": true,
@@ -4901,9 +4907,9 @@
     ],
     "homepage": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id",
     "logo": {
-      "file": "integrations/vendors/MSEntraID/assets/logo.svg",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.svg",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.svg"
+      "file": "integrations/vendors/MSEntraID/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.png"
     },
     "useCases": [],
     "registration_required": true,
@@ -8855,7 +8861,11 @@
       "incident-response"
     ],
     "homepage": "https://urlscan.io",
-    "logo": {},
+    "logo": {
+      "file": "integrations/vendors/Urlscan.io/assets/logo.ico",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Urlscan.io/assets/logo.ico",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Urlscan.io/assets/logo.ico"
+    },
     "useCases": [],
     "integrations": {
       "analyzers": [

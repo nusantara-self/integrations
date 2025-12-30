@@ -1,5 +1,7 @@
 # URLScan.io
 
+![URLScan.io Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Urlscan.io/assets/logo.ico)
+
 URLScan.io is an automated web scanner that analyzes URLs and websites in real-time, capturing screenshots, network traffic, and behavioral indicators to identify phishing, malware distribution, and suspicious web content
 
 **Category:** URL Analysis  

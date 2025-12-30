@@ -16,9 +16,9 @@ tags:
 - microsoft
 homepage: https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint
 logo:
-  file: integrations/vendors/MSDefenderEndpoints/assets/logo.svg
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.svg
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.svg
+  file: integrations/vendors/MSDefenderEndpoints/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png
 useCases: []
 registration_required: true
 subscription_required: true

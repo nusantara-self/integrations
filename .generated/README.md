@@ -119,6 +119,9 @@ Auto-generated catalog of TheHive and Cortex integrations.
 **[AlienVault OTX](docs/OTXQuery/overview.md)** (1 integrations)
   AlienVault Open Threat Exchange (OTX) is a collaborative threat intelligence platform where secur...
 
+**[CrowdSec](docs/Crowdsec/overview.md)** (1 integrations)
+  CrowdSec is a collaborative security platform that aggregates attack data from community-deployed...
+
 **[EmailRep](docs/EmailRep/overview.md)** (1 integrations)
   EmailRep analyzes email addresses to detect disposable emails, spam sources, and malicious sender...
 
@@ -177,8 +180,8 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Cloudflare_IP_Blocker](docs/Cloudflare_IP_Blocker/overview.md)** - *Uncategorized* - 1 responders
 - **[Cluster25](docs/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClusterHawk](docs/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CrowdSec](docs/Crowdsec/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[CrowdStrike Falcon](docs/CrowdstrikeFalcon/overview.md)** - *EDR* - 10 analyzers, 9 responders, 2 functions
-- **[Crowdsec](docs/Crowdsec/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Crtsh](docs/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CuckooSandbox](docs/CuckooSandbox/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CyberChef](docs/CyberChef/overview.md)** - *Uncategorized* - 3 analyzers

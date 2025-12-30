@@ -14,7 +14,10 @@ tags:
 - threat-detection
 - incident-response
 homepage: https://urlscan.io
-logo: {}
+logo:
+  file: integrations/vendors/Urlscan.io/assets/logo.ico
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Urlscan.io/assets/logo.ico
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Urlscan.io/assets/logo.ico
 useCases: []
 integrations:
   analyzers:
