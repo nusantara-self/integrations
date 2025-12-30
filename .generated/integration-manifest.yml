@@ -221,6 +221,33 @@ Abuse_Finder:
     totalResponders: 0
     totalFunctions: 0
     total: 1
+Airtable:
+  id: Airtable
+  name: Airtable
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers: []
+    responders: []
+    functions:
+    - name: alertFromAirtable
+      version: 1.0.0
+      description: This function creates alerts from data coming from a Airtable database. It checks the alert does not already
+        exist, then creates the alert, and completes type, source, source-ref, title, description and tags
+      kind: function
+      mode: Enabled
+      file: integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 1
+    total: 1
 AnyRun:
   id: AnyRun
   name: AnyRun
@@ -3380,6 +3407,37 @@ Investigate:
     totalResponders: 0
     totalFunctions: 0
     total: 2
+JAMF:
+  id: JAMF
+  name: JAMF
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers: []
+    responders: []
+    functions:
+    - name: createAlertFromJAMFProtect
+      version: 1.0.0
+      description: Ingests alerts from JAMF Protect. Extracts analytic details, host and user information, MITRE ATT&CK tags,
+        and file/path data. The function constructs a TheHive alert, including a title, markdown-formatted description (with
+        original alert JSON), relevant observables (IP, hostname, file, hash, URL, FQDN, URI path, user agent), MITRE ATT&CK
+        enrichment, and a link to the JAMF alert. Handles default values and supports tagging and mapping of MITRE tactics
+        for easier triage and investigation. For the setup in JAMF Protect, go to Configuration > Actions > *your action*
+        > Add an HTTP data endpoint + your Authorization Header and Bearer as value
+      kind: function
+      mode: Enabled
+      file: integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 1
+    total: 1
 JAMFProtect:
   id: JAMFProtect
   name: JAMFProtect
@@ -3417,6 +3475,33 @@ JAMFProtect:
     totalResponders: 2
     totalFunctions: 0
     total: 2
+JIRA:
+  id: JIRA
+  name: JIRA
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers: []
+    responders: []
+    functions:
+    - name: alertFromJIRA
+      version: 1.0.0
+      description: This function creates alerts from JIRA issues. It checks if the alert already exists, then creates it with
+        type, source, source-ref, title, and description
+      kind: function
+      mode: Enabled
+      file: integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 1
+    total: 1
 JoeSandbox:
   id: JoeSandbox
   name: JoeSandbox
@@ -6467,12 +6552,21 @@ Splunk:
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
     responders: []
-    functions: []
+    functions:
+    - name: createAlertFromSplunk
+      version: 1.0.0
+      description: This function creates a TheHive Alert based on an input coming from Splunk, and matches the Splunk fields
+        to TheHive fields. In Splunk, you'll need to configure the webhook URL to point to the TheHive function URL
+      kind: function
+      mode: Enabled
+      file: integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk
   stats:
     totalAnalyzers: 11
     totalResponders: 0
-    totalFunctions: 0
-    total: 11
+    totalFunctions: 1
+    total: 12
 StamusNetworks:
   id: StamusNetworks
   name: StamusNetworks

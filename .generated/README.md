@@ -4,11 +4,11 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 191
+- **Total Vendors:** 194
 - **Total Analyzers:** 253
 - **Total Responders:** 131
-- **Total Functions:** 4
-- **Total Integrations:** 388
+- **Total Functions:** 8
+- **Total Integrations:** 392
 
 ## 📂 Vendors by Category
 
@@ -101,7 +101,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 **[Elasticsearch](docs/Elasticsearch/overview.md)** (1 integrations)
   Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log ana...
 
-**[Splunk](docs/Splunk/overview.md)** (11 integrations)
+**[Splunk](docs/Splunk/overview.md)** (12 integrations)
   Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
 
 
@@ -158,6 +158,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[AWX](docs/AWX/overview.md)** - *Uncategorized* - 1 responders
 - **[AbuseIPDB](docs/AbuseIPDB/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Abuse_Finder](docs/Abuse_Finder/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Airtable](docs/Airtable/overview.md)** - *Uncategorized* - 1 functions
 - **[AlienVault OTX](docs/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[AnyRun](docs/AnyRun/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Autofocus](docs/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
@@ -239,7 +240,9 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Inoitsu](docs/Inoitsu/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IntezerCommunity](docs/IntezerCommunity/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Investigate](docs/Investigate/overview.md)** - *Uncategorized* - 2 analyzers
+- **[JAMF](docs/JAMF/overview.md)** - *Uncategorized* - 1 functions
 - **[JAMFProtect](docs/JAMFProtect/overview.md)** - *Uncategorized* - 2 responders
+- **[JIRA](docs/JIRA/overview.md)** - *Uncategorized* - 1 functions
 - **[JoeSandbox](docs/JoeSandbox/overview.md)** - *Uncategorized* - 3 analyzers
 - **[Jupyter_Analyzer](docs/Jupyter_Analyzer/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Jupyter_Responder](docs/Jupyter_Responder/overview.md)** - *Uncategorized* - 1 responders
@@ -303,7 +306,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[SophosIntelix](docs/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](docs/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SpamhausDBL](docs/SpamhausDBL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Splunk](docs/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers
+- **[Splunk](docs/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 functions
 - **[StamusNetworks](docs/StamusNetworks/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StaxxSearch](docs/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StopForumSpam](docs/StopForumSpam/overview.md)** - *Uncategorized* - 1 analyzers

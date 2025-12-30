@@ -84,12 +84,23 @@ Execute a savedsearch on a Splunk instance with an URL or a URI path as argument
 
 ---
 
+## Functions (1)
+
+### createAlertFromSplunk `v1.0.0`
+This function creates a TheHive Alert based on an input coming from Splunk, and matches the Splunk fields to TheHive fields. In Splunk, you'll need to configure the webhook URL to point to the TheHive function URL
+
+- **Kind:** function
+- **Mode:** Enabled
+- **File:** [integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk))
+
+---
+
 ## Statistics
 
 - **Total Analyzers:** 11
 - **Total Responders:** 0
-- **Total Functions:** 0
-- **Total Integrations:** 11
+- **Total Functions:** 1
+- **Total Integrations:** 12
 
 ---
 
