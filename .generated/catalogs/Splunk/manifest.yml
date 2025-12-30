@@ -16,7 +16,10 @@ tags:
 - correlation
 - incident-response
 homepage: https://www.splunk.com
-logo: {}
+logo:
+  file: integrations/vendors/Splunk/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/assets/logo.png
 useCases: []
 registration_required: false
 subscription_required: false

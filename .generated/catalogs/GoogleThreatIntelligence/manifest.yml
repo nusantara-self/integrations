@@ -18,9 +18,9 @@ tags:
 - incident-response
 homepage: https://threatlabs.google.com
 logo:
-  file: integrations/vendors/GoogleThreatIntelligence/assets/logo.svg
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.svg
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.svg
+  file: integrations/vendors/GoogleThreatIntelligence/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
 useCases: []
 registration_required: true
 subscription_required:

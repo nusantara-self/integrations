@@ -643,7 +643,10 @@ Capa:
   - behavior-analysis
   - incident-response
   homepage: https://github.com/mandiant/capa
-  logo: {}
+  logo:
+    file: integrations/vendors/Capa/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Capa/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Capa/assets/logo.png
   useCases: []
   registration_required: false
   subscription_required: false
@@ -1962,7 +1965,10 @@ Elasticsearch:
   - threat-hunting
   - incident-response
   homepage: https://www.elastic.co
-  logo: {}
+  logo:
+    file: integrations/vendors/Elasticsearch/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Elasticsearch/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Elasticsearch/assets/logo.png
   useCases: []
   integrations:
     analyzers:
@@ -1999,7 +2005,10 @@ EmailRep:
   - email-analysis
   - incident-response
   homepage: https://emailrep.io
-  logo: {}
+  logo:
+    file: integrations/vendors/EmailRep/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/EmailRep/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/EmailRep/assets/logo.png
   useCases: []
   registration_required: false
   subscription_required: false
@@ -2546,9 +2555,9 @@ GoogleThreatIntelligence:
   - incident-response
   homepage: https://threatlabs.google.com
   logo:
-    file: integrations/vendors/GoogleThreatIntelligence/assets/logo.svg
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.svg
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.svg
+    file: integrations/vendors/GoogleThreatIntelligence/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
   useCases: []
   registration_required: true
   subscription_required:
@@ -2681,7 +2690,10 @@ HIBP:
   - identity-compromise
   - incident-response
   homepage: https://haveibeenpwned.com
-  logo: {}
+  logo:
+    file: integrations/vendors/HIBP/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HIBP/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HIBP/assets/logo.png
   useCases: []
   integrations:
     analyzers:
@@ -3039,7 +3051,10 @@ Hunterio:
   - reconnaissance
   - incident-response
   homepage: https://hunter.io
-  logo: {}
+  logo:
+    file: integrations/vendors/Hunterio/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Hunterio/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Hunterio/assets/logo.png
   useCases: []
   registration_required: true
   subscription_required: true
@@ -4625,7 +4640,10 @@ Onyphe:
   - threat-hunting
   - incident-response
   homepage: https://www.onyphe.io
-  logo: {}
+  logo:
+    file: integrations/vendors/Onyphe/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Onyphe/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Onyphe/assets/logo.png
   useCases: []
   registration_required: true
   subscription_required: true
@@ -5509,7 +5527,10 @@ RecordedFuture:
   - dark-web
   - incident-response
   homepage: https://www.recordedfuture.com
-  logo: {}
+  logo:
+    file: integrations/vendors/RecordedFuture/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/RecordedFuture/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/RecordedFuture/assets/logo.png
   useCases: []
   registration_required: true
   subscription_required: true
@@ -6035,7 +6056,10 @@ Shuffle:
   - incident-response
   - security-automation
   homepage: https://shuffler.io
-  logo: {}
+  logo:
+    file: integrations/vendors/Shuffle/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Shuffle/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Shuffle/assets/logo.png
   useCases: []
   integrations:
     analyzers: []
@@ -6314,7 +6338,10 @@ Splunk:
   - correlation
   - incident-response
   homepage: https://www.splunk.com
-  logo: {}
+  logo:
+    file: integrations/vendors/Splunk/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/assets/logo.png
   useCases: []
   registration_required: false
   subscription_required: false
@@ -6925,7 +6952,10 @@ URLhaus:
   - malware-distribution
   - incident-response
   homepage: https://urlhaus.abuse.ch
-  logo: {}
+  logo:
+    file: integrations/vendors/URLhaus/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/URLhaus/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/URLhaus/assets/logo.png
   useCases: []
   registration_required: true
   subscription_required: false
@@ -7496,12 +7526,21 @@ Wazuh:
     total: 1
 Yara:
   id: Yara
-  name: Yara
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  name: YARA
+  description: YARA is a pattern matching engine for malware identification and classification that enables analysts to create
+    rules describing malware families and threat patterns, facilitating rapid malware detection and threat hunting during
+    investigations
+  category: Malware Analysis
+  tags:
+  - malware-detection
+  - pattern-matching
+  - threat-hunting
+  - malware-classification
+  homepage: https://virustotal.github.io/yara/
+  logo:
+    file: integrations/vendors/Yara/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Yara/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Yara/assets/logo.png
   useCases: []
   integrations:
     analyzers:

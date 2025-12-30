@@ -3,12 +3,20 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: Yara
-name: Yara
-description: ''
-category: ''
-tags: []
-homepage: ''
-logo: {}
+name: YARA
+description: YARA is a pattern matching engine for malware identification and classification that enables analysts to create
+  rules describing malware families and threat patterns, facilitating rapid malware detection and threat hunting during investigations
+category: Malware Analysis
+tags:
+- malware-detection
+- pattern-matching
+- threat-hunting
+- malware-classification
+homepage: https://virustotal.github.io/yara/
+logo:
+  file: integrations/vendors/Yara/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Yara/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Yara/assets/logo.png
 useCases: []
 integrations:
   analyzers:

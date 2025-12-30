@@ -77,6 +77,9 @@ Auto-generated catalog of TheHive and Cortex integrations.
 **[VirusTotal](docs/VirusTotal/overview.md)** (4 integrations)
   VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus en...
 
+**[YARA](docs/Yara/overview.md)** (1 integrations)
+  YARA is a pattern matching engine for malware identification and classification that enables anal...
+
 
 ### OSINT & Enrichment
 
@@ -331,7 +334,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[WOT](docs/WOT/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Watcher](docs/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 2 responders
 - **[Wazuh](docs/Wazuh/overview.md)** - *Uncategorized* - 1 responders
-- **[Yara](docs/Yara/overview.md)** - *Uncategorized* - 1 analyzers
+- **[YARA](docs/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Yeti](docs/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ZEROFOX_Close_alert](docs/ZEROFOX_Close_alert/overview.md)** - *Uncategorized* - 1 responders
 - **[ZEROFOX_Takedown_request](docs/ZEROFOX_Takedown_request/overview.md)** - *Uncategorized* - 1 responders

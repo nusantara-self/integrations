@@ -15,7 +15,10 @@ tags:
 - behavior-analysis
 - incident-response
 homepage: https://github.com/mandiant/capa
-logo: {}
+logo:
+  file: integrations/vendors/Capa/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Capa/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Capa/assets/logo.png
 useCases: []
 registration_required: false
 subscription_required: false

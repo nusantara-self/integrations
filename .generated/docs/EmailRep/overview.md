@@ -1,5 +1,7 @@
 # EmailRep
 
+![EmailRep Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/EmailRep/assets/logo.png)
+
 EmailRep analyzes email addresses to detect disposable emails, spam sources, and malicious senders by providing reputation scores and threat intelligence, helping analysts assess email-based threats during investigations
 
 **Category:** Threat Intelligence  

@@ -1,6 +1,6 @@
 # Google Threat Intelligence
 
-![Google Threat Intelligence Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.svg)
+![Google Threat Intelligence Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png)
 
 Google Threat Intelligence (formerly VirusTotal) provides comprehensive malware analysis, threat intelligence, and file/URL/domain reputation data from 70+ security engines, enabling rapid threat assessment and IOC validation during investigations
 

@@ -1,5 +1,7 @@
 # Hunter.io
 
+![Hunter.io Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Hunterio/assets/logo.png)
+
 Hunter.io discovers and verifies email addresses associated with domains, enabling investigators to identify organizational contacts, validate email authenticity, and map corporate infrastructure during threat intelligence gathering
 
 **Category:** OSINT & Enrichment  

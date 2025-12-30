@@ -1,5 +1,7 @@
 # ONYPHE
 
+![ONYPHE Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Onyphe/assets/logo.png)
+
 ONYPHE is a cyber defense search engine that collects and analyzes internet-wide scan data, providing intelligence on exposed assets, vulnerabilities, and threat actor infrastructure for proactive defense and incident investigation
 
 **Category:** Attack Surface Intelligence  

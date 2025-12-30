@@ -1,5 +1,12 @@
-# Yara
+# YARA
 
+![YARA Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Yara/assets/logo.png)
+
+YARA is a pattern matching engine for malware identification and classification that enables analysts to create rules describing malware families and threat patterns, facilitating rapid malware detection and threat hunting during investigations
+
+**Category:** Malware Analysis  
+**Homepage:** https://virustotal.github.io/yara/  
+**Tags:** malware-detection, pattern-matching, threat-hunting, malware-classification
 
 ## Analyzers (1)
 

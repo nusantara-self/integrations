@@ -12,7 +12,11 @@
     "security-automation"
   ],
   "homepage": "https://shuffler.io",
-  "logo": {},
+  "logo": {
+    "file": "integrations/vendors/Shuffle/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Shuffle/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Shuffle/assets/logo.png"
+  },
   "useCases": [],
   "integrations": {
     "analyzers": [],
