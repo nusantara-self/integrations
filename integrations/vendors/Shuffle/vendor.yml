@@ -7,7 +7,11 @@ tags:
   - automation
   - orchestration
   - workflow
-  - incident-response
   - security-automation
 homepage: "https://shuffler.io"
+externalIntegrations:
+- name: TheHive 5 Integration
+  description: Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration
+  type: app
+  documentation: https://shuffler.io/apps/thehive/integrations/TheHive_5
 
