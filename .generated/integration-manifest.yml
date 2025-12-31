@@ -1,3 +1,74 @@
+Abuse_Finder:
+  id: Abuse_Finder
+  name: Abuse_Finder
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: false
+  subscription_required: false
+  free_subscription: false
+  integrations:
+    analyzers:
+    - name: Abuse_Finder
+      version: '3.0'
+      description: Find abuse contacts associated with domain names, URLs, IPs and email addresses.
+      dataTypes:
+      - ip
+      - domain
+      - fqdn
+      - url
+      - mail
+      file: .upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
+AbuseIPDB:
+  id: AbuseIPDB
+  name: AbuseIPDB
+  description: AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in
+    attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions
+  category: Threat Intelligence
+  tags:
+  - ip-reputation
+  - threat-detection
+  - abuse-tracking
+  - blacklist
+  - incident-response
+  homepage: https://www.abuseipdb.com
+  logo:
+    file: integrations/vendors/AbuseIPDB/assets/logo.svg
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.svg
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.svg
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: AbuseIPDB
+      version: '1.1'
+      description: Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
+      dataTypes:
+      - ip
+      file: .upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 AILOnionLookup:
   id: AILOnionLookup
   name: AILOnionLookup
@@ -29,6 +100,33 @@ AILOnionLookup:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    total: 1
+Airtable:
+  id: Airtable
+  name: Airtable
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers: []
+    responders: []
+    functions:
+    - name: alertFromAirtable
+      version: 1.0.0
+      description: This function creates alerts from data coming from a Airtable database. It checks the alert does not already
+        exist, then creates the alert, and completes type, source, source-ref, title, description and tags
+      kind: function
+      mode: Enabled
+      file: integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 1
     total: 1
 AMPforEndpoints:
   id: AMPforEndpoints
@@ -88,166 +186,6 @@ AMPforEndpoints:
     totalResponders: 5
     totalFunctions: 0
     total: 5
-AWSLambda:
-  id: AWSLambda
-  name: AWSLambda
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: false
-  integrations:
-    analyzers: []
-    responders:
-    - name: AWSLambda_InvokeFunction
-      version: '1.0'
-      description: Invokes the specified AWS Lambda function with the given input from TheHive.
-      dataTypes:
-      - thehive:case
-      - thehive:alert
-      - thehive:case_artifact
-      - thehive:case_task
-      - thehive:case_task_log
-      file: .upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 1
-    totalFunctions: 0
-    total: 1
-AWX:
-  id: AWX
-  name: AWX
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: false
-  subscription_required: false
-  free_subscription: false
-  integrations:
-    analyzers: []
-    responders:
-    - name: AWX_StartJob
-      version: '1.0'
-      description: Start a job on AWX
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AWX/awx.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AWX/awx.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AWX/awx.json
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 1
-    totalFunctions: 0
-    total: 1
-AbuseIPDB:
-  id: AbuseIPDB
-  name: AbuseIPDB
-  description: AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in
-    attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions
-  category: Threat Intelligence
-  tags:
-  - ip-reputation
-  - threat-detection
-  - abuse-tracking
-  - blacklist
-  - incident-response
-  homepage: https://www.abuseipdb.com
-  logo:
-    file: integrations/vendors/AbuseIPDB/assets/logo.svg
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.svg
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.svg
-  useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: true
-  integrations:
-    analyzers:
-    - name: AbuseIPDB
-      version: '1.1'
-      description: Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
-      dataTypes:
-      - ip
-      file: .upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-Abuse_Finder:
-  id: Abuse_Finder
-  name: Abuse_Finder
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: false
-  subscription_required: false
-  free_subscription: false
-  integrations:
-    analyzers:
-    - name: Abuse_Finder
-      version: '3.0'
-      description: Find abuse contacts associated with domain names, URLs, IPs and email addresses.
-      dataTypes:
-      - ip
-      - domain
-      - fqdn
-      - url
-      - mail
-      file: .upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-Airtable:
-  id: Airtable
-  name: Airtable
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers: []
-    responders: []
-    functions:
-    - name: alertFromAirtable
-      version: 1.0.0
-      description: This function creates alerts from data coming from a Airtable database. It checks the alert does not already
-        exist, then creates the alert, and completes type, source, source-ref, title, description and tags
-      kind: function
-      mode: Enabled
-      file: integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 0
-    totalFunctions: 1
-    total: 1
 AnyRun:
   id: AnyRun
   name: AnyRun
@@ -327,6 +265,68 @@ Autofocus:
     totalResponders: 0
     totalFunctions: 0
     total: 3
+AWSLambda:
+  id: AWSLambda
+  name: AWSLambda
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: false
+  integrations:
+    analyzers: []
+    responders:
+    - name: AWSLambda_InvokeFunction
+      version: '1.0'
+      description: Invokes the specified AWS Lambda function with the given input from TheHive.
+      dataTypes:
+      - thehive:case
+      - thehive:alert
+      - thehive:case_artifact
+      - thehive:case_task
+      - thehive:case_task_log
+      file: .upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 1
+    totalFunctions: 0
+    total: 1
+AWX:
+  id: AWX
+  name: AWX
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: false
+  subscription_required: false
+  free_subscription: false
+  integrations:
+    analyzers: []
+    responders:
+    - name: AWX_StartJob
+      version: '1.0'
+      description: Start a job on AWX
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/AWX/awx.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AWX/awx.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AWX/awx.json
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 1
+    totalFunctions: 0
+    total: 1
 Axur:
   id: Axur
   name: Axur
@@ -465,6 +465,76 @@ C1fApp:
     totalResponders: 0
     totalFunctions: 0
     total: 1
+Capa:
+  id: Capa
+  name: CAPA
+  description: CAPA (FLARE Capability Analysis) is a malware analysis tool that automatically identifies malware capabilities
+    and behaviors by detecting common techniques and functions, helping analysts quickly understand what malware can do during
+    reverse engineering and incident response
+  category: Malware Analysis
+  tags:
+  - malware-analysis
+  - capability-detection
+  - reverse-engineering
+  - behavior-analysis
+  - incident-response
+  homepage: https://github.com/mandiant/capa
+  logo:
+    file: integrations/vendors/Capa/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Capa/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Capa/assets/logo.png
+  useCases: []
+  registration_required: false
+  subscription_required: false
+  free_subscription: false
+  integrations:
+    analyzers:
+    - name: Capa
+      version: '1.0'
+      description: Analyze files with Capa
+      dataTypes:
+      - file
+      file: .upstream/cortex/analyzers/Capa/Capa.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Capa/Capa.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Capa/Capa.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
+Censys:
+  id: Censys
+  name: Censys
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: false
+  integrations:
+    analyzers:
+    - name: Censys
+      version: '2.0'
+      description: Check IPs, certificate hashes or domains against censys.io.
+      dataTypes:
+      - ip
+      - hash
+      - domain
+      file: .upstream/cortex/analyzers/Censys/Censys.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Censys/Censys.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Censys/Censys.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 CERTatPassiveDNS:
   id: CERTatPassiveDNS
   name: CERTatPassiveDNS
@@ -493,6 +563,103 @@ CERTatPassiveDNS:
     totalResponders: 0
     totalFunctions: 0
     total: 1
+ChainAbuse:
+  id: ChainAbuse
+  name: ChainAbuse
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: true
+  subscription_required: false
+  integrations:
+    analyzers:
+    - name: ChainAbuse
+      version: '1.1'
+      description: Check crypto address against reported abuse cases on ChainAbuse
+      dataTypes:
+      - crypto_address
+      - btc_address
+      file: .upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
+CheckPhish:
+  id: CheckPhish
+  name: CheckPhish
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers:
+    - name: CheckPhish
+      version: '1.0'
+      description: Check url address via CheckPhish using jobID returned from CheckPhish_Submit
+      dataTypes:
+      - string
+      file: .upstream/cortex/analyzers/CheckPhish/CheckPhish.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json
+    - name: CheckPhish_Submit
+      version: '1.0'
+      description: Submit url address to CheckPhish
+      dataTypes:
+      - url
+      file: .upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 2
+    totalResponders: 0
+    totalFunctions: 0
+    total: 2
+CheckPoint:
+  id: CheckPoint
+  name: CheckPoint
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers: []
+    responders:
+    - name: CheckPoint_Lock
+      version: '1.0'
+      description: Lock ip on CheckPoint Gaia
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
+    - name: CheckPoint_Unlock
+      version: '1.0'
+      description: Unlock ip on CheckPoint Gaia
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 2
+    totalFunctions: 0
+    total: 2
 CIRCLHashlookup:
   id: CIRCLHashlookup
   name: CIRCLHashlookup
@@ -656,173 +823,6 @@ CISMCAP:
     totalResponders: 0
     totalFunctions: 0
     total: 1
-Capa:
-  id: Capa
-  name: CAPA
-  description: CAPA (FLARE Capability Analysis) is a malware analysis tool that automatically identifies malware capabilities
-    and behaviors by detecting common techniques and functions, helping analysts quickly understand what malware can do during
-    reverse engineering and incident response
-  category: Malware Analysis
-  tags:
-  - malware-analysis
-  - capability-detection
-  - reverse-engineering
-  - behavior-analysis
-  - incident-response
-  homepage: https://github.com/mandiant/capa
-  logo:
-    file: integrations/vendors/Capa/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Capa/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Capa/assets/logo.png
-  useCases: []
-  registration_required: false
-  subscription_required: false
-  free_subscription: false
-  integrations:
-    analyzers:
-    - name: Capa
-      version: '1.0'
-      description: Analyze files with Capa
-      dataTypes:
-      - file
-      file: .upstream/cortex/analyzers/Capa/Capa.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Capa/Capa.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Capa/Capa.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-Censys:
-  id: Censys
-  name: Censys
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: false
-  integrations:
-    analyzers:
-    - name: Censys
-      version: '2.0'
-      description: Check IPs, certificate hashes or domains against censys.io.
-      dataTypes:
-      - ip
-      - hash
-      - domain
-      file: .upstream/cortex/analyzers/Censys/Censys.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Censys/Censys.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Censys/Censys.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-ChainAbuse:
-  id: ChainAbuse
-  name: ChainAbuse
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: true
-  subscription_required: false
-  integrations:
-    analyzers:
-    - name: ChainAbuse
-      version: '1.1'
-      description: Check crypto address against reported abuse cases on ChainAbuse
-      dataTypes:
-      - crypto_address
-      - btc_address
-      file: .upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-CheckPhish:
-  id: CheckPhish
-  name: CheckPhish
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers:
-    - name: CheckPhish
-      version: '1.0'
-      description: Check url address via CheckPhish using jobID returned from CheckPhish_Submit
-      dataTypes:
-      - string
-      file: .upstream/cortex/analyzers/CheckPhish/CheckPhish.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json
-    - name: CheckPhish_Submit
-      version: '1.0'
-      description: Submit url address to CheckPhish
-      dataTypes:
-      - url
-      file: .upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 2
-    totalResponders: 0
-    totalFunctions: 0
-    total: 2
-CheckPoint:
-  id: CheckPoint
-  name: CheckPoint
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers: []
-    responders:
-    - name: CheckPoint_Lock
-      version: '1.0'
-      description: Lock ip on CheckPoint Gaia
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
-    - name: CheckPoint_Unlock
-      version: '1.0'
-      description: Unlock ip on CheckPoint Gaia
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 2
-    totalFunctions: 0
-    total: 2
 ClamAV:
   id: ClamAV
   name: ClamAV
@@ -1403,6 +1403,24 @@ Cylance:
     totalResponders: 0
     totalFunctions: 0
     total: 1
+Diario:
+  id: Diario
+  name: Diario
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers: []
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 0
+    total: 0
 DNS-RPZ:
   id: DNS-RPZ
   name: DNS-RPZ
@@ -1473,6 +1491,35 @@ DNSDB:
     totalResponders: 0
     totalFunctions: 0
     total: 3
+DNSdumpster:
+  id: DNSdumpster
+  name: DNSdumpster
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: false
+  subscription_required: false
+  free_subscription: false
+  integrations:
+    analyzers:
+    - name: DNSdumpster_report
+      version: '1.0'
+      description: Query domain information from DNSdumpster.com.
+      dataTypes:
+      - domain
+      file: .upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 DNSLookingglass:
   id: DNSLookingglass
   name: DNSLookingglass
@@ -1529,82 +1576,6 @@ DNSSinkhole:
     totalResponders: 0
     totalFunctions: 0
     total: 1
-DNSdumpster:
-  id: DNSdumpster
-  name: DNSdumpster
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: false
-  subscription_required: false
-  free_subscription: false
-  integrations:
-    analyzers:
-    - name: DNSdumpster_report
-      version: '1.0'
-      description: Query domain information from DNSdumpster.com.
-      dataTypes:
-      - domain
-      file: .upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-DShield:
-  id: DShield
-  name: DShield
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: false
-  subscription_required: false
-  free_subscription: true
-  integrations:
-    analyzers:
-    - name: DShield_lookup
-      version: '1.0'
-      description: Query the SANS ISC DShield API to check for an IP address reputation.
-      dataTypes:
-      - ip
-      file: .upstream/cortex/analyzers/DShield/DShield_lookup.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DShield/DShield_lookup.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DShield/DShield_lookup.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-Diario:
-  id: Diario
-  name: Diario
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers: []
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 0
-    totalFunctions: 0
-    total: 0
 DomainMailSPFDMARC:
   id: DomainMailSPFDMARC
   name: DomainMailSPFDMARC
@@ -1835,6 +1806,35 @@ DomainToolsIris_CheckMaliciousTags:
   stats:
     totalAnalyzers: 0
     totalResponders: 1
+    totalFunctions: 0
+    total: 1
+DShield:
+  id: DShield
+  name: DShield
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: false
+  subscription_required: false
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: DShield_lookup
+      version: '1.0'
+      description: Query the SANS ISC DShield API to check for an IP address reputation.
+      dataTypes:
+      - ip
+      file: .upstream/cortex/analyzers/DShield/DShield_lookup.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DShield/DShield_lookup.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DShield/DShield_lookup.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
     totalFunctions: 0
     total: 1
 Duo_Security:
@@ -2367,33 +2367,6 @@ FoxIO:
     totalResponders: 0
     totalFunctions: 0
     total: 1
-GRR:
-  id: GRR
-  name: GRR
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers:
-    - name: GRR
-      version: '0.1'
-      description: Search GRR for the host agent.
-      dataTypes:
-      - ip
-      - fqdn
-      file: .upstream/cortex/analyzers/GRR/GRR.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GRR/GRR.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GRR/GRR.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
 Gatewatcher_CTI:
   id: Gatewatcher_CTI
   name: Gatewatcher_CTI
@@ -2706,34 +2679,26 @@ GreyNoise:
     totalResponders: 0
     totalFunctions: 0
     total: 1
-HIBP:
-  id: HIBP
-  name: Have I Been Pwned
-  description: Have I Been Pwned tracks billions of compromised credentials from data breaches, allowing analysts to verify
-    if emails or passwords have been exposed in known breaches during security investigations and incident response
-  category: Breach Intelligence
-  tags:
-  - data-breach
-  - credential-exposure
-  - breach-intelligence
-  - identity-compromise
-  - incident-response
-  homepage: https://haveibeenpwned.com
-  logo:
-    file: integrations/vendors/HIBP/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HIBP/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HIBP/assets/logo.png
+GRR:
+  id: GRR
+  name: GRR
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
   useCases: []
   integrations:
     analyzers:
-    - name: HIBP_Query
-      version: '2.0'
-      description: Query haveibeenpwned.com for a compromised email address
+    - name: GRR
+      version: '0.1'
+      description: Search GRR for the host agent.
       dataTypes:
-      - mail
-      file: .upstream/cortex/analyzers/HIBP/HIBP_Query.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/HIBP/HIBP_Query.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/HIBP/HIBP_Query.json
+      - ip
+      - fqdn
+      file: .upstream/cortex/analyzers/GRR/GRR.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GRR/GRR.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GRR/GRR.json
     responders: []
     functions: []
   stats:
@@ -3049,6 +3014,41 @@ Hashdd:
     totalResponders: 0
     totalFunctions: 0
     total: 2
+HIBP:
+  id: HIBP
+  name: Have I Been Pwned
+  description: Have I Been Pwned tracks billions of compromised credentials from data breaches, allowing analysts to verify
+    if emails or passwords have been exposed in known breaches during security investigations and incident response
+  category: Breach Intelligence
+  tags:
+  - data-breach
+  - credential-exposure
+  - breach-intelligence
+  - identity-compromise
+  - incident-response
+  homepage: https://haveibeenpwned.com
+  logo:
+    file: integrations/vendors/HIBP/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HIBP/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HIBP/assets/logo.png
+  useCases: []
+  integrations:
+    analyzers:
+    - name: HIBP_Query
+      version: '2.0'
+      description: Query haveibeenpwned.com for a compromised email address
+      dataTypes:
+      - mail
+      file: .upstream/cortex/analyzers/HIBP/HIBP_Query.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/HIBP/HIBP_Query.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/HIBP/HIBP_Query.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 Hippocampe:
   id: Hippocampe
   name: Hippocampe
@@ -3174,137 +3174,6 @@ IBMXForce:
     totalResponders: 0
     totalFunctions: 0
     total: 1
-IP-API:
-  id: IP-API
-  name: IP-API
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: false
-  subscription_required: false
-  integrations:
-    analyzers:
-    - name: IP-API
-      version: '1.1'
-      description: Check IP address or domain using ip-api.com
-      dataTypes:
-      - ip
-      - domain
-      file: .upstream/cortex/analyzers/IP-API/IP-API.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IP-API/IP-API.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IP-API/IP-API.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-IPVoid:
-  id: IPVoid
-  name: IPVoid
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers:
-    - name: IPVoid
-      version: '1.0'
-      description: Determine whether an IP is present on any of the feeds consumed by IPVoid
-      dataTypes:
-      - ip
-      file: .upstream/cortex/analyzers/IPVoid/IPVoid.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPVoid/IPVoid.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IPVoid/IPVoid.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-IPinfo:
-  id: IPinfo
-  name: IPinfo
-  description: IPinfo provides comprehensive IP address intelligence including geolocation, ASN ownership, company details,
-    and hosted domains, enabling analysts to quickly profile network infrastructure and identify suspicious connections
-  category: OSINT & Enrichment
-  tags:
-  - ip-intelligence
-  - geolocation
-  - asn-lookup
-  - network-intelligence
-  - incident-response
-  homepage: https://ipinfo.io
-  logo:
-    file: integrations/vendors/IPinfo/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.png
-  useCases: []
-  integrations:
-    analyzers:
-    - name: IPinfo_Details
-      version: '1.0'
-      description: IPinfo details lookup.
-      dataTypes:
-      - ip
-      file: .upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
-    - name: IPinfo_Hosted_Domains
-      version: '1.0'
-      description: IPinfo hosted domains lookup.
-      dataTypes:
-      - ip
-      file: .upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 2
-    totalResponders: 0
-    totalFunctions: 0
-    total: 2
-IVRE:
-  id: IVRE
-  name: IVRE
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers:
-    - name: IVRE
-      version: '1.0'
-      description: Fetch details from an IVRE instance.
-      dataTypes:
-      - autonomous-system
-      - certificate_hash
-      - domain
-      - fqdn
-      - ip
-      - network
-      - port
-      - user-agent
-      file: .upstream/cortex/analyzers/IVRE/IVRE.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IVRE/IVRE.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IVRE/IVRE.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
 Inoitsu:
   id: Inoitsu
   name: Inoitsu
@@ -3399,6 +3268,169 @@ Investigate:
     totalResponders: 0
     totalFunctions: 0
     total: 2
+IP-API:
+  id: IP-API
+  name: IP-API
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: false
+  subscription_required: false
+  integrations:
+    analyzers:
+    - name: IP-API
+      version: '1.1'
+      description: Check IP address or domain using ip-api.com
+      dataTypes:
+      - ip
+      - domain
+      file: .upstream/cortex/analyzers/IP-API/IP-API.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IP-API/IP-API.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IP-API/IP-API.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
+IPinfo:
+  id: IPinfo
+  name: IPinfo
+  description: IPinfo provides comprehensive IP address intelligence including geolocation, ASN ownership, company details,
+    and hosted domains, enabling analysts to quickly profile network infrastructure and identify suspicious connections
+  category: OSINT & Enrichment
+  tags:
+  - ip-intelligence
+  - geolocation
+  - asn-lookup
+  - network-intelligence
+  - incident-response
+  homepage: https://ipinfo.io
+  logo:
+    file: integrations/vendors/IPinfo/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.png
+  useCases: []
+  integrations:
+    analyzers:
+    - name: IPinfo_Details
+      version: '1.0'
+      description: IPinfo details lookup.
+      dataTypes:
+      - ip
+      file: .upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
+    - name: IPinfo_Hosted_Domains
+      version: '1.0'
+      description: IPinfo hosted domains lookup.
+      dataTypes:
+      - ip
+      file: .upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 2
+    totalResponders: 0
+    totalFunctions: 0
+    total: 2
+IPVoid:
+  id: IPVoid
+  name: IPVoid
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers:
+    - name: IPVoid
+      version: '1.0'
+      description: Determine whether an IP is present on any of the feeds consumed by IPVoid
+      dataTypes:
+      - ip
+      file: .upstream/cortex/analyzers/IPVoid/IPVoid.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPVoid/IPVoid.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IPVoid/IPVoid.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
+isMalicious:
+  id: isMalicious
+  name: isMalicious
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: isMalicious_GetReport
+      version: '1.0'
+      description: Check if an IP address or domain is malicious using isMalicious.com threat intelligence. Returns risk score,
+        threat categories, reputation data, and detection sources.
+      dataTypes:
+      - ip
+      - domain
+      - fqdn
+      file: .upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
+IVRE:
+  id: IVRE
+  name: IVRE
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers:
+    - name: IVRE
+      version: '1.0'
+      description: Fetch details from an IVRE instance.
+      dataTypes:
+      - autonomous-system
+      - certificate_hash
+      - domain
+      - fqdn
+      - ip
+      - network
+      - port
+      - user-agent
+      file: .upstream/cortex/analyzers/IVRE/IVRE.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IVRE/IVRE.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IVRE/IVRE.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 JAMF:
   id: JAMF
   name: JAMF
@@ -3752,356 +3784,34 @@ LupovisProwl:
     totalResponders: 0
     totalFunctions: 0
     total: 1
-MISP:
-  id: MISP
-  name: MISP
-  description: MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicators of Compromise
-    (IOCs) and threat intelligence data, enabling collaborative defense and rapid incident response
-  category: Threat Intelligence
-  tags:
-  - threat-intelligence
-  - ioc-sharing
-  - incident-response
-  - threat-sharing
-  - collaborative-defense
-  homepage: https://www.misp-project.org
-  logo:
-    file: integrations/vendors/MISP/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MISP/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MISP/assets/logo.png
-  useCases: []
-  registration_required: false
-  subscription_required: false
-  free_subscription: true
-  integrations:
-    analyzers:
-    - name: MISP
-      version: '2.1'
-      description: Query multiple MISP instances for events containing an observable.
-      dataTypes:
-      - domain
-      - ip
-      - url
-      - fqdn
-      - uri_path
-      - user-agent
-      - hash
-      - mail
-      - mail_subject
-      - registry
-      - regexp
-      - other
-      - filename
-      - mail-subject
-      file: .upstream/cortex/analyzers/MISP/MISP.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MISP/MISP.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MISP/MISP.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-MISPWarningLists:
-  id: MISPWarningLists
-  name: MISPWarningLists
+Mailer:
+  id: Mailer
+  name: Mailer
   description: ''
   category: ''
   tags: []
   homepage: ''
   logo: {}
   useCases: []
-  registration_required: false
-  subscription_required: false
-  free_subscription: false
-  integrations:
-    analyzers:
-    - name: MISPWarningLists
-      version: '2.0'
-      description: Check IoCs/Observables against MISP Warninglists to filter false positives.
-      dataTypes:
-      - ip
-      - hash
-      - domain
-      - fqdn
-      - url
-      file: .upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-MSDefenderEndpoints:
-  id: MSDefenderEndpoints
-  name: Microsoft Defender for Endpoint
-  description: Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, investigation,
-    and automated response capabilities across Windows, macOS, Linux, iOS, and Android devices for comprehensive endpoint
-    security
-  category: EDR
-  tags:
-  - edr
-  - endpoint-protection
-  - threat-detection
-  - automated-response
-  - incident-response
-  - microsoft
-  homepage: https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint
-  logo:
-    file: integrations/vendors/MSDefenderEndpoints/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png
-  useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: false
   integrations:
     analyzers: []
     responders:
-    - name: MSDefender-FullVirusscan
+    - name: Mailer
       version: '1.0'
-      description: Run full virus scan to machine with Microsoft Defender for Endpoints
+      description: Send an email with information from a TheHive case or alert
       dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
-    - name: MSDefender-UnRestrictAppExecution
-      version: '1.0'
-      description: Enable execution of any application on the device
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
-    - name: MSDefender-RestrictAppExecution
-      version: '1.0'
-      description: Restrict execution of all applications on the device except a predefined set
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
-    - name: MSDefender-AutoInvestigation
-      version: '1.0'
-      description: Start an automated investigation on a device
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
-    - name: MSDefender-PushIOC-Alert
-      version: '2.0'
-      description: Push IOC to Defender client. Alert mode
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
-    - name: MSDefender-IsolateMachine
-      version: '1.0'
-      description: Isolate machine with Microsoft Defender for Endpoints
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
-    - name: MSDefender-PushIOC-Block
-      version: '2.0'
-      description: Push IOC to Defender client. Blocking mode
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
-    - name: MSDefender-UnisolateMachine
-      version: '1.0'
-      description: Unisolate machine with Microsoft Defender for Endpoints
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json
+      - thehive:case
+      - thehive:alert
+      - thehive:case_task
+      file: .upstream/cortex/responders/Mailer/Mailer.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Mailer/Mailer.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Mailer/Mailer.json
     functions: []
   stats:
     totalAnalyzers: 0
-    totalResponders: 8
+    totalResponders: 1
     totalFunctions: 0
-    total: 8
-MSDefenderOffice365:
-  id: MSDefenderOffice365
-  name: Microsoft Defender for Office 365
-  description: Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting
-    phishing, malware, and business email compromise attempts with automated investigation and response capabilities
-  category: Email Security
-  tags:
-  - email-security
-  - phishing-protection
-  - malware-detection
-  - threat-protection
-  - incident-response
-  - microsoft
-  homepage: https://www.microsoft.com/security/business/threat-protection/office-365-defender
-  logo:
-    file: integrations/vendors/MSDefenderOffice365/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
-  useCases: []
-  registration_required:
-  - true
-  - false
-  subscription_required:
-  - true
-  - false
-  free_subscription:
-  - true
-  - false
-  integrations:
-    analyzers:
-    - name: MSDefenderOffice365_SafeLinksDecoder.json
-      version: '1.0'
-      description: Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com
-        domains.
-      dataTypes:
-      - url
-      file: .upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json
-    responders:
-    - name: MSDefenderOffice365_unblock
-      version: '1.0'
-      description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-    - name: MSDefenderOffice365_block
-      version: '1.0'
-      description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 2
-    totalFunctions: 0
-    total: 3
-MSEntraID:
-  id: MSEntraID
-  name: Microsoft Entra ID
-  description: Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access management platform
-    that provides user authentication data, sign-in logs, and security insights to investigate account compromises, suspicious
-    access patterns, and identity-based attacks
-  category: Identity & Access Management
-  tags:
-  - identity-management
-  - authentication
-  - access-control
-  - user-activity
-  - sign-in-logs
-  - account-security
-  - incident-response
-  homepage: https://www.microsoft.com/security/business/identity-access/microsoft-entra-id
-  logo:
-    file: integrations/vendors/MSEntraID/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.png
-  useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: false
-  integrations:
-    analyzers:
-    - name: MSEntraID_GetDirectoryAuditLogs
-      version: '1.0'
-      description: Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.
-      dataTypes:
-      - mail
-      file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
-    - name: MSEntraID_GetUserInfo
-      version: '1.0'
-      description: Get information about the user from Microsoft Entra ID, using the mail
-      dataTypes:
-      - mail
-      file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
-    - name: MSEntraID_GetSignIns
-      version: '1.0'
-      description: Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
-      dataTypes:
-      - mail
-      file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-    - name: MSEntraID_GetManagedDevicesInfo
-      version: '1.0'
-      description: Get Microsoft Intune Managed Device(s) Details from hostname or mail
-      dataTypes:
-      - mail
-      - hostname
-      file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
-    responders:
-    - name: MSEntraID_enableUser
-      version: '1.0'
-      description: Enable user in Microsoft Entra ID for a User Principal Name. (mail)
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
-    - name: MSEntraID_revokeSignInSessions
-      version: '1.1'
-      description: Invalidates all the refresh tokens issued to applications for a Microsoft Entra ID user (as well as session
-        cookies in a user's browser)
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
-    - name: MSEntraID_disableUser
-      version: '1.0'
-      description: Disable user in Microsoft Entra ID for a User Principal Name. (mail)
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
-    - name: MSEntraID_ForcePasswordResetWithMFA
-      version: '1.0'
-      description: Force password reset at next login with MFA verification before password change for a User Principal Name.
-        (mail)
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
-    - name: MSEntraID_ForcePasswordReset
-      version: '1.0'
-      description: Force password reset at next login for a User Principal Name. (mail)
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-    functions: []
-  stats:
-    totalAnalyzers: 4
-    totalResponders: 5
-    totalFunctions: 0
-    total: 9
+    total: 1
 MailIncidentStatus:
   id: MailIncidentStatus
   name: MailIncidentStatus
@@ -4125,34 +3835,6 @@ MailIncidentStatus:
       file: .upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 1
-    totalFunctions: 0
-    total: 1
-Mailer:
-  id: Mailer
-  name: Mailer
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers: []
-    responders:
-    - name: Mailer
-      version: '1.0'
-      description: Send an email with information from a TheHive case or alert
-      dataTypes:
-      - thehive:case
-      - thehive:alert
-      - thehive:case_task
-      file: .upstream/cortex/responders/Mailer/Mailer.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Mailer/Mailer.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Mailer/Mailer.json
     functions: []
   stats:
     totalAnalyzers: 0
@@ -4458,6 +4140,90 @@ Minemeld:
     totalResponders: 1
     totalFunctions: 0
     total: 1
+MISP:
+  id: MISP
+  name: MISP
+  description: MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicators of Compromise
+    (IOCs) and threat intelligence data, enabling collaborative defense and rapid incident response
+  category: Threat Intelligence
+  tags:
+  - threat-intelligence
+  - ioc-sharing
+  - incident-response
+  - threat-sharing
+  - collaborative-defense
+  homepage: https://www.misp-project.org
+  logo:
+    file: integrations/vendors/MISP/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MISP/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MISP/assets/logo.png
+  useCases: []
+  registration_required: false
+  subscription_required: false
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: MISP
+      version: '2.1'
+      description: Query multiple MISP instances for events containing an observable.
+      dataTypes:
+      - domain
+      - ip
+      - url
+      - fqdn
+      - uri_path
+      - user-agent
+      - hash
+      - mail
+      - mail_subject
+      - registry
+      - regexp
+      - other
+      - filename
+      - mail-subject
+      file: .upstream/cortex/analyzers/MISP/MISP.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MISP/MISP.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MISP/MISP.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
+MISPWarningLists:
+  id: MISPWarningLists
+  name: MISPWarningLists
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: false
+  subscription_required: false
+  free_subscription: false
+  integrations:
+    analyzers:
+    - name: MISPWarningLists
+      version: '2.0'
+      description: Check IoCs/Observables against MISP Warninglists to filter false positives.
+      dataTypes:
+      - ip
+      - hash
+      - domain
+      - fqdn
+      - url
+      file: .upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 MnemonicPDNS:
   id: MnemonicPDNS
   name: Mnemonic Passive DNS
@@ -4503,6 +4269,272 @@ MnemonicPDNS:
     totalResponders: 0
     totalFunctions: 0
     total: 2
+MSDefenderEndpoints:
+  id: MSDefenderEndpoints
+  name: Microsoft Defender for Endpoint
+  description: Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, investigation,
+    and automated response capabilities across Windows, macOS, Linux, iOS, and Android devices for comprehensive endpoint
+    security
+  category: EDR
+  tags:
+  - edr
+  - endpoint-protection
+  - threat-detection
+  - automated-response
+  - incident-response
+  - microsoft
+  homepage: https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint
+  logo:
+    file: integrations/vendors/MSDefenderEndpoints/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: false
+  integrations:
+    analyzers: []
+    responders:
+    - name: MSDefender-FullVirusscan
+      version: '1.0'
+      description: Run full virus scan to machine with Microsoft Defender for Endpoints
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
+    - name: MSDefender-UnRestrictAppExecution
+      version: '1.0'
+      description: Enable execution of any application on the device
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
+    - name: MSDefender-RestrictAppExecution
+      version: '1.0'
+      description: Restrict execution of all applications on the device except a predefined set
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
+    - name: MSDefender-AutoInvestigation
+      version: '1.0'
+      description: Start an automated investigation on a device
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
+    - name: MSDefender-PushIOC-Alert
+      version: '2.0'
+      description: Push IOC to Defender client. Alert mode
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
+    - name: MSDefender-IsolateMachine
+      version: '1.0'
+      description: Isolate machine with Microsoft Defender for Endpoints
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
+    - name: MSDefender-PushIOC-Block
+      version: '2.0'
+      description: Push IOC to Defender client. Blocking mode
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
+    - name: MSDefender-UnisolateMachine
+      version: '1.0'
+      description: Unisolate machine with Microsoft Defender for Endpoints
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 8
+    totalFunctions: 0
+    total: 8
+MSDefenderOffice365:
+  id: MSDefenderOffice365
+  name: Microsoft Defender for Office 365
+  description: Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting
+    phishing, malware, and business email compromise attempts with automated investigation and response capabilities
+  category: Email Security
+  tags:
+  - email-security
+  - phishing-protection
+  - malware-detection
+  - threat-protection
+  - incident-response
+  - microsoft
+  homepage: https://www.microsoft.com/security/business/threat-protection/office-365-defender
+  logo:
+    file: integrations/vendors/MSDefenderOffice365/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
+  useCases: []
+  registration_required:
+  - true
+  - false
+  subscription_required:
+  - true
+  - false
+  free_subscription:
+  - true
+  - false
+  integrations:
+    analyzers:
+    - name: MSDefenderOffice365_SafeLinksDecoder.json
+      version: '1.0'
+      description: Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com
+        domains.
+      dataTypes:
+      - url
+      file: .upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json
+    responders:
+    - name: MSDefenderOffice365_unblock
+      version: '1.0'
+      description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+    - name: MSDefenderOffice365_block
+      version: '1.0'
+      description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 2
+    totalFunctions: 0
+    total: 3
+MSEntraID:
+  id: MSEntraID
+  name: Microsoft Entra ID
+  description: Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access management platform
+    that provides user authentication data, sign-in logs, and security insights to investigate account compromises, suspicious
+    access patterns, and identity-based attacks
+  category: Identity & Access Management
+  tags:
+  - identity-management
+  - authentication
+  - access-control
+  - user-activity
+  - sign-in-logs
+  - account-security
+  - incident-response
+  homepage: https://www.microsoft.com/security/business/identity-access/microsoft-entra-id
+  logo:
+    file: integrations/vendors/MSEntraID/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.png
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: false
+  integrations:
+    analyzers:
+    - name: MSEntraID_GetDirectoryAuditLogs
+      version: '1.0'
+      description: Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.
+      dataTypes:
+      - mail
+      file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
+    - name: MSEntraID_GetUserInfo
+      version: '1.0'
+      description: Get information about the user from Microsoft Entra ID, using the mail
+      dataTypes:
+      - mail
+      file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
+    - name: MSEntraID_GetSignIns
+      version: '1.0'
+      description: Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
+      dataTypes:
+      - mail
+      file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    - name: MSEntraID_GetManagedDevicesInfo
+      version: '1.0'
+      description: Get Microsoft Intune Managed Device(s) Details from hostname or mail
+      dataTypes:
+      - mail
+      - hostname
+      file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+    responders:
+    - name: MSEntraID_enableUser
+      version: '1.0'
+      description: Enable user in Microsoft Entra ID for a User Principal Name. (mail)
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
+    - name: MSEntraID_revokeSignInSessions
+      version: '1.1'
+      description: Invalidates all the refresh tokens issued to applications for a Microsoft Entra ID user (as well as session
+        cookies in a user's browser)
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
+    - name: MSEntraID_disableUser
+      version: '1.0'
+      description: Disable user in Microsoft Entra ID for a User Principal Name. (mail)
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    - name: MSEntraID_ForcePasswordResetWithMFA
+      version: '1.0'
+      description: Force password reset at next login with MFA verification before password change for a User Principal Name.
+        (mail)
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
+    - name: MSEntraID_ForcePasswordReset
+      version: '1.0'
+      description: Force password reset at next login for a User Principal Name. (mail)
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+    functions: []
+  stats:
+    totalAnalyzers: 4
+    totalResponders: 5
+    totalFunctions: 0
+    total: 9
 MsgParser:
   id: MsgParser
   name: MsgParser
@@ -4529,6 +4561,36 @@ MsgParser:
     totalResponders: 0
     totalFunctions: 0
     total: 1
+n8n:
+  id: n8n
+  name: n8n
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers: []
+    responders:
+    - name: n8n
+      version: '1.0'
+      description: Send data to n8n via webhook
+      dataTypes:
+      - thehive:case
+      - thehive:alert
+      - thehive:case_artifact
+      - thehive:case_task
+      - thehive:case_task_log
+      file: .upstream/cortex/responders/n8n/n8n.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/n8n/n8n.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/n8n/n8n.json
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 1
+    totalFunctions: 0
+    total: 1
 NERD:
   id: NERD
   name: NERD
@@ -4551,33 +4613,6 @@ NERD:
       file: .upstream/cortex/analyzers/NERD/nerd.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/NERD/nerd.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/NERD/nerd.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-NSRL:
-  id: NSRL
-  name: NSRL
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers:
-    - name: NSRL
-      version: '1.0'
-      description: Query NSRL
-      dataTypes:
-      - hash
-      - filename
-      file: .upstream/cortex/analyzers/NSRL/NSRL.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/NSRL/NSRL.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/NSRL/NSRL.json
     responders: []
     functions: []
   stats:
@@ -4641,72 +4676,26 @@ Netcraft:
     totalResponders: 1
     totalFunctions: 0
     total: 1
-ONYPHEActiveScan:
-  id: ONYPHEActiveScan
-  name: ONYPHEActiveScan
+NSRL:
+  id: NSRL
+  name: NSRL
   description: ''
   category: ''
   tags: []
   homepage: ''
   logo: {}
   useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: false
   integrations:
     analyzers:
-    - name: ONYPHE_OnDemandScan
+    - name: NSRL
       version: '1.0'
-      description: Perform active scan of an asset using a Scanyphe Entreprise On-Demand scanner
+      description: Query NSRL
       dataTypes:
-      - ip
-      - domain
-      - fqdn
-      file: .upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-OTXQuery:
-  id: OTXQuery
-  name: AlienVault OTX
-  description: AlienVault Open Threat Exchange (OTX) is a collaborative threat intelligence platform where security researchers
-    share IOCs, attack patterns, and threat data, enabling community-driven defense and rapid threat validation
-  category: Threat Intelligence
-  tags:
-  - threat-intelligence
-  - community-intelligence
-  - ioc-sharing
-  - collaborative-defense
-  - incident-response
-  homepage: https://otx.alienvault.com
-  logo:
-    file: integrations/vendors/OTXQuery/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/OTXQuery/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/OTXQuery/assets/logo.png
-  useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: true
-  integrations:
-    analyzers:
-    - name: OTXQuery
-      version: '2.0'
-      description: Query AlienVault OTX for IPs, domains, URLs, or file hashes.
-      dataTypes:
-      - url
-      - domain
-      - file
       - hash
-      - ip
-      file: .upstream/cortex/analyzers/OTXQuery/OTXQuery.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json
+      - filename
+      file: .upstream/cortex/analyzers/NSRL/NSRL.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/NSRL/NSRL.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/NSRL/NSRL.json
     responders: []
     functions: []
   stats:
@@ -4833,6 +4822,37 @@ Onyphe:
     totalResponders: 0
     totalFunctions: 0
     total: 5
+ONYPHEActiveScan:
+  id: ONYPHEActiveScan
+  name: ONYPHEActiveScan
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: false
+  integrations:
+    analyzers:
+    - name: ONYPHE_OnDemandScan
+      version: '1.0'
+      description: Perform active scan of an asset using a Scanyphe Entreprise On-Demand scanner
+      dataTypes:
+      - ip
+      - domain
+      - fqdn
+      file: .upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 OpenCTI:
   id: OpenCTI
   name: OpenCTI
@@ -4919,6 +4939,48 @@ OrionMalware:
       file: .upstream/cortex/analyzers/OrionMalware/OrionMalware.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OrionMalware/OrionMalware.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OrionMalware/OrionMalware.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
+OTXQuery:
+  id: OTXQuery
+  name: AlienVault OTX
+  description: AlienVault Open Threat Exchange (OTX) is a collaborative threat intelligence platform where security researchers
+    share IOCs, attack patterns, and threat data, enabling community-driven defense and rapid threat validation
+  category: Threat Intelligence
+  tags:
+  - threat-intelligence
+  - community-intelligence
+  - ioc-sharing
+  - collaborative-defense
+  - incident-response
+  homepage: https://otx.alienvault.com
+  logo:
+    file: integrations/vendors/OTXQuery/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/OTXQuery/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/OTXQuery/assets/logo.png
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: OTXQuery
+      version: '2.0'
+      description: Query AlienVault OTX for IPs, domains, URLs, or file hashes.
+      dataTypes:
+      - url
+      - domain
+      - file
+      - hash
+      - ip
+      file: .upstream/cortex/analyzers/OTXQuery/OTXQuery.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json
     responders: []
     functions: []
   stats:
@@ -5381,35 +5443,6 @@ PayloadSecurity:
     totalResponders: 0
     totalFunctions: 0
     total: 2
-PhishTank:
-  id: PhishTank
-  name: PhishTank
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: true
-  integrations:
-    analyzers:
-    - name: PhishTank_CheckURL
-      version: '2.1'
-      description: Use PhishTank to check if a URL is a verified phishing site.
-      dataTypes:
-      - url
-      file: .upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
 PhishingInitiative:
   id: PhishingInitiative
   name: PhishingInitiative
@@ -5449,6 +5482,35 @@ PhishingInitiative:
     totalResponders: 0
     totalFunctions: 0
     total: 2
+PhishTank:
+  id: PhishTank
+  name: PhishTank
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: PhishTank_CheckURL
+      version: '2.1'
+      description: Use PhishTank to check if a URL is a verified phishing site.
+      dataTypes:
+      - url
+      file: .upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 Proofpoint:
   id: Proofpoint
   name: Proofpoint
@@ -5601,34 +5663,6 @@ QrDecode:
   stats:
     totalAnalyzers: 1
     totalResponders: 0
-    totalFunctions: 0
-    total: 1
-RT4:
-  id: RT4
-  name: RT4
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers: []
-    responders:
-    - name: RT4-CreateTicket
-      version: '1.0'
-      description: Cortex Responder to create a ticket in RT4 from TheHive observables or alerts
-      dataTypes:
-      - thehive:case_artifact
-      - thehive:alert
-      - thehive:case
-      file: .upstream/cortex/responders/RT4/rt4.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/RT4/rt4.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/RT4/rt4.json
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 1
     totalFunctions: 0
     total: 1
 RecordedFuture:
@@ -5926,6 +5960,68 @@ Robtex:
     totalResponders: 0
     totalFunctions: 0
     total: 3
+RT4:
+  id: RT4
+  name: RT4
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers: []
+    responders:
+    - name: RT4-CreateTicket
+      version: '1.0'
+      description: Cortex Responder to create a ticket in RT4 from TheHive observables or alerts
+      dataTypes:
+      - thehive:case_artifact
+      - thehive:alert
+      - thehive:case
+      file: .upstream/cortex/responders/RT4/rt4.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/RT4/rt4.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/RT4/rt4.json
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 1
+    totalFunctions: 0
+    total: 1
+SecurityTrails:
+  id: SecurityTrails
+  name: SecurityTrails
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers:
+    - name: SecurityTrails_Passive_DNS
+      version: '1.0'
+      description: SecurityTrails Passive DNS Lookup.
+      dataTypes:
+      - ip
+      file: .upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json
+    - name: SecurityTrails_Whois
+      version: '1.0'
+      description: SecurityTrails Whois Lookup.
+      dataTypes:
+      - domain
+      file: .upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 2
+    totalResponders: 0
+    totalFunctions: 0
+    total: 2
 SEKOIAIntelligenceCenter:
   id: SEKOIAIntelligenceCenter
   name: SEKOIAIntelligenceCenter
@@ -5983,40 +6079,6 @@ SEKOIAIntelligenceCenter:
     totalResponders: 0
     totalFunctions: 0
     total: 3
-SecurityTrails:
-  id: SecurityTrails
-  name: SecurityTrails
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers:
-    - name: SecurityTrails_Passive_DNS
-      version: '1.0'
-      description: SecurityTrails Passive DNS Lookup.
-      dataTypes:
-      - ip
-      file: .upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json
-    - name: SecurityTrails_Whois
-      version: '1.0'
-      description: SecurityTrails Whois Lookup.
-      dataTypes:
-      - domain
-      file: .upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 2
-    totalResponders: 0
-    totalFunctions: 0
-    total: 2
 SendGrid:
   id: SendGrid
   name: SendGrid
@@ -6842,6 +6904,24 @@ TestAnalyzer:
     totalResponders: 0
     totalFunctions: 0
     total: 2
+Threatcrowd:
+  id: Threatcrowd
+  name: Threatcrowd
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers: []
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 0
+    total: 0
 ThreatGrid:
   id: ThreatGrid
   name: ThreatGrid
@@ -6928,24 +7008,6 @@ ThreatResponse:
     totalResponders: 0
     totalFunctions: 0
     total: 1
-Threatcrowd:
-  id: Threatcrowd
-  name: Threatcrowd
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers: []
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 0
-    totalFunctions: 0
-    total: 0
 Thunderstorm:
   id: Thunderstorm
   name: Thunderstorm
@@ -7065,48 +7127,6 @@ Triage:
     totalResponders: 0
     totalFunctions: 0
     total: 1
-URLhaus:
-  id: URLhaus
-  name: URLhaus
-  description: URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution URLs, providing
-    real-time intelligence on malicious domains and payload delivery infrastructure used in active campaigns
-  category: Threat Intelligence
-  tags:
-  - malware-urls
-  - threat-intelligence
-  - url-tracking
-  - malware-distribution
-  - incident-response
-  homepage: https://urlhaus.abuse.ch
-  logo:
-    file: integrations/vendors/URLhaus/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/URLhaus/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/URLhaus/assets/logo.png
-  useCases: []
-  registration_required: true
-  subscription_required: false
-  free_subscription: true
-  integrations:
-    analyzers:
-    - name: URLhaus
-      version: '2.0'
-      description: Search domains, IPs, URLs or hashes on URLhaus.
-      dataTypes:
-      - domain
-      - fqdn
-      - url
-      - hash
-      - ip
-      file: .upstream/cortex/analyzers/URLhaus/URLhaus.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/URLhaus/URLhaus.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/URLhaus/URLhaus.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
 Umbrella:
   id: Umbrella
   name: Umbrella
@@ -7186,6 +7206,48 @@ UnshortenLink:
     totalResponders: 0
     totalFunctions: 0
     total: 1
+URLhaus:
+  id: URLhaus
+  name: URLhaus
+  description: URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution URLs, providing
+    real-time intelligence on malicious domains and payload delivery infrastructure used in active campaigns
+  category: Threat Intelligence
+  tags:
+  - malware-urls
+  - threat-intelligence
+  - url-tracking
+  - malware-distribution
+  - incident-response
+  homepage: https://urlhaus.abuse.ch
+  logo:
+    file: integrations/vendors/URLhaus/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/URLhaus/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/URLhaus/assets/logo.png
+  useCases: []
+  registration_required: true
+  subscription_required: false
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: URLhaus
+      version: '2.0'
+      description: Search domains, IPs, URLs or hashes on URLhaus.
+      dataTypes:
+      - domain
+      - fqdn
+      - url
+      - hash
+      - ip
+      file: .upstream/cortex/analyzers/URLhaus/URLhaus.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/URLhaus/URLhaus.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/URLhaus/URLhaus.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 Urlscan.io:
   id: Urlscan.io
   name: URLScan.io
@@ -7235,34 +7297,6 @@ Urlscan.io:
     totalResponders: 0
     totalFunctions: 0
     total: 2
-VMRay:
-  id: VMRay
-  name: VMRay
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers:
-    - name: VMRay
-      version: '4.1'
-      description: VMRay Sandbox file and URL analysis.
-      dataTypes:
-      - hash
-      - file
-      - url
-      file: .upstream/cortex/analyzers/VMRay/VMRay.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VMRay/VMRay.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VMRay/VMRay.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
 Valhalla:
   id: Valhalla
   name: Valhalla
@@ -7389,6 +7423,36 @@ Verifalia:
     totalResponders: 0
     totalFunctions: 0
     total: 1
+Virusshare:
+  id: Virusshare
+  name: Virusshare
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: false
+  subscription_required: false
+  free_subscription: false
+  integrations:
+    analyzers:
+    - name: Virusshare
+      version: '2.0'
+      description: Search for MD5 hashes in Virusshare.com hash list
+      dataTypes:
+      - hash
+      - file
+      file: .upstream/cortex/analyzers/Virusshare/Virusshare.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Virusshare/Virusshare.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Virusshare/Virusshare.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    total: 1
 VirusTotal:
   id: VirusTotal
   name: VirusTotal
@@ -7459,36 +7523,6 @@ VirusTotal:
     totalResponders: 0
     totalFunctions: 0
     total: 4
-Virusshare:
-  id: Virusshare
-  name: Virusshare
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: false
-  subscription_required: false
-  free_subscription: false
-  integrations:
-    analyzers:
-    - name: Virusshare
-      version: '2.0'
-      description: Search for MD5 hashes in Virusshare.com hash list
-      dataTypes:
-      - hash
-      - file
-      file: .upstream/cortex/analyzers/Virusshare/Virusshare.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Virusshare/Virusshare.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Virusshare/Virusshare.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
 VirustotalDownloader:
   id: VirustotalDownloader
   name: VirustotalDownloader
@@ -7516,6 +7550,34 @@ VirustotalDownloader:
   stats:
     totalAnalyzers: 0
     totalResponders: 1
+    totalFunctions: 0
+    total: 1
+VMRay:
+  id: VMRay
+  name: VMRay
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers:
+    - name: VMRay
+      version: '4.1'
+      description: VMRay Sandbox file and URL analysis.
+      dataTypes:
+      - hash
+      - file
+      - url
+      file: .upstream/cortex/analyzers/VMRay/VMRay.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VMRay/VMRay.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VMRay/VMRay.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
     totalFunctions: 0
     total: 1
 Vulners:
@@ -7557,33 +7619,6 @@ Vulners:
     totalResponders: 0
     totalFunctions: 0
     total: 2
-WOT:
-  id: WOT
-  name: WOT
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers:
-    - name: WOT_Lookup
-      version: '2.0'
-      description: Use Web of Trust to check a domain's reputation.
-      dataTypes:
-      - domain
-      - fqdn
-      file: .upstream/cortex/analyzers/WOT/WOT_lookup.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/WOT/WOT_lookup.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/WOT/WOT_lookup.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
 Watcher:
   id: Watcher
   name: Watcher
@@ -7651,6 +7686,33 @@ Wazuh:
   stats:
     totalAnalyzers: 0
     totalResponders: 1
+    totalFunctions: 0
+    total: 1
+WOT:
+  id: WOT
+  name: WOT
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  integrations:
+    analyzers:
+    - name: WOT_Lookup
+      version: '2.0'
+      description: Use Web of Trust to check a domain's reputation.
+      dataTypes:
+      - domain
+      - fqdn
+      file: .upstream/cortex/analyzers/WOT/WOT_lookup.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/WOT/WOT_lookup.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/WOT/WOT_lookup.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
     totalFunctions: 0
     total: 1
 Yara:
@@ -7816,65 +7878,3 @@ Zscaler:
     totalResponders: 0
     totalFunctions: 0
     total: 2
-isMalicious:
-  id: isMalicious
-  name: isMalicious
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: true
-  integrations:
-    analyzers:
-    - name: isMalicious_GetReport
-      version: '1.0'
-      description: Check if an IP address or domain is malicious using isMalicious.com threat intelligence. Returns risk score,
-        threat categories, reputation data, and detection sources.
-      dataTypes:
-      - ip
-      - domain
-      - fqdn
-      file: .upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-n8n:
-  id: n8n
-  name: n8n
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  integrations:
-    analyzers: []
-    responders:
-    - name: n8n
-      version: '1.0'
-      description: Send data to n8n via webhook
-      dataTypes:
-      - thehive:case
-      - thehive:alert
-      - thehive:case_artifact
-      - thehive:case_task
-      - thehive:case_task_log
-      file: .upstream/cortex/responders/n8n/n8n.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/n8n/n8n.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/n8n/n8n.json
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 1
-    totalFunctions: 0
-    total: 1

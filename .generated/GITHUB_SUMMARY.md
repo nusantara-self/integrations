@@ -10,11 +10,4 @@
 
 ## Changes
 
-### ✅ Added Vendors (1)
-
-- `isMalicious`
-
-### 🔄 Updated Vendors (2)
-
-- **Microsoft Defender for Office 365**: 2 → 3 (+1)
-- **Zscaler**: 1 → 2 (+1)
+No changes detected.

@@ -128,14 +128,14 @@ Auto-generated catalog of TheHive and Cortex integrations.
 **[Google Threat Intelligence](docs/vendors/GoogleThreatIntelligence/overview.md)** (5 integrations)
   Google Threat Intelligence (formerly VirusTotal) provides comprehensive malware analysis, threat ...
 
-**[MISP](docs/vendors/MISP/overview.md)** (1 integrations)
-  MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicato...
-
 **[Maltiverse](docs/vendors/Maltiverse/overview.md)** (1 integrations)
   Maltiverse is a threat intelligence platform that aggregates and enriches IOCs from multiple sour...
 
 **[MalwareBazaar](docs/vendors/MalwareBazaar/overview.md)** (1 integrations)
   MalwareBazaar by Abuse.ch is a community-driven malware sample repository that enables analysts t...
+
+**[MISP](docs/vendors/MISP/overview.md)** (1 integrations)
+  MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicato...
 
 **[Recorded Future](docs/vendors/RecordedFuture/overview.md)** (1 integrations)
   Recorded Future is a real-time threat intelligence platform that analyzes data from the open web,...
@@ -152,31 +152,31 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 🔤 All Vendors (A-Z)
 
-- **[AILOnionLookup](docs/vendors/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
-- **[AMPforEndpoints](docs/vendors/AMPforEndpoints/overview.md)** - *Uncategorized* - 5 responders
-- **[AWSLambda](docs/vendors/AWSLambda/overview.md)** - *Uncategorized* - 1 responders
-- **[AWX](docs/vendors/AWX/overview.md)** - *Uncategorized* - 1 responders
-- **[AbuseIPDB](docs/vendors/AbuseIPDB/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Abuse_Finder](docs/vendors/Abuse_Finder/overview.md)** - *Uncategorized* - 1 analyzers
+- **[AbuseIPDB](docs/vendors/AbuseIPDB/overview.md)** - *Threat Intelligence* - 1 analyzers
+- **[AILOnionLookup](docs/vendors/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Airtable](docs/vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions
 - **[AlienVault OTX](docs/vendors/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers
+- **[AMPforEndpoints](docs/vendors/AMPforEndpoints/overview.md)** - *Uncategorized* - 5 responders
 - **[AnyRun](docs/vendors/AnyRun/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Autofocus](docs/vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
+- **[AWSLambda](docs/vendors/AWSLambda/overview.md)** - *Uncategorized* - 1 responders
+- **[AWX](docs/vendors/AWX/overview.md)** - *Uncategorized* - 1 responders
 - **[Axur](docs/vendors/Axur/overview.md)** - *Uncategorized* - 1 analyzers
 - **[BackscatterIO](docs/vendors/BackscatterIO/overview.md)** - *Uncategorized* - 2 analyzers
 - **[BinalyzeAIR](docs/vendors/BinalyzeAIR/overview.md)** - *Uncategorized* - 2 responders
 - **[C1fApp](docs/vendors/C1fApp/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CAPA](docs/vendors/Capa/overview.md)** - *Malware Analysis* - 1 analyzers
+- **[Censys](docs/vendors/Censys/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CERTatPassiveDNS](docs/vendors/CERTatPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
+- **[ChainAbuse](docs/vendors/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CheckPhish](docs/vendors/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
+- **[CheckPoint](docs/vendors/CheckPoint/overview.md)** - *Uncategorized* - 2 responders
 - **[CIRCLHashlookup](docs/vendors/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCLPassiveDNS](docs/vendors/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCLPassiveSSL](docs/vendors/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCLVulnerabilityLookup](docs/vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CISMCAP](docs/vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Censys](docs/vendors/Censys/overview.md)** - *Uncategorized* - 1 analyzers
-- **[ChainAbuse](docs/vendors/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
-- **[CheckPhish](docs/vendors/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
-- **[CheckPoint](docs/vendors/CheckPoint/overview.md)** - *Uncategorized* - 2 responders
 - **[ClamAV](docs/vendors/ClamAV/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cloudflare_IP_Blocker](docs/vendors/Cloudflare_IP_Blocker/overview.md)** - *Uncategorized* - 1 responders
 - **[Cluster25](docs/vendors/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
@@ -189,18 +189,18 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[CyberCrime-Tracker](docs/vendors/CyberCrime-Tracker/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cyberprotect](docs/vendors/Cyberprotect/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cylance](docs/vendors/Cylance/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Diario](docs/vendors/Diario/overview.md)** - *Uncategorized* - No integrations
 - **[DNS-RPZ](docs/vendors/DNS-RPZ/overview.md)** - *Uncategorized* - 1 responders
 - **[DNSDB](docs/vendors/DNSDB/overview.md)** - *Uncategorized* - 3 analyzers
+- **[DNSdumpster](docs/vendors/DNSdumpster/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DNSLookingglass](docs/vendors/DNSLookingglass/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DNSSinkhole](docs/vendors/DNSSinkhole/overview.md)** - *Uncategorized* - 1 analyzers
-- **[DNSdumpster](docs/vendors/DNSdumpster/overview.md)** - *Uncategorized* - 1 analyzers
-- **[DShield](docs/vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Diario](docs/vendors/Diario/overview.md)** - *Uncategorized* - No integrations
 - **[DomainMailSPFDMARC](docs/vendors/DomainMailSPFDMARC/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DomainTools](docs/vendors/DomainTools/overview.md)** - *Uncategorized* - 10 analyzers
 - **[DomainToolsIris](docs/vendors/DomainToolsIris/overview.md)** - *Uncategorized* - 2 analyzers
 - **[DomainToolsIris_AddRiskyDNSTag](docs/vendors/DomainToolsIris_AddRiskyDNSTag/overview.md)** - *Uncategorized* - 1 responders
 - **[DomainToolsIris_CheckMaliciousTags](docs/vendors/DomainToolsIris_CheckMaliciousTags/overview.md)** - *Uncategorized* - 1 responders
+- **[DShield](docs/vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Duo_Security](docs/vendors/Duo_Security/overview.md)** - *Uncategorized* - 3 responders
 - **[EchoTrail](docs/vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQ](docs/vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers
@@ -217,7 +217,6 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[ForcepointWebsensePing](docs/vendors/ForcepointWebsensePing/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Fortiguard](docs/vendors/Fortiguard/overview.md)** - *Uncategorized* - No integrations
 - **[FoxIO](docs/vendors/FoxIO/overview.md)** - *Uncategorized* - 1 analyzers
-- **[GRR](docs/vendors/GRR/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Gatewatcher_CTI](docs/vendors/Gatewatcher_CTI/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Gatewatcher_CTI_Identity](docs/vendors/Gatewatcher_CTI_Identity/overview.md)** - *Uncategorized* - 1 responders
 - **[Gmail](docs/vendors/Gmail/overview.md)** - *Uncategorized* - 5 responders
@@ -226,6 +225,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[GoogleSafebrowsing](docs/vendors/GoogleSafebrowsing/overview.md)** - *Uncategorized* - 1 analyzers
 - **[GoogleVisionAPI](docs/vendors/GoogleVisionAPI/overview.md)** - *Uncategorized* - 1 analyzers
 - **[GreyNoise](docs/vendors/GreyNoise/overview.md)** - *Uncategorized* - 1 analyzers
+- **[GRR](docs/vendors/GRR/overview.md)** - *Uncategorized* - 1 analyzers
 - **[HarfangLab](docs/vendors/HarfangLab/overview.md)** - *Uncategorized* - 31 responders
 - **[Hashdd](docs/vendors/Hashdd/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Have I Been Pwned](docs/vendors/HIBP/overview.md)** - *Breach Intelligence* - 1 analyzers
@@ -233,13 +233,14 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Hunter.io](docs/vendors/Hunterio/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[Hybrid Analysis](docs/vendors/HybridAnalysis/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[IBMXForce](docs/vendors/IBMXForce/overview.md)** - *Uncategorized* - 1 analyzers
-- **[IP-API](docs/vendors/IP-API/overview.md)** - *Uncategorized* - 1 analyzers
-- **[IPVoid](docs/vendors/IPVoid/overview.md)** - *Uncategorized* - 1 analyzers
-- **[IPinfo](docs/vendors/IPinfo/overview.md)** - *OSINT & Enrichment* - 2 analyzers
-- **[IVRE](docs/vendors/IVRE/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Inoitsu](docs/vendors/Inoitsu/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IntezerCommunity](docs/vendors/IntezerCommunity/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Investigate](docs/vendors/Investigate/overview.md)** - *Uncategorized* - 2 analyzers
+- **[IP-API](docs/vendors/IP-API/overview.md)** - *Uncategorized* - 1 analyzers
+- **[IPinfo](docs/vendors/IPinfo/overview.md)** - *OSINT & Enrichment* - 2 analyzers
+- **[IPVoid](docs/vendors/IPVoid/overview.md)** - *Uncategorized* - 1 analyzers
+- **[isMalicious](docs/vendors/isMalicious/overview.md)** - *Uncategorized* - 1 analyzers
+- **[IVRE](docs/vendors/IVRE/overview.md)** - *Uncategorized* - 1 analyzers
 - **[JAMF](docs/vendors/JAMF/overview.md)** - *Uncategorized* - 1 functions
 - **[JAMFProtect](docs/vendors/JAMFProtect/overview.md)** - *Uncategorized* - 2 responders
 - **[JIRA](docs/vendors/JIRA/overview.md)** - *Uncategorized* - 1 functions
@@ -251,10 +252,8 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[LdapQuery](docs/vendors/LdapQuery/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Lookyloo](docs/vendors/Lookyloo/overview.md)** - *Uncategorized* - 1 analyzers
 - **[LupovisProwl](docs/vendors/LupovisProwl/overview.md)** - *Uncategorized* - 1 analyzers
-- **[MISP](docs/vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
-- **[MISPWarningLists](docs/vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
-- **[MailIncidentStatus](docs/vendors/MailIncidentStatus/overview.md)** - *Uncategorized* - 1 responders
 - **[Mailer](docs/vendors/Mailer/overview.md)** - *Uncategorized* - 1 responders
+- **[MailIncidentStatus](docs/vendors/MailIncidentStatus/overview.md)** - *Uncategorized* - 1 responders
 - **[Malpedia](docs/vendors/Malpedia/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Maltiverse](docs/vendors/Maltiverse/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MalwareBazaar](docs/vendors/MalwareBazaar/overview.md)** - *Threat Intelligence* - 1 analyzers
@@ -266,15 +265,18 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Microsoft Defender for Office 365](docs/vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 2 responders
 - **[Microsoft Entra ID](docs/vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
 - **[Minemeld](docs/vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
+- **[MISP](docs/vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
+- **[MISPWarningLists](docs/vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](docs/vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[MsgParser](docs/vendors/MsgParser/overview.md)** - *Uncategorized* - 1 analyzers
+- **[n8n](docs/vendors/n8n/overview.md)** - *Uncategorized* - 1 responders
 - **[NERD](docs/vendors/NERD/overview.md)** - *Uncategorized* - 1 analyzers
-- **[NSRL](docs/vendors/NSRL/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Nessus](docs/vendors/Nessus/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Netcraft](docs/vendors/Netcraft/overview.md)** - *Uncategorized* - 1 responders
+- **[NSRL](docs/vendors/NSRL/overview.md)** - *Uncategorized* - 1 analyzers
+- **[OktaUserLookup](docs/vendors/OktaUserLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ONYPHE](docs/vendors/Onyphe/overview.md)** - *Attack Surface Intelligence* - 5 analyzers
 - **[ONYPHEActiveScan](docs/vendors/ONYPHEActiveScan/overview.md)** - *Uncategorized* - 1 analyzers
-- **[OktaUserLookup](docs/vendors/OktaUserLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OpenCTI](docs/vendors/OpenCTI/overview.md)** - *Uncategorized* - 2 analyzers
 - **[OrionMalware](docs/vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
 - **[PaloAltoCortexXDR](docs/vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 3 responders
@@ -283,19 +285,19 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[PassiveTotal](docs/vendors/PassiveTotal/overview.md)** - *Uncategorized* - 11 analyzers
 - **[Patrowl](docs/vendors/Patrowl/overview.md)** - *Uncategorized* - 1 analyzers
 - **[PayloadSecurity](docs/vendors/PayloadSecurity/overview.md)** - *Uncategorized* - 2 analyzers
-- **[PhishTank](docs/vendors/PhishTank/overview.md)** - *Uncategorized* - 1 analyzers
 - **[PhishingInitiative](docs/vendors/PhishingInitiative/overview.md)** - *Uncategorized* - 2 analyzers
+- **[PhishTank](docs/vendors/PhishTank/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Proofpoint](docs/vendors/Proofpoint/overview.md)** - *Email Security* - 1 analyzers, 2 functions
 - **[Pulsedive](docs/vendors/Pulsedive/overview.md)** - *Uncategorized* - 1 analyzers
 - **[QRadarAutoClose](docs/vendors/QRadarAutoClose/overview.md)** - *Uncategorized* - 1 responders
 - **[QrDecode](docs/vendors/QrDecode/overview.md)** - *Uncategorized* - 1 analyzers
-- **[RT4](docs/vendors/RT4/overview.md)** - *Uncategorized* - 1 responders
 - **[Recorded Future](docs/vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Redmine](docs/vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[RiskIQ](docs/vendors/RiskIQ/overview.md)** - *Uncategorized* - 16 analyzers, 1 responders
 - **[Robtex](docs/vendors/Robtex/overview.md)** - *Uncategorized* - 3 analyzers
-- **[SEKOIAIntelligenceCenter](docs/vendors/SEKOIAIntelligenceCenter/overview.md)** - *Uncategorized* - 3 analyzers
+- **[RT4](docs/vendors/RT4/overview.md)** - *Uncategorized* - 1 responders
 - **[SecurityTrails](docs/vendors/SecurityTrails/overview.md)** - *Uncategorized* - 2 analyzers
+- **[SEKOIAIntelligenceCenter](docs/vendors/SEKOIAIntelligenceCenter/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SendGrid](docs/vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders
 - **[SentinelOne](docs/vendors/SentinelOne/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Shodan](docs/vendors/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers
@@ -315,38 +317,36 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Telegram](docs/vendors/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](docs/vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[TestAnalyzer](docs/vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
+- **[Threatcrowd](docs/vendors/Threatcrowd/overview.md)** - *Uncategorized* - No integrations
 - **[ThreatGrid](docs/vendors/ThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](docs/vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatResponse](docs/vendors/ThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Threatcrowd](docs/vendors/Threatcrowd/overview.md)** - *Uncategorized* - No integrations
 - **[Thunderstorm](docs/vendors/Thunderstorm/overview.md)** - *Uncategorized* - 1 analyzers
 - **[TorBlutmagie](docs/vendors/TorBlutmagie/overview.md)** - *Uncategorized* - 1 analyzers
 - **[TorProject](docs/vendors/TorProject/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Triage](docs/vendors/Triage/overview.md)** - *Uncategorized* - 1 analyzers
-- **[URLScan.io](docs/vendors/Urlscan.io/overview.md)** - *URL Analysis* - 2 analyzers
-- **[URLhaus](docs/vendors/URLhaus/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Umbrella](docs/vendors/Umbrella/overview.md)** - *Uncategorized* - 1 analyzers
 - **[UmbrellaBlacklister](docs/vendors/UmbrellaBlacklister/overview.md)** - *Uncategorized* - 1 responders
 - **[UnshortenLink](docs/vendors/UnshortenLink/overview.md)** - *Uncategorized* - 1 analyzers
-- **[VMRay](docs/vendors/VMRay/overview.md)** - *Uncategorized* - 1 analyzers
+- **[URLhaus](docs/vendors/URLhaus/overview.md)** - *Threat Intelligence* - 1 analyzers
+- **[URLScan.io](docs/vendors/Urlscan.io/overview.md)** - *URL Analysis* - 2 analyzers
 - **[Valhalla](docs/vendors/Valhalla/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ValidateObservable](docs/vendors/ValidateObservable/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Velociraptor](docs/vendors/Velociraptor/overview.md)** - *DFIR* - 1 responders
 - **[Verifalia](docs/vendors/Verifalia/overview.md)** - *Uncategorized* - 1 analyzers
-- **[VirusTotal](docs/vendors/VirusTotal/overview.md)** - *Malware Analysis* - 4 analyzers
 - **[Virusshare](docs/vendors/Virusshare/overview.md)** - *Uncategorized* - 1 analyzers
+- **[VirusTotal](docs/vendors/VirusTotal/overview.md)** - *Malware Analysis* - 4 analyzers
 - **[VirustotalDownloader](docs/vendors/VirustotalDownloader/overview.md)** - *Uncategorized* - 1 responders
+- **[VMRay](docs/vendors/VMRay/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Vulners](docs/vendors/Vulners/overview.md)** - *Uncategorized* - 2 analyzers
-- **[WOT](docs/vendors/WOT/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Watcher](docs/vendors/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 2 responders
 - **[Wazuh](docs/vendors/Wazuh/overview.md)** - *Uncategorized* - 1 responders
+- **[WOT](docs/vendors/WOT/overview.md)** - *Uncategorized* - 1 analyzers
 - **[YARA](docs/vendors/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Yeti](docs/vendors/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ZEROFOX_Close_alert](docs/vendors/ZEROFOX_Close_alert/overview.md)** - *Uncategorized* - 1 responders
 - **[ZEROFOX_Takedown_request](docs/vendors/ZEROFOX_Takedown_request/overview.md)** - *Uncategorized* - 1 responders
 - **[Zscaler](docs/vendors/Zscaler/overview.md)** - *Uncategorized* - 2 analyzers
-- **[isMalicious](docs/vendors/isMalicious/overview.md)** - *Uncategorized* - 1 analyzers
-- **[n8n](docs/vendors/n8n/overview.md)** - *Uncategorized* - 1 responders
 
 ---
 
