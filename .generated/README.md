@@ -4,11 +4,11 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 194
-- **Total Analyzers:** 253
+- **Total Vendors:** 195
+- **Total Analyzers:** 256
 - **Total Responders:** 131
 - **Total Functions:** 7
-- **Total Integrations:** 391
+- **Total Integrations:** 394
 
 ## 📂 Vendors by Category
 
@@ -53,7 +53,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ### Email Security
 
-**[Microsoft Defender for Office 365](docs/vendors/MSDefenderOffice365/overview.md)** (2 integrations)
+**[Microsoft Defender for Office 365](docs/vendors/MSDefenderOffice365/overview.md)** (3 integrations)
   Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration...
 
 **[Proofpoint](docs/vendors/Proofpoint/overview.md)** (3 integrations)
@@ -263,7 +263,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[MaxMind](docs/vendors/MaxMind/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[MetaDefender](docs/vendors/MetaDefender/overview.md)** - *Uncategorized* - 5 analyzers
 - **[Microsoft Defender for Endpoint](docs/vendors/MSDefenderEndpoints/overview.md)** - *EDR* - 8 responders
-- **[Microsoft Defender for Office 365](docs/vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 2 responders
+- **[Microsoft Defender for Office 365](docs/vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 2 responders
 - **[Microsoft Entra ID](docs/vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
 - **[Minemeld](docs/vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[Mnemonic Passive DNS](docs/vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
@@ -344,7 +344,8 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Yeti](docs/vendors/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ZEROFOX_Close_alert](docs/vendors/ZEROFOX_Close_alert/overview.md)** - *Uncategorized* - 1 responders
 - **[ZEROFOX_Takedown_request](docs/vendors/ZEROFOX_Takedown_request/overview.md)** - *Uncategorized* - 1 responders
-- **[Zscaler](docs/vendors/Zscaler/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Zscaler](docs/vendors/Zscaler/overview.md)** - *Uncategorized* - 2 analyzers
+- **[isMalicious](docs/vendors/isMalicious/overview.md)** - *Uncategorized* - 1 analyzers
 - **[n8n](docs/vendors/n8n/overview.md)** - *Uncategorized* - 1 responders
 
 ---

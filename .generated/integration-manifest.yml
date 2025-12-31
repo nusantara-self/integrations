@@ -3951,11 +3951,26 @@ MSDefenderOffice365:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
   useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: false
+  registration_required:
+  - true
+  - false
+  subscription_required:
+  - true
+  - false
+  free_subscription:
+  - true
+  - false
   integrations:
-    analyzers: []
+    analyzers:
+    - name: MSDefenderOffice365_SafeLinksDecoder.json
+      version: '1.0'
+      description: Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com
+        domains.
+      dataTypes:
+      - url
+      file: .upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json
     responders:
     - name: MSDefenderOffice365_unblock
       version: '1.0'
@@ -3975,10 +3990,10 @@ MSDefenderOffice365:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
     functions: []
   stats:
-    totalAnalyzers: 0
+    totalAnalyzers: 1
     totalResponders: 2
     totalFunctions: 0
-    total: 2
+    total: 3
 MSEntraID:
   id: MSEntraID
   name: Microsoft Entra ID
@@ -7782,6 +7797,50 @@ Zscaler:
       file: .upstream/cortex/analyzers/Zscaler/Zscaler.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json
+    - name: ZscalerZIA_URLLookup
+      version: '1.0'
+      description: Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2
+        and legacy authentication.
+      dataTypes:
+      - domain
+      - fqdn
+      - url
+      - ip
+      file: .upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 2
+    totalResponders: 0
+    totalFunctions: 0
+    total: 2
+isMalicious:
+  id: isMalicious
+  name: isMalicious
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: isMalicious_GetReport
+      version: '1.0'
+      description: Check if an IP address or domain is malicious using isMalicious.com threat intelligence. Returns risk score,
+        threat categories, reputation data, and detection sources.
+      dataTypes:
+      - ip
+      - domain
+      - fqdn
+      file: .upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json
     responders: []
     functions: []
   stats:

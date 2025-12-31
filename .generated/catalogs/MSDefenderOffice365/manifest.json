@@ -18,11 +18,32 @@
     "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png"
   },
   "useCases": [],
-  "registration_required": true,
-  "subscription_required": true,
-  "free_subscription": false,
+  "registration_required": [
+    true,
+    false
+  ],
+  "subscription_required": [
+    true,
+    false
+  ],
+  "free_subscription": [
+    true,
+    false
+  ],
   "integrations": {
-    "analyzers": [],
+    "analyzers": [
+      {
+        "name": "MSDefenderOffice365_SafeLinksDecoder.json",
+        "version": "1.0",
+        "description": "Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com domains.",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json"
+      }
+    ],
     "responders": [
       {
         "name": "MSDefenderOffice365_unblock",
@@ -50,9 +71,9 @@
     "functions": []
   },
   "stats": {
-    "totalAnalyzers": 0,
+    "totalAnalyzers": 1,
     "totalResponders": 2,
     "totalFunctions": 0,
-    "total": 2
+    "total": 3
   }
 }

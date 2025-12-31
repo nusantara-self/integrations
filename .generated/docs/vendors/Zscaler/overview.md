@@ -7,7 +7,7 @@
 - **Subscription Required:** Yes
 - **Free Subscription Available:** No
 
-## Analyzers (1)
+## Analyzers (2)
 
 ### Zscaler `v1.3`
 Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer requires a paid subscription to Zscaler ZIA
@@ -15,14 +15,20 @@ Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer req
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`
 - **Configuration:** [.upstream/cortex/analyzers/Zscaler/Zscaler.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json))
 
+### ZscalerZIA_URLLookup `v1.0`
+Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2 and legacy authentication.
+
+- **Data Types:** `domain`, `fqdn`, `url`, `ip`
+- **Configuration:** [.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json))
+
 ---
 
 ## Statistics
 
-- **Total Analyzers:** 1
+- **Total Analyzers:** 2
 - **Total Responders:** 0
 - **Total Functions:** 0
-- **Total Integrations:** 1
+- **Total Integrations:** 2
 
 ---
 

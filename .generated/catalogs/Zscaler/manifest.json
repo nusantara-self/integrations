@@ -25,15 +25,29 @@
         "file": ".upstream/cortex/analyzers/Zscaler/Zscaler.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json"
+      },
+      {
+        "name": "ZscalerZIA_URLLookup",
+        "version": "1.0",
+        "description": "Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2 and legacy authentication.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "url",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json"
       }
     ],
     "responders": [],
     "functions": []
   },
   "stats": {
-    "totalAnalyzers": 1,
+    "totalAnalyzers": 2,
     "totalResponders": 0,
     "totalFunctions": 0,
-    "total": 1
+    "total": 2
   }
 }

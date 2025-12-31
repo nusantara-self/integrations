@@ -12,7 +12,17 @@ Microsoft Defender for Office 365 provides advanced threat protection for email 
 
 - **Registration Required:** Yes
 - **Subscription Required:** Yes
-- **Free Subscription Available:** No
+- **Free Subscription Available:** Yes
+
+## Analyzers (1)
+
+### MSDefenderOffice365_SafeLinksDecoder.json `v1.0`
+Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com domains.
+
+- **Data Types:** `url`
+- **Configuration:** [.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json))
+
+---
 
 ## Responders (2)
 
@@ -32,10 +42,10 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 
 ## Statistics
 
-- **Total Analyzers:** 0
+- **Total Analyzers:** 1
 - **Total Responders:** 2
 - **Total Functions:** 0
-- **Total Integrations:** 2
+- **Total Integrations:** 3
 
 ---
 
