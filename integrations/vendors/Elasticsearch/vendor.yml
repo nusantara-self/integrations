@@ -8,6 +8,9 @@ tags:
   - search-analytics
   - event-correlation
   - threat-hunting
-  - incident-response
 homepage: "https://www.elastic.co"
-
+vendorIntegrations:
+- name: TheHive Connector for Kibana
+  description: Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
+  type: connector
+  documentation: https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type

@@ -321,7 +321,8 @@ def read_vendor_metadata(vendor: str) -> Dict:
         'tags': [],
         'homepage': '',
         'logo': {},
-        'useCases': []
+        'useCases': [],
+        'vendorIntegrations': []
     }
 
     if not vendor_yml_path.exists():
@@ -354,7 +355,8 @@ def read_vendor_metadata(vendor: str) -> Dict:
             'tags': tags,
             'homepage': data.get('homepage', ''),
             'logo': logo_data,
-            'useCases': use_cases
+            'useCases': use_cases,
+            'vendorIntegrations': data.get('vendorIntegrations', [])
         }
     except Exception as e:
         print(f"  Error reading vendor.yml for {vendor}: {e}")
@@ -581,6 +583,30 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             # Documentation link
             if uc.get('documentation', {}).get('github_url'):
                 lines.append(f"📄 [Documentation]({uc['documentation']['github_url']}) ([raw]({uc['documentation']['url']}))")
+
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+
+    # Vendor Integrations (integrations built by the vendor)
+    vendor_integrations = manifest.get('vendorIntegrations', [])
+    if vendor_integrations:
+        lines.append(f"## Vendor Integrations ({len(vendor_integrations)})")
+        lines.append("")
+        lines.append(f"Integrations built by {manifest['name']} that work with TheHive:")
+        lines.append("")
+
+        for vi in vendor_integrations:
+            lines.append(f"### {vi['name']}")
+            if vi.get('description'):
+                lines.append(vi['description'])
+            lines.append("")
+
+            if vi.get('type'):
+                lines.append(f"**Type:** {vi['type']}")
+
+            if vi.get('documentation'):
+                lines.append(f"**Documentation:** [{vi['documentation']}]({vi['documentation']})")
 
             lines.append("")
             lines.append("---")
