@@ -2,15 +2,16 @@
 
 ## Statistics
 
-- **Total Vendors:** 196
+- **Total Vendors:** 198
 - **Total Analyzers:** 256
 - **Total Responders:** 131
 - **Total Functions:** 7
-- **Total External Integrations:** 6
-- **Total Integrations:** 400
+- **Total External Integrations:** 8
+- **Total Integrations:** 402
 
 ## Changes
 
-### ✅ Added Vendors (1)
+### ✅ Added Vendors (2)
 
-- `Tines`
+- `CortexXSOAR`
+- `InsightConnect`

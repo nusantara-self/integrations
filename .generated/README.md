@@ -4,12 +4,12 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 196
+- **Total Vendors:** 198
 - **Total Analyzers:** 256
 - **Total Responders:** 131
 - **Total Functions:** 7
-- **Total External Integrations:** 6
-- **Total Integrations:** 400
+- **Total External Integrations:** 8
+- **Total Integrations:** 402
 
 ## 📂 Vendors by Category
 
@@ -108,6 +108,12 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ### SOAR
 
+**[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** (0 integrations)
+  Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate inciden...
+
+**[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** (0 integrations)
+  Rapid7 InsightConnect is a security orchestration and automation platform that enables security t...
+
 **[Tines](docs/vendors/Tines/overview.md)** (0 integrations)
 
 
@@ -187,6 +193,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Cloudflare_IP_Blocker](docs/vendors/Cloudflare_IP_Blocker/overview.md)** - *Uncategorized* - 1 responders
 - **[Cluster25](docs/vendors/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClusterHawk](docs/vendors/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** - *SOAR* - No integrations
 - **[CrowdSec](docs/vendors/Crowdsec/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 10 analyzers, 9 responders, 1 functions
 - **[Crtsh](docs/vendors/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
@@ -297,6 +304,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Pulsedive](docs/vendors/Pulsedive/overview.md)** - *Uncategorized* - 1 analyzers
 - **[QRadarAutoClose](docs/vendors/QRadarAutoClose/overview.md)** - *Uncategorized* - 1 responders
 - **[QrDecode](docs/vendors/QrDecode/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** - *SOAR* - No integrations
 - **[Recorded Future](docs/vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Redmine](docs/vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[RiskIQ](docs/vendors/RiskIQ/overview.md)** - *Uncategorized* - 16 analyzers, 1 responders

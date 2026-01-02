@@ -969,6 +969,33 @@ ClusterHawk:
     totalResponders: 0
     totalFunctions: 0
     total: 1
+CortexXSOAR:
+  id: CortexXSOAR
+  name: Cortex XSOAR
+  description: Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate incident response
+    workflows, orchestrate security tools, and accelerate threat investigation and remediation
+  category: SOAR
+  tags:
+  - automation
+  - workflow-orchestration
+  homepage: https://www.paloaltonetworks.com/cortex/cortex-xsoar
+  logo: {}
+  useCases: []
+  externalIntegrations:
+  - name: TheHive Project Integration
+    description: Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable
+      handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
+    type: integration
+    documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
+  integrations:
+    analyzers: []
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 0
+    total: 0
 Crowdsec:
   id: Crowdsec
   name: CrowdSec
@@ -3293,6 +3320,34 @@ Inoitsu:
     totalResponders: 0
     totalFunctions: 0
     total: 1
+InsightConnect:
+  id: InsightConnect
+  name: Rapid7 InsightConnect
+  description: Rapid7 InsightConnect is a security orchestration and automation platform that enables security teams to automate
+    workflows, connect security tools, and accelerate incident response through pre-built integrations and custom automation
+  category: SOAR
+  tags:
+  - automation
+  - workflow-orchestration
+  - security-automation
+  homepage: https://www.rapid7.com/products/insightconnect/
+  logo: {}
+  useCases: []
+  externalIntegrations:
+  - name: TheHive Extension
+    description: Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert
+      handling, and incident response orchestration
+    type: extension
+    documentation: https://extensions.rapid7.com/extension/thehive
+  integrations:
+    analyzers: []
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 0
+    total: 0
 IntezerCommunity:
   id: IntezerCommunity
   name: IntezerCommunity
