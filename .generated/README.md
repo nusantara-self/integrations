@@ -4,12 +4,12 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 195
+- **Total Vendors:** 196
 - **Total Analyzers:** 256
 - **Total Responders:** 131
 - **Total Functions:** 7
-- **Total External Integrations:** 5
-- **Total Integrations:** 399
+- **Total External Integrations:** 6
+- **Total Integrations:** 400
 
 ## 📂 Vendors by Category
 
@@ -104,6 +104,11 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 **[Splunk](docs/vendors/Splunk/overview.md)** (12 integrations)
   Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
+
+
+### SOAR
+
+**[Tines](docs/vendors/Tines/overview.md)** (0 integrations)
 
 
 ### SOAR & Automation
@@ -323,6 +328,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[ThreatMiner](docs/vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatResponse](docs/vendors/ThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Thunderstorm](docs/vendors/Thunderstorm/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Tines](docs/vendors/Tines/overview.md)** - *SOAR* - No integrations
 - **[TorBlutmagie](docs/vendors/TorBlutmagie/overview.md)** - *Uncategorized* - 1 analyzers
 - **[TorProject](docs/vendors/TorProject/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Triage](docs/vendors/Triage/overview.md)** - *Uncategorized* - 1 analyzers

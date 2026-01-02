@@ -9007,6 +9007,38 @@
       "total": 1
     }
   },
+  "Tines": {
+    "id": "Tines",
+    "name": "Tines",
+    "description": "",
+    "category": "SOAR",
+    "tags": [
+      "automation",
+      "workflow-orchestration"
+    ],
+    "homepage": "https://www.tines.com",
+    "logo": {},
+    "useCases": [],
+    "externalIntegrations": [
+      {
+        "name": "TheHive Project Connector",
+        "description": "Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation, updates, and case management",
+        "type": "connector",
+        "documentation": "https://www.tines.com/solutions/products/thehive-project/"
+      }
+    ],
+    "integrations": {
+      "analyzers": [],
+      "responders": [],
+      "functions": []
+    },
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "total": 0
+    }
+  },
   "TorBlutmagie": {
     "id": "TorBlutmagie",
     "name": "TorBlutmagie",
