@@ -1,7 +1,7 @@
 id: InsightConnect
 name: "Rapid7 InsightConnect"
 description: "Rapid7 InsightConnect is a security orchestration and automation platform that enables security teams to automate workflows, connect security tools, and accelerate incident response through pre-built integrations and custom automation"
-category: SOAR
+category: SOAR & Automation
 tags:
   - automation
   - workflow-orchestration
