@@ -1,6 +1,6 @@
 id: Tines
 name: "Tines"
-category: SOAR
+category: SOAR & Automation
 tags:
   - automation
   - workflow-orchestration
