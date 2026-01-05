@@ -140,6 +140,20 @@
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json"
       },
       {
+        "name": "CrowdstrikeFalcon_ThreatIntel",
+        "version": "1.0",
+        "description": "Query threat intelligence indicators from Crowdstrike Falcon Intelligence",
+        "dataTypes": [
+          "hash",
+          "domain",
+          "ip",
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json"
+      },
+      {
         "name": "CrowdstrikeFalcon_Sandbox_Win10",
         "version": "1.0",
         "description": "Send a file to CrowdstrikeFalcon Sandbox",
@@ -289,10 +303,10 @@
     ]
   },
   "stats": {
-    "totalAnalyzers": 10,
+    "totalAnalyzers": 11,
     "totalResponders": 9,
     "totalFunctions": 1,
     "totalExternalIntegrations": 1,
-    "total": 21
+    "total": 22
   }
 }

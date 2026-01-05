@@ -8,6 +8,12 @@ YARA is a pattern matching engine for malware identification and classification 
 **Homepage:** https://virustotal.github.io/yara/  
 **Tags:** malware-detection, pattern-matching, threat-hunting, malware-classification
 
+## Subscription Information
+
+- **Registration Required:** No
+- **Subscription Required:** No
+- **Free Subscription Available:** Yes
+
 ## Analyzers (1)
 
 ### Yara `v3.0`

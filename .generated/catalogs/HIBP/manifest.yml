@@ -20,6 +20,9 @@ logo:
   github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HIBP/assets/logo.png
 useCases: []
 externalIntegrations: []
+registration_required: true
+subscription_required: true
+free_subscription: false
 integrations:
   analyzers:
   - name: HIBP_Query

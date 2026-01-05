@@ -8,6 +8,12 @@ Shodan is the search engine for internet-connected devices, providing reconnaiss
 **Homepage:** https://www.shodan.io  
 **Tags:** internet-scanning, infrastructure-intelligence, reconnaissance, exposed-services, threat-hunting, incident-response
 
+## Subscription Information
+
+- **Registration Required:** Yes
+- **Subscription Required:** No
+- **Free Subscription Available:** Yes
+
 ## Analyzers (6)
 
 ### Shodan_DNSResolve `v1.0`

@@ -101,7 +101,7 @@
     "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
-    "free_subscription": false,
+    "free_subscription": true,
     "integrations": {
       "analyzers": [
         {
@@ -1023,6 +1023,57 @@
       "total": 1
     }
   },
+  "CiscoUmbrella": {
+    "id": "CiscoUmbrella",
+    "name": "CiscoUmbrella",
+    "description": "",
+    "category": "",
+    "tags": [],
+    "homepage": "",
+    "logo": {},
+    "useCases": [],
+    "externalIntegrations": [],
+    "registration_required": true,
+    "subscription_required": true,
+    "free_subscription": false,
+    "integrations": {
+      "analyzers": [
+        {
+          "name": "CiscoUmbrella_Report",
+          "version": "1.0",
+          "description": "Query the Cisco Umbrella Reporting API for recent DNS queries and their status.",
+          "dataTypes": [
+            "domain",
+            "fqdn"
+          ],
+          "file": ".upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json"
+        }
+      ],
+      "responders": [
+        {
+          "name": "CiscoUmbrella_Blacklister",
+          "version": "1.1",
+          "description": "Add domain to Cisco Umbrella blacklist via Enforcement API.",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json"
+        }
+      ],
+      "functions": []
+    },
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 1,
+      "totalFunctions": 0,
+      "totalExternalIntegrations": 0,
+      "total": 2
+    }
+  },
   "CISMCAP": {
     "id": "CISMCAP",
     "name": "CISMCAP",
@@ -1447,6 +1498,20 @@
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json"
         },
         {
+          "name": "CrowdstrikeFalcon_ThreatIntel",
+          "version": "1.0",
+          "description": "Query threat intelligence indicators from Crowdstrike Falcon Intelligence",
+          "dataTypes": [
+            "hash",
+            "domain",
+            "ip",
+            "url"
+          ],
+          "file": ".upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json"
+        },
+        {
           "name": "CrowdstrikeFalcon_Sandbox_Win10",
           "version": "1.0",
           "description": "Send a file to CrowdstrikeFalcon Sandbox",
@@ -1596,11 +1661,11 @@
       ]
     },
     "stats": {
-      "totalAnalyzers": 10,
+      "totalAnalyzers": 11,
       "totalResponders": 9,
       "totalFunctions": 1,
       "totalExternalIntegrations": 1,
-      "total": 21
+      "total": 22
     }
   },
   "Crtsh": {
@@ -2654,6 +2719,9 @@
         "documentation": "https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type"
       }
     ],
+    "registration_required": false,
+    "subscription_required": false,
+    "free_subscription": true,
     "integrations": {
       "analyzers": [
         {
@@ -4014,6 +4082,9 @@
     },
     "useCases": [],
     "externalIntegrations": [],
+    "registration_required": true,
+    "subscription_required": true,
+    "free_subscription": false,
     "integrations": {
       "analyzers": [
         {
@@ -4155,6 +4226,44 @@
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalExternalIntegrations": 0,
+      "total": 1
+    }
+  },
+  "IBMQRadar": {
+    "id": "IBMQRadar",
+    "name": "IBMQRadar",
+    "description": "",
+    "category": "",
+    "tags": [],
+    "homepage": "",
+    "logo": {},
+    "useCases": [],
+    "externalIntegrations": [],
+    "registration_required": true,
+    "subscription_required": true,
+    "free_subscription": false,
+    "integrations": {
+      "analyzers": [],
+      "responders": [
+        {
+          "name": "QRadar_Auto_Closing_Offense",
+          "version": "1.0",
+          "description": "Closing the QRadar Offense associated to your case in one clic !",
+          "dataTypes": [
+            "thehive:case"
+          ],
+          "file": ".upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json"
+        }
+      ],
+      "functions": []
+    },
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 1,
       "totalFunctions": 0,
       "totalExternalIntegrations": 0,
       "total": 1
@@ -6030,6 +6139,9 @@
         "documentation": "https://n8n.io/integrations/thehive-5/"
       }
     ],
+    "registration_required": false,
+    "subscription_required": false,
+    "free_subscription": true,
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -6207,9 +6319,9 @@
       "total": 1
     }
   },
-  "OktaUserLookup": {
-    "id": "OktaUserLookup",
-    "name": "OktaUserLookup",
+  "Okta": {
+    "id": "Okta",
+    "name": "Okta",
     "description": "",
     "category": "",
     "tags": [],
@@ -6229,9 +6341,9 @@
           "dataTypes": [
             "mail"
           ],
-          "file": ".upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json"
+          "file": ".upstream/cortex/analyzers/Okta/OktaUserLookup.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Okta/OktaUserLookup.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Okta/OktaUserLookup.json"
         }
       ],
       "responders": [],
@@ -7293,6 +7405,9 @@
       }
     ],
     "externalIntegrations": [],
+    "registration_required": true,
+    "subscription_required": true,
+    "free_subscription": false,
     "integrations": {
       "analyzers": [
         {
@@ -7374,41 +7489,6 @@
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
-    }
-  },
-  "QRadarAutoClose": {
-    "id": "QRadarAutoClose",
-    "name": "QRadarAutoClose",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
-    "useCases": [],
-    "externalIntegrations": [],
-    "integrations": {
-      "analyzers": [],
-      "responders": [
-        {
-          "name": "QRadar_Auto_Closing_Offense",
-          "version": "1.0",
-          "description": "Closing the QRadar Offense associated to your case in one clic !",
-          "dataTypes": [
-            "thehive:case"
-          ],
-          "file": ".upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json"
-        }
-      ],
-      "functions": []
-    },
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 1,
       "totalFunctions": 0,
       "totalExternalIntegrations": 0,
       "total": 1
@@ -8096,6 +8176,9 @@
     },
     "useCases": [],
     "externalIntegrations": [],
+    "registration_required": true,
+    "subscription_required": false,
+    "free_subscription": true,
     "integrations": {
       "analyzers": [
         {
@@ -9425,77 +9508,6 @@
       "total": 1
     }
   },
-  "Umbrella": {
-    "id": "Umbrella",
-    "name": "Umbrella",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
-    "useCases": [],
-    "externalIntegrations": [],
-    "integrations": {
-      "analyzers": [
-        {
-          "name": "Umbrella_Report",
-          "version": "1.0",
-          "description": "Query the Umbrella Reporting API for recent DNS queries and their status.",
-          "dataTypes": [
-            "domain",
-            "fqdn"
-          ],
-          "file": ".upstream/cortex/analyzers/Umbrella/Umbrella_Report.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Umbrella/Umbrella_Report.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Umbrella/Umbrella_Report.json"
-        }
-      ],
-      "responders": [],
-      "functions": []
-    },
-    "stats": {
-      "totalAnalyzers": 1,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
-    }
-  },
-  "UmbrellaBlacklister": {
-    "id": "UmbrellaBlacklister",
-    "name": "UmbrellaBlacklister",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
-    "useCases": [],
-    "externalIntegrations": [],
-    "integrations": {
-      "analyzers": [],
-      "responders": [
-        {
-          "name": "Umbrella_Blacklister",
-          "version": "1.1",
-          "description": "Add domain to Umbrella blacklist via Enforcement API.",
-          "dataTypes": [
-            "thehive:case_artifact"
-          ],
-          "file": ".upstream/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json"
-        }
-      ],
-      "functions": []
-    },
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 1,
-      "totalFunctions": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
-    }
-  },
   "UnshortenLink": {
     "id": "UnshortenLink",
     "name": "UnshortenLink",
@@ -9603,6 +9615,12 @@
     },
     "useCases": [],
     "externalIntegrations": [],
+    "registration_required": [
+      true,
+      false
+    ],
+    "subscription_required": false,
+    "free_subscription": true,
     "integrations": {
       "analyzers": [
         {
@@ -10210,6 +10228,9 @@
     },
     "useCases": [],
     "externalIntegrations": [],
+    "registration_required": false,
+    "subscription_required": false,
+    "free_subscription": true,
     "integrations": {
       "analyzers": [
         {

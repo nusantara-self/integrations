@@ -4,12 +4,12 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 198
-- **Total Analyzers:** 256
+- **Total Vendors:** 197
+- **Total Analyzers:** 257
 - **Total Responders:** 131
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 404
+- **Total Integrations:** 405
 
 ## 📂 Vendors by Category
 
@@ -45,7 +45,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ### EDR
 
-**[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** (21 integrations)
+**[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** (22 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
 
 **[Microsoft Defender for Endpoint](docs/vendors/MSDefenderEndpoints/overview.md)** (8 integrations)
@@ -196,6 +196,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[CIRCLPassiveDNS](docs/vendors/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCLPassiveSSL](docs/vendors/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCLVulnerabilityLookup](docs/vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CiscoUmbrella](docs/vendors/CiscoUmbrella/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[CISMCAP](docs/vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClamAV](docs/vendors/ClamAV/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cloudflare](docs/vendors/Cloudflare/overview.md)** - *Web Application Firewall* - 1 responders
@@ -203,7 +204,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[ClusterHawk](docs/vendors/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - 1 external
 - **[CrowdSec](docs/vendors/Crowdsec/overview.md)** - *Threat Intelligence* - 1 analyzers
-- **[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 10 analyzers, 9 responders, 1 functions, 1 external
+- **[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 11 analyzers, 9 responders, 1 functions, 1 external
 - **[Crtsh](docs/vendors/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CuckooSandbox](docs/vendors/CuckooSandbox/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CyberChef](docs/vendors/CyberChef/overview.md)** - *Uncategorized* - 3 analyzers
@@ -253,6 +254,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Hippocampe](docs/vendors/Hippocampe/overview.md)** - *Uncategorized* - No integrations
 - **[Hunter.io](docs/vendors/Hunterio/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[Hybrid Analysis](docs/vendors/HybridAnalysis/overview.md)** - *Malware Analysis* - 1 analyzers
+- **[IBMQRadar](docs/vendors/IBMQRadar/overview.md)** - *Uncategorized* - 1 responders
 - **[IBMXForce](docs/vendors/IBMXForce/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Inoitsu](docs/vendors/Inoitsu/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IntezerCommunity](docs/vendors/IntezerCommunity/overview.md)** - *Uncategorized* - 1 analyzers
@@ -294,7 +296,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Nessus](docs/vendors/Nessus/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Netcraft](docs/vendors/Netcraft/overview.md)** - *Uncategorized* - 1 responders
 - **[NSRL](docs/vendors/NSRL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[OktaUserLookup](docs/vendors/OktaUserLookup/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Okta](docs/vendors/Okta/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ONYPHE](docs/vendors/Onyphe/overview.md)** - *Attack Surface Intelligence* - 5 analyzers
 - **[ONYPHEActiveScan](docs/vendors/ONYPHEActiveScan/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OpenCTI](docs/vendors/OpenCTI/overview.md)** - *Uncategorized* - 2 analyzers
@@ -309,7 +311,6 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[PhishTank](docs/vendors/PhishTank/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Proofpoint](docs/vendors/Proofpoint/overview.md)** - *Email Security* - 1 analyzers, 2 functions
 - **[Pulsedive](docs/vendors/Pulsedive/overview.md)** - *Uncategorized* - 1 analyzers
-- **[QRadarAutoClose](docs/vendors/QRadarAutoClose/overview.md)** - *Uncategorized* - 1 responders
 - **[QrDecode](docs/vendors/QrDecode/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** - *SOAR & Automation* - 1 external
 - **[Recorded Future](docs/vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
@@ -348,8 +349,6 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[TorBlutmagie](docs/vendors/TorBlutmagie/overview.md)** - *Uncategorized* - 1 analyzers
 - **[TorProject](docs/vendors/TorProject/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Triage](docs/vendors/Triage/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Umbrella](docs/vendors/Umbrella/overview.md)** - *Uncategorized* - 1 analyzers
-- **[UmbrellaBlacklister](docs/vendors/UmbrellaBlacklister/overview.md)** - *Uncategorized* - 1 responders
 - **[UnshortenLink](docs/vendors/UnshortenLink/overview.md)** - *Uncategorized* - 1 analyzers
 - **[URLhaus](docs/vendors/URLhaus/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[URLScan.io](docs/vendors/Urlscan.io/overview.md)** - *URL Analysis* - 2 analyzers

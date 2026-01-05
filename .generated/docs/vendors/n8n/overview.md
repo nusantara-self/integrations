@@ -8,6 +8,12 @@ n8n is a low-code/no-code workflow automation platform that enables technical te
 **Homepage:** https://n8n.io  
 **Tags:** automation, workflow-orchestration, open-source
 
+## Subscription Information
+
+- **Registration Required:** No
+- **Subscription Required:** No
+- **Free Subscription Available:** Yes
+
 ## Responders (1)
 
 ### n8n `v1.0`

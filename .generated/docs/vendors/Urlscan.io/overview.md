@@ -8,6 +8,12 @@ URLScan.io is an automated web scanner that analyzes URLs and websites in real-t
 **Homepage:** https://urlscan.io  
 **Tags:** url-scanning, phishing-detection, web-analysis, threat-detection, incident-response
 
+## Subscription Information
+
+- **Registration Required:** Yes
+- **Subscription Required:** No
+- **Free Subscription Available:** Yes
+
 ## Analyzers (2)
 
 ### Urlscan.io_Search `v0.1.1`

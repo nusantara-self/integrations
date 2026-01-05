@@ -14,7 +14,7 @@ CrowdStrike Falcon is a cloud-native endpoint protection platform that provides 
 - **Subscription Required:** Yes
 - **Free Subscription Available:** No
 
-## Analyzers (10)
+## Analyzers (11)
 
 ### CrowdstrikeFalcon_Sandbox_Win7 `v1.0`
 Send a file to CrowdstrikeFalcon Sandbox
@@ -57,6 +57,12 @@ Get device vulnerabilities from hostname
 
 - **Data Types:** `hostname`
 - **Configuration:** [.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json))
+
+### CrowdstrikeFalcon_ThreatIntel `v1.0`
+Query threat intelligence indicators from Crowdstrike Falcon Intelligence
+
+- **Data Types:** `hash`, `domain`, `ip`, `url`
+- **Configuration:** [.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json))
 
 ### CrowdstrikeFalcon_Sandbox_Win10 `v1.0`
 Send a file to CrowdstrikeFalcon Sandbox
@@ -179,11 +185,11 @@ Real-time connector that streams CrowdStrike Falcon detection events into TheHiv
 
 ## Statistics
 
-- **Total Analyzers:** 10
+- **Total Analyzers:** 11
 - **Total Responders:** 9
 - **Total Functions:** 1
 - **Total External Integrations:** 1
-- **Total Integrations:** 21
+- **Total Integrations:** 22
 
 ---
 

@@ -8,6 +8,12 @@ Have I Been Pwned tracks billions of compromised credentials from data breaches,
 **Homepage:** https://haveibeenpwned.com  
 **Tags:** data-breach, credential-exposure, breach-intelligence, identity-compromise, incident-response
 
+## Subscription Information
+
+- **Registration Required:** Yes
+- **Subscription Required:** Yes
+- **Free Subscription Available:** No
+
 ## Analyzers (1)
 
 ### HIBP_Query `v2.0`

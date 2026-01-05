@@ -1,6 +1,6 @@
 {
-  "id": "OktaUserLookup",
-  "name": "OktaUserLookup",
+  "id": "Okta",
+  "name": "Okta",
   "description": "",
   "category": "",
   "tags": [],
@@ -20,9 +20,9 @@
         "dataTypes": [
           "mail"
         ],
-        "file": ".upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json"
+        "file": ".upstream/cortex/analyzers/Okta/OktaUserLookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Okta/OktaUserLookup.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Okta/OktaUserLookup.json"
       }
     ],
     "responders": [],

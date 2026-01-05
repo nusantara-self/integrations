@@ -8,6 +8,12 @@ Proofpoint is an enterprise email security and threat protection platform that p
 **Homepage:** https://www.proofpoint.com  
 **Tags:** email-security
 
+## Subscription Information
+
+- **Registration Required:** Yes
+- **Subscription Required:** Yes
+- **Free Subscription Available:** No
+
 ## Analyzers (1)
 
 ### Proofpoint_Lookup `v1.0`

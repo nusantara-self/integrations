@@ -1,6 +1,6 @@
 {
-  "id": "QRadarAutoClose",
-  "name": "QRadarAutoClose",
+  "id": "IBMQRadar",
+  "name": "IBMQRadar",
   "description": "",
   "category": "",
   "tags": [],
@@ -8,6 +8,9 @@
   "logo": {},
   "useCases": [],
   "externalIntegrations": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
   "integrations": {
     "analyzers": [],
     "responders": [
@@ -18,9 +21,9 @@
         "dataTypes": [
           "thehive:case"
         ],
-        "file": ".upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/QRadarAutoClose/QRadarAutoClose.json"
+        "file": ".upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json"
       }
     ],
     "functions": []

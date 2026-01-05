@@ -20,6 +20,11 @@ logo:
   github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Urlscan.io/assets/logo.ico
 useCases: []
 externalIntegrations: []
+registration_required:
+- true
+- false
+subscription_required: false
+free_subscription: true
 integrations:
   analyzers:
   - name: Urlscan.io_Search

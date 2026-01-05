@@ -18,6 +18,12 @@
   },
   "useCases": [],
   "externalIntegrations": [],
+  "registration_required": [
+    true,
+    false
+  ],
+  "subscription_required": false,
+  "free_subscription": true,
   "integrations": {
     "analyzers": [
       {
