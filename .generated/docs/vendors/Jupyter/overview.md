@@ -32,6 +32,7 @@ Execute a parameterized notebook in Jupyter
 - **Total Analyzers:** 1
 - **Total Responders:** 1
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---

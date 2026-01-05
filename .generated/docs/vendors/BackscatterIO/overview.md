@@ -22,6 +22,7 @@ Determine whether a value has known scanning activity using Backscatter.io data.
 - **Total Analyzers:** 2
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---

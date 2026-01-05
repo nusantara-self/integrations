@@ -16,6 +16,7 @@ Send an email with information from a TheHive case or alert via SendGrid API ove
 - **Total Analyzers:** 0
 - **Total Responders:** 1
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 1
 
 ---

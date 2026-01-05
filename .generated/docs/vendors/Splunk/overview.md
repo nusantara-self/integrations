@@ -120,7 +120,8 @@ Official Splunk SOAR connector with 16 actions for case management, task operati
 - **Total Analyzers:** 11
 - **Total Responders:** 0
 - **Total Functions:** 1
-- **Total Integrations:** 12
+- **Total External Integrations:** 2
+- **Total Integrations:** 14
 
 ---
 

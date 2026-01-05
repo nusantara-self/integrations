@@ -40,6 +40,7 @@ Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
 - **Total Analyzers:** 0
 - **Total Responders:** 5
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 5
 
 ---

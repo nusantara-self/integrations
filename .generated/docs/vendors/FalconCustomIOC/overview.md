@@ -22,6 +22,7 @@ Submit observables to the Crowdstrike Falcon Custom IOC API
 - **Total Analyzers:** 0
 - **Total Responders:** 2
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---

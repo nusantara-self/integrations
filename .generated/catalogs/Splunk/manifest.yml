@@ -144,4 +144,5 @@ stats:
   totalAnalyzers: 11
   totalResponders: 0
   totalFunctions: 1
-  total: 12
+  totalExternalIntegrations: 2
+  total: 14

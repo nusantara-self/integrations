@@ -201,6 +201,7 @@ Search a hash in HarfangLab EDR's telemetry
 - **Total Analyzers:** 0
 - **Total Responders:** 31
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 31
 
 ---

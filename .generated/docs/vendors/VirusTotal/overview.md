@@ -46,6 +46,7 @@ Use VirusTotal to run new analysis on hash.
 - **Total Analyzers:** 4
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 4
 
 ---

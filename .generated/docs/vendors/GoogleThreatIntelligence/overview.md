@@ -52,6 +52,7 @@ Get the latest Google Threat Intelligence report for a URL that was privately su
 - **Total Analyzers:** 5
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 5
 
 ---

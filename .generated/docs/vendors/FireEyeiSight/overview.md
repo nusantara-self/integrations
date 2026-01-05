@@ -22,6 +22,7 @@ Query domains, IPs, hashes and URLs on FireEye's iSIGHT threat intelligence serv
 - **Total Analyzers:** 1
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 1
 
 ---

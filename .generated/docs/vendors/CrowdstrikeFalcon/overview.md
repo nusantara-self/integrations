@@ -182,7 +182,8 @@ Real-time connector that streams CrowdStrike Falcon detection events into TheHiv
 - **Total Analyzers:** 10
 - **Total Responders:** 9
 - **Total Functions:** 1
-- **Total Integrations:** 20
+- **Total External Integrations:** 1
+- **Total Integrations:** 21
 
 ---
 

@@ -17,6 +17,7 @@ This function creates alerts from data coming from a Airtable database. It check
 - **Total Analyzers:** 0
 - **Total Responders:** 0
 - **Total Functions:** 1
+- **Total External Integrations:** 0
 - **Total Integrations:** 1
 
 ---

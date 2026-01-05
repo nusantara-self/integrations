@@ -34,6 +34,7 @@ Convert Hex with CyberChef Server
 - **Total Analyzers:** 3
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 3
 
 ---

@@ -28,6 +28,7 @@ Fast and easy way to find out if the file is known Good, PUA (Potentially Unwant
 - **Total Analyzers:** 3
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 3
 
 ---

@@ -45,6 +45,7 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 - **Total Analyzers:** 1
 - **Total Responders:** 2
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 3
 
 ---

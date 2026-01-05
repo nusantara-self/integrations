@@ -34,6 +34,7 @@ Isolate endpoints identified by hostname or IP list
 - **Total Analyzers:** 0
 - **Total Responders:** 3
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 3
 
 ---

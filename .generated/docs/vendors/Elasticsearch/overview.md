@@ -35,7 +35,8 @@ Native Kibana connector that allows Elasticsearch to create alerts and create ca
 - **Total Analyzers:** 1
 - **Total Responders:** 0
 - **Total Functions:** 0
-- **Total Integrations:** 1
+- **Total External Integrations:** 1
+- **Total Integrations:** 2
 
 ---
 

@@ -31,6 +31,7 @@ Abuse_Finder:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 AbuseIPDB:
   id: AbuseIPDB
@@ -70,6 +71,7 @@ AbuseIPDB:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 AILOnionLookup:
   id: AILOnionLookup
@@ -103,6 +105,7 @@ AILOnionLookup:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Airtable:
   id: Airtable
@@ -131,6 +134,7 @@ Airtable:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 1
+    totalExternalIntegrations: 0
     total: 1
 AMPforEndpoints:
   id: AMPforEndpoints
@@ -190,6 +194,7 @@ AMPforEndpoints:
     totalAnalyzers: 0
     totalResponders: 5
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 5
 AnyRun:
   id: AnyRun
@@ -221,6 +226,7 @@ AnyRun:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Autofocus:
   id: Autofocus
@@ -271,6 +277,7 @@ Autofocus:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 AWSLambda:
   id: AWSLambda
@@ -305,6 +312,7 @@ AWSLambda:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 AWX:
   id: AWX
@@ -335,6 +343,7 @@ AWX:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Axur:
   id: Axur
@@ -369,6 +378,7 @@ Axur:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 BackscatterIO:
   id: BackscatterIO
@@ -409,6 +419,7 @@ BackscatterIO:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 BinalyzeAIR:
   id: BinalyzeAIR
@@ -447,6 +458,7 @@ BinalyzeAIR:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 C1fApp:
   id: C1fApp
@@ -477,6 +489,7 @@ C1fApp:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Capa:
   id: Capa
@@ -517,6 +530,7 @@ Capa:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Censys:
   id: Censys
@@ -549,6 +563,7 @@ Censys:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 CERTatPassiveDNS:
   id: CERTatPassiveDNS
@@ -578,6 +593,7 @@ CERTatPassiveDNS:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 ChainAbuse:
   id: ChainAbuse
@@ -608,6 +624,7 @@ ChainAbuse:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 CheckPhish:
   id: CheckPhish
@@ -643,6 +660,7 @@ CheckPhish:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 CheckPoint:
   id: CheckPoint
@@ -678,6 +696,7 @@ CheckPoint:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 CIRCLHashlookup:
   id: CIRCLHashlookup
@@ -708,6 +727,7 @@ CIRCLHashlookup:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 CIRCLPassiveDNS:
   id: CIRCLPassiveDNS
@@ -740,6 +760,7 @@ CIRCLPassiveDNS:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 CIRCLPassiveSSL:
   id: CIRCLPassiveSSL
@@ -772,6 +793,7 @@ CIRCLPassiveSSL:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 CIRCLVulnerabilityLookup:
   id: CIRCLVulnerabilityLookup
@@ -810,6 +832,7 @@ CIRCLVulnerabilityLookup:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 CISMCAP:
   id: CISMCAP
@@ -846,6 +869,7 @@ CISMCAP:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 ClamAV:
   id: ClamAV
@@ -873,6 +897,7 @@ ClamAV:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Cloudflare:
   id: Cloudflare
@@ -906,6 +931,7 @@ Cloudflare:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Cluster25:
   id: Cluster25
@@ -941,6 +967,7 @@ Cluster25:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 ClusterHawk:
   id: ClusterHawk
@@ -971,6 +998,7 @@ ClusterHawk:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 CortexXSOAR:
   id: CortexXSOAR
@@ -998,7 +1026,8 @@ CortexXSOAR:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
-    total: 0
+    totalExternalIntegrations: 1
+    total: 1
 Crowdsec:
   id: Crowdsec
   name: CrowdSec
@@ -1038,6 +1067,7 @@ Crowdsec:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 CrowdstrikeFalcon:
   id: CrowdstrikeFalcon
@@ -1262,7 +1292,8 @@ CrowdstrikeFalcon:
     totalAnalyzers: 10
     totalResponders: 9
     totalFunctions: 1
-    total: 20
+    totalExternalIntegrations: 1
+    total: 21
 Crtsh:
   id: Crtsh
   name: Crtsh
@@ -1292,6 +1323,7 @@ Crtsh:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 CuckooSandbox:
   id: CuckooSandbox
@@ -1330,6 +1362,7 @@ CuckooSandbox:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 CyberChef:
   id: CyberChef
@@ -1376,6 +1409,7 @@ CyberChef:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 CyberCrime-Tracker:
   id: CyberCrime-Tracker
@@ -1410,6 +1444,7 @@ CyberCrime-Tracker:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Cyberprotect:
   id: Cyberprotect
@@ -1444,6 +1479,7 @@ Cyberprotect:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Cylance:
   id: Cylance
@@ -1474,6 +1510,7 @@ Cylance:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Diario:
   id: Diario
@@ -1493,6 +1530,7 @@ Diario:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 0
 DNS-RPZ:
   id: DNS-RPZ
@@ -1520,6 +1558,7 @@ DNS-RPZ:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 DNSDB:
   id: DNSDB
@@ -1565,6 +1604,7 @@ DNSDB:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 DNSdumpster:
   id: DNSdumpster
@@ -1595,6 +1635,7 @@ DNSdumpster:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 DNSLookingglass:
   id: DNSLookingglass
@@ -1626,6 +1667,7 @@ DNSLookingglass:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 DNSSinkhole:
   id: DNSSinkhole
@@ -1653,6 +1695,7 @@ DNSSinkhole:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 DomainMailSPFDMARC:
   id: DomainMailSPFDMARC
@@ -1684,6 +1727,7 @@ DomainMailSPFDMARC:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 DomainTools:
   id: DomainTools
@@ -1796,6 +1840,7 @@ DomainTools:
     totalAnalyzers: 10
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 10
 DomainToolsIris:
   id: DomainToolsIris
@@ -1836,6 +1881,7 @@ DomainToolsIris:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 DomainToolsIris_AddRiskyDNSTag:
   id: DomainToolsIris_AddRiskyDNSTag
@@ -1863,6 +1909,7 @@ DomainToolsIris_AddRiskyDNSTag:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 DomainToolsIris_CheckMaliciousTags:
   id: DomainToolsIris_CheckMaliciousTags
@@ -1890,6 +1937,7 @@ DomainToolsIris_CheckMaliciousTags:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 DShield:
   id: DShield
@@ -1920,6 +1968,7 @@ DShield:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Duo_Security:
   id: Duo_Security
@@ -1964,6 +2013,7 @@ Duo_Security:
     totalAnalyzers: 0
     totalResponders: 3
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 EchoTrail:
   id: EchoTrail
@@ -1996,6 +2046,7 @@ EchoTrail:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 EclecticIQ:
   id: EclecticIQ
@@ -2038,6 +2089,7 @@ EclecticIQ:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 EclecticIQIndicator:
   id: EclecticIQIndicator
@@ -2066,6 +2118,7 @@ EclecticIQIndicator:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Elasticsearch:
   id: Elasticsearch
@@ -2112,7 +2165,8 @@ Elasticsearch:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
-    total: 1
+    totalExternalIntegrations: 1
+    total: 2
 EmailRep:
   id: EmailRep
   name: EmailRep
@@ -2151,6 +2205,7 @@ EmailRep:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 EmergingThreats:
   id: EmergingThreats
@@ -2199,6 +2254,7 @@ EmergingThreats:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 EmlParser:
   id: EmlParser
@@ -2228,6 +2284,7 @@ EmlParser:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 FalconCustomIOC:
   id: FalconCustomIOC
@@ -2265,6 +2322,7 @@ FalconCustomIOC:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 FalconSandbox:
   id: FalconSandbox
@@ -2295,6 +2353,7 @@ FalconSandbox:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 FileInfo:
   id: FileInfo
@@ -2323,6 +2382,7 @@ FileInfo:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 FireEyeiSight:
   id: FireEyeiSight
@@ -2356,6 +2416,7 @@ FireEyeiSight:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 FireHOLBlocklists:
   id: FireHOLBlocklists
@@ -2386,6 +2447,7 @@ FireHOLBlocklists:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 ForcepointWebsensePing:
   id: ForcepointWebsensePing
@@ -2419,6 +2481,7 @@ ForcepointWebsensePing:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Fortiguard:
   id: Fortiguard
@@ -2438,6 +2501,7 @@ Fortiguard:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 0
 FoxIO:
   id: FoxIO
@@ -2469,6 +2533,7 @@ FoxIO:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Gatewatcher_CTI:
   id: Gatewatcher_CTI
@@ -2504,6 +2569,7 @@ Gatewatcher_CTI:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Gatewatcher_CTI_Identity:
   id: Gatewatcher_CTI_Identity
@@ -2531,6 +2597,7 @@ Gatewatcher_CTI_Identity:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Gmail:
   id: Gmail
@@ -2590,6 +2657,7 @@ Gmail:
     totalAnalyzers: 0
     totalResponders: 5
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 5
 GoogleDNS:
   id: GoogleDNS
@@ -2619,6 +2687,7 @@ GoogleDNS:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 GoogleSafebrowsing:
   id: GoogleSafebrowsing
@@ -2647,6 +2716,7 @@ GoogleSafebrowsing:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 GoogleThreatIntelligence:
   id: GoogleThreatIntelligence
@@ -2731,6 +2801,7 @@ GoogleThreatIntelligence:
     totalAnalyzers: 5
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 5
 GoogleVisionAPI:
   id: GoogleVisionAPI
@@ -2759,6 +2830,7 @@ GoogleVisionAPI:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 GreyNoise:
   id: GreyNoise
@@ -2789,6 +2861,7 @@ GreyNoise:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 GRR:
   id: GRR
@@ -2817,6 +2890,7 @@ GRR:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 HarfangLab:
   id: HarfangLab
@@ -3089,6 +3163,7 @@ HarfangLab:
     totalAnalyzers: 0
     totalResponders: 31
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 31
 Hashdd:
   id: Hashdd
@@ -3127,6 +3202,7 @@ Hashdd:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 HIBP:
   id: HIBP
@@ -3163,6 +3239,7 @@ HIBP:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Hippocampe:
   id: Hippocampe
@@ -3182,6 +3259,7 @@ Hippocampe:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 0
 Hunterio:
   id: Hunterio
@@ -3222,6 +3300,7 @@ Hunterio:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 HybridAnalysis:
   id: HybridAnalysis
@@ -3262,6 +3341,7 @@ HybridAnalysis:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 IBMXForce:
   id: IBMXForce
@@ -3292,6 +3372,7 @@ IBMXForce:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Inoitsu:
   id: Inoitsu
@@ -3322,6 +3403,7 @@ Inoitsu:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 InsightConnect:
   id: InsightConnect
@@ -3353,7 +3435,8 @@ InsightConnect:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
-    total: 0
+    totalExternalIntegrations: 1
+    total: 1
 IntezerCommunity:
   id: IntezerCommunity
   name: IntezerCommunity
@@ -3384,6 +3467,7 @@ IntezerCommunity:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Investigate:
   id: Investigate
@@ -3420,6 +3504,7 @@ Investigate:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 IP-API:
   id: IP-API
@@ -3450,6 +3535,7 @@ IP-API:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 IPinfo:
   id: IPinfo
@@ -3494,6 +3580,7 @@ IPinfo:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 IPVoid:
   id: IPVoid
@@ -3521,6 +3608,7 @@ IPVoid:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 isMalicious:
   id: isMalicious
@@ -3554,6 +3642,7 @@ isMalicious:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 IVRE:
   id: IVRE
@@ -3588,6 +3677,7 @@ IVRE:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 JAMF:
   id: JAMF
@@ -3620,6 +3710,7 @@ JAMF:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 1
+    totalExternalIntegrations: 0
     total: 1
 JAMFProtect:
   id: JAMFProtect
@@ -3658,6 +3749,7 @@ JAMFProtect:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 JIRA:
   id: JIRA
@@ -3686,6 +3778,7 @@ JIRA:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 1
+    totalExternalIntegrations: 0
     total: 1
 JoeSandbox:
   id: JoeSandbox
@@ -3731,6 +3824,7 @@ JoeSandbox:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 Jupyter:
   id: Jupyter
@@ -3787,6 +3881,7 @@ Jupyter:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 KasperskyTIP:
   id: KasperskyTIP
@@ -3816,6 +3911,7 @@ KasperskyTIP:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 KnowBe4:
   id: KnowBe4
@@ -3843,6 +3939,7 @@ KnowBe4:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 LdapQuery:
   id: LdapQuery
@@ -3871,6 +3968,7 @@ LdapQuery:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Lookyloo:
   id: Lookyloo
@@ -3904,6 +4002,7 @@ Lookyloo:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 LupovisProwl:
   id: LupovisProwl
@@ -3933,6 +4032,7 @@ LupovisProwl:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Mailer:
   id: Mailer
@@ -3962,6 +4062,7 @@ Mailer:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 MailIncidentStatus:
   id: MailIncidentStatus
@@ -3992,6 +4093,7 @@ MailIncidentStatus:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Malpedia:
   id: Malpedia
@@ -4019,6 +4121,7 @@ Malpedia:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Maltiverse:
   id: Maltiverse
@@ -4061,6 +4164,7 @@ Maltiverse:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 MalwareBazaar:
   id: MalwareBazaar
@@ -4100,6 +4204,7 @@ MalwareBazaar:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 MalwareClustering:
   id: MalwareClustering
@@ -4131,6 +4236,7 @@ MalwareClustering:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Malwares:
   id: Malwares
@@ -4172,6 +4278,7 @@ Malwares:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 MaxMind:
   id: MaxMind
@@ -4208,6 +4315,7 @@ MaxMind:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 MetaDefender:
   id: MetaDefender
@@ -4269,6 +4377,7 @@ MetaDefender:
     totalAnalyzers: 5
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 5
 Minemeld:
   id: Minemeld
@@ -4299,6 +4408,7 @@ Minemeld:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 MISP:
   id: MISP
@@ -4351,6 +4461,7 @@ MISP:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 MISPWarningLists:
   id: MISPWarningLists
@@ -4385,6 +4496,7 @@ MISPWarningLists:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 MnemonicPDNS:
   id: MnemonicPDNS
@@ -4431,6 +4543,7 @@ MnemonicPDNS:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 MSDefenderEndpoints:
   id: MSDefenderEndpoints
@@ -4528,6 +4641,7 @@ MSDefenderEndpoints:
     totalAnalyzers: 0
     totalResponders: 8
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 8
 MSDefenderOffice365:
   id: MSDefenderOffice365
@@ -4591,6 +4705,7 @@ MSDefenderOffice365:
     totalAnalyzers: 1
     totalResponders: 2
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 MSEntraID:
   id: MSEntraID
@@ -4700,6 +4815,7 @@ MSEntraID:
     totalAnalyzers: 4
     totalResponders: 5
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 9
 MsgParser:
   id: MsgParser
@@ -4727,6 +4843,7 @@ MsgParser:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 n8n:
   id: n8n
@@ -4770,7 +4887,8 @@ n8n:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
-    total: 1
+    totalExternalIntegrations: 1
+    total: 2
 NERD:
   id: NERD
   name: NERD
@@ -4800,6 +4918,7 @@ NERD:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Nessus:
   id: Nessus
@@ -4828,6 +4947,7 @@ Nessus:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Netcraft:
   id: Netcraft
@@ -4858,6 +4978,7 @@ Netcraft:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 NSRL:
   id: NSRL
@@ -4886,6 +5007,7 @@ NSRL:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 OktaUserLookup:
   id: OktaUserLookup
@@ -4917,6 +5039,7 @@ OktaUserLookup:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Onyphe:
   id: Onyphe
@@ -5007,6 +5130,7 @@ Onyphe:
     totalAnalyzers: 5
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 5
 ONYPHEActiveScan:
   id: ONYPHEActiveScan
@@ -5039,6 +5163,7 @@ ONYPHEActiveScan:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 OpenCTI:
   id: OpenCTI
@@ -5103,6 +5228,7 @@ OpenCTI:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 OrionMalware:
   id: OrionMalware
@@ -5134,6 +5260,7 @@ OrionMalware:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 OTXQuery:
   id: OTXQuery
@@ -5177,6 +5304,7 @@ OTXQuery:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 PaloAltoCortexXDR:
   id: PaloAltoCortexXDR
@@ -5223,6 +5351,7 @@ PaloAltoCortexXDR:
     totalAnalyzers: 0
     totalResponders: 3
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 PaloAltoNGFW:
   id: PaloAltoNGFW
@@ -5402,6 +5531,7 @@ PaloAltoNGFW:
     totalAnalyzers: 0
     totalResponders: 16
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 16
 PaloAltoWildFire:
   id: PaloAltoWildFire
@@ -5444,6 +5574,7 @@ PaloAltoWildFire:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 PassiveTotal:
   id: PassiveTotal
@@ -5571,6 +5702,7 @@ PassiveTotal:
     totalAnalyzers: 11
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 11
 Patrowl:
   id: Patrowl
@@ -5603,6 +5735,7 @@ Patrowl:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 PayloadSecurity:
   id: PayloadSecurity
@@ -5638,6 +5771,7 @@ PayloadSecurity:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 PhishingInitiative:
   id: PhishingInitiative
@@ -5678,6 +5812,7 @@ PhishingInitiative:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 PhishTank:
   id: PhishTank
@@ -5708,6 +5843,7 @@ PhishTank:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Proofpoint:
   id: Proofpoint
@@ -5782,6 +5918,7 @@ Proofpoint:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 2
+    totalExternalIntegrations: 0
     total: 3
 Pulsedive:
   id: Pulsedive
@@ -5812,6 +5949,7 @@ Pulsedive:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 QRadarAutoClose:
   id: QRadarAutoClose
@@ -5839,6 +5977,7 @@ QRadarAutoClose:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 QrDecode:
   id: QrDecode
@@ -5866,6 +6005,7 @@ QrDecode:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 RecordedFuture:
   id: RecordedFuture
@@ -5909,6 +6049,7 @@ RecordedFuture:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Redmine:
   id: Redmine
@@ -5937,6 +6078,7 @@ Redmine:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 RiskIQ:
   id: RiskIQ
@@ -6121,6 +6263,7 @@ RiskIQ:
     totalAnalyzers: 16
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 17
 Robtex:
   id: Robtex
@@ -6165,6 +6308,7 @@ Robtex:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 RT4:
   id: RT4
@@ -6194,6 +6338,7 @@ RT4:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 SecurityTrails:
   id: SecurityTrails
@@ -6229,6 +6374,7 @@ SecurityTrails:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 SEKOIAIntelligenceCenter:
   id: SEKOIAIntelligenceCenter
@@ -6287,6 +6433,7 @@ SEKOIAIntelligenceCenter:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 SendGrid:
   id: SendGrid
@@ -6315,6 +6462,7 @@ SendGrid:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 SentinelOne:
   id: SentinelOne
@@ -6352,6 +6500,7 @@ SentinelOne:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 Shodan:
   id: Shodan
@@ -6431,6 +6580,7 @@ Shodan:
     totalAnalyzers: 6
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 6
 Shuffle:
   id: Shuffle
@@ -6477,7 +6627,8 @@ Shuffle:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
-    total: 1
+    totalExternalIntegrations: 1
+    total: 2
 SinkDB:
   id: SinkDB
   name: SinkDB
@@ -6507,6 +6658,7 @@ SinkDB:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Slack:
   id: Slack
@@ -6576,6 +6728,7 @@ Slack:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 SoltraEdge:
   id: SoltraEdge
@@ -6616,6 +6769,7 @@ SoltraEdge:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 SophosIntelix:
   id: SophosIntelix
@@ -6666,6 +6820,7 @@ SophosIntelix:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 SpamAssassin:
   id: SpamAssassin
@@ -6696,6 +6851,7 @@ SpamAssassin:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 SpamhausDBL:
   id: SpamhausDBL
@@ -6724,6 +6880,7 @@ SpamhausDBL:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Splunk:
   id: Splunk
@@ -6868,7 +7025,8 @@ Splunk:
     totalAnalyzers: 11
     totalResponders: 0
     totalFunctions: 1
-    total: 12
+    totalExternalIntegrations: 2
+    total: 14
 StamusNetworks:
   id: StamusNetworks
   name: StamusNetworks
@@ -6895,6 +7053,7 @@ StamusNetworks:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 StaxxSearch:
   id: StaxxSearch
@@ -6927,6 +7086,7 @@ StaxxSearch:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 StopForumSpam:
   id: StopForumSpam
@@ -6955,6 +7115,7 @@ StopForumSpam:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 TalosReputation:
   id: TalosReputation
@@ -6974,6 +7135,7 @@ TalosReputation:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 0
 TeamCymruMHR:
   id: TeamCymruMHR
@@ -7004,6 +7166,7 @@ TeamCymruMHR:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Telegram:
   id: Telegram
@@ -7043,6 +7206,7 @@ Telegram:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Test:
   id: Test
@@ -7086,6 +7250,7 @@ Test:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 TestAnalyzer:
   id: TestAnalyzer
@@ -7144,6 +7309,7 @@ TestAnalyzer:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 ThreatConnect:
   id: ThreatConnect
@@ -7172,7 +7338,8 @@ ThreatConnect:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
-    total: 0
+    totalExternalIntegrations: 1
+    total: 1
 Threatcrowd:
   id: Threatcrowd
   name: Threatcrowd
@@ -7191,6 +7358,7 @@ Threatcrowd:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 0
 ThreatGrid:
   id: ThreatGrid
@@ -7220,6 +7388,7 @@ ThreatGrid:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 ThreatMiner:
   id: ThreatMiner
@@ -7248,6 +7417,7 @@ ThreatMiner:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 ThreatResponse:
   id: ThreatResponse
@@ -7280,6 +7450,7 @@ ThreatResponse:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Thunderstorm:
   id: Thunderstorm
@@ -7310,6 +7481,7 @@ Thunderstorm:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Tines:
   id: Tines
@@ -7336,7 +7508,8 @@ Tines:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
-    total: 0
+    totalExternalIntegrations: 1
+    total: 1
 TorBlutmagie:
   id: TorBlutmagie
   name: TorBlutmagie
@@ -7369,6 +7542,7 @@ TorBlutmagie:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 TorProject:
   id: TorProject
@@ -7396,6 +7570,7 @@ TorProject:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Triage:
   id: Triage
@@ -7429,6 +7604,7 @@ Triage:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Umbrella:
   id: Umbrella
@@ -7457,6 +7633,7 @@ Umbrella:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 UmbrellaBlacklister:
   id: UmbrellaBlacklister
@@ -7484,6 +7661,7 @@ UmbrellaBlacklister:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 UnshortenLink:
   id: UnshortenLink
@@ -7511,6 +7689,7 @@ UnshortenLink:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 URLhaus:
   id: URLhaus
@@ -7554,6 +7733,7 @@ URLhaus:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Urlscan.io:
   id: Urlscan.io
@@ -7604,6 +7784,7 @@ Urlscan.io:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 Valhalla:
   id: Valhalla
@@ -7634,6 +7815,7 @@ Valhalla:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 ValidateObservable:
   id: ValidateObservable
@@ -7672,6 +7854,7 @@ ValidateObservable:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Velociraptor:
   id: Velociraptor
@@ -7707,6 +7890,7 @@ Velociraptor:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Verifalia:
   id: Verifalia
@@ -7734,6 +7918,7 @@ Verifalia:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Virusshare:
   id: Virusshare
@@ -7765,6 +7950,7 @@ Virusshare:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 VirusTotal:
   id: VirusTotal
@@ -7836,6 +8022,7 @@ VirusTotal:
     totalAnalyzers: 4
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 4
 VirustotalDownloader:
   id: VirustotalDownloader
@@ -7866,6 +8053,7 @@ VirustotalDownloader:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 VMRay:
   id: VMRay
@@ -7895,6 +8083,7 @@ VMRay:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Vulners:
   id: Vulners
@@ -7935,6 +8124,7 @@ Vulners:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2
 Watcher:
   id: Watcher
@@ -7978,6 +8168,7 @@ Watcher:
     totalAnalyzers: 1
     totalResponders: 2
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 3
 Wazuh:
   id: Wazuh
@@ -8006,6 +8197,7 @@ Wazuh:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 WOT:
   id: WOT
@@ -8034,6 +8226,7 @@ WOT:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Yara:
   id: Yara
@@ -8071,6 +8264,7 @@ Yara:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Yeti:
   id: Yeti
@@ -8102,6 +8296,7 @@ Yeti:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 ZEROFOX_Close_alert:
   id: ZEROFOX_Close_alert
@@ -8129,6 +8324,7 @@ ZEROFOX_Close_alert:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 ZEROFOX_Takedown_request:
   id: ZEROFOX_Takedown_request
@@ -8156,6 +8352,7 @@ ZEROFOX_Takedown_request:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 1
 Zscaler:
   id: Zscaler
@@ -8202,4 +8399,5 @@ Zscaler:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalExternalIntegrations: 0
     total: 2

@@ -23,7 +23,8 @@ Polarity-TheHive integration that enables security analysts to search TheHive in
 - **Total Analyzers:** 0
 - **Total Responders:** 0
 - **Total Functions:** 0
-- **Total Integrations:** 0
+- **Total External Integrations:** 1
+- **Total Integrations:** 1
 
 ---
 

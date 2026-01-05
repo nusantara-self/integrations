@@ -364,6 +364,7 @@
     "totalAnalyzers": 0,
     "totalResponders": 31,
     "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
     "total": 31
   }
 }

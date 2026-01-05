@@ -16,6 +16,7 @@ Add 'Clicked Event' to User via User Events API.
 - **Total Analyzers:** 0
 - **Total Responders:** 1
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 1
 
 ---

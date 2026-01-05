@@ -45,7 +45,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ### EDR
 
-**[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** (20 integrations)
+**[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** (21 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
 
 **[Microsoft Defender for Endpoint](docs/vendors/MSDefenderEndpoints/overview.md)** (8 integrations)
@@ -99,28 +99,28 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ### SIEM & Analytics
 
-**[Elasticsearch](docs/vendors/Elasticsearch/overview.md)** (1 integrations)
+**[Elasticsearch](docs/vendors/Elasticsearch/overview.md)** (2 integrations)
   Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log ana...
 
-**[Splunk](docs/vendors/Splunk/overview.md)** (12 integrations)
+**[Splunk](docs/vendors/Splunk/overview.md)** (14 integrations)
   Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
 
 
 ### SOAR & Automation
 
-**[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** (0 integrations)
+**[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** (1 integrations)
   Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate inciden...
 
-**[n8n](docs/vendors/n8n/overview.md)** (1 integrations)
+**[n8n](docs/vendors/n8n/overview.md)** (2 integrations)
   n8n is a low-code/no-code workflow automation platform that enables technical teams to build, dep...
 
-**[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** (0 integrations)
+**[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** (1 integrations)
   Rapid7 InsightConnect is a security orchestration and automation platform that enables security t...
 
-**[Shuffle](docs/vendors/Shuffle/overview.md)** (1 integrations)
+**[Shuffle](docs/vendors/Shuffle/overview.md)** (2 integrations)
   Shuffle is an open-source security orchestration, automation and response (SOAR) platform that au...
 
-**[Tines](docs/vendors/Tines/overview.md)** (0 integrations)
+**[Tines](docs/vendors/Tines/overview.md)** (1 integrations)
 
 
 ### Threat Intelligence
@@ -152,7 +152,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 **[Recorded Future](docs/vendors/RecordedFuture/overview.md)** (1 integrations)
   Recorded Future is a real-time threat intelligence platform that analyzes data from the open web,...
 
-**[ThreatConnect](docs/vendors/ThreatConnect/overview.md)** (0 integrations)
+**[ThreatConnect](docs/vendors/ThreatConnect/overview.md)** (1 integrations)
   ThreatConnect is a threat intelligence platform that enables security teams to aggregate, analyze...
 
 **[URLhaus](docs/vendors/URLhaus/overview.md)** (1 integrations)
@@ -201,9 +201,9 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Cloudflare](docs/vendors/Cloudflare/overview.md)** - *Web Application Firewall* - 1 responders
 - **[Cluster25](docs/vendors/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClusterHawk](docs/vendors/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - No integrations
+- **[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - 1 external
 - **[CrowdSec](docs/vendors/Crowdsec/overview.md)** - *Threat Intelligence* - 1 analyzers
-- **[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 10 analyzers, 9 responders, 1 functions
+- **[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 10 analyzers, 9 responders, 1 functions, 1 external
 - **[Crtsh](docs/vendors/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CuckooSandbox](docs/vendors/CuckooSandbox/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CyberChef](docs/vendors/CyberChef/overview.md)** - *Uncategorized* - 3 analyzers
@@ -226,7 +226,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[EchoTrail](docs/vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQ](docs/vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQIndicator](docs/vendors/EclecticIQIndicator/overview.md)** - *Uncategorized* - 1 responders
-- **[Elasticsearch](docs/vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers
+- **[Elasticsearch](docs/vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 external
 - **[EmailRep](docs/vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](docs/vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
 - **[EmlParser](docs/vendors/EmlParser/overview.md)** - *Uncategorized* - 1 analyzers
@@ -289,7 +289,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[MISPWarningLists](docs/vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](docs/vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[MsgParser](docs/vendors/MsgParser/overview.md)** - *Uncategorized* - 1 analyzers
-- **[n8n](docs/vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders
+- **[n8n](docs/vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[NERD](docs/vendors/NERD/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Nessus](docs/vendors/Nessus/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Netcraft](docs/vendors/Netcraft/overview.md)** - *Uncategorized* - 1 responders
@@ -311,7 +311,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Pulsedive](docs/vendors/Pulsedive/overview.md)** - *Uncategorized* - 1 analyzers
 - **[QRadarAutoClose](docs/vendors/QRadarAutoClose/overview.md)** - *Uncategorized* - 1 responders
 - **[QrDecode](docs/vendors/QrDecode/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** - *SOAR & Automation* - No integrations
+- **[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** - *SOAR & Automation* - 1 external
 - **[Recorded Future](docs/vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Redmine](docs/vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[RiskIQ](docs/vendors/RiskIQ/overview.md)** - *Uncategorized* - 16 analyzers, 1 responders
@@ -322,14 +322,14 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[SendGrid](docs/vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders
 - **[SentinelOne](docs/vendors/SentinelOne/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Shodan](docs/vendors/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers
-- **[Shuffle](docs/vendors/Shuffle/overview.md)** - *SOAR & Automation* - 1 responders
+- **[Shuffle](docs/vendors/Shuffle/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[SinkDB](docs/vendors/SinkDB/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Slack](docs/vendors/Slack/overview.md)** - *Collaboration* - 2 responders
 - **[SoltraEdge](docs/vendors/SoltraEdge/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SophosIntelix](docs/vendors/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](docs/vendors/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SpamhausDBL](docs/vendors/SpamhausDBL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Splunk](docs/vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 functions
+- **[Splunk](docs/vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 functions, 2 external
 - **[StamusNetworks](docs/vendors/StamusNetworks/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StaxxSearch](docs/vendors/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StopForumSpam](docs/vendors/StopForumSpam/overview.md)** - *Uncategorized* - 1 analyzers
@@ -338,13 +338,13 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Telegram](docs/vendors/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](docs/vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[TestAnalyzer](docs/vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
-- **[ThreatConnect](docs/vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - No integrations
+- **[ThreatConnect](docs/vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
 - **[Threatcrowd](docs/vendors/Threatcrowd/overview.md)** - *Uncategorized* - No integrations
 - **[ThreatGrid](docs/vendors/ThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](docs/vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatResponse](docs/vendors/ThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Thunderstorm](docs/vendors/Thunderstorm/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Tines](docs/vendors/Tines/overview.md)** - *SOAR & Automation* - No integrations
+- **[Tines](docs/vendors/Tines/overview.md)** - *SOAR & Automation* - 1 external
 - **[TorBlutmagie](docs/vendors/TorBlutmagie/overview.md)** - *Uncategorized* - 1 analyzers
 - **[TorProject](docs/vendors/TorProject/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Triage](docs/vendors/Triage/overview.md)** - *Uncategorized* - 1 analyzers

@@ -26,6 +26,7 @@ Block IP Address on Account level in Cloudflare
 - **Total Analyzers:** 0
 - **Total Responders:** 1
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 1
 
 ---

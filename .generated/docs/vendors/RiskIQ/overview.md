@@ -116,6 +116,7 @@ Push a case to a RiskIQ Illuminate project.
 - **Total Analyzers:** 16
 - **Total Responders:** 1
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 17
 
 ---

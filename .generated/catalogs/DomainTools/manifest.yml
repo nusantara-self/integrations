@@ -112,4 +112,5 @@ stats:
   totalAnalyzers: 10
   totalResponders: 0
   totalFunctions: 0
+  totalExternalIntegrations: 0
   total: 10

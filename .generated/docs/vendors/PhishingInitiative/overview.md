@@ -28,6 +28,7 @@ Use Phishing Initiative to check if a URL is a verified phishing site.
 - **Total Analyzers:** 2
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---

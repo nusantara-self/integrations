@@ -28,6 +28,7 @@ Isolate your endpoints with Binalyze AIR.
 - **Total Analyzers:** 0
 - **Total Responders:** 2
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---
