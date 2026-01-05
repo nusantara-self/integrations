@@ -22,6 +22,8 @@ integrations:
   responders:
   - name: Cloudflare_IP_Blocker
     version: '1.0'
+    author: Nick Babkin @nickbabkin
+    license: AGPL-V3
     description: Block IP Address on Account level in Cloudflare
     dataTypes:
     - thehive:case_artifact

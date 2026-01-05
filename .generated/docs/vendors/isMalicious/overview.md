@@ -12,6 +12,8 @@
 ### isMalicious_GetReport `v1.0`
 Check if an IP address or domain is malicious using isMalicious.com threat intelligence. Returns risk score, threat categories, reputation data, and detection sources.
 
+- **Author:** isMalicious
+- **License:** AGPL-v3
 - **Data Types:** `ip`, `domain`, `fqdn`
 - **Configuration:** [.upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/isMalicious/isMalicious_GetReport.json))
 

@@ -15,6 +15,8 @@ integrations:
   analyzers:
   - name: Msg_Parser
     version: '3.0'
+    author: CERT-BDF
+    license: AGPL-V3
     description: Parse Outlook MSG files and extract the main artifacts.
     dataTypes:
     - file

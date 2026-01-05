@@ -6,6 +6,8 @@
 ### ZEROFOX_Takedown_request `v1.0`
 Request for a takedown regarding the alert in Zerofox
 
+- **Author:** TheHive-Project
+- **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 - **Configuration:** [.upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json))
 

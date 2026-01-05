@@ -17,6 +17,8 @@
         {
           "name": "Abuse_Finder",
           "version": "3.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Find abuse contacts associated with domain names, URLs, IPs and email addresses.",
           "dataTypes": [
             "ip",
@@ -69,6 +71,8 @@
         {
           "name": "AbuseIPDB",
           "version": "1.1",
+          "author": "Matteo Lodi; Fabien Bloume, StrangeBee",
+          "license": "AGPL-v3",
           "description": "Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.",
           "dataTypes": [
             "ip"
@@ -107,6 +111,8 @@
         {
           "name": "AIL_OnionLookup",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Checks the existence of Tor hidden services and retrieving their associated metadata. Onion-lookup relies on an AIL instance to obtain the metadata.",
           "dataTypes": [
             "domain",
@@ -179,6 +185,8 @@
         {
           "name": "AMPforEndpoints_SCDAdd",
           "version": "1.0",
+          "author": "Cisco Security",
+          "license": "MIT",
           "description": "Add a SHA256 to an AMP for Endpoints Simple Custom Detection list",
           "dataTypes": [
             "thehive:case_artifact"
@@ -190,6 +198,8 @@
         {
           "name": "AMPforEndpoints_IsolationStart",
           "version": "1.0",
+          "author": "Cisco Security",
+          "license": "MIT",
           "description": "Start host isolation for an AMP for Endpoints connector",
           "dataTypes": [
             "thehive:case_artifact"
@@ -201,6 +211,8 @@
         {
           "name": "AMPforEndpoints_MoveGUID",
           "version": "1.0",
+          "author": "Cisco Security",
+          "license": "MIT",
           "description": "Move an AMP for Endpoints connector GUID to a different Group",
           "dataTypes": [
             "thehive:case_artifact"
@@ -212,6 +224,8 @@
         {
           "name": "AMPforEndpoints_IsolationStop",
           "version": "1.0",
+          "author": "Cisco Security",
+          "license": "MIT",
           "description": "Stop host isolation for an AMP for Endpoints connector",
           "dataTypes": [
             "thehive:case_artifact"
@@ -223,6 +237,8 @@
         {
           "name": "AMPforEndpoints_SCDRemove",
           "version": "1.0",
+          "author": "Cisco Security",
+          "license": "MIT",
           "description": "Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list",
           "dataTypes": [
             "thehive:case_artifact"
@@ -260,6 +276,8 @@
         {
           "name": "AnyRun_Sandbox_Analysis",
           "version": "1.1",
+          "author": "Andrea Garavaglia, Davide Arcuri, LDO-CERT; Nate Olsen, WSECU",
+          "license": "AGPL-V3",
           "description": "Any.Run Sandbox file analysis",
           "dataTypes": [
             "file",
@@ -296,6 +314,8 @@
         {
           "name": "Autofocus_GetSampleAnalysis",
           "version": "1.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Get full analysis from a sample based on its hash",
           "dataTypes": [
             "hash"
@@ -307,6 +327,8 @@
         {
           "name": "Autofocus_SearchJSON",
           "version": "1.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Search samples in Autofocus with a full search query in JSON",
           "dataTypes": [
             "other"
@@ -318,6 +340,8 @@
         {
           "name": "Autofocus_SearchIOC",
           "version": "1.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Search samples in Autofocus based on a single IOC",
           "dataTypes": [
             "domain",
@@ -364,6 +388,8 @@
         {
           "name": "AWSLambda_InvokeFunction",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Invokes the specified AWS Lambda function with the given input from TheHive.",
           "dataTypes": [
             "thehive:case",
@@ -406,6 +432,8 @@
         {
           "name": "AWX_StartJob",
           "version": "1.0",
+          "author": "Tim Muehlhausen",
+          "license": "AGPL-V3",
           "description": "Start a job on AWX",
           "dataTypes": [
             "thehive:case_artifact"
@@ -443,6 +471,8 @@
         {
           "name": "Axur",
           "version": "1.0",
+          "author": "Axur",
+          "license": "AGPL-V3",
           "description": "Search IPs, domains, hashes or URLs on axur.com",
           "dataTypes": [
             "domain",
@@ -482,6 +512,8 @@
         {
           "name": "BackscatterIO_Enrichment",
           "version": "1.0",
+          "author": "brandon@backscatter.io",
+          "license": "APLv2",
           "description": "Enrich values using Backscatter.io data.",
           "dataTypes": [
             "ip",
@@ -496,6 +528,8 @@
         {
           "name": "BackscatterIO_GetObservations",
           "version": "1.0",
+          "author": "brandon@backscatter.io",
+          "license": "APLv2",
           "description": "Determine whether a value has known scanning activity using Backscatter.io data.",
           "dataTypes": [
             "ip",
@@ -537,6 +571,8 @@
         {
           "name": "Binalyze_AIR_Acquisition",
           "version": "1.0",
+          "author": "Binalyze Integration Team",
+          "license": "AGPL-V3",
           "description": "Start an acquisition with Binalyze AIR.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -548,6 +584,8 @@
         {
           "name": "Binalyze_AIR_Isolation",
           "version": "1.0",
+          "author": "Binalyze Integration Team",
+          "license": "AGPL-V3",
           "description": "Isolate your endpoints with Binalyze AIR.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -582,6 +620,8 @@
         {
           "name": "C1fApp",
           "version": "1.0",
+          "author": "etz69",
+          "license": "AGPL-V3",
           "description": "Query C1fApp OSINT Aggregator for IPs, domains and URLs",
           "dataTypes": [
             "url",
@@ -633,6 +673,8 @@
         {
           "name": "Capa",
           "version": "1.0",
+          "author": "Wes Lambert; Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Analyze files with Capa",
           "dataTypes": [
             "file"
@@ -671,6 +713,8 @@
         {
           "name": "Censys",
           "version": "2.0",
+          "author": "Nils Kuhnert, CERT-Bund; Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Check IPs, certificate hashes or domains against censys.io.",
           "dataTypes": [
             "ip",
@@ -708,6 +752,8 @@
         {
           "name": "CERTatPassiveDNS",
           "version": "2.0",
+          "author": "Nils Kuhnert, CERT-Bund",
+          "license": "AGPL-V3",
           "description": "Checks CERT.at Passive DNS for a given domain.",
           "dataTypes": [
             "domain",
@@ -747,6 +793,8 @@
         {
           "name": "ChainAbuse",
           "version": "1.1",
+          "author": "Peter Juhas; Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Check crypto address against reported abuse cases on ChainAbuse",
           "dataTypes": [
             "crypto_address",
@@ -783,6 +831,8 @@
         {
           "name": "CheckPhish",
           "version": "1.0",
+          "author": "Peter Juhas",
+          "license": "AGPL-V3",
           "description": "Check url address via CheckPhish using jobID returned from CheckPhish_Submit",
           "dataTypes": [
             "string"
@@ -794,6 +844,8 @@
         {
           "name": "CheckPhish_Submit",
           "version": "1.0",
+          "author": "Peter Juhas",
+          "license": "AGPL-V3",
           "description": "Submit url address to CheckPhish",
           "dataTypes": [
             "url"
@@ -830,6 +882,8 @@
         {
           "name": "CheckPoint_Lock",
           "version": "1.0",
+          "author": "@dadokkio LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Lock ip on CheckPoint Gaia",
           "dataTypes": [
             "thehive:case_artifact"
@@ -841,6 +895,8 @@
         {
           "name": "CheckPoint_Unlock",
           "version": "1.0",
+          "author": "@dadokkio LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Unlock ip on CheckPoint Gaia",
           "dataTypes": [
             "thehive:case_artifact"
@@ -878,6 +934,8 @@
         {
           "name": "CIRCLHashlookup",
           "version": "1.1",
+          "author": "Mikael Keri",
+          "license": "AGPL-V3",
           "description": "CIRCL hashlookup uses a public API to lookup hash values against databases of known good files",
           "dataTypes": [
             "hash"
@@ -916,6 +974,8 @@
         {
           "name": "CIRCLPassiveDNS",
           "version": "2.0",
+          "author": "Nils Kuhnert, CERT-Bund",
+          "license": "AGPL-V3",
           "description": "Check CIRCL's Passive DNS for a given domain or URL.",
           "dataTypes": [
             "domain",
@@ -956,6 +1016,8 @@
         {
           "name": "CIRCLPassiveSSL",
           "version": "2.0",
+          "author": "Nils Kuhnert, CERT-Bund",
+          "license": "AGPL-V3",
           "description": "Check CIRCL's Passive SSL for a given IP address or a X509 certificate hash.",
           "dataTypes": [
             "ip",
@@ -996,6 +1058,8 @@
         {
           "name": "CIRCLVulnerabilityLookup",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Queries the CIRCL Vulnerability Lookup API to retrieve detailed information on security vulnerabilities, including CVEs, severity (CVSS), exploit prediction (EPSS), affected products, advisories, and recent sightings.",
           "dataTypes": [
             "cve",
@@ -1041,6 +1105,8 @@
         {
           "name": "CiscoUmbrella_Report",
           "version": "1.0",
+          "author": "Kyle Parrish",
+          "license": "AGPL-V3",
           "description": "Query the Cisco Umbrella Reporting API for recent DNS queries and their status.",
           "dataTypes": [
             "domain",
@@ -1055,6 +1121,8 @@
         {
           "name": "CiscoUmbrella_Blacklister",
           "version": "1.1",
+          "author": "Kyle Parrish",
+          "license": "AGPL-V3",
           "description": "Add domain to Cisco Umbrella blacklist via Enforcement API.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1092,6 +1160,8 @@
         {
           "name": "CISMCAP",
           "version": "1.0",
+          "author": "Joe Lazaro",
+          "license": "AGPL-V3",
           "description": "Malicious Code Analysis Platform (MCAP) by the Center for Internet Security (CIS). Submit files for analysis or check feeds for known indicators of compromise for other data types.",
           "dataTypes": [
             "ip",
@@ -1132,6 +1202,8 @@
         {
           "name": "ClamAV_FileInfo",
           "version": "1.1",
+          "author": "Brian Laskowski",
+          "license": "AGPL-V3",
           "description": "Use Clamscan with custom rules",
           "dataTypes": [
             "file"
@@ -1175,6 +1247,8 @@
         {
           "name": "Cloudflare_IP_Blocker",
           "version": "1.0",
+          "author": "Nick Babkin @nickbabkin",
+          "license": "AGPL-V3",
           "description": "Block IP Address on Account level in Cloudflare",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1212,6 +1286,8 @@
         {
           "name": "C25CortexAnalyzer_Investigate",
           "version": "1.0",
+          "author": "Cluster25",
+          "license": "AGPL-V3",
           "description": "Use Cluster25's CTI API to investigate an observable.",
           "dataTypes": [
             "domain",
@@ -1255,6 +1331,8 @@
         {
           "name": "ClusterHawk",
           "version": "1.0",
+          "author": "Marvin Uku, Chawkr",
+          "license": "AGPL-V3",
           "description": "ClusterHawk prediction analyzer for IP address threat intelligence using pre-trained models",
           "dataTypes": [
             "ip"
@@ -1336,6 +1414,8 @@
         {
           "name": "Crowdsec_Analyzer",
           "version": "1.1",
+          "author": "CERT-ARKEA",
+          "license": "AGPL-V3",
           "description": "Query Crowdsec API",
           "dataTypes": [
             "ip"
@@ -1423,6 +1503,8 @@
         {
           "name": "CrowdstrikeFalcon_Sandbox_Win7",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Send a file to CrowdstrikeFalcon Sandbox",
           "dataTypes": [
             "file"
@@ -1434,6 +1516,8 @@
         {
           "name": "CrowdstrikeFalcon_Sandbox_Win7_64",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Send a file to CrowdstrikeFalcon Sandbox",
           "dataTypes": [
             "file"
@@ -1445,6 +1529,8 @@
         {
           "name": "CrowdstrikeFalcon_getDeviceAlerts",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Get Device alerts from Crowdstrike Falcon",
           "dataTypes": [
             "hostname"
@@ -1456,6 +1542,8 @@
         {
           "name": "CrowdstrikeFalcon_Sandbox_Android",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Send a file to CrowdstrikeFalcon Sandbox",
           "dataTypes": [
             "file"
@@ -1467,6 +1555,8 @@
         {
           "name": "CrowdstrikeFalcon_Sandbox_MacOS",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Send a file to CrowdstrikeFalcon Sandbox",
           "dataTypes": [
             "file"
@@ -1478,6 +1568,8 @@
         {
           "name": "CrowdstrikeFalcon_Sandbox_Win11",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Send a file to CrowdstrikeFalcon Sandbox",
           "dataTypes": [
             "file"
@@ -1489,6 +1581,8 @@
         {
           "name": "CrowdstrikeFalcon_GetDeviceVulnerabilities",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Get device vulnerabilities from hostname",
           "dataTypes": [
             "hostname"
@@ -1500,6 +1594,8 @@
         {
           "name": "CrowdstrikeFalcon_ThreatIntel",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Query threat intelligence indicators from Crowdstrike Falcon Intelligence",
           "dataTypes": [
             "hash",
@@ -1514,6 +1610,8 @@
         {
           "name": "CrowdstrikeFalcon_Sandbox_Win10",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Send a file to CrowdstrikeFalcon Sandbox",
           "dataTypes": [
             "file"
@@ -1525,6 +1623,8 @@
         {
           "name": "CrowdstrikeFalcon_getDeviceDetails",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Get device information from Crowdstrike Falcon",
           "dataTypes": [
             "hostname"
@@ -1536,6 +1636,8 @@
         {
           "name": "CrowdstrikeFalcon_Sandbox_Linux",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Send a file to CrowdstrikeFalcon Sandbox",
           "dataTypes": [
             "file"
@@ -1549,6 +1651,8 @@
         {
           "name": "CrowdStrikeFalcon_unhideHost",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "This action will restore a host. Detection reporting will resume after the host is restored",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1560,6 +1664,8 @@
         {
           "name": "CrowdStrikeFalcon_suppressDetections",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Supress detections for the host.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1571,6 +1677,8 @@
         {
           "name": "CrowdStrikeFalcon_HostContainment",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "This action contains the host, which stops any network communications to locations other than the CrowdStrike cloud and IPs specified in your containment policy",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1582,6 +1690,8 @@
         {
           "name": "CrowdStrikeFalcon_hideHost",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "This action will delete a host. After the host is deleted, no new detections for that host will be reported via UI or APIs",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1593,6 +1703,8 @@
         {
           "name": "CrowdStrikeFalcon_LiftContainmentHost",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "This action lifts containment on the host, which returns its network communications to normal",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1604,6 +1716,8 @@
         {
           "name": "CrowdStrikeFalcon_Sync",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Sync TheHive status back to CS Alerts or Incidents",
           "dataTypes": [
             "thehive:case",
@@ -1616,6 +1730,8 @@
         {
           "name": "CrowdStrikeFalcon_AddIOC",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Add IOC to IoC Management on Crowdstrike - supports domain, url, IPs & different kind of hashes",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1627,6 +1743,8 @@
         {
           "name": "CrowdStrikeFalcon_unsuppressDetections",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Allow detections for the host.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1638,6 +1756,8 @@
         {
           "name": "CrowdStrikeFalcon_RemoveIOC",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "remove IOC from IoC Management on Crowdstrike",
           "dataTypes": [
             "thehive:case_artifact"
@@ -1686,6 +1806,8 @@
         {
           "name": "Crt_sh_Transparency_Logs",
           "version": "1.0",
+          "author": "crackytsi",
+          "license": "AGPL-V3",
           "description": "Query domains against the certificate transparency lists available at crt.sh.",
           "dataTypes": [
             "domain"
@@ -1724,6 +1846,8 @@
         {
           "name": "CuckooSandbox_Url_Analysis",
           "version": "1.2",
+          "author": "Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Cuckoo Sandbox URL analysis.",
           "dataTypes": [
             "url"
@@ -1735,6 +1859,8 @@
         {
           "name": "CuckooSandbox_File_Analysis_Inet",
           "version": "1.2",
+          "author": "Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Cuckoo Sandbox file analysis with Internet access.",
           "dataTypes": [
             "file"
@@ -1773,6 +1899,8 @@
         {
           "name": "CyberChef_FromCharCode",
           "version": "1.0",
+          "author": "Wes Lambert",
+          "license": "AGPL-V3",
           "description": "Convert Char Code with CyberChef Server",
           "dataTypes": [
             "other"
@@ -1784,6 +1912,8 @@
         {
           "name": "CyberChef_FromBase64",
           "version": "1.0",
+          "author": "Wes Lambert",
+          "license": "AGPL-V3",
           "description": "Convert Base64 with CyberChef Server",
           "dataTypes": [
             "other"
@@ -1795,6 +1925,8 @@
         {
           "name": "CyberChef_FromHex",
           "version": "1.0",
+          "author": "Wes Lambert",
+          "license": "AGPL-V3",
           "description": "Convert Hex with CyberChef Server",
           "dataTypes": [
             "other"
@@ -1833,6 +1965,8 @@
         {
           "name": "CyberCrime-Tracker",
           "version": "1.0",
+          "author": "ph34tur3",
+          "license": "AGPL-V3",
           "description": "Search cybercrime-tracker.net for C2 servers.",
           "dataTypes": [
             "domain",
@@ -1875,6 +2009,8 @@
         {
           "name": "Cyberprotect_ThreatScore",
           "version": "3.0",
+          "author": "Rémi Allain, Cyberprotect",
+          "license": "AGPL-V3",
           "description": "ThreatScore is a cyber threat scoring system provided by Cyberprotect",
           "dataTypes": [
             "domain",
@@ -1917,6 +2053,8 @@
         {
           "name": "Cylance",
           "version": "1.0",
+          "author": "Mikael Keri",
+          "license": "AGPL-V3",
           "description": "Search for a specific hash, if there is a match, coresponding client information",
           "dataTypes": [
             "hash"
@@ -1976,6 +2114,8 @@
         {
           "name": "DNS-RPZ",
           "version": "1.0",
+          "author": "Michael Hornung; Expeditors International of Washington, Inc.",
+          "license": "AGPL-V3",
           "description": "Add a dynamic DNS entry to a Response Policy Zone, blackholing or redirecting a FQDN.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -2010,6 +2150,8 @@
         {
           "name": "DNSDB_DomainName",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DNSDB to fetch historical records for a domain.",
           "dataTypes": [
             "domain",
@@ -2022,6 +2164,8 @@
         {
           "name": "DNSDB_IPHistory",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DNSDB to fetch historical records for an IP address.",
           "dataTypes": [
             "ip"
@@ -2033,6 +2177,8 @@
         {
           "name": "DNSDB_NameHistory",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DNSDB to fetch historical records for a fully-qualified domain name.",
           "dataTypes": [
             "domain",
@@ -2072,6 +2218,8 @@
         {
           "name": "DNSdumpster_report",
           "version": "1.0",
+          "author": "Keijo Korte - @korteke",
+          "license": "AGPL-V3",
           "description": "Query domain information from DNSdumpster.com.",
           "dataTypes": [
             "domain"
@@ -2110,6 +2258,8 @@
         {
           "name": "DNS_Lookingglass",
           "version": "1.0",
+          "author": "Dennis Perto, Conscia",
+          "license": "AGPL-V3",
           "description": "Query the SANS ISC Global DNS Lookingglass API to check a domain name for resolved IP addresses.",
           "dataTypes": [
             "domain",
@@ -2146,6 +2296,8 @@
         {
           "name": "DNSSinkhole",
           "version": "1.0",
+          "author": "Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Check if a  domain is sinkholed via DNS Sinkhole server",
           "dataTypes": [
             "domain"
@@ -2184,6 +2336,8 @@
         {
           "name": "DomainMailSPFDMARC",
           "version": "1.1",
+          "author": "torsolaso",
+          "license": "AGPL-V3",
           "description": "DomainMailSPFDMARC",
           "dataTypes": [
             "domain",
@@ -2220,6 +2374,8 @@
         {
           "name": "DomainTools_Risk",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get a risk score and evidence details on a domain or fqdn",
           "dataTypes": [
             "domain",
@@ -2232,6 +2388,8 @@
         {
           "name": "DomainTools_WhoisLookup",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get the ownership record for a domain or an IP address with basic registration details parsed.",
           "dataTypes": [
             "domain",
@@ -2244,6 +2402,8 @@
         {
           "name": "DomainTools_Reputation",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get a reputation score on a domain or fqdn",
           "dataTypes": [
             "domain",
@@ -2256,6 +2416,8 @@
         {
           "name": "DomainTools_WhoisLookupUnparsed",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get the ownership record for an IP address or a domain without parsing.",
           "dataTypes": [
             "ip",
@@ -2268,6 +2430,8 @@
         {
           "name": "DomainTools_HostingHistory",
           "version": "2.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get a list of historical registrant, name servers and IP addresses for a domain name.",
           "dataTypes": [
             "domain"
@@ -2279,6 +2443,8 @@
         {
           "name": "DomainTools_ReverseNameServer",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get a list of domain names that share the same primary or secondary name server.",
           "dataTypes": [
             "domain"
@@ -2290,6 +2456,8 @@
         {
           "name": "DomainTools_WhoisHistory",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get a list of historical Whois records associated with a domain name.",
           "dataTypes": [
             "domain"
@@ -2301,6 +2469,8 @@
         {
           "name": "DomainTools_ReverseIP",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get a list of domain names sharing the same IP address.",
           "dataTypes": [
             "ip",
@@ -2314,6 +2484,8 @@
         {
           "name": "DomainTools_ReverseIPWhois",
           "version": "2.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get a list of IP addresses which share the same registrant information.",
           "dataTypes": [
             "mail",
@@ -2328,6 +2500,8 @@
         {
           "name": "DomainTools_ReverseWhois",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use DomainTools to get a list of domain names which share the same registrant information.",
           "dataTypes": [
             "mail",
@@ -2369,6 +2543,8 @@
         {
           "name": "DomainToolsIris_Pivot",
           "version": "1.0",
+          "author": "DomainTools",
+          "license": "AGPL-V3",
           "description": "Use DomainTools Iris API to pivot on ssl_hash, ip, or email.",
           "dataTypes": [
             "hash",
@@ -2382,6 +2558,8 @@
         {
           "name": "DomainToolsIris_Investigate",
           "version": "1.0",
+          "author": "DomainTools",
+          "license": "AGPL-V3",
           "description": "Use DomainTools Iris API to investigate a domain.",
           "dataTypes": [
             "domain"
@@ -2418,6 +2596,8 @@
         {
           "name": "DomainToolsIris_AddRiskyDNSTag",
           "version": "1.0",
+          "author": "DomainTools",
+          "license": "AGPL-V3",
           "description": "Add Tag saying that the case contains a risky DNS.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -2453,6 +2633,8 @@
         {
           "name": "DomainToolsIris_CheckMaliciousTags",
           "version": "1.0",
+          "author": "DomainTools",
+          "license": "AGPL-V3",
           "description": "Add Tag saying that the observable and case have a malicious tag in their Iris Tags.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -2490,6 +2672,8 @@
         {
           "name": "DShield_lookup",
           "version": "1.0",
+          "author": "Xavier Xavier, SANS ISC",
+          "license": "AGPL-V3",
           "description": "Query the SANS ISC DShield API to check for an IP address reputation.",
           "dataTypes": [
             "ip"
@@ -2526,6 +2710,8 @@
         {
           "name": "DuoUnlockUserAccount",
           "version": "1.0",
+          "author": "Sven Kutzer / Gyorgy Acs, @oscd_initiative",
+          "license": "AGPL-V3",
           "description": "Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)",
           "dataTypes": [
             "thehive:case_artifact"
@@ -2537,6 +2723,8 @@
         {
           "name": "DuoBypassUserAccount",
           "version": "1.0",
+          "author": "jahamilto",
+          "license": "AGPL-V3",
           "description": "Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging in.)",
           "dataTypes": [
             "thehive:case_artifact"
@@ -2548,6 +2736,8 @@
         {
           "name": "DuoLockUserAccount",
           "version": "1.0",
+          "author": "Sven Kutzer / Gyorgy Acs, @oscd_initiative",
+          "license": "AGPL-V3",
           "description": "Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)",
           "dataTypes": [
             "thehive:case_artifact"
@@ -2585,6 +2775,8 @@
         {
           "name": "EchoTrail",
           "version": "1.0",
+          "author": "Joe Lazaro",
+          "license": "AGPL-V3",
           "description": "EchoTrail Insights takes a Windows filename or hash and provides several unique pieces of analytical context including prevalence & rank scores, process ancestry, behavioral analysis, and security analysis.",
           "dataTypes": [
             "hash",
@@ -2624,6 +2816,8 @@
         {
           "name": "EclecticIQ_SearchObservable",
           "version": "2.0",
+          "author": "BW",
+          "license": "AGPL-V3",
           "description": "Query EclecticIQ Intelligence Center for a specific observable.",
           "dataTypes": [
             "domain",
@@ -2672,6 +2866,8 @@
         {
           "name": "EclecticIQ_Indicator_API",
           "version": "1.0",
+          "author": "EclecticIQ",
+          "license": "MIT",
           "description": "Submit indicators to the EclecticIQ Intelligence Center api",
           "dataTypes": [
             "thehive:case_artifact",
@@ -2727,6 +2923,8 @@
         {
           "name": "Elasticsearch_Analysis",
           "version": "1.0",
+          "author": "Nick Prokop",
+          "license": "MIT",
           "description": "Search for IoCs in Elasticsearch",
           "dataTypes": [
             "url",
@@ -2780,6 +2978,8 @@
         {
           "name": "EmailRep",
           "version": "1.0",
+          "author": "Manabu Niseki",
+          "license": "MIT",
           "description": "emailrep.io lookup.",
           "dataTypes": [
             "mail"
@@ -2818,6 +3018,8 @@
         {
           "name": "EmergingThreats_DomainInfo",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Retrieve ET reputation, related malware, and IDS requests for a given domain.",
           "dataTypes": [
             "domain",
@@ -2830,6 +3032,8 @@
         {
           "name": "EmergingThreats_MalwareInfo",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Retrieve ET details and info related to a malware hash.",
           "dataTypes": [
             "file",
@@ -2842,6 +3046,8 @@
         {
           "name": "EmergingThreats_IPInfo",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Retrieve ET reputation, related malware, and IDS requests for a given IP address.",
           "dataTypes": [
             "ip"
@@ -2879,6 +3085,8 @@
         {
           "name": "EmlParser",
           "version": "2.1",
+          "author": "StrangeBee",
+          "license": "AGPL-V3",
           "description": "Parse and visualise EML email message. Submit a .eml formatted file and extract some useful information.",
           "dataTypes": [
             "file"
@@ -2915,6 +3123,8 @@
         {
           "name": "Crowdstrike_Falcon_Custom_IOC_API",
           "version": "1.0",
+          "author": "Michael",
+          "license": "MIT",
           "description": "Submit observables to the Crowdstrike Falcon Custom IOC api",
           "dataTypes": [
             "thehive:alert",
@@ -2927,6 +3137,8 @@
         {
           "name": "Crowdstrike_Falcon_Custom_IOC",
           "version": "2.0",
+          "author": "Nicolas Criton",
+          "license": "AGPL-v3",
           "description": "Submit observables to the Crowdstrike Falcon Custom IOC API",
           "dataTypes": [
             "thehive:alert",
@@ -2965,6 +3177,8 @@
         {
           "name": "FalconSandbox",
           "version": "1.0",
+          "author": "Sebastian Schmerl - Computacenter",
+          "license": "AGPL-v3",
           "description": "Submit observables to the Crowdstrike FalconX Sandbox",
           "dataTypes": [
             "file"
@@ -3000,6 +3214,8 @@
         {
           "name": "FileInfo",
           "version": "8.0",
+          "author": "TheHive-Project",
+          "license": "AGPL-V3",
           "description": "Parse files in several formats such as OLE and OpenXML to detect VBA macros, extract their source code, generate useful information on PE, PDF files...",
           "dataTypes": [
             "file"
@@ -3038,6 +3254,8 @@
         {
           "name": "FireEyeiSight",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Query domains, IPs, hashes and URLs on FireEye's iSIGHT threat intelligence service.",
           "dataTypes": [
             "domain",
@@ -3079,6 +3297,8 @@
         {
           "name": "FireHOLBlocklists",
           "version": "2.0",
+          "author": "Nils Kuhnert, CERT-Bund",
+          "license": "AGPL-V3",
           "description": "Check IP addresses against the FireHOL blocklists",
           "dataTypes": [
             "ip"
@@ -3117,6 +3337,8 @@
         {
           "name": "ForcepointWebsensePing",
           "version": "1.0",
+          "author": "Andrea Garavaglia, Davide Arcuri - LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Use ForcepointWebsensePing to determine which category a certain URL is assigned to.",
           "dataTypes": [
             "url",
@@ -3181,6 +3403,8 @@
         {
           "name": "JA4_FoxIO",
           "version": "1.0",
+          "author": "Florian Perret @cyber_pescadito",
+          "license": "AGPL-V3",
           "description": "JA4 Fingerprint analysis with FoxIO Database",
           "dataTypes": [
             "user-agent",
@@ -3220,6 +3444,8 @@
         {
           "name": "Gatewatcher_CTI",
           "version": "2.0",
+          "author": "Gatewatcher",
+          "license": "AGPL-3.0",
           "description": "Get Gatewatcher CTI Report",
           "dataTypes": [
             "hash",
@@ -3261,6 +3487,8 @@
         {
           "name": "Gatewatcher_CTI_Identity",
           "version": "1.0",
+          "author": "Gatewatcher",
+          "license": "AGPL-3.0",
           "description": "Gatewatcher_CTI_Identity responder",
           "dataTypes": [
             "thehive:case"
@@ -3296,6 +3524,8 @@
         {
           "name": "Gmail_UnblockDomain",
           "version": "1.0",
+          "author": "David Strassegger, @oscd_initiative",
+          "license": "MIT",
           "description": "Remove a message filter for a given domain",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3307,6 +3537,8 @@
         {
           "name": "Gmail_DeleteMessage",
           "version": "1.0",
+          "author": "David Strassegger, @oscd_initiative",
+          "license": "MIT",
           "description": "Move a given message into the trash folder",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3318,6 +3550,8 @@
         {
           "name": "Gmail_UnblockSender",
           "version": "1.0",
+          "author": "David Strassegger, @oscd_initiative",
+          "license": "MIT",
           "description": "Remove a message filter for a given sender",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3329,6 +3563,8 @@
         {
           "name": "Gmail_BlockSender",
           "version": "1.0",
+          "author": "David Strassegger, @oscd_initiative",
+          "license": "MIT",
           "description": "Move emails from a given sender to trash",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3340,6 +3576,8 @@
         {
           "name": "Gmail_BlockDomain",
           "version": "1.0",
+          "author": "David Strassegger, @oscd_initiative",
+          "license": "MIT",
           "description": "Move emails from a given domain to trash",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3374,6 +3612,8 @@
         {
           "name": "GoogleDNS_resolve",
           "version": "1.0.0",
+          "author": "CERT-LaPoste",
+          "license": "AGPL-V3",
           "description": "Request Google DNS over HTTPS service",
           "dataTypes": [
             "domain",
@@ -3411,6 +3651,8 @@
         {
           "name": "GoogleSafebrowsing",
           "version": "2.0",
+          "author": "Nils Kuhnert, CERT-Bund",
+          "license": "AGPL-V3",
           "description": "Use Google Safebrowing to check URLs and domain names.",
           "dataTypes": [
             "url",
@@ -3464,6 +3706,8 @@
         {
           "name": "GTI_ScanURL",
           "version": "1.0",
+          "author": "Google",
+          "license": "AGPL-V3",
           "description": "Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence for scanning",
           "dataTypes": [
             "url"
@@ -3475,6 +3719,8 @@
         {
           "name": "GTI_ScanPrivateFile",
           "version": "1.0",
+          "author": "Google",
+          "license": "AGPL-V3",
           "description": "Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat Intelligence for scanning",
           "dataTypes": [
             "file"
@@ -3486,6 +3732,8 @@
         {
           "name": "GTI_ScanFile",
           "version": "1.0",
+          "author": "Google",
+          "license": "AGPL-V3",
           "description": "Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence for scanning",
           "dataTypes": [
             "file"
@@ -3497,6 +3745,8 @@
         {
           "name": "GTI_GetIOCReport",
           "version": "1.0",
+          "author": "Google",
+          "license": "AGPL-V3",
           "description": "Get the latest Google Threat Intelligence report for a file, hash, url, domain or an IP address.",
           "dataTypes": [
             "file",
@@ -3513,6 +3763,8 @@
         {
           "name": "GTI_ScanPrivateURL",
           "version": "1.0",
+          "author": "Google",
+          "license": "AGPL-V3",
           "description": "Get the latest Google Threat Intelligence report for a URL that was privately submitted to Google Threat Intelligence for scanning",
           "dataTypes": [
             "url"
@@ -3548,6 +3800,8 @@
         {
           "name": "GoogleVisionAPI_WebDetection",
           "version": "1.0.0",
+          "author": "CERT-LaPoste",
+          "license": "AGPL-V3",
           "description": "Find look alike image via Google Cloud Vision API using the Web_Detection service ",
           "dataTypes": [
             "file",
@@ -3587,6 +3841,8 @@
         {
           "name": "GreyNoise",
           "version": "3.2",
+          "author": "GreyNoise",
+          "license": "APLv2",
           "description": "Determine whether an IP has known scanning activity using GreyNoise.",
           "dataTypes": [
             "ip"
@@ -3622,6 +3878,8 @@
         {
           "name": "GRR",
           "version": "0.1",
+          "author": "pettai@sunet.se, SUNET",
+          "license": "AGPL-V3",
           "description": "Search GRR for the host agent.",
           "dataTypes": [
             "ip",
@@ -3661,6 +3919,8 @@
         {
           "name": "HarfangLab-GetArtifactUSN",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get USN logs artifact",
           "dataTypes": [
             "thehive:case"
@@ -3672,6 +3932,8 @@
         {
           "name": "HarfangLab-IsolateHost",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Isolate machine with HarfangLab EDR",
           "dataTypes": [
             "thehive:case",
@@ -3684,6 +3946,8 @@
         {
           "name": "HarfangLab-KillProcess",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Kill a process",
           "dataTypes": [
             "thehive:case",
@@ -3696,6 +3960,8 @@
         {
           "name": "HarfangLab-GetScheduledTasks",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get scheduled tasks on a host",
           "dataTypes": [
             "thehive:case"
@@ -3707,6 +3973,8 @@
         {
           "name": "HarfangLab-GetArtifactMFT",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get MFT artifact",
           "dataTypes": [
             "thehive:case"
@@ -3718,6 +3986,8 @@
         {
           "name": "HarfangLab-GetArtifactEvtx",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get Windows event logs artifact",
           "dataTypes": [
             "thehive:case"
@@ -3729,6 +3999,8 @@
         {
           "name": "HarfangLab-DumpProcess",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Dump process memory",
           "dataTypes": [
             "thehive:case"
@@ -3740,6 +4012,8 @@
         {
           "name": "HarfangLab-GetSessions",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get sessions on a host",
           "dataTypes": [
             "thehive:case"
@@ -3751,6 +4025,8 @@
         {
           "name": "HarfangLab-GetDrivers",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get drivers loaded on a host",
           "dataTypes": [
             "thehive:case"
@@ -3762,6 +4038,8 @@
         {
           "name": "HarfangLab-GetRunKeys",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get RUN keys on a host",
           "dataTypes": [
             "thehive:case"
@@ -3773,6 +4051,8 @@
         {
           "name": "HarfangLab-GetNetworkShares",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get network shares on a host",
           "dataTypes": [
             "thehive:case"
@@ -3784,6 +4064,8 @@
         {
           "name": "HarfangLab-GetArtifactLogs",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get Linux logs artifact",
           "dataTypes": [
             "thehive:case"
@@ -3795,6 +4077,8 @@
         {
           "name": "HarfangLab-SearchDestinationIP",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Search an IP in HarfangLab EDR's telemetry",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3806,6 +4090,8 @@
         {
           "name": "HarfangLab_SearchDriverByHash",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Search a driver load in HarfangLab EDR's telemetry per hash",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3817,6 +4103,8 @@
         {
           "name": "HarfangLab-GetPipes",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get pipes on a host",
           "dataTypes": [
             "thehive:case"
@@ -3828,6 +4116,8 @@
         {
           "name": "HarfangLab_SearchDriverByFileName",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Search a driver load in HarfangLab EDR's telemetry per filename",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3839,6 +4129,8 @@
         {
           "name": "HarfangLab-SearchSourceIP",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Search an IP in HarfangLab EDR's telemetry",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3850,6 +4142,8 @@
         {
           "name": "HarfangLab-GetBinary",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get binary information and download link",
           "dataTypes": [
             "thehive:case_artifact"
@@ -3861,6 +4155,8 @@
         {
           "name": "HarfangLab-GetProcesses",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get processes running on a host",
           "dataTypes": [
             "thehive:case"
@@ -3872,6 +4168,8 @@
         {
           "name": "HarfangLab-GetWMI",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get WMI items on a host",
           "dataTypes": [
             "thehive:case"
@@ -3883,6 +4181,8 @@
         {
           "name": "HarfangLab-GetPrefetches",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get prefetches on a host",
           "dataTypes": [
             "thehive:case"
@@ -3894,6 +4194,8 @@
         {
           "name": "HarfangLab-GetPersistence",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get persistence items on a Linux host",
           "dataTypes": [
             "thehive:case"
@@ -3905,6 +4207,8 @@
         {
           "name": "HarfangLab-GetArtifactRamdump",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get RAM dump artifact",
           "dataTypes": [
             "thehive:case"
@@ -3916,6 +4220,8 @@
         {
           "name": "HarfangLab-GetArtifactAll",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get all artifacts",
           "dataTypes": [
             "thehive:case"
@@ -3927,6 +4233,8 @@
         {
           "name": "HarfangLab-UnisolateHost",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Isolate machine with HarfangLab EDR",
           "dataTypes": [
             "thehive:case",
@@ -3939,6 +4247,8 @@
         {
           "name": "HarfangLab-GetArtifactPrefetch",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get prefetches artifact",
           "dataTypes": [
             "thehive:case"
@@ -3950,6 +4260,8 @@
         {
           "name": "HarfangLab-GetArtifactFilesystem",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get Linux filesystem artifact",
           "dataTypes": [
             "thehive:case"
@@ -3961,6 +4273,8 @@
         {
           "name": "HarfangLab-GetArtifactHives",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get Hives artifact",
           "dataTypes": [
             "thehive:case"
@@ -3972,6 +4286,8 @@
         {
           "name": "HarfangLab-GetStartupFiles",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get startup files on a host",
           "dataTypes": [
             "thehive:case"
@@ -3983,6 +4299,8 @@
         {
           "name": "HarfangLab-GetServices",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Get services on a host",
           "dataTypes": [
             "thehive:case"
@@ -3994,6 +4312,8 @@
         {
           "name": "HarfangLab-SearchHash",
           "version": "1.0",
+          "author": "HarfangLab Product Team",
+          "license": "AGPL-V3",
           "description": "Search a hash in HarfangLab EDR's telemetry",
           "dataTypes": [
             "thehive:case_artifact"
@@ -4031,6 +4351,8 @@
         {
           "name": "Hashdd_Detail",
           "version": "2.0",
+          "author": "iosonogio, dadokkio",
+          "license": "AGPLv3",
           "description": "Determine whether a hash is good or bad; if good then list what it is.",
           "dataTypes": [
             "hash"
@@ -4042,6 +4364,8 @@
         {
           "name": "Hashdd_Status",
           "version": "2.0",
+          "author": "iosonogio, dadokkio",
+          "license": "AGPLv3",
           "description": "Determine whether a hash is good or bad.",
           "dataTypes": [
             "hash"
@@ -4090,6 +4414,8 @@
         {
           "name": "HIBP_Query",
           "version": "2.0",
+          "author": "Matt Erasmus, Jonas Hergenhahn",
+          "license": "AGPL-V3",
           "description": "Query haveibeenpwned.com for a compromised email address",
           "dataTypes": [
             "mail"
@@ -4161,6 +4487,8 @@
         {
           "name": "Hunterio_DomainSearch",
           "version": "1.0",
+          "author": "Rémi Allain, Cyberprotect",
+          "license": "AGPL-V3",
           "description": "hunter.io is a service to find email addresses from a domain.",
           "dataTypes": [
             "domain",
@@ -4207,6 +4535,8 @@
         {
           "name": "HybridAnalysis_GetReport",
           "version": "1.0",
+          "author": "Daniil Yugoslavskiy, Tieto",
+          "license": "AGPL-V3",
           "description": "Fetch Hybrid Analysis reports associated with hashes and filenames.",
           "dataTypes": [
             "hash",
@@ -4250,6 +4580,8 @@
         {
           "name": "QRadar_Auto_Closing_Offense",
           "version": "1.0",
+          "author": "Florian Perret",
+          "license": "AGPL-V3",
           "description": "Closing the QRadar Offense associated to your case in one clic !",
           "dataTypes": [
             "thehive:case"
@@ -4284,6 +4616,8 @@
         {
           "name": "IBMXForce_Lookup",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Query domains, IPs, hashes and URLs against IBM X-Force threat intelligence sharing platform.",
           "dataTypes": [
             "domain",
@@ -4325,6 +4659,8 @@
         {
           "name": "Inoitsu",
           "version": "1.0",
+          "author": "Abdelkader Ben Ali",
+          "license": "MIT",
           "description": "Query Inoitsu for a compromised email address.",
           "dataTypes": [
             "mail"
@@ -4401,6 +4737,8 @@
         {
           "name": "IntezerCommunity",
           "version": "1.0",
+          "author": "Matteo Lodi",
+          "license": "AGPL-v3",
           "description": "Analyze a possible malicious file with Intezer Analyzer",
           "dataTypes": [
             "file",
@@ -4437,6 +4775,8 @@
         {
           "name": "Investigate_Categorization",
           "version": "1.0",
+          "author": "Cisco Umbrella Research @opendns",
+          "license": "AGPL-V3",
           "description": "Retrieve Investigate categorization and security features for a domain.",
           "dataTypes": [
             "domain",
@@ -4449,6 +4789,8 @@
         {
           "name": "Investigate_Sample",
           "version": "1.0",
+          "author": "Cisco Umbrella Research @opendns",
+          "license": "AGPL-V3",
           "description": "Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)",
           "dataTypes": [
             "hash"
@@ -4486,6 +4828,8 @@
         {
           "name": "IP-API",
           "version": "1.1",
+          "author": "Peter Juhas; Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Check IP address or domain using ip-api.com",
           "dataTypes": [
             "ip",
@@ -4532,6 +4876,8 @@
         {
           "name": "IPinfo_Details",
           "version": "1.0",
+          "author": "Manabu Niseki",
+          "license": "MIT",
           "description": "IPinfo details lookup.",
           "dataTypes": [
             "ip"
@@ -4543,6 +4889,8 @@
         {
           "name": "IPinfo_Hosted_Domains",
           "version": "1.0",
+          "author": "Manabu Niseki",
+          "license": "MIT",
           "description": "IPinfo hosted domains lookup.",
           "dataTypes": [
             "ip"
@@ -4578,6 +4926,8 @@
         {
           "name": "IPVoid",
           "version": "1.0",
+          "author": "Joel Snape @ Nettitude",
+          "license": "AGPL-v3",
           "description": "Determine whether an IP is present on any of the feeds consumed by IPVoid",
           "dataTypes": [
             "ip"
@@ -4616,6 +4966,8 @@
         {
           "name": "isMalicious_GetReport",
           "version": "1.0",
+          "author": "isMalicious",
+          "license": "AGPL-v3",
           "description": "Check if an IP address or domain is malicious using isMalicious.com threat intelligence. Returns risk score, threat categories, reputation data, and detection sources.",
           "dataTypes": [
             "ip",
@@ -4653,6 +5005,8 @@
         {
           "name": "IVRE",
           "version": "1.0",
+          "author": "Pierre Lalet",
+          "license": "AGPL-V3",
           "description": "Fetch details from an IVRE instance.",
           "dataTypes": [
             "autonomous-system",
@@ -4733,6 +5087,8 @@
         {
           "name": "JAMFProtect_removeHashfromPreventList",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash",
           "dataTypes": [
             "thehive:case_artifact"
@@ -4744,6 +5100,8 @@
         {
           "name": "JAMFProtect_addHashtoPreventList",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Add IOC to JAMF Protect - creates a custom prevent list for a hash",
           "dataTypes": [
             "thehive:case_artifact"
@@ -4814,6 +5172,8 @@
         {
           "name": "JoeSandbox_File_Analysis_Inet",
           "version": "3.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Joe Sandbox file analysis with Internet access.",
           "dataTypes": [
             "file"
@@ -4825,6 +5185,8 @@
         {
           "name": "JoeSandbox_Url_Analysis",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Joe Sandbox URL analysis.",
           "dataTypes": [
             "url"
@@ -4836,6 +5198,8 @@
         {
           "name": "JoeSandbox_File_Analysis_Noinet",
           "version": "3.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Joe Sandbox file analysis without Internet access.",
           "dataTypes": [
             "file"
@@ -4874,6 +5238,8 @@
         {
           "name": "Jupyter_Run_Notebook_Analyzer",
           "version": "1.0",
+          "author": "Alexandre Demeyer",
+          "license": "AGPL-V3",
           "description": "Execute a parameterized notebook in Jupyter",
           "dataTypes": [
             "domain",
@@ -4901,6 +5267,8 @@
         {
           "name": "Jupyter_Run_Notebook_Responder",
           "version": "1.0",
+          "author": "Alexandre Demeyer",
+          "license": "AGPL-V3",
           "description": "Execute a parameterized notebook in Jupyter",
           "dataTypes": [
             "thehive:case",
@@ -4939,6 +5307,8 @@
         {
           "name": "KasperskyThreatIntelligencePortal",
           "version": "1.0",
+          "author": "Peter Juhas",
+          "license": "AGPL-V3",
           "description": "Analyze IP address, domain or hash via Kaspersky Threat Intelligence Portal",
           "dataTypes": [
             "ip",
@@ -4977,6 +5347,8 @@
         {
           "name": "KnowBe4",
           "version": "1.0",
+          "author": "Kyle Parrish",
+          "license": "AGPL-V3",
           "description": "Add 'Clicked Event' to User via User Events API.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5011,6 +5383,8 @@
         {
           "name": "Ldap_Query",
           "version": "3.0",
+          "author": "Florian Perret @cyber_pescadito & THA-CERT @tha_cert",
+          "license": "AGPL-V3",
           "description": "Query your LDAP server to harvest informations about an user of your organization",
           "dataTypes": [
             "username",
@@ -5050,6 +5424,8 @@
         {
           "name": "Lookyloo_Screenshot",
           "version": "1.0",
+          "author": "THA-CERT - PVA",
+          "license": "AGPL-V3",
           "description": "Take a screenshot of an url, domain, FQDN or IP and report all HTTP redirections",
           "dataTypes": [
             "url",
@@ -5090,6 +5466,8 @@
         {
           "name": "LupovisProwl_GetIPReputation",
           "version": "1.1",
+          "author": "Lyle Docherty",
+          "license": "AGPL-V3",
           "description": "Analyzer for IP reputation using Lupovis Prowl API",
           "dataTypes": [
             "ip"
@@ -5126,6 +5504,8 @@
         {
           "name": "Mailer",
           "version": "1.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Send an email with information from a TheHive case or alert",
           "dataTypes": [
             "thehive:case",
@@ -5163,6 +5543,8 @@
         {
           "name": "MailIncidentStatus",
           "version": "1.0",
+          "author": "Manuel Krucker",
+          "license": "AGPL-V3",
           "description": "Mail a detailed status information of an incident case. The mail is sent to recipients specified by tags prefixed with 'mail='. The responder respects tlp definitions. For tlp:amber mail addresse and for tlp:green mail domains must be pre-defined in the configuration. For tlp:red sending mails is denied. The responser also uses thehive4py to collect information about the status of the tasks of the incidents.",
           "dataTypes": [
             "thehive:case"
@@ -5197,6 +5579,8 @@
         {
           "name": "Malpedia",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Check files against Malpedia YARA rules.",
           "dataTypes": [
             "file"
@@ -5245,6 +5629,8 @@
         {
           "name": "Maltiverse_Report",
           "version": "1.0",
+          "author": "ottimo",
+          "license": "AGPL-V3",
           "description": "Get the latest Maltiverse report for an hash, domain or an IP address.",
           "dataTypes": [
             "hash",
@@ -5296,6 +5682,8 @@
         {
           "name": "MalwareBazaar",
           "version": "1.0",
+          "author": "Andrea Garavaglia, Davide Arcuri - LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Search hashes on MalwareBazaar.",
           "dataTypes": [
             "hash"
@@ -5334,6 +5722,8 @@
         {
           "name": "MalwareClustering_Search",
           "version": "1.0",
+          "author": "LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Uses ApiVectors to find similarities between malware samples.",
           "dataTypes": [
             "file",
@@ -5373,6 +5763,8 @@
         {
           "name": "Malwares_Scan",
           "version": "1.0",
+          "author": "LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Use Malwares' API to scan a file or URL.",
           "dataTypes": [
             "file"
@@ -5384,6 +5776,8 @@
         {
           "name": "Malwares_GetReport",
           "version": "1.0",
+          "author": "LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Get the latest Malwares report for a file, hash, domain or an IP address.",
           "dataTypes": [
             "file",
@@ -5432,6 +5826,8 @@
         {
           "name": "MaxMind_GeoIP",
           "version": "4.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use MaxMind to geolocate an IP address.",
           "dataTypes": [
             "ip"
@@ -5467,6 +5863,8 @@
         {
           "name": "MetaDefenderCore_GetReport",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Get the latest MetaDefender Core report for hash.",
           "dataTypes": [
             "hash"
@@ -5478,6 +5876,8 @@
         {
           "name": "MetaDefenderCloud_GetReport",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Get the latest MetaDefender Cloud report for hash.",
           "dataTypes": [
             "hash"
@@ -5489,6 +5889,8 @@
         {
           "name": "MetaDefenderCloud_Scan",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Scan a file with MetaDefender Cloud",
           "dataTypes": [
             "file"
@@ -5500,6 +5902,8 @@
         {
           "name": "MetaDefenderCloud_Reputation",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Get the latest MetaDefender Cloud reputation report .",
           "dataTypes": [
             "ip",
@@ -5513,6 +5917,8 @@
         {
           "name": "MetaDefenderCore_Scan",
           "version": "1.0",
+          "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Scan a file with MetaDefender Core",
           "dataTypes": [
             "file"
@@ -5552,6 +5958,8 @@
         {
           "name": "Minemeld",
           "version": "1.0",
+          "author": "Wes Lambert, Security Onion Solutions",
+          "license": "AGPL-V3",
           "description": "Submit indicator to Minemeld",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5599,6 +6007,8 @@
         {
           "name": "MISP",
           "version": "2.1",
+          "author": "Nils Kuhnert, CERT-Bund",
+          "license": "AGPL-V3",
           "description": "Query multiple MISP instances for events containing an observable.",
           "dataTypes": [
             "domain",
@@ -5650,6 +6060,8 @@
         {
           "name": "MISPWarningLists",
           "version": "2.0",
+          "author": "Nils Kuhnert, CERT-Bund",
+          "license": "AGPL-V3",
           "description": "Check IoCs/Observables against MISP Warninglists to filter false positives.",
           "dataTypes": [
             "ip",
@@ -5699,6 +6111,8 @@
         {
           "name": "Mnemonic_pDNS_Closed",
           "version": "3.0",
+          "author": "Michael Stensrud, Nordic Financial CERT",
+          "license": "AGPL-V3",
           "description": "Query IP addresses and domains against Mnemonic pDNS restricted service.",
           "dataTypes": [
             "ip",
@@ -5711,6 +6125,8 @@
         {
           "name": "Mnemonic_pDNS_Public",
           "version": "3.0",
+          "author": "Michael Stensrud, Nordic Financial CERT",
+          "license": "AGPL-V3",
           "description": "Query IP addresses and domains against Mnemonic pDNS public service.",
           "dataTypes": [
             "ip",
@@ -5762,6 +6178,8 @@
         {
           "name": "MSDefender-FullVirusscan",
           "version": "1.0",
+          "author": "Keijo Korte",
+          "license": "AGPL-V3",
           "description": "Run full virus scan to machine with Microsoft Defender for Endpoints",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5773,6 +6191,8 @@
         {
           "name": "MSDefender-UnRestrictAppExecution",
           "version": "1.0",
+          "author": "Keijo Korte, Louis-Maximilien Dupouy",
+          "license": "AGPL-V3",
           "description": "Enable execution of any application on the device",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5784,6 +6204,8 @@
         {
           "name": "MSDefender-RestrictAppExecution",
           "version": "1.0",
+          "author": "Keijo Korte, Louis-Maximilien Dupouy",
+          "license": "AGPL-V3",
           "description": "Restrict execution of all applications on the device except a predefined set",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5795,6 +6217,8 @@
         {
           "name": "MSDefender-AutoInvestigation",
           "version": "1.0",
+          "author": "Keijo Korte, Louis-Maximilien Dupouy",
+          "license": "AGPL-V3",
           "description": "Start an automated investigation on a device",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5806,6 +6230,8 @@
         {
           "name": "MSDefender-PushIOC-Alert",
           "version": "2.0",
+          "author": "Keijo Korte, Louis-Maximilien Dupouy",
+          "license": "AGPL-V3",
           "description": "Push IOC to Defender client. Alert mode",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5817,6 +6243,8 @@
         {
           "name": "MSDefender-IsolateMachine",
           "version": "1.0",
+          "author": "Keijo Korte",
+          "license": "AGPL-V3",
           "description": "Isolate machine with Microsoft Defender for Endpoints",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5828,6 +6256,8 @@
         {
           "name": "MSDefender-PushIOC-Block",
           "version": "2.0",
+          "author": "Keijo Korte, Louis-Maximilien Dupouy",
+          "license": "AGPL-V3",
           "description": "Push IOC to Defender client. Blocking mode",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5839,6 +6269,8 @@
         {
           "name": "MSDefender-UnisolateMachine",
           "version": "1.0",
+          "author": "Keijo Korte",
+          "license": "AGPL-V3",
           "description": "Unisolate machine with Microsoft Defender for Endpoints",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5896,6 +6328,8 @@
         {
           "name": "MSDefenderOffice365_SafeLinksDecoder.json",
           "version": "1.0",
+          "author": "Louis HUSSON",
+          "license": "AGPL-V3",
           "description": "Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com domains.",
           "dataTypes": [
             "url"
@@ -5909,6 +6343,8 @@
         {
           "name": "MSDefenderOffice365_unblock",
           "version": "1.0",
+          "author": "Joe Lazaro",
+          "license": "AGPL-V3",
           "description": "Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5920,6 +6356,8 @@
         {
           "name": "MSDefenderOffice365_block",
           "version": "1.0",
+          "author": "Joe Lazaro",
+          "license": "AGPL-V3",
           "description": "Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender",
           "dataTypes": [
             "thehive:case_artifact"
@@ -5969,6 +6407,8 @@
         {
           "name": "MSEntraID_GetDirectoryAuditLogs",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.",
           "dataTypes": [
             "mail"
@@ -5980,6 +6420,8 @@
         {
           "name": "MSEntraID_GetUserInfo",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Get information about the user from Microsoft Entra ID, using the mail",
           "dataTypes": [
             "mail"
@@ -5991,6 +6433,8 @@
         {
           "name": "MSEntraID_GetSignIns",
           "version": "1.0",
+          "author": "@jahamilto",
+          "license": "AGPL-V3",
           "description": "Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.",
           "dataTypes": [
             "mail"
@@ -6002,6 +6446,8 @@
         {
           "name": "MSEntraID_GetManagedDevicesInfo",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Get Microsoft Intune Managed Device(s) Details from hostname or mail",
           "dataTypes": [
             "mail",
@@ -6016,6 +6462,8 @@
         {
           "name": "MSEntraID_enableUser",
           "version": "1.0",
+          "author": "nusatanra-self, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Enable user in Microsoft Entra ID for a User Principal Name. (mail)",
           "dataTypes": [
             "thehive:case_artifact"
@@ -6027,6 +6475,8 @@
         {
           "name": "MSEntraID_revokeSignInSessions",
           "version": "1.1",
+          "author": "Daniel Weiner @dmweiner; revised by @jahamilto; Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Invalidates all the refresh tokens issued to applications for a Microsoft Entra ID user (as well as session cookies in a user's browser)",
           "dataTypes": [
             "thehive:case_artifact"
@@ -6038,6 +6488,8 @@
         {
           "name": "MSEntraID_disableUser",
           "version": "1.0",
+          "author": "nusatanra-self, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Disable user in Microsoft Entra ID for a User Principal Name. (mail)",
           "dataTypes": [
             "thehive:case_artifact"
@@ -6049,6 +6501,8 @@
         {
           "name": "MSEntraID_ForcePasswordResetWithMFA",
           "version": "1.0",
+          "author": "nusatanra-self, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Force password reset at next login with MFA verification before password change for a User Principal Name. (mail)",
           "dataTypes": [
             "thehive:case_artifact"
@@ -6060,6 +6514,8 @@
         {
           "name": "MSEntraID_ForcePasswordReset",
           "version": "1.0",
+          "author": "nusatanra-self, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Force password reset at next login for a User Principal Name. (mail)",
           "dataTypes": [
             "thehive:case_artifact"
@@ -6094,6 +6550,8 @@
         {
           "name": "Msg_Parser",
           "version": "3.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Parse Outlook MSG files and extract the main artifacts.",
           "dataTypes": [
             "file"
@@ -6148,6 +6606,8 @@
         {
           "name": "n8n",
           "version": "1.0",
+          "author": "Anas SOUIRI",
+          "license": "AGPL-V3",
           "description": "Send data to n8n via webhook",
           "dataTypes": [
             "thehive:case",
@@ -6189,6 +6649,8 @@
         {
           "name": "NERD",
           "version": "1.1",
+          "author": "Vaclav Bartos, CESNET",
+          "license": "AGPL-V3",
           "description": "Get Reputation score and other basic information from Network Entity Reputation Database (NERD)",
           "dataTypes": [
             "ip"
@@ -6224,6 +6686,8 @@
         {
           "name": "Nessus",
           "version": "2.0",
+          "author": "Guillaume Rousse",
+          "license": "AGPL-V3",
           "description": "Use Nessus Professional to scan hosts.",
           "dataTypes": [
             "ip",
@@ -6264,6 +6728,8 @@
         {
           "name": "Netcraft_TakedownPhishingURL",
           "version": "1.0",
+          "author": "Keijo Korte - @korteke",
+          "license": "AGPL-V3",
           "description": "Submit URL to Netcraft's Takedown API.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -6298,6 +6764,8 @@
         {
           "name": "NSRL",
           "version": "1.0",
+          "author": "Andrea Garavaglia, Davide Arcuri - LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Query NSRL",
           "dataTypes": [
             "hash",
@@ -6337,6 +6805,8 @@
         {
           "name": "OktaUserLookup",
           "version": "1.0",
+          "author": "Martin Jaan Leesment",
+          "license": "AGPL-V3",
           "description": "Okta User Lookup is an analyzer for TheHive to enrich mail observables from data through the Okta users API",
           "dataTypes": [
             "mail"
@@ -6385,6 +6855,8 @@
         {
           "name": "ONYPHE_ASM",
           "version": "1.1",
+          "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
+          "license": "AGPL-V3",
           "description": "Manage an attack surface from The Hive using ONYPHE riskscan category",
           "dataTypes": [
             "ip",
@@ -6399,6 +6871,8 @@
         {
           "name": "ONYPHE_Search",
           "version": "1.1",
+          "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
+          "license": "AGPL-V3",
           "description": "Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from specified category",
           "dataTypes": [
             "ip",
@@ -6413,6 +6887,8 @@
         {
           "name": "ONYPHE_Summary_API",
           "version": "1.2",
+          "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
+          "license": "AGPL-V3",
           "description": "Retrieve summary information Onyphe has for given ip, domain, or fqdn.",
           "dataTypes": [
             "ip",
@@ -6426,6 +6902,8 @@
         {
           "name": "ONYPHE_Vulnscan",
           "version": "1.1",
+          "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
+          "license": "AGPL-V3",
           "description": "Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS fingerprint)",
           "dataTypes": [
             "ip",
@@ -6440,6 +6918,8 @@
         {
           "name": "ONYPHE_Ctiscan",
           "version": "1.0",
+          "author": "James Atack",
+          "license": "AGPL-V3",
           "description": "Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fqdn, autonomous-system or hash.)",
           "dataTypes": [
             "ip",
@@ -6483,6 +6963,8 @@
         {
           "name": "ONYPHE_OnDemandScan",
           "version": "1.0",
+          "author": "James Atack",
+          "license": "AGPL-V3",
           "description": "Perform active scan of an asset using a Scanyphe Entreprise On-Demand scanner",
           "dataTypes": [
             "ip",
@@ -6523,6 +7005,8 @@
         {
           "name": "OpenCTI_SearchExactObservable",
           "version": "2.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Query multiple OpenCTI instances for a specific observable.",
           "dataTypes": [
             "domain",
@@ -6547,6 +7031,8 @@
         {
           "name": "OpenCTI_SearchObservables",
           "version": "2.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Query multiple OpenCTI instances for a list of observables matching a pattern.",
           "dataTypes": [
             "domain",
@@ -6598,6 +7084,8 @@
         {
           "name": "OrionMalware",
           "version": "1.0",
+          "author": "Airbus Defence and Space Cyber",
+          "license": "AGPL-V3",
           "description": "Use OrionMalware API to analyze a File or find a hash match.",
           "dataTypes": [
             "file",
@@ -6647,6 +7135,8 @@
         {
           "name": "OTXQuery",
           "version": "2.0",
+          "author": "Eric Capuano",
+          "license": "AGPL-V3",
           "description": "Query AlienVault OTX for IPs, domains, URLs, or file hashes.",
           "dataTypes": [
             "url",
@@ -6690,6 +7180,8 @@
         {
           "name": "PaloAltoCortexXDR_unisolate",
           "version": "1.0",
+          "author": "Joe Lazaro",
+          "license": "AGPL-V3",
           "description": "Unisolate endpoints identified by hostname or IP list",
           "dataTypes": [
             "thehive:case_artifact"
@@ -6701,6 +7193,8 @@
         {
           "name": "PaloAltoCortexXDR_scan",
           "version": "1.0",
+          "author": "Joe Lazaro",
+          "license": "AGPL-V3",
           "description": "Scan endpoints identified by hostname or IP list",
           "dataTypes": [
             "thehive:case_artifact"
@@ -6712,6 +7206,8 @@
         {
           "name": "PaloAltoCortexXDR_isolate",
           "version": "1.0",
+          "author": "Joe Lazaro",
+          "license": "AGPL-V3",
           "description": "Isolate endpoints identified by hostname or IP list",
           "dataTypes": [
             "thehive:case_artifact"
@@ -6747,6 +7243,8 @@
         {
           "name": "PaloAltoNGFW_unblock_external_domain",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Unblock external domain",
           "dataTypes": [
             "thehive:alert",
@@ -6760,6 +7258,8 @@
         {
           "name": "PaloAltoNGFW_unblock_port_for_external_communication",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Unblock external port communication",
           "dataTypes": [
             "thehive:alert",
@@ -6773,6 +7273,8 @@
         {
           "name": "PaloAltoNGFW_unblock_internal_user",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Unblock internal user",
           "dataTypes": [
             "thehive:alert",
@@ -6786,6 +7288,8 @@
         {
           "name": "PaloAltoNGFW_block_external_IP_address",
           "version": "2.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Block external IP address",
           "dataTypes": [
             "thehive:alert",
@@ -6799,6 +7303,8 @@
         {
           "name": "PaloAltoNGFW_unblock_external_user",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Unblock external user",
           "dataTypes": [
             "thehive:alert",
@@ -6812,6 +7318,8 @@
         {
           "name": "PaloAltoNGFW_block_port_for_external_communication",
           "version": "2.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Block external port communication",
           "dataTypes": [
             "thehive:alert",
@@ -6825,6 +7333,8 @@
         {
           "name": "PaloAltoNGFW_unblock_external_IP_address",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Unblock external ip",
           "dataTypes": [
             "thehive:alert",
@@ -6838,6 +7348,8 @@
         {
           "name": "PaloAltoNGFW_block_internal_user",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Block internal user",
           "dataTypes": [
             "thehive:alert",
@@ -6851,6 +7363,8 @@
         {
           "name": "PaloAltoNGFW_unblock_port_for_internal_communication",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Unblock internal port communication",
           "dataTypes": [
             "thehive:alert",
@@ -6864,6 +7378,8 @@
         {
           "name": "PaloAltoNGFW_unblock_internal_domain",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Unblock internal domain",
           "dataTypes": [
             "thehive:alert",
@@ -6877,6 +7393,8 @@
         {
           "name": "PaloAltoNGFW_block_internal_domain",
           "version": "2.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Block internal domain",
           "dataTypes": [
             "thehive:alert",
@@ -6890,6 +7408,8 @@
         {
           "name": "PaloAltoNGFW_block_internal_IP_address",
           "version": "2.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Block internal IP address",
           "dataTypes": [
             "thehive:alert",
@@ -6903,6 +7423,8 @@
         {
           "name": "PaloAltoNGFW_block_external_user",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Block external user",
           "dataTypes": [
             "thehive:alert",
@@ -6916,6 +7438,8 @@
         {
           "name": "PaloAltoNGFW_block_external_domain",
           "version": "2.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Block external domain",
           "dataTypes": [
             "thehive:alert",
@@ -6929,6 +7453,8 @@
         {
           "name": "PaloAltoNGFW_block_port_for_internal_communication",
           "version": "2.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Block internal port communication",
           "dataTypes": [
             "thehive:alert",
@@ -6942,6 +7468,8 @@
         {
           "name": "PaloAltoNGFW_unblock_internal_IP_address",
           "version": "1.0.0",
+          "author": "Maxim Konakin, OSCD Initiative",
+          "license": "AGPL-V3",
           "description": "Unblock internal ip",
           "dataTypes": [
             "thehive:alert",
@@ -6981,6 +7509,8 @@
         {
           "name": "PaloAltoWildFire",
           "version": "1.0",
+          "author": "Ignacio Rodriguez Paez, Joe Lazaro",
+          "license": "AGPL-V3",
           "description": "Run Palo Alto WildFire analysis on a file, hash, or URL",
           "dataTypes": [
             "file",
@@ -6996,6 +7526,8 @@
         {
           "name": "PaloAltoWildFire_URL_submission",
           "version": "1.0",
+          "author": "Keijo Korte - @korteke",
+          "license": "AGPL-V3",
           "description": "Submit URL to PaloAlto WildFire service.",
           "dataTypes": [
             "url",
@@ -7032,6 +7564,8 @@
         {
           "name": "PassiveTotal_Osint",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "PassiveTotal OSINT Lookup.",
           "dataTypes": [
             "domain",
@@ -7045,6 +7579,8 @@
         {
           "name": "PassiveTotal_Components",
           "version": "2.0",
+          "author": "Brandon Dixon (9bplus)",
+          "license": "AGPL-V3",
           "description": "PassiveTotal Components Lookup.",
           "dataTypes": [
             "domain",
@@ -7058,6 +7594,8 @@
         {
           "name": "PassiveTotal_Enrichment",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "PassiveTotal Enrichment Lookup.",
           "dataTypes": [
             "domain",
@@ -7071,6 +7609,8 @@
         {
           "name": "PassiveTotal_Ssl_Certificate_History",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "PassiveTotal SSL Certificate History Lookup.",
           "dataTypes": [
             "hash",
@@ -7083,6 +7623,8 @@
         {
           "name": "PassiveTotal_Host_Pairs",
           "version": "2.0",
+          "author": "Brandon Dixon (9bplus)",
+          "license": "AGPL-V3",
           "description": "PassiveTotal Host Pairs Lookup.",
           "dataTypes": [
             "domain",
@@ -7096,6 +7638,8 @@
         {
           "name": "PassiveTotal_Passive_Dns",
           "version": "2.1",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "PassiveTotal Passive DNS Lookup.",
           "dataTypes": [
             "domain",
@@ -7109,6 +7653,8 @@
         {
           "name": "PassiveTotal_Whois_Details",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "PassiveTotal Whois Details Lookup.",
           "dataTypes": [
             "domain",
@@ -7122,6 +7668,8 @@
         {
           "name": "PassiveTotal_Trackers",
           "version": "2.0",
+          "author": "Brandon Dixon (9bplus)",
+          "license": "AGPL-V3",
           "description": "PassiveTotal Trackers Lookup.",
           "dataTypes": [
             "domain",
@@ -7135,6 +7683,8 @@
         {
           "name": "PassiveTotal_Ssl_Certificate_Details",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "PassiveTotal SSL Certificate Details Lookup.",
           "dataTypes": [
             "hash",
@@ -7147,6 +7697,8 @@
         {
           "name": "PassiveTotal_Unique_Resolutions",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "PassiveTotal Unique Resolutions Lookup.",
           "dataTypes": [
             "domain",
@@ -7160,6 +7712,8 @@
         {
           "name": "PassiveTotal_Malware",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "PassiveTotal Malware Lookup.",
           "dataTypes": [
             "domain",
@@ -7200,6 +7754,8 @@
         {
           "name": "Patrowl_GetReport",
           "version": "1.0",
+          "author": "Nicolas Mattiocco",
+          "license": "AGPL-V3",
           "description": "Get the current Patrowl report for a fdqn, a domain or an IP address.",
           "dataTypes": [
             "fqdn",
@@ -7237,6 +7793,8 @@
         {
           "name": "PayloadSecurity_File_Analysis",
           "version": "1.0",
+          "author": "Emmanuel Torquato",
+          "license": "AGPL-V3",
           "description": "PayloadSecurity Sandbox File Analysis",
           "dataTypes": [
             "file"
@@ -7248,6 +7806,8 @@
         {
           "name": "PayloadSecurity_Url_Analysis",
           "version": "1.0",
+          "author": "Emmanuel Torquato",
+          "license": "AGPL-V3",
           "description": "PayloadSecurity Sandbox Url Analysis",
           "dataTypes": [
             "url"
@@ -7289,6 +7849,8 @@
         {
           "name": "PhishingInitiative_Scan",
           "version": "1.0",
+          "author": "Remi Pointel",
+          "license": "AGPL-V3",
           "description": "Use Phishing Initiative to scan a URL.",
           "dataTypes": [
             "url"
@@ -7300,6 +7862,8 @@
         {
           "name": "PhishingInitiative_Lookup",
           "version": "2.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use Phishing Initiative to check if a URL is a verified phishing site.",
           "dataTypes": [
             "url"
@@ -7338,6 +7902,8 @@
         {
           "name": "PhishTank_CheckURL",
           "version": "2.1",
+          "author": "Eric Capuano",
+          "license": "AGPL-V3",
           "description": "Use PhishTank to check if a URL is a verified phishing site.",
           "dataTypes": [
             "url"
@@ -7413,6 +7979,8 @@
         {
           "name": "Proofpoint_Lookup",
           "version": "1.0",
+          "author": "Emmanuel Torquato",
+          "license": "AGPL-V3",
           "description": "Check URL, file, SHA256 against Proofpoint forensics",
           "dataTypes": [
             "url",
@@ -7471,6 +8039,8 @@
         {
           "name": "Pulsedive_GetIndicator",
           "version": "1.0",
+          "author": "Nils Kuhnert",
+          "license": "AGPL-V3",
           "description": "Search Pulsedive.com for a giver domain name, hash, ip or url",
           "dataTypes": [
             "url",
@@ -7509,6 +8079,8 @@
         {
           "name": "QrDecode",
           "version": "1.0",
+          "author": "THA-CERT",
+          "license": "AGPL-V3",
           "description": "Extracts data from one or more QR codes.",
           "dataTypes": [
             "file"
@@ -7556,6 +8128,8 @@
         {
           "name": "RecordedFuture",
           "version": "2.0",
+          "author": "Recorded Future",
+          "license": "AGPL-V3",
           "description": "Enrich IP, Domain, FQDN, URL, or Hash with Recorded Future context:  Risk Score, Risk Details, AI Insights, Links, Threat Actor, Attack Vector, Malware Category / Family, and Related Entities (IPs, Domains, and Hashes)",
           "dataTypes": [
             "ip",
@@ -7596,6 +8170,8 @@
         {
           "name": "Redmine_Issue",
           "version": "1.0",
+          "author": "Marc-André DOLL",
+          "license": "AGPL-V3",
           "description": "Create a redmine issue from a case",
           "dataTypes": [
             "thehive:case",
@@ -7631,6 +8207,8 @@
         {
           "name": "RiskIQ_Certificates",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: SSL/TLS certificates associated with an indicator.",
           "dataTypes": [
             "domain",
@@ -7644,6 +8222,8 @@
         {
           "name": "RiskIQ_Trackers",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: trackers observed during a crawl on a host.",
           "dataTypes": [
             "domain",
@@ -7657,6 +8237,8 @@
         {
           "name": "RiskIQ_Services",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: services observed on an IP address.",
           "dataTypes": [
             "ip"
@@ -7668,6 +8250,8 @@
         {
           "name": "RiskIQ_HostpairParents",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: hosts with a parent web component relationship to an IOC.",
           "dataTypes": [
             "domain",
@@ -7681,6 +8265,8 @@
         {
           "name": "RiskIQ_Articles",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: OSINT articles that reference an indicator.",
           "dataTypes": [
             "domain",
@@ -7694,6 +8280,8 @@
         {
           "name": "RiskIQ_Summary",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ Illuminate and PassiveTotal datasets with records for an indicator.",
           "dataTypes": [
             "domain",
@@ -7707,6 +8295,8 @@
         {
           "name": "RiskIQ_Components",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: web components observed during crawls on a hostname.",
           "dataTypes": [
             "domain",
@@ -7720,6 +8310,8 @@
         {
           "name": "RiskIQ_Subdomains",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: subdomains observed historically in pDNS records.",
           "dataTypes": [
             "fqdn",
@@ -7732,6 +8324,8 @@
         {
           "name": "RiskIQ_Whois",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ Whois lookup for an indicator.",
           "dataTypes": [
             "domain",
@@ -7745,6 +8339,8 @@
         {
           "name": "RiskIQ_Projects",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: Illuminate / PassiveTotal projects that contain an artifact which matches an IOC.",
           "dataTypes": [
             "domain",
@@ -7758,6 +8354,8 @@
         {
           "name": "RiskIQ_Malware",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: malware hashes from various sources associated with an IOC.",
           "dataTypes": [
             "domain",
@@ -7771,6 +8369,8 @@
         {
           "name": "RiskIQ_Artifacts",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: Illuminate / PassiveTotal project artifacts that match an indicator.",
           "dataTypes": [
             "domain",
@@ -7784,6 +8384,8 @@
         {
           "name": "RiskIQ_Reputation",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ Illuminate Reputation Score for an indicator.",
           "dataTypes": [
             "domain",
@@ -7797,6 +8399,8 @@
         {
           "name": "RiskIQ_Cookies",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: cookies observed during crawls on a hostname.",
           "dataTypes": [
             "domain",
@@ -7810,6 +8414,8 @@
         {
           "name": "RiskIQ_Resolutions",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: PDNS resolutions for an IOC.",
           "dataTypes": [
             "domain",
@@ -7823,6 +8429,8 @@
         {
           "name": "RiskIQ_HostpairChildren",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "RiskIQ: hosts with a child web component relationship to an IOC.",
           "dataTypes": [
             "domain",
@@ -7838,6 +8446,8 @@
         {
           "name": "RiskIQ_PushArtifactToProject",
           "version": "1.0",
+          "author": "RiskIQ",
+          "license": "AGPL-V3",
           "description": "Push a case to a RiskIQ Illuminate project.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -7872,6 +8482,8 @@
         {
           "name": "Robtex_Reverse_PDNS_Query",
           "version": "1.0",
+          "author": "Nils Kuhnert",
+          "license": "AGPL-V3",
           "description": "Check IPs using the Robtex reverse passive DNS API.",
           "dataTypes": [
             "ip"
@@ -7883,6 +8495,8 @@
         {
           "name": "Robtex_Forward_PDNS_Query",
           "version": "1.0",
+          "author": "Nils Kuhnert",
+          "license": "AGPL-V3",
           "description": "Check domains and FQDNs using the Robtex passive DNS API.",
           "dataTypes": [
             "domain",
@@ -7895,6 +8509,8 @@
         {
           "name": "Robtex_IP_Query",
           "version": "1.0",
+          "author": "Nils Kuhnert",
+          "license": "AGPL-V3",
           "description": "Check IPs using the Robtex IP API.",
           "dataTypes": [
             "ip"
@@ -7931,6 +8547,8 @@
         {
           "name": "RT4-CreateTicket",
           "version": "1.0",
+          "author": "Michael Davis, REN-ISAC",
+          "license": "MIT",
           "description": "Cortex Responder to create a ticket in RT4 from TheHive observables or alerts",
           "dataTypes": [
             "thehive:case_artifact",
@@ -7967,6 +8585,8 @@
         {
           "name": "SecurityTrails_Passive_DNS",
           "version": "1.0",
+          "author": "Manabu Niseki, @ninoseki",
+          "license": "MIT",
           "description": "SecurityTrails Passive DNS Lookup.",
           "dataTypes": [
             "ip"
@@ -7978,6 +8598,8 @@
         {
           "name": "SecurityTrails_Whois",
           "version": "1.0",
+          "author": "Manabu Niseki, @ninoseki",
+          "license": "MIT",
           "description": "SecurityTrails Whois Lookup.",
           "dataTypes": [
             "domain"
@@ -8016,6 +8638,8 @@
         {
           "name": "SEKOIAIntelligenceCenter_Indicators",
           "version": "1.0",
+          "author": "SEKOIA",
+          "license": "AGPL-V3",
           "description": "Query the Intelligence Center to retrieve indicators",
           "dataTypes": [
             "domain",
@@ -8031,6 +8655,8 @@
         {
           "name": "SEKOIAIntelligenceCenter_Observables",
           "version": "1.0",
+          "author": "SEKOIA",
+          "license": "AGPL-V3",
           "description": "Query the Intelligence Center to retrieve known observables",
           "dataTypes": [
             "domain",
@@ -8046,6 +8672,8 @@
         {
           "name": "SEKOIAIntelligenceCenter_Context",
           "version": "1.0",
+          "author": "SEKOIA",
+          "license": "AGPL-V3",
           "description": "Query the Intelligence Center to retrieve the context of an observable",
           "dataTypes": [
             "domain",
@@ -8086,6 +8714,8 @@
         {
           "name": "SendGrid",
           "version": "1.0",
+          "author": "Equate Technologies",
+          "license": "AGPL-V3",
           "description": "Send an email with information from a TheHive case or alert via SendGrid API over HTTPS",
           "dataTypes": [
             "thehive:case",
@@ -8121,6 +8751,8 @@
         {
           "name": "SentinelOne_DeepVisibility_DNSQuery",
           "version": "1.0",
+          "author": "Joe Vasquez",
+          "license": "AGPL-V3",
           "description": "Query Sentinel One Deep Visibility API v2.1 for hosts that have requested DNS lookups for a domain/URL/FQDN.",
           "dataTypes": [
             "url",
@@ -8136,6 +8768,8 @@
         {
           "name": "SentinelOne_Hash_Blacklister",
           "version": "1.0",
+          "author": "Joe Vasquez",
+          "license": "AGPL-V3",
           "description": "Add SHA1 hash to SentinelOne Blacklist via API v2.1.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -8184,6 +8818,8 @@
         {
           "name": "Shodan_DNSResolve",
           "version": "1.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Retrieve domain resolutions on Shodan.",
           "dataTypes": [
             "domain",
@@ -8196,6 +8832,8 @@
         {
           "name": "Shodan_InfoDomain",
           "version": "1.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Retrieve key Shodan information on a domain.",
           "dataTypes": [
             "domain",
@@ -8208,6 +8846,8 @@
         {
           "name": "Shodan_Host_History",
           "version": "1.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Retrieve Shodan history scan results  for an IP address.",
           "dataTypes": [
             "ip"
@@ -8219,6 +8859,8 @@
         {
           "name": "Shodan_Search",
           "version": "2.0",
+          "author": "Sebastien Larinier @Sebdraven",
+          "license": "AGPL-V3",
           "description": "Search query on Shodan",
           "dataTypes": [
             "other"
@@ -8230,6 +8872,8 @@
         {
           "name": "Shodan_Host",
           "version": "1.0",
+          "author": "Sebastien Larinier @Sebdraven",
+          "license": "AGPL-V3",
           "description": "Retrieve key Shodan information on an IP address.",
           "dataTypes": [
             "ip"
@@ -8241,6 +8885,8 @@
         {
           "name": "Shodan_ReverseDNS",
           "version": "1.0",
+          "author": "ANSSI",
+          "license": "AGPL-V3",
           "description": "Retrieve ip reverse DNS resolutions on Shodan.",
           "dataTypes": [
             "ip"
@@ -8294,6 +8940,8 @@
         {
           "name": "Shuffle",
           "version": "1.0",
+          "author": "@frikkylikeme",
+          "license": "AGPL-V3",
           "description": "Execute a workflow in Shuffle",
           "dataTypes": [
             "thehive:case",
@@ -8332,6 +8980,8 @@
         {
           "name": "SinkDB",
           "version": "1.1",
+          "author": "Mark Kikta, RedLegg Cybersecurity Solutions",
+          "license": "AGPL-V3",
           "description": "Check if ip is sinkholed via the new sinkdb.abuse.ch HTTPS API. Original analyzer can be found at https://github.com/BSI-CERT-Bund/sinkdb-analyzer",
           "dataTypes": [
             "ip",
@@ -8412,6 +9062,8 @@
         {
           "name": "Slack_SyncChannel",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.",
           "dataTypes": [
             "thehive:case"
@@ -8423,6 +9075,8 @@
         {
           "name": "Slack_CreateChannel",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and description.",
           "dataTypes": [
             "thehive:case"
@@ -8457,6 +9111,8 @@
         {
           "name": "SoltraEdge",
           "version": "1.0",
+          "author": "Michael Stensrud, Nordic Financial CERT",
+          "license": "AGPL-V3",
           "description": "Query against Soltra Edge.",
           "dataTypes": [
             "domain",
@@ -8505,6 +9161,8 @@
         {
           "name": "SophosIntelix_Submit_Dynamic",
           "version": "0.1",
+          "author": "SOL",
+          "license": "AGPL-V3",
           "description": "Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx",
           "dataTypes": [
             "file"
@@ -8516,6 +9174,8 @@
         {
           "name": "SophosIntelix_Submit_Static",
           "version": "0.1",
+          "author": "SOL",
+          "license": "AGPL-V3",
           "description": "Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you to see if the file is similar to known malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx",
           "dataTypes": [
             "file"
@@ -8527,6 +9187,8 @@
         {
           "name": "SophosIntelix_GetReport",
           "version": "0.3",
+          "author": "SOL",
+          "license": "AGPL-V3",
           "description": "Fast and easy way to find out if the file is known Good, PUA (Potentially Unwanted Application), or, Malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx",
           "dataTypes": [
             "hash",
@@ -8568,6 +9230,8 @@
         {
           "name": "SpamAssassin",
           "version": "1.0",
+          "author": "Davide Arcuri - LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Get spam score from local SpamAssassin instance",
           "dataTypes": [
             "file"
@@ -8603,6 +9267,8 @@
         {
           "name": "SpamhausDBL",
           "version": "1.0",
+          "author": "Wes Lambert",
+          "license": "AGPL-V3",
           "description": "Perform domain lookup to Spamhaus DBL",
           "dataTypes": [
             "domain",
@@ -8665,6 +9331,8 @@
         {
           "name": "Splunk_Search_Other",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with an unidentified data as argument",
           "dataTypes": [
             "other"
@@ -8676,6 +9344,8 @@
         {
           "name": "Splunk_Search_Registry",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with a registry data as argument",
           "dataTypes": [
             "registry"
@@ -8687,6 +9357,8 @@
         {
           "name": "Splunk_Search_Mail_Subject",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with a mail subject as argument",
           "dataTypes": [
             "mail_subject",
@@ -8699,6 +9371,8 @@
         {
           "name": "Splunk_Search_File_Filename",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with a file/filename as argument",
           "dataTypes": [
             "file",
@@ -8711,6 +9385,8 @@
         {
           "name": "Splunk_Search_User_Agent",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with a user agent as argument",
           "dataTypes": [
             "user-agent"
@@ -8722,6 +9398,8 @@
         {
           "name": "Splunk_Search_Mail_Email",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with a mail/email as argument",
           "dataTypes": [
             "mail",
@@ -8734,6 +9412,8 @@
         {
           "name": "Splunk_Search_IP",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with an IP as argument",
           "dataTypes": [
             "ip"
@@ -8745,6 +9425,8 @@
         {
           "name": "Splunk_Search_Hash",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with a hash as argument",
           "dataTypes": [
             "hash"
@@ -8756,6 +9438,8 @@
         {
           "name": "Splunk_Search_Domain_FQDN",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with a domain or a FQDN as argument",
           "dataTypes": [
             "domain",
@@ -8768,6 +9452,8 @@
         {
           "name": "Splunk_Search_User",
           "version": "3.0",
+          "author": "LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with a user ID as argument",
           "dataTypes": [
             "other"
@@ -8779,6 +9465,8 @@
         {
           "name": "Splunk_Search_URL_URI_Path",
           "version": "3.0",
+          "author": "Unit777, LetMeR00t",
+          "license": "AGPL-V3",
           "description": "Execute a savedsearch on a Splunk instance with an URL or a URI path as argument",
           "dataTypes": [
             "url",
@@ -8826,6 +9514,8 @@
         {
           "name": "StamusNetworks_HostID",
           "version": "1.0",
+          "author": "Stamus Networks",
+          "license": "AGPL-V3",
           "description": "Get information from your Scirius Security Platform for an IP address.",
           "dataTypes": [
             "ip"
@@ -8861,6 +9551,8 @@
         {
           "name": "StaxxSearch",
           "version": "1.0",
+          "author": "Robert Nixon",
+          "license": "AGPL-V3",
           "description": "Fetch observable details from an Anomali STAXX instance.",
           "dataTypes": [
             "domain",
@@ -8901,6 +9593,8 @@
         {
           "name": "StopForumSpam",
           "version": "1.0",
+          "author": "Marc-Andre Doll, STARC by EXAPROBE",
+          "license": "AGPL-V3",
           "description": "Query http://www.stopforumspam.com to check if an IP or email address is a known spammer.",
           "dataTypes": [
             "ip",
@@ -8963,6 +9657,8 @@
         {
           "name": "TeamCymruMHR",
           "version": "1.0",
+          "author": "Wes Lambert; Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Submit hash to Team Cymru's Malware Hash Registry",
           "dataTypes": [
             "hash"
@@ -9012,6 +9708,8 @@
         {
           "name": "Telegram",
           "version": "1.0",
+          "author": "Alex Kolnik, PS Cloud Services, @ps_kz",
+          "license": "AGPL-V3",
           "description": "Send a message to Telegram with information from TheHive case",
           "dataTypes": [
             "thehive:case"
@@ -9047,6 +9745,8 @@
         {
           "name": "Test",
           "version": "1.0",
+          "author": "Jerome Leonard",
+          "license": "AGPL-V3",
           "description": "test",
           "dataTypes": [
             "thehive:case",
@@ -9062,6 +9762,8 @@
         {
           "name": "DevTools_Echo_Responder",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Development utility that simply echoes the input received by the responder.",
           "dataTypes": [
             "thehive:case",
@@ -9103,6 +9805,8 @@
         {
           "name": "DevTools_Echo_Analyzer",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Development utility that simply echoes the (available) input received by the analyzer.",
           "dataTypes": [
             "ip",
@@ -9124,6 +9828,8 @@
         {
           "name": "TestAnalyzer",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Just a simple test analyzer! No real-world use-case covered by this one, for testing, reference, dev and any other purpose only!",
           "dataTypes": [
             "ip",
@@ -9224,6 +9930,8 @@
         {
           "name": "ThreatGrid",
           "version": "1.0",
+          "author": "Cisco Security",
+          "license": "MIT",
           "description": "Threat Grid Sandbox",
           "dataTypes": [
             "file",
@@ -9261,6 +9969,8 @@
         {
           "name": "ThreatMiner",
           "version": "1.0",
+          "author": "Peter Juhas",
+          "license": "AGPL-V3",
           "description": "WHOIS queries from threatminer.org",
           "dataTypes": [
             "ip",
@@ -9297,6 +10007,8 @@
         {
           "name": "ThreatResponse",
           "version": "1.0",
+          "author": "Cisco Security",
+          "license": "MIT",
           "description": "Threat Response",
           "dataTypes": [
             "domain",
@@ -9340,6 +10052,8 @@
         {
           "name": "THOR_Thunderstorm_ScanSample",
           "version": "0.3.1",
+          "author": "Florian Roth",
+          "license": "AGPL-V3",
           "description": "Submits sample to an on-premise THOR Thunderstorm web service and processes the scan result",
           "dataTypes": [
             "file"
@@ -9411,6 +10125,8 @@
         {
           "name": "TorBlutmagie",
           "version": "1.0",
+          "author": "Marc-André DOLL, STARC by EXAPROBE",
+          "license": "AGPL-V3",
           "description": "Query https://torstatus.rueckgr.at/query_export.php/Tor_query_EXPORT.csv (formerly TorBlutmagie) for TOR exit nodes IP addresses or names.",
           "dataTypes": [
             "ip",
@@ -9448,6 +10164,8 @@
         {
           "name": "TorProject",
           "version": "1.0",
+          "author": "Marc-André DOLL, STARC by EXAPROBE",
+          "license": "AGPL-V3",
           "description": "Query https://check.torproject.org/exit-addresses for TOR exit nodes IP addresses.",
           "dataTypes": [
             "ip"
@@ -9486,6 +10204,8 @@
         {
           "name": "Triage",
           "version": "2.0",
+          "author": "Mikael Keri",
+          "license": "AGPL-V3",
           "description": "Submit artifacts to the Recorded Future Triage sandbox service. This analyzer requires a paid subscription for the Private and Recorded Future sandboxes.",
           "dataTypes": [
             "ip",
@@ -9523,6 +10243,8 @@
         {
           "name": "UnshortenLink",
           "version": "1.2",
+          "author": "Remi Pointel, CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Use UnshortenLink to reveal the real URL.",
           "dataTypes": [
             "url"
@@ -9571,6 +10293,8 @@
         {
           "name": "URLhaus",
           "version": "2.0",
+          "author": "ninoseki, Nils Kuhnert",
+          "license": "MIT",
           "description": "Search domains, IPs, URLs or hashes on URLhaus.",
           "dataTypes": [
             "domain",
@@ -9626,6 +10350,8 @@
         {
           "name": "Urlscan.io_Search",
           "version": "0.1.1",
+          "author": "ninoseki, Kyle Parrish (@arnydo)",
+          "license": "MIT",
           "description": "Search IPs, domains, hashes or URLs on urlscan.io",
           "dataTypes": [
             "ip",
@@ -9641,6 +10367,8 @@
         {
           "name": "Urlscan.io_Scan",
           "version": "0.1.0",
+          "author": "ninoseki, Kyle Parrish (@arnydo)",
+          "license": "MIT",
           "description": "Scan URLs on urlscan.io",
           "dataTypes": [
             "url",
@@ -9681,6 +10409,8 @@
         {
           "name": "Valhalla_GetRuleMatches",
           "version": "0.3.1",
+          "author": "Florian Roth",
+          "license": "AGPL-V3",
           "description": "Gets matching YARA rules for a given sample SHA256 hash",
           "dataTypes": [
             "hash"
@@ -9719,6 +10449,8 @@
         {
           "name": "ValidateObservable",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Use regexes and libraries to indicate if observable is valid",
           "dataTypes": [
             "ip",
@@ -9770,6 +10502,8 @@
         {
           "name": "Velociraptor",
           "version": "0.2",
+          "author": "Wes Lambert, @therealwlambert",
+          "license": "AGPL-V3",
           "description": "Run Velociraptor artifact collection",
           "dataTypes": [
             "thehive:case_artifact"
@@ -9804,6 +10538,8 @@
         {
           "name": "Verifalia",
           "version": "1.0",
+          "author": "Peter Juhas",
+          "license": "AGPL-V3",
           "description": "Analyze e-mail address via Verifalia",
           "dataTypes": [
             "mail"
@@ -9842,6 +10578,8 @@
         {
           "name": "Virusshare",
           "version": "2.0",
+          "author": "Nils Kuhnert, CERT-Bund",
+          "license": "AGPL-V3",
           "description": "Search for MD5 hashes in Virusshare.com hash list",
           "dataTypes": [
             "hash",
@@ -9894,6 +10632,8 @@
         {
           "name": "VirusTotal_DownloadSample",
           "version": "3.1",
+          "author": "LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Use VirusTotal to download the original file for an hash.",
           "dataTypes": [
             "hash"
@@ -9905,6 +10645,8 @@
         {
           "name": "VirusTotal_GetReport",
           "version": "3.1",
+          "author": "CERT-BDF, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Get the latest VirusTotal report for a file, hash, domain or an IP address.",
           "dataTypes": [
             "file",
@@ -9921,6 +10663,8 @@
         {
           "name": "VirusTotal_Scan",
           "version": "3.1",
+          "author": "CERT-BDF, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Use VirusTotal to scan a file or URL.",
           "dataTypes": [
             "file",
@@ -9933,6 +10677,8 @@
         {
           "name": "VirusTotal_Rescan",
           "version": "3.1",
+          "author": "CERT-LDO",
+          "license": "AGPL-V3",
           "description": "Use VirusTotal to run new analysis on hash.",
           "dataTypes": [
             "hash"
@@ -9972,6 +10718,8 @@
         {
           "name": "Virustotal_Downloader",
           "version": "0.1",
+          "author": "Mario Henkel @hariomenkel",
+          "license": "AGPL-V3",
           "description": "Download a file from Virustotal by its hash",
           "dataTypes": [
             "thehive:case_artifact"
@@ -10006,6 +10754,8 @@
         {
           "name": "VMRay",
           "version": "4.1",
+          "author": "Nils Kuhnert, CERT-Bund",
+          "license": "AGPL-V3",
           "description": "VMRay Sandbox file and URL analysis.",
           "dataTypes": [
             "hash",
@@ -10046,6 +10796,8 @@
         {
           "name": "Vulners_IOC",
           "version": "1.0",
+          "author": "Dmitry Uchakin, Vulners team",
+          "license": "AGPL-V3",
           "description": "Get information from the RST Threat Feed, which integrated with Vulners, for a domain, url or an IP address.",
           "dataTypes": [
             "url",
@@ -10059,6 +10811,8 @@
         {
           "name": "Vulners_CVE",
           "version": "1.0",
+          "author": "Dmitry Uchakin, Vulners team",
+          "license": "AGPL-V3",
           "description": "Get information about CVE from powerful Vulners database.",
           "dataTypes": [
             "cve"
@@ -10094,6 +10848,8 @@
         {
           "name": "Watcher_CheckDomain",
           "version": "1.3",
+          "author": "THA-CERT // YNE",
+          "license": "AGPL-V3",
           "description": "Checks if a domain is monitored in Watcher.",
           "dataTypes": [
             "domain"
@@ -10107,6 +10863,8 @@
         {
           "name": "Watcher_AddDomain",
           "version": "1.2",
+          "author": "THA-CERT // YNE",
+          "license": "AGPL-V3",
           "description": "Add a domain to monitoring in the Website Monitoring module on Watcher.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -10118,6 +10876,8 @@
         {
           "name": "Watcher_RemoveDomain",
           "version": "1.2",
+          "author": "THA-CERT // YNE",
+          "license": "AGPL-V3",
           "description": "Removes a domain from monitoring in the Website Monitoring module on Watcher.",
           "dataTypes": [
             "thehive:case_artifact"
@@ -10153,6 +10913,8 @@
         {
           "name": "Wazuh",
           "version": "1.0",
+          "author": "Wes Lambert",
+          "license": "AGPL-V3",
           "description": "Block an IP on a host via Wazuh agent",
           "dataTypes": [
             "thehive:case",
@@ -10188,6 +10950,8 @@
         {
           "name": "WOT_Lookup",
           "version": "2.0",
+          "author": "Andrea Garavaglia, Davide Arcuri, LDO-CERT",
+          "license": "AGPL-V3",
           "description": "Use Web of Trust to check a domain's reputation.",
           "dataTypes": [
             "domain",
@@ -10236,6 +11000,8 @@
         {
           "name": "Yara",
           "version": "3.0",
+          "author": "Nils Kuhnert, CERT-Bund; Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Check files against YARA rules, either from local filesystem or from one or multiple GitHub repositories. NOTE: Performance & execution time may be much longer according to the number of rules checked.",
           "dataTypes": [
             "file"
@@ -10271,6 +11037,8 @@
         {
           "name": "Yeti",
           "version": "1.0",
+          "author": "CERT-BDF",
+          "license": "AGPL-V3",
           "description": "Fetch observable details from a YETI instance.",
           "dataTypes": [
             "domain",
@@ -10311,6 +11079,8 @@
         {
           "name": "ZEROFOX_Close_alert",
           "version": "1.0",
+          "author": "TheHive-Project",
+          "license": "AGPL-V3",
           "description": "Close alert in Zerofox",
           "dataTypes": [
             "thehive:case"
@@ -10346,6 +11116,8 @@
         {
           "name": "ZEROFOX_Takedown_request",
           "version": "1.0",
+          "author": "TheHive-Project",
+          "license": "AGPL-V3",
           "description": "Request for a takedown regarding the alert in Zerofox",
           "dataTypes": [
             "thehive:case"
@@ -10383,6 +11155,8 @@
         {
           "name": "Zscaler",
           "version": "1.3",
+          "author": "Simon Lavigne, Mikael Keri",
+          "license": "AGPL-V3",
           "description": "Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer requires a paid subscription to Zscaler ZIA",
           "dataTypes": [
             "ip",
@@ -10397,6 +11171,8 @@
         {
           "name": "ZscalerZIA_URLLookup",
           "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
           "description": "Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2 and legacy authentication.",
           "dataTypes": [
             "domain",

@@ -19,6 +19,8 @@ Hunter.io discovers and verifies email addresses associated with domains, enabli
 ### Hunterio_DomainSearch `v1.0`
 hunter.io is a service to find email addresses from a domain.
 
+- **Author:** Rémi Allain, Cyberprotect
+- **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
 - **Configuration:** [.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json))
 

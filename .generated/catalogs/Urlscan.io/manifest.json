@@ -29,6 +29,8 @@
       {
         "name": "Urlscan.io_Search",
         "version": "0.1.1",
+        "author": "ninoseki, Kyle Parrish (@arnydo)",
+        "license": "MIT",
         "description": "Search IPs, domains, hashes or URLs on urlscan.io",
         "dataTypes": [
           "ip",
@@ -44,6 +46,8 @@
       {
         "name": "Urlscan.io_Scan",
         "version": "0.1.0",
+        "author": "ninoseki, Kyle Parrish (@arnydo)",
+        "license": "MIT",
         "description": "Scan URLs on urlscan.io",
         "dataTypes": [
           "url",

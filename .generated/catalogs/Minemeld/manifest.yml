@@ -19,6 +19,8 @@ integrations:
   responders:
   - name: Minemeld
     version: '1.0'
+    author: Wes Lambert, Security Onion Solutions
+    license: AGPL-V3
     description: Submit indicator to Minemeld
     dataTypes:
     - thehive:case_artifact

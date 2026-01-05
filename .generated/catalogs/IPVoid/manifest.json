@@ -13,6 +13,8 @@
       {
         "name": "IPVoid",
         "version": "1.0",
+        "author": "Joel Snape @ Nettitude",
+        "license": "AGPL-v3",
         "description": "Determine whether an IP is present on any of the feeds consumed by IPVoid",
         "dataTypes": [
           "ip"

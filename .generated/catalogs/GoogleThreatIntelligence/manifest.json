@@ -30,6 +30,8 @@
       {
         "name": "GTI_ScanURL",
         "version": "1.0",
+        "author": "Google",
+        "license": "AGPL-V3",
         "description": "Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence for scanning",
         "dataTypes": [
           "url"
@@ -41,6 +43,8 @@
       {
         "name": "GTI_ScanPrivateFile",
         "version": "1.0",
+        "author": "Google",
+        "license": "AGPL-V3",
         "description": "Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat Intelligence for scanning",
         "dataTypes": [
           "file"
@@ -52,6 +56,8 @@
       {
         "name": "GTI_ScanFile",
         "version": "1.0",
+        "author": "Google",
+        "license": "AGPL-V3",
         "description": "Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence for scanning",
         "dataTypes": [
           "file"
@@ -63,6 +69,8 @@
       {
         "name": "GTI_GetIOCReport",
         "version": "1.0",
+        "author": "Google",
+        "license": "AGPL-V3",
         "description": "Get the latest Google Threat Intelligence report for a file, hash, url, domain or an IP address.",
         "dataTypes": [
           "file",
@@ -79,6 +87,8 @@
       {
         "name": "GTI_ScanPrivateURL",
         "version": "1.0",
+        "author": "Google",
+        "license": "AGPL-V3",
         "description": "Get the latest Google Threat Intelligence report for a URL that was privately submitted to Google Threat Intelligence for scanning",
         "dataTypes": [
           "url"

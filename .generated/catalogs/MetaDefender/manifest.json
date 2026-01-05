@@ -13,6 +13,8 @@
       {
         "name": "MetaDefenderCore_GetReport",
         "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Get the latest MetaDefender Core report for hash.",
         "dataTypes": [
           "hash"
@@ -24,6 +26,8 @@
       {
         "name": "MetaDefenderCloud_GetReport",
         "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Get the latest MetaDefender Cloud report for hash.",
         "dataTypes": [
           "hash"
@@ -35,6 +39,8 @@
       {
         "name": "MetaDefenderCloud_Scan",
         "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Scan a file with MetaDefender Cloud",
         "dataTypes": [
           "file"
@@ -46,6 +52,8 @@
       {
         "name": "MetaDefenderCloud_Reputation",
         "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Get the latest MetaDefender Cloud reputation report .",
         "dataTypes": [
           "ip",
@@ -59,6 +67,8 @@
       {
         "name": "MetaDefenderCore_Scan",
         "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Scan a file with MetaDefender Core",
         "dataTypes": [
           "file"

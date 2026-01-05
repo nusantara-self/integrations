@@ -29,6 +29,8 @@
       {
         "name": "VirusTotal_DownloadSample",
         "version": "3.1",
+        "author": "LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Use VirusTotal to download the original file for an hash.",
         "dataTypes": [
           "hash"
@@ -40,6 +42,8 @@
       {
         "name": "VirusTotal_GetReport",
         "version": "3.1",
+        "author": "CERT-BDF, StrangeBee",
+        "license": "AGPL-V3",
         "description": "Get the latest VirusTotal report for a file, hash, domain or an IP address.",
         "dataTypes": [
           "file",
@@ -56,6 +60,8 @@
       {
         "name": "VirusTotal_Scan",
         "version": "3.1",
+        "author": "CERT-BDF, StrangeBee",
+        "license": "AGPL-V3",
         "description": "Use VirusTotal to scan a file or URL.",
         "dataTypes": [
           "file",
@@ -68,6 +74,8 @@
       {
         "name": "VirusTotal_Rescan",
         "version": "3.1",
+        "author": "CERT-LDO",
+        "license": "AGPL-V3",
         "description": "Use VirusTotal to run new analysis on hash.",
         "dataTypes": [
           "hash"

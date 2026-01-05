@@ -13,6 +13,8 @@
       {
         "name": "GoogleSafebrowsing",
         "version": "2.0",
+        "author": "Nils Kuhnert, CERT-Bund",
+        "license": "AGPL-V3",
         "description": "Use Google Safebrowing to check URLs and domain names.",
         "dataTypes": [
           "url",

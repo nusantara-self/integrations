@@ -17,6 +17,8 @@ integrations:
   analyzers:
   - name: EmlParser
     version: '2.1'
+    author: StrangeBee
+    license: AGPL-V3
     description: Parse and visualise EML email message. Submit a .eml formatted file and extract some useful information.
     dataTypes:
     - file

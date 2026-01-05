@@ -13,6 +13,8 @@
       {
         "name": "Investigate_Categorization",
         "version": "1.0",
+        "author": "Cisco Umbrella Research @opendns",
+        "license": "AGPL-V3",
         "description": "Retrieve Investigate categorization and security features for a domain.",
         "dataTypes": [
           "domain",
@@ -25,6 +27,8 @@
       {
         "name": "Investigate_Sample",
         "version": "1.0",
+        "author": "Cisco Umbrella Research @opendns",
+        "license": "AGPL-V3",
         "description": "Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)",
         "dataTypes": [
           "hash"

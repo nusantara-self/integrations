@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: CISMCAP
     version: '1.0'
+    author: Joe Lazaro
+    license: AGPL-V3
     description: Malicious Code Analysis Platform (MCAP) by the Center for Internet Security (CIS). Submit files for analysis
       or check feeds for known indicators of compromise for other data types.
     dataTypes:

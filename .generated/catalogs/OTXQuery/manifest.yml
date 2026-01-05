@@ -27,6 +27,8 @@ integrations:
   analyzers:
   - name: OTXQuery
     version: '2.0'
+    author: Eric Capuano
+    license: AGPL-V3
     description: Query AlienVault OTX for IPs, domains, URLs, or file hashes.
     dataTypes:
     - url

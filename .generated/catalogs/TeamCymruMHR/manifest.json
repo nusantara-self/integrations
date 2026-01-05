@@ -16,6 +16,8 @@
       {
         "name": "TeamCymruMHR",
         "version": "1.0",
+        "author": "Wes Lambert; Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
         "description": "Submit hash to Team Cymru's Malware Hash Registry",
         "dataTypes": [
           "hash"

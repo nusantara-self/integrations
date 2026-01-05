@@ -14,6 +14,8 @@
       {
         "name": "ZEROFOX_Close_alert",
         "version": "1.0",
+        "author": "TheHive-Project",
+        "license": "AGPL-V3",
         "description": "Close alert in Zerofox",
         "dataTypes": [
           "thehive:case"

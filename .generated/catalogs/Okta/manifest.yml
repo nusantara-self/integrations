@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: OktaUserLookup
     version: '1.0'
+    author: Martin Jaan Leesment
+    license: AGPL-V3
     description: Okta User Lookup is an analyzer for TheHive to enrich mail observables from data through the Okta users API
     dataTypes:
     - mail

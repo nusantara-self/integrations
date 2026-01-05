@@ -16,6 +16,8 @@
       {
         "name": "DomainToolsIris_Pivot",
         "version": "1.0",
+        "author": "DomainTools",
+        "license": "AGPL-V3",
         "description": "Use DomainTools Iris API to pivot on ssl_hash, ip, or email.",
         "dataTypes": [
           "hash",
@@ -29,6 +31,8 @@
       {
         "name": "DomainToolsIris_Investigate",
         "version": "1.0",
+        "author": "DomainTools",
+        "license": "AGPL-V3",
         "description": "Use DomainTools Iris API to investigate a domain.",
         "dataTypes": [
           "domain"

@@ -16,6 +16,8 @@
       {
         "name": "IntezerCommunity",
         "version": "1.0",
+        "author": "Matteo Lodi",
+        "license": "AGPL-v3",
         "description": "Analyze a possible malicious file with Intezer Analyzer",
         "dataTypes": [
           "file",

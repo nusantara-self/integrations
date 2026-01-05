@@ -15,6 +15,8 @@ integrations:
   analyzers:
   - name: Pulsedive_GetIndicator
     version: '1.0'
+    author: Nils Kuhnert
+    license: AGPL-V3
     description: Search Pulsedive.com for a giver domain name, hash, ip or url
     dataTypes:
     - url

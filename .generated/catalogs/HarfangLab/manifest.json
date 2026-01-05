@@ -16,6 +16,8 @@
       {
         "name": "HarfangLab-GetArtifactUSN",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get USN logs artifact",
         "dataTypes": [
           "thehive:case"
@@ -27,6 +29,8 @@
       {
         "name": "HarfangLab-IsolateHost",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Isolate machine with HarfangLab EDR",
         "dataTypes": [
           "thehive:case",
@@ -39,6 +43,8 @@
       {
         "name": "HarfangLab-KillProcess",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Kill a process",
         "dataTypes": [
           "thehive:case",
@@ -51,6 +57,8 @@
       {
         "name": "HarfangLab-GetScheduledTasks",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get scheduled tasks on a host",
         "dataTypes": [
           "thehive:case"
@@ -62,6 +70,8 @@
       {
         "name": "HarfangLab-GetArtifactMFT",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get MFT artifact",
         "dataTypes": [
           "thehive:case"
@@ -73,6 +83,8 @@
       {
         "name": "HarfangLab-GetArtifactEvtx",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get Windows event logs artifact",
         "dataTypes": [
           "thehive:case"
@@ -84,6 +96,8 @@
       {
         "name": "HarfangLab-DumpProcess",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Dump process memory",
         "dataTypes": [
           "thehive:case"
@@ -95,6 +109,8 @@
       {
         "name": "HarfangLab-GetSessions",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get sessions on a host",
         "dataTypes": [
           "thehive:case"
@@ -106,6 +122,8 @@
       {
         "name": "HarfangLab-GetDrivers",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get drivers loaded on a host",
         "dataTypes": [
           "thehive:case"
@@ -117,6 +135,8 @@
       {
         "name": "HarfangLab-GetRunKeys",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get RUN keys on a host",
         "dataTypes": [
           "thehive:case"
@@ -128,6 +148,8 @@
       {
         "name": "HarfangLab-GetNetworkShares",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get network shares on a host",
         "dataTypes": [
           "thehive:case"
@@ -139,6 +161,8 @@
       {
         "name": "HarfangLab-GetArtifactLogs",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get Linux logs artifact",
         "dataTypes": [
           "thehive:case"
@@ -150,6 +174,8 @@
       {
         "name": "HarfangLab-SearchDestinationIP",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Search an IP in HarfangLab EDR's telemetry",
         "dataTypes": [
           "thehive:case_artifact"
@@ -161,6 +187,8 @@
       {
         "name": "HarfangLab_SearchDriverByHash",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Search a driver load in HarfangLab EDR's telemetry per hash",
         "dataTypes": [
           "thehive:case_artifact"
@@ -172,6 +200,8 @@
       {
         "name": "HarfangLab-GetPipes",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get pipes on a host",
         "dataTypes": [
           "thehive:case"
@@ -183,6 +213,8 @@
       {
         "name": "HarfangLab_SearchDriverByFileName",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Search a driver load in HarfangLab EDR's telemetry per filename",
         "dataTypes": [
           "thehive:case_artifact"
@@ -194,6 +226,8 @@
       {
         "name": "HarfangLab-SearchSourceIP",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Search an IP in HarfangLab EDR's telemetry",
         "dataTypes": [
           "thehive:case_artifact"
@@ -205,6 +239,8 @@
       {
         "name": "HarfangLab-GetBinary",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get binary information and download link",
         "dataTypes": [
           "thehive:case_artifact"
@@ -216,6 +252,8 @@
       {
         "name": "HarfangLab-GetProcesses",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get processes running on a host",
         "dataTypes": [
           "thehive:case"
@@ -227,6 +265,8 @@
       {
         "name": "HarfangLab-GetWMI",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get WMI items on a host",
         "dataTypes": [
           "thehive:case"
@@ -238,6 +278,8 @@
       {
         "name": "HarfangLab-GetPrefetches",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get prefetches on a host",
         "dataTypes": [
           "thehive:case"
@@ -249,6 +291,8 @@
       {
         "name": "HarfangLab-GetPersistence",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get persistence items on a Linux host",
         "dataTypes": [
           "thehive:case"
@@ -260,6 +304,8 @@
       {
         "name": "HarfangLab-GetArtifactRamdump",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get RAM dump artifact",
         "dataTypes": [
           "thehive:case"
@@ -271,6 +317,8 @@
       {
         "name": "HarfangLab-GetArtifactAll",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get all artifacts",
         "dataTypes": [
           "thehive:case"
@@ -282,6 +330,8 @@
       {
         "name": "HarfangLab-UnisolateHost",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Isolate machine with HarfangLab EDR",
         "dataTypes": [
           "thehive:case",
@@ -294,6 +344,8 @@
       {
         "name": "HarfangLab-GetArtifactPrefetch",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get prefetches artifact",
         "dataTypes": [
           "thehive:case"
@@ -305,6 +357,8 @@
       {
         "name": "HarfangLab-GetArtifactFilesystem",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get Linux filesystem artifact",
         "dataTypes": [
           "thehive:case"
@@ -316,6 +370,8 @@
       {
         "name": "HarfangLab-GetArtifactHives",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get Hives artifact",
         "dataTypes": [
           "thehive:case"
@@ -327,6 +383,8 @@
       {
         "name": "HarfangLab-GetStartupFiles",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get startup files on a host",
         "dataTypes": [
           "thehive:case"
@@ -338,6 +396,8 @@
       {
         "name": "HarfangLab-GetServices",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Get services on a host",
         "dataTypes": [
           "thehive:case"
@@ -349,6 +409,8 @@
       {
         "name": "HarfangLab-SearchHash",
         "version": "1.0",
+        "author": "HarfangLab Product Team",
+        "license": "AGPL-V3",
         "description": "Search a hash in HarfangLab EDR's telemetry",
         "dataTypes": [
           "thehive:case_artifact"

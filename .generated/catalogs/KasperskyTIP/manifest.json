@@ -13,6 +13,8 @@
       {
         "name": "KasperskyThreatIntelligencePortal",
         "version": "1.0",
+        "author": "Peter Juhas",
+        "license": "AGPL-V3",
         "description": "Analyze IP address, domain or hash via Kaspersky Threat Intelligence Portal",
         "dataTypes": [
           "ip",

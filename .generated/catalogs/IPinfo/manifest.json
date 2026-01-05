@@ -23,6 +23,8 @@
       {
         "name": "IPinfo_Details",
         "version": "1.0",
+        "author": "Manabu Niseki",
+        "license": "MIT",
         "description": "IPinfo details lookup.",
         "dataTypes": [
           "ip"
@@ -34,6 +36,8 @@
       {
         "name": "IPinfo_Hosted_Domains",
         "version": "1.0",
+        "author": "Manabu Niseki",
+        "license": "MIT",
         "description": "IPinfo hosted domains lookup.",
         "dataTypes": [
           "ip"

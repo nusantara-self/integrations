@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: FalconSandbox
     version: '1.0'
+    author: Sebastian Schmerl - Computacenter
+    license: AGPL-v3
     description: Submit observables to the Crowdstrike FalconX Sandbox
     dataTypes:
     - file

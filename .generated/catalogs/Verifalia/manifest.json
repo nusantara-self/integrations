@@ -13,6 +13,8 @@
       {
         "name": "Verifalia",
         "version": "1.0",
+        "author": "Peter Juhas",
+        "license": "AGPL-V3",
         "description": "Analyze e-mail address via Verifalia",
         "dataTypes": [
           "mail"

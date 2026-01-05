@@ -24,6 +24,8 @@ integrations:
   analyzers:
   - name: MaxMind_GeoIP
     version: '4.0'
+    author: CERT-BDF
+    license: AGPL-V3
     description: Use MaxMind to geolocate an IP address.
     dataTypes:
     - ip

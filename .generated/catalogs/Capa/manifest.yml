@@ -28,6 +28,8 @@ integrations:
   analyzers:
   - name: Capa
     version: '1.0'
+    author: Wes Lambert; Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Analyze files with Capa
     dataTypes:
     - file

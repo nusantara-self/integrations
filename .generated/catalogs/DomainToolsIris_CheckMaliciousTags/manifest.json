@@ -14,6 +14,8 @@
       {
         "name": "DomainToolsIris_CheckMaliciousTags",
         "version": "1.0",
+        "author": "DomainTools",
+        "license": "AGPL-V3",
         "description": "Add Tag saying that the observable and case have a malicious tag in their Iris Tags.",
         "dataTypes": [
           "thehive:case_artifact"

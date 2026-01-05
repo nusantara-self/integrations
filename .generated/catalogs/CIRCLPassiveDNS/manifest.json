@@ -16,6 +16,8 @@
       {
         "name": "CIRCLPassiveDNS",
         "version": "2.0",
+        "author": "Nils Kuhnert, CERT-Bund",
+        "license": "AGPL-V3",
         "description": "Check CIRCL's Passive DNS for a given domain or URL.",
         "dataTypes": [
           "domain",

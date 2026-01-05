@@ -14,6 +14,8 @@
       {
         "name": "CheckPoint_Lock",
         "version": "1.0",
+        "author": "@dadokkio LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Lock ip on CheckPoint Gaia",
         "dataTypes": [
           "thehive:case_artifact"
@@ -25,6 +27,8 @@
       {
         "name": "CheckPoint_Unlock",
         "version": "1.0",
+        "author": "@dadokkio LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Unlock ip on CheckPoint Gaia",
         "dataTypes": [
           "thehive:case_artifact"

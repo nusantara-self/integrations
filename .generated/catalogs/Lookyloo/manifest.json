@@ -16,6 +16,8 @@
       {
         "name": "Lookyloo_Screenshot",
         "version": "1.0",
+        "author": "THA-CERT - PVA",
+        "license": "AGPL-V3",
         "description": "Take a screenshot of an url, domain, FQDN or IP and report all HTTP redirections",
         "dataTypes": [
           "url",

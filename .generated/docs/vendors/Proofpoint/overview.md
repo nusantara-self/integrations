@@ -19,6 +19,8 @@ Proofpoint is an enterprise email security and threat protection platform that p
 ### Proofpoint_Lookup `v1.0`
 Check URL, file, SHA256 against Proofpoint forensics
 
+- **Author:** Emmanuel Torquato
+- **License:** AGPL-V3
 - **Data Types:** `url`, `file`, `hash`
 - **Configuration:** [.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json))
 

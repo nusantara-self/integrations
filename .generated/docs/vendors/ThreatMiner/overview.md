@@ -6,6 +6,8 @@
 ### ThreatMiner `v1.0`
 WHOIS queries from threatminer.org
 
+- **Author:** Peter Juhas
+- **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`
 - **Configuration:** [.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json))
 

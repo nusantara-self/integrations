@@ -13,6 +13,8 @@
       {
         "name": "Autofocus_GetSampleAnalysis",
         "version": "1.0",
+        "author": "ANSSI",
+        "license": "AGPL-V3",
         "description": "Get full analysis from a sample based on its hash",
         "dataTypes": [
           "hash"
@@ -24,6 +26,8 @@
       {
         "name": "Autofocus_SearchJSON",
         "version": "1.0",
+        "author": "ANSSI",
+        "license": "AGPL-V3",
         "description": "Search samples in Autofocus with a full search query in JSON",
         "dataTypes": [
           "other"
@@ -35,6 +39,8 @@
       {
         "name": "Autofocus_SearchIOC",
         "version": "1.0",
+        "author": "ANSSI",
+        "license": "AGPL-V3",
         "description": "Search samples in Autofocus based on a single IOC",
         "dataTypes": [
           "domain",

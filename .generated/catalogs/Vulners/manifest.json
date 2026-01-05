@@ -16,6 +16,8 @@
       {
         "name": "Vulners_IOC",
         "version": "1.0",
+        "author": "Dmitry Uchakin, Vulners team",
+        "license": "AGPL-V3",
         "description": "Get information from the RST Threat Feed, which integrated with Vulners, for a domain, url or an IP address.",
         "dataTypes": [
           "url",
@@ -29,6 +31,8 @@
       {
         "name": "Vulners_CVE",
         "version": "1.0",
+        "author": "Dmitry Uchakin, Vulners team",
+        "license": "AGPL-V3",
         "description": "Get information about CVE from powerful Vulners database.",
         "dataTypes": [
           "cve"

@@ -16,6 +16,8 @@
       {
         "name": "Censys",
         "version": "2.0",
+        "author": "Nils Kuhnert, CERT-Bund; Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
         "description": "Check IPs, certificate hashes or domains against censys.io.",
         "dataTypes": [
           "ip",

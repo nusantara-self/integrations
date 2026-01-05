@@ -13,6 +13,8 @@
       {
         "name": "DNSDB_DomainName",
         "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
         "description": "Use DNSDB to fetch historical records for a domain.",
         "dataTypes": [
           "domain",
@@ -25,6 +27,8 @@
       {
         "name": "DNSDB_IPHistory",
         "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
         "description": "Use DNSDB to fetch historical records for an IP address.",
         "dataTypes": [
           "ip"
@@ -36,6 +40,8 @@
       {
         "name": "DNSDB_NameHistory",
         "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
         "description": "Use DNSDB to fetch historical records for a fully-qualified domain name.",
         "dataTypes": [
           "domain",

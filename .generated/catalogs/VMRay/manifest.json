@@ -13,6 +13,8 @@
       {
         "name": "VMRay",
         "version": "4.1",
+        "author": "Nils Kuhnert, CERT-Bund",
+        "license": "AGPL-V3",
         "description": "VMRay Sandbox file and URL analysis.",
         "dataTypes": [
           "hash",

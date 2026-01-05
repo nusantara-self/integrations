@@ -14,6 +14,8 @@
       {
         "name": "ZEROFOX_Takedown_request",
         "version": "1.0",
+        "author": "TheHive-Project",
+        "license": "AGPL-V3",
         "description": "Request for a takedown regarding the alert in Zerofox",
         "dataTypes": [
           "thehive:case"

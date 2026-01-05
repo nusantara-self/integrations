@@ -17,6 +17,8 @@
       {
         "name": "QRadar_Auto_Closing_Offense",
         "version": "1.0",
+        "author": "Florian Perret",
+        "license": "AGPL-V3",
         "description": "Closing the QRadar Offense associated to your case in one clic !",
         "dataTypes": [
           "thehive:case"

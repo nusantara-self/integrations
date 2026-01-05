@@ -16,6 +16,8 @@ integrations:
   responders:
   - name: Mailer
     version: '1.0'
+    author: CERT-BDF
+    license: AGPL-V3
     description: Send an email with information from a TheHive case or alert
     dataTypes:
     - thehive:case

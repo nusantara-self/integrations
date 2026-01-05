@@ -16,6 +16,8 @@
       {
         "name": "CyberChef_FromCharCode",
         "version": "1.0",
+        "author": "Wes Lambert",
+        "license": "AGPL-V3",
         "description": "Convert Char Code with CyberChef Server",
         "dataTypes": [
           "other"
@@ -27,6 +29,8 @@
       {
         "name": "CyberChef_FromBase64",
         "version": "1.0",
+        "author": "Wes Lambert",
+        "license": "AGPL-V3",
         "description": "Convert Base64 with CyberChef Server",
         "dataTypes": [
           "other"
@@ -38,6 +42,8 @@
       {
         "name": "CyberChef_FromHex",
         "version": "1.0",
+        "author": "Wes Lambert",
+        "license": "AGPL-V3",
         "description": "Convert Hex with CyberChef Server",
         "dataTypes": [
           "other"

@@ -32,6 +32,8 @@ integrations:
   analyzers:
   - name: Elasticsearch_Analysis
     version: '1.0'
+    author: Nick Prokop
+    license: MIT
     description: Search for IoCs in Elasticsearch
     dataTypes:
     - url

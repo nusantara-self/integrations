@@ -26,6 +26,8 @@
       {
         "name": "EmailRep",
         "version": "1.0",
+        "author": "Manabu Niseki",
+        "license": "MIT",
         "description": "emailrep.io lookup.",
         "dataTypes": [
           "mail"

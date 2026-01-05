@@ -13,6 +13,8 @@
       {
         "name": "StaxxSearch",
         "version": "1.0",
+        "author": "Robert Nixon",
+        "license": "AGPL-V3",
         "description": "Fetch observable details from an Anomali STAXX instance.",
         "dataTypes": [
           "domain",

@@ -13,6 +13,8 @@
       {
         "name": "Nessus",
         "version": "2.0",
+        "author": "Guillaume Rousse",
+        "license": "AGPL-V3",
         "description": "Use Nessus Professional to scan hosts.",
         "dataTypes": [
           "ip",

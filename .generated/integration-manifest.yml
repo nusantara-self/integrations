@@ -15,6 +15,8 @@ Abuse_Finder:
     analyzers:
     - name: Abuse_Finder
       version: '3.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Find abuse contacts associated with domain names, URLs, IPs and email addresses.
       dataTypes:
       - ip
@@ -59,6 +61,8 @@ AbuseIPDB:
     analyzers:
     - name: AbuseIPDB
       version: '1.1'
+      author: Matteo Lodi; Fabien Bloume, StrangeBee
+      license: AGPL-v3
       description: Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
       dataTypes:
       - ip
@@ -90,6 +94,8 @@ AILOnionLookup:
     analyzers:
     - name: AIL_OnionLookup
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Checks the existence of Tor hidden services and retrieving their associated metadata. Onion-lookup relies
         on an AIL instance to obtain the metadata.
       dataTypes:
@@ -151,6 +157,8 @@ AMPforEndpoints:
     responders:
     - name: AMPforEndpoints_SCDAdd
       version: '1.0'
+      author: Cisco Security
+      license: MIT
       description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
       dataTypes:
       - thehive:case_artifact
@@ -159,6 +167,8 @@ AMPforEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
     - name: AMPforEndpoints_IsolationStart
       version: '1.0'
+      author: Cisco Security
+      license: MIT
       description: Start host isolation for an AMP for Endpoints connector
       dataTypes:
       - thehive:case_artifact
@@ -167,6 +177,8 @@ AMPforEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     - name: AMPforEndpoints_MoveGUID
       version: '1.0'
+      author: Cisco Security
+      license: MIT
       description: Move an AMP for Endpoints connector GUID to a different Group
       dataTypes:
       - thehive:case_artifact
@@ -175,6 +187,8 @@ AMPforEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
     - name: AMPforEndpoints_IsolationStop
       version: '1.0'
+      author: Cisco Security
+      license: MIT
       description: Stop host isolation for an AMP for Endpoints connector
       dataTypes:
       - thehive:case_artifact
@@ -183,6 +197,8 @@ AMPforEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
     - name: AMPforEndpoints_SCDRemove
       version: '1.0'
+      author: Cisco Security
+      license: MIT
       description: Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
       dataTypes:
       - thehive:case_artifact
@@ -213,6 +229,8 @@ AnyRun:
     analyzers:
     - name: AnyRun_Sandbox_Analysis
       version: '1.1'
+      author: Andrea Garavaglia, Davide Arcuri, LDO-CERT; Nate Olsen, WSECU
+      license: AGPL-V3
       description: Any.Run Sandbox file analysis
       dataTypes:
       - file
@@ -242,6 +260,8 @@ Autofocus:
     analyzers:
     - name: Autofocus_GetSampleAnalysis
       version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Get full analysis from a sample based on its hash
       dataTypes:
       - hash
@@ -250,6 +270,8 @@ Autofocus:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
     - name: Autofocus_SearchJSON
       version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Search samples in Autofocus with a full search query in JSON
       dataTypes:
       - other
@@ -258,6 +280,8 @@ Autofocus:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
     - name: Autofocus_SearchIOC
       version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Search samples in Autofocus based on a single IOC
       dataTypes:
       - domain
@@ -297,6 +321,8 @@ AWSLambda:
     responders:
     - name: AWSLambda_InvokeFunction
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Invokes the specified AWS Lambda function with the given input from TheHive.
       dataTypes:
       - thehive:case
@@ -332,6 +358,8 @@ AWX:
     responders:
     - name: AWX_StartJob
       version: '1.0'
+      author: Tim Muehlhausen
+      license: AGPL-V3
       description: Start a job on AWX
       dataTypes:
       - thehive:case_artifact
@@ -362,6 +390,8 @@ Axur:
     analyzers:
     - name: Axur
       version: '1.0'
+      author: Axur
+      license: AGPL-V3
       description: Search IPs, domains, hashes or URLs on axur.com
       dataTypes:
       - domain
@@ -394,6 +424,8 @@ BackscatterIO:
     analyzers:
     - name: BackscatterIO_Enrichment
       version: '1.0'
+      author: brandon@backscatter.io
+      license: APLv2
       description: Enrich values using Backscatter.io data.
       dataTypes:
       - ip
@@ -405,6 +437,8 @@ BackscatterIO:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
     - name: BackscatterIO_GetObservations
       version: '1.0'
+      author: brandon@backscatter.io
+      license: APLv2
       description: Determine whether a value has known scanning activity using Backscatter.io data.
       dataTypes:
       - ip
@@ -439,6 +473,8 @@ BinalyzeAIR:
     responders:
     - name: Binalyze_AIR_Acquisition
       version: '1.0'
+      author: Binalyze Integration Team
+      license: AGPL-V3
       description: Start an acquisition with Binalyze AIR.
       dataTypes:
       - thehive:case_artifact
@@ -447,6 +483,8 @@ BinalyzeAIR:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
     - name: Binalyze_AIR_Isolation
       version: '1.0'
+      author: Binalyze Integration Team
+      license: AGPL-V3
       description: Isolate your endpoints with Binalyze AIR.
       dataTypes:
       - thehive:case_artifact
@@ -474,6 +512,8 @@ C1fApp:
     analyzers:
     - name: C1fApp
       version: '1.0'
+      author: etz69
+      license: AGPL-V3
       description: Query C1fApp OSINT Aggregator for IPs, domains and URLs
       dataTypes:
       - url
@@ -518,6 +558,8 @@ Capa:
     analyzers:
     - name: Capa
       version: '1.0'
+      author: Wes Lambert; Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Analyze files with Capa
       dataTypes:
       - file
@@ -549,6 +591,8 @@ Censys:
     analyzers:
     - name: Censys
       version: '2.0'
+      author: Nils Kuhnert, CERT-Bund; Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Check IPs, certificate hashes or domains against censys.io.
       dataTypes:
       - ip
@@ -579,6 +623,8 @@ CERTatPassiveDNS:
     analyzers:
     - name: CERTatPassiveDNS
       version: '2.0'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
       description: Checks CERT.at Passive DNS for a given domain.
       dataTypes:
       - domain
@@ -611,6 +657,8 @@ ChainAbuse:
     analyzers:
     - name: ChainAbuse
       version: '1.1'
+      author: Peter Juhas; Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Check crypto address against reported abuse cases on ChainAbuse
       dataTypes:
       - crypto_address
@@ -640,6 +688,8 @@ CheckPhish:
     analyzers:
     - name: CheckPhish
       version: '1.0'
+      author: Peter Juhas
+      license: AGPL-V3
       description: Check url address via CheckPhish using jobID returned from CheckPhish_Submit
       dataTypes:
       - string
@@ -648,6 +698,8 @@ CheckPhish:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json
     - name: CheckPhish_Submit
       version: '1.0'
+      author: Peter Juhas
+      license: AGPL-V3
       description: Submit url address to CheckPhish
       dataTypes:
       - url
@@ -677,6 +729,8 @@ CheckPoint:
     responders:
     - name: CheckPoint_Lock
       version: '1.0'
+      author: '@dadokkio LDO-CERT'
+      license: AGPL-V3
       description: Lock ip on CheckPoint Gaia
       dataTypes:
       - thehive:case_artifact
@@ -685,6 +739,8 @@ CheckPoint:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
     - name: CheckPoint_Unlock
       version: '1.0'
+      author: '@dadokkio LDO-CERT'
+      license: AGPL-V3
       description: Unlock ip on CheckPoint Gaia
       dataTypes:
       - thehive:case_artifact
@@ -715,6 +771,8 @@ CIRCLHashlookup:
     analyzers:
     - name: CIRCLHashlookup
       version: '1.1'
+      author: Mikael Keri
+      license: AGPL-V3
       description: CIRCL hashlookup uses a public API to lookup hash values against databases of known good files
       dataTypes:
       - hash
@@ -746,6 +804,8 @@ CIRCLPassiveDNS:
     analyzers:
     - name: CIRCLPassiveDNS
       version: '2.0'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
       description: Check CIRCL's Passive DNS for a given domain or URL.
       dataTypes:
       - domain
@@ -779,6 +839,8 @@ CIRCLPassiveSSL:
     analyzers:
     - name: CIRCLPassiveSSL
       version: '2.0'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
       description: Check CIRCL's Passive SSL for a given IP address or a X509 certificate hash.
       dataTypes:
       - ip
@@ -812,6 +874,8 @@ CIRCLVulnerabilityLookup:
     analyzers:
     - name: CIRCLVulnerabilityLookup
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Queries the CIRCL Vulnerability Lookup API to retrieve detailed information on security vulnerabilities,
         including CVEs, severity (CVSS), exploit prediction (EPSS), affected products, advisories, and recent sightings.
       dataTypes:
@@ -851,6 +915,8 @@ CiscoUmbrella:
     analyzers:
     - name: CiscoUmbrella_Report
       version: '1.0'
+      author: Kyle Parrish
+      license: AGPL-V3
       description: Query the Cisco Umbrella Reporting API for recent DNS queries and their status.
       dataTypes:
       - domain
@@ -861,6 +927,8 @@ CiscoUmbrella:
     responders:
     - name: CiscoUmbrella_Blacklister
       version: '1.1'
+      author: Kyle Parrish
+      license: AGPL-V3
       description: Add domain to Cisco Umbrella blacklist via Enforcement API.
       dataTypes:
       - thehive:case_artifact
@@ -891,6 +959,8 @@ CISMCAP:
     analyzers:
     - name: CISMCAP
       version: '1.0'
+      author: Joe Lazaro
+      license: AGPL-V3
       description: Malicious Code Analysis Platform (MCAP) by the Center for Internet Security (CIS). Submit files for analysis
         or check feeds for known indicators of compromise for other data types.
       dataTypes:
@@ -925,6 +995,8 @@ ClamAV:
     analyzers:
     - name: ClamAV_FileInfo
       version: '1.1'
+      author: Brian Laskowski
+      license: AGPL-V3
       description: Use Clamscan with custom rules
       dataTypes:
       - file
@@ -960,6 +1032,8 @@ Cloudflare:
     responders:
     - name: Cloudflare_IP_Blocker
       version: '1.0'
+      author: Nick Babkin @nickbabkin
+      license: AGPL-V3
       description: Block IP Address on Account level in Cloudflare
       dataTypes:
       - thehive:case_artifact
@@ -990,6 +1064,8 @@ Cluster25:
     analyzers:
     - name: C25CortexAnalyzer_Investigate
       version: '1.0'
+      author: Cluster25
+      license: AGPL-V3
       description: Use Cluster25's CTI API to investigate an observable.
       dataTypes:
       - domain
@@ -1026,6 +1102,8 @@ ClusterHawk:
     analyzers:
     - name: ClusterHawk
       version: '1.0'
+      author: Marvin Uku, Chawkr
+      license: AGPL-V3
       description: ClusterHawk prediction analyzer for IP address threat intelligence using pre-trained models
       dataTypes:
       - ip
@@ -1095,6 +1173,8 @@ Crowdsec:
     analyzers:
     - name: Crowdsec_Analyzer
       version: '1.1'
+      author: CERT-ARKEA
+      license: AGPL-V3
       description: Query Crowdsec API
       dataTypes:
       - ip
@@ -1165,6 +1245,8 @@ CrowdstrikeFalcon:
     analyzers:
     - name: CrowdstrikeFalcon_Sandbox_Win7
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Send a file to CrowdstrikeFalcon Sandbox
       dataTypes:
       - file
@@ -1173,6 +1255,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json
     - name: CrowdstrikeFalcon_Sandbox_Win7_64
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Send a file to CrowdstrikeFalcon Sandbox
       dataTypes:
       - file
@@ -1181,6 +1265,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json
     - name: CrowdstrikeFalcon_getDeviceAlerts
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Get Device alerts from Crowdstrike Falcon
       dataTypes:
       - hostname
@@ -1189,6 +1275,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
     - name: CrowdstrikeFalcon_Sandbox_Android
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Send a file to CrowdstrikeFalcon Sandbox
       dataTypes:
       - file
@@ -1197,6 +1285,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
     - name: CrowdstrikeFalcon_Sandbox_MacOS
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Send a file to CrowdstrikeFalcon Sandbox
       dataTypes:
       - file
@@ -1205,6 +1295,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json
     - name: CrowdstrikeFalcon_Sandbox_Win11
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Send a file to CrowdstrikeFalcon Sandbox
       dataTypes:
       - file
@@ -1213,6 +1305,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
     - name: CrowdstrikeFalcon_GetDeviceVulnerabilities
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Get device vulnerabilities from hostname
       dataTypes:
       - hostname
@@ -1221,6 +1315,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json
     - name: CrowdstrikeFalcon_ThreatIntel
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Query threat intelligence indicators from Crowdstrike Falcon Intelligence
       dataTypes:
       - hash
@@ -1232,6 +1328,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
     - name: CrowdstrikeFalcon_Sandbox_Win10
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Send a file to CrowdstrikeFalcon Sandbox
       dataTypes:
       - file
@@ -1240,6 +1338,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
     - name: CrowdstrikeFalcon_getDeviceDetails
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Get device information from Crowdstrike Falcon
       dataTypes:
       - hostname
@@ -1248,6 +1348,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json
     - name: CrowdstrikeFalcon_Sandbox_Linux
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Send a file to CrowdstrikeFalcon Sandbox
       dataTypes:
       - file
@@ -1257,6 +1359,8 @@ CrowdstrikeFalcon:
     responders:
     - name: CrowdStrikeFalcon_unhideHost
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: This action will restore a host. Detection reporting will resume after the host is restored
       dataTypes:
       - thehive:case_artifact
@@ -1265,6 +1369,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json
     - name: CrowdStrikeFalcon_suppressDetections
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Supress detections for the host.
       dataTypes:
       - thehive:case_artifact
@@ -1273,6 +1379,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
     - name: CrowdStrikeFalcon_HostContainment
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: This action contains the host, which stops any network communications to locations other than the CrowdStrike
         cloud and IPs specified in your containment policy
       dataTypes:
@@ -1282,6 +1390,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
     - name: CrowdStrikeFalcon_hideHost
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: This action will delete a host. After the host is deleted, no new detections for that host will be reported
         via UI or APIs
       dataTypes:
@@ -1291,6 +1401,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json
     - name: CrowdStrikeFalcon_LiftContainmentHost
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: This action lifts containment on the host, which returns its network communications to normal
       dataTypes:
       - thehive:case_artifact
@@ -1299,6 +1411,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
     - name: CrowdStrikeFalcon_Sync
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Sync TheHive status back to CS Alerts or Incidents
       dataTypes:
       - thehive:case
@@ -1308,6 +1422,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json
     - name: CrowdStrikeFalcon_AddIOC
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Add IOC to IoC Management on Crowdstrike - supports domain, url, IPs & different kind of hashes
       dataTypes:
       - thehive:case_artifact
@@ -1316,6 +1432,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
     - name: CrowdStrikeFalcon_unsuppressDetections
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Allow detections for the host.
       dataTypes:
       - thehive:case_artifact
@@ -1324,6 +1442,8 @@ CrowdstrikeFalcon:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
     - name: CrowdStrikeFalcon_RemoveIOC
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: remove IOC from IoC Management on Crowdstrike
       dataTypes:
       - thehive:case_artifact
@@ -1362,6 +1482,8 @@ Crtsh:
     analyzers:
     - name: Crt_sh_Transparency_Logs
       version: '1.0'
+      author: crackytsi
+      license: AGPL-V3
       description: Query domains against the certificate transparency lists available at crt.sh.
       dataTypes:
       - domain
@@ -1393,6 +1515,8 @@ CuckooSandbox:
     analyzers:
     - name: CuckooSandbox_Url_Analysis
       version: '1.2'
+      author: Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Cuckoo Sandbox URL analysis.
       dataTypes:
       - url
@@ -1401,6 +1525,8 @@ CuckooSandbox:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json
     - name: CuckooSandbox_File_Analysis_Inet
       version: '1.2'
+      author: Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Cuckoo Sandbox file analysis with Internet access.
       dataTypes:
       - file
@@ -1432,6 +1558,8 @@ CyberChef:
     analyzers:
     - name: CyberChef_FromCharCode
       version: '1.0'
+      author: Wes Lambert
+      license: AGPL-V3
       description: Convert Char Code with CyberChef Server
       dataTypes:
       - other
@@ -1440,6 +1568,8 @@ CyberChef:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json
     - name: CyberChef_FromBase64
       version: '1.0'
+      author: Wes Lambert
+      license: AGPL-V3
       description: Convert Base64 with CyberChef Server
       dataTypes:
       - other
@@ -1448,6 +1578,8 @@ CyberChef:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json
     - name: CyberChef_FromHex
       version: '1.0'
+      author: Wes Lambert
+      license: AGPL-V3
       description: Convert Hex with CyberChef Server
       dataTypes:
       - other
@@ -1479,6 +1611,8 @@ CyberCrime-Tracker:
     analyzers:
     - name: CyberCrime-Tracker
       version: '1.0'
+      author: ph34tur3
+      license: AGPL-V3
       description: Search cybercrime-tracker.net for C2 servers.
       dataTypes:
       - domain
@@ -1514,6 +1648,8 @@ Cyberprotect:
     analyzers:
     - name: Cyberprotect_ThreatScore
       version: '3.0'
+      author: Rémi Allain, Cyberprotect
+      license: AGPL-V3
       description: ThreatScore is a cyber threat scoring system provided by Cyberprotect
       dataTypes:
       - domain
@@ -1549,6 +1685,8 @@ Cylance:
     analyzers:
     - name: Cylance
       version: '1.0'
+      author: Mikael Keri
+      license: AGPL-V3
       description: Search for a specific hash, if there is a match, coresponding client information
       dataTypes:
       - hash
@@ -1598,6 +1736,8 @@ DNS-RPZ:
     responders:
     - name: DNS-RPZ
       version: '1.0'
+      author: Michael Hornung; Expeditors International of Washington, Inc.
+      license: AGPL-V3
       description: Add a dynamic DNS entry to a Response Policy Zone, blackholing or redirecting a FQDN.
       dataTypes:
       - thehive:case_artifact
@@ -1625,6 +1765,8 @@ DNSDB:
     analyzers:
     - name: DNSDB_DomainName
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DNSDB to fetch historical records for a domain.
       dataTypes:
       - domain
@@ -1634,6 +1776,8 @@ DNSDB:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json
     - name: DNSDB_IPHistory
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DNSDB to fetch historical records for an IP address.
       dataTypes:
       - ip
@@ -1642,6 +1786,8 @@ DNSDB:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json
     - name: DNSDB_NameHistory
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DNSDB to fetch historical records for a fully-qualified domain name.
       dataTypes:
       - domain
@@ -1674,6 +1820,8 @@ DNSdumpster:
     analyzers:
     - name: DNSdumpster_report
       version: '1.0'
+      author: Keijo Korte - @korteke
+      license: AGPL-V3
       description: Query domain information from DNSdumpster.com.
       dataTypes:
       - domain
@@ -1705,6 +1853,8 @@ DNSLookingglass:
     analyzers:
     - name: DNS_Lookingglass
       version: '1.0'
+      author: Dennis Perto, Conscia
+      license: AGPL-V3
       description: Query the SANS ISC Global DNS Lookingglass API to check a domain name for resolved IP addresses.
       dataTypes:
       - domain
@@ -1734,6 +1884,8 @@ DNSSinkhole:
     analyzers:
     - name: DNSSinkhole
       version: '1.0'
+      author: Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Check if a  domain is sinkholed via DNS Sinkhole server
       dataTypes:
       - domain
@@ -1765,6 +1917,8 @@ DomainMailSPFDMARC:
     analyzers:
     - name: DomainMailSPFDMARC
       version: '1.1'
+      author: torsolaso
+      license: AGPL-V3
       description: DomainMailSPFDMARC
       dataTypes:
       - domain
@@ -1794,6 +1948,8 @@ DomainTools:
     analyzers:
     - name: DomainTools_Risk
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DomainTools to get a risk score and evidence details on a domain or fqdn
       dataTypes:
       - domain
@@ -1803,6 +1959,8 @@ DomainTools:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
     - name: DomainTools_WhoisLookup
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DomainTools to get the ownership record for a domain or an IP address with basic registration details
         parsed.
       dataTypes:
@@ -1813,6 +1971,8 @@ DomainTools:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json
     - name: DomainTools_Reputation
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DomainTools to get a reputation score on a domain or fqdn
       dataTypes:
       - domain
@@ -1822,6 +1982,8 @@ DomainTools:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
     - name: DomainTools_WhoisLookupUnparsed
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DomainTools to get the ownership record for an IP address or a domain without parsing.
       dataTypes:
       - ip
@@ -1831,6 +1993,8 @@ DomainTools:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
     - name: DomainTools_HostingHistory
       version: '2.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Use DomainTools to get a list of historical registrant, name servers and IP addresses for a domain name.
       dataTypes:
       - domain
@@ -1839,6 +2003,8 @@ DomainTools:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
     - name: DomainTools_ReverseNameServer
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DomainTools to get a list of domain names that share the same primary or secondary name server.
       dataTypes:
       - domain
@@ -1847,6 +2013,8 @@ DomainTools:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
     - name: DomainTools_WhoisHistory
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DomainTools to get a list of historical Whois records associated with a domain name.
       dataTypes:
       - domain
@@ -1855,6 +2023,8 @@ DomainTools:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
     - name: DomainTools_ReverseIP
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DomainTools to get a list of domain names sharing the same IP address.
       dataTypes:
       - ip
@@ -1865,6 +2035,8 @@ DomainTools:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
     - name: DomainTools_ReverseIPWhois
       version: '2.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Use DomainTools to get a list of IP addresses which share the same registrant information.
       dataTypes:
       - mail
@@ -1876,6 +2048,8 @@ DomainTools:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
     - name: DomainTools_ReverseWhois
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use DomainTools to get a list of domain names which share the same registrant information.
       dataTypes:
       - mail
@@ -1910,6 +2084,8 @@ DomainToolsIris:
     analyzers:
     - name: DomainToolsIris_Pivot
       version: '1.0'
+      author: DomainTools
+      license: AGPL-V3
       description: Use DomainTools Iris API to pivot on ssl_hash, ip, or email.
       dataTypes:
       - hash
@@ -1920,6 +2096,8 @@ DomainToolsIris:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
     - name: DomainToolsIris_Investigate
       version: '1.0'
+      author: DomainTools
+      license: AGPL-V3
       description: Use DomainTools Iris API to investigate a domain.
       dataTypes:
       - domain
@@ -1949,6 +2127,8 @@ DomainToolsIris_AddRiskyDNSTag:
     responders:
     - name: DomainToolsIris_AddRiskyDNSTag
       version: '1.0'
+      author: DomainTools
+      license: AGPL-V3
       description: Add Tag saying that the case contains a risky DNS.
       dataTypes:
       - thehive:case_artifact
@@ -1977,6 +2157,8 @@ DomainToolsIris_CheckMaliciousTags:
     responders:
     - name: DomainToolsIris_CheckMaliciousTags
       version: '1.0'
+      author: DomainTools
+      license: AGPL-V3
       description: Add Tag saying that the observable and case have a malicious tag in their Iris Tags.
       dataTypes:
       - thehive:case_artifact
@@ -2007,6 +2189,8 @@ DShield:
     analyzers:
     - name: DShield_lookup
       version: '1.0'
+      author: Xavier Xavier, SANS ISC
+      license: AGPL-V3
       description: Query the SANS ISC DShield API to check for an IP address reputation.
       dataTypes:
       - ip
@@ -2036,6 +2220,8 @@ Duo_Security:
     responders:
     - name: DuoUnlockUserAccount
       version: '1.0'
+      author: Sven Kutzer / Gyorgy Acs, @oscd_initiative
+      license: AGPL-V3
       description: Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)
       dataTypes:
       - thehive:case_artifact
@@ -2044,6 +2230,8 @@ Duo_Security:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
     - name: DuoBypassUserAccount
       version: '1.0'
+      author: jahamilto
+      license: AGPL-V3
       description: Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging
         in.)
       dataTypes:
@@ -2053,6 +2241,8 @@ Duo_Security:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
     - name: DuoLockUserAccount
       version: '1.0'
+      author: Sven Kutzer / Gyorgy Acs, @oscd_initiative
+      license: AGPL-V3
       description: Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)
       dataTypes:
       - thehive:case_artifact
@@ -2083,6 +2273,8 @@ EchoTrail:
     analyzers:
     - name: EchoTrail
       version: '1.0'
+      author: Joe Lazaro
+      license: AGPL-V3
       description: EchoTrail Insights takes a Windows filename or hash and provides several unique pieces of analytical context
         including prevalence & rank scores, process ancestry, behavioral analysis, and security analysis.
       dataTypes:
@@ -2116,6 +2308,8 @@ EclecticIQ:
     analyzers:
     - name: EclecticIQ_SearchObservable
       version: '2.0'
+      author: BW
+      license: AGPL-V3
       description: Query EclecticIQ Intelligence Center for a specific observable.
       dataTypes:
       - domain
@@ -2157,6 +2351,8 @@ EclecticIQIndicator:
     responders:
     - name: EclecticIQ_Indicator_API
       version: '1.0'
+      author: EclecticIQ
+      license: MIT
       description: Submit indicators to the EclecticIQ Intelligence Center api
       dataTypes:
       - thehive:case_artifact
@@ -2202,6 +2398,8 @@ Elasticsearch:
     analyzers:
     - name: Elasticsearch_Analysis
       version: '1.0'
+      author: Nick Prokop
+      license: MIT
       description: Search for IoCs in Elasticsearch
       dataTypes:
       - url
@@ -2247,6 +2445,8 @@ EmailRep:
     analyzers:
     - name: EmailRep
       version: '1.0'
+      author: Manabu Niseki
+      license: MIT
       description: emailrep.io lookup.
       dataTypes:
       - mail
@@ -2278,6 +2478,8 @@ EmergingThreats:
     analyzers:
     - name: EmergingThreats_DomainInfo
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Retrieve ET reputation, related malware, and IDS requests for a given domain.
       dataTypes:
       - domain
@@ -2287,6 +2489,8 @@ EmergingThreats:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
     - name: EmergingThreats_MalwareInfo
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Retrieve ET details and info related to a malware hash.
       dataTypes:
       - file
@@ -2296,6 +2500,8 @@ EmergingThreats:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
     - name: EmergingThreats_IPInfo
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Retrieve ET reputation, related malware, and IDS requests for a given IP address.
       dataTypes:
       - ip
@@ -2326,6 +2532,8 @@ EmlParser:
     analyzers:
     - name: EmlParser
       version: '2.1'
+      author: StrangeBee
+      license: AGPL-V3
       description: Parse and visualise EML email message. Submit a .eml formatted file and extract some useful information.
       dataTypes:
       - file
@@ -2355,6 +2563,8 @@ FalconCustomIOC:
     responders:
     - name: Crowdstrike_Falcon_Custom_IOC_API
       version: '1.0'
+      author: Michael
+      license: MIT
       description: Submit observables to the Crowdstrike Falcon Custom IOC api
       dataTypes:
       - thehive:alert
@@ -2364,6 +2574,8 @@ FalconCustomIOC:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
     - name: Crowdstrike_Falcon_Custom_IOC
       version: '2.0'
+      author: Nicolas Criton
+      license: AGPL-v3
       description: Submit observables to the Crowdstrike Falcon Custom IOC API
       dataTypes:
       - thehive:alert
@@ -2395,6 +2607,8 @@ FalconSandbox:
     analyzers:
     - name: FalconSandbox
       version: '1.0'
+      author: Sebastian Schmerl - Computacenter
+      license: AGPL-v3
       description: Submit observables to the Crowdstrike FalconX Sandbox
       dataTypes:
       - file
@@ -2423,6 +2637,8 @@ FileInfo:
     analyzers:
     - name: FileInfo
       version: '8.0'
+      author: TheHive-Project
+      license: AGPL-V3
       description: Parse files in several formats such as OLE and OpenXML to detect VBA macros, extract their source code,
         generate useful information on PE, PDF files...
       dataTypes:
@@ -2455,6 +2671,8 @@ FireEyeiSight:
     analyzers:
     - name: FireEyeiSight
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Query domains, IPs, hashes and URLs on FireEye's iSIGHT threat intelligence service.
       dataTypes:
       - domain
@@ -2489,6 +2707,8 @@ FireHOLBlocklists:
     analyzers:
     - name: FireHOLBlocklists
       version: '2.0'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
       description: Check IP addresses against the FireHOL blocklists
       dataTypes:
       - ip
@@ -2520,6 +2740,8 @@ ForcepointWebsensePing:
     analyzers:
     - name: ForcepointWebsensePing
       version: '1.0'
+      author: Andrea Garavaglia, Davide Arcuri - LDO-CERT
+      license: AGPL-V3
       description: Use ForcepointWebsensePing to determine which category a certain URL is assigned to.
       dataTypes:
       - url
@@ -2574,6 +2796,8 @@ FoxIO:
     analyzers:
     - name: JA4_FoxIO
       version: '1.0'
+      author: Florian Perret @cyber_pescadito
+      license: AGPL-V3
       description: JA4 Fingerprint analysis with FoxIO Database
       dataTypes:
       - user-agent
@@ -2606,6 +2830,8 @@ Gatewatcher_CTI:
     analyzers:
     - name: Gatewatcher_CTI
       version: '2.0'
+      author: Gatewatcher
+      license: AGPL-3.0
       description: Get Gatewatcher CTI Report
       dataTypes:
       - hash
@@ -2640,6 +2866,8 @@ Gatewatcher_CTI_Identity:
     responders:
     - name: Gatewatcher_CTI_Identity
       version: '1.0'
+      author: Gatewatcher
+      license: AGPL-3.0
       description: Gatewatcher_CTI_Identity responder
       dataTypes:
       - thehive:case
@@ -2668,6 +2896,8 @@ Gmail:
     responders:
     - name: Gmail_UnblockDomain
       version: '1.0'
+      author: David Strassegger, @oscd_initiative
+      license: MIT
       description: Remove a message filter for a given domain
       dataTypes:
       - thehive:case_artifact
@@ -2676,6 +2906,8 @@ Gmail:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
     - name: Gmail_DeleteMessage
       version: '1.0'
+      author: David Strassegger, @oscd_initiative
+      license: MIT
       description: Move a given message into the trash folder
       dataTypes:
       - thehive:case_artifact
@@ -2684,6 +2916,8 @@ Gmail:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
     - name: Gmail_UnblockSender
       version: '1.0'
+      author: David Strassegger, @oscd_initiative
+      license: MIT
       description: Remove a message filter for a given sender
       dataTypes:
       - thehive:case_artifact
@@ -2692,6 +2926,8 @@ Gmail:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
     - name: Gmail_BlockSender
       version: '1.0'
+      author: David Strassegger, @oscd_initiative
+      license: MIT
       description: Move emails from a given sender to trash
       dataTypes:
       - thehive:case_artifact
@@ -2700,6 +2936,8 @@ Gmail:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json
     - name: Gmail_BlockDomain
       version: '1.0'
+      author: David Strassegger, @oscd_initiative
+      license: MIT
       description: Move emails from a given domain to trash
       dataTypes:
       - thehive:case_artifact
@@ -2727,6 +2965,8 @@ GoogleDNS:
     analyzers:
     - name: GoogleDNS_resolve
       version: 1.0.0
+      author: CERT-LaPoste
+      license: AGPL-V3
       description: Request Google DNS over HTTPS service
       dataTypes:
       - domain
@@ -2757,6 +2997,8 @@ GoogleSafebrowsing:
     analyzers:
     - name: GoogleSafebrowsing
       version: '2.0'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
       description: Use Google Safebrowing to check URLs and domain names.
       dataTypes:
       - url
@@ -2802,6 +3044,8 @@ GoogleThreatIntelligence:
     analyzers:
     - name: GTI_ScanURL
       version: '1.0'
+      author: Google
+      license: AGPL-V3
       description: Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence
         for scanning
       dataTypes:
@@ -2811,6 +3055,8 @@ GoogleThreatIntelligence:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
     - name: GTI_ScanPrivateFile
       version: '1.0'
+      author: Google
+      license: AGPL-V3
       description: Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat
         Intelligence for scanning
       dataTypes:
@@ -2820,6 +3066,8 @@ GoogleThreatIntelligence:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
     - name: GTI_ScanFile
       version: '1.0'
+      author: Google
+      license: AGPL-V3
       description: Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence
         for scanning
       dataTypes:
@@ -2829,6 +3077,8 @@ GoogleThreatIntelligence:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
     - name: GTI_GetIOCReport
       version: '1.0'
+      author: Google
+      license: AGPL-V3
       description: Get the latest Google Threat Intelligence report for a file, hash, url, domain or an IP address.
       dataTypes:
       - file
@@ -2842,6 +3092,8 @@ GoogleThreatIntelligence:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
     - name: GTI_ScanPrivateURL
       version: '1.0'
+      author: Google
+      license: AGPL-V3
       description: Get the latest Google Threat Intelligence report for a URL that was privately submitted to Google Threat
         Intelligence for scanning
       dataTypes:
@@ -2871,6 +3123,8 @@ GoogleVisionAPI:
     analyzers:
     - name: GoogleVisionAPI_WebDetection
       version: 1.0.0
+      author: CERT-LaPoste
+      license: AGPL-V3
       description: 'Find look alike image via Google Cloud Vision API using the Web_Detection service '
       dataTypes:
       - file
@@ -2903,6 +3157,8 @@ GreyNoise:
     analyzers:
     - name: GreyNoise
       version: '3.2'
+      author: GreyNoise
+      license: APLv2
       description: Determine whether an IP has known scanning activity using GreyNoise.
       dataTypes:
       - ip
@@ -2931,6 +3187,8 @@ GRR:
     analyzers:
     - name: GRR
       version: '0.1'
+      author: pettai@sunet.se, SUNET
+      license: AGPL-V3
       description: Search GRR for the host agent.
       dataTypes:
       - ip
@@ -2963,6 +3221,8 @@ HarfangLab:
     responders:
     - name: HarfangLab-GetArtifactUSN
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get USN logs artifact
       dataTypes:
       - thehive:case
@@ -2971,6 +3231,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
     - name: HarfangLab-IsolateHost
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Isolate machine with HarfangLab EDR
       dataTypes:
       - thehive:case
@@ -2980,6 +3242,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json
     - name: HarfangLab-KillProcess
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Kill a process
       dataTypes:
       - thehive:case
@@ -2989,6 +3253,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
     - name: HarfangLab-GetScheduledTasks
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get scheduled tasks on a host
       dataTypes:
       - thehive:case
@@ -2997,6 +3263,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
     - name: HarfangLab-GetArtifactMFT
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get MFT artifact
       dataTypes:
       - thehive:case
@@ -3005,6 +3273,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
     - name: HarfangLab-GetArtifactEvtx
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get Windows event logs artifact
       dataTypes:
       - thehive:case
@@ -3013,6 +3283,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
     - name: HarfangLab-DumpProcess
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Dump process memory
       dataTypes:
       - thehive:case
@@ -3021,6 +3293,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
     - name: HarfangLab-GetSessions
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get sessions on a host
       dataTypes:
       - thehive:case
@@ -3029,6 +3303,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
     - name: HarfangLab-GetDrivers
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get drivers loaded on a host
       dataTypes:
       - thehive:case
@@ -3037,6 +3313,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
     - name: HarfangLab-GetRunKeys
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get RUN keys on a host
       dataTypes:
       - thehive:case
@@ -3045,6 +3323,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
     - name: HarfangLab-GetNetworkShares
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get network shares on a host
       dataTypes:
       - thehive:case
@@ -3053,6 +3333,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
     - name: HarfangLab-GetArtifactLogs
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get Linux logs artifact
       dataTypes:
       - thehive:case
@@ -3061,6 +3343,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
     - name: HarfangLab-SearchDestinationIP
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Search an IP in HarfangLab EDR's telemetry
       dataTypes:
       - thehive:case_artifact
@@ -3069,6 +3353,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
     - name: HarfangLab_SearchDriverByHash
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Search a driver load in HarfangLab EDR's telemetry per hash
       dataTypes:
       - thehive:case_artifact
@@ -3077,6 +3363,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
     - name: HarfangLab-GetPipes
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get pipes on a host
       dataTypes:
       - thehive:case
@@ -3085,6 +3373,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
     - name: HarfangLab_SearchDriverByFileName
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Search a driver load in HarfangLab EDR's telemetry per filename
       dataTypes:
       - thehive:case_artifact
@@ -3093,6 +3383,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
     - name: HarfangLab-SearchSourceIP
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Search an IP in HarfangLab EDR's telemetry
       dataTypes:
       - thehive:case_artifact
@@ -3101,6 +3393,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json
     - name: HarfangLab-GetBinary
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get binary information and download link
       dataTypes:
       - thehive:case_artifact
@@ -3109,6 +3403,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json
     - name: HarfangLab-GetProcesses
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get processes running on a host
       dataTypes:
       - thehive:case
@@ -3117,6 +3413,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
     - name: HarfangLab-GetWMI
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get WMI items on a host
       dataTypes:
       - thehive:case
@@ -3125,6 +3423,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
     - name: HarfangLab-GetPrefetches
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get prefetches on a host
       dataTypes:
       - thehive:case
@@ -3133,6 +3433,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
     - name: HarfangLab-GetPersistence
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get persistence items on a Linux host
       dataTypes:
       - thehive:case
@@ -3141,6 +3443,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
     - name: HarfangLab-GetArtifactRamdump
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get RAM dump artifact
       dataTypes:
       - thehive:case
@@ -3149,6 +3453,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
     - name: HarfangLab-GetArtifactAll
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get all artifacts
       dataTypes:
       - thehive:case
@@ -3157,6 +3463,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
     - name: HarfangLab-UnisolateHost
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Isolate machine with HarfangLab EDR
       dataTypes:
       - thehive:case
@@ -3166,6 +3474,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json
     - name: HarfangLab-GetArtifactPrefetch
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get prefetches artifact
       dataTypes:
       - thehive:case
@@ -3174,6 +3484,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
     - name: HarfangLab-GetArtifactFilesystem
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get Linux filesystem artifact
       dataTypes:
       - thehive:case
@@ -3182,6 +3494,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
     - name: HarfangLab-GetArtifactHives
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get Hives artifact
       dataTypes:
       - thehive:case
@@ -3190,6 +3504,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
     - name: HarfangLab-GetStartupFiles
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get startup files on a host
       dataTypes:
       - thehive:case
@@ -3198,6 +3514,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
     - name: HarfangLab-GetServices
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Get services on a host
       dataTypes:
       - thehive:case
@@ -3206,6 +3524,8 @@ HarfangLab:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json
     - name: HarfangLab-SearchHash
       version: '1.0'
+      author: HarfangLab Product Team
+      license: AGPL-V3
       description: Search a hash in HarfangLab EDR's telemetry
       dataTypes:
       - thehive:case_artifact
@@ -3236,6 +3556,8 @@ Hashdd:
     analyzers:
     - name: Hashdd_Detail
       version: '2.0'
+      author: iosonogio, dadokkio
+      license: AGPLv3
       description: Determine whether a hash is good or bad; if good then list what it is.
       dataTypes:
       - hash
@@ -3244,6 +3566,8 @@ Hashdd:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
     - name: Hashdd_Status
       version: '2.0'
+      author: iosonogio, dadokkio
+      license: AGPLv3
       description: Determine whether a hash is good or bad.
       dataTypes:
       - hash
@@ -3284,6 +3608,8 @@ HIBP:
     analyzers:
     - name: HIBP_Query
       version: '2.0'
+      author: Matt Erasmus, Jonas Hergenhahn
+      license: AGPL-V3
       description: Query haveibeenpwned.com for a compromised email address
       dataTypes:
       - mail
@@ -3344,6 +3670,8 @@ Hunterio:
     analyzers:
     - name: Hunterio_DomainSearch
       version: '1.0'
+      author: Rémi Allain, Cyberprotect
+      license: AGPL-V3
       description: hunter.io is a service to find email addresses from a domain.
       dataTypes:
       - domain
@@ -3382,6 +3710,8 @@ HybridAnalysis:
     analyzers:
     - name: HybridAnalysis_GetReport
       version: '1.0'
+      author: Daniil Yugoslavskiy, Tieto
+      license: AGPL-V3
       description: Fetch Hybrid Analysis reports associated with hashes and filenames.
       dataTypes:
       - hash
@@ -3418,6 +3748,8 @@ IBMQRadar:
     responders:
     - name: QRadar_Auto_Closing_Offense
       version: '1.0'
+      author: Florian Perret
+      license: AGPL-V3
       description: Closing the QRadar Offense associated to your case in one clic !
       dataTypes:
       - thehive:case
@@ -3445,6 +3777,8 @@ IBMXForce:
     analyzers:
     - name: IBMXForce_Lookup
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Query domains, IPs, hashes and URLs against IBM X-Force threat intelligence sharing platform.
       dataTypes:
       - domain
@@ -3479,6 +3813,8 @@ Inoitsu:
     analyzers:
     - name: Inoitsu
       version: '1.0'
+      author: Abdelkader Ben Ali
+      license: MIT
       description: Query Inoitsu for a compromised email address.
       dataTypes:
       - mail
@@ -3542,6 +3878,8 @@ IntezerCommunity:
     analyzers:
     - name: IntezerCommunity
       version: '1.0'
+      author: Matteo Lodi
+      license: AGPL-v3
       description: Analyze a possible malicious file with Intezer Analyzer
       dataTypes:
       - file
@@ -3571,6 +3909,8 @@ Investigate:
     analyzers:
     - name: Investigate_Categorization
       version: '1.0'
+      author: Cisco Umbrella Research @opendns
+      license: AGPL-V3
       description: Retrieve Investigate categorization and security features for a domain.
       dataTypes:
       - domain
@@ -3580,6 +3920,8 @@ Investigate:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
     - name: Investigate_Sample
       version: '1.0'
+      author: Cisco Umbrella Research @opendns
+      license: AGPL-V3
       description: Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)
       dataTypes:
       - hash
@@ -3610,6 +3952,8 @@ IP-API:
     analyzers:
     - name: IP-API
       version: '1.1'
+      author: Peter Juhas; Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Check IP address or domain using ip-api.com
       dataTypes:
       - ip
@@ -3648,6 +3992,8 @@ IPinfo:
     analyzers:
     - name: IPinfo_Details
       version: '1.0'
+      author: Manabu Niseki
+      license: MIT
       description: IPinfo details lookup.
       dataTypes:
       - ip
@@ -3656,6 +4002,8 @@ IPinfo:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
     - name: IPinfo_Hosted_Domains
       version: '1.0'
+      author: Manabu Niseki
+      license: MIT
       description: IPinfo hosted domains lookup.
       dataTypes:
       - ip
@@ -3684,6 +4032,8 @@ IPVoid:
     analyzers:
     - name: IPVoid
       version: '1.0'
+      author: Joel Snape @ Nettitude
+      license: AGPL-v3
       description: Determine whether an IP is present on any of the feeds consumed by IPVoid
       dataTypes:
       - ip
@@ -3715,6 +4065,8 @@ isMalicious:
     analyzers:
     - name: isMalicious_GetReport
       version: '1.0'
+      author: isMalicious
+      license: AGPL-v3
       description: Check if an IP address or domain is malicious using isMalicious.com threat intelligence. Returns risk score,
         threat categories, reputation data, and detection sources.
       dataTypes:
@@ -3746,6 +4098,8 @@ IVRE:
     analyzers:
     - name: IVRE
       version: '1.0'
+      author: Pierre Lalet
+      license: AGPL-V3
       description: Fetch details from an IVRE instance.
       dataTypes:
       - autonomous-system
@@ -3818,6 +4172,8 @@ JAMFProtect:
     responders:
     - name: JAMFProtect_removeHashfromPreventList
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash
       dataTypes:
       - thehive:case_artifact
@@ -3826,6 +4182,8 @@ JAMFProtect:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
     - name: JAMFProtect_addHashtoPreventList
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Add IOC to JAMF Protect - creates a custom prevent list for a hash
       dataTypes:
       - thehive:case_artifact
@@ -3884,6 +4242,8 @@ JoeSandbox:
     analyzers:
     - name: JoeSandbox_File_Analysis_Inet
       version: '3.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Joe Sandbox file analysis with Internet access.
       dataTypes:
       - file
@@ -3892,6 +4252,8 @@ JoeSandbox:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
     - name: JoeSandbox_Url_Analysis
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Joe Sandbox URL analysis.
       dataTypes:
       - url
@@ -3900,6 +4262,8 @@ JoeSandbox:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
     - name: JoeSandbox_File_Analysis_Noinet
       version: '3.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Joe Sandbox file analysis without Internet access.
       dataTypes:
       - file
@@ -3931,6 +4295,8 @@ Jupyter:
     analyzers:
     - name: Jupyter_Run_Notebook_Analyzer
       version: '1.0'
+      author: Alexandre Demeyer
+      license: AGPL-V3
       description: Execute a parameterized notebook in Jupyter
       dataTypes:
       - domain
@@ -3954,6 +4320,8 @@ Jupyter:
     responders:
     - name: Jupyter_Run_Notebook_Responder
       version: '1.0'
+      author: Alexandre Demeyer
+      license: AGPL-V3
       description: Execute a parameterized notebook in Jupyter
       dataTypes:
       - thehive:case
@@ -3985,6 +4353,8 @@ KasperskyTIP:
     analyzers:
     - name: KasperskyThreatIntelligencePortal
       version: '1.0'
+      author: Peter Juhas
+      license: AGPL-V3
       description: Analyze IP address, domain or hash via Kaspersky Threat Intelligence Portal
       dataTypes:
       - ip
@@ -4016,6 +4386,8 @@ KnowBe4:
     responders:
     - name: KnowBe4
       version: '1.0'
+      author: Kyle Parrish
+      license: AGPL-V3
       description: Add 'Clicked Event' to User via User Events API.
       dataTypes:
       - thehive:case_artifact
@@ -4043,6 +4415,8 @@ LdapQuery:
     analyzers:
     - name: Ldap_Query
       version: '3.0'
+      author: Florian Perret @cyber_pescadito & THA-CERT @tha_cert
+      license: AGPL-V3
       description: Query your LDAP server to harvest informations about an user of your organization
       dataTypes:
       - username
@@ -4075,6 +4449,8 @@ Lookyloo:
     analyzers:
     - name: Lookyloo_Screenshot
       version: '1.0'
+      author: THA-CERT - PVA
+      license: AGPL-V3
       description: Take a screenshot of an url, domain, FQDN or IP and report all HTTP redirections
       dataTypes:
       - url
@@ -4108,6 +4484,8 @@ LupovisProwl:
     analyzers:
     - name: LupovisProwl_GetIPReputation
       version: '1.1'
+      author: Lyle Docherty
+      license: AGPL-V3
       description: Analyzer for IP reputation using Lupovis Prowl API
       dataTypes:
       - ip
@@ -4137,6 +4515,8 @@ Mailer:
     responders:
     - name: Mailer
       version: '1.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Send an email with information from a TheHive case or alert
       dataTypes:
       - thehive:case
@@ -4167,6 +4547,8 @@ MailIncidentStatus:
     responders:
     - name: MailIncidentStatus
       version: '1.0'
+      author: Manuel Krucker
+      license: AGPL-V3
       description: Mail a detailed status information of an incident case. The mail is sent to recipients specified by tags
         prefixed with 'mail='. The responder respects tlp definitions. For tlp:amber mail addresse and for tlp:green mail
         domains must be pre-defined in the configuration. For tlp:red sending mails is denied. The responser also uses thehive4py
@@ -4197,6 +4579,8 @@ Malpedia:
     analyzers:
     - name: Malpedia
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Check files against Malpedia YARA rules.
       dataTypes:
       - file
@@ -4237,6 +4621,8 @@ Maltiverse:
     analyzers:
     - name: Maltiverse_Report
       version: '1.0'
+      author: ottimo
+      license: AGPL-V3
       description: Get the latest Maltiverse report for an hash, domain or an IP address.
       dataTypes:
       - hash
@@ -4280,6 +4666,8 @@ MalwareBazaar:
     analyzers:
     - name: MalwareBazaar
       version: '1.0'
+      author: Andrea Garavaglia, Davide Arcuri - LDO-CERT
+      license: AGPL-V3
       description: Search hashes on MalwareBazaar.
       dataTypes:
       - hash
@@ -4311,6 +4699,8 @@ MalwareClustering:
     analyzers:
     - name: MalwareClustering_Search
       version: '1.0'
+      author: LDO-CERT
+      license: AGPL-V3
       description: Uses ApiVectors to find similarities between malware samples.
       dataTypes:
       - file
@@ -4343,6 +4733,8 @@ Malwares:
     analyzers:
     - name: Malwares_Scan
       version: '1.0'
+      author: LDO-CERT
+      license: AGPL-V3
       description: Use Malwares' API to scan a file or URL.
       dataTypes:
       - file
@@ -4351,6 +4743,8 @@ Malwares:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Malwares/Malwares_Scan.json
     - name: Malwares_GetReport
       version: '1.0'
+      author: LDO-CERT
+      license: AGPL-V3
       description: Get the latest Malwares report for a file, hash, domain or an IP address.
       dataTypes:
       - file
@@ -4391,6 +4785,8 @@ MaxMind:
     analyzers:
     - name: MaxMind_GeoIP
       version: '4.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use MaxMind to geolocate an IP address.
       dataTypes:
       - ip
@@ -4419,6 +4815,8 @@ MetaDefender:
     analyzers:
     - name: MetaDefenderCore_GetReport
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Get the latest MetaDefender Core report for hash.
       dataTypes:
       - hash
@@ -4427,6 +4825,8 @@ MetaDefender:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
     - name: MetaDefenderCloud_GetReport
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Get the latest MetaDefender Cloud report for hash.
       dataTypes:
       - hash
@@ -4435,6 +4835,8 @@ MetaDefender:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json
     - name: MetaDefenderCloud_Scan
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Scan a file with MetaDefender Cloud
       dataTypes:
       - file
@@ -4443,6 +4845,8 @@ MetaDefender:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
     - name: MetaDefenderCloud_Reputation
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Get the latest MetaDefender Cloud reputation report .
       dataTypes:
       - ip
@@ -4453,6 +4857,8 @@ MetaDefender:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
     - name: MetaDefenderCore_Scan
       version: '1.0'
+      author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+      license: AGPL-V3
       description: Scan a file with MetaDefender Core
       dataTypes:
       - file
@@ -4485,6 +4891,8 @@ Minemeld:
     responders:
     - name: Minemeld
       version: '1.0'
+      author: Wes Lambert, Security Onion Solutions
+      license: AGPL-V3
       description: Submit indicator to Minemeld
       dataTypes:
       - thehive:case_artifact
@@ -4524,6 +4932,8 @@ MISP:
     analyzers:
     - name: MISP
       version: '2.1'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
       description: Query multiple MISP instances for events containing an observable.
       dataTypes:
       - domain
@@ -4568,6 +4978,8 @@ MISPWarningLists:
     analyzers:
     - name: MISPWarningLists
       version: '2.0'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
       description: Check IoCs/Observables against MISP Warninglists to filter false positives.
       dataTypes:
       - ip
@@ -4609,6 +5021,8 @@ MnemonicPDNS:
     analyzers:
     - name: Mnemonic_pDNS_Closed
       version: '3.0'
+      author: Michael Stensrud, Nordic Financial CERT
+      license: AGPL-V3
       description: Query IP addresses and domains against Mnemonic pDNS restricted service.
       dataTypes:
       - ip
@@ -4618,6 +5032,8 @@ MnemonicPDNS:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
     - name: Mnemonic_pDNS_Public
       version: '3.0'
+      author: Michael Stensrud, Nordic Financial CERT
+      license: AGPL-V3
       description: Query IP addresses and domains against Mnemonic pDNS public service.
       dataTypes:
       - ip
@@ -4662,6 +5078,8 @@ MSDefenderEndpoints:
     responders:
     - name: MSDefender-FullVirusscan
       version: '1.0'
+      author: Keijo Korte
+      license: AGPL-V3
       description: Run full virus scan to machine with Microsoft Defender for Endpoints
       dataTypes:
       - thehive:case_artifact
@@ -4670,6 +5088,8 @@ MSDefenderEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
     - name: MSDefender-UnRestrictAppExecution
       version: '1.0'
+      author: Keijo Korte, Louis-Maximilien Dupouy
+      license: AGPL-V3
       description: Enable execution of any application on the device
       dataTypes:
       - thehive:case_artifact
@@ -4678,6 +5098,8 @@ MSDefenderEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
     - name: MSDefender-RestrictAppExecution
       version: '1.0'
+      author: Keijo Korte, Louis-Maximilien Dupouy
+      license: AGPL-V3
       description: Restrict execution of all applications on the device except a predefined set
       dataTypes:
       - thehive:case_artifact
@@ -4686,6 +5108,8 @@ MSDefenderEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
     - name: MSDefender-AutoInvestigation
       version: '1.0'
+      author: Keijo Korte, Louis-Maximilien Dupouy
+      license: AGPL-V3
       description: Start an automated investigation on a device
       dataTypes:
       - thehive:case_artifact
@@ -4694,6 +5118,8 @@ MSDefenderEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
     - name: MSDefender-PushIOC-Alert
       version: '2.0'
+      author: Keijo Korte, Louis-Maximilien Dupouy
+      license: AGPL-V3
       description: Push IOC to Defender client. Alert mode
       dataTypes:
       - thehive:case_artifact
@@ -4702,6 +5128,8 @@ MSDefenderEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
     - name: MSDefender-IsolateMachine
       version: '1.0'
+      author: Keijo Korte
+      license: AGPL-V3
       description: Isolate machine with Microsoft Defender for Endpoints
       dataTypes:
       - thehive:case_artifact
@@ -4710,6 +5138,8 @@ MSDefenderEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
     - name: MSDefender-PushIOC-Block
       version: '2.0'
+      author: Keijo Korte, Louis-Maximilien Dupouy
+      license: AGPL-V3
       description: Push IOC to Defender client. Blocking mode
       dataTypes:
       - thehive:case_artifact
@@ -4718,6 +5148,8 @@ MSDefenderEndpoints:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
     - name: MSDefender-UnisolateMachine
       version: '1.0'
+      author: Keijo Korte
+      license: AGPL-V3
       description: Unisolate machine with Microsoft Defender for Endpoints
       dataTypes:
       - thehive:case_artifact
@@ -4764,6 +5196,8 @@ MSDefenderOffice365:
     analyzers:
     - name: MSDefenderOffice365_SafeLinksDecoder.json
       version: '1.0'
+      author: Louis HUSSON
+      license: AGPL-V3
       description: Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com
         domains.
       dataTypes:
@@ -4774,6 +5208,8 @@ MSDefenderOffice365:
     responders:
     - name: MSDefenderOffice365_unblock
       version: '1.0'
+      author: Joe Lazaro
+      license: AGPL-V3
       description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
       dataTypes:
       - thehive:case_artifact
@@ -4782,6 +5218,8 @@ MSDefenderOffice365:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
     - name: MSDefenderOffice365_block
       version: '1.0'
+      author: Joe Lazaro
+      license: AGPL-V3
       description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
       dataTypes:
       - thehive:case_artifact
@@ -4824,6 +5262,8 @@ MSEntraID:
     analyzers:
     - name: MSEntraID_GetDirectoryAuditLogs
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.
       dataTypes:
       - mail
@@ -4832,6 +5272,8 @@ MSEntraID:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
     - name: MSEntraID_GetUserInfo
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Get information about the user from Microsoft Entra ID, using the mail
       dataTypes:
       - mail
@@ -4840,6 +5282,8 @@ MSEntraID:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
     - name: MSEntraID_GetSignIns
       version: '1.0'
+      author: '@jahamilto'
+      license: AGPL-V3
       description: Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
       dataTypes:
       - mail
@@ -4848,6 +5292,8 @@ MSEntraID:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
     - name: MSEntraID_GetManagedDevicesInfo
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Get Microsoft Intune Managed Device(s) Details from hostname or mail
       dataTypes:
       - mail
@@ -4858,6 +5304,8 @@ MSEntraID:
     responders:
     - name: MSEntraID_enableUser
       version: '1.0'
+      author: nusatanra-self, StrangeBee
+      license: AGPL-V3
       description: Enable user in Microsoft Entra ID for a User Principal Name. (mail)
       dataTypes:
       - thehive:case_artifact
@@ -4866,6 +5314,8 @@ MSEntraID:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
     - name: MSEntraID_revokeSignInSessions
       version: '1.1'
+      author: Daniel Weiner @dmweiner; revised by @jahamilto; Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Invalidates all the refresh tokens issued to applications for a Microsoft Entra ID user (as well as session
         cookies in a user's browser)
       dataTypes:
@@ -4875,6 +5325,8 @@ MSEntraID:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
     - name: MSEntraID_disableUser
       version: '1.0'
+      author: nusatanra-self, StrangeBee
+      license: AGPL-V3
       description: Disable user in Microsoft Entra ID for a User Principal Name. (mail)
       dataTypes:
       - thehive:case_artifact
@@ -4883,6 +5335,8 @@ MSEntraID:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
     - name: MSEntraID_ForcePasswordResetWithMFA
       version: '1.0'
+      author: nusatanra-self, StrangeBee
+      license: AGPL-V3
       description: Force password reset at next login with MFA verification before password change for a User Principal Name.
         (mail)
       dataTypes:
@@ -4892,6 +5346,8 @@ MSEntraID:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
     - name: MSEntraID_ForcePasswordReset
       version: '1.0'
+      author: nusatanra-self, StrangeBee
+      license: AGPL-V3
       description: Force password reset at next login for a User Principal Name. (mail)
       dataTypes:
       - thehive:case_artifact
@@ -4919,6 +5375,8 @@ MsgParser:
     analyzers:
     - name: Msg_Parser
       version: '3.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Parse Outlook MSG files and extract the main artifacts.
       dataTypes:
       - file
@@ -4963,6 +5421,8 @@ n8n:
     responders:
     - name: n8n
       version: '1.0'
+      author: Anas SOUIRI
+      license: AGPL-V3
       description: Send data to n8n via webhook
       dataTypes:
       - thehive:case
@@ -4997,6 +5457,8 @@ NERD:
     analyzers:
     - name: NERD
       version: '1.1'
+      author: Vaclav Bartos, CESNET
+      license: AGPL-V3
       description: Get Reputation score and other basic information from Network Entity Reputation Database (NERD)
       dataTypes:
       - ip
@@ -5025,6 +5487,8 @@ Nessus:
     analyzers:
     - name: Nessus
       version: '2.0'
+      author: Guillaume Rousse
+      license: AGPL-V3
       description: Use Nessus Professional to scan hosts.
       dataTypes:
       - ip
@@ -5058,6 +5522,8 @@ Netcraft:
     responders:
     - name: Netcraft_TakedownPhishingURL
       version: '1.0'
+      author: Keijo Korte - @korteke
+      license: AGPL-V3
       description: Submit URL to Netcraft's Takedown API.
       dataTypes:
       - thehive:case_artifact
@@ -5085,6 +5551,8 @@ NSRL:
     analyzers:
     - name: NSRL
       version: '1.0'
+      author: Andrea Garavaglia, Davide Arcuri - LDO-CERT
+      license: AGPL-V3
       description: Query NSRL
       dataTypes:
       - hash
@@ -5117,6 +5585,8 @@ Okta:
     analyzers:
     - name: OktaUserLookup
       version: '1.0'
+      author: Martin Jaan Leesment
+      license: AGPL-V3
       description: Okta User Lookup is an analyzer for TheHive to enrich mail observables from data through the Okta users
         API
       dataTypes:
@@ -5158,6 +5628,8 @@ Onyphe:
     analyzers:
     - name: ONYPHE_ASM
       version: '1.1'
+      author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
+      license: AGPL-V3
       description: Manage an attack surface from The Hive using ONYPHE riskscan category
       dataTypes:
       - ip
@@ -5169,6 +5641,8 @@ Onyphe:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
     - name: ONYPHE_Search
       version: '1.1'
+      author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
+      license: AGPL-V3
       description: Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from
         specified category
       dataTypes:
@@ -5181,6 +5655,8 @@ Onyphe:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
     - name: ONYPHE_Summary_API
       version: '1.2'
+      author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
+      license: AGPL-V3
       description: Retrieve summary information Onyphe has for given ip, domain, or fqdn.
       dataTypes:
       - ip
@@ -5191,6 +5667,8 @@ Onyphe:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
     - name: ONYPHE_Vulnscan
       version: '1.1'
+      author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
+      license: AGPL-V3
       description: Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256
         TLS fingerprint)
       dataTypes:
@@ -5203,6 +5681,8 @@ Onyphe:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
     - name: ONYPHE_Ctiscan
       version: '1.0'
+      author: James Atack
+      license: AGPL-V3
       description: Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fqdn, autonomous-system or
         hash.)
       dataTypes:
@@ -5240,6 +5720,8 @@ ONYPHEActiveScan:
     analyzers:
     - name: ONYPHE_OnDemandScan
       version: '1.0'
+      author: James Atack
+      license: AGPL-V3
       description: Perform active scan of an asset using a Scanyphe Entreprise On-Demand scanner
       dataTypes:
       - ip
@@ -5273,6 +5755,8 @@ OpenCTI:
     analyzers:
     - name: OpenCTI_SearchExactObservable
       version: '2.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Query multiple OpenCTI instances for a specific observable.
       dataTypes:
       - domain
@@ -5294,6 +5778,8 @@ OpenCTI:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
     - name: OpenCTI_SearchObservables
       version: '2.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Query multiple OpenCTI instances for a list of observables matching a pattern.
       dataTypes:
       - domain
@@ -5338,6 +5824,8 @@ OrionMalware:
     analyzers:
     - name: OrionMalware
       version: '1.0'
+      author: Airbus Defence and Space Cyber
+      license: AGPL-V3
       description: Use OrionMalware API to analyze a File or find a hash match.
       dataTypes:
       - file
@@ -5379,6 +5867,8 @@ OTXQuery:
     analyzers:
     - name: OTXQuery
       version: '2.0'
+      author: Eric Capuano
+      license: AGPL-V3
       description: Query AlienVault OTX for IPs, domains, URLs, or file hashes.
       dataTypes:
       - url
@@ -5415,6 +5905,8 @@ PaloAltoCortexXDR:
     responders:
     - name: PaloAltoCortexXDR_unisolate
       version: '1.0'
+      author: Joe Lazaro
+      license: AGPL-V3
       description: Unisolate endpoints identified by hostname or IP list
       dataTypes:
       - thehive:case_artifact
@@ -5423,6 +5915,8 @@ PaloAltoCortexXDR:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json
     - name: PaloAltoCortexXDR_scan
       version: '1.0'
+      author: Joe Lazaro
+      license: AGPL-V3
       description: Scan endpoints identified by hostname or IP list
       dataTypes:
       - thehive:case_artifact
@@ -5431,6 +5925,8 @@ PaloAltoCortexXDR:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
     - name: PaloAltoCortexXDR_isolate
       version: '1.0'
+      author: Joe Lazaro
+      license: AGPL-V3
       description: Isolate endpoints identified by hostname or IP list
       dataTypes:
       - thehive:case_artifact
@@ -5459,6 +5955,8 @@ PaloAltoNGFW:
     responders:
     - name: PaloAltoNGFW_unblock_external_domain
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Unblock external domain
       dataTypes:
       - thehive:alert
@@ -5469,6 +5967,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
     - name: PaloAltoNGFW_unblock_port_for_external_communication
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Unblock external port communication
       dataTypes:
       - thehive:alert
@@ -5479,6 +5979,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
     - name: PaloAltoNGFW_unblock_internal_user
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Unblock internal user
       dataTypes:
       - thehive:alert
@@ -5489,6 +5991,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
     - name: PaloAltoNGFW_block_external_IP_address
       version: 2.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Block external IP address
       dataTypes:
       - thehive:alert
@@ -5499,6 +6003,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
     - name: PaloAltoNGFW_unblock_external_user
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Unblock external user
       dataTypes:
       - thehive:alert
@@ -5509,6 +6015,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
     - name: PaloAltoNGFW_block_port_for_external_communication
       version: 2.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Block external port communication
       dataTypes:
       - thehive:alert
@@ -5519,6 +6027,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
     - name: PaloAltoNGFW_unblock_external_IP_address
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Unblock external ip
       dataTypes:
       - thehive:alert
@@ -5529,6 +6039,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
     - name: PaloAltoNGFW_block_internal_user
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Block internal user
       dataTypes:
       - thehive:alert
@@ -5539,6 +6051,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
     - name: PaloAltoNGFW_unblock_port_for_internal_communication
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Unblock internal port communication
       dataTypes:
       - thehive:alert
@@ -5549,6 +6063,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
     - name: PaloAltoNGFW_unblock_internal_domain
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Unblock internal domain
       dataTypes:
       - thehive:alert
@@ -5559,6 +6075,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
     - name: PaloAltoNGFW_block_internal_domain
       version: 2.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Block internal domain
       dataTypes:
       - thehive:alert
@@ -5569,6 +6087,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
     - name: PaloAltoNGFW_block_internal_IP_address
       version: 2.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Block internal IP address
       dataTypes:
       - thehive:alert
@@ -5579,6 +6099,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
     - name: PaloAltoNGFW_block_external_user
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Block external user
       dataTypes:
       - thehive:alert
@@ -5589,6 +6111,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
     - name: PaloAltoNGFW_block_external_domain
       version: 2.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Block external domain
       dataTypes:
       - thehive:alert
@@ -5599,6 +6123,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
     - name: PaloAltoNGFW_block_port_for_internal_communication
       version: 2.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Block internal port communication
       dataTypes:
       - thehive:alert
@@ -5609,6 +6135,8 @@ PaloAltoNGFW:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
     - name: PaloAltoNGFW_unblock_internal_IP_address
       version: 1.0.0
+      author: Maxim Konakin, OSCD Initiative
+      license: AGPL-V3
       description: Unblock internal ip
       dataTypes:
       - thehive:alert
@@ -5641,6 +6169,8 @@ PaloAltoWildFire:
     analyzers:
     - name: PaloAltoWildFire
       version: '1.0'
+      author: Ignacio Rodriguez Paez, Joe Lazaro
+      license: AGPL-V3
       description: Run Palo Alto WildFire analysis on a file, hash, or URL
       dataTypes:
       - file
@@ -5652,6 +6182,8 @@ PaloAltoWildFire:
     responders:
     - name: PaloAltoWildFire_URL_submission
       version: '1.0'
+      author: Keijo Korte - @korteke
+      license: AGPL-V3
       description: Submit URL to PaloAlto WildFire service.
       dataTypes:
       - url
@@ -5681,6 +6213,8 @@ PassiveTotal:
     analyzers:
     - name: PassiveTotal_Osint
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: PassiveTotal OSINT Lookup.
       dataTypes:
       - domain
@@ -5691,6 +6225,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
     - name: PassiveTotal_Components
       version: '2.0'
+      author: Brandon Dixon (9bplus)
+      license: AGPL-V3
       description: PassiveTotal Components Lookup.
       dataTypes:
       - domain
@@ -5701,6 +6237,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
     - name: PassiveTotal_Enrichment
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: PassiveTotal Enrichment Lookup.
       dataTypes:
       - domain
@@ -5711,6 +6249,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json
     - name: PassiveTotal_Ssl_Certificate_History
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: PassiveTotal SSL Certificate History Lookup.
       dataTypes:
       - hash
@@ -5720,6 +6260,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
     - name: PassiveTotal_Host_Pairs
       version: '2.0'
+      author: Brandon Dixon (9bplus)
+      license: AGPL-V3
       description: PassiveTotal Host Pairs Lookup.
       dataTypes:
       - domain
@@ -5730,6 +6272,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
     - name: PassiveTotal_Passive_Dns
       version: '2.1'
+      author: CERT-BDF
+      license: AGPL-V3
       description: PassiveTotal Passive DNS Lookup.
       dataTypes:
       - domain
@@ -5740,6 +6284,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json
     - name: PassiveTotal_Whois_Details
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: PassiveTotal Whois Details Lookup.
       dataTypes:
       - domain
@@ -5750,6 +6296,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
     - name: PassiveTotal_Trackers
       version: '2.0'
+      author: Brandon Dixon (9bplus)
+      license: AGPL-V3
       description: PassiveTotal Trackers Lookup.
       dataTypes:
       - domain
@@ -5760,6 +6308,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
     - name: PassiveTotal_Ssl_Certificate_Details
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: PassiveTotal SSL Certificate Details Lookup.
       dataTypes:
       - hash
@@ -5769,6 +6319,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
     - name: PassiveTotal_Unique_Resolutions
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: PassiveTotal Unique Resolutions Lookup.
       dataTypes:
       - domain
@@ -5779,6 +6331,8 @@ PassiveTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json
     - name: PassiveTotal_Malware
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: PassiveTotal Malware Lookup.
       dataTypes:
       - domain
@@ -5812,6 +6366,8 @@ Patrowl:
     analyzers:
     - name: Patrowl_GetReport
       version: '1.0'
+      author: Nicolas Mattiocco
+      license: AGPL-V3
       description: Get the current Patrowl report for a fdqn, a domain or an IP address.
       dataTypes:
       - fqdn
@@ -5842,6 +6398,8 @@ PayloadSecurity:
     analyzers:
     - name: PayloadSecurity_File_Analysis
       version: '1.0'
+      author: Emmanuel Torquato
+      license: AGPL-V3
       description: PayloadSecurity Sandbox File Analysis
       dataTypes:
       - file
@@ -5850,6 +6408,8 @@ PayloadSecurity:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
     - name: PayloadSecurity_Url_Analysis
       version: '1.0'
+      author: Emmanuel Torquato
+      license: AGPL-V3
       description: PayloadSecurity Sandbox Url Analysis
       dataTypes:
       - url
@@ -5883,6 +6443,8 @@ PhishingInitiative:
     analyzers:
     - name: PhishingInitiative_Scan
       version: '1.0'
+      author: Remi Pointel
+      license: AGPL-V3
       description: Use Phishing Initiative to scan a URL.
       dataTypes:
       - url
@@ -5891,6 +6453,8 @@ PhishingInitiative:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
     - name: PhishingInitiative_Lookup
       version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Use Phishing Initiative to check if a URL is a verified phishing site.
       dataTypes:
       - url
@@ -5922,6 +6486,8 @@ PhishTank:
     analyzers:
     - name: PhishTank_CheckURL
       version: '2.1'
+      author: Eric Capuano
+      license: AGPL-V3
       description: Use PhishTank to check if a URL is a verified phishing site.
       dataTypes:
       - url
@@ -5982,6 +6548,8 @@ Proofpoint:
     analyzers:
     - name: Proofpoint_Lookup
       version: '1.0'
+      author: Emmanuel Torquato
+      license: AGPL-V3
       description: Check URL, file, SHA256 against Proofpoint forensics
       dataTypes:
       - url
@@ -6028,6 +6596,8 @@ Pulsedive:
     analyzers:
     - name: Pulsedive_GetIndicator
       version: '1.0'
+      author: Nils Kuhnert
+      license: AGPL-V3
       description: Search Pulsedive.com for a giver domain name, hash, ip or url
       dataTypes:
       - url
@@ -6059,6 +6629,8 @@ QrDecode:
     analyzers:
     - name: QrDecode
       version: '1.0'
+      author: THA-CERT
+      license: AGPL-V3
       description: Extracts data from one or more QR codes.
       dataTypes:
       - file
@@ -6098,6 +6670,8 @@ RecordedFuture:
     analyzers:
     - name: RecordedFuture
       version: '2.0'
+      author: Recorded Future
+      license: AGPL-V3
       description: 'Enrich IP, Domain, FQDN, URL, or Hash with Recorded Future context:  Risk Score, Risk Details, AI Insights,
         Links, Threat Actor, Attack Vector, Malware Category / Family, and Related Entities (IPs, Domains, and Hashes)'
       dataTypes:
@@ -6132,6 +6706,8 @@ Redmine:
     responders:
     - name: Redmine_Issue
       version: '1.0'
+      author: Marc-André DOLL
+      license: AGPL-V3
       description: Create a redmine issue from a case
       dataTypes:
       - thehive:case
@@ -6160,6 +6736,8 @@ RiskIQ:
     analyzers:
     - name: RiskIQ_Certificates
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: SSL/TLS certificates associated with an indicator.'
       dataTypes:
       - domain
@@ -6170,6 +6748,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json
     - name: RiskIQ_Trackers
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: trackers observed during a crawl on a host.'
       dataTypes:
       - domain
@@ -6180,6 +6760,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
     - name: RiskIQ_Services
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: services observed on an IP address.'
       dataTypes:
       - ip
@@ -6188,6 +6770,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
     - name: RiskIQ_HostpairParents
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: hosts with a parent web component relationship to an IOC.'
       dataTypes:
       - domain
@@ -6198,6 +6782,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
     - name: RiskIQ_Articles
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: OSINT articles that reference an indicator.'
       dataTypes:
       - domain
@@ -6208,6 +6794,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
     - name: RiskIQ_Summary
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: RiskIQ Illuminate and PassiveTotal datasets with records for an indicator.
       dataTypes:
       - domain
@@ -6218,6 +6806,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
     - name: RiskIQ_Components
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: web components observed during crawls on a hostname.'
       dataTypes:
       - domain
@@ -6228,6 +6818,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
     - name: RiskIQ_Subdomains
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: subdomains observed historically in pDNS records.'
       dataTypes:
       - fqdn
@@ -6237,6 +6829,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
     - name: RiskIQ_Whois
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: RiskIQ Whois lookup for an indicator.
       dataTypes:
       - domain
@@ -6247,6 +6841,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
     - name: RiskIQ_Projects
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: Illuminate / PassiveTotal projects that contain an artifact which matches an IOC.'
       dataTypes:
       - domain
@@ -6257,6 +6853,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
     - name: RiskIQ_Malware
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: malware hashes from various sources associated with an IOC.'
       dataTypes:
       - domain
@@ -6267,6 +6865,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
     - name: RiskIQ_Artifacts
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: Illuminate / PassiveTotal project artifacts that match an indicator.'
       dataTypes:
       - domain
@@ -6277,6 +6877,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
     - name: RiskIQ_Reputation
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: RiskIQ Illuminate Reputation Score for an indicator.
       dataTypes:
       - domain
@@ -6287,6 +6889,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
     - name: RiskIQ_Cookies
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: cookies observed during crawls on a hostname.'
       dataTypes:
       - domain
@@ -6297,6 +6901,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
     - name: RiskIQ_Resolutions
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: PDNS resolutions for an IOC.'
       dataTypes:
       - domain
@@ -6307,6 +6913,8 @@ RiskIQ:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
     - name: RiskIQ_HostpairChildren
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: 'RiskIQ: hosts with a child web component relationship to an IOC.'
       dataTypes:
       - domain
@@ -6318,6 +6926,8 @@ RiskIQ:
     responders:
     - name: RiskIQ_PushArtifactToProject
       version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
       description: Push a case to a RiskIQ Illuminate project.
       dataTypes:
       - thehive:case_artifact
@@ -6345,6 +6955,8 @@ Robtex:
     analyzers:
     - name: Robtex_Reverse_PDNS_Query
       version: '1.0'
+      author: Nils Kuhnert
+      license: AGPL-V3
       description: Check IPs using the Robtex reverse passive DNS API.
       dataTypes:
       - ip
@@ -6353,6 +6965,8 @@ Robtex:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
     - name: Robtex_Forward_PDNS_Query
       version: '1.0'
+      author: Nils Kuhnert
+      license: AGPL-V3
       description: Check domains and FQDNs using the Robtex passive DNS API.
       dataTypes:
       - domain
@@ -6362,6 +6976,8 @@ Robtex:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
     - name: Robtex_IP_Query
       version: '1.0'
+      author: Nils Kuhnert
+      license: AGPL-V3
       description: Check IPs using the Robtex IP API.
       dataTypes:
       - ip
@@ -6391,6 +7007,8 @@ RT4:
     responders:
     - name: RT4-CreateTicket
       version: '1.0'
+      author: Michael Davis, REN-ISAC
+      license: MIT
       description: Cortex Responder to create a ticket in RT4 from TheHive observables or alerts
       dataTypes:
       - thehive:case_artifact
@@ -6420,6 +7038,8 @@ SecurityTrails:
     analyzers:
     - name: SecurityTrails_Passive_DNS
       version: '1.0'
+      author: Manabu Niseki, @ninoseki
+      license: MIT
       description: SecurityTrails Passive DNS Lookup.
       dataTypes:
       - ip
@@ -6428,6 +7048,8 @@ SecurityTrails:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json
     - name: SecurityTrails_Whois
       version: '1.0'
+      author: Manabu Niseki, @ninoseki
+      license: MIT
       description: SecurityTrails Whois Lookup.
       dataTypes:
       - domain
@@ -6459,6 +7081,8 @@ SEKOIAIntelligenceCenter:
     analyzers:
     - name: SEKOIAIntelligenceCenter_Indicators
       version: '1.0'
+      author: SEKOIA
+      license: AGPL-V3
       description: Query the Intelligence Center to retrieve indicators
       dataTypes:
       - domain
@@ -6471,6 +7095,8 @@ SEKOIAIntelligenceCenter:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
     - name: SEKOIAIntelligenceCenter_Observables
       version: '1.0'
+      author: SEKOIA
+      license: AGPL-V3
       description: Query the Intelligence Center to retrieve known observables
       dataTypes:
       - domain
@@ -6483,6 +7109,8 @@ SEKOIAIntelligenceCenter:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
     - name: SEKOIAIntelligenceCenter_Context
       version: '1.0'
+      author: SEKOIA
+      license: AGPL-V3
       description: Query the Intelligence Center to retrieve the context of an observable
       dataTypes:
       - domain
@@ -6516,6 +7144,8 @@ SendGrid:
     responders:
     - name: SendGrid
       version: '1.0'
+      author: Equate Technologies
+      license: AGPL-V3
       description: Send an email with information from a TheHive case or alert via SendGrid API over HTTPS
       dataTypes:
       - thehive:case
@@ -6544,6 +7174,8 @@ SentinelOne:
     analyzers:
     - name: SentinelOne_DeepVisibility_DNSQuery
       version: '1.0'
+      author: Joe Vasquez
+      license: AGPL-V3
       description: Query Sentinel One Deep Visibility API v2.1 for hosts that have requested DNS lookups for a domain/URL/FQDN.
       dataTypes:
       - url
@@ -6555,6 +7187,8 @@ SentinelOne:
     responders:
     - name: SentinelOne_Hash_Blacklister
       version: '1.0'
+      author: Joe Vasquez
+      license: AGPL-V3
       description: Add SHA1 hash to SentinelOne Blacklist via API v2.1.
       dataTypes:
       - thehive:case_artifact
@@ -6595,6 +7229,8 @@ Shodan:
     analyzers:
     - name: Shodan_DNSResolve
       version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Retrieve domain resolutions on Shodan.
       dataTypes:
       - domain
@@ -6604,6 +7240,8 @@ Shodan:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
     - name: Shodan_InfoDomain
       version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Retrieve key Shodan information on a domain.
       dataTypes:
       - domain
@@ -6613,6 +7251,8 @@ Shodan:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
     - name: Shodan_Host_History
       version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Retrieve Shodan history scan results  for an IP address.
       dataTypes:
       - ip
@@ -6621,6 +7261,8 @@ Shodan:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
     - name: Shodan_Search
       version: '2.0'
+      author: Sebastien Larinier @Sebdraven
+      license: AGPL-V3
       description: Search query on Shodan
       dataTypes:
       - other
@@ -6629,6 +7271,8 @@ Shodan:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
     - name: Shodan_Host
       version: '1.0'
+      author: Sebastien Larinier @Sebdraven
+      license: AGPL-V3
       description: Retrieve key Shodan information on an IP address.
       dataTypes:
       - ip
@@ -6637,6 +7281,8 @@ Shodan:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host.json
     - name: Shodan_ReverseDNS
       version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
       description: Retrieve ip reverse DNS resolutions on Shodan.
       dataTypes:
       - ip
@@ -6681,6 +7327,8 @@ Shuffle:
     responders:
     - name: Shuffle
       version: '1.0'
+      author: '@frikkylikeme'
+      license: AGPL-V3
       description: Execute a workflow in Shuffle
       dataTypes:
       - thehive:case
@@ -6712,6 +7360,8 @@ SinkDB:
     analyzers:
     - name: SinkDB
       version: '1.1'
+      author: Mark Kikta, RedLegg Cybersecurity Solutions
+      license: AGPL-V3
       description: Check if ip is sinkholed via the new sinkdb.abuse.ch HTTPS API. Original analyzer can be found at https://github.com/BSI-CERT-Bund/sinkdb-analyzer
       dataTypes:
       - ip
@@ -6776,6 +7426,8 @@ Slack:
     responders:
     - name: Slack_SyncChannel
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments
         for traceability.
       dataTypes:
@@ -6785,6 +7437,8 @@ Slack:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
     - name: Slack_CreateChannel
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and
         description.
       dataTypes:
@@ -6813,6 +7467,8 @@ SoltraEdge:
     analyzers:
     - name: SoltraEdge
       version: '1.0'
+      author: Michael Stensrud, Nordic Financial CERT
+      license: AGPL-V3
       description: Query against Soltra Edge.
       dataTypes:
       - domain
@@ -6854,6 +7510,8 @@ SophosIntelix:
     analyzers:
     - name: SophosIntelix_Submit_Dynamic
       version: '0.1'
+      author: SOL
+      license: AGPL-V3
       description: Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information
         or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
       dataTypes:
@@ -6863,6 +7521,8 @@ SophosIntelix:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
     - name: SophosIntelix_Submit_Static
       version: '0.1'
+      author: SOL
+      license: AGPL-V3
       description: Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you
         to see if the file is similar to known malware. For more information or to sign up for SophosLabs Intelix (with a
         free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
@@ -6873,6 +7533,8 @@ SophosIntelix:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
     - name: SophosIntelix_GetReport
       version: '0.3'
+      author: SOL
+      license: AGPL-V3
       description: Fast and easy way to find out if the file is known Good, PUA (Potentially Unwanted Application), or, Malware.
         For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
       dataTypes:
@@ -6908,6 +7570,8 @@ SpamAssassin:
     analyzers:
     - name: SpamAssassin
       version: '1.0'
+      author: Davide Arcuri - LDO-CERT
+      license: AGPL-V3
       description: Get spam score from local SpamAssassin instance
       dataTypes:
       - file
@@ -6936,6 +7600,8 @@ SpamhausDBL:
     analyzers:
     - name: SpamhausDBL
       version: '1.0'
+      author: Wes Lambert
+      license: AGPL-V3
       description: Perform domain lookup to Spamhaus DBL
       dataTypes:
       - domain
@@ -6988,6 +7654,8 @@ Splunk:
     analyzers:
     - name: Splunk_Search_Other
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with an unidentified data as argument
       dataTypes:
       - other
@@ -6996,6 +7664,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
     - name: Splunk_Search_Registry
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with a registry data as argument
       dataTypes:
       - registry
@@ -7004,6 +7674,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
     - name: Splunk_Search_Mail_Subject
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with a mail subject as argument
       dataTypes:
       - mail_subject
@@ -7013,6 +7685,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
     - name: Splunk_Search_File_Filename
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with a file/filename as argument
       dataTypes:
       - file
@@ -7022,6 +7696,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
     - name: Splunk_Search_User_Agent
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with a user agent as argument
       dataTypes:
       - user-agent
@@ -7030,6 +7706,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
     - name: Splunk_Search_Mail_Email
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with a mail/email as argument
       dataTypes:
       - mail
@@ -7039,6 +7717,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
     - name: Splunk_Search_IP
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with an IP as argument
       dataTypes:
       - ip
@@ -7047,6 +7727,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
     - name: Splunk_Search_Hash
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with a hash as argument
       dataTypes:
       - hash
@@ -7055,6 +7737,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
     - name: Splunk_Search_Domain_FQDN
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with a domain or a FQDN as argument
       dataTypes:
       - domain
@@ -7064,6 +7748,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
     - name: Splunk_Search_User
       version: '3.0'
+      author: LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with a user ID as argument
       dataTypes:
       - other
@@ -7072,6 +7758,8 @@ Splunk:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
     - name: Splunk_Search_URL_URI_Path
       version: '3.0'
+      author: Unit777, LetMeR00t
+      license: AGPL-V3
       description: Execute a savedsearch on a Splunk instance with an URL or a URI path as argument
       dataTypes:
       - url
@@ -7110,6 +7798,8 @@ StamusNetworks:
     analyzers:
     - name: StamusNetworks_HostID
       version: '1.0'
+      author: Stamus Networks
+      license: AGPL-V3
       description: Get information from your Scirius Security Platform for an IP address.
       dataTypes:
       - ip
@@ -7138,6 +7828,8 @@ StaxxSearch:
     analyzers:
     - name: StaxxSearch
       version: '1.0'
+      author: Robert Nixon
+      license: AGPL-V3
       description: Fetch observable details from an Anomali STAXX instance.
       dataTypes:
       - domain
@@ -7171,6 +7863,8 @@ StopForumSpam:
     analyzers:
     - name: StopForumSpam
       version: '1.0'
+      author: Marc-Andre Doll, STARC by EXAPROBE
+      license: AGPL-V3
       description: Query http://www.stopforumspam.com to check if an IP or email address is a known spammer.
       dataTypes:
       - ip
@@ -7223,6 +7917,8 @@ TeamCymruMHR:
     analyzers:
     - name: TeamCymruMHR
       version: '1.0'
+      author: Wes Lambert; Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Submit hash to Team Cymru's Malware Hash Registry
       dataTypes:
       - hash
@@ -7264,6 +7960,8 @@ Telegram:
     responders:
     - name: Telegram
       version: '1.0'
+      author: Alex Kolnik, PS Cloud Services, @ps_kz
+      license: AGPL-V3
       description: Send a message to Telegram with information from TheHive case
       dataTypes:
       - thehive:case
@@ -7292,6 +7990,8 @@ Test:
     responders:
     - name: Test
       version: '1.0'
+      author: Jerome Leonard
+      license: AGPL-V3
       description: test
       dataTypes:
       - thehive:case
@@ -7304,6 +8004,8 @@ Test:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Test/test.json
     - name: DevTools_Echo_Responder
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Development utility that simply echoes the input received by the responder.
       dataTypes:
       - thehive:case
@@ -7338,6 +8040,8 @@ TestAnalyzer:
     analyzers:
     - name: DevTools_Echo_Analyzer
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Development utility that simply echoes the (available) input received by the analyzer.
       dataTypes:
       - ip
@@ -7356,6 +8060,8 @@ TestAnalyzer:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
     - name: TestAnalyzer
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Just a simple test analyzer! No real-world use-case covered by this one, for testing, reference, dev and
         any other purpose only!
       dataTypes:
@@ -7443,6 +8149,8 @@ ThreatGrid:
     analyzers:
     - name: ThreatGrid
       version: '1.0'
+      author: Cisco Security
+      license: MIT
       description: Threat Grid Sandbox
       dataTypes:
       - file
@@ -7473,6 +8181,8 @@ ThreatMiner:
     analyzers:
     - name: ThreatMiner
       version: '1.0'
+      author: Peter Juhas
+      license: AGPL-V3
       description: WHOIS queries from threatminer.org
       dataTypes:
       - ip
@@ -7502,6 +8212,8 @@ ThreatResponse:
     analyzers:
     - name: ThreatResponse
       version: '1.0'
+      author: Cisco Security
+      license: MIT
       description: Threat Response
       dataTypes:
       - domain
@@ -7538,6 +8250,8 @@ Thunderstorm:
     analyzers:
     - name: THOR_Thunderstorm_ScanSample
       version: 0.3.1
+      author: Florian Roth
+      license: AGPL-V3
       description: Submits sample to an on-premise THOR Thunderstorm web service and processes the scan result
       dataTypes:
       - file
@@ -7596,6 +8310,8 @@ TorBlutmagie:
     analyzers:
     - name: TorBlutmagie
       version: '1.0'
+      author: Marc-André DOLL, STARC by EXAPROBE
+      license: AGPL-V3
       description: Query https://torstatus.rueckgr.at/query_export.php/Tor_query_EXPORT.csv (formerly TorBlutmagie) for TOR
         exit nodes IP addresses or names.
       dataTypes:
@@ -7627,6 +8343,8 @@ TorProject:
     analyzers:
     - name: TorProject
       version: '1.0'
+      author: Marc-André DOLL, STARC by EXAPROBE
+      license: AGPL-V3
       description: Query https://check.torproject.org/exit-addresses for TOR exit nodes IP addresses.
       dataTypes:
       - ip
@@ -7658,6 +8376,8 @@ Triage:
     analyzers:
     - name: Triage
       version: '2.0'
+      author: Mikael Keri
+      license: AGPL-V3
       description: Submit artifacts to the Recorded Future Triage sandbox service. This analyzer requires a paid subscription
         for the Private and Recorded Future sandboxes.
       dataTypes:
@@ -7689,6 +8409,8 @@ UnshortenLink:
     analyzers:
     - name: UnshortenLink
       version: '1.2'
+      author: Remi Pointel, CERT-BDF
+      license: AGPL-V3
       description: Use UnshortenLink to reveal the real URL.
       dataTypes:
       - url
@@ -7729,6 +8451,8 @@ URLhaus:
     analyzers:
     - name: URLhaus
       version: '2.0'
+      author: ninoseki, Nils Kuhnert
+      license: MIT
       description: Search domains, IPs, URLs or hashes on URLhaus.
       dataTypes:
       - domain
@@ -7775,6 +8499,8 @@ Urlscan.io:
     analyzers:
     - name: Urlscan.io_Search
       version: 0.1.1
+      author: ninoseki, Kyle Parrish (@arnydo)
+      license: MIT
       description: Search IPs, domains, hashes or URLs on urlscan.io
       dataTypes:
       - ip
@@ -7787,6 +8513,8 @@ Urlscan.io:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
     - name: Urlscan.io_Scan
       version: 0.1.0
+      author: ninoseki, Kyle Parrish (@arnydo)
+      license: MIT
       description: Scan URLs on urlscan.io
       dataTypes:
       - url
@@ -7820,6 +8548,8 @@ Valhalla:
     analyzers:
     - name: Valhalla_GetRuleMatches
       version: 0.3.1
+      author: Florian Roth
+      license: AGPL-V3
       description: Gets matching YARA rules for a given sample SHA256 hash
       dataTypes:
       - hash
@@ -7851,6 +8581,8 @@ ValidateObservable:
     analyzers:
     - name: ValidateObservable
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Use regexes and libraries to indicate if observable is valid
       dataTypes:
       - ip
@@ -7896,6 +8628,8 @@ Velociraptor:
     responders:
     - name: Velociraptor
       version: '0.2'
+      author: Wes Lambert, @therealwlambert
+      license: AGPL-V3
       description: Run Velociraptor artifact collection
       dataTypes:
       - thehive:case_artifact
@@ -7923,6 +8657,8 @@ Verifalia:
     analyzers:
     - name: Verifalia
       version: '1.0'
+      author: Peter Juhas
+      license: AGPL-V3
       description: Analyze e-mail address via Verifalia
       dataTypes:
       - mail
@@ -7954,6 +8690,8 @@ Virusshare:
     analyzers:
     - name: Virusshare
       version: '2.0'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
       description: Search for MD5 hashes in Virusshare.com hash list
       dataTypes:
       - hash
@@ -7997,6 +8735,8 @@ VirusTotal:
     analyzers:
     - name: VirusTotal_DownloadSample
       version: '3.1'
+      author: LDO-CERT
+      license: AGPL-V3
       description: Use VirusTotal to download the original file for an hash.
       dataTypes:
       - hash
@@ -8005,6 +8745,8 @@ VirusTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
     - name: VirusTotal_GetReport
       version: '3.1'
+      author: CERT-BDF, StrangeBee
+      license: AGPL-V3
       description: Get the latest VirusTotal report for a file, hash, domain or an IP address.
       dataTypes:
       - file
@@ -8018,6 +8760,8 @@ VirusTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
     - name: VirusTotal_Scan
       version: '3.1'
+      author: CERT-BDF, StrangeBee
+      license: AGPL-V3
       description: Use VirusTotal to scan a file or URL.
       dataTypes:
       - file
@@ -8027,6 +8771,8 @@ VirusTotal:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
     - name: VirusTotal_Rescan
       version: '3.1'
+      author: CERT-LDO
+      license: AGPL-V3
       description: Use VirusTotal to run new analysis on hash.
       dataTypes:
       - hash
@@ -8059,6 +8805,8 @@ VirustotalDownloader:
     responders:
     - name: Virustotal_Downloader
       version: '0.1'
+      author: Mario Henkel @hariomenkel
+      license: AGPL-V3
       description: Download a file from Virustotal by its hash
       dataTypes:
       - thehive:case_artifact
@@ -8086,6 +8834,8 @@ VMRay:
     analyzers:
     - name: VMRay
       version: '4.1'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
       description: VMRay Sandbox file and URL analysis.
       dataTypes:
       - hash
@@ -8119,6 +8869,8 @@ Vulners:
     analyzers:
     - name: Vulners_IOC
       version: '1.0'
+      author: Dmitry Uchakin, Vulners team
+      license: AGPL-V3
       description: Get information from the RST Threat Feed, which integrated with Vulners, for a domain, url or an IP address.
       dataTypes:
       - url
@@ -8129,6 +8881,8 @@ Vulners:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json
     - name: Vulners_CVE
       version: '1.0'
+      author: Dmitry Uchakin, Vulners team
+      license: AGPL-V3
       description: Get information about CVE from powerful Vulners database.
       dataTypes:
       - cve
@@ -8157,6 +8911,8 @@ Watcher:
     analyzers:
     - name: Watcher_CheckDomain
       version: '1.3'
+      author: THA-CERT // YNE
+      license: AGPL-V3
       description: Checks if a domain is monitored in Watcher.
       dataTypes:
       - domain
@@ -8166,6 +8922,8 @@ Watcher:
     responders:
     - name: Watcher_AddDomain
       version: '1.2'
+      author: THA-CERT // YNE
+      license: AGPL-V3
       description: Add a domain to monitoring in the Website Monitoring module on Watcher.
       dataTypes:
       - thehive:case_artifact
@@ -8174,6 +8932,8 @@ Watcher:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Watcher/Watcher_AddDomain.json
     - name: Watcher_RemoveDomain
       version: '1.2'
+      author: THA-CERT // YNE
+      license: AGPL-V3
       description: Removes a domain from monitoring in the Website Monitoring module on Watcher.
       dataTypes:
       - thehive:case_artifact
@@ -8202,6 +8962,8 @@ Wazuh:
     responders:
     - name: Wazuh
       version: '1.0'
+      author: Wes Lambert
+      license: AGPL-V3
       description: Block an IP on a host via Wazuh agent
       dataTypes:
       - thehive:case
@@ -8230,6 +8992,8 @@ WOT:
     analyzers:
     - name: WOT_Lookup
       version: '2.0'
+      author: Andrea Garavaglia, Davide Arcuri, LDO-CERT
+      license: AGPL-V3
       description: Use Web of Trust to check a domain's reputation.
       dataTypes:
       - domain
@@ -8271,6 +9035,8 @@ Yara:
     analyzers:
     - name: Yara
       version: '3.0'
+      author: Nils Kuhnert, CERT-Bund; Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: 'Check files against YARA rules, either from local filesystem or from one or multiple GitHub repositories.
         NOTE: Performance & execution time may be much longer according to the number of rules checked.'
       dataTypes:
@@ -8300,6 +9066,8 @@ Yeti:
     analyzers:
     - name: Yeti
       version: '1.0'
+      author: CERT-BDF
+      license: AGPL-V3
       description: Fetch observable details from a YETI instance.
       dataTypes:
       - domain
@@ -8333,6 +9101,8 @@ ZEROFOX_Close_alert:
     responders:
     - name: ZEROFOX_Close_alert
       version: '1.0'
+      author: TheHive-Project
+      license: AGPL-V3
       description: Close alert in Zerofox
       dataTypes:
       - thehive:case
@@ -8361,6 +9131,8 @@ ZEROFOX_Takedown_request:
     responders:
     - name: ZEROFOX_Takedown_request
       version: '1.0'
+      author: TheHive-Project
+      license: AGPL-V3
       description: Request for a takedown regarding the alert in Zerofox
       dataTypes:
       - thehive:case
@@ -8391,6 +9163,8 @@ Zscaler:
     analyzers:
     - name: Zscaler
       version: '1.3'
+      author: Simon Lavigne, Mikael Keri
+      license: AGPL-V3
       description: Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer requires a paid subscription
         to Zscaler ZIA
       dataTypes:
@@ -8403,6 +9177,8 @@ Zscaler:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json
     - name: ZscalerZIA_URLLookup
       version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
       description: Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2
         and legacy authentication.
       dataTypes:

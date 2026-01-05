@@ -29,6 +29,8 @@ integrations:
   analyzers:
   - name: Urlscan.io_Search
     version: 0.1.1
+    author: ninoseki, Kyle Parrish (@arnydo)
+    license: MIT
     description: Search IPs, domains, hashes or URLs on urlscan.io
     dataTypes:
     - ip
@@ -41,6 +43,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
   - name: Urlscan.io_Scan
     version: 0.1.0
+    author: ninoseki, Kyle Parrish (@arnydo)
+    license: MIT
     description: Scan URLs on urlscan.io
     dataTypes:
     - url

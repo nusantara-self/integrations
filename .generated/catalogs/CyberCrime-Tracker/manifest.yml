@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: CyberCrime-Tracker
     version: '1.0'
+    author: ph34tur3
+    license: AGPL-V3
     description: Search cybercrime-tracker.net for C2 servers.
     dataTypes:
     - domain

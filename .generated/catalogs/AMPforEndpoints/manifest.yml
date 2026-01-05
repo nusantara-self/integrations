@@ -16,6 +16,8 @@ integrations:
   responders:
   - name: AMPforEndpoints_SCDAdd
     version: '1.0'
+    author: Cisco Security
+    license: MIT
     description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
     dataTypes:
     - thehive:case_artifact
@@ -24,6 +26,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
   - name: AMPforEndpoints_IsolationStart
     version: '1.0'
+    author: Cisco Security
+    license: MIT
     description: Start host isolation for an AMP for Endpoints connector
     dataTypes:
     - thehive:case_artifact
@@ -32,6 +36,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
   - name: AMPforEndpoints_MoveGUID
     version: '1.0'
+    author: Cisco Security
+    license: MIT
     description: Move an AMP for Endpoints connector GUID to a different Group
     dataTypes:
     - thehive:case_artifact
@@ -40,6 +46,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
   - name: AMPforEndpoints_IsolationStop
     version: '1.0'
+    author: Cisco Security
+    license: MIT
     description: Stop host isolation for an AMP for Endpoints connector
     dataTypes:
     - thehive:case_artifact
@@ -48,6 +56,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
   - name: AMPforEndpoints_SCDRemove
     version: '1.0'
+    author: Cisco Security
+    license: MIT
     description: Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
     dataTypes:
     - thehive:case_artifact

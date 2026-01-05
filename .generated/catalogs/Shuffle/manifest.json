@@ -31,6 +31,8 @@
       {
         "name": "Shuffle",
         "version": "1.0",
+        "author": "@frikkylikeme",
+        "license": "AGPL-V3",
         "description": "Execute a workflow in Shuffle",
         "dataTypes": [
           "thehive:case",

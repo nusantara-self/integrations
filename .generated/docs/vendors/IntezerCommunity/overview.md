@@ -12,6 +12,8 @@
 ### IntezerCommunity `v1.0`
 Analyze a possible malicious file with Intezer Analyzer
 
+- **Author:** Matteo Lodi
+- **License:** AGPL-v3
 - **Data Types:** `file`, `hash`
 - **Configuration:** [.upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json))
 

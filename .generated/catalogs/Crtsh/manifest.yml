@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: Crt_sh_Transparency_Logs
     version: '1.0'
+    author: crackytsi
+    license: AGPL-V3
     description: Query domains against the certificate transparency lists available at crt.sh.
     dataTypes:
     - domain

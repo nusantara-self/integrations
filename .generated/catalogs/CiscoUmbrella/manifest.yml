@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: CiscoUmbrella_Report
     version: '1.0'
+    author: Kyle Parrish
+    license: AGPL-V3
     description: Query the Cisco Umbrella Reporting API for recent DNS queries and their status.
     dataTypes:
     - domain
@@ -28,6 +30,8 @@ integrations:
   responders:
   - name: CiscoUmbrella_Blacklister
     version: '1.1'
+    author: Kyle Parrish
+    license: AGPL-V3
     description: Add domain to Cisco Umbrella blacklist via Enforcement API.
     dataTypes:
     - thehive:case_artifact

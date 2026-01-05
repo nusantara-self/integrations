@@ -27,6 +27,8 @@ integrations:
   analyzers:
   - name: URLhaus
     version: '2.0'
+    author: ninoseki, Nils Kuhnert
+    license: MIT
     description: Search domains, IPs, URLs or hashes on URLhaus.
     dataTypes:
     - domain

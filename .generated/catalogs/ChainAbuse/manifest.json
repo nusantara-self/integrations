@@ -15,6 +15,8 @@
       {
         "name": "ChainAbuse",
         "version": "1.1",
+        "author": "Peter Juhas; Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
         "description": "Check crypto address against reported abuse cases on ChainAbuse",
         "dataTypes": [
           "crypto_address",

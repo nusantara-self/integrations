@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: EmergingThreats_DomainInfo
     version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Retrieve ET reputation, related malware, and IDS requests for a given domain.
     dataTypes:
     - domain
@@ -27,6 +29,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
   - name: EmergingThreats_MalwareInfo
     version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Retrieve ET details and info related to a malware hash.
     dataTypes:
     - file
@@ -36,6 +40,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
   - name: EmergingThreats_IPInfo
     version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Retrieve ET reputation, related malware, and IDS requests for a given IP address.
     dataTypes:
     - ip

@@ -27,6 +27,8 @@
       {
         "name": "Telegram",
         "version": "1.0",
+        "author": "Alex Kolnik, PS Cloud Services, @ps_kz",
+        "license": "AGPL-V3",
         "description": "Send a message to Telegram with information from TheHive case",
         "dataTypes": [
           "thehive:case"

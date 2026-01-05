@@ -6,6 +6,8 @@
 ### GoogleVisionAPI_WebDetection `v1.0.0`
 Find look alike image via Google Cloud Vision API using the Web_Detection service 
 
+- **Author:** CERT-LaPoste
+- **License:** AGPL-V3
 - **Data Types:** `file`, `url`
 - **Configuration:** [.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json))
 

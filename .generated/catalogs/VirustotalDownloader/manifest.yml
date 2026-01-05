@@ -19,6 +19,8 @@ integrations:
   responders:
   - name: Virustotal_Downloader
     version: '0.1'
+    author: Mario Henkel @hariomenkel
+    license: AGPL-V3
     description: Download a file from Virustotal by its hash
     dataTypes:
     - thehive:case_artifact

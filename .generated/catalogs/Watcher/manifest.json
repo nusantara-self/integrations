@@ -13,6 +13,8 @@
       {
         "name": "Watcher_CheckDomain",
         "version": "1.3",
+        "author": "THA-CERT // YNE",
+        "license": "AGPL-V3",
         "description": "Checks if a domain is monitored in Watcher.",
         "dataTypes": [
           "domain"
@@ -26,6 +28,8 @@
       {
         "name": "Watcher_AddDomain",
         "version": "1.2",
+        "author": "THA-CERT // YNE",
+        "license": "AGPL-V3",
         "description": "Add a domain to monitoring in the Website Monitoring module on Watcher.",
         "dataTypes": [
           "thehive:case_artifact"
@@ -37,6 +41,8 @@
       {
         "name": "Watcher_RemoveDomain",
         "version": "1.2",
+        "author": "THA-CERT // YNE",
+        "license": "AGPL-V3",
         "description": "Removes a domain from monitoring in the Website Monitoring module on Watcher.",
         "dataTypes": [
           "thehive:case_artifact"

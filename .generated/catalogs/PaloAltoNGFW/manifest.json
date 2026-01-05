@@ -14,6 +14,8 @@
       {
         "name": "PaloAltoNGFW_unblock_external_domain",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Unblock external domain",
         "dataTypes": [
           "thehive:alert",
@@ -27,6 +29,8 @@
       {
         "name": "PaloAltoNGFW_unblock_port_for_external_communication",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Unblock external port communication",
         "dataTypes": [
           "thehive:alert",
@@ -40,6 +44,8 @@
       {
         "name": "PaloAltoNGFW_unblock_internal_user",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Unblock internal user",
         "dataTypes": [
           "thehive:alert",
@@ -53,6 +59,8 @@
       {
         "name": "PaloAltoNGFW_block_external_IP_address",
         "version": "2.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Block external IP address",
         "dataTypes": [
           "thehive:alert",
@@ -66,6 +74,8 @@
       {
         "name": "PaloAltoNGFW_unblock_external_user",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Unblock external user",
         "dataTypes": [
           "thehive:alert",
@@ -79,6 +89,8 @@
       {
         "name": "PaloAltoNGFW_block_port_for_external_communication",
         "version": "2.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Block external port communication",
         "dataTypes": [
           "thehive:alert",
@@ -92,6 +104,8 @@
       {
         "name": "PaloAltoNGFW_unblock_external_IP_address",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Unblock external ip",
         "dataTypes": [
           "thehive:alert",
@@ -105,6 +119,8 @@
       {
         "name": "PaloAltoNGFW_block_internal_user",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Block internal user",
         "dataTypes": [
           "thehive:alert",
@@ -118,6 +134,8 @@
       {
         "name": "PaloAltoNGFW_unblock_port_for_internal_communication",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Unblock internal port communication",
         "dataTypes": [
           "thehive:alert",
@@ -131,6 +149,8 @@
       {
         "name": "PaloAltoNGFW_unblock_internal_domain",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Unblock internal domain",
         "dataTypes": [
           "thehive:alert",
@@ -144,6 +164,8 @@
       {
         "name": "PaloAltoNGFW_block_internal_domain",
         "version": "2.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Block internal domain",
         "dataTypes": [
           "thehive:alert",
@@ -157,6 +179,8 @@
       {
         "name": "PaloAltoNGFW_block_internal_IP_address",
         "version": "2.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Block internal IP address",
         "dataTypes": [
           "thehive:alert",
@@ -170,6 +194,8 @@
       {
         "name": "PaloAltoNGFW_block_external_user",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Block external user",
         "dataTypes": [
           "thehive:alert",
@@ -183,6 +209,8 @@
       {
         "name": "PaloAltoNGFW_block_external_domain",
         "version": "2.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Block external domain",
         "dataTypes": [
           "thehive:alert",
@@ -196,6 +224,8 @@
       {
         "name": "PaloAltoNGFW_block_port_for_internal_communication",
         "version": "2.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Block internal port communication",
         "dataTypes": [
           "thehive:alert",
@@ -209,6 +239,8 @@
       {
         "name": "PaloAltoNGFW_unblock_internal_IP_address",
         "version": "1.0.0",
+        "author": "Maxim Konakin, OSCD Initiative",
+        "license": "AGPL-V3",
         "description": "Unblock internal ip",
         "dataTypes": [
           "thehive:alert",

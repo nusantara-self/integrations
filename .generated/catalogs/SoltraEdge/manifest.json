@@ -13,6 +13,8 @@
       {
         "name": "SoltraEdge",
         "version": "1.0",
+        "author": "Michael Stensrud, Nordic Financial CERT",
+        "license": "AGPL-V3",
         "description": "Query against Soltra Edge.",
         "dataTypes": [
           "domain",

@@ -16,6 +16,8 @@
       {
         "name": "EchoTrail",
         "version": "1.0",
+        "author": "Joe Lazaro",
+        "license": "AGPL-V3",
         "description": "EchoTrail Insights takes a Windows filename or hash and provides several unique pieces of analytical context including prevalence & rank scores, process ancestry, behavioral analysis, and security analysis.",
         "dataTypes": [
           "hash",

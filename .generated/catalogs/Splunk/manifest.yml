@@ -38,6 +38,8 @@ integrations:
   analyzers:
   - name: Splunk_Search_Other
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with an unidentified data as argument
     dataTypes:
     - other
@@ -46,6 +48,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
   - name: Splunk_Search_Registry
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with a registry data as argument
     dataTypes:
     - registry
@@ -54,6 +58,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
   - name: Splunk_Search_Mail_Subject
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with a mail subject as argument
     dataTypes:
     - mail_subject
@@ -63,6 +69,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
   - name: Splunk_Search_File_Filename
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with a file/filename as argument
     dataTypes:
     - file
@@ -72,6 +80,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
   - name: Splunk_Search_User_Agent
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with a user agent as argument
     dataTypes:
     - user-agent
@@ -80,6 +90,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
   - name: Splunk_Search_Mail_Email
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with a mail/email as argument
     dataTypes:
     - mail
@@ -89,6 +101,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
   - name: Splunk_Search_IP
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with an IP as argument
     dataTypes:
     - ip
@@ -97,6 +111,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
   - name: Splunk_Search_Hash
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with a hash as argument
     dataTypes:
     - hash
@@ -105,6 +121,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
   - name: Splunk_Search_Domain_FQDN
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with a domain or a FQDN as argument
     dataTypes:
     - domain
@@ -114,6 +132,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
   - name: Splunk_Search_User
     version: '3.0'
+    author: LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with a user ID as argument
     dataTypes:
     - other
@@ -122,6 +142,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
   - name: Splunk_Search_URL_URI_Path
     version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
     description: Execute a savedsearch on a Splunk instance with an URL or a URI path as argument
     dataTypes:
     - url

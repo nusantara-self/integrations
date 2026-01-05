@@ -27,6 +27,8 @@ integrations:
   analyzers:
   - name: MISP
     version: '2.1'
+    author: Nils Kuhnert, CERT-Bund
+    license: AGPL-V3
     description: Query multiple MISP instances for events containing an observable.
     dataTypes:
     - domain

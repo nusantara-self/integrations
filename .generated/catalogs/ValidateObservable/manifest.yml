@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: ValidateObservable
     version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Use regexes and libraries to indicate if observable is valid
     dataTypes:
     - ip

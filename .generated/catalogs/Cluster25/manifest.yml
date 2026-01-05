@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: C25CortexAnalyzer_Investigate
     version: '1.0'
+    author: Cluster25
+    license: AGPL-V3
     description: Use Cluster25's CTI API to investigate an observable.
     dataTypes:
     - domain

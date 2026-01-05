@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: DShield_lookup
     version: '1.0'
+    author: Xavier Xavier, SANS ISC
+    license: AGPL-V3
     description: Query the SANS ISC DShield API to check for an IP address reputation.
     dataTypes:
     - ip

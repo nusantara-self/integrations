@@ -19,6 +19,8 @@ CrowdSec is a collaborative security platform that aggregates attack data from c
 ### Crowdsec_Analyzer `v1.1`
 Query Crowdsec API
 
+- **Author:** CERT-ARKEA
+- **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json))
 

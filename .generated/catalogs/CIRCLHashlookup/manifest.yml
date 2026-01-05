@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: CIRCLHashlookup
     version: '1.1'
+    author: Mikael Keri
+    license: AGPL-V3
     description: CIRCL hashlookup uses a public API to lookup hash values against databases of known good files
     dataTypes:
     - hash

@@ -15,6 +15,8 @@ integrations:
   analyzers:
   - name: MetaDefenderCore_GetReport
     version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Get the latest MetaDefender Core report for hash.
     dataTypes:
     - hash
@@ -23,6 +25,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
   - name: MetaDefenderCloud_GetReport
     version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Get the latest MetaDefender Cloud report for hash.
     dataTypes:
     - hash
@@ -31,6 +35,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json
   - name: MetaDefenderCloud_Scan
     version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Scan a file with MetaDefender Cloud
     dataTypes:
     - file
@@ -39,6 +45,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
   - name: MetaDefenderCloud_Reputation
     version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Get the latest MetaDefender Cloud reputation report .
     dataTypes:
     - ip
@@ -49,6 +57,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
   - name: MetaDefenderCore_Scan
     version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Scan a file with MetaDefender Core
     dataTypes:
     - file

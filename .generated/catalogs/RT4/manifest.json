@@ -14,6 +14,8 @@
       {
         "name": "RT4-CreateTicket",
         "version": "1.0",
+        "author": "Michael Davis, REN-ISAC",
+        "license": "MIT",
         "description": "Cortex Responder to create a ticket in RT4 from TheHive observables or alerts",
         "dataTypes": [
           "thehive:case_artifact",

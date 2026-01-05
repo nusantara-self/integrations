@@ -17,6 +17,8 @@ integrations:
   analyzers:
   - name: JoeSandbox_File_Analysis_Inet
     version: '3.0'
+    author: CERT-BDF
+    license: AGPL-V3
     description: Joe Sandbox file analysis with Internet access.
     dataTypes:
     - file
@@ -25,6 +27,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
   - name: JoeSandbox_Url_Analysis
     version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
     description: Joe Sandbox URL analysis.
     dataTypes:
     - url
@@ -33,6 +37,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
   - name: JoeSandbox_File_Analysis_Noinet
     version: '3.0'
+    author: CERT-BDF
+    license: AGPL-V3
     description: Joe Sandbox file analysis without Internet access.
     dataTypes:
     - file

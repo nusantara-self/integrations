@@ -16,6 +16,8 @@
       {
         "name": "Gatewatcher_CTI",
         "version": "2.0",
+        "author": "Gatewatcher",
+        "license": "AGPL-3.0",
         "description": "Get Gatewatcher CTI Report",
         "dataTypes": [
           "hash",

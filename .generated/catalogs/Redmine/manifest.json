@@ -14,6 +14,8 @@
       {
         "name": "Redmine_Issue",
         "version": "1.0",
+        "author": "Marc-André DOLL",
+        "license": "AGPL-V3",
         "description": "Create a redmine issue from a case",
         "dataTypes": [
           "thehive:case",

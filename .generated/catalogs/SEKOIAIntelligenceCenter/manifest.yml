@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: SEKOIAIntelligenceCenter_Indicators
     version: '1.0'
+    author: SEKOIA
+    license: AGPL-V3
     description: Query the Intelligence Center to retrieve indicators
     dataTypes:
     - domain
@@ -30,6 +32,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
   - name: SEKOIAIntelligenceCenter_Observables
     version: '1.0'
+    author: SEKOIA
+    license: AGPL-V3
     description: Query the Intelligence Center to retrieve known observables
     dataTypes:
     - domain
@@ -42,6 +46,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
   - name: SEKOIAIntelligenceCenter_Context
     version: '1.0'
+    author: SEKOIA
+    license: AGPL-V3
     description: Query the Intelligence Center to retrieve the context of an observable
     dataTypes:
     - domain

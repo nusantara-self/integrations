@@ -47,6 +47,8 @@ integrations:
   analyzers:
   - name: Proofpoint_Lookup
     version: '1.0'
+    author: Emmanuel Torquato
+    license: AGPL-V3
     description: Check URL, file, SHA256 against Proofpoint forensics
     dataTypes:
     - url

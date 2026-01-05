@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: Inoitsu
     version: '1.0'
+    author: Abdelkader Ben Ali
+    license: MIT
     description: Query Inoitsu for a compromised email address.
     dataTypes:
     - mail

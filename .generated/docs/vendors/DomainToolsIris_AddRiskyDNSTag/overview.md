@@ -6,6 +6,8 @@
 ### DomainToolsIris_AddRiskyDNSTag `v1.0`
 Add Tag saying that the case contains a risky DNS.
 
+- **Author:** DomainTools
+- **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json))
 

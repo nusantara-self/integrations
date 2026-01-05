@@ -12,6 +12,8 @@
 ### NERD `v1.1`
 Get Reputation score and other basic information from Network Entity Reputation Database (NERD)
 
+- **Author:** Vaclav Bartos, CESNET
+- **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [.upstream/cortex/analyzers/NERD/nerd.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/NERD/nerd.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/NERD/nerd.json))
 

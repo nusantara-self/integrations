@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: FireEyeiSight
     version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Query domains, IPs, hashes and URLs on FireEye's iSIGHT threat intelligence service.
     dataTypes:
     - domain

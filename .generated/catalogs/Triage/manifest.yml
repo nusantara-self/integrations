@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: Triage
     version: '2.0'
+    author: Mikael Keri
+    license: AGPL-V3
     description: Submit artifacts to the Recorded Future Triage sandbox service. This analyzer requires a paid subscription
       for the Private and Recorded Future sandboxes.
     dataTypes:

@@ -19,6 +19,8 @@ integrations:
   responders:
   - name: PaloAltoCortexXDR_unisolate
     version: '1.0'
+    author: Joe Lazaro
+    license: AGPL-V3
     description: Unisolate endpoints identified by hostname or IP list
     dataTypes:
     - thehive:case_artifact
@@ -27,6 +29,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json
   - name: PaloAltoCortexXDR_scan
     version: '1.0'
+    author: Joe Lazaro
+    license: AGPL-V3
     description: Scan endpoints identified by hostname or IP list
     dataTypes:
     - thehive:case_artifact
@@ -35,6 +39,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
   - name: PaloAltoCortexXDR_isolate
     version: '1.0'
+    author: Joe Lazaro
+    license: AGPL-V3
     description: Isolate endpoints identified by hostname or IP list
     dataTypes:
     - thehive:case_artifact

@@ -13,6 +13,8 @@ MaxMind provides geolocation and network intelligence data that maps IP addresse
 ### MaxMind_GeoIP `v4.0`
 Use MaxMind to geolocate an IP address.
 
+- **Author:** CERT-BDF
+- **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json))
 

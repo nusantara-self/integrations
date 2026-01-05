@@ -13,6 +13,8 @@
       {
         "name": "Malpedia",
         "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Check files against Malpedia YARA rules.",
         "dataTypes": [
           "file"

@@ -17,6 +17,8 @@
       {
         "name": "AWSLambda_InvokeFunction",
         "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
         "description": "Invokes the specified AWS Lambda function with the given input from TheHive.",
         "dataTypes": [
           "thehive:case",

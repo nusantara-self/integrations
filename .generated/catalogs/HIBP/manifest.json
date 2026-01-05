@@ -26,6 +26,8 @@
       {
         "name": "HIBP_Query",
         "version": "2.0",
+        "author": "Matt Erasmus, Jonas Hergenhahn",
+        "license": "AGPL-V3",
         "description": "Query haveibeenpwned.com for a compromised email address",
         "dataTypes": [
           "mail"

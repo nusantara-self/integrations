@@ -13,6 +13,8 @@
       {
         "name": "Robtex_Reverse_PDNS_Query",
         "version": "1.0",
+        "author": "Nils Kuhnert",
+        "license": "AGPL-V3",
         "description": "Check IPs using the Robtex reverse passive DNS API.",
         "dataTypes": [
           "ip"
@@ -24,6 +26,8 @@
       {
         "name": "Robtex_Forward_PDNS_Query",
         "version": "1.0",
+        "author": "Nils Kuhnert",
+        "license": "AGPL-V3",
         "description": "Check domains and FQDNs using the Robtex passive DNS API.",
         "dataTypes": [
           "domain",
@@ -36,6 +40,8 @@
       {
         "name": "Robtex_IP_Query",
         "version": "1.0",
+        "author": "Nils Kuhnert",
+        "license": "AGPL-V3",
         "description": "Check IPs using the Robtex IP API.",
         "dataTypes": [
           "ip"

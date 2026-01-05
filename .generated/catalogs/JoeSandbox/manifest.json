@@ -15,6 +15,8 @@
       {
         "name": "JoeSandbox_File_Analysis_Inet",
         "version": "3.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
         "description": "Joe Sandbox file analysis with Internet access.",
         "dataTypes": [
           "file"
@@ -26,6 +28,8 @@
       {
         "name": "JoeSandbox_Url_Analysis",
         "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
         "description": "Joe Sandbox URL analysis.",
         "dataTypes": [
           "url"
@@ -37,6 +41,8 @@
       {
         "name": "JoeSandbox_File_Analysis_Noinet",
         "version": "3.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
         "description": "Joe Sandbox file analysis without Internet access.",
         "dataTypes": [
           "file"

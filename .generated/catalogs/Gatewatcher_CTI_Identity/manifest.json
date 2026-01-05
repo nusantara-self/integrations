@@ -14,6 +14,8 @@
       {
         "name": "Gatewatcher_CTI_Identity",
         "version": "1.0",
+        "author": "Gatewatcher",
+        "license": "AGPL-3.0",
         "description": "Gatewatcher_CTI_Identity responder",
         "dataTypes": [
           "thehive:case"

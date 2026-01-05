@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: DNSdumpster_report
     version: '1.0'
+    author: Keijo Korte - @korteke
+    license: AGPL-V3
     description: Query domain information from DNSdumpster.com.
     dataTypes:
     - domain

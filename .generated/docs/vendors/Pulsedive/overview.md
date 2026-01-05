@@ -6,6 +6,8 @@
 ### Pulsedive_GetIndicator `v1.0`
 Search Pulsedive.com for a giver domain name, hash, ip or url
 
+- **Author:** Nils Kuhnert
+- **License:** AGPL-V3
 - **Data Types:** `url`, `domain`, `ip`, `hash`
 - **Configuration:** [.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json))
 

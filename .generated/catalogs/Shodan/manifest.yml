@@ -28,6 +28,8 @@ integrations:
   analyzers:
   - name: Shodan_DNSResolve
     version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
     description: Retrieve domain resolutions on Shodan.
     dataTypes:
     - domain
@@ -37,6 +39,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
   - name: Shodan_InfoDomain
     version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
     description: Retrieve key Shodan information on a domain.
     dataTypes:
     - domain
@@ -46,6 +50,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
   - name: Shodan_Host_History
     version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
     description: Retrieve Shodan history scan results  for an IP address.
     dataTypes:
     - ip
@@ -54,6 +60,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
   - name: Shodan_Search
     version: '2.0'
+    author: Sebastien Larinier @Sebdraven
+    license: AGPL-V3
     description: Search query on Shodan
     dataTypes:
     - other
@@ -62,6 +70,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
   - name: Shodan_Host
     version: '1.0'
+    author: Sebastien Larinier @Sebdraven
+    license: AGPL-V3
     description: Retrieve key Shodan information on an IP address.
     dataTypes:
     - ip
@@ -70,6 +80,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Shodan/Shodan_Host.json
   - name: Shodan_ReverseDNS
     version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
     description: Retrieve ip reverse DNS resolutions on Shodan.
     dataTypes:
     - ip

@@ -17,6 +17,8 @@
       {
         "name": "AWX_StartJob",
         "version": "1.0",
+        "author": "Tim Muehlhausen",
+        "license": "AGPL-V3",
         "description": "Start a job on AWX",
         "dataTypes": [
           "thehive:case_artifact"

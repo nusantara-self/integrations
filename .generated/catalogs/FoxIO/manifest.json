@@ -16,6 +16,8 @@
       {
         "name": "JA4_FoxIO",
         "version": "1.0",
+        "author": "Florian Perret @cyber_pescadito",
+        "license": "AGPL-V3",
         "description": "JA4 Fingerprint analysis with FoxIO Database",
         "dataTypes": [
           "user-agent",

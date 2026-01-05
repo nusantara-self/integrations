@@ -15,6 +15,8 @@ integrations:
   analyzers:
   - name: GRR
     version: '0.1'
+    author: pettai@sunet.se, SUNET
+    license: AGPL-V3
     description: Search GRR for the host agent.
     dataTypes:
     - ip

@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: Patrowl_GetReport
     version: '1.0'
+    author: Nicolas Mattiocco
+    license: AGPL-V3
     description: Get the current Patrowl report for a fdqn, a domain or an IP address.
     dataTypes:
     - fqdn

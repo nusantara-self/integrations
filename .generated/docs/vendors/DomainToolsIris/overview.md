@@ -12,12 +12,16 @@
 ### DomainToolsIris_Pivot `v1.0`
 Use DomainTools Iris API to pivot on ssl_hash, ip, or email.
 
+- **Author:** DomainTools
+- **License:** AGPL-V3
 - **Data Types:** `hash`, `ip`, `mail`
 - **Configuration:** [.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json))
 
 ### DomainToolsIris_Investigate `v1.0`
 Use DomainTools Iris API to investigate a domain.
 
+- **Author:** DomainTools
+- **License:** AGPL-V3
 - **Data Types:** `domain`
 - **Configuration:** [.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json))
 

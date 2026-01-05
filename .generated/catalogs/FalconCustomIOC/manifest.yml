@@ -16,6 +16,8 @@ integrations:
   responders:
   - name: Crowdstrike_Falcon_Custom_IOC_API
     version: '1.0'
+    author: Michael
+    license: MIT
     description: Submit observables to the Crowdstrike Falcon Custom IOC api
     dataTypes:
     - thehive:alert
@@ -25,6 +27,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
   - name: Crowdstrike_Falcon_Custom_IOC
     version: '2.0'
+    author: Nicolas Criton
+    license: AGPL-v3
     description: Submit observables to the Crowdstrike Falcon Custom IOC API
     dataTypes:
     - thehive:alert

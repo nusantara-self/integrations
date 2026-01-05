@@ -30,6 +30,8 @@ integrations:
   analyzers:
   - name: MSEntraID_GetDirectoryAuditLogs
     version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.
     dataTypes:
     - mail
@@ -38,6 +40,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
   - name: MSEntraID_GetUserInfo
     version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Get information about the user from Microsoft Entra ID, using the mail
     dataTypes:
     - mail
@@ -46,6 +50,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
   - name: MSEntraID_GetSignIns
     version: '1.0'
+    author: '@jahamilto'
+    license: AGPL-V3
     description: Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
     dataTypes:
     - mail
@@ -54,6 +60,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
   - name: MSEntraID_GetManagedDevicesInfo
     version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Get Microsoft Intune Managed Device(s) Details from hostname or mail
     dataTypes:
     - mail
@@ -64,6 +72,8 @@ integrations:
   responders:
   - name: MSEntraID_enableUser
     version: '1.0'
+    author: nusatanra-self, StrangeBee
+    license: AGPL-V3
     description: Enable user in Microsoft Entra ID for a User Principal Name. (mail)
     dataTypes:
     - thehive:case_artifact
@@ -72,6 +82,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
   - name: MSEntraID_revokeSignInSessions
     version: '1.1'
+    author: Daniel Weiner @dmweiner; revised by @jahamilto; Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Invalidates all the refresh tokens issued to applications for a Microsoft Entra ID user (as well as session
       cookies in a user's browser)
     dataTypes:
@@ -81,6 +93,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
   - name: MSEntraID_disableUser
     version: '1.0'
+    author: nusatanra-self, StrangeBee
+    license: AGPL-V3
     description: Disable user in Microsoft Entra ID for a User Principal Name. (mail)
     dataTypes:
     - thehive:case_artifact
@@ -89,6 +103,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
   - name: MSEntraID_ForcePasswordResetWithMFA
     version: '1.0'
+    author: nusatanra-self, StrangeBee
+    license: AGPL-V3
     description: Force password reset at next login with MFA verification before password change for a User Principal Name.
       (mail)
     dataTypes:
@@ -98,6 +114,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
   - name: MSEntraID_ForcePasswordReset
     version: '1.0'
+    author: nusatanra-self, StrangeBee
+    license: AGPL-V3
     description: Force password reset at next login for a User Principal Name. (mail)
     dataTypes:
     - thehive:case_artifact

@@ -19,6 +19,8 @@ integrations:
   responders:
   - name: Netcraft_TakedownPhishingURL
     version: '1.0'
+    author: Keijo Korte - @korteke
+    license: AGPL-V3
     description: Submit URL to Netcraft's Takedown API.
     dataTypes:
     - thehive:case_artifact

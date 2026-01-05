@@ -16,6 +16,8 @@
       {
         "name": "Valhalla_GetRuleMatches",
         "version": "0.3.1",
+        "author": "Florian Roth",
+        "license": "AGPL-V3",
         "description": "Gets matching YARA rules for a given sample SHA256 hash",
         "dataTypes": [
           "hash"

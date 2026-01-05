@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: Axur
     version: '1.0'
+    author: Axur
+    license: AGPL-V3
     description: Search IPs, domains, hashes or URLs on axur.com
     dataTypes:
     - domain

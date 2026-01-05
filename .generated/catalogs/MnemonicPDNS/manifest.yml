@@ -24,6 +24,8 @@ integrations:
   analyzers:
   - name: Mnemonic_pDNS_Closed
     version: '3.0'
+    author: Michael Stensrud, Nordic Financial CERT
+    license: AGPL-V3
     description: Query IP addresses and domains against Mnemonic pDNS restricted service.
     dataTypes:
     - ip
@@ -33,6 +35,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
   - name: Mnemonic_pDNS_Public
     version: '3.0'
+    author: Michael Stensrud, Nordic Financial CERT
+    license: AGPL-V3
     description: Query IP addresses and domains against Mnemonic pDNS public service.
     dataTypes:
     - ip

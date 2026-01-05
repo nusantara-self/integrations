@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: EclecticIQ_SearchObservable
     version: '2.0'
+    author: BW
+    license: AGPL-V3
     description: Query EclecticIQ Intelligence Center for a specific observable.
     dataTypes:
     - domain

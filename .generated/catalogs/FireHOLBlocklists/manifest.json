@@ -16,6 +16,8 @@
       {
         "name": "FireHOLBlocklists",
         "version": "2.0",
+        "author": "Nils Kuhnert, CERT-Bund",
+        "license": "AGPL-V3",
         "description": "Check IP addresses against the FireHOL blocklists",
         "dataTypes": [
           "ip"

@@ -13,6 +13,8 @@
       {
         "name": "WOT_Lookup",
         "version": "2.0",
+        "author": "Andrea Garavaglia, Davide Arcuri, LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Use Web of Trust to check a domain's reputation.",
         "dataTypes": [
           "domain",

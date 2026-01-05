@@ -34,6 +34,8 @@ integrations:
   analyzers:
   - name: MSDefenderOffice365_SafeLinksDecoder.json
     version: '1.0'
+    author: Louis HUSSON
+    license: AGPL-V3
     description: Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com
       domains.
     dataTypes:
@@ -44,6 +46,8 @@ integrations:
   responders:
   - name: MSDefenderOffice365_unblock
     version: '1.0'
+    author: Joe Lazaro
+    license: AGPL-V3
     description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
     dataTypes:
     - thehive:case_artifact
@@ -52,6 +56,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
   - name: MSDefenderOffice365_block
     version: '1.0'
+    author: Joe Lazaro
+    license: AGPL-V3
     description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
     dataTypes:
     - thehive:case_artifact

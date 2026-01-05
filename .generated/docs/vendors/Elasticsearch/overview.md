@@ -19,6 +19,8 @@ Elasticsearch is a distributed search and analytics engine that powers SIEM solu
 ### Elasticsearch_Analysis `v1.0`
 Search for IoCs in Elasticsearch
 
+- **Author:** Nick Prokop
+- **License:** MIT
 - **Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`
 - **Configuration:** [.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json))
 

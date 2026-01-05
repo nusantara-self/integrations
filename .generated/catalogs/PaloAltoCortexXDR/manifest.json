@@ -17,6 +17,8 @@
       {
         "name": "PaloAltoCortexXDR_unisolate",
         "version": "1.0",
+        "author": "Joe Lazaro",
+        "license": "AGPL-V3",
         "description": "Unisolate endpoints identified by hostname or IP list",
         "dataTypes": [
           "thehive:case_artifact"
@@ -28,6 +30,8 @@
       {
         "name": "PaloAltoCortexXDR_scan",
         "version": "1.0",
+        "author": "Joe Lazaro",
+        "license": "AGPL-V3",
         "description": "Scan endpoints identified by hostname or IP list",
         "dataTypes": [
           "thehive:case_artifact"
@@ -39,6 +43,8 @@
       {
         "name": "PaloAltoCortexXDR_isolate",
         "version": "1.0",
+        "author": "Joe Lazaro",
+        "license": "AGPL-V3",
         "description": "Isolate endpoints identified by hostname or IP list",
         "dataTypes": [
           "thehive:case_artifact"

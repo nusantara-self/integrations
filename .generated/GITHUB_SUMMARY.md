@@ -11,19 +11,4 @@
 
 ## Changes
 
-### ✅ Added Vendors (3)
-
-- `CiscoUmbrella`
-- `IBMQRadar`
-- `Okta`
-
-### ❌ Removed Vendors (4)
-
-- `OktaUserLookup`
-- `QRadarAutoClose`
-- `Umbrella`
-- `UmbrellaBlacklister`
-
-### 🔄 Updated Vendors (1)
-
-- **CrowdStrike Falcon**: 21 → 22 (+1)
+No changes detected.

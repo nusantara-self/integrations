@@ -19,6 +19,8 @@ integrations:
   responders:
   - name: JAMFProtect_removeHashfromPreventList
     version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash
     dataTypes:
     - thehive:case_artifact
@@ -27,6 +29,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
   - name: JAMFProtect_addHashtoPreventList
     version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Add IOC to JAMF Protect - creates a custom prevent list for a hash
     dataTypes:
     - thehive:case_artifact

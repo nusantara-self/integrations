@@ -16,6 +16,8 @@
       {
         "name": "SEKOIAIntelligenceCenter_Indicators",
         "version": "1.0",
+        "author": "SEKOIA",
+        "license": "AGPL-V3",
         "description": "Query the Intelligence Center to retrieve indicators",
         "dataTypes": [
           "domain",
@@ -31,6 +33,8 @@
       {
         "name": "SEKOIAIntelligenceCenter_Observables",
         "version": "1.0",
+        "author": "SEKOIA",
+        "license": "AGPL-V3",
         "description": "Query the Intelligence Center to retrieve known observables",
         "dataTypes": [
           "domain",
@@ -46,6 +50,8 @@
       {
         "name": "SEKOIAIntelligenceCenter_Context",
         "version": "1.0",
+        "author": "SEKOIA",
+        "license": "AGPL-V3",
         "description": "Query the Intelligence Center to retrieve the context of an observable",
         "dataTypes": [
           "domain",

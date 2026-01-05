@@ -48,6 +48,8 @@ integrations:
   responders:
   - name: Slack_SyncChannel
     version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments
       for traceability.
     dataTypes:
@@ -57,6 +59,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
   - name: Slack_CreateChannel
     version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and
       description.
     dataTypes:

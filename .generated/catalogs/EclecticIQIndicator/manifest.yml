@@ -16,6 +16,8 @@ integrations:
   responders:
   - name: EclecticIQ_Indicator_API
     version: '1.0'
+    author: EclecticIQ
+    license: MIT
     description: Submit indicators to the EclecticIQ Intelligence Center api
     dataTypes:
     - thehive:case_artifact

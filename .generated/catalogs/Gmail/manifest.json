@@ -14,6 +14,8 @@
       {
         "name": "Gmail_UnblockDomain",
         "version": "1.0",
+        "author": "David Strassegger, @oscd_initiative",
+        "license": "MIT",
         "description": "Remove a message filter for a given domain",
         "dataTypes": [
           "thehive:case_artifact"
@@ -25,6 +27,8 @@
       {
         "name": "Gmail_DeleteMessage",
         "version": "1.0",
+        "author": "David Strassegger, @oscd_initiative",
+        "license": "MIT",
         "description": "Move a given message into the trash folder",
         "dataTypes": [
           "thehive:case_artifact"
@@ -36,6 +40,8 @@
       {
         "name": "Gmail_UnblockSender",
         "version": "1.0",
+        "author": "David Strassegger, @oscd_initiative",
+        "license": "MIT",
         "description": "Remove a message filter for a given sender",
         "dataTypes": [
           "thehive:case_artifact"
@@ -47,6 +53,8 @@
       {
         "name": "Gmail_BlockSender",
         "version": "1.0",
+        "author": "David Strassegger, @oscd_initiative",
+        "license": "MIT",
         "description": "Move emails from a given sender to trash",
         "dataTypes": [
           "thehive:case_artifact"
@@ -58,6 +66,8 @@
       {
         "name": "Gmail_BlockDomain",
         "version": "1.0",
+        "author": "David Strassegger, @oscd_initiative",
+        "license": "MIT",
         "description": "Move emails from a given domain to trash",
         "dataTypes": [
           "thehive:case_artifact"

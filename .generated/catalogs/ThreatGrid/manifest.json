@@ -13,6 +13,8 @@
       {
         "name": "ThreatGrid",
         "version": "1.0",
+        "author": "Cisco Security",
+        "license": "MIT",
         "description": "Threat Grid Sandbox",
         "dataTypes": [
           "file",

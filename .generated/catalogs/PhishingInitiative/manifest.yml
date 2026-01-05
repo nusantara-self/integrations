@@ -20,6 +20,8 @@ integrations:
   analyzers:
   - name: PhishingInitiative_Scan
     version: '1.0'
+    author: Remi Pointel
+    license: AGPL-V3
     description: Use Phishing Initiative to scan a URL.
     dataTypes:
     - url
@@ -28,6 +30,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
   - name: PhishingInitiative_Lookup
     version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
     description: Use Phishing Initiative to check if a URL is a verified phishing site.
     dataTypes:
     - url

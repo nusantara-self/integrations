@@ -29,6 +29,8 @@ integrations:
   analyzers:
   - name: VirusTotal_DownloadSample
     version: '3.1'
+    author: LDO-CERT
+    license: AGPL-V3
     description: Use VirusTotal to download the original file for an hash.
     dataTypes:
     - hash
@@ -37,6 +39,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
   - name: VirusTotal_GetReport
     version: '3.1'
+    author: CERT-BDF, StrangeBee
+    license: AGPL-V3
     description: Get the latest VirusTotal report for a file, hash, domain or an IP address.
     dataTypes:
     - file
@@ -50,6 +54,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
   - name: VirusTotal_Scan
     version: '3.1'
+    author: CERT-BDF, StrangeBee
+    license: AGPL-V3
     description: Use VirusTotal to scan a file or URL.
     dataTypes:
     - file
@@ -59,6 +65,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
   - name: VirusTotal_Rescan
     version: '3.1'
+    author: CERT-LDO
+    license: AGPL-V3
     description: Use VirusTotal to run new analysis on hash.
     dataTypes:
     - hash

@@ -16,6 +16,8 @@
       {
         "name": "ForcepointWebsensePing",
         "version": "1.0",
+        "author": "Andrea Garavaglia, Davide Arcuri - LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Use ForcepointWebsensePing to determine which category a certain URL is assigned to.",
         "dataTypes": [
           "url",

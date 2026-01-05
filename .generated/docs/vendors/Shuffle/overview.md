@@ -13,6 +13,8 @@ Shuffle is an open-source security orchestration, automation and response (SOAR)
 ### Shuffle `v1.0`
 Execute a workflow in Shuffle
 
+- **Author:** @frikkylikeme
+- **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_artifact`, `thehive:case_task`, `thehive:case_task_log`
 - **Configuration:** [.upstream/cortex/responders/Shuffle/shuffle.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Shuffle/shuffle.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Shuffle/shuffle.json))
 

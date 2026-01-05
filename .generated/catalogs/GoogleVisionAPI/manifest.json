@@ -13,6 +13,8 @@
       {
         "name": "GoogleVisionAPI_WebDetection",
         "version": "1.0.0",
+        "author": "CERT-LaPoste",
+        "license": "AGPL-V3",
         "description": "Find look alike image via Google Cloud Vision API using the Web_Detection service ",
         "dataTypes": [
           "file",

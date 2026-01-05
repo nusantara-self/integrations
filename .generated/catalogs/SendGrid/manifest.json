@@ -14,6 +14,8 @@
       {
         "name": "SendGrid",
         "version": "1.0",
+        "author": "Equate Technologies",
+        "license": "AGPL-V3",
         "description": "Send an email with information from a TheHive case or alert via SendGrid API over HTTPS",
         "dataTypes": [
           "thehive:case",

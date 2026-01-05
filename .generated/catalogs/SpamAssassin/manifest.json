@@ -16,6 +16,8 @@
       {
         "name": "SpamAssassin",
         "version": "1.0",
+        "author": "Davide Arcuri - LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Get spam score from local SpamAssassin instance",
         "dataTypes": [
           "file"

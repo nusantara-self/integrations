@@ -13,6 +13,8 @@
       {
         "name": "Yeti",
         "version": "1.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
         "description": "Fetch observable details from a YETI instance.",
         "dataTypes": [
           "domain",

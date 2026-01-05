@@ -13,6 +13,8 @@
       {
         "name": "SpamhausDBL",
         "version": "1.0",
+        "author": "Wes Lambert",
+        "license": "AGPL-V3",
         "description": "Perform domain lookup to Spamhaus DBL",
         "dataTypes": [
           "domain",

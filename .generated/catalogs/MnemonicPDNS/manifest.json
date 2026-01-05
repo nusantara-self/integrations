@@ -23,6 +23,8 @@
       {
         "name": "Mnemonic_pDNS_Closed",
         "version": "3.0",
+        "author": "Michael Stensrud, Nordic Financial CERT",
+        "license": "AGPL-V3",
         "description": "Query IP addresses and domains against Mnemonic pDNS restricted service.",
         "dataTypes": [
           "ip",
@@ -35,6 +37,8 @@
       {
         "name": "Mnemonic_pDNS_Public",
         "version": "3.0",
+        "author": "Michael Stensrud, Nordic Financial CERT",
+        "license": "AGPL-V3",
         "description": "Query IP addresses and domains against Mnemonic pDNS public service.",
         "dataTypes": [
           "ip",

@@ -14,6 +14,8 @@
       {
         "name": "Wazuh",
         "version": "1.0",
+        "author": "Wes Lambert",
+        "license": "AGPL-V3",
         "description": "Block an IP on a host via Wazuh agent",
         "dataTypes": [
           "thehive:case",

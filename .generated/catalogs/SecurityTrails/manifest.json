@@ -13,6 +13,8 @@
       {
         "name": "SecurityTrails_Passive_DNS",
         "version": "1.0",
+        "author": "Manabu Niseki, @ninoseki",
+        "license": "MIT",
         "description": "SecurityTrails Passive DNS Lookup.",
         "dataTypes": [
           "ip"
@@ -24,6 +26,8 @@
       {
         "name": "SecurityTrails_Whois",
         "version": "1.0",
+        "author": "Manabu Niseki, @ninoseki",
+        "license": "MIT",
         "description": "SecurityTrails Whois Lookup.",
         "dataTypes": [
           "domain"

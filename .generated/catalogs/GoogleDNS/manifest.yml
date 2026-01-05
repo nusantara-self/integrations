@@ -15,6 +15,8 @@ integrations:
   analyzers:
   - name: GoogleDNS_resolve
     version: 1.0.0
+    author: CERT-LaPoste
+    license: AGPL-V3
     description: Request Google DNS over HTTPS service
     dataTypes:
     - domain

@@ -16,6 +16,8 @@
       {
         "name": "OpenCTI_SearchExactObservable",
         "version": "2.0",
+        "author": "ANSSI",
+        "license": "AGPL-V3",
         "description": "Query multiple OpenCTI instances for a specific observable.",
         "dataTypes": [
           "domain",
@@ -40,6 +42,8 @@
       {
         "name": "OpenCTI_SearchObservables",
         "version": "2.0",
+        "author": "ANSSI",
+        "license": "AGPL-V3",
         "description": "Query multiple OpenCTI instances for a list of observables matching a pattern.",
         "dataTypes": [
           "domain",

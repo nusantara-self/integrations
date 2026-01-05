@@ -16,6 +16,8 @@
       {
         "name": "DevTools_Echo_Analyzer",
         "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
         "description": "Development utility that simply echoes the (available) input received by the analyzer.",
         "dataTypes": [
           "ip",
@@ -37,6 +39,8 @@
       {
         "name": "TestAnalyzer",
         "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
         "description": "Just a simple test analyzer! No real-world use-case covered by this one, for testing, reference, dev and any other purpose only!",
         "dataTypes": [
           "ip",

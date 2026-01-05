@@ -26,6 +26,8 @@ integrations:
   analyzers:
   - name: Yara
     version: '3.0'
+    author: Nils Kuhnert, CERT-Bund; Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: 'Check files against YARA rules, either from local filesystem or from one or multiple GitHub repositories.
       NOTE: Performance & execution time may be much longer according to the number of rules checked.'
     dataTypes:

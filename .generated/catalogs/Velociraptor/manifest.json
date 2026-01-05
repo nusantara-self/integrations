@@ -21,6 +21,8 @@
       {
         "name": "Velociraptor",
         "version": "0.2",
+        "author": "Wes Lambert, @therealwlambert",
+        "license": "AGPL-V3",
         "description": "Run Velociraptor artifact collection",
         "dataTypes": [
           "thehive:case_artifact"

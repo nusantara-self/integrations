@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: ONYPHE_OnDemandScan
     version: '1.0'
+    author: James Atack
+    license: AGPL-V3
     description: Perform active scan of an asset using a Scanyphe Entreprise On-Demand scanner
     dataTypes:
     - ip

@@ -13,6 +13,8 @@
       {
         "name": "BackscatterIO_Enrichment",
         "version": "1.0",
+        "author": "brandon@backscatter.io",
+        "license": "APLv2",
         "description": "Enrich values using Backscatter.io data.",
         "dataTypes": [
           "ip",
@@ -27,6 +29,8 @@
       {
         "name": "BackscatterIO_GetObservations",
         "version": "1.0",
+        "author": "brandon@backscatter.io",
+        "license": "APLv2",
         "description": "Determine whether a value has known scanning activity using Backscatter.io data.",
         "dataTypes": [
           "ip",

@@ -15,6 +15,8 @@ integrations:
   analyzers:
   - name: Investigate_Categorization
     version: '1.0'
+    author: Cisco Umbrella Research @opendns
+    license: AGPL-V3
     description: Retrieve Investigate categorization and security features for a domain.
     dataTypes:
     - domain
@@ -24,6 +26,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
   - name: Investigate_Sample
     version: '1.0'
+    author: Cisco Umbrella Research @opendns
+    license: AGPL-V3
     description: Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)
     dataTypes:
     - hash

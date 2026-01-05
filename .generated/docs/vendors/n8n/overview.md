@@ -19,6 +19,8 @@ n8n is a low-code/no-code workflow automation platform that enables technical te
 ### n8n `v1.0`
 Send data to n8n via webhook
 
+- **Author:** Anas SOUIRI
+- **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_artifact`, `thehive:case_task`, `thehive:case_task_log`
 - **Configuration:** [.upstream/cortex/responders/n8n/n8n.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/n8n/n8n.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/n8n/n8n.json))
 

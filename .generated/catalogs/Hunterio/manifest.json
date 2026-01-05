@@ -26,6 +26,8 @@
       {
         "name": "Hunterio_DomainSearch",
         "version": "1.0",
+        "author": "Rémi Allain, Cyberprotect",
+        "license": "AGPL-V3",
         "description": "hunter.io is a service to find email addresses from a domain.",
         "dataTypes": [
           "domain",

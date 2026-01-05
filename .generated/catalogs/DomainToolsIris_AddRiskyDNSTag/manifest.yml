@@ -16,6 +16,8 @@ integrations:
   responders:
   - name: DomainToolsIris_AddRiskyDNSTag
     version: '1.0'
+    author: DomainTools
+    license: AGPL-V3
     description: Add Tag saying that the case contains a risky DNS.
     dataTypes:
     - thehive:case_artifact

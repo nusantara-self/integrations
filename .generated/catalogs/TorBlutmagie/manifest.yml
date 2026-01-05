@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: TorBlutmagie
     version: '1.0'
+    author: Marc-André DOLL, STARC by EXAPROBE
+    license: AGPL-V3
     description: Query https://torstatus.rueckgr.at/query_export.php/Tor_query_EXPORT.csv (formerly TorBlutmagie) for TOR
       exit nodes IP addresses or names.
     dataTypes:

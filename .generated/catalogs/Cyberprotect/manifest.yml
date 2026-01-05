@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: Cyberprotect_ThreatScore
     version: '3.0'
+    author: Rémi Allain, Cyberprotect
+    license: AGPL-V3
     description: ThreatScore is a cyber threat scoring system provided by Cyberprotect
     dataTypes:
     - domain

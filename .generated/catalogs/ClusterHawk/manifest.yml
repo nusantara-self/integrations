@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: ClusterHawk
     version: '1.0'
+    author: Marvin Uku, Chawkr
+    license: AGPL-V3
     description: ClusterHawk prediction analyzer for IP address threat intelligence using pre-trained models
     dataTypes:
     - ip

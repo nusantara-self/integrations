@@ -14,6 +14,8 @@
       {
         "name": "DuoUnlockUserAccount",
         "version": "1.0",
+        "author": "Sven Kutzer / Gyorgy Acs, @oscd_initiative",
+        "license": "AGPL-V3",
         "description": "Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)",
         "dataTypes": [
           "thehive:case_artifact"
@@ -25,6 +27,8 @@
       {
         "name": "DuoBypassUserAccount",
         "version": "1.0",
+        "author": "jahamilto",
+        "license": "AGPL-V3",
         "description": "Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging in.)",
         "dataTypes": [
           "thehive:case_artifact"
@@ -36,6 +40,8 @@
       {
         "name": "DuoLockUserAccount",
         "version": "1.0",
+        "author": "Sven Kutzer / Gyorgy Acs, @oscd_initiative",
+        "license": "AGPL-V3",
         "description": "Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)",
         "dataTypes": [
           "thehive:case_artifact"

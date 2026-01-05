@@ -6,6 +6,8 @@
 ### StamusNetworks_HostID `v1.0`
 Get information from your Scirius Security Platform for an IP address.
 
+- **Author:** Stamus Networks
+- **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [.upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json))
 

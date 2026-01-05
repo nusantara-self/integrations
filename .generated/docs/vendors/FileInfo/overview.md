@@ -6,6 +6,8 @@
 ### FileInfo `v8.0`
 Parse files in several formats such as OLE and OpenXML to detect VBA macros, extract their source code, generate useful information on PE, PDF files...
 
+- **Author:** TheHive-Project
+- **License:** AGPL-V3
 - **Data Types:** `file`
 - **Configuration:** [.upstream/cortex/analyzers/FileInfo/FileInfo.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/FileInfo/FileInfo.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FileInfo/FileInfo.json))
 

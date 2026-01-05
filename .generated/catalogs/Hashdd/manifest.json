@@ -16,6 +16,8 @@
       {
         "name": "Hashdd_Detail",
         "version": "2.0",
+        "author": "iosonogio, dadokkio",
+        "license": "AGPLv3",
         "description": "Determine whether a hash is good or bad; if good then list what it is.",
         "dataTypes": [
           "hash"
@@ -27,6 +29,8 @@
       {
         "name": "Hashdd_Status",
         "version": "2.0",
+        "author": "iosonogio, dadokkio",
+        "license": "AGPLv3",
         "description": "Determine whether a hash is good or bad.",
         "dataTypes": [
           "hash"

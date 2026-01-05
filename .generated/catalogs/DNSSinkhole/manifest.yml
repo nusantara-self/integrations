@@ -15,6 +15,8 @@ integrations:
   analyzers:
   - name: DNSSinkhole
     version: '1.0'
+    author: Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
     description: Check if a  domain is sinkholed via DNS Sinkhole server
     dataTypes:
     - domain

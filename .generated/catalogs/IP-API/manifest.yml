@@ -17,6 +17,8 @@ integrations:
   analyzers:
   - name: IP-API
     version: '1.1'
+    author: Peter Juhas; Fabien Bloume, StrangeBee
+    license: AGPL-V3
     description: Check IP address or domain using ip-api.com
     dataTypes:
     - ip

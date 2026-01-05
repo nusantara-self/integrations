@@ -29,6 +29,8 @@ integrations:
   responders:
   - name: MSDefender-FullVirusscan
     version: '1.0'
+    author: Keijo Korte
+    license: AGPL-V3
     description: Run full virus scan to machine with Microsoft Defender for Endpoints
     dataTypes:
     - thehive:case_artifact
@@ -37,6 +39,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
   - name: MSDefender-UnRestrictAppExecution
     version: '1.0'
+    author: Keijo Korte, Louis-Maximilien Dupouy
+    license: AGPL-V3
     description: Enable execution of any application on the device
     dataTypes:
     - thehive:case_artifact
@@ -45,6 +49,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
   - name: MSDefender-RestrictAppExecution
     version: '1.0'
+    author: Keijo Korte, Louis-Maximilien Dupouy
+    license: AGPL-V3
     description: Restrict execution of all applications on the device except a predefined set
     dataTypes:
     - thehive:case_artifact
@@ -53,6 +59,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
   - name: MSDefender-AutoInvestigation
     version: '1.0'
+    author: Keijo Korte, Louis-Maximilien Dupouy
+    license: AGPL-V3
     description: Start an automated investigation on a device
     dataTypes:
     - thehive:case_artifact
@@ -61,6 +69,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
   - name: MSDefender-PushIOC-Alert
     version: '2.0'
+    author: Keijo Korte, Louis-Maximilien Dupouy
+    license: AGPL-V3
     description: Push IOC to Defender client. Alert mode
     dataTypes:
     - thehive:case_artifact
@@ -69,6 +79,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
   - name: MSDefender-IsolateMachine
     version: '1.0'
+    author: Keijo Korte
+    license: AGPL-V3
     description: Isolate machine with Microsoft Defender for Endpoints
     dataTypes:
     - thehive:case_artifact
@@ -77,6 +89,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
   - name: MSDefender-PushIOC-Block
     version: '2.0'
+    author: Keijo Korte, Louis-Maximilien Dupouy
+    license: AGPL-V3
     description: Push IOC to Defender client. Blocking mode
     dataTypes:
     - thehive:case_artifact
@@ -85,6 +99,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
   - name: MSDefender-UnisolateMachine
     version: '1.0'
+    author: Keijo Korte
+    license: AGPL-V3
     description: Unisolate machine with Microsoft Defender for Endpoints
     dataTypes:
     - thehive:case_artifact

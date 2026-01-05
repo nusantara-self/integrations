@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: GreyNoise
     version: '3.2'
+    author: GreyNoise
+    license: APLv2
     description: Determine whether an IP has known scanning activity using GreyNoise.
     dataTypes:
     - ip

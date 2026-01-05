@@ -15,6 +15,8 @@ integrations:
   analyzers:
   - name: C1fApp
     version: '1.0'
+    author: etz69
+    license: AGPL-V3
     description: Query C1fApp OSINT Aggregator for IPs, domains and URLs
     dataTypes:
     - url

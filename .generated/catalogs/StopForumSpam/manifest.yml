@@ -15,6 +15,8 @@ integrations:
   analyzers:
   - name: StopForumSpam
     version: '1.0'
+    author: Marc-Andre Doll, STARC by EXAPROBE
+    license: AGPL-V3
     description: Query http://www.stopforumspam.com to check if an IP or email address is a known spammer.
     dataTypes:
     - ip

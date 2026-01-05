@@ -13,6 +13,8 @@
       {
         "name": "PayloadSecurity_File_Analysis",
         "version": "1.0",
+        "author": "Emmanuel Torquato",
+        "license": "AGPL-V3",
         "description": "PayloadSecurity Sandbox File Analysis",
         "dataTypes": [
           "file"
@@ -24,6 +26,8 @@
       {
         "name": "PayloadSecurity_Url_Analysis",
         "version": "1.0",
+        "author": "Emmanuel Torquato",
+        "license": "AGPL-V3",
         "description": "PayloadSecurity Sandbox Url Analysis",
         "dataTypes": [
           "url"

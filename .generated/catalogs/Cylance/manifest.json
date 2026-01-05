@@ -16,6 +16,8 @@
       {
         "name": "Cylance",
         "version": "1.0",
+        "author": "Mikael Keri",
+        "license": "AGPL-V3",
         "description": "Search for a specific hash, if there is a match, coresponding client information",
         "dataTypes": [
           "hash"

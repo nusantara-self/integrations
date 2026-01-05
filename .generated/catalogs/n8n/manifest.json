@@ -32,6 +32,8 @@
       {
         "name": "n8n",
         "version": "1.0",
+        "author": "Anas SOUIRI",
+        "license": "AGPL-V3",
         "description": "Send data to n8n via webhook",
         "dataTypes": [
           "thehive:case",

@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: Jupyter_Run_Notebook_Analyzer
     version: '1.0'
+    author: Alexandre Demeyer
+    license: AGPL-V3
     description: Execute a parameterized notebook in Jupyter
     dataTypes:
     - domain
@@ -41,6 +43,8 @@ integrations:
   responders:
   - name: Jupyter_Run_Notebook_Responder
     version: '1.0'
+    author: Alexandre Demeyer
+    license: AGPL-V3
     description: Execute a parameterized notebook in Jupyter
     dataTypes:
     - thehive:case

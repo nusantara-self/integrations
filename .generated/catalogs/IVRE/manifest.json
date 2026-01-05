@@ -13,6 +13,8 @@
       {
         "name": "IVRE",
         "version": "1.0",
+        "author": "Pierre Lalet",
+        "license": "AGPL-V3",
         "description": "Fetch details from an IVRE instance.",
         "dataTypes": [
           "autonomous-system",

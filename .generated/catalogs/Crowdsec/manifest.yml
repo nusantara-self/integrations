@@ -28,6 +28,8 @@ integrations:
   analyzers:
   - name: Crowdsec_Analyzer
     version: '1.1'
+    author: CERT-ARKEA
+    license: AGPL-V3
     description: Query Crowdsec API
     dataTypes:
     - ip

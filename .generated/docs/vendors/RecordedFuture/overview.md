@@ -18,6 +18,8 @@ Recorded Future is a real-time threat intelligence platform that analyzes data f
 ### RecordedFuture `v2.0`
 Enrich IP, Domain, FQDN, URL, or Hash with Recorded Future context:  Risk Score, Risk Details, AI Insights, Links, Threat Actor, Attack Vector, Malware Category / Family, and Related Entities (IPs, Domains, and Hashes)
 
+- **Author:** Recorded Future
+- **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`, `url`
 - **Configuration:** [.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json))
 

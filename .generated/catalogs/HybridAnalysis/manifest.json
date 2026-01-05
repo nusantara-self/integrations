@@ -23,6 +23,8 @@
       {
         "name": "HybridAnalysis_GetReport",
         "version": "1.0",
+        "author": "Daniil Yugoslavskiy, Tieto",
+        "license": "AGPL-V3",
         "description": "Fetch Hybrid Analysis reports associated with hashes and filenames.",
         "dataTypes": [
           "hash",

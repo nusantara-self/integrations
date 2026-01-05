@@ -16,6 +16,8 @@
       {
         "name": "PaloAltoWildFire",
         "version": "1.0",
+        "author": "Ignacio Rodriguez Paez, Joe Lazaro",
+        "license": "AGPL-V3",
         "description": "Run Palo Alto WildFire analysis on a file, hash, or URL",
         "dataTypes": [
           "file",
@@ -31,6 +33,8 @@
       {
         "name": "PaloAltoWildFire_URL_submission",
         "version": "1.0",
+        "author": "Keijo Korte - @korteke",
+        "license": "AGPL-V3",
         "description": "Submit URL to PaloAlto WildFire service.",
         "dataTypes": [
           "url",

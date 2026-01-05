@@ -13,6 +13,8 @@
       {
         "name": "CheckPhish",
         "version": "1.0",
+        "author": "Peter Juhas",
+        "license": "AGPL-V3",
         "description": "Check url address via CheckPhish using jobID returned from CheckPhish_Submit",
         "dataTypes": [
           "string"
@@ -24,6 +26,8 @@
       {
         "name": "CheckPhish_Submit",
         "version": "1.0",
+        "author": "Peter Juhas",
+        "license": "AGPL-V3",
         "description": "Submit url address to CheckPhish",
         "dataTypes": [
           "url"

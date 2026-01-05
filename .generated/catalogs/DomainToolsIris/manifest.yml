@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: DomainToolsIris_Pivot
     version: '1.0'
+    author: DomainTools
+    license: AGPL-V3
     description: Use DomainTools Iris API to pivot on ssl_hash, ip, or email.
     dataTypes:
     - hash
@@ -28,6 +30,8 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
   - name: DomainToolsIris_Investigate
     version: '1.0'
+    author: DomainTools
+    license: AGPL-V3
     description: Use DomainTools Iris API to investigate a domain.
     dataTypes:
     - domain

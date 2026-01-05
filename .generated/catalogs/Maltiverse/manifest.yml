@@ -27,6 +27,8 @@ integrations:
   analyzers:
   - name: Maltiverse_Report
     version: '1.0'
+    author: ottimo
+    license: AGPL-V3
     description: Get the latest Maltiverse report for an hash, domain or an IP address.
     dataTypes:
     - hash

@@ -36,6 +36,8 @@
       {
         "name": "MSDefenderOffice365_SafeLinksDecoder.json",
         "version": "1.0",
+        "author": "Louis HUSSON",
+        "license": "AGPL-V3",
         "description": "Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com domains.",
         "dataTypes": [
           "url"
@@ -49,6 +51,8 @@
       {
         "name": "MSDefenderOffice365_unblock",
         "version": "1.0",
+        "author": "Joe Lazaro",
+        "license": "AGPL-V3",
         "description": "Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender",
         "dataTypes": [
           "thehive:case_artifact"
@@ -60,6 +64,8 @@
       {
         "name": "MSDefenderOffice365_block",
         "version": "1.0",
+        "author": "Joe Lazaro",
+        "license": "AGPL-V3",
         "description": "Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender",
         "dataTypes": [
           "thehive:case_artifact"

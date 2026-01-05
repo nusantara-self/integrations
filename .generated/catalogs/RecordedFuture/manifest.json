@@ -25,6 +25,8 @@
       {
         "name": "RecordedFuture",
         "version": "2.0",
+        "author": "Recorded Future",
+        "license": "AGPL-V3",
         "description": "Enrich IP, Domain, FQDN, URL, or Hash with Recorded Future context:  Risk Score, Risk Details, AI Insights, Links, Threat Actor, Attack Vector, Malware Category / Family, and Related Entities (IPs, Domains, and Hashes)",
         "dataTypes": [
           "ip",

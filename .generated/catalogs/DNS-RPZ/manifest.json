@@ -14,6 +14,8 @@
       {
         "name": "DNS-RPZ",
         "version": "1.0",
+        "author": "Michael Hornung; Expeditors International of Washington, Inc.",
+        "license": "AGPL-V3",
         "description": "Add a dynamic DNS entry to a Response Policy Zone, blackholing or redirecting a FQDN.",
         "dataTypes": [
           "thehive:case_artifact"

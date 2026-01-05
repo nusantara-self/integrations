@@ -13,6 +13,8 @@
       {
         "name": "StamusNetworks_HostID",
         "version": "1.0",
+        "author": "Stamus Networks",
+        "license": "AGPL-V3",
         "description": "Get information from your Scirius Security Platform for an IP address.",
         "dataTypes": [
           "ip"

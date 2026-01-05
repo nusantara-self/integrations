@@ -13,6 +13,8 @@
       {
         "name": "ThreatResponse",
         "version": "1.0",
+        "author": "Cisco Security",
+        "license": "MIT",
         "description": "Threat Response",
         "dataTypes": [
           "domain",

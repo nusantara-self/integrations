@@ -13,6 +13,8 @@
       {
         "name": "IBMXForce_Lookup",
         "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
         "description": "Query domains, IPs, hashes and URLs against IBM X-Force threat intelligence sharing platform.",
         "dataTypes": [
           "domain",

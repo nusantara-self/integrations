@@ -18,6 +18,8 @@ integrations:
   analyzers:
   - name: isMalicious_GetReport
     version: '1.0'
+    author: isMalicious
+    license: AGPL-v3
     description: Check if an IP address or domain is malicious using isMalicious.com threat intelligence. Returns risk score,
       threat categories, reputation data, and detection sources.
     dataTypes:
