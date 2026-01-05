@@ -397,6 +397,9 @@ def generate_vendor_manifest(vendor: str) -> Dict:
     # Consolidate subscription fields
     subscription_info = consolidate_subscription_fields(analyzer_subscription, responder_subscription)
     
+    # Count external integrations from vendor metadata
+    external_integrations_count = len(vendor_metadata.get('externalIntegrations', []))
+
     manifest = {
         **vendor_metadata,
         **subscription_info,  # Add consolidated subscription fields
@@ -409,10 +412,11 @@ def generate_vendor_manifest(vendor: str) -> Dict:
             'totalAnalyzers': len(analyzers),
             'totalResponders': len(responders),
             'totalFunctions': len(functions),
-            'total': len(analyzers) + len(responders) + len(functions)
+            'totalExternalIntegrations': external_integrations_count,
+            'total': len(analyzers) + len(responders) + len(functions) + external_integrations_count
         }
     }
-    
+
     return manifest
 
 def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
@@ -620,6 +624,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     lines.append(f"- **Total Analyzers:** {stats.get('totalAnalyzers', 0)}")
     lines.append(f"- **Total Responders:** {stats.get('totalResponders', 0)}")
     lines.append(f"- **Total Functions:** {stats.get('totalFunctions', 0)}")
+    lines.append(f"- **Total External Integrations:** {stats.get('totalExternalIntegrations', 0)}")
     lines.append(f"- **Total Integrations:** {stats.get('total', 0)}")
     lines.append("")
 
@@ -646,8 +651,8 @@ def generate_catalog_index(all_manifests: Dict) -> str:
     total_analyzers = sum(m['stats']['totalAnalyzers'] for m in all_manifests.values())
     total_responders = sum(m['stats']['totalResponders'] for m in all_manifests.values())
     total_functions = sum(m['stats']['totalFunctions'] for m in all_manifests.values())
+    total_external_integrations = sum(m['stats'].get('totalExternalIntegrations', 0) for m in all_manifests.values())
     total_integrations = sum(m['stats']['total'] for m in all_manifests.values())
-    total_external_integrations = sum(len(m.get('externalIntegrations', [])) for m in all_manifests.values())
 
     # Summary statistics
     lines.append("## 📊 Summary Statistics")
@@ -657,7 +662,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
     lines.append(f"- **Total Responders:** {total_responders}")
     lines.append(f"- **Total Functions:** {total_functions}")
     lines.append(f"- **Total External Integrations:** {total_external_integrations}")
-    lines.append(f"- **Total Integrations:** {total_integrations + total_external_integrations}")
+    lines.append(f"- **Total Integrations:** {total_integrations}")
     lines.append("")
 
     # Group vendors by category
@@ -717,6 +722,8 @@ def generate_catalog_index(all_manifests: Dict) -> str:
             integration_breakdown.append(f"{stats['totalResponders']} responders")
         if stats['totalFunctions'] > 0:
             integration_breakdown.append(f"{stats['totalFunctions']} functions")
+        if stats.get('totalExternalIntegrations', 0) > 0:
+            integration_breakdown.append(f"{stats['totalExternalIntegrations']} external")
 
         breakdown_str = ", ".join(integration_breakdown) if integration_breakdown else "No integrations"
 
@@ -974,16 +981,13 @@ def generate_external_integrations_markdown(catalog: Dict) -> str:
 
 def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None) -> Dict:
     """Generate GitHub Actions summary of changes."""
-    total_external = sum(len(m.get('externalIntegrations', [])) for m in all_manifests.values())
-    total_cortex = sum(m['stats']['total'] for m in all_manifests.values())
-
     summary = {
         'total_vendors': len(all_manifests),
         'total_analyzers': sum(m['stats']['totalAnalyzers'] for m in all_manifests.values()),
         'total_responders': sum(m['stats']['totalResponders'] for m in all_manifests.values()),
         'total_functions': sum(m['stats']['totalFunctions'] for m in all_manifests.values()),
-        'total_external_integrations': total_external,
-        'total_integrations': total_cortex + total_external,
+        'total_external_integrations': sum(m['stats'].get('totalExternalIntegrations', 0) for m in all_manifests.values()),
+        'total_integrations': sum(m['stats']['total'] for m in all_manifests.values()),
         'added': [],
         'updated': [],
         'removed': []
@@ -1222,10 +1226,10 @@ def main():
             print(f"  Free Subscription: {data['free_subscription']}")
 
         print(f"  Use Cases: {len(data.get('useCases', []))}")
-        print(f"  External Integrations: {len(data.get('externalIntegrations', []))}")
         print(f"  Analyzers: {data['stats']['totalAnalyzers']}")
         print(f"  Responders: {data['stats']['totalResponders']}")
         print(f"  Functions: {data['stats']['totalFunctions']}")
+        print(f"  External Integrations: {data['stats'].get('totalExternalIntegrations', 0)}")
         print(f"  Total: {data['stats']['total']}")
 
 if __name__ == '__main__':
