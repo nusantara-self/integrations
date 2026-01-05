@@ -514,7 +514,7 @@ jobs:
           - Synced analyzer/responder configs from Cortex-Analyzers
           - Synced vendor logos
           - Regenerated integration manifests"
-          git pull --rebase origin ${{ github.ref_name }}
+          git pull --no-rebase origin ${{ github.ref_name }}
           git push
 
       - name: Upload artifacts
