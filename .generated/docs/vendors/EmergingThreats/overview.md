@@ -34,6 +34,7 @@ Retrieve ET reputation, related malware, and IDS requests for a given IP address
 - **Total Analyzers:** 3
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 3
 
 ---

@@ -53,6 +53,7 @@ For each assignee change for a case in TheHive, create a Slack block message and
 - **Total Analyzers:** 0
 - **Total Responders:** 2
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---

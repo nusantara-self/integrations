@@ -59,6 +59,7 @@ Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and re
 - **Total Analyzers:** 1
 - **Total Responders:** 0
 - **Total Functions:** 2
+- **Total External Integrations:** 0
 - **Total Integrations:** 3
 
 ---

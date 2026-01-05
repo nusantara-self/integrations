@@ -35,7 +35,8 @@ Native Shuffle app integration that enables workflow automation with TheHive 5 f
 - **Total Analyzers:** 0
 - **Total Responders:** 1
 - **Total Functions:** 0
-- **Total Integrations:** 1
+- **Total External Integrations:** 1
+- **Total Integrations:** 2
 
 ---
 

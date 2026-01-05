@@ -28,6 +28,7 @@ Cuckoo Sandbox file analysis with Internet access.
 - **Total Analyzers:** 2
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---

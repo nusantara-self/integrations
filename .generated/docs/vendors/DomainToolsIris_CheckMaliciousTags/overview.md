@@ -16,6 +16,7 @@ Add Tag saying that the observable and case have a malicious tag in their Iris T
 - **Total Analyzers:** 0
 - **Total Responders:** 1
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 1
 
 ---

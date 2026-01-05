@@ -16,6 +16,7 @@ Mail a detailed status information of an incident case. The mail is sent to reci
 - **Total Analyzers:** 0
 - **Total Responders:** 1
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 1
 
 ---

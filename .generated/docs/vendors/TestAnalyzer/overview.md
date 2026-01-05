@@ -28,6 +28,7 @@ Just a simple test analyzer! No real-world use-case covered by this one, for tes
 - **Total Analyzers:** 2
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---

@@ -27,6 +27,7 @@
     "totalAnalyzers": 0,
     "totalResponders": 0,
     "totalFunctions": 0,
-    "total": 0
+    "totalExternalIntegrations": 1,
+    "total": 1
   }
 }

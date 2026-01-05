@@ -34,6 +34,7 @@ Query the Intelligence Center to retrieve the context of an observable
 - **Total Analyzers:** 3
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 3
 
 ---

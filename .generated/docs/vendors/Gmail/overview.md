@@ -40,6 +40,7 @@ Move emails from a given domain to trash
 - **Total Analyzers:** 0
 - **Total Responders:** 5
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 5
 
 ---

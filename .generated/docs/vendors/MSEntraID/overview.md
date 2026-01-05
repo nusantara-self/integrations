@@ -81,6 +81,7 @@ Force password reset at next login for a User Principal Name. (mail)
 - **Total Analyzers:** 4
 - **Total Responders:** 5
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 9
 
 ---

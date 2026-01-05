@@ -28,6 +28,7 @@ Get information about CVE from powerful Vulners database.
 - **Total Analyzers:** 2
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---

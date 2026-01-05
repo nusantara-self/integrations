@@ -40,6 +40,7 @@ Scan a file with MetaDefender Core
 - **Total Analyzers:** 5
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 5
 
 ---

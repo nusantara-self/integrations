@@ -32,6 +32,7 @@ Removes a domain from monitoring in the Website Monitoring module on Watcher.
 - **Total Analyzers:** 1
 - **Total Responders:** 2
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 3
 
 ---

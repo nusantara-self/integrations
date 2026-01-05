@@ -53,6 +53,7 @@ Retrieve ip reverse DNS resolutions on Shodan.
 - **Total Analyzers:** 6
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 6
 
 ---

@@ -29,6 +29,7 @@ Query IP addresses and domains against Mnemonic pDNS public service.
 - **Total Analyzers:** 2
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---

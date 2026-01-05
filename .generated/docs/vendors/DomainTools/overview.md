@@ -70,6 +70,7 @@ Use DomainTools to get a list of domain names which share the same registrant in
 - **Total Analyzers:** 10
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 10
 
 ---

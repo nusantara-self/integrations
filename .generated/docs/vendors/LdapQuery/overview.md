@@ -16,6 +16,7 @@ Query your LDAP server to harvest informations about an user of your organizatio
 - **Total Analyzers:** 1
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 1
 
 ---

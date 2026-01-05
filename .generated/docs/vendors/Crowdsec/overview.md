@@ -29,6 +29,7 @@ Query Crowdsec API
 - **Total Analyzers:** 1
 - **Total Responders:** 0
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 1
 
 ---

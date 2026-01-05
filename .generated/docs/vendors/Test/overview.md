@@ -22,6 +22,7 @@ Development utility that simply echoes the input received by the responder.
 - **Total Analyzers:** 0
 - **Total Responders:** 2
 - **Total Functions:** 0
+- **Total External Integrations:** 0
 - **Total Integrations:** 2
 
 ---
