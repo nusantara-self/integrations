@@ -146,9 +146,9 @@
           "description": "This function creates alerts from data coming from a Airtable database. It checks the alert does not already exist, then creates the alert, and completes type, source, source-ref, title, description and tags",
           "kind": "function",
           "mode": "Enabled",
-          "file": "integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable"
+          "file": "integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js"
         }
       ]
     },
@@ -4501,9 +4501,9 @@
           "description": "Ingests alerts from JAMF Protect. Extracts analytic details, host and user information, MITRE ATT&CK tags, and file/path data. The function constructs a TheHive alert, including a title, markdown-formatted description (with original alert JSON), relevant observables (IP, hostname, file, hash, URL, FQDN, URI path, user agent), MITRE ATT&CK enrichment, and a link to the JAMF alert. Handles default values and supports tagging and mapping of MITRE tactics for easier triage and investigation. For the setup in JAMF Protect, go to Configuration > Actions > *your action* > Add an HTTP data endpoint + your Authorization Header and Bearer as value",
           "kind": "function",
           "mode": "Enabled",
-          "file": "integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect"
+          "file": "integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect.js",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect.js",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect.js"
         }
       ]
     },
@@ -4582,9 +4582,9 @@
           "description": "This function creates alerts from JIRA issues. It checks if the alert already exists, then creates it with type, source, source-ref, title, and description",
           "kind": "function",
           "mode": "Enabled",
-          "file": "integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA"
+          "file": "integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js"
         }
       ]
     },
@@ -7181,9 +7181,9 @@
           "description": "Ingests ProofPoint messageDelivered alerts in TheHive",
           "kind": "function",
           "mode": "Enabled",
-          "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered"
+          "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js"
         },
         {
           "name": "alertFeeder_ProofPoint_clicksPermitted",
@@ -7191,9 +7191,9 @@
           "description": "Ingests ProofPoint clicksPermitted alerts in TheHive",
           "kind": "function",
           "mode": "Enabled",
-          "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted"
+          "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js"
         }
       ]
     },
@@ -8557,9 +8557,9 @@
           "description": "This function creates a TheHive Alert based on an input coming from Splunk, and matches the Splunk fields to TheHive fields. In Splunk, you'll need to configure the webhook URL to point to the TheHive function URL",
           "kind": "function",
           "mode": "Enabled",
-          "file": "integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk"
+          "file": "integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js"
         }
       ]
     },

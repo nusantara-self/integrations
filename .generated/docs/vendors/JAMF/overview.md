@@ -8,7 +8,7 @@ Ingests alerts from JAMF Protect. Extracts analytic details, host and user infor
 
 - **Kind:** function
 - **Mode:** Enabled
-- **File:** [integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect))
+- **File:** [integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect.js](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect.js))
 
 ---
 

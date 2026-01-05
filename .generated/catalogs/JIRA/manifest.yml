@@ -21,9 +21,9 @@ integrations:
       type, source, source-ref, title, and description
     kind: function
     mode: Enabled
-    file: integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA
+    file: integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
 stats:
   totalAnalyzers: 0
   totalResponders: 0

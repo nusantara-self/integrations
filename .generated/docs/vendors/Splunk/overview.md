@@ -91,7 +91,7 @@ This function creates a TheHive Alert based on an input coming from Splunk, and 
 
 - **Kind:** function
 - **Mode:** Enabled
-- **File:** [integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk))
+- **File:** [integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js))
 
 ---
 

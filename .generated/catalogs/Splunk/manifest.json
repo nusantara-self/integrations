@@ -171,9 +171,9 @@
         "description": "This function creates a TheHive Alert based on an input coming from Splunk, and matches the Splunk fields to TheHive fields. In Splunk, you'll need to configure the webhook URL to point to the TheHive function URL",
         "kind": "function",
         "mode": "Enabled",
-        "file": "integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk"
+        "file": "integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js"
       }
     ]
   },

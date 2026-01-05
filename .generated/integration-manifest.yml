@@ -124,9 +124,9 @@ Airtable:
         exist, then creates the alert, and completes type, source, source-ref, title, description and tags
       kind: function
       mode: Enabled
-      file: integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable
+      file: integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
   stats:
     totalAnalyzers: 0
     totalResponders: 0
@@ -3613,9 +3613,9 @@ JAMF:
         > Add an HTTP data endpoint + your Authorization Header and Bearer as value
       kind: function
       mode: Enabled
-      file: integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect
+      file: integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect.js
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect.js
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JAMF/thehive/functions/function_API_createAlertFromJAMFProtect.js
   stats:
     totalAnalyzers: 0
     totalResponders: 0
@@ -3679,9 +3679,9 @@ JIRA:
         type, source, source-ref, title, and description
       kind: function
       mode: Enabled
-      file: integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA
+      file: integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
   stats:
     totalAnalyzers: 0
     totalResponders: 0
@@ -5767,17 +5767,17 @@ Proofpoint:
       description: Ingests ProofPoint messageDelivered alerts in TheHive
       kind: function
       mode: Enabled
-      file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered
+      file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
     - name: alertFeeder_ProofPoint_clicksPermitted
       version: 1.0.0
       description: Ingests ProofPoint clicksPermitted alerts in TheHive
       kind: function
       mode: Enabled
-      file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted
+      file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
   stats:
     totalAnalyzers: 1
     totalResponders: 0
@@ -6861,9 +6861,9 @@ Splunk:
         to TheHive fields. In Splunk, you'll need to configure the webhook URL to point to the TheHive function URL
       kind: function
       mode: Enabled
-      file: integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk
+      file: integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
   stats:
     totalAnalyzers: 11
     totalResponders: 0
