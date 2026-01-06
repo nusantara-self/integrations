@@ -4,7 +4,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 197
+- **Total Vendors:** 196
 - **Total Analyzers:** 257
 - **Total Responders:** 131
 - **Total Functions:** 7
@@ -264,8 +264,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[IPVoid](docs/vendors/IPVoid/overview.md)** - *Uncategorized* - 1 analyzers
 - **[isMalicious](docs/vendors/isMalicious/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IVRE](docs/vendors/IVRE/overview.md)** - *Uncategorized* - 1 analyzers
-- **[JAMF](docs/vendors/JAMF/overview.md)** - *Uncategorized* - 1 functions
-- **[JAMFProtect](docs/vendors/JAMFProtect/overview.md)** - *Uncategorized* - 2 responders
+- **[JAMFProtect](docs/vendors/JAMFProtect/overview.md)** - *Uncategorized* - 2 responders, 1 functions
 - **[JIRA](docs/vendors/JIRA/overview.md)** - *Uncategorized* - 1 functions
 - **[JoeSandbox](docs/vendors/JoeSandbox/overview.md)** - *Uncategorized* - 3 analyzers
 - **[Jupyter](docs/vendors/Jupyter/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders

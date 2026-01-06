@@ -2,7 +2,7 @@
 
 ## Statistics
 
-- **Total Vendors:** 197
+- **Total Vendors:** 196
 - **Total Analyzers:** 257
 - **Total Responders:** 131
 - **Total Functions:** 7
@@ -11,4 +11,10 @@
 
 ## Changes
 
-No changes detected.
+### ❌ Removed Vendors (1)
+
+- `JAMF`
+
+### 🔄 Updated Vendors (1)
+
+- **JAMFProtect**: 2 → 3 (+1)
