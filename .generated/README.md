@@ -4,12 +4,12 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 196
-- **Total Analyzers:** 257
+- **Total Vendors:** 194
+- **Total Analyzers:** 259
 - **Total Responders:** 131
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 405
+- **Total Integrations:** 407
 
 ## 📂 Vendors by Category
 
@@ -219,9 +219,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[DNSSinkhole](docs/vendors/DNSSinkhole/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DomainMailSPFDMARC](docs/vendors/DomainMailSPFDMARC/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DomainTools](docs/vendors/DomainTools/overview.md)** - *Uncategorized* - 10 analyzers
-- **[DomainToolsIris](docs/vendors/DomainToolsIris/overview.md)** - *Uncategorized* - 2 analyzers
-- **[DomainToolsIris_AddRiskyDNSTag](docs/vendors/DomainToolsIris_AddRiskyDNSTag/overview.md)** - *Uncategorized* - 1 responders
-- **[DomainToolsIris_CheckMaliciousTags](docs/vendors/DomainToolsIris_CheckMaliciousTags/overview.md)** - *Uncategorized* - 1 responders
+- **[DomainToolsIris](docs/vendors/DomainToolsIris/overview.md)** - *Uncategorized* - 2 analyzers, 2 responders
 - **[DShield](docs/vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Duo_Security](docs/vendors/Duo_Security/overview.md)** - *Uncategorized* - 3 responders
 - **[EchoTrail](docs/vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
@@ -349,6 +347,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[TorProject](docs/vendors/TorProject/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Triage](docs/vendors/Triage/overview.md)** - *Uncategorized* - 1 analyzers
 - **[UnshortenLink](docs/vendors/UnshortenLink/overview.md)** - *Uncategorized* - 1 analyzers
+- **[urlDNA.io](docs/vendors/urlDNA.io/overview.md)** - *Uncategorized* - 2 analyzers
 - **[URLhaus](docs/vendors/URLhaus/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[URLScan.io](docs/vendors/Urlscan.io/overview.md)** - *URL Analysis* - 2 analyzers
 - **[Valhalla](docs/vendors/Valhalla/overview.md)** - *Uncategorized* - 1 analyzers
@@ -365,8 +364,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[WOT](docs/vendors/WOT/overview.md)** - *Uncategorized* - 1 analyzers
 - **[YARA](docs/vendors/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Yeti](docs/vendors/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
-- **[ZEROFOX_Close_alert](docs/vendors/ZEROFOX_Close_alert/overview.md)** - *Uncategorized* - 1 responders
-- **[ZEROFOX_Takedown_request](docs/vendors/ZEROFOX_Takedown_request/overview.md)** - *Uncategorized* - 1 responders
+- **[ZEROFOX](docs/vendors/ZEROFOX/overview.md)** - *Uncategorized* - 2 responders
 - **[Zscaler](docs/vendors/Zscaler/overview.md)** - *Uncategorized* - 2 analyzers
 
 ---

@@ -2,19 +2,27 @@
 
 ## Statistics
 
-- **Total Vendors:** 196
-- **Total Analyzers:** 257
+- **Total Vendors:** 194
+- **Total Analyzers:** 259
 - **Total Responders:** 131
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 405
+- **Total Integrations:** 407
 
 ## Changes
 
-### ❌ Removed Vendors (1)
+### ✅ Added Vendors (2)
 
-- `JAMF`
+- `urlDNA.io`
+- `ZEROFOX`
+
+### ❌ Removed Vendors (4)
+
+- `DomainToolsIris_AddRiskyDNSTag`
+- `DomainToolsIris_CheckMaliciousTags`
+- `ZEROFOX_Close_alert`
+- `ZEROFOX_Takedown_request`
 
 ### 🔄 Updated Vendors (1)
 
-- **JAMFProtect**: 2 → 3 (+1)
+- **DomainToolsIris**: 2 → 4 (+2)

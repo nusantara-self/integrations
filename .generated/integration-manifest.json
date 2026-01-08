@@ -2569,29 +2569,6 @@
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json"
         }
       ],
-      "responders": [],
-      "functions": []
-    },
-    "stats": {
-      "totalAnalyzers": 2,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalExternalIntegrations": 0,
-      "total": 2
-    }
-  },
-  "DomainToolsIris_AddRiskyDNSTag": {
-    "id": "DomainToolsIris_AddRiskyDNSTag",
-    "name": "DomainToolsIris_AddRiskyDNSTag",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
-    "useCases": [],
-    "externalIntegrations": [],
-    "integrations": {
-      "analyzers": [],
       "responders": [
         {
           "name": "DomainToolsIris_AddRiskyDNSTag",
@@ -2602,34 +2579,10 @@
           "dataTypes": [
             "thehive:case_artifact"
           ],
-          "file": ".upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris_AddRiskyDNSTag/DomainToolsIris_AddRiskyDNSTag.json"
-        }
-      ],
-      "functions": []
-    },
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 1,
-      "totalFunctions": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
-    }
-  },
-  "DomainToolsIris_CheckMaliciousTags": {
-    "id": "DomainToolsIris_CheckMaliciousTags",
-    "name": "DomainToolsIris_CheckMaliciousTags",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
-    "useCases": [],
-    "externalIntegrations": [],
-    "integrations": {
-      "analyzers": [],
-      "responders": [
+          "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json"
+        },
         {
           "name": "DomainToolsIris_CheckMaliciousTags",
           "version": "1.0",
@@ -2639,19 +2592,19 @@
           "dataTypes": [
             "thehive:case_artifact"
           ],
-          "file": ".upstream/cortex/responders/DomainToolsIris_CheckMaliciousTags/DomainToolsIris_CheckMaliciousTags.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DomainToolsIris_CheckMaliciousTags/DomainToolsIris_CheckMaliciousTags.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris_CheckMaliciousTags/DomainToolsIris_CheckMaliciousTags.json"
+          "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json"
         }
       ],
       "functions": []
     },
     "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 1,
+      "totalAnalyzers": 2,
+      "totalResponders": 2,
       "totalFunctions": 0,
       "totalExternalIntegrations": 0,
-      "total": 1
+      "total": 4
     }
   },
   "DShield": {
@@ -6311,9 +6264,9 @@
           "dataTypes": [
             "url"
           ],
-          "file": ".upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSDefenderOffice365/  MSDefenderOffice365_SafeLinksDecoder.json"
+          "file": ".upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json"
         }
       ],
       "responders": [
@@ -10242,6 +10195,61 @@
       "total": 1
     }
   },
+  "urlDNA.io": {
+    "id": "urlDNA.io",
+    "name": "urlDNA.io",
+    "description": "",
+    "category": "",
+    "tags": [],
+    "homepage": "",
+    "logo": {},
+    "useCases": [],
+    "externalIntegrations": [],
+    "registration_required": true,
+    "subscription_required": false,
+    "free_subscription": true,
+    "integrations": {
+      "analyzers": [
+        {
+          "name": "UrlDNA_Search",
+          "version": "0.1.0",
+          "author": "urlDNA.io (@urldna); Fabien Bloume, StrangeBee",
+          "license": "MIT",
+          "description": "Perform a search on urlDNA.io for IPs, domains or URLs",
+          "dataTypes": [
+            "ip",
+            "domain",
+            "url"
+          ],
+          "file": ".upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json"
+        },
+        {
+          "name": "UrlDNA_New_Scan",
+          "version": "0.1.0",
+          "author": "urlDNA.io (@urldna); Fabien Bloume, StrangeBee",
+          "license": "MIT",
+          "description": "Perform a new scan on urlDNA.io",
+          "dataTypes": [
+            "url"
+          ],
+          "file": ".upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json"
+        }
+      ],
+      "responders": [],
+      "functions": []
+    },
+    "stats": {
+      "totalAnalyzers": 2,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalExternalIntegrations": 0,
+      "total": 2
+    }
+  },
   "URLhaus": {
     "id": "URLhaus",
     "name": "URLhaus",
@@ -11040,46 +11048,9 @@
       "total": 1
     }
   },
-  "ZEROFOX_Close_alert": {
-    "id": "ZEROFOX_Close_alert",
-    "name": "ZEROFOX_Close_alert",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
-    "useCases": [],
-    "externalIntegrations": [],
-    "integrations": {
-      "analyzers": [],
-      "responders": [
-        {
-          "name": "ZEROFOX_Close_alert",
-          "version": "1.0",
-          "author": "TheHive-Project",
-          "license": "AGPL-V3",
-          "description": "Close alert in Zerofox",
-          "dataTypes": [
-            "thehive:case"
-          ],
-          "file": ".upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json"
-        }
-      ],
-      "functions": []
-    },
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 1,
-      "totalFunctions": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
-    }
-  },
-  "ZEROFOX_Takedown_request": {
-    "id": "ZEROFOX_Takedown_request",
-    "name": "ZEROFOX_Takedown_request",
+  "ZEROFOX": {
+    "id": "ZEROFOX",
+    "name": "ZEROFOX",
     "description": "",
     "category": "",
     "tags": [],
@@ -11099,19 +11070,32 @@
           "dataTypes": [
             "thehive:case"
           ],
-          "file": ".upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json"
+          "file": ".upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json"
+        },
+        {
+          "name": "ZEROFOX_Close_alert",
+          "version": "1.0",
+          "author": "TheHive-Project",
+          "license": "AGPL-V3",
+          "description": "Close alert in Zerofox",
+          "dataTypes": [
+            "thehive:case"
+          ],
+          "file": ".upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json"
         }
       ],
       "functions": []
     },
     "stats": {
       "totalAnalyzers": 0,
-      "totalResponders": 1,
+      "totalResponders": 2,
       "totalFunctions": 0,
       "totalExternalIntegrations": 0,
-      "total": 1
+      "total": 2
     }
   },
   "Zscaler": {
