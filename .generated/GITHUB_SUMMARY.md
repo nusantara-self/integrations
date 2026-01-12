@@ -1,4 +1,4 @@
-# 📊 Manifest Generation Summary
+# 📊 Catalog Generation Summary
 
 ## Statistics
 
