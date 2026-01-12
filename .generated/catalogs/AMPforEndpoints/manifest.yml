@@ -24,6 +24,7 @@ integrations:
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    integration_type: null
   - name: AMPforEndpoints_IsolationStart
     version: '1.0'
     author: Cisco Security
@@ -34,6 +35,7 @@ integrations:
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
+    integration_type: null
   - name: AMPforEndpoints_MoveGUID
     version: '1.0'
     author: Cisco Security
@@ -44,6 +46,7 @@ integrations:
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
+    integration_type: null
   - name: AMPforEndpoints_IsolationStop
     version: '1.0'
     author: Cisco Security
@@ -54,6 +57,7 @@ integrations:
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    integration_type: null
   - name: AMPforEndpoints_SCDRemove
     version: '1.0'
     author: Cisco Security
@@ -64,6 +68,7 @@ integrations:
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+    integration_type: null
   functions: []
 stats:
   totalAnalyzers: 0

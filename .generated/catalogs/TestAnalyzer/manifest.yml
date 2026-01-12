@@ -36,6 +36,7 @@ integrations:
     file: .upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
+    integration_type: null
   - name: TestAnalyzer
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -56,6 +57,7 @@ integrations:
     file: .upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
+    integration_type: null
   responders: []
   functions: []
 stats:

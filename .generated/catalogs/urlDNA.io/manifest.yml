@@ -28,6 +28,7 @@ integrations:
     file: .upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json
+    integration_type: null
   - name: UrlDNA_New_Scan
     version: 0.1.0
     author: urlDNA.io (@urldna); Fabien Bloume, StrangeBee
@@ -38,6 +39,7 @@ integrations:
     file: .upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json
+    integration_type: null
   responders: []
   functions: []
 stats:

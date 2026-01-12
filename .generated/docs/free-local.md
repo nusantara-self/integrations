@@ -4,9 +4,9 @@ Integrations that are either free to use or run locally without external depende
 
 ## 📊 Summary
 
-- **Total Free/Local Analyzers:** 65
+- **Total Free/Local Analyzers:** 66
 - **Total Free/Local Responders:** 7
-- **Total:** 72
+- **Total:** 73
 
 **Legend:**
 - 🆓 Free subscription available
@@ -569,6 +569,15 @@ Scan URLs on urlscan.io
 **Data Types:** `ip`, `domain`, `hash`, `fqdn`, `url`
 
 Search IPs, domains, hashes or URLs on urlscan.io
+
+---
+
+### ValidateObservable `v1.0` 🏠
+
+**Vendor:** [ValidateObservable](/vendors/ValidateObservable/overview)
+**Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `hash`, `filename`, `uri_path`, `user-agent`
+
+Use regexes and libraries to indicate if observable is valid
 
 ---
 

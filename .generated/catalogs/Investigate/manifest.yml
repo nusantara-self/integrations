@@ -24,6 +24,7 @@ integrations:
     file: .upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
+    integration_type: null
   - name: Investigate_Sample
     version: '1.0'
     author: Cisco Umbrella Research @opendns
@@ -34,6 +35,7 @@ integrations:
     file: .upstream/cortex/analyzers/Investigate/Investigate_Sample.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json
+    integration_type: null
   responders: []
   functions: []
 stats:

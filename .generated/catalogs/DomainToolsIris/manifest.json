@@ -26,7 +26,8 @@
         ],
         "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
+        "integration_type": null
       },
       {
         "name": "DomainToolsIris_Investigate",
@@ -39,7 +40,8 @@
         ],
         "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
+        "integration_type": null
       }
     ],
     "responders": [
@@ -54,7 +56,8 @@
         ],
         "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
+        "integration_type": null
       },
       {
         "name": "DomainToolsIris_CheckMaliciousTags",
@@ -67,7 +70,8 @@
         ],
         "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
+        "integration_type": null
       }
     ],
     "functions": []

@@ -28,6 +28,7 @@ integrations:
     file: .upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
+    integration_type: null
   responders:
   - name: PaloAltoWildFire_URL_submission
     version: '1.0'
@@ -41,6 +42,7 @@ integrations:
     file: .upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
+    integration_type: null
   functions: []
 stats:
   totalAnalyzers: 1

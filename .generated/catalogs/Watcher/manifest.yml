@@ -23,6 +23,7 @@ integrations:
     file: .upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json
+    integration_type: null
   responders:
   - name: Watcher_AddDomain
     version: '1.2'
@@ -34,6 +35,7 @@ integrations:
     file: .upstream/cortex/responders/Watcher/Watcher_AddDomain.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_AddDomain.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Watcher/Watcher_AddDomain.json
+    integration_type: null
   - name: Watcher_RemoveDomain
     version: '1.2'
     author: THA-CERT // YNE
@@ -44,6 +46,7 @@ integrations:
     file: .upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json
+    integration_type: null
   functions: []
 stats:
   totalAnalyzers: 1

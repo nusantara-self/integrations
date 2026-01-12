@@ -36,7 +36,8 @@
         ],
         "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
+        "integration_type": null
       },
       {
         "name": "MSEntraID_GetUserInfo",
@@ -49,7 +50,8 @@
         ],
         "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json",
+        "integration_type": null
       },
       {
         "name": "MSEntraID_GetSignIns",
@@ -62,7 +64,8 @@
         ],
         "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
+        "integration_type": null
       },
       {
         "name": "MSEntraID_GetManagedDevicesInfo",
@@ -76,7 +79,8 @@
         ],
         "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
+        "integration_type": null
       }
     ],
     "responders": [
@@ -91,7 +95,8 @@
         ],
         "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json",
+        "integration_type": null
       },
       {
         "name": "MSEntraID_revokeSignInSessions",
@@ -104,7 +109,8 @@
         ],
         "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json",
+        "integration_type": null
       },
       {
         "name": "MSEntraID_disableUser",
@@ -117,7 +123,8 @@
         ],
         "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json",
+        "integration_type": null
       },
       {
         "name": "MSEntraID_ForcePasswordResetWithMFA",
@@ -130,7 +137,8 @@
         ],
         "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
+        "integration_type": null
       },
       {
         "name": "MSEntraID_ForcePasswordReset",
@@ -143,7 +151,8 @@
         ],
         "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json",
+        "integration_type": null
       }
     ],
     "functions": []

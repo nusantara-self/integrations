@@ -22,7 +22,8 @@
         ],
         "file": ".upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
+        "integration_type": null
       },
       {
         "name": "DuoBypassUserAccount",
@@ -35,7 +36,8 @@
         ],
         "file": ".upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
+        "integration_type": null
       },
       {
         "name": "DuoLockUserAccount",
@@ -48,7 +50,8 @@
         ],
         "file": ".upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
+        "integration_type": null
       }
     ],
     "functions": []

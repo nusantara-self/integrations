@@ -24,6 +24,7 @@ integrations:
     file: .upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json
+    integration_type: null
   - name: DNSDB_IPHistory
     version: '2.0'
     author: CERT-BDF
@@ -34,6 +35,7 @@ integrations:
     file: .upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json
+    integration_type: null
   - name: DNSDB_NameHistory
     version: '2.0'
     author: CERT-BDF
@@ -45,6 +47,7 @@ integrations:
     file: .upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json
+    integration_type: null
   responders: []
   functions: []
 stats:

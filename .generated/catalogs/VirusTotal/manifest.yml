@@ -37,6 +37,7 @@ integrations:
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
+    integration_type: null
   - name: VirusTotal_GetReport
     version: '3.1'
     author: CERT-BDF, StrangeBee
@@ -52,6 +53,7 @@ integrations:
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
+    integration_type: null
   - name: VirusTotal_Scan
     version: '3.1'
     author: CERT-BDF, StrangeBee
@@ -63,6 +65,7 @@ integrations:
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
+    integration_type: null
   - name: VirusTotal_Rescan
     version: '3.1'
     author: CERT-LDO
@@ -73,6 +76,7 @@ integrations:
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
+    integration_type: null
   responders: []
   functions: []
 stats:

@@ -25,7 +25,8 @@
         ],
         "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
+        "integration_type": null
       },
       {
         "name": "PaloAltoCortexXDR_scan",
@@ -38,7 +39,8 @@
         ],
         "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json",
+        "integration_type": null
       },
       {
         "name": "PaloAltoCortexXDR_isolate",
@@ -51,7 +53,8 @@
         ],
         "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json"
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
+        "integration_type": null
       }
     ],
     "functions": []
