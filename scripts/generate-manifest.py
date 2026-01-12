@@ -109,7 +109,8 @@ def scan_analyzers(vendor: str) -> tuple[List[Dict], Dict]:
                 'dataTypes': content.get('dataTypeList', []),
                 'file': relative_path,
                 'url': build_url(relative_path),
-                'github_url': build_github_url(relative_path)
+                'github_url': build_github_url(relative_path),
+                'integration_type': content.get('integration_type')
             })
             
             # Collect subscription fields
@@ -154,7 +155,8 @@ def scan_responders(vendor: str) -> tuple[List[Dict], Dict]:
                 'dataTypes': content.get('dataTypeList', []),
                 'file': relative_path,
                 'url': build_url(relative_path),
-                'github_url': build_github_url(relative_path)
+                'github_url': build_github_url(relative_path),
+                'integration_type': content.get('integration_type')
             })
             
             # Collect subscription fields
