@@ -660,84 +660,132 @@ def generate_free_local_integrations(all_manifests: Dict) -> str:
                     **responder
                 })
 
+    # Separate local and free subscription integrations
+    local_analyzers = [a for a in free_local_integrations['analyzers'] if a['is_local']]
+    free_analyzers = [a for a in free_local_integrations['analyzers'] if not a['is_local'] and a['free_subscription']]
+    local_responders = [r for r in free_local_integrations['responders'] if r['is_local']]
+    free_responders = [r for r in free_local_integrations['responders'] if not r['is_local'] and r['free_subscription']]
+
     total_analyzers = len(free_local_integrations['analyzers'])
     total_responders = len(free_local_integrations['responders'])
 
     # Summary
-    lines.append("## 📊 Summary")
+    lines.append("## Summary")
     lines.append("")
-    lines.append(f"- **Total Free/Local Analyzers:** {total_analyzers}")
-    lines.append(f"- **Total Free/Local Responders:** {total_responders}")
-    lines.append(f"- **Total:** {total_analyzers + total_responders}")
-    lines.append("")
-    lines.append("**Legend:**")
-    lines.append("- 🆓 Free subscription available")
-    lines.append("- 🏠 Local integration (no external API required)")
+    lines.append(f"- **Total Analyzers:** {total_analyzers} ({len(local_analyzers)} local, {len(free_analyzers)} free)")
+    lines.append(f"- **Total Responders:** {total_responders} ({len(local_responders)} local, {len(free_responders)} free)")
+    lines.append(f"- **Total Integrations:** {total_analyzers + total_responders}")
     lines.append("")
 
     # Analyzers Section
-    if free_local_integrations['analyzers']:
-        lines.append("## 🔍 Analyzers")
+    if local_analyzers or free_analyzers:
+        lines.append("## Analyzers")
         lines.append("")
 
-        for analyzer in sorted(free_local_integrations['analyzers'], key=lambda x: (x['vendor'].lower(), x.get('name', '').lower())):
-            name = analyzer.get('name', 'Unknown')
-            version = analyzer.get('version', 'N/A')
-            description = analyzer.get('description', 'No description available')
-            vendor = analyzer['vendor']
-            vendor_id = analyzer['vendor_id']
-            data_types = analyzer.get('dataTypes', [])
+        # Local analyzers first
+        if local_analyzers:
+            lines.append("### Local Analyzers")
+            lines.append("")
 
-            # Badges
-            badges = []
-            if analyzer['free_subscription']:
-                badges.append("🆓")
-            if analyzer['is_local']:
-                badges.append("🏠")
-            badge_str = " ".join(badges)
+            for analyzer in sorted(local_analyzers, key=lambda x: (x['vendor'].lower(), x.get('name', '').lower())):
+                name = analyzer.get('name', 'Unknown')
+                version = analyzer.get('version', 'N/A')
+                description = analyzer.get('description', 'No description available')
+                vendor = analyzer['vendor']
+                vendor_id = analyzer['vendor_id']
+                data_types = analyzer.get('dataTypes', [])
 
-            lines.append(f"### {name} `v{version}` {badge_str}")
+                lines.append("<details>")
+                lines.append(f"<summary><strong>{name}</strong> <code>v{version}</code> [Local] - {vendor}</summary>")
+                lines.append("")
+                lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+                if data_types:
+                    lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
+                lines.append("")
+                lines.append(description)
+                lines.append("")
+                lines.append("</details>")
+                lines.append("")
+
+        # Free subscription analyzers
+        if free_analyzers:
+            lines.append("### Free Subscription Analyzers")
             lines.append("")
-            lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
-            if data_types:
-                lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
-            lines.append("")
-            lines.append(description)
-            lines.append("")
-            lines.append("---")
-            lines.append("")
+
+            for analyzer in sorted(free_analyzers, key=lambda x: (x['vendor'].lower(), x.get('name', '').lower())):
+                name = analyzer.get('name', 'Unknown')
+                version = analyzer.get('version', 'N/A')
+                description = analyzer.get('description', 'No description available')
+                vendor = analyzer['vendor']
+                vendor_id = analyzer['vendor_id']
+                data_types = analyzer.get('dataTypes', [])
+
+                lines.append("<details>")
+                lines.append(f"<summary><strong>{name}</strong> <code>v{version}</code> [Free] - {vendor}</summary>")
+                lines.append("")
+                lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+                if data_types:
+                    lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
+                lines.append("")
+                lines.append(description)
+                lines.append("")
+                lines.append("</details>")
+                lines.append("")
 
     # Responders Section
-    if free_local_integrations['responders']:
-        lines.append("## ⚡ Responders")
+    if local_responders or free_responders:
+        lines.append("## Responders")
         lines.append("")
 
-        for responder in sorted(free_local_integrations['responders'], key=lambda x: (x['vendor'].lower(), x.get('name', '').lower())):
-            name = responder.get('name', 'Unknown')
-            version = responder.get('version', 'N/A')
-            description = responder.get('description', 'No description available')
-            vendor = responder['vendor']
-            vendor_id = responder['vendor_id']
-            data_types = responder.get('dataTypes', [])
+        # Local responders first
+        if local_responders:
+            lines.append("### Local Responders")
+            lines.append("")
 
-            # Badges
-            badges = []
-            if responder['free_subscription']:
-                badges.append("🆓")
-            if responder['is_local']:
-                badges.append("🏠")
-            badge_str = " ".join(badges)
+            for responder in sorted(local_responders, key=lambda x: (x['vendor'].lower(), x.get('name', '').lower())):
+                name = responder.get('name', 'Unknown')
+                version = responder.get('version', 'N/A')
+                description = responder.get('description', 'No description available')
+                vendor = responder['vendor']
+                vendor_id = responder['vendor_id']
+                data_types = responder.get('dataTypes', [])
 
-            lines.append(f"### {name} `v{version}` {badge_str}")
+                lines.append("<details>")
+                lines.append(f"<summary><strong>{name}</strong> <code>v{version}</code> [Local] - {vendor}</summary>")
+                lines.append("")
+                lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+                if data_types:
+                    lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
+                lines.append("")
+                lines.append(description)
+                lines.append("")
+                lines.append("</details>")
+                lines.append("")
+
+        # Free subscription responders
+        if free_responders:
+            lines.append("### Free Subscription Responders")
             lines.append("")
-            lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
-            if data_types:
-                lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
-            lines.append("")
-            lines.append(description)
-            lines.append("")
-            lines.append("---")
-            lines.append("")
+
+            for responder in sorted(free_responders, key=lambda x: (x['vendor'].lower(), x.get('name', '').lower())):
+                name = responder.get('name', 'Unknown')
+                version = responder.get('version', 'N/A')
+                description = responder.get('description', 'No description available')
+                vendor = responder['vendor']
+                vendor_id = responder['vendor_id']
+                data_types = responder.get('dataTypes', [])
+
+                lines.append("<details>")
+                lines.append(f"<summary><strong>{name}</strong> <code>v{version}</code> [Free] - {vendor}</summary>")
+                lines.append("")
+                lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+                if data_types:
+                    lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
+                lines.append("")
+                lines.append(description)
+                lines.append("")
+                lines.append("</details>")
+                lines.append("")
 
     # Footer
     lines.append("---")
