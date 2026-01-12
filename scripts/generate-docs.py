@@ -309,7 +309,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
                 if desc and len(desc) > 100:
                     desc = desc[:97] + "..."
 
-                lines.append(f"**[{name}](docs/vendors/{vendor_id}/overview.md)** ({total} integrations)")
+                lines.append(f"**[{name}](vendors/{vendor_id}/overview.md)** ({total} integrations)")
                 if desc:
                     lines.append(f"  {desc}")
                 lines.append("")
@@ -339,14 +339,14 @@ def generate_catalog_index(all_manifests: Dict) -> str:
 
         breakdown_str = ", ".join(integration_breakdown) if integration_breakdown else "No integrations"
 
-        lines.append(f"- **[{name}](docs/vendors/{vendor_id}/overview.md)** - *{category}* - {breakdown_str}")
+        lines.append(f"- **[{name}](vendors/{vendor_id}/overview.md)** - *{category}* - {breakdown_str}")
 
     lines.append("")
 
     # Footer
     lines.append("---")
     lines.append("")
-    lines.append("📖 **[View individual vendor documentation](docs/)** for detailed integration information.")
+    lines.append("📖 **[View individual vendor documentation](vendors/)** for detailed integration information.")
     lines.append("")
     lines.append("*This catalog is auto-generated. Do not edit manually.*")
     lines.append("")
@@ -599,7 +599,7 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
 
             # Create a safe filename for the function
             safe_name = name.replace(' ', '-').replace('/', '-').lower()
-            func_page = f"functions/{safe_name}.md"
+            func_page = f"{safe_name}.md"
 
             lines.append(f"### [{name}]({func_page}) `v{version}`")
             lines.append("")
@@ -627,7 +627,7 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
 
             lines.append(f"### {vendor_name}")
             lines.append("")
-            lines.append(f"**Vendor:** [{vendor_name}](/vendors/{vendor_id}/overview)")
+            lines.append(f"**Vendor:** [{vendor_name}](../vendors/{vendor_id}/overview)")
             lines.append("")
 
             for func in sorted(functions, key=lambda x: x.get('name', '').lower()):
@@ -638,7 +638,7 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
 
                 # Create a safe filename for the function
                 safe_name = f"{vendor_name.lower().replace(' ', '-')}-{name.replace(' ', '-').replace('/', '-').lower()}"
-                func_page = f"functions/{safe_name}.md"
+                func_page = f"{safe_name}.md"
 
                 lines.append(f"#### [{name}]({func_page}) `v{version}`")
                 if kind:
@@ -741,7 +741,7 @@ def generate_free_local_integrations(all_manifests: Dict) -> str:
                 lines.append("<details>")
                 lines.append(f"<summary><strong>{name}</strong> <code>v{version}</code> [Local] - {vendor}</summary>")
                 lines.append("")
-                lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+                lines.append(f"**Vendor:** [{vendor}](vendors/{vendor_id}/overview)")
                 if data_types:
                     lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
                 lines.append("")
@@ -766,7 +766,7 @@ def generate_free_local_integrations(all_manifests: Dict) -> str:
                 lines.append("<details>")
                 lines.append(f"<summary><strong>{name}</strong> <code>v{version}</code> [Free] - {vendor}</summary>")
                 lines.append("")
-                lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+                lines.append(f"**Vendor:** [{vendor}](vendors/{vendor_id}/overview)")
                 if data_types:
                     lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
                 lines.append("")
@@ -796,7 +796,7 @@ def generate_free_local_integrations(all_manifests: Dict) -> str:
                 lines.append("<details>")
                 lines.append(f"<summary><strong>{name}</strong> <code>v{version}</code> [Local] - {vendor}</summary>")
                 lines.append("")
-                lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+                lines.append(f"**Vendor:** [{vendor}](vendors/{vendor_id}/overview)")
                 if data_types:
                     lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
                 lines.append("")
@@ -821,7 +821,7 @@ def generate_free_local_integrations(all_manifests: Dict) -> str:
                 lines.append("<details>")
                 lines.append(f"<summary><strong>{name}</strong> <code>v{version}</code> [Free] - {vendor}</summary>")
                 lines.append("")
-                lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+                lines.append(f"**Vendor:** [{vendor}](vendors/{vendor_id}/overview)")
                 if data_types:
                     lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
                 lines.append("")
@@ -849,10 +849,10 @@ def main():
     generated_path = Path('.generated')
     catalogs_path = generated_path / 'catalogs'
 
-    # Load the combined manifest
-    manifest_path = generated_path / 'integration-manifest.json'
+    # Load the combined manifest from new location
+    manifest_path = catalogs_path / 'integration-manifest.json'
     if not manifest_path.exists():
-        print("Error: integration-manifest.json not found!")
+        print("Error: catalogs/integration-manifest.json not found!")
         print("Please run generate-catalogs.py first.")
         exit(1)
 
@@ -891,25 +891,28 @@ def main():
 
     print(f"✓ Generated {len(vendors)} vendor documentation pages")
 
-    # Generate catalog index
+    # Generate catalog index (main overview)
     print("\nGenerating catalog index...")
     catalog_index = generate_catalog_index(all_manifests)
-    index_path = generated_path / 'README.md'
+    index_path = docs_path / 'overview.md'
     with open(index_path, 'w', encoding='utf-8') as f:
         f.write(catalog_index)
-    print(f"✓ Catalog index: {index_path}")
+    print(f"✓ Catalog index (overview): {index_path}")
 
     # Generate external integrations documentation
     print("\nGenerating external integrations documentation...")
-    external_integrations_path = generated_path / 'external-integrations'
-    ext_catalog_path = external_integrations_path / 'catalog.json'
+    ext_catalog_path = catalogs_path / 'external-integrations' / 'catalog.json'
 
     if ext_catalog_path.exists():
         with open(ext_catalog_path, 'r', encoding='utf-8') as f:
             external_integrations_catalog = json.load(f)
 
+        # Create external-integrations directory in docs/
+        ext_docs_path = docs_path / 'external-integrations'
+        ext_docs_path.mkdir(exist_ok=True)
+
         ext_md_content = generate_external_integrations_markdown(external_integrations_catalog)
-        ext_md_path = external_integrations_path / 'README.md'
+        ext_md_path = ext_docs_path / 'overview.md'
         with open(ext_md_path, 'w', encoding='utf-8') as f:
             f.write(ext_md_content)
         print(f"✓ External integrations docs: {ext_md_path}")
@@ -919,15 +922,20 @@ def main():
     # Generate functions documentation
     print("\nGenerating functions documentation...")
     functions_catalog = generate_functions_catalog(all_manifests)
-    functions_catalog_path = docs_path / 'functions.md'
+
+    # Create functions directory if it doesn't exist yet
+    functions_docs_dir = docs_path / 'functions'
+    functions_docs_dir.mkdir(exist_ok=True)
+
+    functions_catalog_path = functions_docs_dir / 'overview.md'
     with open(functions_catalog_path, 'w', encoding='utf-8') as f:
         f.write(functions_catalog)
     print(f"✓ Functions overview: {functions_catalog_path}")
 
     # Generate individual function pages
     print("Generating individual function pages...")
-    functions_dir = docs_path / 'functions'
-    functions_dir.mkdir(exist_ok=True)
+    # functions_dir already created above
+    functions_dir = functions_docs_dir
 
     # Collect generic functions
     generic_functions_path = Path('integrations/generic/functions')
