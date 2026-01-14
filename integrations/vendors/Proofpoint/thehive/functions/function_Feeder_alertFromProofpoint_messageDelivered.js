@@ -1,12 +1,16 @@
 /*---
 thehive:
   name: alertFeeder_ProofPoint_messageDelivered
+  author: Fabien Bloume, StrangeBee
   mode: Enabled
   definition: function_Feeder_alertFromProofpoint_messageDelivered
   description: Ingests ProofPoint messageDelivered alerts in TheHive
   vendor: ProofPoint
   kind: function
   version: 1.0.0
+  thehive_version_required : "5.5"
+  license_required : "platinum"
+  linked_to : ["integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js"]
 ---*/
 function extractEmailAndName(address) {
   // Handles "Name <email@domain.com>" or just "email@domain.com"
