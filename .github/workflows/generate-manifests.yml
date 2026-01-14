@@ -485,6 +485,11 @@ jobs:
             exit 1
           fi
 
+      - name: Normalize line endings (CRLF to LF)
+        run: |
+          find .upstream/cortex -name "*.json" -type f -exec sed -i 's/\r$//' {} +
+          echo "✅ Normalized line endings for all JSON files in .upstream/cortex/"
+
       - name: Generate catalogs
         run: python scripts/generate-catalogs.py
 
