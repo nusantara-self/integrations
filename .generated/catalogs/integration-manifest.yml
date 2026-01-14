@@ -70,7 +70,7 @@ AbuseIPDB:
       file: .upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
-      integration_type: null
+      integration_type: external_api
     responders: []
     functions: []
   stats:
@@ -586,7 +586,7 @@ Capa:
       file: .upstream/cortex/analyzers/Capa/Capa.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Capa/Capa.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Capa/Capa.json
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:
@@ -1038,7 +1038,7 @@ ClamAV:
       file: .upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:
@@ -1243,9 +1243,9 @@ CrowdstrikeFalcon:
   - edr
   homepage: https://www.crowdstrike.com
   logo:
-    file: integrations/vendors/CrowdstrikeFalcon/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.png
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.png
+    file: integrations/vendors/CrowdstrikeFalcon/assets/logo.svg
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg
   useCases:
   - name: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
     description: Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync
@@ -2603,7 +2603,7 @@ EmlParser:
       file: .upstream/cortex/analyzers/EmlParser/EmlParser.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmlParser/EmlParser.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmlParser/EmlParser.json
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:
@@ -2713,7 +2713,7 @@ FileInfo:
       file: .upstream/cortex/analyzers/FileInfo/FileInfo.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FileInfo/FileInfo.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/FileInfo/FileInfo.json
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:
@@ -5551,7 +5551,7 @@ MsgParser:
       file: .upstream/cortex/analyzers/MsgParser/Msg_Parser.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:
@@ -6862,7 +6862,7 @@ QrDecode:
       file: .upstream/cortex/analyzers/QrDecode/QrDecode.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/QrDecode/QrDecode.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/QrDecode/QrDecode.json
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:
@@ -7425,6 +7425,9 @@ SentinelOne:
   logo: {}
   useCases: []
   externalIntegrations: []
+  registration_required: true
+  subscription_required: true
+  free_subscription: false
   integrations:
     analyzers:
     - name: SentinelOne_DeepVisibility_DNSQuery
@@ -9413,7 +9416,7 @@ Yara:
       file: .upstream/cortex/analyzers/Yara/Yara.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Yara/Yara.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Yara/Yara.json
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:

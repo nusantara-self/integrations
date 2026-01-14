@@ -81,7 +81,7 @@
           "file": ".upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json",
-          "integration_type": null
+          "integration_type": "external_api"
         }
       ],
       "responders": [],
@@ -702,7 +702,7 @@
           "file": ".upstream/cortex/analyzers/Capa/Capa.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Capa/Capa.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Capa/Capa.json",
-          "integration_type": null
+          "integration_type": "local"
         }
       ],
       "responders": [],
@@ -1246,7 +1246,7 @@
           "file": ".upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json",
-          "integration_type": null
+          "integration_type": "local"
         }
       ],
       "responders": [],
@@ -1490,9 +1490,9 @@
     ],
     "homepage": "https://www.crowdstrike.com",
     "logo": {
-      "file": "integrations/vendors/CrowdstrikeFalcon/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.png"
+      "file": "integrations/vendors/CrowdstrikeFalcon/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg"
     },
     "useCases": [
       {
@@ -3150,7 +3150,7 @@
           "file": ".upstream/cortex/analyzers/EmlParser/EmlParser.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
-          "integration_type": null
+          "integration_type": "local"
         }
       ],
       "responders": [],
@@ -3283,7 +3283,7 @@
           "file": ".upstream/cortex/analyzers/FileInfo/FileInfo.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FileInfo/FileInfo.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/FileInfo/FileInfo.json",
-          "integration_type": null
+          "integration_type": "local"
         }
       ],
       "responders": [],
@@ -6717,7 +6717,7 @@
           "file": ".upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
-          "integration_type": null
+          "integration_type": "local"
         }
       ],
       "responders": [],
@@ -8303,7 +8303,7 @@
           "file": ".upstream/cortex/analyzers/QrDecode/QrDecode.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/QrDecode/QrDecode.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/QrDecode/QrDecode.json",
-          "integration_type": null
+          "integration_type": "local"
         }
       ],
       "responders": [],
@@ -8991,6 +8991,9 @@
     "logo": {},
     "useCases": [],
     "externalIntegrations": [],
+    "registration_required": true,
+    "subscription_required": true,
+    "free_subscription": false,
     "integrations": {
       "analyzers": [
         {
@@ -11378,7 +11381,7 @@
           "file": ".upstream/cortex/analyzers/Yara/Yara.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Yara/Yara.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Yara/Yara.json",
-          "integration_type": null
+          "integration_type": "local"
         }
       ],
       "responders": [],
