@@ -661,6 +661,190 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
     return '\n'.join(lines)
 
 
+def get_status_badge(status: str) -> str:
+    """Get the appropriate badge for a notification status."""
+    badges = {
+        'tested': '![Tested](https://img.shields.io/badge/Status-Tested-brightgreen)',
+        'untested': '![Untested](https://img.shields.io/badge/Status-Untested-lightgrey)',
+        'not_working': '![Not Working](https://img.shields.io/badge/Status-Not_Working-red)',
+        'tested_with_issues': '![Tested with Issues](https://img.shields.io/badge/Status-Tested%20with%20Issues-blue)'
+    }
+    return badges.get(status, '![Unknown](https://img.shields.io/badge/Status-Unknown-lightgrey)')
+
+
+def collect_notifications() -> Dict:
+    """Collect all notification filters from generic and vendor folders."""
+    notifications = {
+        'generic': [],
+        'vendors': {}
+    }
+
+    # Collect generic notifications
+    generic_path = Path('integrations/generic/thehive/notifications')
+    if generic_path.exists():
+        for notif_file in generic_path.glob('*.json'):
+            try:
+                with open(notif_file, 'r', encoding='utf-8') as f:
+                    notif_data = json.load(f)
+                    notif_data['_file'] = str(notif_file)
+                    notifications['generic'].append(notif_data)
+            except (json.JSONDecodeError, IOError) as e:
+                print(f"  Warning: Could not read {notif_file}: {e}")
+
+    # Collect vendor-specific notifications
+    vendors_path = Path('integrations/vendors')
+    if vendors_path.exists():
+        for vendor_dir in vendors_path.iterdir():
+            if vendor_dir.is_dir():
+                notif_path = vendor_dir / 'thehive' / 'notifications'
+                if notif_path.exists():
+                    vendor_name = vendor_dir.name
+                    notifications['vendors'][vendor_name] = []
+                    for notif_file in notif_path.glob('*.json'):
+                        try:
+                            with open(notif_file, 'r', encoding='utf-8') as f:
+                                notif_data = json.load(f)
+                                notif_data['_file'] = str(notif_file)
+                                notifications['vendors'][vendor_name].append(notif_data)
+                        except (json.JSONDecodeError, IOError) as e:
+                            print(f"  Warning: Could not read {notif_file}: {e}")
+
+    return notifications
+
+
+def generate_notifications_documentation(notifications: Dict) -> str:
+    """Generate markdown documentation for notification filters."""
+    lines = []
+
+    # Header
+    lines.append("# TheHive Notification Filters")
+    lines.append("")
+    lines.append("Ready-to-use notification filters for TheHive. These filters can be used to trigger notifications based on specific events.")
+    lines.append("")
+
+    # Count statistics
+    total_generic = len(notifications['generic'])
+    total_vendor = sum(len(v) for v in notifications['vendors'].values())
+    tested_count = sum(1 for n in notifications['generic'] if n.get('status') == 'tested')
+    tested_count += sum(1 for vendor_notifs in notifications['vendors'].values()
+                        for n in vendor_notifs if n.get('status') == 'tested')
+
+    # Summary
+    lines.append("## Summary")
+    lines.append("")
+    lines.append(f"- **Total Notifications:** {total_generic + total_vendor}")
+    lines.append(f"- **Generic Notifications:** {total_generic}")
+    lines.append(f"- **Vendor-Specific Notifications:** {total_vendor}")
+    lines.append(f"- **Tested:** {tested_count}")
+    lines.append("")
+
+    # Sort generic notifications by status (tested first, then issues, then not working)
+    status_order = {'tested': 0, 'untested': 1, 'tested_with_issues': 2, 'not_working': 3}
+    sorted_generic = sorted(notifications['generic'],
+                           key=lambda x: (status_order.get(x.get('status', 'untested'), 99),
+                                         x.get('name', '').lower()))
+
+    # Generic Notifications
+    if sorted_generic:
+        lines.append("## Generic Notifications")
+        lines.append("")
+
+        for notif in sorted_generic:
+            name = notif.get('name', 'Unknown')
+            description = notif.get('description', '')
+            status = notif.get('status', 'untested')
+            comment = notif.get('comment', '')
+            filter_data = notif.get('filter')
+
+            lines.append(f"### {name}")
+            lines.append("")
+            lines.append(get_status_badge(status))
+            lines.append("")
+
+            if description:
+                lines.append(description)
+                lines.append("")
+
+            if comment:
+                if status == 'not_working':
+                    lines.append(f"> **Issue:** {comment}")
+                elif status == 'tested_with_issues':
+                    lines.append(f"> **Warning:** {comment}")
+                else:
+                    lines.append(f"> **Note:** {comment}")
+                lines.append("")
+
+            if filter_data:
+                lines.append("```json")
+                lines.append(json.dumps(filter_data, indent=4))
+                lines.append("```")
+            else:
+                lines.append("*No filter available - this functionality is not supported by TheHive.*")
+
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+
+    # Vendor-Specific Notifications
+    if notifications['vendors']:
+        lines.append("## Vendor-Specific Notifications")
+        lines.append("")
+
+        for vendor_name in sorted(notifications['vendors'].keys()):
+            vendor_notifs = notifications['vendors'][vendor_name]
+            if not vendor_notifs:
+                continue
+
+            lines.append(f"### {vendor_name}")
+            lines.append("")
+
+            sorted_vendor = sorted(vendor_notifs,
+                                  key=lambda x: (status_order.get(x.get('status', 'untested'), 99),
+                                                x.get('name', '').lower()))
+
+            for notif in sorted_vendor:
+                name = notif.get('name', 'Unknown')
+                description = notif.get('description', '')
+                status = notif.get('status', 'untested')
+                comment = notif.get('comment', '')
+                filter_data = notif.get('filter')
+
+                lines.append(f"#### {name}")
+                lines.append("")
+                lines.append(get_status_badge(status))
+                lines.append("")
+
+                if description:
+                    lines.append(description)
+                    lines.append("")
+
+                if comment:
+                    if status == 'not_working':
+                        lines.append(f"> **Issue:** {comment}")
+                    elif status == 'tested_with_issues':
+                        lines.append(f"> **Warning:** {comment}")
+                    else:
+                        lines.append(f"> **Note:** {comment}")
+                    lines.append("")
+
+                if filter_data:
+                    lines.append("```json")
+                    lines.append(json.dumps(filter_data, indent=4))
+                    lines.append("```")
+                else:
+                    lines.append("*No filter available.*")
+
+                lines.append("")
+                lines.append("---")
+                lines.append("")
+
+    # Footer
+    lines.append("*This documentation is auto-generated. Do not edit manually.*")
+    lines.append("")
+
+    return '\n'.join(lines)
+
+
 def generate_free_local_integrations(all_manifests: Dict) -> str:
     """Generate markdown catalog of free or local integrations."""
     lines = []
@@ -849,10 +1033,10 @@ def main():
     generated_path = Path('.generated')
     catalogs_path = generated_path / 'catalogs'
 
-    # Load the combined manifest from new location
-    manifest_path = catalogs_path / 'integration-manifest.json'
+    # Load the combined manifest from root (backwards compatible location)
+    manifest_path = generated_path / 'integration-manifest.json'
     if not manifest_path.exists():
-        print("Error: catalogs/integration-manifest.json not found!")
+        print("Error: integration-manifest.json not found!")
         print("Please run generate-catalogs.py first.")
         exit(1)
 
@@ -993,6 +1177,21 @@ def main():
     with open(free_local_path, 'w', encoding='utf-8') as f:
         f.write(free_local_catalog)
     print(f"✓ Free/local integrations docs: {free_local_path}")
+
+    # Generate notifications documentation
+    print("\nGenerating notifications documentation...")
+    notifications = collect_notifications()
+    total_notifs = len(notifications['generic']) + sum(
+        len(v) for v in notifications['vendors'].values()
+    )
+    if total_notifs > 0:
+        notifications_content = generate_notifications_documentation(notifications)
+        notifications_path = docs_path / 'notifications.md'
+        with open(notifications_path, 'w', encoding='utf-8') as f:
+            f.write(notifications_content)
+        print(f"✓ Notifications docs: {notifications_path} ({total_notifs} filters)")
+    else:
+        print("  No notifications found, skipping")
 
     print('\n=== Documentation Generation Complete ===')
 
