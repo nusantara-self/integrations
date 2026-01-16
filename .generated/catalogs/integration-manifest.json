@@ -1490,9 +1490,9 @@
     ],
     "homepage": "https://www.crowdstrike.com",
     "logo": {
-      "file": "integrations/vendors/CrowdstrikeFalcon/assets/logo.png",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.png",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.png"
+      "file": "integrations/vendors/CrowdstrikeFalcon/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg"
     },
     "useCases": [
       {
