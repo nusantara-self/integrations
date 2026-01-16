@@ -7,6 +7,7 @@ thehive:
   vendor: ProofPoint
   kind: function
   version: 1.0.0
+  author: Fabien Bloume, StrangeBee
 ---*/
 function extractEmailAndName(address) {
   // Handles "Name <email@domain.com>" or just "email@domain.com"

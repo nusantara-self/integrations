@@ -2,6 +2,9 @@
 title: Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
 description: Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have reached user mailboxes and may require investigation.
 tags: [proofpoint, tap, messagesDelivered, alert-ingestion]
+thehive_version_required : "5.5"
+license_required : "platinum"
+linked_to : ["integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_MessageDelivered.js"]
 ---
 # Tutorial: Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
 
