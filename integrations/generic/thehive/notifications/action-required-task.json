@@ -1,6 +1,7 @@
 {
   "name": "Action Required on Task",
   "description": "Triggers when a task has actionRequired set to true",
+  "contributor": "Fabien Bloume, StrangeBee",
   "type": "filteredEvent",
   "status": "not_working",
   "comment": "Can't make it work, whether we use _is, _eq, etc.",

@@ -1,6 +1,7 @@
 {
   "name": "Alert Update",
   "description": "Triggers when an alert is updated",
+  "contributor": "Fabien Bloume, StrangeBee",
   "type": "filteredEvent",
   "status": "tested",
   "filter": {

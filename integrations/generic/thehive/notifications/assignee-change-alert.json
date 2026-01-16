@@ -1,6 +1,7 @@
 {
   "name": "Assignee change on Alert",
   "description": "Triggers when an alert is updated with a new assignee value. Does not trigger on alert creation with an assignee provided.",
+  "contributor": "Fabien Bloume, StrangeBee",
   "type": "filteredEvent",
   "status": "tested",
   "filter": {

@@ -1,6 +1,7 @@
 {
   "name": "Comment Creation",
   "description": "Triggers when a comment is created",
+  "contributor": "Fabien Bloume, StrangeBee",
   "type": "filteredEvent",
   "status": "tested",
   "filter": {

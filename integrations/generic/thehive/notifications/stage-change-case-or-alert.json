@@ -1,6 +1,7 @@
 {
   "name": "Stage change on Case or Alert",
   "description": "Triggers when the stage changes on a Case or Alert",
+  "contributor": "Fabien Bloume, StrangeBee",
   "type": "filteredEvent",
   "status": "tested",
   "filter": {
