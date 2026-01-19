@@ -258,6 +258,22 @@ def generate_catalog_index(all_manifests: Dict) -> str:
     lines.append("Auto-generated catalog of TheHive and Cortex integrations.")
     lines.append("")
 
+    # About This Catalog section
+    lines.append("## About This Catalog")
+    lines.append("")
+    lines.append("This catalog contains integrations built by StrangeBee and the community to help you "
+                 "integrate TheHive with your existing tools. Use them directly or as inspiration for your own.")
+    lines.append("")
+    lines.append("**Don't see what you need?** You can build your own:")
+    lines.append("")
+    lines.append("- **Analyzers** – enrich observables with external data")
+    lines.append("- **Responders** – automate actions on external systems")
+    lines.append("- **Functions** – custom workflow logic")
+    lines.append("- **Custom tools** – whatever your setup requires")
+    lines.append("")
+    lines.append("Built something useful? Contributions are welcome!")
+    lines.append("")
+
     # Calculate statistics
     total_vendors = len(all_manifests)
     total_analyzers = sum(m['stats']['totalAnalyzers'] for m in all_manifests.values())
@@ -540,22 +556,6 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
     lines.append("# Functions Catalog")
     lines.append("")
     lines.append("Complete list of TheHive functions available for workflow automation.")
-    lines.append("")
-
-    # About This Catalog section
-    lines.append("## About This Catalog")
-    lines.append("")
-    lines.append("This catalog contains integrations built by StrangeBee and the community to help you "
-                 "integrate TheHive with your existing tools. Use them directly or as inspiration for your own.")
-    lines.append("")
-    lines.append("**Don't see what you need?** You can build your own:")
-    lines.append("")
-    lines.append("- **Analyzers** – enrich observables with external data")
-    lines.append("- **Responders** – automate actions on external systems")
-    lines.append("- **Functions** – custom workflow logic")
-    lines.append("- **Custom tools** – whatever your setup requires")
-    lines.append("")
-    lines.append("Built something useful? Contributions are welcome!")
     lines.append("")
 
     # Collect generic functions from integrations/generic/functions/
