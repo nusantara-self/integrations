@@ -1,6 +1,8 @@
 # Functions Catalog
 
-Complete list of TheHive functions available for workflow automation.
+Example functions for TheHive. Use them as-is or as inspiration for your own.
+
+**Create your own:** [Functions](https://docs.strangebee.com/thehive/user-guides/organization/configure-organization/manage-functions/create-a-function/) - [Feeders](https://docs.strangebee.com/thehive/user-guides/organization/configure-organization/manage-feeders/create-a-feeder/)
 
 ## 📊 Summary
 
