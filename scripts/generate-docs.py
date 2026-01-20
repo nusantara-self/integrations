@@ -555,7 +555,9 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
     lines = []
     lines.append("# Functions Catalog")
     lines.append("")
-    lines.append("Complete list of TheHive functions available for workflow automation.")
+    lines.append("Example functions for TheHive. Use them as-is or as inspiration for your own.")
+    lines.append("")
+    lines.append("**Create your own:** [Functions](https://docs.strangebee.com/thehive/user-guides/organization/configure-organization/manage-functions/create-a-function/) - [Feeders](https://docs.strangebee.com/thehive/user-guides/organization/configure-organization/manage-feeders/create-a-feeder/)")
     lines.append("")
 
     # Collect generic functions from integrations/generic/functions/
