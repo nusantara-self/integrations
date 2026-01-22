@@ -5,8 +5,8 @@ Integrations that are either free to use or run locally without external depende
 ## Summary
 
 - **Total Analyzers:** 72 (8 local, 64 free)
-- **Total Responders:** 7 (0 local, 7 free)
-- **Total Integrations:** 79
+- **Total Responders:** 8 (0 local, 8 free)
+- **Total Integrations:** 80
 
 ## Analyzers
 
@@ -737,6 +737,16 @@ Get information from the RST Threat Feed, which integrated with Vulners, for a d
 ## Responders
 
 ### Free Subscription Responders
+
+<details>
+<summary><strong>AbuseIPDB_Report</strong> <code>v1.0</code> [Free] - AbuseIPDB</summary>
+
+**Vendor:** [AbuseIPDB](vendors/AbuseIPDB/overview)
+**Data Types:** `thehive:case_artifact`
+
+Report an IP address to AbuseIPDB for abuse tracking and community sharing. Please, make sure to use the correct category in your Cortex responder configuration.
+
+</details>
 
 <details>
 <summary><strong>Jupyter_Run_Notebook_Responder</strong> <code>v1.0</code> [Free] - Jupyter</summary>

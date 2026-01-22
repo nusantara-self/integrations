@@ -26,13 +26,25 @@ Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
 
 ---
 
+## Responders (1)
+
+### AbuseIPDB_Report `v1.0`
+Report an IP address to AbuseIPDB for abuse tracking and community sharing. Please, make sure to use the correct category in your Cortex responder configuration.
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [.upstream/cortex/responders/AbuseIPDB/AbuseIPDB_Report.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AbuseIPDB/AbuseIPDB_Report.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AbuseIPDB/AbuseIPDB_Report.json))
+
+---
+
 ## Statistics
 
 - **Total Analyzers:** 1
-- **Total Responders:** 0
+- **Total Responders:** 1
 - **Total Functions:** 0
 - **Total External Integrations:** 0
-- **Total Integrations:** 1
+- **Total Integrations:** 2
 
 ---
 

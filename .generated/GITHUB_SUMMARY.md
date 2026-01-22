@@ -4,11 +4,13 @@
 
 - **Total Vendors:** 194
 - **Total Analyzers:** 259
-- **Total Responders:** 131
+- **Total Responders:** 132
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 407
+- **Total Integrations:** 408
 
 ## Changes
 
-No changes detected.
+### 🔄 Updated Vendors (1)
+
+- **AbuseIPDB**: 1 → 2 (+1)

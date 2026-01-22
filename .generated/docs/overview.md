@@ -19,10 +19,10 @@ Built something useful? Contributions are welcome!
 
 - **Total Vendors:** 194
 - **Total Analyzers:** 259
-- **Total Responders:** 131
+- **Total Responders:** 132
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 407
+- **Total Integrations:** 408
 
 ## 📂 Vendors by Category
 
@@ -138,7 +138,7 @@ Built something useful? Contributions are welcome!
 
 ### Threat Intelligence
 
-**[AbuseIPDB](vendors/AbuseIPDB/overview.md)** (1 integrations)
+**[AbuseIPDB](vendors/AbuseIPDB/overview.md)** (2 integrations)
   AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs in...
 
 **[AlienVault OTX](vendors/OTXQuery/overview.md)** (1 integrations)
@@ -186,7 +186,7 @@ Built something useful? Contributions are welcome!
 ## 🔤 All Vendors (A-Z)
 
 - **[Abuse_Finder](vendors/Abuse_Finder/overview.md)** - *Uncategorized* - 1 analyzers
-- **[AbuseIPDB](vendors/AbuseIPDB/overview.md)** - *Threat Intelligence* - 1 analyzers
+- **[AbuseIPDB](vendors/AbuseIPDB/overview.md)** - *Threat Intelligence* - 1 analyzers, 1 responders
 - **[AILOnionLookup](vendors/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Airtable](vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions
 - **[AlienVault OTX](vendors/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers

@@ -36,11 +36,23 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
     integration_type: external_api
-  responders: []
+  responders:
+  - name: AbuseIPDB_Report
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Report an IP address to AbuseIPDB for abuse tracking and community sharing. Please, make sure to use the
+      correct category in your Cortex responder configuration.
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/AbuseIPDB/AbuseIPDB_Report.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AbuseIPDB/AbuseIPDB_Report.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AbuseIPDB/AbuseIPDB_Report.json
+    integration_type: external_api
   functions: []
 stats:
   totalAnalyzers: 1
-  totalResponders: 0
+  totalResponders: 1
   totalFunctions: 0
   totalExternalIntegrations: 0
-  total: 1
+  total: 2
