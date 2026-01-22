@@ -11,6 +11,8 @@ homepage: ''
 logo: {}
 useCases: []
 externalIntegrations: []
+displayOnWebsite: true
+visibility: low
 registration_required: true
 subscription_required: true
 free_subscription: false

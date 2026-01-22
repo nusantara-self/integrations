@@ -18,6 +18,8 @@
   },
   "useCases": [],
   "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": "low",
   "integrations": {
     "analyzers": [
       {

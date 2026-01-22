@@ -20,6 +20,8 @@ logo:
   github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/AbuseIPDB/assets/logo.svg
 useCases: []
 externalIntegrations: []
+displayOnWebsite: true
+visibility: high
 registration_required: true
 subscription_required: true
 free_subscription: true

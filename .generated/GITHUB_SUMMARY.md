@@ -11,6 +11,4 @@
 
 ## Changes
 
-### 🔄 Updated Vendors (1)
-
-- **AbuseIPDB**: 1 → 2 (+1)
+No changes detected.

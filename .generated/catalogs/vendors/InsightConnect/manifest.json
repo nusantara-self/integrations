@@ -23,6 +23,8 @@
       "documentation": "https://extensions.rapid7.com/extension/thehive"
     }
   ],
+  "displayOnWebsite": true,
+  "visibility": "low",
   "integrations": {
     "analyzers": [],
     "responders": [],

@@ -20,6 +20,8 @@
   },
   "useCases": [],
   "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": "high",
   "registration_required": true,
   "subscription_required": [
     true,

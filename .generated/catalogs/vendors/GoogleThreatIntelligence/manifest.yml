@@ -23,6 +23,8 @@ logo:
   github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
 useCases: []
 externalIntegrations: []
+displayOnWebsite: true
+visibility: high
 registration_required: true
 subscription_required:
 - true

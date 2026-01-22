@@ -50,6 +50,8 @@ externalIntegrations:
     automatic observable extraction and TTP mapping.
   type: connector
   documentation: https://github.com/StrangeBeeCorp/falcon2thehive
+displayOnWebsite: true
+visibility: high
 registration_required: true
 subscription_required: true
 free_subscription: false

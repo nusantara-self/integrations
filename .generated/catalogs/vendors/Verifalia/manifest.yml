@@ -11,6 +11,8 @@ homepage: ''
 logo: {}
 useCases: []
 externalIntegrations: []
+displayOnWebsite: true
+visibility: low
 integrations:
   analyzers:
   - name: Verifalia

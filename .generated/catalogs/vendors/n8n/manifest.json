@@ -23,6 +23,8 @@
       "documentation": "https://n8n.io/integrations/thehive-5/"
     }
   ],
+  "displayOnWebsite": true,
+  "visibility": "low",
   "registration_required": false,
   "subscription_required": false,
   "free_subscription": true,

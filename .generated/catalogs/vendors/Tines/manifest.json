@@ -18,6 +18,8 @@
       "documentation": "https://www.tines.com/solutions/products/thehive-project/"
     }
   ],
+  "displayOnWebsite": true,
+  "visibility": "low",
   "integrations": {
     "analyzers": [],
     "responders": [],

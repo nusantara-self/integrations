@@ -1,0 +1,2924 @@
+{
+  "metadata": {
+    "description": "Vendors sorted by visibility tier (high, medium, low), then alphabetically",
+    "totalVendors": 194,
+    "highCount": 20,
+    "mediumCount": 0,
+    "lowCount": 174
+  },
+  "high": [
+    {
+      "id": "AbuseIPDB",
+      "name": "AbuseIPDB",
+      "description": "AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions",
+      "category": "Threat Intelligence",
+      "homepage": "https://www.abuseipdb.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "Capa",
+      "name": "CAPA",
+      "description": "CAPA (FLARE Capability Analysis) is a malware analysis tool that automatically identifies malware capabilities and behaviors by detecting common techniques and functions, helping analysts quickly understand what malware can do during reverse engineering and incident response",
+      "category": "Malware Analysis",
+      "homepage": "https://github.com/mandiant/capa",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Cloudflare",
+      "name": "Cloudflare",
+      "description": "",
+      "category": "Web Application Firewall",
+      "homepage": "https://www.cloudflare.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "CrowdstrikeFalcon",
+      "name": "CrowdStrike Falcon",
+      "description": "CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat detection, prevention, and response capabilities",
+      "category": "EDR",
+      "homepage": "https://www.crowdstrike.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 11,
+        "totalResponders": 9,
+        "totalFunctions": 1,
+        "totalExternalIntegrations": 1,
+        "total": 22
+      }
+    },
+    {
+      "id": "GoogleThreatIntelligence",
+      "name": "Google Threat Intelligence",
+      "description": "Google Threat Intelligence (formerly VirusTotal) provides comprehensive malware analysis, threat intelligence, and file/URL/domain reputation data from 70+ security engines, enabling rapid threat assessment and IOC validation during investigations",
+      "category": "Threat Intelligence",
+      "homepage": "https://threatlabs.google.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 5,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 5
+      }
+    },
+    {
+      "id": "MSDefenderEndpoints",
+      "name": "Microsoft Defender for Endpoint",
+      "description": "Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, investigation, and automated response capabilities across Windows, macOS, Linux, iOS, and Android devices for comprehensive endpoint security",
+      "category": "EDR",
+      "homepage": "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 8,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 8
+      }
+    },
+    {
+      "id": "MSDefenderOffice365",
+      "name": "Microsoft Defender for Office 365",
+      "description": "Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting phishing, malware, and business email compromise attempts with automated investigation and response capabilities",
+      "category": "Email Security",
+      "homepage": "https://www.microsoft.com/security/business/threat-protection/office-365-defender",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 2,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "MSEntraID",
+      "name": "Microsoft Entra ID",
+      "description": "Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access management platform that provides user authentication data, sign-in logs, and security insights to investigate account compromises, suspicious access patterns, and identity-based attacks",
+      "category": "Identity & Access Management",
+      "homepage": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 4,
+        "totalResponders": 5,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 9
+      }
+    },
+    {
+      "id": "MISP",
+      "name": "MISP",
+      "description": "MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicators of Compromise (IOCs) and threat intelligence data, enabling collaborative defense and rapid incident response",
+      "category": "Threat Intelligence",
+      "homepage": "https://www.misp-project.org",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Onyphe",
+      "name": "ONYPHE",
+      "description": "ONYPHE is a cyber defense search engine that collects and analyzes internet-wide scan data, providing intelligence on exposed assets, vulnerabilities, and threat actor infrastructure for proactive defense and incident investigation",
+      "category": "Attack Surface Intelligence",
+      "homepage": "https://www.onyphe.io",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 5,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 5
+      }
+    },
+    {
+      "id": "Proofpoint",
+      "name": "Proofpoint",
+      "description": "Proofpoint is an enterprise email security and threat protection platform that provides advanced threat detection, URL defense, and forensic analysis capabilities",
+      "category": "Email Security",
+      "homepage": "https://www.proofpoint.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 2,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "RecordedFuture",
+      "name": "Recorded Future",
+      "description": "Recorded Future is a real-time threat intelligence platform that analyzes data from the open web, dark web, and technical sources to provide predictive insights, risk scores, and actionable intelligence for proactive threat detection",
+      "category": "Threat Intelligence",
+      "homepage": "https://www.recordedfuture.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Shodan",
+      "name": "Shodan",
+      "description": "Shodan is the search engine for internet-connected devices, providing reconnaissance data on exposed services, vulnerabilities, and infrastructure that helps identify attack surfaces, compromised systems, and threat actor infrastructure",
+      "category": "Attack Surface Intelligence",
+      "homepage": "https://www.shodan.io",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 6,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 6
+      }
+    },
+    {
+      "id": "Slack",
+      "name": "Slack",
+      "description": "Slack is a is a team collaboration platform that provides channels, direct messaging, file sharing, and an app ecosystem for workflows and incident response.",
+      "category": "Collaboration",
+      "homepage": "https://slack.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 2,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "Splunk",
+      "name": "Splunk",
+      "description": "Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across the enterprise, enabling real-time threat detection, security analytics, and incident investigation through powerful search and correlation capabilities",
+      "category": "SIEM & Analytics",
+      "homepage": "https://www.splunk.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 11,
+        "totalResponders": 0,
+        "totalFunctions": 1,
+        "totalExternalIntegrations": 2,
+        "total": 14
+      }
+    },
+    {
+      "id": "Telegram",
+      "name": "Telegram",
+      "description": "Telegram is a cloud-based messaging platform that enables real-time security alerts, incident notifications, and team collaboration during security operations with bot-based automation and secure communication channels",
+      "category": "Collaboration",
+      "homepage": "https://telegram.org",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "URLhaus",
+      "name": "URLhaus",
+      "description": "URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution URLs, providing real-time intelligence on malicious domains and payload delivery infrastructure used in active campaigns",
+      "category": "Threat Intelligence",
+      "homepage": "https://urlhaus.abuse.ch",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Urlscan.io",
+      "name": "URLScan.io",
+      "description": "URLScan.io is an automated web scanner that analyzes URLs and websites in real-time, capturing screenshots, network traffic, and behavioral indicators to identify phishing, malware distribution, and suspicious web content",
+      "category": "URL Analysis",
+      "homepage": "https://urlscan.io",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "VirusTotal",
+      "name": "VirusTotal",
+      "description": "VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus engines and security tools, enabling rapid file, URL, domain, and IP reputation checks during incident investigations",
+      "category": "Malware Analysis",
+      "homepage": "https://www.virustotal.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 4,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 4
+      }
+    },
+    {
+      "id": "Yara",
+      "name": "YARA",
+      "description": "YARA is a pattern matching engine for malware identification and classification that enables analysts to create rules describing malware families and threat patterns, facilitating rapid malware detection and threat hunting during investigations",
+      "category": "Malware Analysis",
+      "homepage": "https://virustotal.github.io/yara/",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    }
+  ],
+  "medium": [],
+  "low": [
+    {
+      "id": "Abuse_Finder",
+      "name": "Abuse_Finder",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "AILOnionLookup",
+      "name": "AILOnionLookup",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Airtable",
+      "name": "Airtable",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 1,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "OTXQuery",
+      "name": "AlienVault OTX",
+      "description": "AlienVault Open Threat Exchange (OTX) is a collaborative threat intelligence platform where security researchers share IOCs, attack patterns, and threat data, enabling community-driven defense and rapid threat validation",
+      "category": "Threat Intelligence",
+      "homepage": "https://otx.alienvault.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "AMPforEndpoints",
+      "name": "AMPforEndpoints",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 5,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 5
+      }
+    },
+    {
+      "id": "AnyRun",
+      "name": "AnyRun",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Autofocus",
+      "name": "Autofocus",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 3,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "AWSLambda",
+      "name": "AWSLambda",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "AWX",
+      "name": "AWX",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Axur",
+      "name": "Axur",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "BackscatterIO",
+      "name": "BackscatterIO",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "BinalyzeAIR",
+      "name": "BinalyzeAIR",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 2,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "C1fApp",
+      "name": "C1fApp",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Censys",
+      "name": "Censys",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "CERTatPassiveDNS",
+      "name": "CERTatPassiveDNS",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "ChainAbuse",
+      "name": "ChainAbuse",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "CheckPhish",
+      "name": "CheckPhish",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "CheckPoint",
+      "name": "CheckPoint",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 2,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "CIRCLHashlookup",
+      "name": "CIRCLHashlookup",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "CIRCLPassiveDNS",
+      "name": "CIRCLPassiveDNS",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "CIRCLPassiveSSL",
+      "name": "CIRCLPassiveSSL",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "CIRCLVulnerabilityLookup",
+      "name": "CIRCLVulnerabilityLookup",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "CiscoUmbrella",
+      "name": "CiscoUmbrella",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "CISMCAP",
+      "name": "CISMCAP",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "ClamAV",
+      "name": "ClamAV",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Cluster25",
+      "name": "Cluster25",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "ClusterHawk",
+      "name": "ClusterHawk",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "CortexXSOAR",
+      "name": "Cortex XSOAR",
+      "description": "Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate incident response workflows, orchestrate security tools, and accelerate threat investigation and remediation",
+      "category": "SOAR & Automation",
+      "homepage": "https://www.paloaltonetworks.com/cortex/cortex-xsoar",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 1,
+        "total": 1
+      }
+    },
+    {
+      "id": "Crowdsec",
+      "name": "CrowdSec",
+      "description": "CrowdSec is a collaborative security platform that aggregates attack data from community-deployed sensors to identify malicious IPs and attack patterns, enabling real-time blocking decisions and threat intelligence sharing for collective defense",
+      "category": "Threat Intelligence",
+      "homepage": "https://www.crowdsec.net",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Crtsh",
+      "name": "Crtsh",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "CuckooSandbox",
+      "name": "CuckooSandbox",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "CyberChef",
+      "name": "CyberChef",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 3,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "CyberCrime-Tracker",
+      "name": "CyberCrime-Tracker",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Cyberprotect",
+      "name": "Cyberprotect",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Cylance",
+      "name": "Cylance",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Diario",
+      "name": "Diario",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 0
+      }
+    },
+    {
+      "id": "DNS-RPZ",
+      "name": "DNS-RPZ",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "DNSDB",
+      "name": "DNSDB",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 3,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "DNSdumpster",
+      "name": "DNSdumpster",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "DNSLookingglass",
+      "name": "DNSLookingglass",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "DNSSinkhole",
+      "name": "DNSSinkhole",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "DomainMailSPFDMARC",
+      "name": "DomainMailSPFDMARC",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "DomainTools",
+      "name": "DomainTools",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 10,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 10
+      }
+    },
+    {
+      "id": "DomainToolsIris",
+      "name": "DomainToolsIris",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 2,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 4
+      }
+    },
+    {
+      "id": "DShield",
+      "name": "DShield",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Duo_Security",
+      "name": "Duo_Security",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 3,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "EchoTrail",
+      "name": "EchoTrail",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "EclecticIQ",
+      "name": "EclecticIQ",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "EclecticIQIndicator",
+      "name": "EclecticIQIndicator",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Elasticsearch",
+      "name": "Elasticsearch",
+      "description": "Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log analysis platforms, enabling analysts to query and correlate security events, logs, and threat data across enterprise infrastructure during incident investigations",
+      "category": "SIEM & Analytics",
+      "homepage": "https://www.elastic.co",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 1,
+        "total": 2
+      }
+    },
+    {
+      "id": "EmailRep",
+      "name": "EmailRep",
+      "description": "EmailRep analyzes email addresses to detect disposable emails, spam sources, and malicious senders by providing reputation scores and threat intelligence, helping analysts assess email-based threats during investigations",
+      "category": "Threat Intelligence",
+      "homepage": "https://emailrep.io",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "EmergingThreats",
+      "name": "EmergingThreats",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 3,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "EmlParser",
+      "name": "EmlParser",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "FalconCustomIOC",
+      "name": "FalconCustomIOC",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 2,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "FalconSandbox",
+      "name": "FalconSandbox",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "FileInfo",
+      "name": "FileInfo",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "FireEyeiSight",
+      "name": "FireEyeiSight",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "FireHOLBlocklists",
+      "name": "FireHOLBlocklists",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "ForcepointWebsensePing",
+      "name": "ForcepointWebsensePing",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Fortiguard",
+      "name": "Fortiguard",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 0
+      }
+    },
+    {
+      "id": "FoxIO",
+      "name": "FoxIO",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Gatewatcher_CTI",
+      "name": "Gatewatcher_CTI",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Gatewatcher_CTI_Identity",
+      "name": "Gatewatcher_CTI_Identity",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Gmail",
+      "name": "Gmail",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 5,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 5
+      }
+    },
+    {
+      "id": "GoogleDNS",
+      "name": "GoogleDNS",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "GoogleSafebrowsing",
+      "name": "GoogleSafebrowsing",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "GoogleVisionAPI",
+      "name": "GoogleVisionAPI",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "GreyNoise",
+      "name": "GreyNoise",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "GRR",
+      "name": "GRR",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "HarfangLab",
+      "name": "HarfangLab",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 31,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 31
+      }
+    },
+    {
+      "id": "Hashdd",
+      "name": "Hashdd",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "HIBP",
+      "name": "Have I Been Pwned",
+      "description": "Have I Been Pwned tracks billions of compromised credentials from data breaches, allowing analysts to verify if emails or passwords have been exposed in known breaches during security investigations and incident response",
+      "category": "Breach Intelligence",
+      "homepage": "https://haveibeenpwned.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Hippocampe",
+      "name": "Hippocampe",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 0
+      }
+    },
+    {
+      "id": "Hunterio",
+      "name": "Hunter.io",
+      "description": "Hunter.io discovers and verifies email addresses associated with domains, enabling investigators to identify organizational contacts, validate email authenticity, and map corporate infrastructure during threat intelligence gathering",
+      "category": "OSINT & Enrichment",
+      "homepage": "https://hunter.io",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "HybridAnalysis",
+      "name": "Hybrid Analysis",
+      "description": "Hybrid Analysis (Falcon Sandbox) is a free malware analysis service powered by CrowdStrike that executes suspicious files in sandbox environments, providing detailed behavioral analysis, IOCs, and threat intelligence for malware investigations",
+      "category": "Malware Analysis",
+      "homepage": "https://www.hybrid-analysis.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "IBMQRadar",
+      "name": "IBMQRadar",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "IBMXForce",
+      "name": "IBMXForce",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Inoitsu",
+      "name": "Inoitsu",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "IntezerCommunity",
+      "name": "IntezerCommunity",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Investigate",
+      "name": "Investigate",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "IP-API",
+      "name": "IP-API",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "IPinfo",
+      "name": "IPinfo",
+      "description": "IPinfo provides comprehensive IP address intelligence including geolocation, ASN ownership, company details, and hosted domains, enabling analysts to quickly profile network infrastructure and identify suspicious connections",
+      "category": "OSINT & Enrichment",
+      "homepage": "https://ipinfo.io",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "IPVoid",
+      "name": "IPVoid",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "isMalicious",
+      "name": "isMalicious",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "IVRE",
+      "name": "IVRE",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "JAMFProtect",
+      "name": "JAMFProtect",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 2,
+        "totalFunctions": 1,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "JIRA",
+      "name": "JIRA",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 1,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "JoeSandbox",
+      "name": "JoeSandbox",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 3,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "Jupyter",
+      "name": "Jupyter",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "KasperskyTIP",
+      "name": "KasperskyTIP",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "KnowBe4",
+      "name": "KnowBe4",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "LdapQuery",
+      "name": "LdapQuery",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Lookyloo",
+      "name": "Lookyloo",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "LupovisProwl",
+      "name": "LupovisProwl",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Mailer",
+      "name": "Mailer",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "MailIncidentStatus",
+      "name": "MailIncidentStatus",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Malpedia",
+      "name": "Malpedia",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Maltiverse",
+      "name": "Maltiverse",
+      "description": "Maltiverse is a threat intelligence platform that aggregates and enriches IOCs from multiple sources, providing contextualized intelligence on IPs, domains, URLs, and files to accelerate threat hunting and incident response",
+      "category": "Threat Intelligence",
+      "homepage": "https://www.maltiverse.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "MalwareBazaar",
+      "name": "MalwareBazaar",
+      "description": "MalwareBazaar by Abuse.ch is a community-driven malware sample repository that enables analysts to query, download, and share malware samples with hash-based lookups for rapid threat identification and malware family correlation",
+      "category": "Threat Intelligence",
+      "homepage": "https://bazaar.abuse.ch",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "MalwareClustering",
+      "name": "MalwareClustering",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Malwares",
+      "name": "Malwares",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "MaxMind",
+      "name": "MaxMind",
+      "description": "MaxMind provides geolocation and network intelligence data that maps IP addresses to geographic locations, ISPs, and network types, enabling analysts to identify attack origins and detect anomalous access patterns during investigations",
+      "category": "OSINT & Enrichment",
+      "homepage": "https://www.maxmind.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "MetaDefender",
+      "name": "MetaDefender",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 5,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 5
+      }
+    },
+    {
+      "id": "Minemeld",
+      "name": "Minemeld",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "MISPWarningLists",
+      "name": "MISPWarningLists",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "MnemonicPDNS",
+      "name": "Mnemonic Passive DNS",
+      "description": "Mnemonic Passive DNS provides historical DNS resolution data that helps analysts track domain infrastructure changes, identify malicious domain rotation patterns, and investigate threat actor infrastructure during incident investigations",
+      "category": "OSINT & Enrichment",
+      "homepage": "https://www.mnemonic.no",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "MsgParser",
+      "name": "MsgParser",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "description": "n8n is a low-code/no-code workflow automation platform that enables technical teams to build, deploy, and manage complex automated workflows.",
+      "category": "SOAR & Automation",
+      "homepage": "https://n8n.io",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 1,
+        "total": 2
+      }
+    },
+    {
+      "id": "NERD",
+      "name": "NERD",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Nessus",
+      "name": "Nessus",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Netcraft",
+      "name": "Netcraft",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "NSRL",
+      "name": "NSRL",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Okta",
+      "name": "Okta",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "ONYPHEActiveScan",
+      "name": "ONYPHEActiveScan",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "OpenCTI",
+      "name": "OpenCTI",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "OrionMalware",
+      "name": "OrionMalware",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "PaloAltoCortexXDR",
+      "name": "PaloAltoCortexXDR",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 3,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "PaloAltoNGFW",
+      "name": "PaloAltoNGFW",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 16,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 16
+      }
+    },
+    {
+      "id": "PaloAltoWildFire",
+      "name": "PaloAltoWildFire",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "PassiveTotal",
+      "name": "PassiveTotal",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 11,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 11
+      }
+    },
+    {
+      "id": "Patrowl",
+      "name": "Patrowl",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "PayloadSecurity",
+      "name": "PayloadSecurity",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "PhishingInitiative",
+      "name": "PhishingInitiative",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "PhishTank",
+      "name": "PhishTank",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Pulsedive",
+      "name": "Pulsedive",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "QrDecode",
+      "name": "QrDecode",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "InsightConnect",
+      "name": "Rapid7 InsightConnect",
+      "description": "Rapid7 InsightConnect is a security orchestration and automation platform that enables security teams to automate workflows, connect security tools, and accelerate incident response through pre-built integrations and custom automation",
+      "category": "SOAR & Automation",
+      "homepage": "https://www.rapid7.com/products/insightconnect/",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 1,
+        "total": 1
+      }
+    },
+    {
+      "id": "Redmine",
+      "name": "Redmine",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "RiskIQ",
+      "name": "RiskIQ",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 16,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 17
+      }
+    },
+    {
+      "id": "Robtex",
+      "name": "Robtex",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 3,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "RT4",
+      "name": "RT4",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "SecurityTrails",
+      "name": "SecurityTrails",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "SEKOIAIntelligenceCenter",
+      "name": "SEKOIAIntelligenceCenter",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 3,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "SendGrid",
+      "name": "SendGrid",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "SentinelOne",
+      "name": "SentinelOne",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "Shuffle",
+      "name": "Shuffle",
+      "description": "Shuffle is an open-source security orchestration, automation and response (SOAR) platform that automates repetitive security tasks, orchestrates incident response workflows, and integrates security tools to accelerate threat detection and remediation",
+      "category": "SOAR & Automation",
+      "homepage": "https://shuffler.io",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 1,
+        "total": 2
+      }
+    },
+    {
+      "id": "SinkDB",
+      "name": "SinkDB",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "SoltraEdge",
+      "name": "SoltraEdge",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "SophosIntelix",
+      "name": "SophosIntelix",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 3,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "SpamAssassin",
+      "name": "SpamAssassin",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "SpamhausDBL",
+      "name": "SpamhausDBL",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "StamusNetworks",
+      "name": "StamusNetworks",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "StaxxSearch",
+      "name": "StaxxSearch",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "StopForumSpam",
+      "name": "StopForumSpam",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "TalosReputation",
+      "name": "TalosReputation",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 0
+      }
+    },
+    {
+      "id": "TeamCymruMHR",
+      "name": "TeamCymruMHR",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Test",
+      "name": "Test",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 2,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "TestAnalyzer",
+      "name": "TestAnalyzer",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "ThreatConnect",
+      "name": "ThreatConnect",
+      "description": "ThreatConnect is a threat intelligence platform that enables security teams to aggregate, analyze, and operationalize threat data for improved security operations and incident response",
+      "category": "Threat Intelligence",
+      "homepage": "https://threatconnect.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 1,
+        "total": 1
+      }
+    },
+    {
+      "id": "Threatcrowd",
+      "name": "Threatcrowd",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 0
+      }
+    },
+    {
+      "id": "ThreatGrid",
+      "name": "ThreatGrid",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "ThreatMiner",
+      "name": "ThreatMiner",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "ThreatResponse",
+      "name": "ThreatResponse",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Thunderstorm",
+      "name": "Thunderstorm",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Tines",
+      "name": "Tines",
+      "description": "",
+      "category": "SOAR & Automation",
+      "homepage": "https://www.tines.com",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 1,
+        "total": 1
+      }
+    },
+    {
+      "id": "TorBlutmagie",
+      "name": "TorBlutmagie",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "TorProject",
+      "name": "TorProject",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Triage",
+      "name": "Triage",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "UnshortenLink",
+      "name": "UnshortenLink",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "urlDNA.io",
+      "name": "urlDNA.io",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "Valhalla",
+      "name": "Valhalla",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "ValidateObservable",
+      "name": "ValidateObservable",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Velociraptor",
+      "name": "Velociraptor",
+      "description": "Velociraptor is an advanced digital forensics and incident response (DFIR) platform that enables endpoint visibility, remote forensic collection, and threat hunting at scale across enterprise environments for rapid investigation and evidence gathering",
+      "category": "DFIR",
+      "homepage": "https://docs.velociraptor.app",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Verifalia",
+      "name": "Verifalia",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Virusshare",
+      "name": "Virusshare",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "VirustotalDownloader",
+      "name": "VirustotalDownloader",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "VMRay",
+      "name": "VMRay",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Vulners",
+      "name": "Vulners",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "Watcher",
+      "name": "Watcher",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 2,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "Wazuh",
+      "name": "Wazuh",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "WOT",
+      "name": "WOT",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "Yeti",
+      "name": "Yeti",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "ZEROFOX",
+      "name": "ZEROFOX",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 2,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "Zscaler",
+      "name": "Zscaler",
+      "description": "",
+      "category": "",
+      "homepage": "",
+      "displayOnWebsite": true,
+      "stats": {
+        "totalAnalyzers": 2,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    }
+  ]
+}

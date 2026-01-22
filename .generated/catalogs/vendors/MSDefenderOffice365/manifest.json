@@ -19,6 +19,8 @@
   },
   "useCases": [],
   "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": "high",
   "registration_required": [
     true,
     false

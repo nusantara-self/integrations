@@ -19,6 +19,8 @@ homepage: https://docs.velociraptor.app
 logo: {}
 useCases: []
 externalIntegrations: []
+displayOnWebsite: true
+visibility: low
 integrations:
   analyzers: []
   responders:

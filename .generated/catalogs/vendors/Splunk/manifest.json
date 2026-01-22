@@ -31,6 +31,8 @@
       "documentation": "https://splunkbase.splunk.com/app/5939"
     }
   ],
+  "displayOnWebsite": true,
+  "visibility": "high",
   "registration_required": false,
   "subscription_required": false,
   "free_subscription": true,

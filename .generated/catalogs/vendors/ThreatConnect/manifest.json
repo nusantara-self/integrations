@@ -18,6 +18,8 @@
       "documentation": "https://threatconnect.com/marketplace/thehive/"
     }
   ],
+  "displayOnWebsite": true,
+  "visibility": "low",
   "integrations": {
     "analyzers": [],
     "responders": [],

@@ -25,6 +25,8 @@ externalIntegrations:
   description: Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
   type: connector
   documentation: https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type
+displayOnWebsite: true
+visibility: low
 registration_required: false
 subscription_required: false
 free_subscription: true

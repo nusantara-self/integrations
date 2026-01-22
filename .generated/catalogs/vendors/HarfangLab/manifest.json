@@ -8,6 +8,8 @@
   "logo": {},
   "useCases": [],
   "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": "low",
   "subscription_required": true,
   "free_subscription": false,
   "integrations": {

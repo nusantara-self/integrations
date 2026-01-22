@@ -40,6 +40,8 @@ useCases:
   - communication
   - notification
 externalIntegrations: []
+displayOnWebsite: true
+visibility: high
 registration_required: true
 subscription_required: false
 free_subscription: true

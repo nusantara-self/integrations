@@ -19,6 +19,8 @@ externalIntegrations:
     handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
   type: integration
   documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
+displayOnWebsite: true
+visibility: low
 integrations:
   analyzers: []
   responders: []

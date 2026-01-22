@@ -8,6 +8,8 @@ Abuse_Finder:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -55,6 +57,8 @@ AbuseIPDB:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/AbuseIPDB/assets/logo.svg
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -101,6 +105,8 @@ AILOnionLookup:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -138,6 +144,8 @@ Airtable:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -167,6 +175,8 @@ AMPforEndpoints:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -242,6 +252,8 @@ AnyRun:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -277,6 +289,8 @@ Autofocus:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Autofocus_GetSampleAnalysis
@@ -337,6 +351,8 @@ AWSLambda:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -375,6 +391,8 @@ AWX:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -409,6 +427,8 @@ Axur:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -447,6 +467,8 @@ BackscatterIO:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: BackscatterIO_Enrichment
@@ -494,6 +516,8 @@ BinalyzeAIR:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -539,6 +563,8 @@ C1fApp:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: C1fApp
@@ -583,6 +609,8 @@ Capa:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Capa/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -617,6 +645,8 @@ Censys:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -653,6 +683,8 @@ CERTatPassiveDNS:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: CERTatPassiveDNS
@@ -686,6 +718,8 @@ ChainAbuse:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: false
   integrations:
@@ -720,6 +754,8 @@ CheckPhish:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: CheckPhish
@@ -762,6 +798,8 @@ CheckPoint:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -804,6 +842,8 @@ CIRCLHashlookup:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -838,6 +878,8 @@ CIRCLPassiveDNS:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -874,6 +916,8 @@ CIRCLPassiveSSL:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -910,6 +954,8 @@ CIRCLVulnerabilityLookup:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -952,6 +998,8 @@ CiscoUmbrella:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -998,6 +1046,8 @@ CISMCAP:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: false
   free_subscription: false
@@ -1038,6 +1088,8 @@ ClamAV:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: ClamAV_FileInfo
@@ -1072,6 +1124,8 @@ Cloudflare:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Cloudflare/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1106,6 +1160,8 @@ Cluster25:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1145,6 +1201,8 @@ ClusterHawk:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1187,6 +1245,8 @@ CortexXSOAR:
       handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
     type: integration
     documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -1217,6 +1277,8 @@ Crowdsec:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Crowdsec/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -1290,6 +1352,8 @@ CrowdstrikeFalcon:
       with automatic observable extraction and TTP mapping.
     type: connector
     documentation: https://github.com/StrangeBeeCorp/falcon2thehive
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1547,6 +1611,8 @@ Crtsh:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -1581,6 +1647,8 @@ CuckooSandbox:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -1626,6 +1694,8 @@ CyberChef:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -1682,6 +1752,8 @@ CyberCrime-Tracker:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -1720,6 +1792,8 @@ Cyberprotect:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -1758,6 +1832,8 @@ Cylance:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1792,6 +1868,8 @@ Diario:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -1812,6 +1890,8 @@ DNS-RPZ:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -1843,6 +1923,8 @@ DNSDB:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: DNSDB_DomainName
@@ -1898,6 +1980,8 @@ DNSdumpster:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -1932,6 +2016,8 @@ DNSLookingglass:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -1967,6 +2053,8 @@ DNSSinkhole:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: DNSSinkhole
@@ -1998,6 +2086,8 @@ DomainMailSPFDMARC:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2033,6 +2123,8 @@ DomainTools:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: DomainTools_Risk
@@ -2176,6 +2268,8 @@ DomainToolsIris:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2245,6 +2339,8 @@ DShield:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -2279,6 +2375,8 @@ Duo_Security:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -2333,6 +2431,8 @@ EchoTrail:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -2369,6 +2469,8 @@ EclecticIQ:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2415,6 +2517,8 @@ EclecticIQIndicator:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -2461,6 +2565,8 @@ Elasticsearch:
     description: Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
     type: connector
     documentation: https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -2509,6 +2615,8 @@ EmailRep:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/EmailRep/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -2543,6 +2651,8 @@ EmergingThreats:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2601,6 +2711,8 @@ EmlParser:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   integrations:
@@ -2634,6 +2746,8 @@ FalconCustomIOC:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -2678,6 +2792,8 @@ FalconSandbox:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2712,6 +2828,8 @@ FileInfo:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: FileInfo
@@ -2744,6 +2862,8 @@ FireEyeiSight:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2781,6 +2901,8 @@ FireHOLBlocklists:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2815,6 +2937,8 @@ ForcepointWebsensePing:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2852,6 +2976,8 @@ Fortiguard:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -2872,6 +2998,8 @@ FoxIO:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -2907,6 +3035,8 @@ Gatewatcher_CTI:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2946,6 +3076,8 @@ Gatewatcher_CTI_Identity:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -2977,6 +3109,8 @@ Gmail:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -3052,6 +3186,8 @@ GoogleDNS:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: GoogleDNS_resolve
@@ -3085,6 +3221,8 @@ GoogleSafebrowsing:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: GoogleSafebrowsing
@@ -3129,6 +3267,8 @@ GoogleThreatIntelligence:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required:
   - true
@@ -3217,6 +3357,8 @@ GoogleVisionAPI:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: GoogleVisionAPI_WebDetection
@@ -3249,6 +3391,8 @@ GreyNoise:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -3283,6 +3427,8 @@ GRR:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: GRR
@@ -3315,6 +3461,8 @@ HarfangLab:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   subscription_required: true
   free_subscription: false
   integrations:
@@ -3681,6 +3829,8 @@ Hashdd:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -3735,6 +3885,8 @@ HIBP:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/HIBP/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3769,6 +3921,8 @@ Hippocampe:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -3798,6 +3952,8 @@ Hunterio:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Hunterio/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -3842,6 +3998,8 @@ HybridAnalysis:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/HybridAnalysis/assets/logo.ico
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: HybridAnalysis_GetReport
@@ -3877,6 +4035,8 @@ IBMQRadar:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3911,6 +4071,8 @@ IBMXForce:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: IBMXForce_Lookup
@@ -3945,6 +4107,8 @@ Inoitsu:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -3991,6 +4155,8 @@ InsightConnect:
       handling, and incident response orchestration
     type: extension
     documentation: https://extensions.rapid7.com/extension/thehive
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -4011,6 +4177,8 @@ IntezerCommunity:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4046,6 +4214,8 @@ Investigate:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Investigate_Categorization
@@ -4089,6 +4259,8 @@ IP-API:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   integrations:
@@ -4132,6 +4304,8 @@ IPinfo:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/IPinfo/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: IPinfo_Details
@@ -4174,6 +4348,8 @@ IPVoid:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: IPVoid
@@ -4205,6 +4381,8 @@ isMalicious:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4242,6 +4420,8 @@ IVRE:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: IVRE
@@ -4280,6 +4460,8 @@ JAMFProtect:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -4338,6 +4520,8 @@ JIRA:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -4367,6 +4551,8 @@ JoeSandbox:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   integrations:
@@ -4422,6 +4608,8 @@ Jupyter:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -4485,6 +4673,8 @@ KasperskyTIP:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: KasperskyThreatIntelligencePortal
@@ -4518,6 +4708,8 @@ KnowBe4:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -4549,6 +4741,8 @@ LdapQuery:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Ldap_Query
@@ -4581,6 +4775,8 @@ Lookyloo:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -4618,6 +4814,8 @@ LupovisProwl:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   integrations:
@@ -4651,6 +4849,8 @@ Mailer:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -4684,6 +4884,8 @@ MailIncidentStatus:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -4718,6 +4920,8 @@ Malpedia:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Malpedia
@@ -4758,6 +4962,8 @@ Maltiverse:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Maltiverse/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -4804,6 +5010,8 @@ MalwareBazaar:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MalwareBazaar/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4838,6 +5046,8 @@ MalwareClustering:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -4873,6 +5083,8 @@ Malwares:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4930,6 +5142,8 @@ MaxMind:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MaxMind/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: MaxMind_GeoIP
@@ -4961,6 +5175,8 @@ MetaDefender:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: MetaDefenderCore_GetReport
@@ -5038,6 +5254,8 @@ Minemeld:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -5081,6 +5299,8 @@ MISP:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MISP/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -5128,6 +5348,8 @@ MISPWarningLists:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -5175,6 +5397,8 @@ MnemonicPDNS:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MnemonicPDNS/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Mnemonic_pDNS_Closed
@@ -5230,6 +5454,8 @@ MSDefenderEndpoints:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MSDefenderEndpoints/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -5351,6 +5577,8 @@ MSDefenderOffice365:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MSDefenderOffice365/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required:
   - true
   - false
@@ -5426,6 +5654,8 @@ MSEntraID:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MSEntraID/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -5551,6 +5781,8 @@ MsgParser:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Msg_Parser
@@ -5594,6 +5826,8 @@ n8n:
       and TheHive cases/alerts/observables
     type: workflow-nodes
     documentation: https://n8n.io/integrations/thehive-5/
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -5632,6 +5866,8 @@ NERD:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -5666,6 +5902,8 @@ Nessus:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Nessus
@@ -5698,6 +5936,8 @@ Netcraft:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -5732,6 +5972,8 @@ NSRL:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: NSRL
@@ -5764,6 +6006,8 @@ Okta:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: false
   free_subscription: false
@@ -5808,6 +6052,8 @@ Onyphe:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Onyphe/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -5905,6 +6151,8 @@ ONYPHEActiveScan:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -5941,6 +6189,8 @@ OpenCTI:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: false
   free_subscription: false
@@ -6012,6 +6262,8 @@ OrionMalware:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6056,6 +6308,8 @@ OTXQuery:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/OTXQuery/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -6094,6 +6348,8 @@ PaloAltoCortexXDR:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6150,6 +6406,8 @@ PaloAltoNGFW:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -6378,6 +6636,8 @@ PaloAltoWildFire:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6427,6 +6687,8 @@ PassiveTotal:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: PassiveTotal_Osint
@@ -6588,6 +6850,8 @@ Patrowl:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -6624,6 +6888,8 @@ PayloadSecurity:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: PayloadSecurity_File_Analysis
@@ -6666,6 +6932,8 @@ PhishingInitiative:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription:
@@ -6713,6 +6981,8 @@ PhishTank:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -6776,6 +7046,8 @@ Proofpoint:
     - messagesDelivered
     - alert-ingestion
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6828,6 +7100,8 @@ Pulsedive:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Pulsedive_GetIndicator
@@ -6862,6 +7136,8 @@ QrDecode:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: QrDecode
@@ -6902,6 +7178,8 @@ RecordedFuture:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/RecordedFuture/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: true
   integrations:
@@ -6940,6 +7218,8 @@ Redmine:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -6972,6 +7252,8 @@ RiskIQ:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: RiskIQ_Certificates
@@ -7208,6 +7490,8 @@ Robtex:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Robtex_Reverse_PDNS_Query
@@ -7262,6 +7546,8 @@ RT4:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -7295,6 +7581,8 @@ SecurityTrails:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: SecurityTrails_Passive_DNS
@@ -7337,6 +7625,8 @@ SEKOIAIntelligenceCenter:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -7405,6 +7695,8 @@ SendGrid:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -7437,6 +7729,8 @@ SentinelOne:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -7494,6 +7788,8 @@ Shodan:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Shodan/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -7600,6 +7896,8 @@ Shuffle:
       alert handling, and incident response orchestration
     type: app
     documentation: https://shuffler.io/apps/thehive/integrations/TheHive_5
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -7635,6 +7933,8 @@ SinkDB:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: SinkDB
@@ -7698,6 +7998,8 @@ Slack:
     - communication
     - notification
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -7745,6 +8047,8 @@ SoltraEdge:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: SoltraEdge
@@ -7789,6 +8093,8 @@ SophosIntelix:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: SophosIntelix_Submit_Dynamic
@@ -7849,6 +8155,8 @@ SpamAssassin:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -7883,6 +8191,8 @@ SpamhausDBL:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: SpamhausDBL
@@ -7935,6 +8245,8 @@ Splunk:
       and TTP tracking to automate incident response workflows between Splunk and TheHive
     type: soar-connector
     documentation: https://splunkbase.splunk.com/app/5939
+  displayOnWebsite: true
+  visibility: high
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -8093,6 +8405,8 @@ StamusNetworks:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: StamusNetworks_HostID
@@ -8124,6 +8438,8 @@ StaxxSearch:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: StaxxSearch
@@ -8160,6 +8476,8 @@ StopForumSpam:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: StopForumSpam
@@ -8192,6 +8510,8 @@ TalosReputation:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -8212,6 +8532,8 @@ TeamCymruMHR:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -8255,6 +8577,8 @@ Telegram:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Telegram/assets/logo.svg
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -8289,6 +8613,8 @@ Test:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -8339,6 +8665,8 @@ TestAnalyzer:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -8413,6 +8741,8 @@ ThreatConnect:
       tags for coordinated incident response
     type: integration
     documentation: https://threatconnect.com/marketplace/thehive/
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -8433,6 +8763,8 @@ Threatcrowd:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -8453,6 +8785,8 @@ ThreatGrid:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: ThreatGrid
@@ -8486,6 +8820,8 @@ ThreatMiner:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: ThreatMiner
@@ -8518,6 +8854,8 @@ ThreatResponse:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: ThreatResponse
@@ -8554,6 +8892,8 @@ Thunderstorm:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -8595,6 +8935,8 @@ Tines:
       creation, updates, and case management
     type: connector
     documentation: https://www.tines.com/solutions/products/thehive-project/
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders: []
@@ -8615,6 +8957,8 @@ TorBlutmagie:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -8652,6 +8996,8 @@ TorProject:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: TorProject
@@ -8683,6 +9029,8 @@ Triage:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -8720,6 +9068,8 @@ UnshortenLink:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: UnshortenLink
@@ -8751,6 +9101,8 @@ urlDNA.io:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -8807,6 +9159,8 @@ URLhaus:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/URLhaus/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -8854,6 +9208,8 @@ Urlscan.io:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Urlscan.io/assets/logo.ico
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required:
   - true
   - false
@@ -8907,6 +9263,8 @@ Valhalla:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -8941,6 +9299,8 @@ ValidateObservable:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -8991,6 +9351,8 @@ Velociraptor:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -9022,6 +9384,8 @@ Verifalia:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Verifalia
@@ -9053,6 +9417,8 @@ Virusshare:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -9098,6 +9464,8 @@ VirusTotal:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/VirusTotal/assets/logo.svg
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: true
   subscription_required:
   - true
@@ -9172,6 +9540,8 @@ VirustotalDownloader:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -9206,6 +9576,8 @@ VMRay:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: VMRay
@@ -9239,6 +9611,8 @@ Vulners:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -9286,6 +9660,8 @@ Watcher:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Watcher_CheckDomain
@@ -9339,6 +9715,8 @@ Wazuh:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -9371,6 +9749,8 @@ WOT:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: WOT_Lookup
@@ -9412,6 +9792,8 @@ Yara:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Yara/assets/logo.png
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: high
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -9447,6 +9829,8 @@ Yeti:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers:
     - name: Yeti
@@ -9482,6 +9866,8 @@ ZEROFOX:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -9524,6 +9910,8 @@ Zscaler:
   logo: {}
   useCases: []
   externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: false
