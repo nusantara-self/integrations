@@ -6,8 +6,8 @@ Example functions for TheHive. Use them as-is or as inspiration for your own.
 
 ## 📊 Summary
 
-- **Total Functions:** 13
-- **Generic Functions:** 6
+- **Total Functions:** 14
+- **Generic Functions:** 7
 - **Vendor-Specific Functions:** 7
 - **Vendors with Functions:** 6
 
@@ -67,6 +67,43 @@ This function is designed to trigger on case closed event. It automatically chan
 This function will find the "New" or "InProgress" cases that were not updated since one month. For each case, add a tag "cold-case"
 
 📄 [View full documentation](coldcaseautomation.md)
+
+---
+
+### [computeCustomMetrics](computecustommetrics.md) `v1.0.0`
+
+**Type:** Notifier
+**Mode:** Enabled
+
+This function computes two key response metrics for every case in TheHive:
+– **Time‑to‑Respond (TTR)**: delay (in minutes) between the case's start date and the *earliest* task in the
+  "3 ‑ Communication", "4 ‑ Containment", or "5 ‑ Eradication" task groups.
+– **Time‑to‑Contain (TTC)**: delay (in minutes) between the case's start date and the *latest* task in the
+  "4 ‑ Containment" task group.
+
+It can run in two modes:
+• **Batch mode** (no `input` object) – loops through a page of cases to back‑fill or refresh metrics.
+• **Event‑driven mode** (`input` is a case payload) – updates metrics for the affected case only.
+
+The function writes both the raw task timestamp and the computed metric to the following custom fields
+(create them in your Case template):
+  • `timestamp‑time‑to‑respond` (Number – epoch ms)
+  • `time‑to‑respond‑in‑minutes` (Number)
+  • `timestamp‑time‑to‑contain` (Number – epoch ms)
+  • `time‑to‑contain‑in‑minutes` (Number)
+
+Param:
+  – **input**: Either an empty object (batch trigger) or the Case JSON injected by TheHive when the
+               notification fires. This triggers a search to find all valid cases to update.
+  – **context**: Utility object providing access to TheHive API helpers (`query`, `caze`, etc.). This applies the metrics computation only on the notified case object.
+
+Prerequisites:
+  • The custom fields listed above must exist in the tenant.
+  • Task groups must follow the naming convention shown here.
+  • You may adjust page size, task groups, or field names to suit your workflows & even your own computation logic for your custom metrics. Those are shown as examples, relying on SOC-101 Metrics definition and SANS Incident Handler's handbook style tasks.
+
+
+📄 [View full documentation](computecustommetrics.md)
 
 ---
 
