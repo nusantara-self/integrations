@@ -4,10 +4,10 @@ Ready-to-use notification filters for TheHive. These filters can be used to trig
 
 ## Summary
 
-- **Total Notifications:** 11
+- **Total Notifications:** 12
 - **Generic Notifications:** 11
-- **Vendor-Specific Notifications:** 0
-- **Tested:** 9
+- **Vendor-Specific Notifications:** 1
+- **Tested:** 10
 
 ## Generic Notifications
 
@@ -370,6 +370,65 @@ Triggers when a task has actionRequired set to true
             "_is": {
                 "details.actionRequired_MYORG": true
             }
+        }
+    ]
+}
+```
+
+---
+
+## Vendor-Specific Notifications
+
+### CrowdstrikeFalcon
+
+#### Stage change on Case or Alert linked to CrowdStrike
+
+![Tested](https://img.shields.io/badge/Status-Tested-brightgreen)
+
+Triggers when the stage changes on a Case or Alert that has a linked CrowdStrike Falcon alert or incident
+
+> **Note:** If customfield exists but has empty values, no notification is triggered. As a result, this notification will only trigger when the values are not empty for the custom fields (and not just 'existing' in the UI).
+
+```json
+{
+    "_and": [
+        {
+            "_is": {
+                "action": "update"
+            }
+        },
+        {
+            "_or": [
+                {
+                    "_is": {
+                        "objectType": "Alert"
+                    }
+                },
+                {
+                    "_is": {
+                        "objectType": "Case"
+                    }
+                }
+            ]
+        },
+        {
+            "_contains": {
+                "details.stage": ""
+            }
+        },
+        {
+            "_or": [
+                {
+                    "_contains": {
+                        "context.customFieldValues.csfalcon-alert-id": ""
+                    }
+                },
+                {
+                    "_contains": {
+                        "context.customFieldValues.csfalcon-incident-id": ""
+                    }
+                }
+            ]
         }
     ]
 }
