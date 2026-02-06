@@ -44,7 +44,12 @@
           "ip",
           "hash",
           "filename",
-          "fqdn"
+          "fqdn",
+          "mail",
+          "mail-subject",
+          "user-agent",
+          "hostname",
+          "username"
         ],
         "file": ".upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json",

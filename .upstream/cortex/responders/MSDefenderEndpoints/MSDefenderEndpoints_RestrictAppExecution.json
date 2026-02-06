@@ -38,7 +38,7 @@
       },
       {
         "name": "resourceAppIdUri",
-        "description": "Security Center URI, usually doens't need to change",
+        "description": "Security Center URI, usually doesn't need to change",
         "type": "string",
         "multi": false,
         "required": true,

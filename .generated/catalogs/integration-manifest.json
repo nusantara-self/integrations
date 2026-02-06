@@ -3104,7 +3104,12 @@
             "ip",
             "hash",
             "filename",
-            "fqdn"
+            "fqdn",
+            "mail",
+            "mail-subject",
+            "user-agent",
+            "hostname",
+            "username"
           ],
           "file": ".upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json",
@@ -6569,6 +6574,34 @@
           "integration_type": null
         },
         {
+          "name": "MSDefender-PushIOC-BlockAndRemediate",
+          "version": "1.0",
+          "author": "Vito Piserchia",
+          "license": "AGPL-V3",
+          "description": "Push IOC to Defender client. Block and Remediate mode",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json",
+          "integration_type": null
+        },
+        {
+          "name": "MSDefender-PushIOC-Warn",
+          "version": "1.0",
+          "author": "Vito Piserchia",
+          "license": "AGPL-V3",
+          "description": "Push IOC to Defender client. Warn mode (Microsoft Defender for Cloud only)",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCWarn.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCWarn.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCWarn.json",
+          "integration_type": null
+        },
+        {
           "name": "MSDefender-UnRestrictAppExecution",
           "version": "1.0",
           "author": "Keijo Korte, Louis-Maximilien Dupouy",
@@ -6597,6 +6630,20 @@
           "integration_type": null
         },
         {
+          "name": "MSDefender-PushIOC-Audit",
+          "version": "1.0",
+          "author": "Vito Piserchia",
+          "license": "AGPL-V3",
+          "description": "Push IOC to Defender client. Audit mode",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json",
+          "integration_type": null
+        },
+        {
           "name": "MSDefender-AutoInvestigation",
           "version": "1.0",
           "author": "Keijo Korte, Louis-Maximilien Dupouy",
@@ -6615,7 +6662,7 @@
           "version": "2.0",
           "author": "Keijo Korte, Louis-Maximilien Dupouy",
           "license": "AGPL-V3",
-          "description": "Push IOC to Defender client. Alert mode",
+          "description": "Push IOC to Defender client. Alert mode. This mode is Deprecated and Audit should be used instead.",
           "dataTypes": [
             "thehive:case_artifact"
           ],
@@ -6640,10 +6687,10 @@
         },
         {
           "name": "MSDefender-PushIOC-Block",
-          "version": "2.0",
-          "author": "Keijo Korte, Louis-Maximilien Dupouy",
+          "version": "2.1",
+          "author": "Keijo Korte, Louis-Maximilien Dupouy, Vito Piserchia",
           "license": "AGPL-V3",
-          "description": "Push IOC to Defender client. Blocking mode",
+          "description": "Push IOC to Defender client. Block mode",
           "dataTypes": [
             "thehive:case_artifact"
           ],
@@ -6665,16 +6712,30 @@
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json",
           "integration_type": null
+        },
+        {
+          "name": "MSDefender-PushIOC-Allowed",
+          "version": "1.0",
+          "author": "Vito Piserchia",
+          "license": "AGPL-V3",
+          "description": "Push IOC to Defender client. Allowed mode",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json",
+          "integration_type": null
         }
       ],
       "functions": []
     },
     "stats": {
       "totalAnalyzers": 0,
-      "totalResponders": 8,
+      "totalResponders": 12,
       "totalFunctions": 0,
       "totalExternalIntegrations": 0,
-      "total": 8
+      "total": 12
     }
   },
   "MSDefenderOffice365": {
@@ -6731,6 +6792,20 @@
       ],
       "responders": [
         {
+          "name": "MSDefenderOffice365_allow",
+          "version": "1.0",
+          "author": "Vito Piserchia",
+          "license": "AGPL-V3",
+          "description": "Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json",
+          "integration_type": null
+        },
+        {
           "name": "MSDefenderOffice365_unblock",
           "version": "1.0",
           "author": "Joe Lazaro",
@@ -6742,6 +6817,20 @@
           "file": ".upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json",
+          "integration_type": null
+        },
+        {
+          "name": "MSDefenderOffice365_disallow",
+          "version": "1.0",
+          "author": "Vito Piserchia",
+          "license": "AGPL-V3",
+          "description": "Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json",
           "integration_type": null
         },
         {
@@ -6763,10 +6852,10 @@
     },
     "stats": {
       "totalAnalyzers": 1,
-      "totalResponders": 2,
+      "totalResponders": 4,
       "totalFunctions": 0,
       "totalExternalIntegrations": 0,
-      "total": 3
+      "total": 5
     }
   },
   "MSEntraID": {
@@ -11604,47 +11693,75 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Watcher_CheckDomain",
-          "version": "1.3",
+          "name": "Watcher_Check",
+          "version": "1.0",
           "author": "THA-CERT // YNE",
           "license": "AGPL-V3",
-          "description": "Checks if a domain is monitored in Watcher.",
+          "description": "Check if a domain is monitored in Watcher (Legitimate Domain and/or Website Monitoring modules) and retrieve all details.",
           "dataTypes": [
             "domain"
           ],
-          "file": ".upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json",
+          "file": ".upstream/cortex/analyzers/Watcher/Watcher_Check.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Watcher/Watcher_Check.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Watcher/Watcher_Check.json",
           "integration_type": null
         }
       ],
       "responders": [
         {
-          "name": "Watcher_AddDomain",
-          "version": "1.2",
+          "name": "Watcher_Transfer",
+          "version": "1.1",
           "author": "THA-CERT // YNE",
           "license": "AGPL-V3",
-          "description": "Add a domain to monitoring in the Website Monitoring module on Watcher.",
+          "description": "Transfer domain between Watcher modules. Required tag: watcher:module=LegitDomain|WebsiteMonitoring (DESTINATION module). Transfer TO LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). Transfer TO WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No",
           "dataTypes": [
             "thehive:case_artifact"
           ],
-          "file": ".upstream/cortex/responders/Watcher/Watcher_AddDomain.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_AddDomain.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_AddDomain.json",
+          "file": ".upstream/cortex/responders/Watcher/Watcher_Transfer.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
           "integration_type": null
         },
         {
-          "name": "Watcher_RemoveDomain",
-          "version": "1.2",
+          "name": "Watcher_Remove",
+          "version": "1.1",
           "author": "THA-CERT // YNE",
           "license": "AGPL-V3",
-          "description": "Removes a domain from monitoring in the Website Monitoring module on Watcher.",
+          "description": "Remove domain from Watcher. Required tag: watcher:module=LegitDomain|WebsiteMonitoring",
           "dataTypes": [
             "thehive:case_artifact"
           ],
-          "file": ".upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json",
+          "file": ".upstream/cortex/responders/Watcher/Watcher_Remove.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
+          "integration_type": null
+        },
+        {
+          "name": "Watcher_Update",
+          "version": "1.1",
+          "author": "THA-CERT // YNE",
+          "license": "AGPL-V3",
+          "description": "Update domain in Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitoring. For LegitDomain: watcher:repurchased=Yes/No, watcher:contact=email (optional). For WebsiteMonitoring: watcher:legitimacy=2-6, watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/Watcher/Watcher_Update.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Update.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Update.json",
+          "integration_type": null
+        },
+        {
+          "name": "Watcher_Add",
+          "version": "1.1",
+          "author": "THA-CERT // YNE",
+          "license": "AGPL-V3",
+          "description": "Add domain to Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitoring. For LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). For WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/Watcher/Watcher_Add.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Add.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Add.json",
           "integration_type": null
         }
       ],
@@ -11652,10 +11769,10 @@
     },
     "stats": {
       "totalAnalyzers": 1,
-      "totalResponders": 2,
+      "totalResponders": 4,
       "totalFunctions": 0,
       "totalExternalIntegrations": 0,
-      "total": 3
+      "total": 5
     }
   },
   "Wazuh": {

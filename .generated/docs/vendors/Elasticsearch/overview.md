@@ -21,7 +21,7 @@ Search for IoCs in Elasticsearch
 
 - **Author:** Nick Prokop
 - **License:** MIT
-- **Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`
+- **Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`, `mail`, `mail-subject`, `user-agent`, `hostname`, `username`
 - **Configuration:** [.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json))
 
 ---

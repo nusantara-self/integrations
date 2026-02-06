@@ -5,8 +5,8 @@ Integrations that are either free to use or run locally without external depende
 ## Summary
 
 - **Total Analyzers:** 72 (8 local, 64 free)
-- **Total Responders:** 8 (0 local, 8 free)
-- **Total Integrations:** 80
+- **Total Responders:** 10 (0 local, 10 free)
+- **Total Integrations:** 82
 
 ## Analyzers
 
@@ -218,7 +218,7 @@ EchoTrail Insights takes a Windows filename or hash and provides several unique 
 <summary><strong>Elasticsearch_Analysis</strong> <code>v1.0</code> [Free] - Elasticsearch</summary>
 
 **Vendor:** [Elasticsearch](vendors/Elasticsearch/overview)
-**Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`
+**Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`, `mail`, `mail-subject`, `user-agent`, `hostname`, `username`
 
 Search for IoCs in Elasticsearch
 
@@ -759,7 +759,27 @@ Execute a parameterized notebook in Jupyter
 </details>
 
 <details>
+<summary><strong>MSDefenderOffice365_allow</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
+
+**Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
+**Data Types:** `thehive:case_artifact`
+
+Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+
+</details>
+
+<details>
 <summary><strong>MSDefenderOffice365_block</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
+
+**Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
+**Data Types:** `thehive:case_artifact`
+
+Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+
+</details>
+
+<details>
+<summary><strong>MSDefenderOffice365_disallow</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
 
 **Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
 **Data Types:** `thehive:case_artifact`

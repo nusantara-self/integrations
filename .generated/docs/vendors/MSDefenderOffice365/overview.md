@@ -26,7 +26,15 @@ Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observa
 
 ---
 
-## Responders (2)
+## Responders (4)
+
+### MSDefenderOffice365_allow `v1.0`
+Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+
+- **Author:** Vito Piserchia
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json))
 
 ### MSDefenderOffice365_unblock `v1.0`
 Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
@@ -35,6 +43,14 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json))
+
+### MSDefenderOffice365_disallow `v1.0`
+Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+
+- **Author:** Vito Piserchia
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json))
 
 ### MSDefenderOffice365_block `v1.0`
 Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
@@ -49,10 +65,10 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 ## Statistics
 
 - **Total Analyzers:** 1
-- **Total Responders:** 2
+- **Total Responders:** 4
 - **Total Functions:** 0
 - **Total External Integrations:** 0
-- **Total Integrations:** 3
+- **Total Integrations:** 5
 
 ---
 

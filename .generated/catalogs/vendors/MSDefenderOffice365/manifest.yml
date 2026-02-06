@@ -47,6 +47,17 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
     integration_type: null
   responders:
+  - name: MSDefenderOffice365_allow
+    version: '1.0'
+    author: Vito Piserchia
+    license: AGPL-V3
+    description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
+    integration_type: null
   - name: MSDefenderOffice365_unblock
     version: '1.0'
     author: Joe Lazaro
@@ -57,6 +68,17 @@ integrations:
     file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+    integration_type: null
+  - name: MSDefenderOffice365_disallow
+    version: '1.0'
+    author: Vito Piserchia
+    license: AGPL-V3
+    description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
     integration_type: null
   - name: MSDefenderOffice365_block
     version: '1.0'
@@ -72,7 +94,7 @@ integrations:
   functions: []
 stats:
   totalAnalyzers: 1
-  totalResponders: 2
+  totalResponders: 4
   totalFunctions: 0
   totalExternalIntegrations: 0
-  total: 3
+  total: 5

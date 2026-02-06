@@ -44,6 +44,11 @@ integrations:
     - hash
     - filename
     - fqdn
+    - mail
+    - mail-subject
+    - user-agent
+    - hostname
+    - username
     file: .upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json

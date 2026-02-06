@@ -19,10 +19,10 @@ Built something useful? Contributions are welcome!
 
 - **Total Vendors:** 194
 - **Total Analyzers:** 259
-- **Total Responders:** 132
+- **Total Responders:** 140
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 408
+- **Total Integrations:** 416
 
 ## 📂 Vendors by Category
 
@@ -61,13 +61,13 @@ Built something useful? Contributions are welcome!
 **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** (22 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
 
-**[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** (8 integrations)
+**[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** (12 integrations)
   Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, inv...
 
 
 ### Email Security
 
-**[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** (3 integrations)
+**[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** (5 integrations)
   Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration...
 
 **[Proofpoint](vendors/Proofpoint/overview.md)** (3 integrations)
@@ -293,8 +293,8 @@ Built something useful? Contributions are welcome!
 - **[Malwares](vendors/Malwares/overview.md)** - *Uncategorized* - 2 analyzers
 - **[MaxMind](vendors/MaxMind/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[MetaDefender](vendors/MetaDefender/overview.md)** - *Uncategorized* - 5 analyzers
-- **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** - *EDR* - 8 responders
-- **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 2 responders
+- **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** - *EDR* - 12 responders
+- **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 4 responders
 - **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
 - **[Minemeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
@@ -372,7 +372,7 @@ Built something useful? Contributions are welcome!
 - **[VirustotalDownloader](vendors/VirustotalDownloader/overview.md)** - *Uncategorized* - 1 responders
 - **[VMRay](vendors/VMRay/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Vulners](vendors/Vulners/overview.md)** - *Uncategorized* - 2 analyzers
-- **[Watcher](vendors/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 2 responders
+- **[Watcher](vendors/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 4 responders
 - **[Wazuh](vendors/Wazuh/overview.md)** - *Uncategorized* - 1 responders
 - **[WOT](vendors/WOT/overview.md)** - *Uncategorized* - 1 analyzers
 - **[YARA](vendors/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
