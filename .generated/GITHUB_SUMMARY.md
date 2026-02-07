@@ -11,8 +11,4 @@
 
 ## Changes
 
-### 🔄 Updated Vendors (3)
-
-- **Watcher**: 3 → 5 (+2)
-- **Microsoft Defender for Office 365**: 3 → 5 (+2)
-- **Microsoft Defender for Endpoint**: 8 → 12 (+4)
+No changes detected.
