@@ -25,11 +25,11 @@ Pull Microsoft Entra ID directory audit logs for a user within the specified tim
 - **Configuration:** [.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json))
 
 ### MSEntraID_GetUserInfo `v1.0`
-Get information about the user from Microsoft Entra ID, using the mail
+Get information about the user from Microsoft Entra ID, using mail or user identifier (UPN/sAMAccountName/employeeId)
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
-- **Data Types:** `mail`
+- **Data Types:** `mail`, `other`, `user`, `username`
 - **Configuration:** [.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json))
 
 ### MSEntraID_GetSignIns `v1.0`

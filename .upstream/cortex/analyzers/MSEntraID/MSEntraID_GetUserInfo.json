@@ -4,8 +4,8 @@
     "author": "Fabien Bloume, StrangeBee",
     "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
     "license": "AGPL-V3",
-    "description": "Get information about the user from Microsoft Entra ID, using the mail",
-    "dataTypeList": ["mail"],
+    "description": "Get information about the user from Microsoft Entra ID, using mail or user identifier (UPN/sAMAccountName/employeeId)",
+    "dataTypeList": ["mail", "other", "user", "username"],
     "command": "MSEntraID/MSEntraID.py",
     "baseConfig": "MSEntraID",
     "config": {
@@ -56,6 +56,14 @@
                 "userType",
                 "createdDateTime"
             ]
+        },
+        {
+            "name": "extended_search",
+            "description": "Search by additional fields (onPremisesSamAccountName, employeeId) in addition to UPN and mail",
+            "type": "boolean",
+            "multi": false,
+            "required": false,
+            "defaultValue": true
         }
     ],
     "registration_required": true,

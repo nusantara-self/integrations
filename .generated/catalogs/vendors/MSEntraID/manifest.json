@@ -46,9 +46,12 @@
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
-        "description": "Get information about the user from Microsoft Entra ID, using the mail",
+        "description": "Get information about the user from Microsoft Entra ID, using mail or user identifier (UPN/sAMAccountName/employeeId)",
         "dataTypes": [
-          "mail"
+          "mail",
+          "other",
+          "user",
+          "username"
         ],
         "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json",
