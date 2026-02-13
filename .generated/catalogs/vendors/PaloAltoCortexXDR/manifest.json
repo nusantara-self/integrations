@@ -17,17 +17,17 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "PaloAltoCortexXDR_unisolate",
+        "name": "PaloAltoCortexXDR_isolate",
         "version": "1.0",
         "author": "Joe Lazaro",
         "license": "AGPL-V3",
-        "description": "Unisolate endpoints identified by hostname or IP list",
+        "description": "Isolate endpoints identified by hostname or IP list",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
+        "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
         "integration_type": null
       },
       {
@@ -45,17 +45,17 @@
         "integration_type": null
       },
       {
-        "name": "PaloAltoCortexXDR_isolate",
+        "name": "PaloAltoCortexXDR_unisolate",
         "version": "1.0",
         "author": "Joe Lazaro",
         "license": "AGPL-V3",
-        "description": "Isolate endpoints identified by hostname or IP list",
+        "description": "Unisolate endpoints identified by hostname or IP list",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
+        "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
         "integration_type": null
       }
     ],

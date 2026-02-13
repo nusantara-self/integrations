@@ -15,6 +15,19 @@ displayOnWebsite: true
 visibility: low
 integrations:
   analyzers:
+  - name: BackscatterIO_GetObservations
+    version: '1.0'
+    author: brandon@backscatter.io
+    license: APLv2
+    description: Determine whether a value has known scanning activity using Backscatter.io data.
+    dataTypes:
+    - ip
+    - network
+    - autonomous-system
+    file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
+    integration_type: null
   - name: BackscatterIO_Enrichment
     version: '1.0'
     author: brandon@backscatter.io
@@ -28,19 +41,6 @@ integrations:
     file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
-    integration_type: null
-  - name: BackscatterIO_GetObservations
-    version: '1.0'
-    author: brandon@backscatter.io
-    license: APLv2
-    description: Determine whether a value has known scanning activity using Backscatter.io data.
-    dataTypes:
-    - ip
-    - network
-    - autonomous-system
-    file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
     integration_type: null
   responders: []
   functions: []

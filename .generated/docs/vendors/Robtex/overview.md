@@ -3,14 +3,6 @@
 
 ## Analyzers (3)
 
-### Robtex_Reverse_PDNS_Query `v1.0`
-Check IPs using the Robtex reverse passive DNS API.
-
-- **Author:** Nils Kuhnert
-- **License:** AGPL-V3
-- **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json))
-
 ### Robtex_Forward_PDNS_Query `v1.0`
 Check domains and FQDNs using the Robtex passive DNS API.
 
@@ -26,6 +18,14 @@ Check IPs using the Robtex IP API.
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json))
+
+### Robtex_Reverse_PDNS_Query `v1.0`
+Check IPs using the Robtex reverse passive DNS API.
+
+- **Author:** Nils Kuhnert
+- **License:** AGPL-V3
+- **Data Types:** `ip`
+- **Configuration:** [.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json))
 
 ---
 

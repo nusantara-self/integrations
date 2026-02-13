@@ -24,18 +24,6 @@ displayOnWebsite: true
 visibility: low
 integrations:
   analyzers:
-  - name: Mnemonic_pDNS_Closed
-    version: '3.0'
-    author: Michael Stensrud, Nordic Financial CERT
-    license: AGPL-V3
-    description: Query IP addresses and domains against Mnemonic pDNS restricted service.
-    dataTypes:
-    - ip
-    - domain
-    file: .upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
-    integration_type: null
   - name: Mnemonic_pDNS_Public
     version: '3.0'
     author: Michael Stensrud, Nordic Financial CERT
@@ -47,6 +35,18 @@ integrations:
     file: .upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
+    integration_type: null
+  - name: Mnemonic_pDNS_Closed
+    version: '3.0'
+    author: Michael Stensrud, Nordic Financial CERT
+    license: AGPL-V3
+    description: Query IP addresses and domains against Mnemonic pDNS restricted service.
+    dataTypes:
+    - ip
+    - domain
+    file: .upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
     integration_type: null
   responders: []
   functions: []

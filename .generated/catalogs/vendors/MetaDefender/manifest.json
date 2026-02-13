@@ -13,34 +13,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "MetaDefenderCore_GetReport",
-        "version": "1.0",
-        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
-        "license": "AGPL-V3",
-        "description": "Get the latest MetaDefender Core report for hash.",
-        "dataTypes": [
-          "hash"
-        ],
-        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
-        "integration_type": null
-      },
-      {
-        "name": "MetaDefenderCloud_GetReport",
-        "version": "1.0",
-        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
-        "license": "AGPL-V3",
-        "description": "Get the latest MetaDefender Cloud report for hash.",
-        "dataTypes": [
-          "hash"
-        ],
-        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "integration_type": null
-      },
-      {
         "name": "MetaDefenderCloud_Scan",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
@@ -52,6 +24,20 @@
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
+        "integration_type": null
+      },
+      {
+        "name": "MetaDefenderCore_GetReport",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Get the latest MetaDefender Core report for hash.",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
         "integration_type": null
       },
       {
@@ -82,6 +68,20 @@
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
+        "integration_type": null
+      },
+      {
+        "name": "MetaDefenderCloud_GetReport",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Get the latest MetaDefender Cloud report for hash.",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
         "integration_type": null
       }
     ],
