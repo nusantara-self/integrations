@@ -9,14 +9,6 @@
 
 ## Responders (2)
 
-### JAMFProtect_addHashtoPreventList `v1.0`
-Add IOC to JAMF Protect - creates a custom prevent list for a hash
-
-- **Author:** Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json))
-
 ### JAMFProtect_removeHashfromPreventList `v1.0`
 Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash
 
@@ -24,6 +16,14 @@ Remove IOC on JAMF Protect - removes associated custom prevent list(s) containin
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json))
+
+### JAMFProtect_addHashtoPreventList `v1.0`
+Add IOC to JAMF Protect - creates a custom prevent list for a hash
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json))
 
 ---
 
