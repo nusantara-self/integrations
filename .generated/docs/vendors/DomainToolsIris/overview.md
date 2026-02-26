@@ -29,14 +29,6 @@ Use DomainTools Iris API to investigate a domain.
 
 ## Responders (2)
 
-### DomainToolsIris_AddRiskyDNSTag `v1.0`
-Add Tag saying that the case contains a risky DNS.
-
-- **Author:** DomainTools
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json))
-
 ### DomainToolsIris_CheckMaliciousTags `v1.0`
 Add Tag saying that the observable and case have a malicious tag in their Iris Tags.
 
@@ -44,6 +36,14 @@ Add Tag saying that the observable and case have a malicious tag in their Iris T
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json))
+
+### DomainToolsIris_AddRiskyDNSTag `v1.0`
+Add Tag saying that the case contains a risky DNS.
+
+- **Author:** DomainTools
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json))
 
 ---
 

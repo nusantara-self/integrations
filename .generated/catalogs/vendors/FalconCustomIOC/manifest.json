@@ -14,21 +14,6 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "Crowdstrike_Falcon_Custom_IOC_API",
-        "version": "1.0",
-        "author": "Michael",
-        "license": "MIT",
-        "description": "Submit observables to the Crowdstrike Falcon Custom IOC api",
-        "dataTypes": [
-          "thehive:alert",
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json",
-        "integration_type": null
-      },
-      {
         "name": "Crowdstrike_Falcon_Custom_IOC",
         "version": "2.0",
         "author": "Nicolas Criton",
@@ -41,6 +26,21 @@
         "file": ".upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json",
+        "integration_type": null
+      },
+      {
+        "name": "Crowdstrike_Falcon_Custom_IOC_API",
+        "version": "1.0",
+        "author": "Michael",
+        "license": "MIT",
+        "description": "Submit observables to the Crowdstrike Falcon Custom IOC api",
+        "dataTypes": [
+          "thehive:alert",
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json",
         "integration_type": null
       }
     ],

@@ -9,14 +9,6 @@
 
 ## Analyzers (3)
 
-### CyberChef_FromCharCode `v1.0`
-Convert Char Code with CyberChef Server
-
-- **Author:** Wes Lambert
-- **License:** AGPL-V3
-- **Data Types:** `other`
-- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json))
-
 ### CyberChef_FromBase64 `v1.0`
 Convert Base64 with CyberChef Server
 
@@ -32,6 +24,14 @@ Convert Hex with CyberChef Server
 - **License:** AGPL-V3
 - **Data Types:** `other`
 - **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json))
+
+### CyberChef_FromCharCode `v1.0`
+Convert Char Code with CyberChef Server
+
+- **Author:** Wes Lambert
+- **License:** AGPL-V3
+- **Data Types:** `other`
+- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json))
 
 ---
 

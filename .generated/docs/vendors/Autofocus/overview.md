@@ -3,14 +3,6 @@
 
 ## Analyzers (3)
 
-### Autofocus_GetSampleAnalysis `v1.0`
-Get full analysis from a sample based on its hash
-
-- **Author:** ANSSI
-- **License:** AGPL-V3
-- **Data Types:** `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json))
-
 ### Autofocus_SearchJSON `v1.0`
 Search samples in Autofocus with a full search query in JSON
 
@@ -26,6 +18,14 @@ Search samples in Autofocus based on a single IOC
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `user-agent`, `imphash`, `ip`, `mutex`, `tag`, `url`
 - **Configuration:** [.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json))
+
+### Autofocus_GetSampleAnalysis `v1.0`
+Get full analysis from a sample based on its hash
+
+- **Author:** ANSSI
+- **License:** AGPL-V3
+- **Data Types:** `hash`
+- **Configuration:** [.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json))
 
 ---
 

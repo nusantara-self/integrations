@@ -15,31 +15,30 @@ displayOnWebsite: true
 visibility: low
 integrations:
   analyzers:
-  - name: PassiveTotal_Osint
+  - name: PassiveTotal_Malware
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
-    description: PassiveTotal OSINT Lookup.
+    description: PassiveTotal Malware Lookup.
     dataTypes:
     - domain
     - fqdn
     - ip
-    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
+    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
     integration_type: null
-  - name: PassiveTotal_Components
+  - name: PassiveTotal_Ssl_Certificate_Details
     version: '2.0'
-    author: Brandon Dixon (9bplus)
+    author: CERT-BDF
     license: AGPL-V3
-    description: PassiveTotal Components Lookup.
+    description: PassiveTotal SSL Certificate Details Lookup.
     dataTypes:
-    - domain
-    - fqdn
+    - hash
     - ip
-    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
+    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
     integration_type: null
   - name: PassiveTotal_Enrichment
     version: '2.0'
@@ -54,30 +53,18 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json
     integration_type: null
-  - name: PassiveTotal_Ssl_Certificate_History
+  - name: PassiveTotal_Whois_Details
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
-    description: PassiveTotal SSL Certificate History Lookup.
-    dataTypes:
-    - hash
-    - ip
-    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
-    integration_type: null
-  - name: PassiveTotal_Host_Pairs
-    version: '2.0'
-    author: Brandon Dixon (9bplus)
-    license: AGPL-V3
-    description: PassiveTotal Host Pairs Lookup.
+    description: PassiveTotal Whois Details Lookup.
     dataTypes:
     - domain
     - fqdn
     - ip
-    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
+    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
     integration_type: null
   - name: PassiveTotal_Passive_Dns
     version: '2.1'
@@ -92,43 +79,18 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json
     integration_type: null
-  - name: PassiveTotal_Whois_Details
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: PassiveTotal Whois Details Lookup.
-    dataTypes:
-    - domain
-    - fqdn
-    - ip
-    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
-    integration_type: null
-  - name: PassiveTotal_Trackers
+  - name: PassiveTotal_Components
     version: '2.0'
     author: Brandon Dixon (9bplus)
     license: AGPL-V3
-    description: PassiveTotal Trackers Lookup.
+    description: PassiveTotal Components Lookup.
     dataTypes:
     - domain
     - fqdn
     - ip
-    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
-    integration_type: null
-  - name: PassiveTotal_Ssl_Certificate_Details
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: PassiveTotal SSL Certificate Details Lookup.
-    dataTypes:
-    - hash
-    - ip
-    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
+    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
     integration_type: null
   - name: PassiveTotal_Unique_Resolutions
     version: '2.0'
@@ -143,18 +105,56 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json
     integration_type: null
-  - name: PassiveTotal_Malware
+  - name: PassiveTotal_Ssl_Certificate_History
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
-    description: PassiveTotal Malware Lookup.
+    description: PassiveTotal SSL Certificate History Lookup.
+    dataTypes:
+    - hash
+    - ip
+    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
+    integration_type: null
+  - name: PassiveTotal_Osint
+    version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
+    description: PassiveTotal OSINT Lookup.
     dataTypes:
     - domain
     - fqdn
     - ip
-    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
+    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
+    integration_type: null
+  - name: PassiveTotal_Trackers
+    version: '2.0'
+    author: Brandon Dixon (9bplus)
+    license: AGPL-V3
+    description: PassiveTotal Trackers Lookup.
+    dataTypes:
+    - domain
+    - fqdn
+    - ip
+    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
+    integration_type: null
+  - name: PassiveTotal_Host_Pairs
+    version: '2.0'
+    author: Brandon Dixon (9bplus)
+    license: AGPL-V3
+    description: PassiveTotal Host Pairs Lookup.
+    dataTypes:
+    - domain
+    - fqdn
+    - ip
+    file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
     integration_type: null
   responders: []
   functions: []

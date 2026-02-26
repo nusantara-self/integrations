@@ -31,30 +31,6 @@ subscription_required:
 - false
 integrations:
   analyzers:
-  - name: GTI_ScanURL
-    version: '1.0'
-    author: Google
-    license: AGPL-V3
-    description: Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence
-      for scanning
-    dataTypes:
-    - url
-    file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
-    integration_type: null
-  - name: GTI_ScanPrivateFile
-    version: '1.0'
-    author: Google
-    license: AGPL-V3
-    description: Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat
-      Intelligence for scanning
-    dataTypes:
-    - file
-    file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
-    integration_type: null
   - name: GTI_ScanFile
     version: '1.0'
     author: Google
@@ -82,6 +58,30 @@ integrations:
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
+    integration_type: null
+  - name: GTI_ScanURL
+    version: '1.0'
+    author: Google
+    license: AGPL-V3
+    description: Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence
+      for scanning
+    dataTypes:
+    - url
+    file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
+    integration_type: null
+  - name: GTI_ScanPrivateFile
+    version: '1.0'
+    author: Google
+    license: AGPL-V3
+    description: Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat
+      Intelligence for scanning
+    dataTypes:
+    - file
+    file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
     integration_type: null
   - name: GTI_ScanPrivateURL
     version: '1.0'
