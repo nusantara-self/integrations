@@ -61,35 +61,35 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
         lines.append(manifest['description'])
         lines.append("")
 
-    # Metadata
-    if manifest.get('category'):
-        lines.append(f"**Category:** {manifest['category']}  ")
-    if manifest.get('homepage'):
-        lines.append(f"**Homepage:** {manifest['homepage']}  ")
-    if manifest.get('tags'):
-        tags_str = ', '.join(manifest['tags'])
-        lines.append(f"**Tags:** {tags_str}")
-    if manifest.get('category') or manifest.get('homepage') or manifest.get('tags'):
-        lines.append("")
+    # Metadata (commented out — frontend renders these from the JSON manifest)
+    # if manifest.get('category'):
+    #     lines.append(f"**Category:** {manifest['category']}  ")
+    # if manifest.get('homepage'):
+    #     lines.append(f"**Homepage:** {manifest['homepage']}  ")
+    # if manifest.get('tags'):
+    #     tags_str = ', '.join(manifest['tags'])
+    #     lines.append(f"**Tags:** {tags_str}")
+    # if manifest.get('category') or manifest.get('homepage') or manifest.get('tags'):
+    #     lines.append("")
 
-    # Subscription Information
-    subscription_fields = ['registration_required', 'subscription_required', 'free_subscription']
-    has_subscription_info = any(manifest.get(field) is not None for field in subscription_fields)
-
-    if has_subscription_info:
-        lines.append("## Subscription Information")
-        lines.append("")
-
-        if manifest.get('registration_required') is not None:
-            value = "Yes" if manifest['registration_required'] else "No"
-            lines.append(f"- **Registration Required:** {value}")
-        if manifest.get('subscription_required') is not None:
-            value = "Yes" if manifest['subscription_required'] else "No"
-            lines.append(f"- **Subscription Required:** {value}")
-        if manifest.get('free_subscription') is not None:
-            value = "Yes" if manifest['free_subscription'] else "No"
-            lines.append(f"- **Free Subscription Available:** {value}")
-        lines.append("")
+    # Subscription Information (commented out — frontend renders these from the JSON manifest)
+    # subscription_fields = ['registration_required', 'subscription_required', 'free_subscription']
+    # has_subscription_info = any(manifest.get(field) is not None for field in subscription_fields)
+    #
+    # if has_subscription_info:
+    #     lines.append("## Subscription Information")
+    #     lines.append("")
+    #
+    #     if manifest.get('registration_required') is not None:
+    #         value = "Yes" if manifest['registration_required'] else "No"
+    #         lines.append(f"- **Registration Required:** {value}")
+    #     if manifest.get('subscription_required') is not None:
+    #         value = "Yes" if manifest['subscription_required'] else "No"
+    #         lines.append(f"- **Subscription Required:** {value}")
+    #     if manifest.get('free_subscription') is not None:
+    #         value = "Yes" if manifest['free_subscription'] else "No"
+    #         lines.append(f"- **Free Subscription Available:** {value}")
+    #     lines.append("")
 
     # Analyzers
     analyzers = manifest.get('integrations', {}).get('analyzers', [])
@@ -180,30 +180,30 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
         lines.append("---")
         lines.append("")
 
-    # Use Cases
-    use_cases = manifest.get('useCases', [])
-    if use_cases:
-        lines.append(f"## Use Cases ({len(use_cases)})")
-        lines.append("")
-
-        for uc in use_cases:
-            lines.append(f"### {uc['name']}")
-            if uc.get('description'):
-                lines.append(uc['description'])
-            lines.append("")
-
-            # Optional metadata
-            if uc.get('tags'):
-                tags_str = ', '.join(uc['tags'])
-                lines.append(f"**Tags:** {tags_str}")
-
-            # Documentation link
-            if uc.get('documentation', {}).get('github_url'):
-                lines.append(f"📄 [Documentation]({uc['documentation']['github_url']}) ([raw]({uc['documentation']['url']}))")
-
-            lines.append("")
-            lines.append("---")
-            lines.append("")
+    # Use Cases (commented out — not needed for frontend rendering)
+    # use_cases = manifest.get('useCases', [])
+    # if use_cases:
+    #     lines.append(f"## Use Cases ({len(use_cases)})")
+    #     lines.append("")
+    #
+    #     for uc in use_cases:
+    #         lines.append(f"### {uc['name']}")
+    #         if uc.get('description'):
+    #             lines.append(uc['description'])
+    #         lines.append("")
+    #
+    #         # Optional metadata
+    #         if uc.get('tags'):
+    #             tags_str = ', '.join(uc['tags'])
+    #             lines.append(f"**Tags:** {tags_str}")
+    #
+    #         # Documentation link
+    #         if uc.get('documentation', {}).get('github_url'):
+    #             lines.append(f"📄 [Documentation]({uc['documentation']['github_url']}) ([raw]({uc['documentation']['url']}))")
+    #
+    #         lines.append("")
+    #         lines.append("---")
+    #         lines.append("")
 
     # External Integrations (integrations built by the vendor, community, or third parties)
     external_integrations = manifest.get('externalIntegrations', [])
