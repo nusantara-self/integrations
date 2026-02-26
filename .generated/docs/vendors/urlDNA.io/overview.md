@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** No
-- **Free Subscription Available:** Yes
-
 ## Analyzers (2)
 
 ### UrlDNA_New_Scan `v0.1.0`

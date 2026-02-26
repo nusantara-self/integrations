@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** No
-
 ## Analyzers (1)
 
 ### CiscoUmbrella_Report `v1.0`

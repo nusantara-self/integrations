@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** No
-- **Subscription Required:** No
-- **Free Subscription Available:** Yes
-
 ## Analyzers (1)
 
 ### JA4_FoxIO `v1.0`

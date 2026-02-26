@@ -1,15 +1,5 @@
 CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat detection, prevention, and response capabilities
 
-**Category:** EDR  
-**Homepage:** https://www.crowdstrike.com  
-**Tags:** endpoint-protection, threat-detection, incident-response, cloud-native, edr
-
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** No
-
 ## Analyzers (11)
 
 ### CrowdstrikeFalcon_Sandbox_Win7_64 `v1.0`
@@ -186,24 +176,6 @@ Ingests CrowdstrikeFalcon Alerts, also processes observables & TTPs.
 - **Kind:** function
 - **Mode:** Enabled
 - **File:** [integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js))
-
----
-
-## Use Cases (2)
-
-### Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script
-TO DO LATER
-
-**Tags:** alert-ingestion, crowdstrike, thehive, automation
-📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md))
-
----
-
-### Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
-Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.
-
-**Tags:** status, sync, crowdstrike, thehive, automation
-📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md))
 
 ---
 

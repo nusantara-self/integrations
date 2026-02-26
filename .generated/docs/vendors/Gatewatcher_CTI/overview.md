@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** No
-
 ## Analyzers (1)
 
 ### Gatewatcher_CTI `v2.0`

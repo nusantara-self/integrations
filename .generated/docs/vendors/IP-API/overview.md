@@ -1,8 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** No
-- **Subscription Required:** No
-
 ## Analyzers (1)
 
 ### IP-API `v1.1`

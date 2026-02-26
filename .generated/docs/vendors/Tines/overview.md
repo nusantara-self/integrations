@@ -1,7 +1,3 @@
-**Category:** SOAR & Automation  
-**Homepage:** https://www.tines.com  
-**Tags:** automation, workflow-orchestration
-
 ## External Integrations (1)
 
 External integrations that connect Tines with TheHive:

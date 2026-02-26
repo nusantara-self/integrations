@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** Yes
-
 ## Analyzers (1)
 
 ### Triage `v2.0`

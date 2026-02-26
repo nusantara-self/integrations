@@ -1,8 +1,3 @@
-## Subscription Information
-
-- **Subscription Required:** Yes
-- **Free Subscription Available:** No
-
 ## Responders (31)
 
 ### HarfangLab-GetBinary `v1.0`

@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** No
-- **Subscription Required:** No
-- **Free Subscription Available:** Yes
-
 ## Analyzers (1)
 
 ### AIL_OnionLookup `v1.0`

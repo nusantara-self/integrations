@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** No
-- **Free Subscription Available:** Yes
-
 ## Analyzers (1)
 
 ### EchoTrail `v1.0`

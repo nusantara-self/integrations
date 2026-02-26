@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** No
-- **Subscription Required:** No
-- **Free Subscription Available:** No
-
 ## Responders (1)
 
 ### Minemeld `v1.0`

@@ -1,15 +1,5 @@
 Have I Been Pwned tracks billions of compromised credentials from data breaches, allowing analysts to verify if emails or passwords have been exposed in known breaches during security investigations and incident response
 
-**Category:** Breach Intelligence  
-**Homepage:** https://haveibeenpwned.com  
-**Tags:** data-breach, credential-exposure, breach-intelligence, identity-compromise, incident-response
-
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** No
-
 ## Analyzers (1)
 
 ### HIBP_Query `v2.0`

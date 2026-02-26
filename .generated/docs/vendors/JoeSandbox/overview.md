@@ -1,8 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-
 ## Analyzers (3)
 
 ### JoeSandbox_Url_Analysis `v2.0`

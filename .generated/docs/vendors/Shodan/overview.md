@@ -1,15 +1,5 @@
 Shodan is the search engine for internet-connected devices, providing reconnaissance data on exposed services, vulnerabilities, and infrastructure that helps identify attack surfaces, compromised systems, and threat actor infrastructure
 
-**Category:** Attack Surface Intelligence  
-**Homepage:** https://www.shodan.io  
-**Tags:** internet-scanning, infrastructure-intelligence, reconnaissance, exposed-services, threat-hunting, incident-response
-
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** No
-- **Free Subscription Available:** Yes
-
 ## Analyzers (6)
 
 ### Shodan_Host `v1.0`

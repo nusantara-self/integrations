@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** No
-- **Subscription Required:** No
-- **Free Subscription Available:** No
-
 ## Analyzers (2)
 
 ### CuckooSandbox_File_Analysis_Inet `v1.2`

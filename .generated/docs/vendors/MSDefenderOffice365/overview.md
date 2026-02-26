@@ -1,15 +1,5 @@
 Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting phishing, malware, and business email compromise attempts with automated investigation and response capabilities
 
-**Category:** Email Security  
-**Homepage:** https://www.microsoft.com/security/business/threat-protection/office-365-defender  
-**Tags:** email-security, phishing-protection, malware-detection, threat-protection, incident-response, microsoft
-
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** Yes
-
 ## Analyzers (1)
 
 ### MSDefenderOffice365_SafeLinksDecoder.json `v1.0`

@@ -1,8 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** No
-
 ## Analyzers (1)
 
 ### ChainAbuse `v1.1`

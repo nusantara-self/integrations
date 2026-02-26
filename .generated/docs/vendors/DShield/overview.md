@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** No
-- **Subscription Required:** No
-- **Free Subscription Available:** Yes
-
 ## Analyzers (1)
 
 ### DShield_lookup `v1.0`

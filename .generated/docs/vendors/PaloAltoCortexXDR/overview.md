@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** No
-
 ## Responders (3)
 
 ### PaloAltoCortexXDR_isolate `v1.0`

@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** No
-- **Free Subscription Available:** No
-
 ## Analyzers (2)
 
 ### OpenCTI_SearchExactObservable `v2.0`

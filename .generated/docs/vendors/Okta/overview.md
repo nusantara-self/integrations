@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** No
-- **Free Subscription Available:** No
-
 ## Analyzers (1)
 
 ### OktaUserLookup `v1.0`

@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** No
-- **Subscription Required:** No
-- **Free Subscription Available:** No
-
 ## Analyzers (1)
 
 ### DomainMailSPFDMARC `v1.1`

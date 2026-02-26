@@ -1,12 +1,3 @@
-**Category:** Web Application Firewall  
-**Homepage:** https://www.cloudflare.com  
-
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** No
-
 ## Responders (1)
 
 ### Cloudflare_IP_Blocker `v1.0`

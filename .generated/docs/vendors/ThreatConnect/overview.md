@@ -1,9 +1,5 @@
 ThreatConnect is a threat intelligence platform that enables security teams to aggregate, analyze, and operationalize threat data for improved security operations and incident response
 
-**Category:** Threat Intelligence  
-**Homepage:** https://threatconnect.com  
-**Tags:** threat-intelligence, collaboration
-
 ## External Integrations (1)
 
 External integrations that connect ThreatConnect with TheHive:

@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** Yes
-
 ## Analyzers (1)
 
 ### GreyNoise `v3.2`

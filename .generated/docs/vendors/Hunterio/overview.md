@@ -1,15 +1,5 @@
 Hunter.io discovers and verifies email addresses associated with domains, enabling investigators to identify organizational contacts, validate email authenticity, and map corporate infrastructure during threat intelligence gathering
 
-**Category:** OSINT & Enrichment  
-**Homepage:** https://hunter.io  
-**Tags:** email-discovery, email-verification, osint, reconnaissance, incident-response
-
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** Yes
-
 ## Analyzers (1)
 
 ### Hunterio_DomainSearch `v1.0`

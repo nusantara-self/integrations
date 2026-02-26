@@ -1,15 +1,5 @@
 Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across the enterprise, enabling real-time threat detection, security analytics, and incident investigation through powerful search and correlation capabilities
 
-**Category:** SIEM & Analytics  
-**Homepage:** https://www.splunk.com  
-**Tags:** siem, log-analysis, security-analytics, threat-detection, correlation
-
-## Subscription Information
-
-- **Registration Required:** No
-- **Subscription Required:** No
-- **Free Subscription Available:** Yes
-
 ## Analyzers (11)
 
 ### Splunk_Search_URL_URI_Path `v3.0`

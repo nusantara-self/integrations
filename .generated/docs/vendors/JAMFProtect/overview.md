@@ -1,9 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** No
-
 ## Responders (2)
 
 ### JAMFProtect_addHashtoPreventList `v1.0`

@@ -1,14 +1,5 @@
 Recorded Future is a real-time threat intelligence platform that analyzes data from the open web, dark web, and technical sources to provide predictive insights, risk scores, and actionable intelligence for proactive threat detection
 
-**Category:** Threat Intelligence  
-**Homepage:** https://www.recordedfuture.com  
-**Tags:** threat-intelligence, risk-scoring, predictive-intelligence, dark-web, incident-response
-
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-
 ## Analyzers (1)
 
 ### RecordedFuture `v2.0`

@@ -1,8 +1,3 @@
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-
 ## Analyzers (1)
 
 ### LupovisProwl_GetIPReputation `v1.1`

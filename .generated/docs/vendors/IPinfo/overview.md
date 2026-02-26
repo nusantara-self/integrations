@@ -1,9 +1,5 @@
 IPinfo provides comprehensive IP address intelligence including geolocation, ASN ownership, company details, and hosted domains, enabling analysts to quickly profile network infrastructure and identify suspicious connections
 
-**Category:** OSINT & Enrichment  
-**Homepage:** https://ipinfo.io  
-**Tags:** ip-intelligence, geolocation, asn-lookup, network-intelligence, incident-response
-
 ## Analyzers (2)
 
 ### IPinfo_Details `v1.0`

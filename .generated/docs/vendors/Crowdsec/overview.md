@@ -1,15 +1,5 @@
 CrowdSec is a collaborative security platform that aggregates attack data from community-deployed sensors to identify malicious IPs and attack patterns, enabling real-time blocking decisions and threat intelligence sharing for collective defense
 
-**Category:** Threat Intelligence  
-**Homepage:** https://www.crowdsec.net  
-**Tags:** threat-intelligence, collaborative-defense, ip-reputation, attack-detection, community-intelligence
-
-## Subscription Information
-
-- **Registration Required:** Yes
-- **Subscription Required:** Yes
-- **Free Subscription Available:** Yes
-
 ## Analyzers (1)
 
 ### Crowdsec_Analyzer `v1.1`
