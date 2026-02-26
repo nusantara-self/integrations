@@ -26,35 +26,35 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     """Generate human-readable markdown overview from manifest."""
     lines = []
 
-    # Header
-    lines.append(f"# {manifest['name']}")
-    lines.append("")
+    # Header (commented out — frontend renders vendor name in its own layout)
+    # lines.append(f"# {manifest['name']}")
+    # lines.append("")
 
-    # Logo (if available)
-    logo = manifest.get('logo')
-    if logo:
-        # Check if it's light/dark mode or simple format
-        if isinstance(logo, dict):
-            if 'light' in logo and 'dark' in logo:
-                # Both light and dark logos - use picture element for theme support
-                lines.append("<picture>")
-                lines.append(f"  <source media=\"(prefers-color-scheme: dark)\" srcset=\"{logo['dark']['url']}\">")
-                lines.append(f"  <source media=\"(prefers-color-scheme: light)\" srcset=\"{logo['light']['url']}\">")
-                lines.append(f"  <img alt=\"{manifest['name']} Logo\" src=\"{logo['light']['url']}\" width=\"200\">")
-                lines.append("</picture>")
-                lines.append("")
-            elif 'light' in logo:
-                # Only light logo
-                lines.append(f"![{manifest['name']} Logo]({logo['light']['url']})")
-                lines.append("")
-            elif 'dark' in logo:
-                # Only dark logo
-                lines.append(f"![{manifest['name']} Logo]({logo['dark']['url']})")
-                lines.append("")
-            elif 'url' in logo:
-                # Simple format with url key
-                lines.append(f"![{manifest['name']} Logo]({logo['url']})")
-                lines.append("")
+    # Logo (commented out — frontend places the icon itself via logo_url from the JSON manifest)
+    # logo = manifest.get('logo')
+    # if logo:
+    #     # Check if it's light/dark mode or simple format
+    #     if isinstance(logo, dict):
+    #         if 'light' in logo and 'dark' in logo:
+    #             # Both light and dark logos - use picture element for theme support
+    #             lines.append("<picture>")
+    #             lines.append(f"  <source media=\"(prefers-color-scheme: dark)\" srcset=\"{logo['dark']['url']}\">")
+    #             lines.append(f"  <source media=\"(prefers-color-scheme: light)\" srcset=\"{logo['light']['url']}\">")
+    #             lines.append(f"  <img alt=\"{manifest['name']} Logo\" src=\"{logo['light']['url']}\" width=\"200\">")
+    #             lines.append("</picture>")
+    #             lines.append("")
+    #         elif 'light' in logo:
+    #             # Only light logo
+    #             lines.append(f"![{manifest['name']} Logo]({logo['light']['url']})")
+    #             lines.append("")
+    #         elif 'dark' in logo:
+    #             # Only dark logo
+    #             lines.append(f"![{manifest['name']} Logo]({logo['dark']['url']})")
+    #             lines.append("")
+    #         elif 'url' in logo:
+    #             # Simple format with url key
+    #             lines.append(f"![{manifest['name']} Logo]({logo['url']})")
+    #             lines.append("")
 
     # Description
     if manifest.get('description'):
@@ -69,7 +69,8 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     if manifest.get('tags'):
         tags_str = ', '.join(manifest['tags'])
         lines.append(f"**Tags:** {tags_str}")
-    lines.append("")
+    if manifest.get('category') or manifest.get('homepage') or manifest.get('tags'):
+        lines.append("")
 
     # Subscription Information
     subscription_fields = ['registration_required', 'subscription_required', 'free_subscription']
@@ -228,22 +229,22 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             lines.append("---")
             lines.append("")
 
-    # Statistics
-    stats = manifest.get('stats', {})
-    lines.append("## Statistics")
-    lines.append("")
-    lines.append(f"- **Total Analyzers:** {stats.get('totalAnalyzers', 0)}")
-    lines.append(f"- **Total Responders:** {stats.get('totalResponders', 0)}")
-    lines.append(f"- **Total Functions:** {stats.get('totalFunctions', 0)}")
-    lines.append(f"- **Total External Integrations:** {stats.get('totalExternalIntegrations', 0)}")
-    lines.append(f"- **Total Integrations:** {stats.get('total', 0)}")
-    lines.append("")
+    # Statistics (commented out — frontend uses stats from the JSON manifest)
+    # stats = manifest.get('stats', {})
+    # lines.append("## Statistics")
+    # lines.append("")
+    # lines.append(f"- **Total Analyzers:** {stats.get('totalAnalyzers', 0)}")
+    # lines.append(f"- **Total Responders:** {stats.get('totalResponders', 0)}")
+    # lines.append(f"- **Total Functions:** {stats.get('totalFunctions', 0)}")
+    # lines.append(f"- **Total External Integrations:** {stats.get('totalExternalIntegrations', 0)}")
+    # lines.append(f"- **Total Integrations:** {stats.get('total', 0)}")
+    # lines.append("")
 
-    # Footer
-    lines.append("---")
-    lines.append("")
-    lines.append("*This file is auto-generated from the integration manifest. Do not edit manually.*")
-    lines.append("")
+    # Footer (commented out — not needed for frontend rendering)
+    # lines.append("---")
+    # lines.append("")
+    # lines.append("*This file is auto-generated from the integration manifest. Do not edit manually.*")
+    # lines.append("")
 
     return '\n'.join(lines)
 
