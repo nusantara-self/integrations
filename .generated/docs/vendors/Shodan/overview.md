@@ -1,7 +1,3 @@
-# Shodan
-
-![Shodan Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Shodan/assets/logo.png)
-
 Shodan is the search engine for internet-connected devices, providing reconnaissance data on exposed services, vulnerabilities, and infrastructure that helps identify attack surfaces, compromised systems, and threat actor infrastructure
 
 **Category:** Attack Surface Intelligence  
@@ -65,15 +61,3 @@ Retrieve Shodan history scan results  for an IP address.
 - **Configuration:** [.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 6
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 6
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

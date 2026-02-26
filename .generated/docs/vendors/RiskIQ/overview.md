@@ -1,6 +1,3 @@
-# RiskIQ
-
-
 ## Analyzers (16)
 
 ### RiskIQ_Cookies `v1.0`
@@ -144,15 +141,3 @@ Push a case to a RiskIQ Illuminate project.
 - **Configuration:** [.upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 16
-- **Total Responders:** 1
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 17
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

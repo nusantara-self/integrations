@@ -1,6 +1,3 @@
-# JoeSandbox
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -33,15 +30,3 @@ Joe Sandbox file analysis without Internet access.
 - **Configuration:** [.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 3
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 3
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

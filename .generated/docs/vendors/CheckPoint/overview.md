@@ -1,6 +1,3 @@
-# CheckPoint
-
-
 ## Responders (2)
 
 ### CheckPoint_Unlock `v1.0`
@@ -20,15 +17,3 @@ Lock ip on CheckPoint Gaia
 - **Configuration:** [.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 2
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

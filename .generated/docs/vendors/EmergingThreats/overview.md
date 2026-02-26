@@ -1,6 +1,3 @@
-# EmergingThreats
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -34,15 +31,3 @@ Retrieve ET reputation, related malware, and IDS requests for a given IP address
 - **Configuration:** [.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 3
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 3
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

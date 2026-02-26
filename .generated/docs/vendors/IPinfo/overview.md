@@ -1,7 +1,3 @@
-# IPinfo
-
-![IPinfo Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/IPinfo/assets/logo.png)
-
 IPinfo provides comprehensive IP address intelligence including geolocation, ASN ownership, company details, and hosted domains, enabling analysts to quickly profile network infrastructure and identify suspicious connections
 
 **Category:** OSINT & Enrichment  
@@ -27,15 +23,3 @@ IPinfo hosted domains lookup.
 - **Configuration:** [.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 2
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

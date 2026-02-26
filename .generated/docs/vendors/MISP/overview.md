@@ -1,7 +1,3 @@
-# MISP
-
-![MISP Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MISP/assets/logo.png)
-
 MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicators of Compromise (IOCs) and threat intelligence data, enabling collaborative defense and rapid incident response
 
 **Category:** Threat Intelligence  
@@ -25,15 +21,3 @@ Query multiple MISP instances for events containing an observable.
 - **Configuration:** [.upstream/cortex/analyzers/MISP/MISP.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MISP/MISP.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MISP/MISP.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 1
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

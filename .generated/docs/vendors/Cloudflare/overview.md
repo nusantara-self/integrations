@@ -1,7 +1,3 @@
-# Cloudflare
-
-![Cloudflare Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Cloudflare/assets/logo.png)
-
 **Category:** Web Application Firewall  
 **Homepage:** https://www.cloudflare.com  
 
@@ -22,15 +18,3 @@ Block IP Address on Account level in Cloudflare
 - **Configuration:** [.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 1
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 1
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

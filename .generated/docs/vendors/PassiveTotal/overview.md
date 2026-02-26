@@ -1,6 +1,3 @@
-# PassiveTotal
-
-
 ## Analyzers (11)
 
 ### PassiveTotal_Malware `v2.0`
@@ -92,15 +89,3 @@ PassiveTotal Host Pairs Lookup.
 - **Configuration:** [.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 11
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 11
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

@@ -1,6 +1,3 @@
-# DomainToolsIris
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -46,15 +43,3 @@ Add Tag saying that the case contains a risky DNS.
 - **Configuration:** [.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 2
-- **Total Responders:** 2
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 4
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

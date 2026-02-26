@@ -1,6 +1,3 @@
-# Gmail
-
-
 ## Responders (5)
 
 ### Gmail_DeleteMessage `v1.0`
@@ -44,15 +41,3 @@ Remove a message filter for a given sender
 - **Configuration:** [.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 5
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 5
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

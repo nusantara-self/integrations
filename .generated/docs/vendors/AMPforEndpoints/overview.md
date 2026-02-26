@@ -1,6 +1,3 @@
-# AMPforEndpoints
-
-
 ## Responders (5)
 
 ### AMPforEndpoints_MoveGUID `v1.0`
@@ -44,15 +41,3 @@ Stop host isolation for an AMP for Endpoints connector
 - **Configuration:** [.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 5
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 5
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

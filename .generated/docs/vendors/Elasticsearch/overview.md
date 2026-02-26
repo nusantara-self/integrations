@@ -1,7 +1,3 @@
-# Elasticsearch
-
-![Elasticsearch Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Elasticsearch/assets/logo.png)
-
 Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log analysis platforms, enabling analysts to query and correlate security events, logs, and threat data across enterprise infrastructure during incident investigations
 
 **Category:** SIEM & Analytics  
@@ -37,15 +33,3 @@ Native Kibana connector that allows Elasticsearch to create alerts and create ca
 **Documentation:** [https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type](https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type)
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 1
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

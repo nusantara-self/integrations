@@ -1,6 +1,3 @@
-# JAMFProtect
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -37,15 +34,3 @@ Ingests alerts from JAMF Protect. Extracts analytic details, host and user infor
 - **File:** [integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 2
-- **Total Functions:** 1
-- **Total External Integrations:** 0
-- **Total Integrations:** 3
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

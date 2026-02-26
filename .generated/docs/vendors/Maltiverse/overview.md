@@ -1,7 +1,3 @@
-# Maltiverse
-
-![Maltiverse Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Maltiverse/assets/logo.png)
-
 Maltiverse is a threat intelligence platform that aggregates and enriches IOCs from multiple sources, providing contextualized intelligence on IPs, domains, URLs, and files to accelerate threat hunting and incident response
 
 **Category:** Threat Intelligence  
@@ -25,15 +21,3 @@ Get the latest Maltiverse report for an hash, domain or an IP address.
 - **Configuration:** [.upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 1
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

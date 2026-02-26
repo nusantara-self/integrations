@@ -1,7 +1,3 @@
-# CrowdStrike Falcon
-
-![CrowdStrike Falcon Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg)
-
 CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat detection, prevention, and response capabilities
 
 **Category:** EDR  
@@ -222,15 +218,3 @@ Real-time connector that streams CrowdStrike Falcon detection events into TheHiv
 **Documentation:** [https://github.com/StrangeBeeCorp/falcon2thehive](https://github.com/StrangeBeeCorp/falcon2thehive)
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 11
-- **Total Responders:** 9
-- **Total Functions:** 1
-- **Total External Integrations:** 1
-- **Total Integrations:** 22
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

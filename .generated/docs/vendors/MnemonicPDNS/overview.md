@@ -1,7 +1,3 @@
-# Mnemonic Passive DNS
-
-![Mnemonic Passive DNS Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MnemonicPDNS/assets/logo.png)
-
 Mnemonic Passive DNS provides historical DNS resolution data that helps analysts track domain infrastructure changes, identify malicious domain rotation patterns, and investigate threat actor infrastructure during incident investigations
 
 **Category:** OSINT & Enrichment  
@@ -27,15 +23,3 @@ Query IP addresses and domains against Mnemonic pDNS restricted service.
 - **Configuration:** [.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 2
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

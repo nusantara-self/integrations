@@ -1,7 +1,3 @@
-# YARA
-
-![YARA Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Yara/assets/logo.png)
-
 YARA is a pattern matching engine for malware identification and classification that enables analysts to create rules describing malware families and threat patterns, facilitating rapid malware detection and threat hunting during investigations
 
 **Category:** Malware Analysis  
@@ -25,15 +21,3 @@ Check files against YARA rules, either from local filesystem or from one or mult
 - **Configuration:** [.upstream/cortex/analyzers/Yara/Yara.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Yara/Yara.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Yara/Yara.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 1
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

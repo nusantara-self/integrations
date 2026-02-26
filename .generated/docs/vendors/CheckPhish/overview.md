@@ -1,6 +1,3 @@
-# CheckPhish
-
-
 ## Analyzers (2)
 
 ### CheckPhish_Submit `v1.0`
@@ -20,15 +17,3 @@ Check url address via CheckPhish using jobID returned from CheckPhish_Submit
 - **Configuration:** [.upstream/cortex/analyzers/CheckPhish/CheckPhish.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 2
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

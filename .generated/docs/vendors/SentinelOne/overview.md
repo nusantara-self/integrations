@@ -1,6 +1,3 @@
-# SentinelOne
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -30,15 +27,3 @@ Add SHA1 hash to SentinelOne Blacklist via API v2.1.
 - **Configuration:** [.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 1
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

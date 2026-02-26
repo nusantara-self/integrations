@@ -1,6 +1,3 @@
-# MetaDefender
-
-
 ## Analyzers (5)
 
 ### MetaDefenderCloud_Scan `v1.0`
@@ -44,15 +41,3 @@ Get the latest MetaDefender Cloud report for hash.
 - **Configuration:** [.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 5
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 5
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

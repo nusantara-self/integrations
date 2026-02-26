@@ -1,6 +1,3 @@
-# BackscatterIO
-
-
 ## Analyzers (2)
 
 ### BackscatterIO_GetObservations `v1.0`
@@ -20,15 +17,3 @@ Enrich values using Backscatter.io data.
 - **Configuration:** [.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 2
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

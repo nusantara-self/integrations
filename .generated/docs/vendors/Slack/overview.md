@@ -1,7 +1,3 @@
-# Slack
-
-![Slack Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png)
-
 Slack is a is a team collaboration platform that provides channels, direct messaging, file sharing, and an app ecosystem for workflows and incident response.
 
 **Category:** Collaboration  
@@ -51,15 +47,3 @@ For each assignee change for a case in TheHive, create a Slack block message and
 📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 2
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

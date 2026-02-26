@@ -1,6 +1,3 @@
-# Triage
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -18,15 +15,3 @@ Submit artifacts to the Recorded Future Triage sandbox service. This analyzer re
 - **Configuration:** [.upstream/cortex/analyzers/Triage/Triage.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Triage/Triage.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Triage/Triage.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 1
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

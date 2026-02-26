@@ -1,7 +1,3 @@
-# Microsoft Defender for Office 365
-
-![Microsoft Defender for Office 365 Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MSDefenderOffice365/assets/logo.png)
-
 Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting phishing, malware, and business email compromise attempts with automated investigation and response capabilities
 
 **Category:** Email Security  
@@ -61,15 +57,3 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 - **Configuration:** [.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 4
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 5
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

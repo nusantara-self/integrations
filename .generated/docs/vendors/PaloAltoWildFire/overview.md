@@ -1,6 +1,3 @@
-# PaloAltoWildFire
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -30,15 +27,3 @@ Submit URL to PaloAlto WildFire service.
 - **Configuration:** [.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 1
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

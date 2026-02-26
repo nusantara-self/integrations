@@ -1,7 +1,3 @@
-# Microsoft Entra ID
-
-![Microsoft Entra ID Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MSEntraID/assets/logo.png)
-
 Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access management platform that provides user authentication data, sign-in logs, and security insights to investigate account compromises, suspicious access patterns, and identity-based attacks
 
 **Category:** Identity & Access Management  
@@ -93,15 +89,3 @@ Force password reset at next login with MFA verification before password change 
 - **Configuration:** [.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 4
-- **Total Responders:** 5
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 9
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

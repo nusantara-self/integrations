@@ -1,6 +1,3 @@
-# Hashdd
-
-
 ## Subscription Information
 
 - **Registration Required:** No
@@ -26,15 +23,3 @@ Determine whether a hash is good or bad; if good then list what it is.
 - **Configuration:** [.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 2
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

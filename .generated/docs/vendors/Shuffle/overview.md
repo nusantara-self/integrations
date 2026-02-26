@@ -1,7 +1,3 @@
-# Shuffle
-
-![Shuffle Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Shuffle/assets/logo.png)
-
 Shuffle is an open-source security orchestration, automation and response (SOAR) platform that automates repetitive security tasks, orchestrates incident response workflows, and integrates security tools to accelerate threat detection and remediation
 
 **Category:** SOAR & Automation  
@@ -31,15 +27,3 @@ Native Shuffle app integration that enables workflow automation with TheHive 5 f
 **Documentation:** [https://shuffler.io/apps/thehive/integrations/TheHive_5](https://shuffler.io/apps/thehive/integrations/TheHive_5)
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 1
-- **Total Functions:** 0
-- **Total External Integrations:** 1
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

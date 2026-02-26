@@ -1,6 +1,3 @@
-# urlDNA.io
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -26,15 +23,3 @@ Perform a search on urlDNA.io for IPs, domains or URLs
 - **Configuration:** [.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 2
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

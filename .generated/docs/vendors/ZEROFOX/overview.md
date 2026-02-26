@@ -1,6 +1,3 @@
-# ZEROFOX
-
-
 ## Responders (2)
 
 ### ZEROFOX_Takedown_request `v1.0`
@@ -20,15 +17,3 @@ Close alert in Zerofox
 - **Configuration:** [.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 2
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

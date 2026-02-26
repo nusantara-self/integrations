@@ -1,6 +1,3 @@
-# SecurityTrails
-
-
 ## Analyzers (2)
 
 ### SecurityTrails_Whois `v1.0`
@@ -20,15 +17,3 @@ SecurityTrails Passive DNS Lookup.
 - **Configuration:** [.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 2
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

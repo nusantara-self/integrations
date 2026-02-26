@@ -1,6 +1,3 @@
-# CyberCrime-Tracker
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -18,15 +15,3 @@ Search cybercrime-tracker.net for C2 servers.
 - **Configuration:** [.upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 1
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

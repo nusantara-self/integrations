@@ -1,6 +1,3 @@
-# HarfangLab
-
-
 ## Subscription Information
 
 - **Subscription Required:** Yes
@@ -257,15 +254,3 @@ Search a hash in HarfangLab EDR's telemetry
 - **Configuration:** [.upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 31
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 31
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

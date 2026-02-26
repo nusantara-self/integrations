@@ -1,7 +1,3 @@
-# Microsoft Defender for Endpoint
-
-![Microsoft Defender for Endpoint Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MSDefenderEndpoints/assets/logo.png)
-
 Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, investigation, and automated response capabilities across Windows, macOS, Linux, iOS, and Android devices for comprehensive endpoint security
 
 **Category:** EDR  
@@ -113,15 +109,3 @@ Push IOC to Defender client. Alert mode. This mode is Deprecated and Audit shoul
 - **Configuration:** [.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 12
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 12
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

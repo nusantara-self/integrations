@@ -1,6 +1,3 @@
-# MISPWarningLists
-
-
 ## Subscription Information
 
 - **Registration Required:** No
@@ -18,15 +15,3 @@ Check IoCs/Observables against MISP Warninglists to filter false positives.
 - **Configuration:** [.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 1
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

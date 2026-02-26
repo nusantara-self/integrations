@@ -1,6 +1,3 @@
-# SEKOIAIntelligenceCenter
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -34,15 +31,3 @@ Query the Intelligence Center to retrieve the context of an observable
 - **Configuration:** [.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 3
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 3
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

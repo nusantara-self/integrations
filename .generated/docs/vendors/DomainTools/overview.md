@@ -1,6 +1,3 @@
-# DomainTools
-
-
 ## Analyzers (10)
 
 ### DomainTools_Risk `v2.0`
@@ -84,15 +81,3 @@ Use DomainTools to get a list of domain names that share the same primary or sec
 - **Configuration:** [.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 10
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 10
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

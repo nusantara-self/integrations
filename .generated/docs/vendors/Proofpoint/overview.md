@@ -1,7 +1,3 @@
-# Proofpoint
-
-![Proofpoint Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/assets/logo.png)
-
 Proofpoint is an enterprise email security and threat protection platform that provides advanced threat detection, URL defense, and forensic analysis capabilities
 
 **Category:** Email Security  
@@ -61,15 +57,3 @@ Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and resp
 📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 0
-- **Total Functions:** 2
-- **Total External Integrations:** 0
-- **Total Integrations:** 3
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

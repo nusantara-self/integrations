@@ -1,6 +1,3 @@
-# OpenCTI
-
-
 ## Subscription Information
 
 - **Registration Required:** Yes
@@ -26,15 +23,3 @@ Query multiple OpenCTI instances for a list of observables matching a pattern.
 - **Configuration:** [.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 2
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

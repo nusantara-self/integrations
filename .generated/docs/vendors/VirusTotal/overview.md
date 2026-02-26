@@ -1,7 +1,3 @@
-# VirusTotal
-
-![VirusTotal Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/VirusTotal/assets/logo.svg)
-
 VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus engines and security tools, enabling rapid file, URL, domain, and IP reputation checks during incident investigations
 
 **Category:** Malware Analysis  
@@ -48,15 +44,3 @@ Use VirusTotal to download the original file for an hash.
 - **Configuration:** [.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 4
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 4
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

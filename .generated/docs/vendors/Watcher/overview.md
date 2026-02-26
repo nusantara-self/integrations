@@ -1,6 +1,3 @@
-# Watcher
-
-
 ## Analyzers (1)
 
 ### Watcher_Check `v1.0`
@@ -48,15 +45,3 @@ Add domain to Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitori
 - **Configuration:** [.upstream/cortex/responders/Watcher/Watcher_Add.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Add.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Add.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 1
-- **Total Responders:** 4
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 5
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

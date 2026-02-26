@@ -1,7 +1,3 @@
-# ONYPHE
-
-![ONYPHE Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Onyphe/assets/logo.png)
-
 ONYPHE is a cyber defense search engine that collects and analyzes internet-wide scan data, providing intelligence on exposed assets, vulnerabilities, and threat actor infrastructure for proactive defense and incident investigation
 
 **Category:** Attack Surface Intelligence  
@@ -57,15 +53,3 @@ Retrieve summary information Onyphe has for given ip, domain, or fqdn.
 - **Configuration:** [.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 5
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 5
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

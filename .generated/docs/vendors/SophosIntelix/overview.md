@@ -1,6 +1,3 @@
-# SophosIntelix
-
-
 ## Analyzers (3)
 
 ### SophosIntelix_Submit_Static `v0.1`
@@ -28,15 +25,3 @@ Fast and easy way to find out if the file is known Good, PUA (Potentially Unwant
 - **Configuration:** [.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 3
-- **Total Responders:** 0
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 3
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

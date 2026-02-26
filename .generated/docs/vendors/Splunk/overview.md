@@ -1,7 +1,3 @@
-# Splunk
-
-![Splunk Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Splunk/assets/logo.png)
-
 Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across the enterprise, enabling real-time threat detection, security analytics, and incident investigation through powerful search and correlation capabilities
 
 **Category:** SIEM & Analytics  
@@ -136,15 +132,3 @@ Official Splunk SOAR connector with 16 actions for case management, task operati
 **Documentation:** [https://splunkbase.splunk.com/app/5939](https://splunkbase.splunk.com/app/5939)
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 11
-- **Total Responders:** 0
-- **Total Functions:** 1
-- **Total External Integrations:** 2
-- **Total Integrations:** 14
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

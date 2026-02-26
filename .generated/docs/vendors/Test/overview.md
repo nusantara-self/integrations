@@ -1,6 +1,3 @@
-# Test
-
-
 ## Responders (2)
 
 ### Test `v1.0`
@@ -20,15 +17,3 @@ Development utility that simply echoes the input received by the responder.
 - **Configuration:** [.upstream/cortex/responders/Test/DevTools_Echo.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Test/DevTools_Echo.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Test/DevTools_Echo.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 2
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 2
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*

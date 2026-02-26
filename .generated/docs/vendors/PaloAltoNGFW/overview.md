@@ -1,6 +1,3 @@
-# PaloAltoNGFW
-
-
 ## Responders (16)
 
 ### PaloAltoNGFW_unblock_external_domain `v1.0.0`
@@ -132,15 +129,3 @@ Unblock internal ip
 - **Configuration:** [.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json))
 
 ---
-
-## Statistics
-
-- **Total Analyzers:** 0
-- **Total Responders:** 16
-- **Total Functions:** 0
-- **Total External Integrations:** 0
-- **Total Integrations:** 16
-
----
-
-*This file is auto-generated from the integration manifest. Do not edit manually.*
