@@ -18,11 +18,11 @@ Built something useful? Contributions are welcome!
 ## 📊 Summary Statistics
 
 - **Total Vendors:** 194
-- **Total Analyzers:** 259
+- **Total Analyzers:** 261
 - **Total Responders:** 140
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 416
+- **Total Integrations:** 418
 
 ## 📂 Vendors by Category
 
@@ -331,7 +331,7 @@ Built something useful? Contributions are welcome!
 - **[SecurityTrails](vendors/SecurityTrails/overview.md)** - *Uncategorized* - 2 analyzers
 - **[SEKOIAIntelligenceCenter](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SendGrid](vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders
-- **[SentinelOne](vendors/SentinelOne/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
+- **[SentinelOne](vendors/SentinelOne/overview.md)** - *Uncategorized* - 3 analyzers, 1 responders
 - **[Shodan](vendors/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers
 - **[Shuffle](vendors/Shuffle/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[SinkDB](vendors/SinkDB/overview.md)** - *Uncategorized* - 1 analyzers

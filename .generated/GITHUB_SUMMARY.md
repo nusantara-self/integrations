@@ -3,12 +3,14 @@
 ## Statistics
 
 - **Total Vendors:** 194
-- **Total Analyzers:** 259
+- **Total Analyzers:** 261
 - **Total Responders:** 140
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 416
+- **Total Integrations:** 418
 
 ## Changes
 
-No changes detected.
+### 🔄 Updated Vendors (1)
+
+- **SentinelOne**: 2 → 4 (+2)
