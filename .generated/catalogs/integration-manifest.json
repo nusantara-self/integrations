@@ -3006,31 +3006,6 @@
           "integration_type": null
         }
       ],
-      "responders": [],
-      "functions": []
-    },
-    "stats": {
-      "totalAnalyzers": 1,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
-    }
-  },
-  "EclecticIQIndicator": {
-    "id": "EclecticIQIndicator",
-    "name": "EclecticIQIndicator",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
-    "useCases": [],
-    "externalIntegrations": [],
-    "displayOnWebsite": true,
-    "visibility": "low",
-    "integrations": {
-      "analyzers": [],
       "responders": [
         {
           "name": "EclecticIQ_Indicator_API",
@@ -3042,20 +3017,20 @@
             "thehive:case_artifact",
             "thehive:case"
           ],
-          "file": ".upstream/cortex/responders/EclecticIQIndicator/EclecticIQIndicator.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/EclecticIQIndicator/EclecticIQIndicator.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/EclecticIQIndicator/EclecticIQIndicator.json",
+          "file": ".upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json",
           "integration_type": null
         }
       ],
       "functions": []
     },
     "stats": {
-      "totalAnalyzers": 0,
+      "totalAnalyzers": 1,
       "totalResponders": 1,
       "totalFunctions": 0,
       "totalExternalIntegrations": 0,
-      "total": 1
+      "total": 2
     }
   },
   "Elasticsearch": {
@@ -3676,31 +3651,6 @@
           "integration_type": null
         }
       ],
-      "responders": [],
-      "functions": []
-    },
-    "stats": {
-      "totalAnalyzers": 1,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
-    }
-  },
-  "Gatewatcher_CTI_Identity": {
-    "id": "Gatewatcher_CTI_Identity",
-    "name": "Gatewatcher_CTI_Identity",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
-    "useCases": [],
-    "externalIntegrations": [],
-    "displayOnWebsite": true,
-    "visibility": "low",
-    "integrations": {
-      "analyzers": [],
       "responders": [
         {
           "name": "Gatewatcher_CTI_Identity",
@@ -3711,20 +3661,20 @@
           "dataTypes": [
             "thehive:case"
           ],
-          "file": ".upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json",
+          "file": ".upstream/cortex/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json",
           "integration_type": null
         }
       ],
       "functions": []
     },
     "stats": {
-      "totalAnalyzers": 0,
+      "totalAnalyzers": 1,
       "totalResponders": 1,
       "totalFunctions": 0,
       "totalExternalIntegrations": 0,
-      "total": 1
+      "total": 2
     }
   },
   "Gmail": {

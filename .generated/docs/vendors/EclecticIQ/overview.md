@@ -9,3 +9,15 @@ Query EclecticIQ Intelligence Center for a specific observable.
 - **Configuration:** [.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json))
 
 ---
+
+## Responders (1)
+
+### EclecticIQ_Indicator_API `v1.0`
+Submit indicators to the EclecticIQ Intelligence Center api
+
+- **Author:** EclecticIQ
+- **License:** MIT
+- **Data Types:** `thehive:case_artifact`, `thehive:case`
+- **Configuration:** [.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json))
+
+---

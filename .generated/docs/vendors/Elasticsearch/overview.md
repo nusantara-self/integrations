@@ -1,5 +1,3 @@
-Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log analysis platforms, enabling analysts to query and correlate security events, logs, and threat data across enterprise infrastructure during incident investigations
-
 ## Analyzers (1)
 
 ### Elasticsearch_Analysis `v1.0`

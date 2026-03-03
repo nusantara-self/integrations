@@ -1,5 +1,3 @@
-Hunter.io discovers and verifies email addresses associated with domains, enabling investigators to identify organizational contacts, validate email authenticity, and map corporate infrastructure during threat intelligence gathering
-
 ## Analyzers (1)
 
 ### Hunterio_DomainSearch `v1.0`

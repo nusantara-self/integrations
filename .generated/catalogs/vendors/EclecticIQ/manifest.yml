@@ -41,11 +41,23 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json
     integration_type: null
-  responders: []
+  responders:
+  - name: EclecticIQ_Indicator_API
+    version: '1.0'
+    author: EclecticIQ
+    license: MIT
+    description: Submit indicators to the EclecticIQ Intelligence Center api
+    dataTypes:
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json
+    integration_type: null
   functions: []
 stats:
   totalAnalyzers: 1
-  totalResponders: 0
+  totalResponders: 1
   totalFunctions: 0
   totalExternalIntegrations: 0
-  total: 1
+  total: 2

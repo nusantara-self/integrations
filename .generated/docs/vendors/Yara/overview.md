@@ -1,5 +1,3 @@
-YARA is a pattern matching engine for malware identification and classification that enables analysts to create rules describing malware families and threat patterns, facilitating rapid malware detection and threat hunting during investigations
-
 ## Analyzers (1)
 
 ### Yara `v3.0`

@@ -1,5 +1,3 @@
-URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution URLs, providing real-time intelligence on malicious domains and payload delivery infrastructure used in active campaigns
-
 ## Analyzers (1)
 
 ### URLhaus `v2.0`

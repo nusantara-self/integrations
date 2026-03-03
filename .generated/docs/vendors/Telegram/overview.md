@@ -1,5 +1,3 @@
-Telegram is a cloud-based messaging platform that enables real-time security alerts, incident notifications, and team collaboration during security operations with bot-based automation and secure communication channels
-
 ## Responders (1)
 
 ### Telegram `v1.0`

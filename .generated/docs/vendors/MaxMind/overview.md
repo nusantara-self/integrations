@@ -1,5 +1,3 @@
-MaxMind provides geolocation and network intelligence data that maps IP addresses to geographic locations, ISPs, and network types, enabling analysts to identify attack origins and detect anomalous access patterns during investigations
-
 ## Analyzers (1)
 
 ### MaxMind_GeoIP `v4.0`

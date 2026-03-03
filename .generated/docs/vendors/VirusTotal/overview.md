@@ -1,5 +1,3 @@
-VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus engines and security tools, enabling rapid file, URL, domain, and IP reputation checks during incident investigations
-
 ## Analyzers (4)
 
 ### VirusTotal_GetReport `v3.1`

@@ -1,5 +1,3 @@
-n8n is a low-code/no-code workflow automation platform that enables technical teams to build, deploy, and manage complex automated workflows.
-
 ## Responders (1)
 
 ### n8n `v1.0`

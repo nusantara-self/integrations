@@ -1,5 +1,3 @@
-Proofpoint is an enterprise email security and threat protection platform that provides advanced threat detection, URL defense, and forensic analysis capabilities
-
 ## Analyzers (1)
 
 ### Proofpoint_Lookup `v1.0`

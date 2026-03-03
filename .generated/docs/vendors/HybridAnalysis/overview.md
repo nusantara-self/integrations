@@ -1,5 +1,3 @@
-Hybrid Analysis (Falcon Sandbox) is a free malware analysis service powered by CrowdStrike that executes suspicious files in sandbox environments, providing detailed behavioral analysis, IOCs, and threat intelligence for malware investigations
-
 ## Analyzers (1)
 
 ### HybridAnalysis_GetReport `v1.0`

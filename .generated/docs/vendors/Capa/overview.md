@@ -1,5 +1,3 @@
-CAPA (FLARE Capability Analysis) is a malware analysis tool that automatically identifies malware capabilities and behaviors by detecting common techniques and functions, helping analysts quickly understand what malware can do during reverse engineering and incident response
-
 ## Analyzers (1)
 
 ### Capa `v1.0`

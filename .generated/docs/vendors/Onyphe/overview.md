@@ -1,5 +1,3 @@
-ONYPHE is a cyber defense search engine that collects and analyzes internet-wide scan data, providing intelligence on exposed assets, vulnerabilities, and threat actor infrastructure for proactive defense and incident investigation
-
 ## Analyzers (5)
 
 ### ONYPHE_Search `v1.1`

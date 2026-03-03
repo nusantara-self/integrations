@@ -1,5 +1,3 @@
-Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, investigation, and automated response capabilities across Windows, macOS, Linux, iOS, and Android devices for comprehensive endpoint security
-
 ## Responders (12)
 
 ### MSDefender-PushIOC-Audit `v1.0`

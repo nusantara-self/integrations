@@ -17,7 +17,7 @@ Built something useful? Contributions are welcome!
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 194
+- **Total Vendors:** 192
 - **Total Analyzers:** 261
 - **Total Responders:** 140
 - **Total Functions:** 7
@@ -236,8 +236,7 @@ Built something useful? Contributions are welcome!
 - **[DShield](vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Duo_Security](vendors/Duo_Security/overview.md)** - *Uncategorized* - 3 responders
 - **[EchoTrail](vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
-- **[EclecticIQ](vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers
-- **[EclecticIQIndicator](vendors/EclecticIQIndicator/overview.md)** - *Uncategorized* - 1 responders
+- **[EclecticIQ](vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 external
 - **[EmailRep](vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
@@ -250,8 +249,7 @@ Built something useful? Contributions are welcome!
 - **[ForcepointWebsensePing](vendors/ForcepointWebsensePing/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Fortiguard](vendors/Fortiguard/overview.md)** - *Uncategorized* - No integrations
 - **[FoxIO](vendors/FoxIO/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Gatewatcher_CTI](vendors/Gatewatcher_CTI/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Gatewatcher_CTI_Identity](vendors/Gatewatcher_CTI_Identity/overview.md)** - *Uncategorized* - 1 responders
+- **[Gatewatcher_CTI](vendors/Gatewatcher_CTI/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Gmail](vendors/Gmail/overview.md)** - *Uncategorized* - 5 responders
 - **[Google Threat Intelligence](vendors/GoogleThreatIntelligence/overview.md)** - *Threat Intelligence* - 5 analyzers
 - **[GoogleDNS](vendors/GoogleDNS/overview.md)** - *Uncategorized* - 1 analyzers

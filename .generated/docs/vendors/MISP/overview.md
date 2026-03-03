@@ -1,5 +1,3 @@
-MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicators of Compromise (IOCs) and threat intelligence data, enabling collaborative defense and rapid incident response
-
 ## Analyzers (1)
 
 ### MISP `v2.1`

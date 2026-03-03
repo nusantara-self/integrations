@@ -1,5 +1,3 @@
-Slack is a is a team collaboration platform that provides channels, direct messaging, file sharing, and an app ecosystem for workflows and incident response.
-
 ## Responders (2)
 
 ### Slack_CreateChannel `v1.0`

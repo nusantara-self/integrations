@@ -1,5 +1,3 @@
-Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate incident response workflows, orchestrate security tools, and accelerate threat investigation and remediation
-
 ## External Integrations (1)
 
 External integrations that connect Cortex XSOAR with TheHive:

@@ -1,5 +1,3 @@
-Rapid7 InsightConnect is a security orchestration and automation platform that enables security teams to automate workflows, connect security tools, and accelerate incident response through pre-built integrations and custom automation
-
 ## External Integrations (1)
 
 External integrations that connect Rapid7 InsightConnect with TheHive:

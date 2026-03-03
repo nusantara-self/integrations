@@ -1,5 +1,3 @@
-Shuffle is an open-source security orchestration, automation and response (SOAR) platform that automates repetitive security tasks, orchestrates incident response workflows, and integrates security tools to accelerate threat detection and remediation
-
 ## Responders (1)
 
 ### Shuffle `v1.0`

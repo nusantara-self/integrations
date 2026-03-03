@@ -1,5 +1,3 @@
-CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat detection, prevention, and response capabilities
-
 ## Analyzers (11)
 
 ### CrowdstrikeFalcon_Sandbox_Win7_64 `v1.0`

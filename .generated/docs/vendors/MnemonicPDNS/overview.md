@@ -1,5 +1,3 @@
-Mnemonic Passive DNS provides historical DNS resolution data that helps analysts track domain infrastructure changes, identify malicious domain rotation patterns, and investigate threat actor infrastructure during incident investigations
-
 ## Analyzers (2)
 
 ### Mnemonic_pDNS_Public `v3.0`

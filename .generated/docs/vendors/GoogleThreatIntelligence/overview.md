@@ -1,5 +1,3 @@
-Google Threat Intelligence (formerly VirusTotal) provides comprehensive malware analysis, threat intelligence, and file/URL/domain reputation data from 70+ security engines, enabling rapid threat assessment and IOC validation during investigations
-
 ## Analyzers (5)
 
 ### GTI_ScanFile `v1.0`
