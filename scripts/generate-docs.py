@@ -56,10 +56,10 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     #             lines.append(f"![{manifest['name']} Logo]({logo['url']})")
     #             lines.append("")
 
-    # Description
-    if manifest.get('description'):
-        lines.append(manifest['description'])
-        lines.append("")
+    # Description (commented out — frontend renders the description from the JSON manifest)
+    # if manifest.get('description'):
+    #     lines.append(manifest['description'])
+    #     lines.append("")
 
     # Metadata (commented out — frontend renders these from the JSON manifest)
     # if manifest.get('category'):
