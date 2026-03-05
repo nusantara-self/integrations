@@ -27,3 +27,23 @@ Ingests ProofPoint clicksPermitted alerts in TheHive
 - **File:** [integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js))
 
 ---
+
+## Use Cases (2)
+
+### Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
+Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have reached user mailboxes and may require investigation.
+
+- **License required:** Platinum
+- **TheHive version required:** 5.5+
+- **Documentation:** [integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md)
+- **Related:** `integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_MessageDelivered.js`
+
+---
+
+### Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
+Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked on malicious links that were not blocked by Proofpoint and may require investigation.
+
+- **License required:** Platinum
+- **TheHive version required:** 5.5+
+- **Documentation:** [integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md)
+- **Related Function:** [alertFeeder_ProofPoint_clicksPermitted](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js)

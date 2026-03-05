@@ -1386,6 +1386,11 @@
             "tap",
             "messagesDelivered",
             "alert-ingestion"
+          ],
+          "thehive_version_required": "5.5",
+          "license_required": "platinum",
+          "linked_to": [
+            "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_MessageDelivered.js"
           ]
         },
         {
@@ -1401,6 +1406,11 @@
             "tap",
             "clicksPermitted",
             "alert-ingestion"
+          ],
+          "thehive_version_required": "5.5",
+          "license_required": "platinum",
+          "linked_to": [
+            "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js"
           ]
         }
       ],
