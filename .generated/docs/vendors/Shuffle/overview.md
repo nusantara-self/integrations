@@ -17,7 +17,5 @@ External integrations that connect Shuffle with TheHive:
 ### TheHive 5 Integration
 Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration
 
-**Type:** app
-**Documentation:** [https://shuffler.io/apps/thehive/integrations/TheHive_5](https://shuffler.io/apps/thehive/integrations/TheHive_5)
-
----
+- **Type:** app
+- **Documentation:** [https://shuffler.io/apps/thehive/integrations/TheHive_5](https://shuffler.io/apps/thehive/integrations/TheHive_5)

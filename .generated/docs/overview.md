@@ -185,7 +185,7 @@ Built something useful? Contributions are welcome!
 
 ## 🔤 All Vendors (A-Z)
 
-- **[Abuse_Finder](vendors/Abuse_Finder/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Abuse Finder](vendors/Abuse_Finder/overview.md)** - *Uncategorized* - 1 analyzers
 - **[AbuseIPDB](vendors/AbuseIPDB/overview.md)** - *Threat Intelligence* - 1 analyzers, 1 responders
 - **[AILOnionLookup](vendors/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Airtable](vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions
@@ -234,7 +234,7 @@ Built something useful? Contributions are welcome!
 - **[DomainTools](vendors/DomainTools/overview.md)** - *Uncategorized* - 10 analyzers
 - **[DomainToolsIris](vendors/DomainToolsIris/overview.md)** - *Uncategorized* - 2 analyzers, 2 responders
 - **[DShield](vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Duo_Security](vendors/Duo_Security/overview.md)** - *Uncategorized* - 3 responders
+- **[Duo Security](vendors/Duo_Security/overview.md)** - *Uncategorized* - 3 responders
 - **[EchoTrail](vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQ](vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 external
@@ -249,7 +249,7 @@ Built something useful? Contributions are welcome!
 - **[ForcepointWebsensePing](vendors/ForcepointWebsensePing/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Fortiguard](vendors/Fortiguard/overview.md)** - *Uncategorized* - No integrations
 - **[FoxIO](vendors/FoxIO/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Gatewatcher_CTI](vendors/Gatewatcher_CTI/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
+- **[Gatewatcher CTI](vendors/Gatewatcher_CTI/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Gmail](vendors/Gmail/overview.md)** - *Uncategorized* - 5 responders
 - **[Google Threat Intelligence](vendors/GoogleThreatIntelligence/overview.md)** - *Threat Intelligence* - 5 analyzers
 - **[GoogleDNS](vendors/GoogleDNS/overview.md)** - *Uncategorized* - 1 analyzers

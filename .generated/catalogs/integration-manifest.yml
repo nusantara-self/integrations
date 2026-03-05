@@ -1,6 +1,6 @@
 Abuse_Finder:
   id: Abuse_Finder
-  name: Abuse_Finder
+  name: Abuse Finder
   description: ''
   category: ''
   tags: []
@@ -2367,7 +2367,7 @@ DShield:
     total: 1
 Duo_Security:
   id: Duo_Security
-  name: Duo_Security
+  name: Duo Security
   description: ''
   category: ''
   tags: []
@@ -3010,7 +3010,7 @@ FoxIO:
     total: 1
 Gatewatcher_CTI:
   id: Gatewatcher_CTI
-  name: Gatewatcher_CTI
+  name: Gatewatcher CTI
   description: ''
   category: ''
   tags: []

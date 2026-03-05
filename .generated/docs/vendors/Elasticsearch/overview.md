@@ -17,7 +17,5 @@ External integrations that connect Elasticsearch with TheHive:
 ### TheHive Connector for Kibana
 Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
 
-**Type:** connector
-**Documentation:** [https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type](https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type)
-
----
+- **Type:** connector
+- **Documentation:** [https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type](https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type)

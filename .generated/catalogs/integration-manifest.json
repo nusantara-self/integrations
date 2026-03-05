@@ -1,7 +1,7 @@
 {
   "Abuse_Finder": {
     "id": "Abuse_Finder",
-    "name": "Abuse_Finder",
+    "name": "Abuse Finder",
     "description": "",
     "category": "",
     "tags": [],
@@ -2852,7 +2852,7 @@
   },
   "Duo_Security": {
     "id": "Duo_Security",
-    "name": "Duo_Security",
+    "name": "Duo Security",
     "description": "",
     "category": "",
     "tags": [],
@@ -3616,7 +3616,7 @@
   },
   "Gatewatcher_CTI": {
     "id": "Gatewatcher_CTI",
-    "name": "Gatewatcher_CTI",
+    "name": "Gatewatcher CTI",
     "description": "",
     "category": "",
     "tags": [],

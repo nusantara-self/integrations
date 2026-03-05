@@ -1890,7 +1890,7 @@ high:
 medium: []
 low:
 - id: Abuse_Finder
-  name: Abuse_Finder
+  name: Abuse Finder
   description: ''
   category: ''
   tags: []
@@ -3821,7 +3821,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: Duo_Security
-  name: Duo_Security
+  name: Duo Security
   description: ''
   category: ''
   tags: []
@@ -4449,7 +4449,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: Gatewatcher_CTI
-  name: Gatewatcher_CTI
+  name: Gatewatcher CTI
   description: ''
   category: ''
   tags: []

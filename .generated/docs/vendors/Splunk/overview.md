@@ -108,15 +108,13 @@ External integrations that connect Splunk with TheHive:
 ### TheHive/Cortex Technical Add-on
 Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information, and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards
 
-**Type:** technical-addon
-**Documentation:** [https://splunkbase.splunk.com/app/5329](https://splunkbase.splunk.com/app/5329)
+- **Type:** technical-addon
+- **Documentation:** [https://splunkbase.splunk.com/app/5329](https://splunkbase.splunk.com/app/5329)
 
 ---
 
 ### TheHive SOAR Connector
 Official Splunk SOAR connector with 16 actions for case management, task operations, observable handling, and TTP tracking to automate incident response workflows between Splunk and TheHive
 
-**Type:** soar-connector
-**Documentation:** [https://splunkbase.splunk.com/app/5939](https://splunkbase.splunk.com/app/5939)
-
----
+- **Type:** soar-connector
+- **Documentation:** [https://splunkbase.splunk.com/app/5939](https://splunkbase.splunk.com/app/5939)
