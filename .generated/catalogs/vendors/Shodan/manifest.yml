@@ -108,5 +108,6 @@ stats:
   totalAnalyzers: 6
   totalResponders: 0
   totalFunctions: 0
+  totalUseCases: 0
   totalExternalIntegrations: 0
   total: 6

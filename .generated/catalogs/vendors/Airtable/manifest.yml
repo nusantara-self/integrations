@@ -30,5 +30,6 @@ stats:
   totalAnalyzers: 0
   totalResponders: 0
   totalFunctions: 1
+  totalUseCases: 0
   totalExternalIntegrations: 0
   total: 1

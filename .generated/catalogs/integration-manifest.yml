@@ -37,6 +37,7 @@ Abuse_Finder:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 AbuseIPDB:
@@ -96,6 +97,7 @@ AbuseIPDB:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 AILOnionLookup:
@@ -136,6 +138,7 @@ AILOnionLookup:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Airtable:
@@ -167,6 +170,7 @@ Airtable:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 1
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 AMPforEndpoints:
@@ -249,6 +253,7 @@ AMPforEndpoints:
     totalAnalyzers: 0
     totalResponders: 5
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 AnyRun:
@@ -287,6 +292,7 @@ AnyRun:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Autofocus:
@@ -352,6 +358,7 @@ Autofocus:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 AWSLambda:
@@ -393,6 +400,7 @@ AWSLambda:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 AWX:
@@ -430,6 +438,7 @@ AWX:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Axur:
@@ -471,6 +480,7 @@ Axur:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 BackscatterIO:
@@ -522,6 +532,7 @@ BackscatterIO:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 BinalyzeAIR:
@@ -571,6 +582,7 @@ BinalyzeAIR:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 C1fApp:
@@ -608,6 +620,7 @@ C1fApp:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Capa:
@@ -655,6 +668,7 @@ Capa:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Censys:
@@ -694,6 +708,7 @@ Censys:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 CERTatPassiveDNS:
@@ -730,6 +745,7 @@ CERTatPassiveDNS:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 ChainAbuse:
@@ -767,6 +783,7 @@ ChainAbuse:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 CheckPhish:
@@ -813,6 +830,7 @@ CheckPhish:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 CheckPoint:
@@ -859,6 +877,7 @@ CheckPoint:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 CIRCLHashlookup:
@@ -896,6 +915,7 @@ CIRCLHashlookup:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 CIRCLPassiveDNS:
@@ -935,6 +955,7 @@ CIRCLPassiveDNS:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 CIRCLPassiveSSL:
@@ -974,6 +995,7 @@ CIRCLPassiveSSL:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 CIRCLVulnerabilityLookup:
@@ -1019,6 +1041,7 @@ CIRCLVulnerabilityLookup:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 CiscoUmbrella:
@@ -1069,6 +1092,7 @@ CiscoUmbrella:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 CISMCAP:
@@ -1112,6 +1136,7 @@ CISMCAP:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 ClamAV:
@@ -1146,6 +1171,7 @@ ClamAV:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Cloudflare:
@@ -1186,6 +1212,7 @@ Cloudflare:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Cluster25:
@@ -1228,6 +1255,7 @@ Cluster25:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 ClusterHawk:
@@ -1265,6 +1293,7 @@ ClusterHawk:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 CortexXSOAR:
@@ -1295,6 +1324,7 @@ CortexXSOAR:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 1
 Crowdsec:
@@ -1342,6 +1372,7 @@ Crowdsec:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 CrowdstrikeFalcon:
@@ -1661,6 +1692,7 @@ CrowdstrikeFalcon:
     totalAnalyzers: 11
     totalResponders: 9
     totalFunctions: 1
+    totalUseCases: 2
     totalExternalIntegrations: 1
     total: 22
 Crtsh:
@@ -1698,6 +1730,7 @@ Crtsh:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 CuckooSandbox:
@@ -1747,6 +1780,7 @@ CuckooSandbox:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 CyberChef:
@@ -1808,6 +1842,7 @@ CyberChef:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 CyberCrime-Tracker:
@@ -1849,6 +1884,7 @@ CyberCrime-Tracker:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Cyberprotect:
@@ -1890,6 +1926,7 @@ Cyberprotect:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Cylance:
@@ -1927,6 +1964,7 @@ Cylance:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Diario:
@@ -1949,6 +1987,7 @@ Diario:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 DNS-RPZ:
@@ -1983,6 +2022,7 @@ DNS-RPZ:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 DNSDB:
@@ -2043,6 +2083,7 @@ DNSDB:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 DNSdumpster:
@@ -2080,6 +2121,7 @@ DNSdumpster:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 DNSLookingglass:
@@ -2118,6 +2160,7 @@ DNSLookingglass:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 DNSSinkhole:
@@ -2152,6 +2195,7 @@ DNSSinkhole:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 DomainMailSPFDMARC:
@@ -2190,6 +2234,7 @@ DomainMailSPFDMARC:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 DomainTools:
@@ -2345,6 +2390,7 @@ DomainTools:
     totalAnalyzers: 10
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 10
 DomainToolsIris:
@@ -2420,6 +2466,7 @@ DomainToolsIris:
     totalAnalyzers: 2
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 4
 DShield:
@@ -2457,6 +2504,7 @@ DShield:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Duo_Security:
@@ -2516,6 +2564,7 @@ Duo_Security:
     totalAnalyzers: 0
     totalResponders: 3
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 EchoTrail:
@@ -2555,6 +2604,7 @@ EchoTrail:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 EclecticIQ:
@@ -2617,6 +2667,7 @@ EclecticIQ:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 Elasticsearch:
@@ -2678,6 +2729,7 @@ Elasticsearch:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 2
 EmailRep:
@@ -2724,6 +2776,7 @@ EmailRep:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 EmergingThreats:
@@ -2787,6 +2840,7 @@ EmergingThreats:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 EmlParser:
@@ -2823,6 +2877,7 @@ EmlParser:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 FalconCustomIOC:
@@ -2871,6 +2926,7 @@ FalconCustomIOC:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 FalconSandbox:
@@ -2908,6 +2964,7 @@ FalconSandbox:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 FileInfo:
@@ -2943,6 +3000,7 @@ FileInfo:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 FireEyeiSight:
@@ -2983,6 +3041,7 @@ FireEyeiSight:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 FireHOLBlocklists:
@@ -3020,6 +3079,7 @@ FireHOLBlocklists:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 ForcepointWebsensePing:
@@ -3060,6 +3120,7 @@ ForcepointWebsensePing:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Fortiguard:
@@ -3082,6 +3143,7 @@ Fortiguard:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 FoxIO:
@@ -3120,6 +3182,7 @@ FoxIO:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Gatewatcher_CTI:
@@ -3174,6 +3237,7 @@ Gatewatcher_CTI:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 Gmail:
@@ -3256,6 +3320,7 @@ Gmail:
     totalAnalyzers: 0
     totalResponders: 5
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 GoogleDNS:
@@ -3292,6 +3357,7 @@ GoogleDNS:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 GoogleSafebrowsing:
@@ -3327,6 +3393,7 @@ GoogleSafebrowsing:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 GoogleThreatIntelligence:
@@ -3434,6 +3501,7 @@ GoogleThreatIntelligence:
     totalAnalyzers: 5
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 GoogleVisionAPI:
@@ -3469,6 +3537,7 @@ GoogleVisionAPI:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 GreyNoise:
@@ -3513,6 +3582,7 @@ GreyNoise:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 GRR:
@@ -3548,6 +3618,7 @@ GRR:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 HarfangLab:
@@ -3947,6 +4018,7 @@ HarfangLab:
     totalAnalyzers: 0
     totalResponders: 31
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 31
 Hashdd:
@@ -3996,6 +4068,7 @@ Hashdd:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 HIBP:
@@ -4042,6 +4115,7 @@ HIBP:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Hippocampe:
@@ -4064,6 +4138,7 @@ Hippocampe:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 Hunterio:
@@ -4111,6 +4186,7 @@ Hunterio:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 HybridAnalysis:
@@ -4158,6 +4234,7 @@ HybridAnalysis:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 IBMQRadar:
@@ -4195,6 +4272,7 @@ IBMQRadar:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 IBMXForce:
@@ -4232,6 +4310,7 @@ IBMXForce:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Inoitsu:
@@ -4269,6 +4348,7 @@ Inoitsu:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 InsightConnect:
@@ -4303,6 +4383,7 @@ InsightConnect:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 1
 IntezerCommunity:
@@ -4341,6 +4422,7 @@ IntezerCommunity:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Investigate:
@@ -4388,6 +4470,7 @@ Investigate:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 IP-API:
@@ -4425,6 +4508,7 @@ IP-API:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 IPinfo:
@@ -4480,6 +4564,7 @@ IPinfo:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 IPVoid:
@@ -4514,6 +4599,7 @@ IPVoid:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 isMalicious:
@@ -4554,6 +4640,7 @@ isMalicious:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 IVRE:
@@ -4595,6 +4682,7 @@ IVRE:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 JAMFProtect:
@@ -4657,6 +4745,7 @@ JAMFProtect:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 1
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 JIRA:
@@ -4688,6 +4777,7 @@ JIRA:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 1
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 JoeSandbox:
@@ -4748,6 +4838,7 @@ JoeSandbox:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 Jupyter:
@@ -4815,6 +4906,7 @@ Jupyter:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 KasperskyTIP:
@@ -4851,6 +4943,7 @@ KasperskyTIP:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 KnowBe4:
@@ -4885,6 +4978,7 @@ KnowBe4:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 LdapQuery:
@@ -4920,6 +5014,7 @@ LdapQuery:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Lookyloo:
@@ -4960,6 +5055,7 @@ Lookyloo:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 LupovisProwl:
@@ -4996,6 +5092,7 @@ LupovisProwl:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Mailer:
@@ -5032,6 +5129,7 @@ Mailer:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 MailIncidentStatus:
@@ -5069,6 +5167,7 @@ MailIncidentStatus:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Malpedia:
@@ -5103,6 +5202,7 @@ Malpedia:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Maltiverse:
@@ -5152,6 +5252,7 @@ Maltiverse:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 MalwareBazaar:
@@ -5198,6 +5299,7 @@ MalwareBazaar:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 MalwareClustering:
@@ -5236,6 +5338,7 @@ MalwareClustering:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Malwares:
@@ -5288,6 +5391,7 @@ Malwares:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 MaxMind:
@@ -5331,6 +5435,7 @@ MaxMind:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 MetaDefender:
@@ -5415,6 +5520,7 @@ MetaDefender:
     totalAnalyzers: 5
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 Minemeld:
@@ -5452,6 +5558,7 @@ Minemeld:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 MISP:
@@ -5511,6 +5618,7 @@ MISP:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 MISPWarningLists:
@@ -5552,6 +5660,7 @@ MISPWarningLists:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 MnemonicPDNS:
@@ -5609,6 +5718,7 @@ MnemonicPDNS:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 MSDefenderEndpoints:
@@ -5789,6 +5899,7 @@ MSDefenderEndpoints:
     totalAnalyzers: 0
     totalResponders: 12
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 12
 MSDefenderOffice365:
@@ -5891,6 +6002,7 @@ MSDefenderOffice365:
     totalAnalyzers: 1
     totalResponders: 4
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 MSEntraID:
@@ -6042,6 +6154,7 @@ MSEntraID:
     totalAnalyzers: 4
     totalResponders: 5
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 9
 MsgParser:
@@ -6076,6 +6189,7 @@ MsgParser:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 n8n:
@@ -6129,6 +6243,7 @@ n8n:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 2
 NERD:
@@ -6166,6 +6281,7 @@ NERD:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Nessus:
@@ -6201,6 +6317,7 @@ Nessus:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Netcraft:
@@ -6238,6 +6355,7 @@ Netcraft:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 NSRL:
@@ -6273,6 +6391,7 @@ NSRL:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Okta:
@@ -6311,6 +6430,7 @@ Okta:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Onyphe:
@@ -6424,6 +6544,7 @@ Onyphe:
     totalAnalyzers: 5
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 ONYPHEActiveScan:
@@ -6463,6 +6584,7 @@ ONYPHEActiveScan:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 OpenCTI:
@@ -6538,6 +6660,7 @@ OpenCTI:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 OrionMalware:
@@ -6576,6 +6699,7 @@ OrionMalware:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 OTXQuery:
@@ -6626,6 +6750,7 @@ OTXQuery:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 PaloAltoCortexXDR:
@@ -6687,6 +6812,7 @@ PaloAltoCortexXDR:
     totalAnalyzers: 0
     totalResponders: 3
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 PaloAltoNGFW:
@@ -6933,6 +7059,7 @@ PaloAltoNGFW:
     totalAnalyzers: 0
     totalResponders: 16
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 16
 PaloAltoWildFire:
@@ -6986,6 +7113,7 @@ PaloAltoWildFire:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 PassiveTotal:
@@ -7160,6 +7288,7 @@ PassiveTotal:
     totalAnalyzers: 11
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 11
 Patrowl:
@@ -7199,6 +7328,7 @@ Patrowl:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 PayloadSecurity:
@@ -7245,6 +7375,7 @@ PayloadSecurity:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 PhishingInitiative:
@@ -7296,6 +7427,7 @@ PhishingInitiative:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 PhishTank:
@@ -7341,6 +7473,7 @@ PhishTank:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Proofpoint:
@@ -7433,6 +7566,7 @@ Proofpoint:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 2
+    totalUseCases: 2
     totalExternalIntegrations: 0
     total: 3
 Pulsedive:
@@ -7470,6 +7604,7 @@ Pulsedive:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 QrDecode:
@@ -7504,6 +7639,7 @@ QrDecode:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 RecordedFuture:
@@ -7554,6 +7690,7 @@ RecordedFuture:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Redmine:
@@ -7589,6 +7726,7 @@ Redmine:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 RiskIQ:
@@ -7844,6 +7982,7 @@ RiskIQ:
     totalAnalyzers: 16
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 17
 Robtex:
@@ -7903,6 +8042,7 @@ Robtex:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 RT4:
@@ -7939,6 +8079,7 @@ RT4:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 SecurityTrails:
@@ -7985,6 +8126,7 @@ SecurityTrails:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 SEKOIAIntelligenceCenter:
@@ -8058,6 +8200,7 @@ SEKOIAIntelligenceCenter:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 SendGrid:
@@ -8093,6 +8236,7 @@ SendGrid:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 SentinelOne:
@@ -8172,6 +8316,7 @@ SentinelOne:
     totalAnalyzers: 3
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 4
 Shodan:
@@ -8281,6 +8426,7 @@ Shodan:
     totalAnalyzers: 6
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 6
 Shuffle:
@@ -8334,6 +8480,7 @@ Shuffle:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 2
 SinkDB:
@@ -8371,6 +8518,7 @@ SinkDB:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Slack:
@@ -8451,6 +8599,7 @@ Slack:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 2
     totalExternalIntegrations: 0
     total: 2
 SoltraEdge:
@@ -8498,6 +8647,7 @@ SoltraEdge:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 SophosIntelix:
@@ -8563,6 +8713,7 @@ SophosIntelix:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 SpamAssassin:
@@ -8600,6 +8751,7 @@ SpamAssassin:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 SpamhausDBL:
@@ -8635,6 +8787,7 @@ SpamhausDBL:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Splunk:
@@ -8826,6 +8979,7 @@ Splunk:
     totalAnalyzers: 11
     totalResponders: 0
     totalFunctions: 1
+    totalUseCases: 0
     totalExternalIntegrations: 2
     total: 14
 StamusNetworks:
@@ -8860,6 +9014,7 @@ StamusNetworks:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 StaxxSearch:
@@ -8899,6 +9054,7 @@ StaxxSearch:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 StopForumSpam:
@@ -8934,6 +9090,7 @@ StopForumSpam:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 TalosReputation:
@@ -8956,6 +9113,7 @@ TalosReputation:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 TeamCymruMHR:
@@ -8993,6 +9151,7 @@ TeamCymruMHR:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Telegram:
@@ -9039,6 +9198,7 @@ Telegram:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Test:
@@ -9093,6 +9253,7 @@ Test:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 TestAnalyzer:
@@ -9162,6 +9323,7 @@ TestAnalyzer:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 ThreatConnect:
@@ -9193,6 +9355,7 @@ ThreatConnect:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 1
 Threatcrowd:
@@ -9215,6 +9378,7 @@ Threatcrowd:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 ThreatGrid:
@@ -9251,6 +9415,7 @@ ThreatGrid:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 ThreatMiner:
@@ -9286,6 +9451,7 @@ ThreatMiner:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 ThreatResponse:
@@ -9325,6 +9491,7 @@ ThreatResponse:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Thunderstorm:
@@ -9362,6 +9529,7 @@ Thunderstorm:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Tines:
@@ -9391,6 +9559,7 @@ Tines:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 1
 TorBlutmagie:
@@ -9431,6 +9600,7 @@ TorBlutmagie:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 TorProject:
@@ -9465,6 +9635,7 @@ TorProject:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Triage:
@@ -9505,6 +9676,7 @@ Triage:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 UnshortenLink:
@@ -9539,6 +9711,7 @@ UnshortenLink:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 urlDNA.io:
@@ -9590,6 +9763,7 @@ urlDNA.io:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 URLhaus:
@@ -9640,6 +9814,7 @@ URLhaus:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Urlscan.io:
@@ -9706,6 +9881,7 @@ Urlscan.io:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 Valhalla:
@@ -9743,6 +9919,7 @@ Valhalla:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 ValidateObservable:
@@ -9788,6 +9965,7 @@ ValidateObservable:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Velociraptor:
@@ -9830,6 +10008,7 @@ Velociraptor:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Verifalia:
@@ -9864,6 +10043,7 @@ Verifalia:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Virusshare:
@@ -9902,6 +10082,7 @@ Virusshare:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 VirusTotal:
@@ -9992,6 +10173,7 @@ VirusTotal:
     totalAnalyzers: 4
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 4
 VirustotalDownloader:
@@ -10029,6 +10211,7 @@ VirustotalDownloader:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 VMRay:
@@ -10065,6 +10248,7 @@ VMRay:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Vulners:
@@ -10116,6 +10300,7 @@ Vulners:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 Watcher:
@@ -10206,6 +10391,7 @@ Watcher:
     totalAnalyzers: 1
     totalResponders: 4
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 Wazuh:
@@ -10241,6 +10427,7 @@ Wazuh:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 WOT:
@@ -10276,6 +10463,7 @@ WOT:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Yara:
@@ -10323,6 +10511,7 @@ Yara:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 Yeti:
@@ -10361,6 +10550,7 @@ Yeti:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 ZEROFOX:
@@ -10407,6 +10597,7 @@ ZEROFOX:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 Zscaler:
@@ -10464,5 +10655,6 @@ Zscaler:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2

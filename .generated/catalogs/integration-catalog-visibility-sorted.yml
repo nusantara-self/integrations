@@ -65,6 +65,7 @@ high:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: Capa
@@ -111,6 +112,7 @@ high:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Cloudflare
@@ -150,6 +152,7 @@ high:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: CrowdstrikeFalcon
@@ -468,6 +471,7 @@ high:
     totalAnalyzers: 11
     totalResponders: 9
     totalFunctions: 1
+    totalUseCases: 2
     totalExternalIntegrations: 1
     total: 22
 - id: GoogleThreatIntelligence
@@ -574,6 +578,7 @@ high:
     totalAnalyzers: 5
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 - id: MSDefenderEndpoints
@@ -753,6 +758,7 @@ high:
     totalAnalyzers: 0
     totalResponders: 12
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 12
 - id: MSDefenderOffice365
@@ -854,6 +860,7 @@ high:
     totalAnalyzers: 1
     totalResponders: 4
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 - id: MSEntraID
@@ -1004,6 +1011,7 @@ high:
     totalAnalyzers: 4
     totalResponders: 5
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 9
 - id: MISP
@@ -1062,6 +1070,7 @@ high:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Onyphe
@@ -1174,6 +1183,7 @@ high:
     totalAnalyzers: 5
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 - id: Proofpoint
@@ -1265,6 +1275,7 @@ high:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 2
+    totalUseCases: 2
     totalExternalIntegrations: 0
     total: 3
 - id: RecordedFuture
@@ -1314,6 +1325,7 @@ high:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Shodan
@@ -1422,6 +1434,7 @@ high:
     totalAnalyzers: 6
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 6
 - id: Slack
@@ -1501,6 +1514,7 @@ high:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 2
     totalExternalIntegrations: 0
     total: 2
 - id: Splunk
@@ -1691,6 +1705,7 @@ high:
     totalAnalyzers: 11
     totalResponders: 0
     totalFunctions: 1
+    totalUseCases: 0
     totalExternalIntegrations: 2
     total: 14
 - id: Telegram
@@ -1736,6 +1751,7 @@ high:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: URLhaus
@@ -1785,6 +1801,7 @@ high:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Urlscan.io
@@ -1850,6 +1867,7 @@ high:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: VirusTotal
@@ -1939,6 +1957,7 @@ high:
     totalAnalyzers: 4
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 4
 - id: Yara
@@ -1985,6 +2004,7 @@ high:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 medium: []
@@ -2027,6 +2047,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: AILOnionLookup
@@ -2066,6 +2087,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Airtable
@@ -2096,6 +2118,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 1
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: OTXQuery
@@ -2145,6 +2168,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: AnyRun
@@ -2182,6 +2206,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Autofocus
@@ -2246,6 +2271,7 @@ low:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: AWSLambda
@@ -2286,6 +2312,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: AWX
@@ -2322,6 +2349,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Axur
@@ -2362,6 +2390,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: BackscatterIO
@@ -2412,6 +2441,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: BinalyzeAIR
@@ -2460,6 +2490,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: C1fApp
@@ -2496,6 +2527,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Censys
@@ -2534,6 +2566,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: CERTatPassiveDNS
@@ -2569,6 +2602,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: ChainAbuse
@@ -2605,6 +2639,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: CheckPhish
@@ -2650,6 +2685,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: CheckPoint
@@ -2695,6 +2731,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: CIRCLHashlookup
@@ -2731,6 +2768,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: CIRCLPassiveDNS
@@ -2769,6 +2807,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: CIRCLPassiveSSL
@@ -2807,6 +2846,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: CIRCLVulnerabilityLookup
@@ -2851,6 +2891,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: AMPforEndpoints
@@ -2932,6 +2973,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 5
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 - id: CiscoUmbrella
@@ -2981,6 +3023,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: CISMCAP
@@ -3023,6 +3066,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: ClamAV
@@ -3056,6 +3100,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Cluster25
@@ -3097,6 +3142,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: ClusterHawk
@@ -3133,6 +3179,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Crowdsec
@@ -3179,6 +3226,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Crtsh
@@ -3215,6 +3263,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: CuckooSandbox
@@ -3263,6 +3312,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: CyberChef
@@ -3323,6 +3373,7 @@ low:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: CyberCrime-Tracker
@@ -3363,6 +3414,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Cyberprotect
@@ -3403,6 +3455,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Cylance
@@ -3439,6 +3492,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Diario
@@ -3460,6 +3514,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 - id: DNS-RPZ
@@ -3493,6 +3548,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: DNSDB
@@ -3552,6 +3608,7 @@ low:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: DNSdumpster
@@ -3588,6 +3645,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: DNSLookingglass
@@ -3625,6 +3683,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: DNSSinkhole
@@ -3658,6 +3717,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: DomainMailSPFDMARC
@@ -3695,6 +3755,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: DomainTools
@@ -3849,6 +3910,7 @@ low:
     totalAnalyzers: 10
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 10
 - id: DomainToolsIris
@@ -3923,6 +3985,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 4
 - id: DShield
@@ -3959,6 +4022,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Duo_Security
@@ -4017,6 +4081,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 3
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: EchoTrail
@@ -4055,6 +4120,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: EclecticIQ
@@ -4116,6 +4182,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: Elasticsearch
@@ -4176,6 +4243,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 2
 - id: EmailRep
@@ -4221,6 +4289,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: EmergingThreats
@@ -4283,6 +4352,7 @@ low:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: EmlParser
@@ -4318,6 +4388,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: FalconCustomIOC
@@ -4365,6 +4436,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: FalconSandbox
@@ -4401,6 +4473,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: FileInfo
@@ -4435,6 +4508,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: FireEyeiSight
@@ -4474,6 +4548,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: FireHOLBlocklists
@@ -4510,6 +4585,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: ForcepointWebsensePing
@@ -4549,6 +4625,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Fortiguard
@@ -4570,6 +4647,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 - id: FoxIO
@@ -4607,6 +4685,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Gatewatcher_CTI
@@ -4660,6 +4739,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: Gmail
@@ -4741,6 +4821,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 5
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 - id: GoogleSafebrowsing
@@ -4775,6 +4856,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: GoogleVisionAPI
@@ -4809,6 +4891,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: GoogleDNS
@@ -4844,6 +4927,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: GreyNoise
@@ -4887,6 +4971,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: GRR
@@ -4921,6 +5006,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: HarfangLab
@@ -5319,6 +5405,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 31
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 31
 - id: Hashdd
@@ -5367,6 +5454,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: HIBP
@@ -5412,6 +5500,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Hippocampe
@@ -5433,6 +5522,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 - id: Hunterio
@@ -5479,6 +5569,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: HybridAnalysis
@@ -5525,6 +5616,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: IBMQRadar
@@ -5561,6 +5653,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: IBMXForce
@@ -5597,6 +5690,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Inoitsu
@@ -5633,6 +5727,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: IntezerCommunity
@@ -5670,6 +5765,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Investigate
@@ -5716,6 +5812,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: IP-API
@@ -5752,6 +5849,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: IPinfo
@@ -5806,6 +5904,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: IPVoid
@@ -5839,6 +5938,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: isMalicious
@@ -5878,6 +5978,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: IVRE
@@ -5918,6 +6019,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: JAMFProtect
@@ -5979,6 +6081,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 1
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: JIRA
@@ -6009,6 +6112,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 1
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: JoeSandbox
@@ -6068,6 +6172,7 @@ low:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: Jupyter
@@ -6134,6 +6239,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: KasperskyTIP
@@ -6169,6 +6275,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: KnowBe4
@@ -6202,6 +6309,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: LdapQuery
@@ -6236,6 +6344,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Lookyloo
@@ -6275,6 +6384,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: LupovisProwl
@@ -6310,6 +6420,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Mailer
@@ -6345,6 +6456,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: MailIncidentStatus
@@ -6381,6 +6493,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Malpedia
@@ -6414,6 +6527,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Maltiverse
@@ -6462,6 +6576,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: TeamCymruMHR
@@ -6498,6 +6613,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: MalwareBazaar
@@ -6543,6 +6659,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: MalwareClustering
@@ -6580,6 +6697,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Malwares
@@ -6631,6 +6749,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: MaxMind
@@ -6673,6 +6792,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: MetaDefender
@@ -6756,6 +6876,7 @@ low:
     totalAnalyzers: 5
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 - id: Minemeld
@@ -6792,6 +6913,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: MISPWarningLists
@@ -6832,6 +6954,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: MnemonicPDNS
@@ -6888,6 +7011,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: MsgParser
@@ -6921,6 +7045,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: n8n
@@ -6973,6 +7098,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 2
 - id: NERD
@@ -7009,6 +7135,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Nessus
@@ -7043,6 +7170,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Netcraft
@@ -7079,6 +7207,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: NSRL
@@ -7113,6 +7242,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Okta
@@ -7150,6 +7280,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: ONYPHEActiveScan
@@ -7188,6 +7319,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: OpenCTI
@@ -7262,6 +7394,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: OrionMalware
@@ -7299,6 +7432,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: PaloAltoCortexXDR
@@ -7359,6 +7493,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 3
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: CortexXSOAR
@@ -7388,6 +7523,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 1
 - id: PaloAltoNGFW
@@ -7633,6 +7769,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 16
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 16
 - id: PaloAltoWildFire
@@ -7685,6 +7822,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: PassiveTotal
@@ -7858,6 +7996,7 @@ low:
     totalAnalyzers: 11
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 11
 - id: Patrowl
@@ -7896,6 +8035,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: PayloadSecurity
@@ -7941,6 +8081,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: PhishingInitiative
@@ -7991,6 +8132,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: PhishTank
@@ -8035,6 +8177,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Pulsedive
@@ -8071,6 +8214,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: QrDecode
@@ -8104,6 +8248,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: InsightConnect
@@ -8137,6 +8282,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 1
 - id: Redmine
@@ -8171,6 +8317,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: RiskIQ
@@ -8425,6 +8572,7 @@ low:
     totalAnalyzers: 16
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 17
 - id: Robtex
@@ -8483,6 +8631,7 @@ low:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: RT4
@@ -8518,6 +8667,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: SecurityTrails
@@ -8563,6 +8713,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: SEKOIAIntelligenceCenter
@@ -8635,6 +8786,7 @@ low:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: SendGrid
@@ -8669,6 +8821,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: SentinelOne
@@ -8747,6 +8900,7 @@ low:
     totalAnalyzers: 3
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 4
 - id: Shuffle
@@ -8799,6 +8953,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 2
 - id: SinkDB
@@ -8835,6 +8990,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: SoltraEdge
@@ -8881,6 +9037,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: SophosIntelix
@@ -8945,6 +9102,7 @@ low:
     totalAnalyzers: 3
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 3
 - id: SpamAssassin
@@ -8981,6 +9139,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: SpamhausDBL
@@ -9015,6 +9174,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: StamusNetworks
@@ -9048,6 +9208,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: StaxxSearch
@@ -9086,6 +9247,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: StopForumSpam
@@ -9120,6 +9282,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: TalosReputation
@@ -9141,6 +9304,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 - id: Test
@@ -9194,6 +9358,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: TestAnalyzer
@@ -9262,6 +9427,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: ThreatConnect
@@ -9292,6 +9458,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 1
 - id: Threatcrowd
@@ -9313,6 +9480,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 0
 - id: ThreatGrid
@@ -9348,6 +9516,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: ThreatMiner
@@ -9382,6 +9551,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: ThreatResponse
@@ -9420,6 +9590,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Thunderstorm
@@ -9456,6 +9627,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Tines
@@ -9484,6 +9656,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 1
     total: 1
 - id: TorBlutmagie
@@ -9523,6 +9696,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: TorProject
@@ -9556,6 +9730,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Triage
@@ -9595,6 +9770,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: UnshortenLink
@@ -9628,6 +9804,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: urlDNA.io
@@ -9678,6 +9855,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: Valhalla
@@ -9714,6 +9892,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: ValidateObservable
@@ -9758,6 +9937,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Velociraptor
@@ -9799,6 +9979,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Verifalia
@@ -9832,6 +10013,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Virusshare
@@ -9869,6 +10051,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: VirustotalDownloader
@@ -9905,6 +10088,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: VMRay
@@ -9940,6 +10124,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Vulners
@@ -9990,6 +10175,7 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: Watcher
@@ -10079,6 +10265,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 4
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 5
 - id: Wazuh
@@ -10113,6 +10300,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 1
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: WOT
@@ -10147,6 +10335,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: Yeti
@@ -10184,6 +10373,7 @@ low:
     totalAnalyzers: 1
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
 - id: ZEROFOX
@@ -10229,6 +10419,7 @@ low:
     totalAnalyzers: 0
     totalResponders: 2
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2
 - id: Zscaler
@@ -10285,5 +10476,6 @@ low:
     totalAnalyzers: 2
     totalResponders: 0
     totalFunctions: 0
+    totalUseCases: 0
     totalExternalIntegrations: 0
     total: 2

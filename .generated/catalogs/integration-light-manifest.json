@@ -801,7 +801,7 @@
       "totalAnalyzers": 11,
       "totalResponders": 9,
       "totalFunctions": 1,
-      "totalUseCases": 0,
+      "totalUseCases": 2,
       "totalExternalIntegrations": 1,
       "total": 22
     }
@@ -3420,7 +3420,7 @@
       "totalAnalyzers": 1,
       "totalResponders": 0,
       "totalFunctions": 2,
-      "totalUseCases": 0,
+      "totalUseCases": 2,
       "totalExternalIntegrations": 0,
       "total": 3
     }
@@ -3812,7 +3812,7 @@
       "totalAnalyzers": 0,
       "totalResponders": 2,
       "totalFunctions": 0,
-      "totalUseCases": 0,
+      "totalUseCases": 2,
       "totalExternalIntegrations": 0,
       "total": 2
     }
