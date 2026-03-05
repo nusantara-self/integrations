@@ -6,7 +6,7 @@ Query EclecticIQ Intelligence Center for a specific observable.
 - **Author:** BW
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json)
 
 ---
 
@@ -18,6 +18,6 @@ Submit indicators to the EclecticIQ Intelligence Center api
 - **Author:** EclecticIQ
 - **License:** MIT
 - **Data Types:** `thehive:case_artifact`, `thehive:case`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/EclecticIQ/EclecticIQIndicator.json)
 
 ---

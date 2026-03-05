@@ -22,7 +22,7 @@ Creates a Slack channel for a TheHive case, invites participants, and optionally
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_CreateChannel.json)
 
 ### Slack_SyncChannel `v1.0`
 Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.
@@ -30,6 +30,6 @@ Syncs Slack channel conversations to TheHive task logs. Imports messages chronol
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_SyncChannel.json)
 
 ---

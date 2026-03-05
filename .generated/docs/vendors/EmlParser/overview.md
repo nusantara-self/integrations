@@ -6,6 +6,6 @@ Parse and visualise EML email message. Submit a .eml formatted file and extract 
 - **Author:** StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmlParser/EmlParser.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmlParser/EmlParser.json)
 
 ---

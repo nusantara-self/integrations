@@ -38,6 +38,7 @@ integrations:
     file: .upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer/DevTools_Echo.json
     integration_type: null
   - name: TestAnalyzer
     version: '1.0'
@@ -59,6 +60,7 @@ integrations:
     file: .upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer/TestAnalyzer.json
     integration_type: null
   responders: []
   functions: []

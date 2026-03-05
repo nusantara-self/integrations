@@ -6,7 +6,7 @@ Development utility that simply echoes the (available) input received by the ana
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `file`, `hash`, `filename`, `uri_path`, `user-agent`, `mail-subject`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer/DevTools_Echo.json)
 
 ### TestAnalyzer `v1.0`
 Just a simple test analyzer! No real-world use-case covered by this one, for testing, reference, dev and any other purpose only!
@@ -14,6 +14,6 @@ Just a simple test analyzer! No real-world use-case covered by this one, for tes
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `hash`, `filename`, `uri_path`, `user-agent`, `mail-subject`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer/TestAnalyzer.json)
 
 ---

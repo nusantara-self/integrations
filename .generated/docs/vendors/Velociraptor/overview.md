@@ -6,6 +6,6 @@ Run Velociraptor artifact collection
 - **Author:** Wes Lambert, @therealwlambert
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Velociraptor/velociraptor_flow.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Velociraptor/velociraptor_flow.json)
 
 ---

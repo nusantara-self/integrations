@@ -6,7 +6,7 @@ Run Palo Alto WildFire analysis on a file, hash, or URL
 - **Author:** Ignacio Rodriguez Paez, Joe Lazaro
 - **License:** AGPL-V3
 - **Data Types:** `file`, `url`, `hash`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoWildFire/PaloAltoWildFire.json)
 
 ---
 
@@ -18,6 +18,6 @@ Submit URL to PaloAlto WildFire service.
 - **Author:** Keijo Korte - @korteke
 - **License:** AGPL-V3
 - **Data Types:** `url`, `domain`, `fqdn`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json)
 
 ---

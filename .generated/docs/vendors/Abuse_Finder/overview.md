@@ -6,6 +6,6 @@ Find abuse contacts associated with domain names, URLs, IPs and email addresses.
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `url`, `mail`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Abuse_Finder/Abuse_Finder.json)
 
 ---

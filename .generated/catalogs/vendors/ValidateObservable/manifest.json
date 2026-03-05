@@ -35,6 +35,7 @@
         "file": ".upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ValidateObservable/ValidateObservable.json",
         "integration_type": "local"
       }
     ],

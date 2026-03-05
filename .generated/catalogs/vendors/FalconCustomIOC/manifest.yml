@@ -27,6 +27,7 @@ integrations:
     file: .upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/FalconCustomIOC/FalconCustomIOCv2.json
     integration_type: null
   - name: Crowdstrike_Falcon_Custom_IOC_API
     version: '1.0'
@@ -39,6 +40,7 @@ integrations:
     file: .upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/FalconCustomIOC/FalconCustomIOC.json
     integration_type: null
   functions: []
 stats:

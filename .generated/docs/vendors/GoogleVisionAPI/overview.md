@@ -6,6 +6,6 @@ Find look alike image via Google Cloud Vision API using the Web_Detection servic
 - **Author:** CERT-LaPoste
 - **License:** AGPL-V3
 - **Data Types:** `file`, `url`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json)
 
 ---

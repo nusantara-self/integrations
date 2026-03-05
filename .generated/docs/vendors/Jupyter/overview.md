@@ -6,7 +6,7 @@ Execute a parameterized notebook in Jupyter
 - **Author:** Alexandre Demeyer
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `hostname`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json)
 
 ---
 
@@ -18,6 +18,6 @@ Execute a parameterized notebook in Jupyter
 - **Author:** Alexandre Demeyer
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:case_artifact`, `thehive:alert`, `thehive:case_task`, `thehive:case_task_log`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Jupyter/Jupyter_Run_Notebook_Responder.json)
 
 ---

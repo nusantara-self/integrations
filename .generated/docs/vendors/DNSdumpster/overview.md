@@ -6,6 +6,6 @@ Query domain information from DNSdumpster.com.
 - **Author:** Keijo Korte - @korteke
 - **License:** AGPL-V3
 - **Data Types:** `domain`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSdumpster/DNSdumpster.json)
 
 ---

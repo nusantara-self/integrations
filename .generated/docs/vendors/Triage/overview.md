@@ -6,6 +6,6 @@ Submit artifacts to the Recorded Future Triage sandbox service. This analyzer re
 - **Author:** Mikael Keri
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `url`, `file`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Triage/Triage.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Triage/Triage.json)
 
 ---

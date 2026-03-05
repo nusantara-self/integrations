@@ -25,6 +25,7 @@ integrations:
     file: .upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus/Autofocus_SearchJSON.json
     integration_type: null
   - name: Autofocus_SearchIOC
     version: '1.0'
@@ -43,6 +44,7 @@ integrations:
     file: .upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus/Autofocus_SearchIOC.json
     integration_type: null
   - name: Autofocus_GetSampleAnalysis
     version: '1.0'
@@ -54,6 +56,7 @@ integrations:
     file: .upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
     integration_type: null
   responders: []
   functions: []

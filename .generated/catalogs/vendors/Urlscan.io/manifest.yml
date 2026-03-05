@@ -41,6 +41,7 @@ integrations:
     file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io/Urlscan_Scan.json
     integration_type: null
   - name: Urlscan.io_Search
     version: 0.1.1
@@ -56,6 +57,7 @@ integrations:
     file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io/Urlscan_Search.json
     integration_type: null
   responders: []
   functions: []

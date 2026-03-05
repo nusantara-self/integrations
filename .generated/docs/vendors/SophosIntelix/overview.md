@@ -6,7 +6,7 @@ Use SophosLabs machine learning to understand the characteristics of your suspic
 - **Author:** SOL
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json)
 
 ### SophosIntelix_Submit_Dynamic `v0.1`
 Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
@@ -14,7 +14,7 @@ Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the
 - **Author:** SOL
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json)
 
 ### SophosIntelix_GetReport `v0.3`
 Fast and easy way to find out if the file is known Good, PUA (Potentially Unwanted Application), or, Malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
@@ -22,6 +22,6 @@ Fast and easy way to find out if the file is known Good, PUA (Potentially Unwant
 - **Author:** SOL
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `domain`, `fqdn`, `url`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix/SophosIntelix_GetReport.json)
 
 ---

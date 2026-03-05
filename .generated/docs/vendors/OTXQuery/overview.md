@@ -6,6 +6,6 @@ Query AlienVault OTX for IPs, domains, URLs, or file hashes.
 - **Author:** Eric Capuano
 - **License:** AGPL-V3
 - **Data Types:** `url`, `domain`, `file`, `hash`, `ip`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OTXQuery/OTXQuery.json)
 
 ---

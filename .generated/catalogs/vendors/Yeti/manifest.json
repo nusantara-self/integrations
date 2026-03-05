@@ -28,6 +28,7 @@
         "file": ".upstream/cortex/analyzers/Yeti/Yeti.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Yeti/Yeti.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Yeti/Yeti.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Yeti/Yeti.json",
         "integration_type": null
       }
     ],

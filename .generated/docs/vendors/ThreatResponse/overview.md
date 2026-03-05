@@ -6,6 +6,6 @@ Threat Response
 - **Author:** Cisco Security
 - **License:** MIT
 - **Data Types:** `domain`, `filename`, `fqdn`, `hash`, `ip`, `url`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatResponse/ThreatResponse.json)
 
 ---

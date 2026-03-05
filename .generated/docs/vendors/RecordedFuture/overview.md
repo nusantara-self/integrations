@@ -6,6 +6,6 @@ Enrich IP, Domain, FQDN, URL, or Hash with Recorded Future context:  Risk Score,
 - **Author:** Recorded Future
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`, `url`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RecordedFuture/RecordedFuture.json)
 
 ---

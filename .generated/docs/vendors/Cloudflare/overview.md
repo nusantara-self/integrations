@@ -6,6 +6,6 @@ Block IP Address on Account level in Cloudflare
 - **Author:** Nick Babkin @nickbabkin
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Cloudflare/CloudflareIPBlocker.json)
 
 ---

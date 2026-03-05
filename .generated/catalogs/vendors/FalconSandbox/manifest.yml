@@ -28,6 +28,7 @@ integrations:
     file: .upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FalconSandbox/FalconSandbox.json
     integration_type: null
   responders: []
   functions: []

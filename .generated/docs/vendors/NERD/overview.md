@@ -6,6 +6,6 @@ Get Reputation score and other basic information from Network Entity Reputation 
 - **Author:** Vaclav Bartos, CESNET
 - **License:** AGPL-V3
 - **Data Types:** `ip`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/NERD/nerd.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/NERD/nerd.json)
 
 ---

@@ -6,6 +6,6 @@ Parse files in several formats such as OLE and OpenXML to detect VBA macros, ext
 - **Author:** TheHive-Project
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/FileInfo/FileInfo.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FileInfo/FileInfo.json)
 
 ---

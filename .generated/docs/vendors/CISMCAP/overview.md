@@ -6,6 +6,6 @@ Malicious Code Analysis Platform (MCAP) by the Center for Internet Security (CIS
 - **Author:** Joe Lazaro
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `hash`, `url`, `domain`, `fqdn`, `file`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CISMCAP/CISMCAP.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CISMCAP/CISMCAP.json)
 
 ---

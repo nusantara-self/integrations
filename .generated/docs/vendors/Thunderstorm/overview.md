@@ -6,6 +6,6 @@ Submits sample to an on-premise THOR Thunderstorm web service and processes the 
 - **Author:** Florian Roth
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Thunderstorm/Thunderstorm_ScanSample.json)
 
 ---

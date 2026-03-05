@@ -27,6 +27,7 @@ integrations:
     file: .upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
     integration_type: null
   - name: JoeSandbox_File_Analysis_Inet
     version: '3.0'
@@ -38,6 +39,7 @@ integrations:
     file: .upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
     integration_type: null
   - name: JoeSandbox_File_Analysis_Noinet
     version: '3.0'
@@ -49,6 +51,7 @@ integrations:
     file: .upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json
     integration_type: null
   responders: []
   functions: []

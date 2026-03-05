@@ -6,6 +6,6 @@ emailrep.io lookup.
 - **Author:** Manabu Niseki
 - **License:** MIT
 - **Data Types:** `mail`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmailRep/EmailRep.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmailRep/EmailRep.json)
 
 ---

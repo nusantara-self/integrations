@@ -6,6 +6,6 @@ Perform domain lookup to Spamhaus DBL
 - **Author:** Wes Lambert
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SpamhausDBL/SpamhausDBL.json)
 
 ---

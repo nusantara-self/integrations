@@ -28,6 +28,7 @@ integrations:
     file: .upstream/cortex/responders/RT4/rt4.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/RT4/rt4.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/RT4/rt4.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/RT4/rt4.json
     integration_type: null
   functions: []
 stats:

@@ -6,6 +6,6 @@ Check CIRCL's Passive DNS for a given domain or URL.
 - **Author:** Nils Kuhnert, CERT-Bund
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `url`, `ip`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json)
 
 ---

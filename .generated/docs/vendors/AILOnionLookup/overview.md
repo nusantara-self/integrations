@@ -6,6 +6,6 @@ Checks the existence of Tor hidden services and retrieving their associated meta
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `url`, `fqdn`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AILOnionLookup/AIL_OnionLookup.json)
 
 ---

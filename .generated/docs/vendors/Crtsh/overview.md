@@ -6,6 +6,6 @@ Query domains against the certificate transparency lists available at crt.sh.
 - **Author:** crackytsi
 - **License:** AGPL-V3
 - **Data Types:** `domain`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Crtsh/Crtsh.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Crtsh/Crtsh.json)
 
 ---

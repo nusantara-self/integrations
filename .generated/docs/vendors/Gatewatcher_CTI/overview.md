@@ -6,7 +6,7 @@ Get Gatewatcher CTI Report
 - **Author:** Gatewatcher
 - **License:** AGPL-3.0
 - **Data Types:** `hash`, `domain`, `fqdn`, `url`, `ip`, `mail`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json)
 
 ---
 
@@ -18,6 +18,6 @@ Gatewatcher_CTI_Identity responder
 - **Author:** Gatewatcher
 - **License:** AGPL-3.0
 - **Data Types:** `thehive:case`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json)
 
 ---

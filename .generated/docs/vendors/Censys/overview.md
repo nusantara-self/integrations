@@ -6,6 +6,6 @@ Check IPs, certificate hashes or domains against censys.io.
 - **Author:** Nils Kuhnert, CERT-Bund; Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `hash`, `domain`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Censys/Censys.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Censys/Censys.json)
 
 ---

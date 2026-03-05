@@ -6,7 +6,7 @@ Query IP addresses and domains against Mnemonic pDNS public service.
 - **Author:** Michael Stensrud, Nordic Financial CERT
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json)
 
 ### Mnemonic_pDNS_Closed `v3.0`
 Query IP addresses and domains against Mnemonic pDNS restricted service.
@@ -14,6 +14,6 @@ Query IP addresses and domains against Mnemonic pDNS restricted service.
 - **Author:** Michael Stensrud, Nordic Financial CERT
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json)
 
 ---

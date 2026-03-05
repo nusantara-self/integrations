@@ -26,6 +26,7 @@ integrations:
     file: .upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security/DuoUnlockUserAccount.json
     integration_type: null
   - name: DuoLockUserAccount
     version: '1.0'
@@ -37,6 +38,7 @@ integrations:
     file: .upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security/DuoLockUserAccount.json
     integration_type: null
   - name: DuoBypassUserAccount
     version: '1.0'
@@ -49,6 +51,7 @@ integrations:
     file: .upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security/DuoBypassUserAccount.json
     integration_type: null
   functions: []
 stats:

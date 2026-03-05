@@ -6,6 +6,6 @@ Perform active scan of an asset using a Scanyphe Entreprise On-Demand scanner
 - **Author:** James Atack
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json)
 
 ---

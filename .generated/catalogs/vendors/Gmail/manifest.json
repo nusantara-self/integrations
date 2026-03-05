@@ -25,6 +25,7 @@
         "file": ".upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_DeleteMessage.json",
         "integration_type": null
       },
       {
@@ -39,6 +40,7 @@
         "file": ".upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_BlockDomain.json",
         "integration_type": null
       },
       {
@@ -53,6 +55,7 @@
         "file": ".upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_BlockSender.json",
         "integration_type": null
       },
       {
@@ -67,6 +70,7 @@
         "file": ".upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_UnblockDomain.json",
         "integration_type": null
       },
       {
@@ -81,6 +85,7 @@
         "file": ".upstream/cortex/responders/Gmail/Gmail_UnblockSender.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_UnblockSender.json",
         "integration_type": null
       }
     ],

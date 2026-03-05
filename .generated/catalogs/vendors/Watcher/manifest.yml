@@ -26,6 +26,7 @@ integrations:
     file: .upstream/cortex/analyzers/Watcher/Watcher_Check.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Watcher/Watcher_Check.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Watcher/Watcher_Check.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Watcher/Watcher_Check.json
     integration_type: null
   responders:
   - name: Watcher_Transfer
@@ -41,6 +42,7 @@ integrations:
     file: .upstream/cortex/responders/Watcher/Watcher_Transfer.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher/Watcher_Transfer.json
     integration_type: null
   - name: Watcher_Remove
     version: '1.1'
@@ -52,6 +54,7 @@ integrations:
     file: .upstream/cortex/responders/Watcher/Watcher_Remove.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher/Watcher_Remove.json
     integration_type: null
   - name: Watcher_Update
     version: '1.1'
@@ -65,6 +68,7 @@ integrations:
     file: .upstream/cortex/responders/Watcher/Watcher_Update.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Update.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Update.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher/Watcher_Update.json
     integration_type: null
   - name: Watcher_Add
     version: '1.1'
@@ -78,6 +82,7 @@ integrations:
     file: .upstream/cortex/responders/Watcher/Watcher_Add.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Add.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Add.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher/Watcher_Add.json
     integration_type: null
   functions: []
 stats:

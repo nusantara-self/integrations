@@ -6,7 +6,7 @@ Use Phishing Initiative to scan a URL.
 - **Author:** Remi Pointel
 - **License:** AGPL-V3
 - **Data Types:** `url`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative/PhishingInitiative_Scan.json)
 
 ### PhishingInitiative_Lookup `v2.0`
 Use Phishing Initiative to check if a URL is a verified phishing site.
@@ -14,6 +14,6 @@ Use Phishing Initiative to check if a URL is a verified phishing site.
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
 - **Data Types:** `url`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json)
 
 ---

@@ -6,6 +6,6 @@ Add a dynamic DNS entry to a Response Policy Zone, blackholing or redirecting a 
 - **Author:** Michael Hornung; Expeditors International of Washington, Inc.
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/DNS-RPZ/DNS-RPZ.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DNS-RPZ/DNS-RPZ.json)
 
 ---

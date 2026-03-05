@@ -6,7 +6,7 @@ Query Zscaler Internet Access for URL categorization and security classification
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `url`, `ip`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler/ZscalerZIA_URLLookup.json)
 
 ### Zscaler `v1.3`
 Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer requires a paid subscription to Zscaler ZIA
@@ -14,6 +14,6 @@ Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer req
 - **Author:** Simon Lavigne, Mikael Keri
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler/Zscaler.json)
 
 ---

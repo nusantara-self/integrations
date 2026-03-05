@@ -28,6 +28,7 @@
         "file": ".upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR/binalyze_air_acquisition.json",
         "integration_type": null
       },
       {
@@ -42,6 +43,7 @@
         "file": ".upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR/binalyze_air_isolation.json",
         "integration_type": null
       }
     ],

@@ -6,6 +6,6 @@ Send an email with information from a TheHive case or alert
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_task`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Mailer/Mailer.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Mailer/Mailer.json)
 
 ---

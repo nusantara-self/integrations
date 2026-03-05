@@ -6,6 +6,6 @@ Query Crowdsec API
 - **Author:** CERT-ARKEA
 - **License:** AGPL-V3
 - **Data Types:** `ip`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Crowdsec/Crowdsec_analyzer.json)
 
 ---

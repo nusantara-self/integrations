@@ -6,6 +6,6 @@ Check files against YARA rules, either from local filesystem or from one or mult
 - **Author:** Nils Kuhnert, CERT-Bund; Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Yara/Yara.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Yara/Yara.json)
 
 ---

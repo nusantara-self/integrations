@@ -28,7 +28,7 @@ Check URL, file, SHA256 against Proofpoint forensics
 - **Author:** Emmanuel Torquato
 - **License:** AGPL-V3
 - **Data Types:** `url`, `file`, `hash`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Proofpoint/ProofPoint_Lookup.json)
 
 ---
 

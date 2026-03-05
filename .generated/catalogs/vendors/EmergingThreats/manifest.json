@@ -28,6 +28,7 @@
         "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json",
         "integration_type": null
       },
       {
@@ -43,6 +44,7 @@
         "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
         "integration_type": null
       },
       {
@@ -57,6 +59,7 @@
         "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
         "integration_type": null
       }
     ],

@@ -28,6 +28,7 @@ integrations:
     file: .upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ClusterHawk/ClusterHawk.json
     integration_type: null
   responders: []
   functions: []

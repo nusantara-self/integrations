@@ -37,6 +37,7 @@
         "file": ".upstream/cortex/analyzers/Capa/Capa.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Capa/Capa.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Capa/Capa.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Capa/Capa.json",
         "integration_type": "local"
       }
     ],

@@ -6,6 +6,6 @@ Use Cluster25's CTI API to investigate an observable.
 - **Author:** Cluster25
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `file`, `hash`, `ip`, `mail`, `url`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Cluster25/C25CortexAnalyzer_investigate.json)
 
 ---

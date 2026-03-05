@@ -6,7 +6,7 @@ Search for IoCs in Elasticsearch
 - **Author:** Nick Prokop
 - **License:** MIT
 - **Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`, `mail`, `mail-subject`, `user-agent`, `hostname`, `username`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch/Elasticsearch_Analysis.json)
 
 ---
 

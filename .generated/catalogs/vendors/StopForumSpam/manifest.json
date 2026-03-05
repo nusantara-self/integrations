@@ -25,6 +25,7 @@
         "file": ".upstream/cortex/analyzers/StopForumSpam/StopForumSpam.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/StopForumSpam/StopForumSpam.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/StopForumSpam/StopForumSpam.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/StopForumSpam/StopForumSpam.json",
         "integration_type": null
       }
     ],

@@ -6,6 +6,6 @@ Query the SANS ISC Global DNS Lookingglass API to check a domain name for resolv
 - **Author:** Dennis Perto, Conscia
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSLookingglass/DNSLookingglass.json)
 
 ---

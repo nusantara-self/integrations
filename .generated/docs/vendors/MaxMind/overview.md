@@ -6,6 +6,6 @@ Use MaxMind to geolocate an IP address.
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
 - **Data Types:** `ip`
-- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MaxMind/MaxMind_GeoIP.json)
 
 ---
