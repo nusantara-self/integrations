@@ -55,6 +55,23 @@ def build_github_url(relative_path: str) -> str:
     return f"{GITHUB_BASE_URL}/{path}"
 
 
+# Upstream Cortex-Analyzers repository URL
+UPSTREAM_CORTEX_URL = "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master"
+
+
+def build_upstream_url(relative_path: str) -> str:
+    """Build upstream Cortex-Analyzers URL from relative path.
+
+    Transforms: .upstream/cortex/analyzers/Vendor/file.json
+    To: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vendor/file.json
+    """
+    # Extract the path after .upstream/cortex/
+    if '.upstream/cortex/' in relative_path:
+        upstream_path = relative_path.split('.upstream/cortex/')[1]
+        return f"{UPSTREAM_CORTEX_URL}/{upstream_path}"
+    return relative_path
+
+
 def parse_markdown_frontmatter(file_path: str) -> Optional[Dict]:
     """Parse YAML front matter from markdown files."""
     try:
@@ -122,6 +139,7 @@ def scan_analyzers(vendor: str) -> tuple[List[Dict], Dict]:
                 'file': relative_path,
                 'url': build_url(relative_path),
                 'github_url': build_github_url(relative_path),
+                'upstream_url': build_upstream_url(relative_path),
                 'integration_type': content.get('integration_type')
             })
 
@@ -169,6 +187,7 @@ def scan_responders(vendor: str) -> tuple[List[Dict], Dict]:
                 'file': relative_path,
                 'url': build_url(relative_path),
                 'github_url': build_github_url(relative_path),
+                'upstream_url': build_upstream_url(relative_path),
                 'integration_type': content.get('integration_type')
             })
 

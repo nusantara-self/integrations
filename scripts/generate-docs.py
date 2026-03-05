@@ -166,8 +166,8 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(f"- **Data Types:** {data_types}")
 
             if analyzer.get('file'):
-                lines.append(f"- **Configuration:** [View config]({analyzer['github_url']})")
-                # Raw link available: analyzer['url']
+                lines.append(f"- **Configuration:** [View config]({analyzer['upstream_url']})")
+                # Local repo link: analyzer['github_url']
 
             lines.append("")
 
@@ -198,8 +198,8 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(f"- **Data Types:** {data_types}")
 
             if responder.get('file'):
-                lines.append(f"- **Configuration:** [View config]({responder['github_url']})")
-                # Raw link available: responder['url']
+                lines.append(f"- **Configuration:** [View config]({responder['upstream_url']})")
+                # Local repo link: responder['github_url']
 
             lines.append("")
 
