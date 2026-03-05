@@ -545,6 +545,7 @@ jobs:
           path: |
             .generated/catalogs/*/manifest.json
             .generated/catalogs/*/manifest.yml
-            .generated/integration-manifest.json
-            .generated/integration-manifest.yml
+            .generated/catalogs/integration-manifest.json
+            .generated/catalogs/integration-manifest.yml
+            .generated/catalogs/integration-light-manifest.json
           retention-days: 30

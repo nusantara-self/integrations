@@ -213,21 +213,24 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
         lines.append(f"External integrations that connect {manifest['name']} with TheHive:")
         lines.append("")
 
-        for vi in external_integrations:
+        for i, vi in enumerate(external_integrations):
             lines.append(f"### {vi['name']}")
             if vi.get('description'):
                 lines.append(vi['description'])
             lines.append("")
 
             if vi.get('type'):
-                lines.append(f"**Type:** {vi['type']}")
+                lines.append(f"- **Type:** {vi['type']}")
 
             if vi.get('documentation'):
-                lines.append(f"**Documentation:** [{vi['documentation']}]({vi['documentation']})")
+                lines.append(f"- **Documentation:** [{vi['documentation']}]({vi['documentation']})")
 
             lines.append("")
-            lines.append("---")
-            lines.append("")
+
+            # Only add separator between items, not after the last one
+            if i < len(external_integrations) - 1:
+                lines.append("---")
+                lines.append("")
 
     # Statistics (commented out — frontend uses stats from the JSON manifest)
     # stats = manifest.get('stats', {})

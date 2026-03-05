@@ -334,13 +334,21 @@ def auto_detect_logo(vendor: str) -> Dict:
     return {}
 
 
+def format_vendor_name(vendor_id: str) -> str:
+    """Format vendor ID as a readable name by replacing underscores with spaces."""
+    return vendor_id.replace('_', ' ')
+
+
 def read_vendor_metadata(vendor: str) -> Dict:
     """Read vendor metadata from vendor.yml."""
     vendor_yml_path = Path('integrations') / 'vendors' / vendor / 'vendor.yml'
 
+    # Use formatted vendor name as default (replace _ with space)
+    default_name = format_vendor_name(vendor)
+
     default_metadata = {
         'id': vendor,
-        'name': vendor,
+        'name': default_name,
         'description': '',
         'category': '',
         'tags': [],
@@ -376,7 +384,7 @@ def read_vendor_metadata(vendor: str) -> Dict:
 
         return {
             'id': data.get('id', vendor),
-            'name': data.get('name', vendor),
+            'name': data.get('name', default_name),
             'description': data.get('description', ''),
             'category': data.get('category', ''),
             'tags': tags,

@@ -23,6 +23,80 @@ from manifest_utils import (
 )
 
 
+def generate_light_manifest(all_manifests: Dict) -> Dict:
+    """Generate a lightweight manifest for website/frontend consumption.
+
+    Transformations:
+    - Filter to vendors with displayOnWebsite=true
+    - Convert category from string to array
+    - Flatten logo object to a single URL string (logo_url)
+    - Merge registration/subscription fields into a single subscription object
+    - Remove useCases, externalIntegrations, integrations (detailed configs)
+    - Add vendor_internal_page_content_url pointing to the overview.md
+    - Extend stats with totalUseCases and totalWorkflows placeholders
+    """
+    light = {}
+
+    for vendor_id, vendor in all_manifests.items():
+        if not vendor.get('displayOnWebsite', False):
+            continue
+
+        # category: string → array
+        raw_cat = vendor.get('category', '')
+        if isinstance(raw_cat, list):
+            category = raw_cat
+        elif isinstance(raw_cat, str) and raw_cat:
+            category = [raw_cat]
+        else:
+            category = []
+
+        # logo: flatten to single URL
+        logo_obj = vendor.get('logo', {})
+        logo_url = logo_obj.get('url', '') if isinstance(logo_obj, dict) else ''
+
+        # subscription: merge three booleans into one object
+        reg_req = vendor.get('registration_required', False)
+        sub_req = vendor.get('subscription_required', False)
+        free_sub = vendor.get('free_subscription', False)
+        # Handle fields that may be arrays (e.g. [true, false])
+        if isinstance(reg_req, list):
+            reg_req = any(reg_req)
+        if isinstance(sub_req, list):
+            sub_req = any(sub_req)
+        if isinstance(free_sub, list):
+            free_sub = any(free_sub)
+
+        # stats: keep existing + add future-proof placeholders
+        old_stats = vendor.get('stats', {})
+
+        light[vendor_id] = {
+            'id': vendor.get('id', vendor_id),
+            'name': vendor.get('name', vendor_id),
+            'description': vendor.get('description', ''),
+            'category': category,
+            'tags': vendor.get('tags', []),
+            'homepage': vendor.get('homepage', ''),
+            'logo_url': logo_url,
+            'visibility': vendor.get('visibility', 'low'),
+            'subscription': {
+                'required': bool(reg_req),
+                'free': bool(free_sub),
+                'paid': bool(sub_req),
+            },
+            'vendor_internal_page_content_url': f"{BASE_URL}/.generated/docs/vendors/{vendor_id}/overview.md",
+            'stats': {
+                'totalAnalyzers': old_stats.get('totalAnalyzers', 0),
+                'totalResponders': old_stats.get('totalResponders', 0),
+                'totalFunctions': old_stats.get('totalFunctions', 0),
+                'totalUseCases': old_stats.get('totalUseCases', 0),
+                'totalExternalIntegrations': old_stats.get('totalExternalIntegrations', 0),
+                'total': old_stats.get('total', 0),
+            },
+        }
+
+    return light
+
+
 def generate_visibility_sorted_catalog(all_manifests: Dict) -> Dict:
     """Generate catalog sorted by visibility tiers (high, medium, low), then alphabetically.
 
@@ -337,6 +411,14 @@ def main():
     with open(yaml_output_path, 'w', encoding='utf-8') as f:
         yaml.dump(all_manifests, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=120)
     print(f"✓ Combined manifest (YAML): {yaml_output_path}")
+
+    # Generate light manifest (for website/frontend consumption)
+    print("\nGenerating light manifest...")
+    light_manifest = generate_light_manifest(all_manifests)
+    light_json_path = catalogs_path / 'integration-light-manifest.json'
+    with open(light_json_path, 'w', encoding='utf-8') as f:
+        json.dump(light_manifest, f, indent=2, ensure_ascii=False)
+    print(f"✓ Light manifest (JSON): {light_json_path} ({len(light_manifest)} vendors)")
 
     # Generate external integrations catalog
     print("\nGenerating external integrations catalog...")
