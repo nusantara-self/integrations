@@ -3,7 +3,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: PaloAltoNGFW
-name: PaloAltoNGFW
+name: PAN Next Generation Firewall
 description: ''
 category: ''
 tags: []

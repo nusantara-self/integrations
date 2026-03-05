@@ -3,7 +3,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: CIRCLHashlookup
-name: CIRCLHashlookup
+name: CIRCL Hash Lookup
 description: ''
 category: ''
 tags: []

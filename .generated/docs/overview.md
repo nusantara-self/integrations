@@ -110,6 +110,12 @@ Built something useful? Contributions are welcome!
   Mnemonic Passive DNS provides historical DNS resolution data that helps analysts track domain inf...
 
 
+### Phishing Intelligence
+
+**[PhishTank](vendors/PhishTank/overview.md)** (1 integrations)
+  Verify URL observables against community-reported phishing sites. Confirm if URLs in your cases a...
+
+
 ### SIEM & Analytics
 
 **[Elasticsearch](vendors/Elasticsearch/overview.md)** (2 integrations)
@@ -121,11 +127,11 @@ Built something useful? Contributions are welcome!
 
 ### SOAR & Automation
 
-**[Cortex XSOAR](vendors/CortexXSOAR/overview.md)** (1 integrations)
-  Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate inciden...
-
 **[n8n](vendors/n8n/overview.md)** (2 integrations)
   n8n is a low-code/no-code workflow automation platform that enables technical teams to build, dep...
+
+**[PAN Cortex XSOAR](vendors/CortexXSOAR/overview.md)** (1 integrations)
+  Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate inciden...
 
 **[Rapid7 InsightConnect](vendors/InsightConnect/overview.md)** (1 integrations)
   Rapid7 InsightConnect is a security orchestration and automation platform that enables security t...
@@ -152,6 +158,9 @@ Built something useful? Contributions are welcome!
 
 **[Google Threat Intelligence](vendors/GoogleThreatIntelligence/overview.md)** (5 integrations)
   Google Threat Intelligence (formerly VirusTotal) provides comprehensive malware analysis, threat ...
+
+**[GreyNoise](vendors/GreyNoise/overview.md)** (1 integrations)
+  Filter noise from IP observables. Determine if IPs are benign internet scanners or targeted threa...
 
 **[Maltiverse](vendors/Maltiverse/overview.md)** (1 integrations)
   Maltiverse is a threat intelligence platform that aggregates and enriches IOCs from multiple sour...
@@ -187,10 +196,9 @@ Built something useful? Contributions are welcome!
 
 - **[Abuse Finder](vendors/Abuse_Finder/overview.md)** - *Uncategorized* - 1 analyzers
 - **[AbuseIPDB](vendors/AbuseIPDB/overview.md)** - *Threat Intelligence* - 1 analyzers, 1 responders
-- **[AILOnionLookup](vendors/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
+- **[AIL Onion-Lookup](vendors/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Airtable](vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions
 - **[AlienVault OTX](vendors/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers
-- **[AMPforEndpoints](vendors/AMPforEndpoints/overview.md)** - *Uncategorized* - 5 responders
 - **[AnyRun](vendors/AnyRun/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Autofocus](vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
 - **[AWSLambda](vendors/AWSLambda/overview.md)** - *Uncategorized* - 1 responders
@@ -205,17 +213,17 @@ Built something useful? Contributions are welcome!
 - **[ChainAbuse](vendors/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CheckPhish](vendors/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CheckPoint](vendors/CheckPoint/overview.md)** - *Uncategorized* - 2 responders
-- **[CIRCLHashlookup](vendors/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
-- **[CIRCLPassiveDNS](vendors/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
-- **[CIRCLPassiveSSL](vendors/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[CIRCLVulnerabilityLookup](vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CIRCL Hash Lookup](vendors/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CIRCL Passive DNS](vendors/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CIRCL Passive SSL](vendors/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/AMPforEndpoints/overview.md)** - *Uncategorized* - 5 responders
 - **[CiscoUmbrella](vendors/CiscoUmbrella/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[CISMCAP](vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClamAV](vendors/ClamAV/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cloudflare](vendors/Cloudflare/overview.md)** - *Web Application Firewall* - 1 responders
 - **[Cluster25](vendors/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClusterHawk](vendors/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Cortex XSOAR](vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - 1 external
 - **[CrowdSec](vendors/Crowdsec/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 11 analyzers, 9 responders, 1 functions, 1 external
 - **[Crtsh](vendors/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
@@ -230,9 +238,9 @@ Built something useful? Contributions are welcome!
 - **[DNSdumpster](vendors/DNSdumpster/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DNSLookingglass](vendors/DNSLookingglass/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DNSSinkhole](vendors/DNSSinkhole/overview.md)** - *Uncategorized* - 1 analyzers
-- **[DomainMailSPFDMARC](vendors/DomainMailSPFDMARC/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DomainTools](vendors/DomainTools/overview.md)** - *Uncategorized* - 10 analyzers
-- **[DomainToolsIris](vendors/DomainToolsIris/overview.md)** - *Uncategorized* - 2 analyzers, 2 responders
+- **[DomainTools Iris](vendors/DomainToolsIris/overview.md)** - *Uncategorized* - 2 analyzers, 2 responders
 - **[DShield](vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Duo Security](vendors/Duo_Security/overview.md)** - *Uncategorized* - 3 responders
 - **[EchoTrail](vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
@@ -244,18 +252,18 @@ Built something useful? Contributions are welcome!
 - **[FalconCustomIOC](vendors/FalconCustomIOC/overview.md)** - *Uncategorized* - 2 responders
 - **[FalconSandbox](vendors/FalconSandbox/overview.md)** - *Uncategorized* - 1 analyzers
 - **[FileInfo](vendors/FileInfo/overview.md)** - *Uncategorized* - 1 analyzers
-- **[FireEyeiSight](vendors/FireEyeiSight/overview.md)** - *Uncategorized* - 1 analyzers
+- **[FireEye iSIGHT](vendors/FireEyeiSight/overview.md)** - *Uncategorized* - 1 analyzers
 - **[FireHOLBlocklists](vendors/FireHOLBlocklists/overview.md)** - *Uncategorized* - 1 analyzers
-- **[ForcepointWebsensePing](vendors/ForcepointWebsensePing/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Forcepoint WebsensePing](vendors/ForcepointWebsensePing/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Fortiguard](vendors/Fortiguard/overview.md)** - *Uncategorized* - No integrations
 - **[FoxIO](vendors/FoxIO/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Gatewatcher CTI](vendors/Gatewatcher_CTI/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Gmail](vendors/Gmail/overview.md)** - *Uncategorized* - 5 responders
+- **[Google Safe Browsing](vendors/GoogleSafebrowsing/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Google Threat Intelligence](vendors/GoogleThreatIntelligence/overview.md)** - *Threat Intelligence* - 5 analyzers
+- **[Google Vision API](vendors/GoogleVisionAPI/overview.md)** - *Uncategorized* - 1 analyzers
 - **[GoogleDNS](vendors/GoogleDNS/overview.md)** - *Uncategorized* - 1 analyzers
-- **[GoogleSafebrowsing](vendors/GoogleSafebrowsing/overview.md)** - *Uncategorized* - 1 analyzers
-- **[GoogleVisionAPI](vendors/GoogleVisionAPI/overview.md)** - *Uncategorized* - 1 analyzers
-- **[GreyNoise](vendors/GreyNoise/overview.md)** - *Uncategorized* - 1 analyzers
+- **[GreyNoise](vendors/GreyNoise/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[GRR](vendors/GRR/overview.md)** - *Uncategorized* - 1 analyzers
 - **[HarfangLab](vendors/HarfangLab/overview.md)** - *Uncategorized* - 31 responders
 - **[Hashdd](vendors/Hashdd/overview.md)** - *Uncategorized* - 2 analyzers
@@ -263,8 +271,8 @@ Built something useful? Contributions are welcome!
 - **[Hippocampe](vendors/Hippocampe/overview.md)** - *Uncategorized* - No integrations
 - **[Hunter.io](vendors/Hunterio/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[Hybrid Analysis](vendors/HybridAnalysis/overview.md)** - *Malware Analysis* - 1 analyzers
-- **[IBMQRadar](vendors/IBMQRadar/overview.md)** - *Uncategorized* - 1 responders
-- **[IBMXForce](vendors/IBMXForce/overview.md)** - *Uncategorized* - 1 analyzers
+- **[IBM QRadar](vendors/IBMQRadar/overview.md)** - *Uncategorized* - 1 responders
+- **[IBM X-Force](vendors/IBMXForce/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Inoitsu](vendors/Inoitsu/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IntezerCommunity](vendors/IntezerCommunity/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Investigate](vendors/Investigate/overview.md)** - *Uncategorized* - 2 analyzers
@@ -275,9 +283,9 @@ Built something useful? Contributions are welcome!
 - **[IVRE](vendors/IVRE/overview.md)** - *Uncategorized* - 1 analyzers
 - **[JAMFProtect](vendors/JAMFProtect/overview.md)** - *Uncategorized* - 2 responders, 1 functions
 - **[JIRA](vendors/JIRA/overview.md)** - *Uncategorized* - 1 functions
-- **[JoeSandbox](vendors/JoeSandbox/overview.md)** - *Uncategorized* - 3 analyzers
+- **[Joe Sandbox](vendors/JoeSandbox/overview.md)** - *Uncategorized* - 3 analyzers
 - **[Jupyter](vendors/Jupyter/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
-- **[KasperskyTIP](vendors/KasperskyTIP/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Kaspersky TIP](vendors/KasperskyTIP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[KnowBe4](vendors/KnowBe4/overview.md)** - *Uncategorized* - 1 responders
 - **[LdapQuery](vendors/LdapQuery/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Lookyloo](vendors/Lookyloo/overview.md)** - *Uncategorized* - 1 analyzers
@@ -286,6 +294,7 @@ Built something useful? Contributions are welcome!
 - **[MailIncidentStatus](vendors/MailIncidentStatus/overview.md)** - *Uncategorized* - 1 responders
 - **[Malpedia](vendors/Malpedia/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Maltiverse](vendors/Maltiverse/overview.md)** - *Threat Intelligence* - 1 analyzers
+- **[Malware Hash Registry (MHR)](vendors/TeamCymruMHR/overview.md)** - *Uncategorized* - 1 analyzers
 - **[MalwareBazaar](vendors/MalwareBazaar/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MalwareClustering](vendors/MalwareClustering/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Malwares](vendors/Malwares/overview.md)** - *Uncategorized* - 2 analyzers
@@ -296,7 +305,7 @@ Built something useful? Contributions are welcome!
 - **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
 - **[Minemeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
-- **[MISPWarningLists](vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
+- **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[MsgParser](vendors/MsgParser/overview.md)** - *Uncategorized* - 1 analyzers
 - **[n8n](vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
@@ -309,14 +318,15 @@ Built something useful? Contributions are welcome!
 - **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OpenCTI](vendors/OpenCTI/overview.md)** - *Uncategorized* - 2 analyzers
 - **[OrionMalware](vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
-- **[PaloAltoCortexXDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 3 responders
-- **[PaloAltoNGFW](vendors/PaloAltoNGFW/overview.md)** - *Uncategorized* - 16 responders
-- **[PaloAltoWildFire](vendors/PaloAltoWildFire/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
+- **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 3 responders
+- **[PAN Cortex XSOAR](vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - 1 external
+- **[PAN Next Generation Firewall](vendors/PaloAltoNGFW/overview.md)** - *Uncategorized* - 16 responders
+- **[PAN WildFire](vendors/PaloAltoWildFire/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[PassiveTotal](vendors/PassiveTotal/overview.md)** - *Uncategorized* - 11 analyzers
 - **[Patrowl](vendors/Patrowl/overview.md)** - *Uncategorized* - 1 analyzers
 - **[PayloadSecurity](vendors/PayloadSecurity/overview.md)** - *Uncategorized* - 2 analyzers
 - **[PhishingInitiative](vendors/PhishingInitiative/overview.md)** - *Uncategorized* - 2 analyzers
-- **[PhishTank](vendors/PhishTank/overview.md)** - *Uncategorized* - 1 analyzers
+- **[PhishTank](vendors/PhishTank/overview.md)** - *Phishing Intelligence* - 1 analyzers
 - **[Proofpoint](vendors/Proofpoint/overview.md)** - *Email Security* - 1 analyzers, 2 functions
 - **[Pulsedive](vendors/Pulsedive/overview.md)** - *Uncategorized* - 1 analyzers
 - **[QrDecode](vendors/QrDecode/overview.md)** - *Uncategorized* - 1 analyzers
@@ -327,7 +337,7 @@ Built something useful? Contributions are welcome!
 - **[Robtex](vendors/Robtex/overview.md)** - *Uncategorized* - 3 analyzers
 - **[RT4](vendors/RT4/overview.md)** - *Uncategorized* - 1 responders
 - **[SecurityTrails](vendors/SecurityTrails/overview.md)** - *Uncategorized* - 2 analyzers
-- **[SEKOIAIntelligenceCenter](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Uncategorized* - 3 analyzers
+- **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SendGrid](vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders
 - **[SentinelOne](vendors/SentinelOne/overview.md)** - *Uncategorized* - 3 analyzers, 1 responders
 - **[Shodan](vendors/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers
@@ -343,7 +353,6 @@ Built something useful? Contributions are welcome!
 - **[StaxxSearch](vendors/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StopForumSpam](vendors/StopForumSpam/overview.md)** - *Uncategorized* - 1 analyzers
 - **[TalosReputation](vendors/TalosReputation/overview.md)** - *Uncategorized* - No integrations
-- **[TeamCymruMHR](vendors/TeamCymruMHR/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Telegram](vendors/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[TestAnalyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers

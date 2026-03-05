@@ -1,11 +1,19 @@
 {
   "id": "GreyNoise",
   "name": "GreyNoise",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
-  "logo": {},
+  "description": "Filter noise from IP observables. Determine if IPs are benign internet scanners or targeted threats to reduce false positives in your cases",
+  "category": "Threat Intelligence",
+  "tags": [
+    "ip-intelligence",
+    "noise-reduction",
+    "false-positive-reduction"
+  ],
+  "homepage": "https://www.greynoise.io",
+  "logo": {
+    "file": "integrations/vendors/GreyNoise/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/GreyNoise/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/GreyNoise/assets/logo.png"
+  },
   "useCases": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,

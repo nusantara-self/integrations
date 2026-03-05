@@ -3,7 +3,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: DomainMailSPFDMARC
-name: DomainMailSPFDMARC
+name: Domain Mail SPF DMARC
 description: ''
 category: ''
 tags: []

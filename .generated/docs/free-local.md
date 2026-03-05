@@ -105,9 +105,9 @@ Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
 </details>
 
 <details>
-<summary><strong>AIL_OnionLookup</strong> <code>v1.0</code> [Free] - AILOnionLookup</summary>
+<summary><strong>AIL_OnionLookup</strong> <code>v1.0</code> [Free] - AIL Onion-Lookup</summary>
 
-**Vendor:** [AILOnionLookup](vendors/AILOnionLookup/overview)
+**Vendor:** [AIL Onion-Lookup](vendors/AILOnionLookup/overview)
 **Data Types:** `domain`, `url`, `fqdn`
 
 Checks the existence of Tor hidden services and retrieving their associated metadata. Onion-lookup relies on an AIL instance to obtain the metadata.
@@ -125,9 +125,9 @@ Query AlienVault OTX for IPs, domains, URLs, or file hashes.
 </details>
 
 <details>
-<summary><strong>CIRCLHashlookup</strong> <code>v1.1</code> [Free] - CIRCLHashlookup</summary>
+<summary><strong>CIRCLHashlookup</strong> <code>v1.1</code> [Free] - CIRCL Hash Lookup</summary>
 
-**Vendor:** [CIRCLHashlookup](vendors/CIRCLHashlookup/overview)
+**Vendor:** [CIRCL Hash Lookup](vendors/CIRCLHashlookup/overview)
 **Data Types:** `hash`
 
 CIRCL hashlookup uses a public API to lookup hash values against databases of known good files
@@ -135,9 +135,9 @@ CIRCL hashlookup uses a public API to lookup hash values against databases of kn
 </details>
 
 <details>
-<summary><strong>CIRCLPassiveDNS</strong> <code>v2.0</code> [Free] - CIRCLPassiveDNS</summary>
+<summary><strong>CIRCLPassiveDNS</strong> <code>v2.0</code> [Free] - CIRCL Passive DNS</summary>
 
-**Vendor:** [CIRCLPassiveDNS](vendors/CIRCLPassiveDNS/overview)
+**Vendor:** [CIRCL Passive DNS](vendors/CIRCLPassiveDNS/overview)
 **Data Types:** `domain`, `url`, `ip`
 
 Check CIRCL's Passive DNS for a given domain or URL.
@@ -145,9 +145,9 @@ Check CIRCL's Passive DNS for a given domain or URL.
 </details>
 
 <details>
-<summary><strong>CIRCLPassiveSSL</strong> <code>v2.0</code> [Free] - CIRCLPassiveSSL</summary>
+<summary><strong>CIRCLPassiveSSL</strong> <code>v2.0</code> [Free] - CIRCL Passive SSL</summary>
 
-**Vendor:** [CIRCLPassiveSSL](vendors/CIRCLPassiveSSL/overview)
+**Vendor:** [CIRCL Passive SSL](vendors/CIRCLPassiveSSL/overview)
 **Data Types:** `ip`, `certificate_hash`, `hash`
 
 Check CIRCL's Passive SSL for a given IP address or a X509 certificate hash.
@@ -155,9 +155,9 @@ Check CIRCL's Passive SSL for a given IP address or a X509 certificate hash.
 </details>
 
 <details>
-<summary><strong>CIRCLVulnerabilityLookup</strong> <code>v1.0</code> [Free] - CIRCLVulnerabilityLookup</summary>
+<summary><strong>CIRCLVulnerabilityLookup</strong> <code>v1.0</code> [Free] - CIRCL Vulnerability-Lookup</summary>
 
-**Vendor:** [CIRCLVulnerabilityLookup](vendors/CIRCLVulnerabilityLookup/overview)
+**Vendor:** [CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview)
 **Data Types:** `cve`, `cve_id`, `vuln`, `vuln_id`, `vulnerability`, `vulnerability_id`, `cveid`, `other`
 
 Queries the CIRCL Vulnerability Lookup API to retrieve detailed information on security vulnerabilities, including CVEs, severity (CVSS), exploit prediction (EPSS), affected products, advisories, and recent sightings.

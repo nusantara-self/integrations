@@ -3,7 +3,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: PaloAltoCortexXDR
-name: PaloAltoCortexXDR
+name: PAN Cortex XDR
 description: ''
 category: ''
 tags: []

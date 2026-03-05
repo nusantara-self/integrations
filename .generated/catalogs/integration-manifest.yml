@@ -100,7 +100,7 @@ AbuseIPDB:
     total: 2
 AILOnionLookup:
   id: AILOnionLookup
-  name: AILOnionLookup
+  name: AIL Onion-Lookup
   description: ''
   category: ''
   tags: []
@@ -171,7 +171,7 @@ Airtable:
     total: 1
 AMPforEndpoints:
   id: AMPforEndpoints
-  name: AMPforEndpoints
+  name: Cisco Secure Endpoint (Formerly AMP for Endpoints)
   description: ''
   category: ''
   tags: []
@@ -863,7 +863,7 @@ CheckPoint:
     total: 2
 CIRCLHashlookup:
   id: CIRCLHashlookup
-  name: CIRCLHashlookup
+  name: CIRCL Hash Lookup
   description: ''
   category: ''
   tags: []
@@ -900,7 +900,7 @@ CIRCLHashlookup:
     total: 1
 CIRCLPassiveDNS:
   id: CIRCLPassiveDNS
-  name: CIRCLPassiveDNS
+  name: CIRCL Passive DNS
   description: ''
   category: ''
   tags: []
@@ -939,7 +939,7 @@ CIRCLPassiveDNS:
     total: 1
 CIRCLPassiveSSL:
   id: CIRCLPassiveSSL
-  name: CIRCLPassiveSSL
+  name: CIRCL Passive SSL
   description: ''
   category: ''
   tags: []
@@ -978,7 +978,7 @@ CIRCLPassiveSSL:
     total: 1
 CIRCLVulnerabilityLookup:
   id: CIRCLVulnerabilityLookup
-  name: CIRCLVulnerabilityLookup
+  name: CIRCL Vulnerability-Lookup
   description: ''
   category: ''
   tags: []
@@ -1269,7 +1269,7 @@ ClusterHawk:
     total: 1
 CortexXSOAR:
   id: CortexXSOAR
-  name: Cortex XSOAR
+  name: PAN Cortex XSOAR
   description: Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate incident response
     workflows, orchestrate security tools, and accelerate threat investigation and remediation
   category: SOAR & Automation
@@ -2156,7 +2156,7 @@ DNSSinkhole:
     total: 1
 DomainMailSPFDMARC:
   id: DomainMailSPFDMARC
-  name: DomainMailSPFDMARC
+  name: Domain Mail SPF DMARC
   description: ''
   category: ''
   tags: []
@@ -2349,7 +2349,7 @@ DomainTools:
     total: 10
 DomainToolsIris:
   id: DomainToolsIris
-  name: DomainToolsIris
+  name: DomainTools Iris
   description: ''
   category: ''
   tags: []
@@ -2947,7 +2947,7 @@ FileInfo:
     total: 1
 FireEyeiSight:
   id: FireEyeiSight
-  name: FireEyeiSight
+  name: FireEye iSIGHT
   description: ''
   category: ''
   tags: []
@@ -3024,7 +3024,7 @@ FireHOLBlocklists:
     total: 1
 ForcepointWebsensePing:
   id: ForcepointWebsensePing
-  name: ForcepointWebsensePing
+  name: Forcepoint WebsensePing
   description: ''
   category: ''
   tags: []
@@ -3296,7 +3296,7 @@ GoogleDNS:
     total: 1
 GoogleSafebrowsing:
   id: GoogleSafebrowsing
-  name: GoogleSafebrowsing
+  name: Google Safe Browsing
   description: ''
   category: ''
   tags: []
@@ -3438,7 +3438,7 @@ GoogleThreatIntelligence:
     total: 5
 GoogleVisionAPI:
   id: GoogleVisionAPI
-  name: GoogleVisionAPI
+  name: Google Vision API
   description: ''
   category: ''
   tags: []
@@ -3474,11 +3474,18 @@ GoogleVisionAPI:
 GreyNoise:
   id: GreyNoise
   name: GreyNoise
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  description: Filter noise from IP observables. Determine if IPs are benign internet scanners or targeted threats to reduce
+    false positives in your cases
+  category: Threat Intelligence
+  tags:
+  - ip-intelligence
+  - noise-reduction
+  - false-positive-reduction
+  homepage: https://www.greynoise.io
+  logo:
+    file: integrations/vendors/GreyNoise/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/GreyNoise/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/GreyNoise/assets/logo.png
   useCases: []
   externalIntegrations: []
   displayOnWebsite: true
@@ -4155,7 +4162,7 @@ HybridAnalysis:
     total: 1
 IBMQRadar:
   id: IBMQRadar
-  name: IBMQRadar
+  name: IBM QRadar
   description: ''
   category: ''
   tags: []
@@ -4192,7 +4199,7 @@ IBMQRadar:
     total: 1
 IBMXForce:
   id: IBMXForce
-  name: IBMXForce
+  name: IBM X-Force
   description: ''
   category: ''
   tags: []
@@ -4685,7 +4692,7 @@ JIRA:
     total: 1
 JoeSandbox:
   id: JoeSandbox
-  name: JoeSandbox
+  name: Joe Sandbox
   description: ''
   category: ''
   tags: []
@@ -4812,7 +4819,7 @@ Jupyter:
     total: 2
 KasperskyTIP:
   id: KasperskyTIP
-  name: KasperskyTIP
+  name: Kaspersky TIP
   description: ''
   category: ''
   tags: []
@@ -5508,7 +5515,7 @@ MISP:
     total: 1
 MISPWarningLists:
   id: MISPWarningLists
-  name: MISPWarningLists
+  name: MISP Warning Lists
   description: ''
   category: ''
   tags: []
@@ -6623,7 +6630,7 @@ OTXQuery:
     total: 1
 PaloAltoCortexXDR:
   id: PaloAltoCortexXDR
-  name: PaloAltoCortexXDR
+  name: PAN Cortex XDR
   description: ''
   category: ''
   tags: []
@@ -6684,7 +6691,7 @@ PaloAltoCortexXDR:
     total: 3
 PaloAltoNGFW:
   id: PaloAltoNGFW
-  name: PaloAltoNGFW
+  name: PAN Next Generation Firewall
   description: ''
   category: ''
   tags: []
@@ -6930,7 +6937,7 @@ PaloAltoNGFW:
     total: 16
 PaloAltoWildFire:
   id: PaloAltoWildFire
-  name: PaloAltoWildFire
+  name: PAN WildFire
   description: ''
   category: ''
   tags: []
@@ -7294,11 +7301,19 @@ PhishingInitiative:
 PhishTank:
   id: PhishTank
   name: PhishTank
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  description: Verify URL observables against community-reported phishing sites. Confirm if URLs in your cases are part of
+    known phishing campaigns
+  category: Phishing Intelligence
+  tags:
+  - phishing-detection
+  - url-reputation
+  - threat-intelligence
+  - community-intelligence
+  homepage: https://www.phishtank.com
+  logo:
+    file: integrations/vendors/PhishTank/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/PhishTank/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/PhishTank/assets/logo.png
   useCases: []
   externalIntegrations: []
   displayOnWebsite: true
@@ -7974,7 +7989,7 @@ SecurityTrails:
     total: 2
 SEKOIAIntelligenceCenter:
   id: SEKOIAIntelligenceCenter
-  name: SEKOIAIntelligenceCenter
+  name: SEKOIA Intelligence Center
   description: ''
   category: ''
   tags: []
@@ -8945,7 +8960,7 @@ TalosReputation:
     total: 0
 TeamCymruMHR:
   id: TeamCymruMHR
-  name: TeamCymruMHR
+  name: Malware Hash Registry (MHR)
   description: ''
   category: ''
   tags: []

@@ -57,7 +57,7 @@ They provide additional ways to connect TheHive with other security tools and pl
   Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response
   [Documentation](https://threatconnect.com/marketplace/thehive/)
 
-**TheHive Project Integration** - Cortex XSOAR
+**TheHive Project Integration** - PAN Cortex XSOAR
   Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
   [Documentation](https://xsoar.pan.dev/docs/reference/integrations/the-hive-project)
 
@@ -131,15 +131,15 @@ They provide additional ways to connect TheHive with other security tools and pl
 <summary><strong>SOAR & Automation</strong> (5 integrations)</summary>
 
 
-**TheHive Project Integration** - Cortex XSOAR
-  Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
-  Type: `integration`
-  [Documentation](https://xsoar.pan.dev/docs/reference/integrations/the-hive-project)
-
 **Cortex and TheHive Nodes** - n8n
   Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables
   Type: `workflow-nodes`
   [Documentation](https://n8n.io/integrations/thehive-5/)
+
+**TheHive Project Integration** - PAN Cortex XSOAR
+  Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
+  Type: `integration`
+  [Documentation](https://xsoar.pan.dev/docs/reference/integrations/the-hive-project)
 
 **TheHive Extension** - Rapid7 InsightConnect
   Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling, and incident response orchestration
@@ -172,21 +172,6 @@ They provide additional ways to connect TheHive with other security tools and pl
 ## All External Integrations by Vendor
 
 <details>
-<summary><strong>Cortex XSOAR</strong> (1 integration)</summary>
-
-
-### TheHive Project Integration
-
-Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
-
-**Type:** `integration`  
-**Category:** SOAR & Automation
-
-**Documentation:** [https://xsoar.pan.dev/docs/reference/integrations/the-hive-project](https://xsoar.pan.dev/docs/reference/integrations/the-hive-project)
-
-</details>
-
-<details>
 <summary><strong>CrowdStrike Falcon</strong> (1 integration)</summary>
 
 
@@ -213,6 +198,21 @@ Native Kibana connector that allows Elasticsearch to create alerts and create ca
 **Category:** SIEM & Analytics
 
 **Documentation:** [https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type](https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type)
+
+</details>
+
+<details>
+<summary><strong>PAN Cortex XSOAR</strong> (1 integration)</summary>
+
+
+### TheHive Project Integration
+
+Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
+
+**Type:** `integration`  
+**Category:** SOAR & Automation
+
+**Documentation:** [https://xsoar.pan.dev/docs/reference/integrations/the-hive-project](https://xsoar.pan.dev/docs/reference/integrations/the-hive-project)
 
 </details>
 

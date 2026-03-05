@@ -3,7 +3,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: CIRCLPassiveSSL
-name: CIRCLPassiveSSL
+name: CIRCL Passive SSL
 description: ''
 category: ''
 tags: []

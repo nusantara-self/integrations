@@ -1,11 +1,20 @@
 {
   "id": "PhishTank",
   "name": "PhishTank",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
-  "logo": {},
+  "description": "Verify URL observables against community-reported phishing sites. Confirm if URLs in your cases are part of known phishing campaigns",
+  "category": "Phishing Intelligence",
+  "tags": [
+    "phishing-detection",
+    "url-reputation",
+    "threat-intelligence",
+    "community-intelligence"
+  ],
+  "homepage": "https://www.phishtank.com",
+  "logo": {
+    "file": "integrations/vendors/PhishTank/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/PhishTank/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/PhishTank/assets/logo.png"
+  },
   "useCases": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,

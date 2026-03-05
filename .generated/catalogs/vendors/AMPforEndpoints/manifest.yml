@@ -3,7 +3,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: AMPforEndpoints
-name: AMPforEndpoints
+name: Cisco Secure Endpoint (Formerly AMP for Endpoints)
 description: ''
 category: ''
 tags: []

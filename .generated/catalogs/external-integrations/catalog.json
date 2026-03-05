@@ -2,15 +2,6 @@
   "totalIntegrations": 10,
   "integrations": [
     {
-      "name": "TheHive Project Integration",
-      "vendor": "Cortex XSOAR",
-      "vendorId": "CortexXSOAR",
-      "type": "integration",
-      "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
-      "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
-      "category": "SOAR & Automation"
-    },
-    {
       "name": "falcon2thehive",
       "vendor": "CrowdStrike Falcon",
       "vendorId": "CrowdstrikeFalcon",
@@ -35,6 +26,15 @@
       "type": "workflow-nodes",
       "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
       "documentation": "https://n8n.io/integrations/thehive-5/",
+      "category": "SOAR & Automation"
+    },
+    {
+      "name": "TheHive Project Integration",
+      "vendor": "PAN Cortex XSOAR",
+      "vendorId": "CortexXSOAR",
+      "type": "integration",
+      "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
+      "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
       "category": "SOAR & Automation"
     },
     {
@@ -93,17 +93,6 @@
     }
   ],
   "byVendor": {
-    "Cortex XSOAR": [
-      {
-        "name": "TheHive Project Integration",
-        "vendor": "Cortex XSOAR",
-        "vendorId": "CortexXSOAR",
-        "type": "integration",
-        "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
-        "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
-        "category": "SOAR & Automation"
-      }
-    ],
     "CrowdStrike Falcon": [
       {
         "name": "falcon2thehive",
@@ -134,6 +123,17 @@
         "type": "workflow-nodes",
         "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
         "documentation": "https://n8n.io/integrations/thehive-5/",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "PAN Cortex XSOAR": [
+      {
+        "name": "TheHive Project Integration",
+        "vendor": "PAN Cortex XSOAR",
+        "vendorId": "CortexXSOAR",
+        "type": "integration",
+        "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
+        "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
         "category": "SOAR & Automation"
       }
     ],
@@ -203,53 +203,6 @@
     ]
   },
   "byCategory": {
-    "SOAR & Automation": [
-      {
-        "name": "TheHive Project Integration",
-        "vendor": "Cortex XSOAR",
-        "vendorId": "CortexXSOAR",
-        "type": "integration",
-        "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
-        "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
-        "category": "SOAR & Automation"
-      },
-      {
-        "name": "Cortex and TheHive Nodes",
-        "vendor": "n8n",
-        "vendorId": "n8n",
-        "type": "workflow-nodes",
-        "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
-        "documentation": "https://n8n.io/integrations/thehive-5/",
-        "category": "SOAR & Automation"
-      },
-      {
-        "name": "TheHive Extension",
-        "vendor": "Rapid7 InsightConnect",
-        "vendorId": "InsightConnect",
-        "type": "extension",
-        "description": "Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling, and incident response orchestration",
-        "documentation": "https://extensions.rapid7.com/extension/thehive",
-        "category": "SOAR & Automation"
-      },
-      {
-        "name": "TheHive 5 Integration",
-        "vendor": "Shuffle",
-        "vendorId": "Shuffle",
-        "type": "app",
-        "description": "Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration",
-        "documentation": "https://shuffler.io/apps/thehive/integrations/TheHive_5",
-        "category": "SOAR & Automation"
-      },
-      {
-        "name": "TheHive Project Connector",
-        "vendor": "Tines",
-        "vendorId": "Tines",
-        "type": "connector",
-        "description": "Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation, updates, and case management",
-        "documentation": "https://www.tines.com/solutions/products/thehive-project/",
-        "category": "SOAR & Automation"
-      }
-    ],
     "EDR": [
       {
         "name": "falcon2thehive",
@@ -290,6 +243,53 @@
         "category": "SIEM & Analytics"
       }
     ],
+    "SOAR & Automation": [
+      {
+        "name": "Cortex and TheHive Nodes",
+        "vendor": "n8n",
+        "vendorId": "n8n",
+        "type": "workflow-nodes",
+        "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
+        "documentation": "https://n8n.io/integrations/thehive-5/",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "TheHive Project Integration",
+        "vendor": "PAN Cortex XSOAR",
+        "vendorId": "CortexXSOAR",
+        "type": "integration",
+        "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
+        "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "TheHive Extension",
+        "vendor": "Rapid7 InsightConnect",
+        "vendorId": "InsightConnect",
+        "type": "extension",
+        "description": "Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling, and incident response orchestration",
+        "documentation": "https://extensions.rapid7.com/extension/thehive",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "TheHive 5 Integration",
+        "vendor": "Shuffle",
+        "vendorId": "Shuffle",
+        "type": "app",
+        "description": "Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration",
+        "documentation": "https://shuffler.io/apps/thehive/integrations/TheHive_5",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "TheHive Project Connector",
+        "vendor": "Tines",
+        "vendorId": "Tines",
+        "type": "connector",
+        "description": "Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation, updates, and case management",
+        "documentation": "https://www.tines.com/solutions/products/thehive-project/",
+        "category": "SOAR & Automation"
+      }
+    ],
     "Threat Intelligence": [
       {
         "name": "TheHive Integration (via Polarity)",
@@ -303,26 +303,6 @@
     ]
   },
   "byType": {
-    "integration": [
-      {
-        "name": "TheHive Project Integration",
-        "vendor": "Cortex XSOAR",
-        "vendorId": "CortexXSOAR",
-        "type": "integration",
-        "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
-        "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
-        "category": "SOAR & Automation"
-      },
-      {
-        "name": "TheHive Integration (via Polarity)",
-        "vendor": "ThreatConnect",
-        "vendorId": "ThreatConnect",
-        "type": "integration",
-        "description": "Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response",
-        "documentation": "https://threatconnect.com/marketplace/thehive/",
-        "category": "Threat Intelligence"
-      }
-    ],
     "connector": [
       {
         "name": "falcon2thehive",
@@ -361,6 +341,26 @@
         "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
         "documentation": "https://n8n.io/integrations/thehive-5/",
         "category": "SOAR & Automation"
+      }
+    ],
+    "integration": [
+      {
+        "name": "TheHive Project Integration",
+        "vendor": "PAN Cortex XSOAR",
+        "vendorId": "CortexXSOAR",
+        "type": "integration",
+        "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
+        "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "TheHive Integration (via Polarity)",
+        "vendor": "ThreatConnect",
+        "vendorId": "ThreatConnect",
+        "type": "integration",
+        "description": "Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response",
+        "documentation": "https://threatconnect.com/marketplace/thehive/",
+        "category": "Threat Intelligence"
       }
     ],
     "extension": [

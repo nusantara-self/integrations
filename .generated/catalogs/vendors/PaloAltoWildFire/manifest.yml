@@ -3,7 +3,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: PaloAltoWildFire
-name: PaloAltoWildFire
+name: PAN WildFire
 description: ''
 category: ''
 tags: []

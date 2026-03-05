@@ -2030,7 +2030,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: AILOnionLookup
-  name: AILOnionLookup
+  name: AIL Onion-Lookup
   description: ''
   category: ''
   tags: []
@@ -2147,87 +2147,6 @@ low:
     totalFunctions: 0
     totalExternalIntegrations: 0
     total: 1
-- id: AMPforEndpoints
-  name: AMPforEndpoints
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: low
-  integrations:
-    analyzers: []
-    responders:
-    - name: AMPforEndpoints_MoveGUID
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Move an AMP for Endpoints connector GUID to a different Group
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-      integration_type: null
-    - name: AMPforEndpoints_SCDAdd
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-      integration_type: null
-    - name: AMPforEndpoints_IsolationStart
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Start host isolation for an AMP for Endpoints connector
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-      integration_type: null
-    - name: AMPforEndpoints_SCDRemove
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-      integration_type: null
-    - name: AMPforEndpoints_IsolationStop
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Stop host isolation for an AMP for Endpoints connector
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-      integration_type: null
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 5
-    totalFunctions: 0
-    totalExternalIntegrations: 0
-    total: 5
 - id: AnyRun
   name: AnyRun
   description: ''
@@ -2779,7 +2698,7 @@ low:
     totalExternalIntegrations: 0
     total: 2
 - id: CIRCLHashlookup
-  name: CIRCLHashlookup
+  name: CIRCL Hash Lookup
   description: ''
   category: ''
   tags: []
@@ -2815,7 +2734,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: CIRCLPassiveDNS
-  name: CIRCLPassiveDNS
+  name: CIRCL Passive DNS
   description: ''
   category: ''
   tags: []
@@ -2853,7 +2772,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: CIRCLPassiveSSL
-  name: CIRCLPassiveSSL
+  name: CIRCL Passive SSL
   description: ''
   category: ''
   tags: []
@@ -2891,7 +2810,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: CIRCLVulnerabilityLookup
-  name: CIRCLVulnerabilityLookup
+  name: CIRCL Vulnerability-Lookup
   description: ''
   category: ''
   tags: []
@@ -2934,6 +2853,87 @@ low:
     totalFunctions: 0
     totalExternalIntegrations: 0
     total: 1
+- id: AMPforEndpoints
+  name: Cisco Secure Endpoint (Formerly AMP for Endpoints)
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
+  integrations:
+    analyzers: []
+    responders:
+    - name: AMPforEndpoints_MoveGUID
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Move an AMP for Endpoints connector GUID to a different Group
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
+      integration_type: null
+    - name: AMPforEndpoints_SCDAdd
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+      integration_type: null
+    - name: AMPforEndpoints_IsolationStart
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Start host isolation for an AMP for Endpoints connector
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
+      integration_type: null
+    - name: AMPforEndpoints_SCDRemove
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+      integration_type: null
+    - name: AMPforEndpoints_IsolationStop
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Stop host isolation for an AMP for Endpoints connector
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+      integration_type: null
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 5
+    totalFunctions: 0
+    totalExternalIntegrations: 0
+    total: 5
 - id: CiscoUmbrella
   name: CiscoUmbrella
   description: ''
@@ -3134,35 +3134,6 @@ low:
     totalResponders: 0
     totalFunctions: 0
     totalExternalIntegrations: 0
-    total: 1
-- id: CortexXSOAR
-  name: Cortex XSOAR
-  description: Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate incident response
-    workflows, orchestrate security tools, and accelerate threat investigation and remediation
-  category: SOAR & Automation
-  tags:
-  - automation
-  - workflow-orchestration
-  homepage: https://www.paloaltonetworks.com/cortex/cortex-xsoar
-  logo: {}
-  useCases: []
-  externalIntegrations:
-  - name: TheHive Project Integration
-    description: Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable
-      handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
-    type: integration
-    documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
-  displayOnWebsite: true
-  visibility: low
-  integrations:
-    analyzers: []
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 0
-    totalFunctions: 0
-    totalExternalIntegrations: 1
     total: 1
 - id: Crowdsec
   name: CrowdSec
@@ -3690,7 +3661,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: DomainMailSPFDMARC
-  name: DomainMailSPFDMARC
+  name: Domain Mail SPF DMARC
   description: ''
   category: ''
   tags: []
@@ -3881,7 +3852,7 @@ low:
     totalExternalIntegrations: 0
     total: 10
 - id: DomainToolsIris
-  name: DomainToolsIris
+  name: DomainTools Iris
   description: ''
   category: ''
   tags: []
@@ -4467,7 +4438,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: FireEyeiSight
-  name: FireEyeiSight
+  name: FireEye iSIGHT
   description: ''
   category: ''
   tags: []
@@ -4542,7 +4513,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: ForcepointWebsensePing
-  name: ForcepointWebsensePing
+  name: Forcepoint WebsensePing
   description: ''
   category: ''
   tags: []
@@ -4772,6 +4743,74 @@ low:
     totalFunctions: 0
     totalExternalIntegrations: 0
     total: 5
+- id: GoogleSafebrowsing
+  name: Google Safe Browsing
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
+  integrations:
+    analyzers:
+    - name: GoogleSafebrowsing
+      version: '2.0'
+      author: Nils Kuhnert, CERT-Bund
+      license: AGPL-V3
+      description: Use Google Safebrowing to check URLs and domain names.
+      dataTypes:
+      - url
+      - domain
+      file: .upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalExternalIntegrations: 0
+    total: 1
+- id: GoogleVisionAPI
+  name: Google Vision API
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
+  integrations:
+    analyzers:
+    - name: GoogleVisionAPI_WebDetection
+      version: 1.0.0
+      author: CERT-LaPoste
+      license: AGPL-V3
+      description: 'Find look alike image via Google Cloud Vision API using the Web_Detection service '
+      dataTypes:
+      - file
+      - url
+      file: .upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalExternalIntegrations: 0
+    total: 1
 - id: GoogleDNS
   name: GoogleDNS
   description: ''
@@ -4807,81 +4846,20 @@ low:
     totalFunctions: 0
     totalExternalIntegrations: 0
     total: 1
-- id: GoogleSafebrowsing
-  name: GoogleSafebrowsing
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: low
-  integrations:
-    analyzers:
-    - name: GoogleSafebrowsing
-      version: '2.0'
-      author: Nils Kuhnert, CERT-Bund
-      license: AGPL-V3
-      description: Use Google Safebrowing to check URLs and domain names.
-      dataTypes:
-      - url
-      - domain
-      file: .upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
-      integration_type: null
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    totalExternalIntegrations: 0
-    total: 1
-- id: GoogleVisionAPI
-  name: GoogleVisionAPI
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: low
-  integrations:
-    analyzers:
-    - name: GoogleVisionAPI_WebDetection
-      version: 1.0.0
-      author: CERT-LaPoste
-      license: AGPL-V3
-      description: 'Find look alike image via Google Cloud Vision API using the Web_Detection service '
-      dataTypes:
-      - file
-      - url
-      file: .upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
-      integration_type: null
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    totalExternalIntegrations: 0
-    total: 1
 - id: GreyNoise
   name: GreyNoise
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  description: Filter noise from IP observables. Determine if IPs are benign internet scanners or targeted threats to reduce
+    false positives in your cases
+  category: Threat Intelligence
+  tags:
+  - ip-intelligence
+  - noise-reduction
+  - false-positive-reduction
+  homepage: https://www.greynoise.io
+  logo:
+    file: integrations/vendors/GreyNoise/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/GreyNoise/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/GreyNoise/assets/logo.png
   useCases: []
   externalIntegrations: []
   displayOnWebsite: true
@@ -5550,7 +5528,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: IBMQRadar
-  name: IBMQRadar
+  name: IBM QRadar
   description: ''
   category: ''
   tags: []
@@ -5586,7 +5564,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: IBMXForce
-  name: IBMXForce
+  name: IBM X-Force
   description: ''
   category: ''
   tags: []
@@ -6034,7 +6012,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: JoeSandbox
-  name: JoeSandbox
+  name: Joe Sandbox
   description: ''
   category: ''
   tags: []
@@ -6159,7 +6137,7 @@ low:
     totalExternalIntegrations: 0
     total: 2
 - id: KasperskyTIP
-  name: KasperskyTIP
+  name: Kaspersky TIP
   description: ''
   category: ''
   tags: []
@@ -6486,6 +6464,42 @@ low:
     totalFunctions: 0
     totalExternalIntegrations: 0
     total: 1
+- id: TeamCymruMHR
+  name: Malware Hash Registry (MHR)
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
+  registration_required: false
+  subscription_required: false
+  free_subscription: false
+  integrations:
+    analyzers:
+    - name: TeamCymruMHR
+      version: '1.0'
+      author: Wes Lambert; Fabien Bloume, StrangeBee
+      license: AGPL-V3
+      description: Submit hash to Team Cymru's Malware Hash Registry
+      dataTypes:
+      - hash
+      file: .upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TeamCymruMHR/TeamCymruMHR.json
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalExternalIntegrations: 0
+    total: 1
 - id: MalwareBazaar
   name: MalwareBazaar
   description: MalwareBazaar by Abuse.ch is a community-driven malware sample repository that enables analysts to query, download,
@@ -6781,7 +6795,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: MISPWarningLists
-  name: MISPWarningLists
+  name: MISP Warning Lists
   description: ''
   category: ''
   tags: []
@@ -7288,7 +7302,7 @@ low:
     totalExternalIntegrations: 0
     total: 1
 - id: PaloAltoCortexXDR
-  name: PaloAltoCortexXDR
+  name: PAN Cortex XDR
   description: ''
   category: ''
   tags: []
@@ -7347,8 +7361,37 @@ low:
     totalFunctions: 0
     totalExternalIntegrations: 0
     total: 3
+- id: CortexXSOAR
+  name: PAN Cortex XSOAR
+  description: Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate incident response
+    workflows, orchestrate security tools, and accelerate threat investigation and remediation
+  category: SOAR & Automation
+  tags:
+  - automation
+  - workflow-orchestration
+  homepage: https://www.paloaltonetworks.com/cortex/cortex-xsoar
+  logo: {}
+  useCases: []
+  externalIntegrations:
+  - name: TheHive Project Integration
+    description: Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable
+      handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
+    type: integration
+    documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
+  displayOnWebsite: true
+  visibility: low
+  integrations:
+    analyzers: []
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 0
+    totalExternalIntegrations: 1
+    total: 1
 - id: PaloAltoNGFW
-  name: PaloAltoNGFW
+  name: PAN Next Generation Firewall
   description: ''
   category: ''
   tags: []
@@ -7593,7 +7636,7 @@ low:
     totalExternalIntegrations: 0
     total: 16
 - id: PaloAltoWildFire
-  name: PaloAltoWildFire
+  name: PAN WildFire
   description: ''
   category: ''
   tags: []
@@ -7952,11 +7995,19 @@ low:
     total: 2
 - id: PhishTank
   name: PhishTank
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  description: Verify URL observables against community-reported phishing sites. Confirm if URLs in your cases are part of
+    known phishing campaigns
+  category: Phishing Intelligence
+  tags:
+  - phishing-detection
+  - url-reputation
+  - threat-intelligence
+  - community-intelligence
+  homepage: https://www.phishtank.com
+  logo:
+    file: integrations/vendors/PhishTank/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/PhishTank/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/PhishTank/assets/logo.png
   useCases: []
   externalIntegrations: []
   displayOnWebsite: true
@@ -8515,7 +8566,7 @@ low:
     totalExternalIntegrations: 0
     total: 2
 - id: SEKOIAIntelligenceCenter
-  name: SEKOIAIntelligenceCenter
+  name: SEKOIA Intelligence Center
   description: ''
   category: ''
   tags: []
@@ -9092,42 +9143,6 @@ low:
     totalFunctions: 0
     totalExternalIntegrations: 0
     total: 0
-- id: TeamCymruMHR
-  name: TeamCymruMHR
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: low
-  registration_required: false
-  subscription_required: false
-  free_subscription: false
-  integrations:
-    analyzers:
-    - name: TeamCymruMHR
-      version: '1.0'
-      author: Wes Lambert; Fabien Bloume, StrangeBee
-      license: AGPL-V3
-      description: Submit hash to Team Cymru's Malware Hash Registry
-      dataTypes:
-      - hash
-      file: .upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TeamCymruMHR/TeamCymruMHR.json
-      integration_type: null
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    totalExternalIntegrations: 0
-    total: 1
 - id: Test
   name: Test
   description: ''

@@ -119,7 +119,7 @@
   },
   "AILOnionLookup": {
     "id": "AILOnionLookup",
-    "name": "AILOnionLookup",
+    "name": "AIL Onion-Lookup",
     "description": "",
     "category": "",
     "tags": [],
@@ -201,7 +201,7 @@
   },
   "AMPforEndpoints": {
     "id": "AMPforEndpoints",
-    "name": "AMPforEndpoints",
+    "name": "Cisco Secure Endpoint (Formerly AMP for Endpoints)",
     "description": "",
     "category": "",
     "tags": [],
@@ -1028,7 +1028,7 @@
   },
   "CIRCLHashlookup": {
     "id": "CIRCLHashlookup",
-    "name": "CIRCLHashlookup",
+    "name": "CIRCL Hash Lookup",
     "description": "",
     "category": "",
     "tags": [],
@@ -1072,7 +1072,7 @@
   },
   "CIRCLPassiveDNS": {
     "id": "CIRCLPassiveDNS",
-    "name": "CIRCLPassiveDNS",
+    "name": "CIRCL Passive DNS",
     "description": "",
     "category": "",
     "tags": [],
@@ -1118,7 +1118,7 @@
   },
   "CIRCLPassiveSSL": {
     "id": "CIRCLPassiveSSL",
-    "name": "CIRCLPassiveSSL",
+    "name": "CIRCL Passive SSL",
     "description": "",
     "category": "",
     "tags": [],
@@ -1164,7 +1164,7 @@
   },
   "CIRCLVulnerabilityLookup": {
     "id": "CIRCLVulnerabilityLookup",
-    "name": "CIRCLVulnerabilityLookup",
+    "name": "CIRCL Vulnerability-Lookup",
     "description": "",
     "category": "",
     "tags": [],
@@ -1507,7 +1507,7 @@
   },
   "CortexXSOAR": {
     "id": "CortexXSOAR",
-    "name": "Cortex XSOAR",
+    "name": "PAN Cortex XSOAR",
     "description": "Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate incident response workflows, orchestrate security tools, and accelerate threat investigation and remediation",
     "category": "SOAR & Automation",
     "tags": [
@@ -2576,7 +2576,7 @@
   },
   "DomainMailSPFDMARC": {
     "id": "DomainMailSPFDMARC",
-    "name": "DomainMailSPFDMARC",
+    "name": "Domain Mail SPF DMARC",
     "description": "",
     "category": "",
     "tags": [],
@@ -2809,7 +2809,7 @@
   },
   "DomainToolsIris": {
     "id": "DomainToolsIris",
-    "name": "DomainToolsIris",
+    "name": "DomainTools Iris",
     "description": "",
     "category": "",
     "tags": [],
@@ -3521,7 +3521,7 @@
   },
   "FireEyeiSight": {
     "id": "FireEyeiSight",
-    "name": "FireEyeiSight",
+    "name": "FireEye iSIGHT",
     "description": "",
     "category": "",
     "tags": [],
@@ -3612,7 +3612,7 @@
   },
   "ForcepointWebsensePing": {
     "id": "ForcepointWebsensePing",
-    "name": "ForcepointWebsensePing",
+    "name": "Forcepoint WebsensePing",
     "description": "",
     "category": "",
     "tags": [],
@@ -3938,7 +3938,7 @@
   },
   "GoogleSafebrowsing": {
     "id": "GoogleSafebrowsing",
-    "name": "GoogleSafebrowsing",
+    "name": "Google Safe Browsing",
     "description": "",
     "category": "",
     "tags": [],
@@ -4103,7 +4103,7 @@
   },
   "GoogleVisionAPI": {
     "id": "GoogleVisionAPI",
-    "name": "GoogleVisionAPI",
+    "name": "Google Vision API",
     "description": "",
     "category": "",
     "tags": [],
@@ -4146,11 +4146,19 @@
   "GreyNoise": {
     "id": "GreyNoise",
     "name": "GreyNoise",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "Filter noise from IP observables. Determine if IPs are benign internet scanners or targeted threats to reduce false positives in your cases",
+    "category": "Threat Intelligence",
+    "tags": [
+      "ip-intelligence",
+      "noise-reduction",
+      "false-positive-reduction"
+    ],
+    "homepage": "https://www.greynoise.io",
+    "logo": {
+      "file": "integrations/vendors/GreyNoise/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/GreyNoise/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/GreyNoise/assets/logo.png"
+    },
     "useCases": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
@@ -4975,7 +4983,7 @@
   },
   "IBMQRadar": {
     "id": "IBMQRadar",
-    "name": "IBMQRadar",
+    "name": "IBM QRadar",
     "description": "",
     "category": "",
     "tags": [],
@@ -5019,7 +5027,7 @@
   },
   "IBMXForce": {
     "id": "IBMXForce",
-    "name": "IBMXForce",
+    "name": "IBM X-Force",
     "description": "",
     "category": "",
     "tags": [],
@@ -5600,7 +5608,7 @@
   },
   "JoeSandbox": {
     "id": "JoeSandbox",
-    "name": "JoeSandbox",
+    "name": "Joe Sandbox",
     "description": "",
     "category": "",
     "tags": [],
@@ -5751,7 +5759,7 @@
   },
   "KasperskyTIP": {
     "id": "KasperskyTIP",
-    "name": "KasperskyTIP",
+    "name": "Kaspersky TIP",
     "description": "",
     "category": "",
     "tags": [],
@@ -6575,7 +6583,7 @@
   },
   "MISPWarningLists": {
     "id": "MISPWarningLists",
-    "name": "MISPWarningLists",
+    "name": "MISP Warning Lists",
     "description": "",
     "category": "",
     "tags": [],
@@ -7901,7 +7909,7 @@
   },
   "PaloAltoCortexXDR": {
     "id": "PaloAltoCortexXDR",
-    "name": "PaloAltoCortexXDR",
+    "name": "PAN Cortex XDR",
     "description": "",
     "category": "",
     "tags": [],
@@ -7975,7 +7983,7 @@
   },
   "PaloAltoNGFW": {
     "id": "PaloAltoNGFW",
-    "name": "PaloAltoNGFW",
+    "name": "PAN Next Generation Firewall",
     "description": "",
     "category": "",
     "tags": [],
@@ -8273,7 +8281,7 @@
   },
   "PaloAltoWildFire": {
     "id": "PaloAltoWildFire",
-    "name": "PaloAltoWildFire",
+    "name": "PAN WildFire",
     "description": "",
     "category": "",
     "tags": [],
@@ -8713,11 +8721,20 @@
   "PhishTank": {
     "id": "PhishTank",
     "name": "PhishTank",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "Verify URL observables against community-reported phishing sites. Confirm if URLs in your cases are part of known phishing campaigns",
+    "category": "Phishing Intelligence",
+    "tags": [
+      "phishing-detection",
+      "url-reputation",
+      "threat-intelligence",
+      "community-intelligence"
+    ],
+    "homepage": "https://www.phishtank.com",
+    "logo": {
+      "file": "integrations/vendors/PhishTank/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/PhishTank/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/PhishTank/assets/logo.png"
+    },
     "useCases": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
@@ -9536,7 +9553,7 @@
   },
   "SEKOIAIntelligenceCenter": {
     "id": "SEKOIAIntelligenceCenter",
-    "name": "SEKOIAIntelligenceCenter",
+    "name": "SEKOIA Intelligence Center",
     "description": "",
     "category": "",
     "tags": [],
@@ -10694,7 +10711,7 @@
   },
   "TeamCymruMHR": {
     "id": "TeamCymruMHR",
-    "name": "TeamCymruMHR",
+    "name": "Malware Hash Registry (MHR)",
     "description": "",
     "category": "",
     "tags": [],

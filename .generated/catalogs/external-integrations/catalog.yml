@@ -4,15 +4,6 @@
 totalIntegrations: 10
 integrations:
 - &id001
-  name: TheHive Project Integration
-  vendor: Cortex XSOAR
-  vendorId: CortexXSOAR
-  type: integration
-  description: Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable
-    handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
-  documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
-  category: SOAR & Automation
-- &id002
   name: falcon2thehive
   vendor: CrowdStrike Falcon
   vendorId: CrowdstrikeFalcon
@@ -22,7 +13,7 @@ integrations:
     automatic observable extraction and TTP mapping.
   documentation: https://github.com/StrangeBeeCorp/falcon2thehive
   category: EDR
-- &id003
+- &id002
   name: TheHive Connector for Kibana
   vendor: Elasticsearch
   vendorId: Elasticsearch
@@ -30,7 +21,7 @@ integrations:
   description: Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
   documentation: https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type
   category: SIEM & Analytics
-- &id004
+- &id003
   name: Cortex and TheHive Nodes
   vendor: n8n
   vendorId: n8n
@@ -38,6 +29,15 @@ integrations:
   description: Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders,
     and TheHive cases/alerts/observables
   documentation: https://n8n.io/integrations/thehive-5/
+  category: SOAR & Automation
+- &id004
+  name: TheHive Project Integration
+  vendor: PAN Cortex XSOAR
+  vendorId: CortexXSOAR
+  type: integration
+  description: Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable
+    handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
+  documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
   category: SOAR & Automation
 - &id005
   name: TheHive Extension
@@ -95,13 +95,13 @@ integrations:
   documentation: https://www.tines.com/solutions/products/thehive-project/
   category: SOAR & Automation
 byVendor:
-  Cortex XSOAR:
-  - *id001
   CrowdStrike Falcon:
-  - *id002
+  - *id001
   Elasticsearch:
-  - *id003
+  - *id002
   n8n:
+  - *id003
+  PAN Cortex XSOAR:
   - *id004
   Rapid7 InsightConnect:
   - *id005
@@ -115,30 +115,30 @@ byVendor:
   Tines:
   - *id010
 byCategory:
-  SOAR & Automation:
+  EDR:
   - *id001
+  SIEM & Analytics:
+  - *id002
+  - *id007
+  - *id008
+  SOAR & Automation:
+  - *id003
   - *id004
   - *id005
   - *id006
   - *id010
-  EDR:
-  - *id002
-  SIEM & Analytics:
-  - *id003
-  - *id007
-  - *id008
   Threat Intelligence:
   - *id009
 byType:
-  integration:
-  - *id001
-  - *id009
   connector:
+  - *id001
   - *id002
-  - *id003
   - *id010
   workflow-nodes:
+  - *id003
+  integration:
   - *id004
+  - *id009
   extension:
   - *id005
   app:

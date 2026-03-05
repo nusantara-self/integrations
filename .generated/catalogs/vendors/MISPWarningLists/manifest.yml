@@ -3,7 +3,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: MISPWarningLists
-name: MISPWarningLists
+name: MISP Warning Lists
 description: ''
 category: ''
 tags: []
