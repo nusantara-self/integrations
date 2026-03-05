@@ -1,6 +1,6 @@
 ---
 title: Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script
-description: TO DO LATER
+description: Install and configure the falcon2thehive connector to automatically ingest CrowdStrike Falcon detections and incidents into TheHive as alerts in real time.
 tags: 
   - alert-ingestion
   - crowdstrike
