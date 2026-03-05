@@ -460,8 +460,9 @@ def generate_vendor_manifest(vendor: str) -> Dict:
     # Consolidate subscription fields
     subscription_info = consolidate_subscription_fields(analyzer_subscription, responder_subscription)
 
-    # Count external integrations from vendor metadata
+    # Count external integrations and use cases from vendor metadata
     external_integrations_count = len(vendor_metadata.get('externalIntegrations', []))
+    use_cases_count = len(vendor_metadata.get('useCases', []))
 
     manifest = {
         **vendor_metadata,
@@ -475,6 +476,7 @@ def generate_vendor_manifest(vendor: str) -> Dict:
             'totalAnalyzers': len(analyzers),
             'totalResponders': len(responders),
             'totalFunctions': len(functions),
+            'totalUseCases': use_cases_count,
             'totalExternalIntegrations': external_integrations_count,
             'total': len(analyzers) + len(responders) + len(functions) + external_integrations_count
         }
