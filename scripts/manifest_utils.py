@@ -296,6 +296,12 @@ def discover_use_cases_from_markdown(vendor: str) -> List[Dict]:
             use_case['tags'] = frontmatter['tags']
         if 'difficulty' in frontmatter:
             use_case['difficulty'] = frontmatter['difficulty']
+        if 'thehive_version_required' in frontmatter:
+            use_case['thehive_version_required'] = frontmatter['thehive_version_required']
+        if 'license_required' in frontmatter:
+            use_case['license_required'] = frontmatter['license_required']
+        if 'linked_to' in frontmatter:
+            use_case['linked_to'] = frontmatter['linked_to']
 
         use_cases.append(use_case)
 
