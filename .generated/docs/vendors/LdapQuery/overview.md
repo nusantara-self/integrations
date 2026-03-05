@@ -6,6 +6,6 @@ Query your LDAP server to harvest informations about an user of your organizatio
 - **Author:** Florian Perret @cyber_pescadito & THA-CERT @tha_cert
 - **License:** AGPL-V3
 - **Data Types:** `username`, `mail`
-- **Configuration:** [.upstream/cortex/analyzers/LdapQuery/LdapQuery.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/LdapQuery/LdapQuery.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/LdapQuery/LdapQuery.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/LdapQuery/LdapQuery.json)
 
 ---

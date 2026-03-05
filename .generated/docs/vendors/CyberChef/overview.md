@@ -6,7 +6,7 @@ Convert Base64 with CyberChef Server
 - **Author:** Wes Lambert
 - **License:** AGPL-V3
 - **Data Types:** `other`
-- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json)
 
 ### CyberChef_FromHex `v1.0`
 Convert Hex with CyberChef Server
@@ -14,7 +14,7 @@ Convert Hex with CyberChef Server
 - **Author:** Wes Lambert
 - **License:** AGPL-V3
 - **Data Types:** `other`
-- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json)
 
 ### CyberChef_FromCharCode `v1.0`
 Convert Char Code with CyberChef Server
@@ -22,6 +22,6 @@ Convert Char Code with CyberChef Server
 - **Author:** Wes Lambert
 - **License:** AGPL-V3
 - **Data Types:** `other`
-- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json)
 
 ---

@@ -6,6 +6,6 @@ CIRCL hashlookup uses a public API to lookup hash values against databases of kn
 - **Author:** Mikael Keri
 - **License:** AGPL-V3
 - **Data Types:** `hash`
-- **Configuration:** [.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json)
 
 ---

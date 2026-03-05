@@ -6,7 +6,7 @@ Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sh
 - **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json)
 
 ### ONYPHE_Vulnscan `v1.1`
 Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS fingerprint)
@@ -14,7 +14,7 @@ Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain
 - **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json)
 
 ### ONYPHE_ASM `v1.1`
 Manage an attack surface from The Hive using ONYPHE riskscan category
@@ -22,7 +22,7 @@ Manage an attack surface from The Hive using ONYPHE riskscan category
 - **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json)
 
 ### ONYPHE_Ctiscan `v1.0`
 Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fqdn, autonomous-system or hash.)
@@ -30,7 +30,7 @@ Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fq
 - **Author:** James Atack
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`, `autonomous-system`, `other`
-- **Configuration:** [.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json)
 
 ### ONYPHE_Summary_API `v1.2`
 Retrieve summary information Onyphe has for given ip, domain, or fqdn.
@@ -38,6 +38,6 @@ Retrieve summary information Onyphe has for given ip, domain, or fqdn.
 - **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json)
 
 ---

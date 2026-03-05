@@ -6,6 +6,6 @@ hunter.io is a service to find email addresses from a domain.
 - **Author:** Rémi Allain, Cyberprotect
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json)
 
 ---

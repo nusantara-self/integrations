@@ -6,7 +6,7 @@ Query SentinelOne for DNS names that resolved to a given IP address. Returns the
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json)
 
 ### SentinelOne_DeepVisibility_DNSQuery `v1.0`
 Query Sentinel One Deep Visibility API v2.1 for hosts that have requested DNS lookups for a domain/URL/FQDN.
@@ -14,7 +14,7 @@ Query Sentinel One Deep Visibility API v2.1 for hosts that have requested DNS lo
 - **Author:** Joe Vasquez
 - **License:** AGPL-V3
 - **Data Types:** `url`, `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json)
 
 ### SentinelOne_DNSQuery `v2.0`
 Query SentinelOne for hosts that have requested DNS lookups for a domain/URL/FQDN. Supports both new SDL (Security Data Lake) API and legacy Deep Visibility API v2.1.
@@ -22,7 +22,7 @@ Query SentinelOne for hosts that have requested DNS lookups for a domain/URL/FQD
 - **Author:** Joe Vasquez; Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `url`, `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json)
 
 ---
 
@@ -34,6 +34,6 @@ Add SHA1 hash to SentinelOne Blacklist via API v2.1.
 - **Author:** Joe Vasquez
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json)
 
 ---

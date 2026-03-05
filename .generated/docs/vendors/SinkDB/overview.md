@@ -6,6 +6,6 @@ Check if ip is sinkholed via the new sinkdb.abuse.ch HTTPS API. Original analyze
 - **Author:** Mark Kikta, RedLegg Cybersecurity Solutions
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `mail`
-- **Configuration:** [.upstream/cortex/analyzers/SinkDB/SinkDB.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SinkDB/SinkDB.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SinkDB/SinkDB.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SinkDB/SinkDB.json)
 
 ---

@@ -1,3 +1,19 @@
+## Use Cases (2)
+
+### Notify Slack When an Alert Is Created in TheHive
+For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
+
+- **Documentation:** [View tutorial](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md)
+
+---
+
+### Notify Slack When a Case Assignee Changes in TheHive
+For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here will inform only active users.
+
+- **Documentation:** [View tutorial](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md)
+
+---
+
 ## Responders (2)
 
 ### Slack_CreateChannel `v1.0`
@@ -6,7 +22,7 @@ Creates a Slack channel for a TheHive case, invites participants, and optionally
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Slack/Slack_CreateChannel.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json)
 
 ### Slack_SyncChannel `v1.0`
 Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.
@@ -14,20 +30,6 @@ Syncs Slack channel conversations to TheHive task logs. Imports messages chronol
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Slack/Slack_SyncChannel.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json)
 
 ---
-
-## Use Cases (2)
-
-### Notify Slack When an Alert Is Created in TheHive
-For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
-
-- **Documentation:** [integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md)
-
----
-
-### Notify Slack When a Case Assignee Changes in TheHive
-For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here will inform only active users.
-
-- **Documentation:** [integrations/vendors/Slack/use-cases/slack-case-assignee-change.md](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md)

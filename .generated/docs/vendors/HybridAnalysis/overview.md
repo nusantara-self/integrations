@@ -6,6 +6,6 @@ Fetch Hybrid Analysis reports associated with hashes and filenames.
 - **Author:** Daniil Yugoslavskiy, Tieto
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `file`, `filename`, `url`, `domain`
-- **Configuration:** [.upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json)
 
 ---

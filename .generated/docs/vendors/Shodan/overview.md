@@ -6,7 +6,7 @@ Retrieve key Shodan information on an IP address.
 - **Author:** Sebastien Larinier @Sebdraven
 - **License:** AGPL-V3
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Shodan/Shodan_Host.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Host.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host.json)
 
 ### Shodan_Search `v2.0`
 Search query on Shodan
@@ -14,7 +14,7 @@ Search query on Shodan
 - **Author:** Sebastien Larinier @Sebdraven
 - **License:** AGPL-V3
 - **Data Types:** `other`
-- **Configuration:** [.upstream/cortex/analyzers/Shodan/Shodan_Search.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json)
 
 ### Shodan_InfoDomain `v1.0`
 Retrieve key Shodan information on a domain.
@@ -22,7 +22,7 @@ Retrieve key Shodan information on a domain.
 - **Author:** ANSSI
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json)
 
 ### Shodan_DNSResolve `v1.0`
 Retrieve domain resolutions on Shodan.
@@ -30,7 +30,7 @@ Retrieve domain resolutions on Shodan.
 - **Author:** ANSSI
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json)
 
 ### Shodan_ReverseDNS `v1.0`
 Retrieve ip reverse DNS resolutions on Shodan.
@@ -38,7 +38,7 @@ Retrieve ip reverse DNS resolutions on Shodan.
 - **Author:** ANSSI
 - **License:** AGPL-V3
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json)
 
 ### Shodan_Host_History `v1.0`
 Retrieve Shodan history scan results  for an IP address.
@@ -46,6 +46,6 @@ Retrieve Shodan history scan results  for an IP address.
 - **Author:** ANSSI
 - **License:** AGPL-V3
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json)
 
 ---

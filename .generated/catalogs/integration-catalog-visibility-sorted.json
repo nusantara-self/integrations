@@ -1390,7 +1390,7 @@
           "thehive_version_required": "5.5",
           "license_required": "platinum",
           "linked_to": [
-            "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_MessageDelivered.js"
+            "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js"
           ]
         },
         {

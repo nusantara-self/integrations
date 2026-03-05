@@ -6,7 +6,7 @@ Get the latest Google Threat Intelligence report for a file that was submitted t
 - **Author:** Google
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json)
 
 ### GTI_GetIOCReport `v1.0`
 Get the latest Google Threat Intelligence report for a file, hash, url, domain or an IP address.
@@ -14,7 +14,7 @@ Get the latest Google Threat Intelligence report for a file, hash, url, domain o
 - **Author:** Google
 - **License:** AGPL-V3
 - **Data Types:** `file`, `hash`, `domain`, `fqdn`, `ip`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json)
 
 ### GTI_ScanURL `v1.0`
 Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence for scanning
@@ -22,7 +22,7 @@ Get the latest Google Threat Intelligence report for a URL that was submitted to
 - **Author:** Google
 - **License:** AGPL-V3
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json)
 
 ### GTI_ScanPrivateFile `v1.0`
 Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat Intelligence for scanning
@@ -30,7 +30,7 @@ Get the latest Google Threat Intelligence report for a file that was privately s
 - **Author:** Google
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json)
 
 ### GTI_ScanPrivateURL `v1.0`
 Get the latest Google Threat Intelligence report for a URL that was privately submitted to Google Threat Intelligence for scanning
@@ -38,6 +38,6 @@ Get the latest Google Threat Intelligence report for a URL that was privately su
 - **Author:** Google
 - **License:** AGPL-V3
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json)
 
 ---

@@ -6,6 +6,6 @@ Mail a detailed status information of an incident case. The mail is sent to reci
 - **Author:** Manuel Krucker
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json))
+- **Configuration:** [View config](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json)
 
 ---
