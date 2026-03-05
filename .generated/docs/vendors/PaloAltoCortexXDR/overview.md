@@ -23,5 +23,3 @@ Unisolate endpoints identified by hostname or IP list
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json)
-
----

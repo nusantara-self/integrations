@@ -75,5 +75,3 @@ Force password reset at next login with MFA verification before password change 
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json)
-
----

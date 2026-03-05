@@ -7,5 +7,3 @@ Search cybercrime-tracker.net for C2 servers.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`, `url`, `other`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json)
-
----

@@ -35,5 +35,3 @@ Add SHA1 hash to SentinelOne Blacklist via API v2.1.
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/SentinelOne/SentinelOne_HashBlacklister.json)
-
----

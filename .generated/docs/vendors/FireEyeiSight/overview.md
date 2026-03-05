@@ -7,5 +7,3 @@ Query domains, IPs, hashes and URLs on FireEye's iSIGHT threat intelligence serv
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `ip`, `hash`, `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FireEyeiSight/FireEyeiSight.json)
-
----

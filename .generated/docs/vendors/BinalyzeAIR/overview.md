@@ -15,5 +15,3 @@ Isolate your endpoints with Binalyze AIR.
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR/binalyze_air_isolation.json)
-
----

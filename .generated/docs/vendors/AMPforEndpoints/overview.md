@@ -39,5 +39,3 @@ Stop host isolation for an AMP for Endpoints connector
 - **License:** MIT
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json)
-
----

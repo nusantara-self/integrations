@@ -39,5 +39,3 @@ Retrieve summary information Onyphe has for given ip, domain, or fqdn.
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_Summary_API.json)
-
----

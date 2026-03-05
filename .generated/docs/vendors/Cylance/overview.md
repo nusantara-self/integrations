@@ -7,5 +7,3 @@ Search for a specific hash, if there is a match, coresponding client information
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Cylance/Cylance.json)
-
----

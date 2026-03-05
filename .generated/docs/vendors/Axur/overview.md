@@ -7,5 +7,3 @@ Search IPs, domains, hashes or URLs on axur.com
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`, `url`, `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Axur/axur_analyzer.json)
-
----

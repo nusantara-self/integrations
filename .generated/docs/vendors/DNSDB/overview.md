@@ -23,5 +23,3 @@ Use DNSDB to fetch historical records for a fully-qualified domain name.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB/DNSDB_NameHistory.json)
-
----

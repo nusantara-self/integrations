@@ -15,5 +15,3 @@ Lock ip on CheckPoint Gaia
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPoint/CheckPoint_Gaia_lock.json)
-
----

@@ -7,5 +7,3 @@ Submit hash to Team Cymru's Malware Hash Registry
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TeamCymruMHR/TeamCymruMHR.json)
-
----

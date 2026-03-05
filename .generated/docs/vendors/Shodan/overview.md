@@ -47,5 +47,3 @@ Retrieve Shodan history scan results  for an IP address.
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_Host_History.json)
-
----

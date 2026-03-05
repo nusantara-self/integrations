@@ -7,5 +7,3 @@ Check CIRCL's Passive DNS for a given domain or URL.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `url`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json)
-
----

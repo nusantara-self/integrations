@@ -7,5 +7,3 @@ Block IP Address on Account level in Cloudflare
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Cloudflare/CloudflareIPBlocker.json)
-
----

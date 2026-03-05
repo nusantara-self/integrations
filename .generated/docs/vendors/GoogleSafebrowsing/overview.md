@@ -7,5 +7,3 @@ Use Google Safebrowing to check URLs and domain names.
 - **License:** AGPL-V3
 - **Data Types:** `url`, `domain`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json)
-
----

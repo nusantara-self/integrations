@@ -23,5 +23,3 @@ Check IPs using the Robtex reverse passive DNS API.
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json)
-
----

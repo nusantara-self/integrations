@@ -43,5 +43,3 @@ Ingests ProofPoint messageDelivered alerts in TheHive
 Ingests ProofPoint clicksPermitted alerts in TheHive
 
 - **Source:** [View code](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js)
-
----

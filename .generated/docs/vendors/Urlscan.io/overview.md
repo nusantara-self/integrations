@@ -15,5 +15,3 @@ Search IPs, domains, hashes or URLs on urlscan.io
 - **License:** MIT
 - **Data Types:** `ip`, `domain`, `hash`, `fqdn`, `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io/Urlscan_Search.json)
-
----

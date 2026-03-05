@@ -39,5 +39,3 @@ Get the latest Google Threat Intelligence report for a URL that was privately su
 - **License:** AGPL-V3
 - **Data Types:** `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json)
-
----

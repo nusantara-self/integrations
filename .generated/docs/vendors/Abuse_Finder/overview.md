@@ -7,5 +7,3 @@ Find abuse contacts associated with domain names, URLs, IPs and email addresses.
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `url`, `mail`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Abuse_Finder/Abuse_Finder.json)
-
----

@@ -7,5 +7,3 @@ Request Google DNS over HTTPS service
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `ip`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleDNS/GoogleDNS_resolve.json)
-
----

@@ -23,5 +23,3 @@ Fast and easy way to find out if the file is known Good, PUA (Potentially Unwant
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `domain`, `fqdn`, `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix/SophosIntelix_GetReport.json)
-
----

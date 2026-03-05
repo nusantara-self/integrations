@@ -23,5 +23,3 @@ Query the Intelligence Center to retrieve the context of an observable
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `url`, `hash`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json)
-
----

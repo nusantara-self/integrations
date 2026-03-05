@@ -7,5 +7,3 @@ Check IoCs/Observables against MISP Warninglists to filter false positives.
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `hash`, `domain`, `fqdn`, `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MISPWarningLists/MISPWarningLists.json)
-
----

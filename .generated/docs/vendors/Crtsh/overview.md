@@ -7,5 +7,3 @@ Query domains against the certificate transparency lists available at crt.sh.
 - **License:** AGPL-V3
 - **Data Types:** `domain`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Crtsh/Crtsh.json)
-
----

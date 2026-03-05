@@ -7,5 +7,3 @@ Use MaxMind to geolocate an IP address.
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MaxMind/MaxMind_GeoIP.json)
-
----

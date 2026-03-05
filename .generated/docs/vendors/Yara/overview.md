@@ -7,5 +7,3 @@ Check files against YARA rules, either from local filesystem or from one or mult
 - **License:** AGPL-V3
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Yara/Yara.json)
-
----

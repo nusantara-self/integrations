@@ -7,5 +7,3 @@ VMRay Sandbox file and URL analysis.
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `file`, `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VMRay/VMRay.json)
-
----

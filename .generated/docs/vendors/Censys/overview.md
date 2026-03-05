@@ -7,5 +7,3 @@ Check IPs, certificate hashes or domains against censys.io.
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `hash`, `domain`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Censys/Censys.json)
-
----

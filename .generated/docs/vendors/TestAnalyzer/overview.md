@@ -15,5 +15,3 @@ Just a simple test analyzer! No real-world use-case covered by this one, for tes
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `hash`, `filename`, `uri_path`, `user-agent`, `mail-subject`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer/TestAnalyzer.json)
-
----

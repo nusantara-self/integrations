@@ -7,5 +7,3 @@ Query haveibeenpwned.com for a compromised email address
 - **License:** AGPL-V3
 - **Data Types:** `mail`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/HIBP/HIBP_Query.json)
-
----

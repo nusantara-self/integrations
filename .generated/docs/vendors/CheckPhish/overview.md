@@ -15,5 +15,3 @@ Check url address via CheckPhish using jobID returned from CheckPhish_Submit
 - **License:** AGPL-V3
 - **Data Types:** `string`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish/CheckPhish.json)
-
----

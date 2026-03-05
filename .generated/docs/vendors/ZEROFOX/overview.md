@@ -15,5 +15,3 @@ Close alert in Zerofox
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX/ZEROFOX_Close_alert.json)
-
----

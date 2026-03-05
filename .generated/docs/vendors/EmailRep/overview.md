@@ -7,5 +7,3 @@ emailrep.io lookup.
 - **License:** MIT
 - **Data Types:** `mail`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmailRep/EmailRep.json)
-
----

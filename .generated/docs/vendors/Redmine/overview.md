@@ -7,5 +7,3 @@ Create a redmine issue from a case
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:case_task`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Redmine/Redmine_Issue.json)
-
----

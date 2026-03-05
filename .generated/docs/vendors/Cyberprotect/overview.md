@@ -7,5 +7,3 @@ ThreatScore is a cyber threat scoring system provided by Cyberprotect
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `hash`, `ip`, `url`, `user-agent`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Cyberprotect/Cyberprotect_ThreatScore.json)
-
----

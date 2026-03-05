@@ -7,5 +7,3 @@ ClusterHawk prediction analyzer for IP address threat intelligence using pre-tra
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ClusterHawk/ClusterHawk.json)
-
----

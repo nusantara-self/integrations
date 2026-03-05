@@ -7,5 +7,3 @@ Check files against Malpedia YARA rules.
 - **License:** AGPL-V3
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Malpedia/Malpedia.json)
-
----

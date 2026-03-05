@@ -15,5 +15,3 @@ Use Phishing Initiative to check if a URL is a verified phishing site.
 - **License:** AGPL-V3
 - **Data Types:** `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json)
-
----

@@ -7,5 +7,3 @@ Submit indicator to Minemeld
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Minemeld/minemeld.json)
-
----

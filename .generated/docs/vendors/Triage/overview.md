@@ -7,5 +7,3 @@ Submit artifacts to the Recorded Future Triage sandbox service. This analyzer re
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `url`, `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Triage/Triage.json)
-
----

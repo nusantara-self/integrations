@@ -87,5 +87,3 @@ PassiveTotal Host Pairs Lookup.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json)
-
----

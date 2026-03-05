@@ -7,5 +7,3 @@ Fetch details from an IVRE instance.
 - **License:** AGPL-V3
 - **Data Types:** `autonomous-system`, `certificate_hash`, `domain`, `fqdn`, `ip`, `network`, `port`, `user-agent`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IVRE/IVRE.json)
-
----

@@ -7,5 +7,3 @@ Gets matching YARA rules for a given sample SHA256 hash
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Valhalla/Valhalla_GetMatches.json)
-
----

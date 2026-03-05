@@ -15,5 +15,3 @@ Determine whether a hash is good or bad; if good then list what it is.
 - **License:** AGPLv3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Hashdd/Hashdd_Detail.json)
-
----

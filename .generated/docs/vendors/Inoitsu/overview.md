@@ -7,5 +7,3 @@ Query Inoitsu for a compromised email address.
 - **License:** MIT
 - **Data Types:** `mail`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Inoitsu/Inoitsu.json)
-
----

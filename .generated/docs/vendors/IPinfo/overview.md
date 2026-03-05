@@ -15,5 +15,3 @@ IPinfo hosted domains lookup.
 - **License:** MIT
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo/IPinfo_Hosted_Domains.json)
-
----

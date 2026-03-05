@@ -19,5 +19,3 @@ Gatewatcher_CTI_Identity responder
 - **License:** AGPL-3.0
 - **Data Types:** `thehive:case`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json)
-
----

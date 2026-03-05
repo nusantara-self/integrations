@@ -7,5 +7,3 @@ Check CIRCL's Passive SSL for a given IP address or a X509 certificate hash.
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `certificate_hash`, `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json)
-
----

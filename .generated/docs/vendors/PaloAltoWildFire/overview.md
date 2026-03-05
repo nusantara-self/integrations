@@ -19,5 +19,3 @@ Submit URL to PaloAlto WildFire service.
 - **License:** AGPL-V3
 - **Data Types:** `url`, `domain`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json)
-
----

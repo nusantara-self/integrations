@@ -7,5 +7,3 @@ Search GRR for the host agent.
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GRR/GRR.json)
-
----

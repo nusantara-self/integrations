@@ -7,5 +7,3 @@ Query the SANS ISC DShield API to check for an IP address reputation.
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DShield/DShield_lookup.json)
-
----

@@ -247,5 +247,3 @@ Search a hash in HarfangLab EDR's telemetry
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab/HarfangLab_SearchHash.json)
-
----

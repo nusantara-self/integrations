@@ -7,5 +7,3 @@ Block an IP on a host via Wazuh agent
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Wazuh/wazuh.json)
-
----

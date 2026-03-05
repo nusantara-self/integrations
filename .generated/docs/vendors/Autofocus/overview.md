@@ -23,5 +23,3 @@ Get full analysis from a sample based on its hash
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json)
-
----

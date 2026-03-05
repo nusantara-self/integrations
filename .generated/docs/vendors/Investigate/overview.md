@@ -15,5 +15,3 @@ Retrieve sample data from Investigate for a hash. (Sample data provided by Threa
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Investigate/Investigate_Sample.json)
-
----

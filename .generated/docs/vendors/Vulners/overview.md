@@ -15,5 +15,3 @@ Get information about CVE from powerful Vulners database.
 - **License:** AGPL-V3
 - **Data Types:** `cve`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners/Vulners_CVE.json)
-
----

@@ -7,5 +7,3 @@ Query domains, IPs, hashes and URLs against IBM X-Force threat intelligence shar
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `ip`, `hash`, `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IBMXForce/IBMXForce_Lookup.json)
-
----

@@ -7,5 +7,3 @@ hunter.io is a service to find email addresses from a domain.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Hunterio/Hunterio_domainsearch.json)
-
----

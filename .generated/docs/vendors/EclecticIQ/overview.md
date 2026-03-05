@@ -19,5 +19,3 @@ Submit indicators to the EclecticIQ Intelligence Center api
 - **License:** MIT
 - **Data Types:** `thehive:case_artifact`, `thehive:case`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/EclecticIQ/EclecticIQIndicator.json)
-
----

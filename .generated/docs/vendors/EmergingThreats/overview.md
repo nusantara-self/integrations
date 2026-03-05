@@ -23,5 +23,3 @@ Retrieve ET reputation, related malware, and IDS requests for a given IP address
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats/EmergingThreats_IPInfo.json)
-
----

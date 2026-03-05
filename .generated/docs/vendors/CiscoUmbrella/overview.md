@@ -19,5 +19,3 @@ Add domain to Cisco Umbrella blacklist via Enforcement API.
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoUmbrella/UmbrellaBlacklister.json)
-
----

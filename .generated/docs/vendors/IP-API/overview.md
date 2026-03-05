@@ -7,5 +7,3 @@ Check IP address or domain using ip-api.com
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IP-API/IP-API.json)
-
----

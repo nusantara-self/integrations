@@ -95,5 +95,3 @@ Push IOC to Defender client. Alert mode. This mode is Deprecated and Audit shoul
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json)
-
----

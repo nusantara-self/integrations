@@ -7,5 +7,3 @@ Checks the existence of Tor hidden services and retrieving their associated meta
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `url`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AILOnionLookup/AIL_OnionLookup.json)
-
----

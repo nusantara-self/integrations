@@ -139,5 +139,3 @@ Push a case to a RiskIQ Illuminate project.
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/RiskIQ/RiskIQ_PushArtifactToProject.json)
-
----

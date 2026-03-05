@@ -7,5 +7,3 @@ Send an email with information from a TheHive case or alert
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_task`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Mailer/Mailer.json)
-
----

@@ -7,5 +7,3 @@ Parse Outlook MSG files and extract the main artifacts.
 - **License:** AGPL-V3
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MsgParser/Msg_Parser.json)
-
----

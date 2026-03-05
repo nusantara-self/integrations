@@ -7,5 +7,3 @@ CIRCL hashlookup uses a public API to lookup hash values against databases of kn
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CIRCLHashlookup/CIRCLHashlookup.json)
-
----

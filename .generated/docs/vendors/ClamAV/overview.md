@@ -7,5 +7,3 @@ Use Clamscan with custom rules
 - **License:** AGPL-V3
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ClamAV/ClamAV_FileInfo.json)
-
----

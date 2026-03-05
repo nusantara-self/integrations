@@ -15,5 +15,3 @@ Submit observables to the Crowdstrike Falcon Custom IOC api
 - **License:** MIT
 - **Data Types:** `thehive:alert`, `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/FalconCustomIOC/FalconCustomIOC.json)
-
----

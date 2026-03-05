@@ -39,5 +39,3 @@ Get the latest MetaDefender Cloud report for hash.
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json)
-
----

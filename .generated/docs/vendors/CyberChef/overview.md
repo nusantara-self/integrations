@@ -23,5 +23,3 @@ Convert Char Code with CyberChef Server
 - **License:** AGPL-V3
 - **Data Types:** `other`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef/CyberChef_FromCharCode.json)
-
----

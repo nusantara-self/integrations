@@ -7,5 +7,3 @@ Check IP addresses against the FireHOL blocklists
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FireHOLBlocklists/FireHOLBlocklists.json)
-
----

@@ -7,5 +7,3 @@ DomainMailSPFDMARC
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json)
-
----

@@ -7,5 +7,3 @@ Determine whether an IP is present on any of the feeds consumed by IPVoid
 - **License:** AGPL-v3
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPVoid/IPVoid.json)
-
----

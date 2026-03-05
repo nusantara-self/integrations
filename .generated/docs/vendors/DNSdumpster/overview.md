@@ -7,5 +7,3 @@ Query domain information from DNSdumpster.com.
 - **License:** AGPL-V3
 - **Data Types:** `domain`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSdumpster/DNSdumpster.json)
-
----

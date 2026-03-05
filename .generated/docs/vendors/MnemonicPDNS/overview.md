@@ -15,5 +15,3 @@ Query IP addresses and domains against Mnemonic pDNS restricted service.
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json)
-
----

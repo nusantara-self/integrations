@@ -7,5 +7,3 @@ Search domains, IPs, URLs or hashes on URLhaus.
 - **License:** MIT
 - **Data Types:** `domain`, `fqdn`, `url`, `hash`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/URLhaus/URLhaus.json)
-
----

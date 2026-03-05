@@ -7,5 +7,3 @@ Any.Run Sandbox file analysis
 - **License:** AGPL-V3
 - **Data Types:** `file`, `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_Analysis.json)
-
----

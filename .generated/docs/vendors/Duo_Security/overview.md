@@ -23,5 +23,3 @@ Put User Account into Bypass mode in Duo Security via AdminAPI (The user will no
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security/DuoBypassUserAccount.json)
-
----

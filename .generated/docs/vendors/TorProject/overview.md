@@ -7,5 +7,3 @@ Query https://check.torproject.org/exit-addresses for TOR exit nodes IP addresse
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TorProject/TorProject.json)
-
----

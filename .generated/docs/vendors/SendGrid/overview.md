@@ -7,5 +7,3 @@ Send an email with information from a TheHive case or alert via SendGrid API ove
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/SendGrid/SendGrid.json)
-
----

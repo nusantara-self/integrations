@@ -7,5 +7,3 @@ Query against Soltra Edge.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SoltraEdge/Soltra_search.json)
-
----

@@ -35,5 +35,3 @@ Add Tag saying that the case contains a risky DNS.
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json)
-
----

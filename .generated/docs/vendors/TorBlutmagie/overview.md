@@ -7,5 +7,3 @@ Query https://torstatus.rueckgr.at/query_export.php/Tor_query_EXPORT.csv (former
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TorBlutmagie/TorBlutmagie.json)
-
----

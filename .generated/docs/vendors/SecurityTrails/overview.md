@@ -15,5 +15,3 @@ SecurityTrails Passive DNS Lookup.
 - **License:** MIT
 - **Data Types:** `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json)
-
----

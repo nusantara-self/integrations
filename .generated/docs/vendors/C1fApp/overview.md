@@ -7,5 +7,3 @@ Query C1fApp OSINT Aggregator for IPs, domains and URLs
 - **License:** AGPL-V3
 - **Data Types:** `url`, `domain`, `fqdn`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/C1fApp/C1fApp_osint.json)
-
----

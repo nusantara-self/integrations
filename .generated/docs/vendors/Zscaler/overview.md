@@ -15,5 +15,3 @@ Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer req
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler/Zscaler.json)
-
----

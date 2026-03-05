@@ -15,5 +15,3 @@ Enrich values using Backscatter.io data.
 - **License:** APLv2
 - **Data Types:** `ip`, `network`, `autonomous-system`, `port`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/BackscatterIO/BackscatterIO_Enrichment.json)
-
----

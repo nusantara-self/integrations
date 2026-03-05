@@ -7,5 +7,3 @@ Use ForcepointWebsensePing to determine which category a certain URL is assigned
 - **License:** AGPL-V3
 - **Data Types:** `url`, `ip`, `domain`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json)
-
----

@@ -43,5 +43,3 @@ Add domain to Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitori
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher/Watcher_Add.json)
-
----

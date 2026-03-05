@@ -7,5 +7,3 @@ WHOIS queries from threatminer.org
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatMiner/ThreatMiner.json)
-
----

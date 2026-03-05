@@ -7,5 +7,3 @@ Use Web of Trust to check a domain's reputation.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/WOT/WOT_lookup.json)
-
----

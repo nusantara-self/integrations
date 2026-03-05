@@ -15,5 +15,3 @@ Perform a search on urlDNA.io for IPs, domains or URLs
 - **License:** MIT
 - **Data Types:** `ip`, `domain`, `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/urlDNA.io/UrlDNA_Search.json)
-
----

@@ -7,5 +7,3 @@ Submit observables to the Crowdstrike FalconX Sandbox
 - **License:** AGPL-v3
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FalconSandbox/FalconSandbox.json)
-
----

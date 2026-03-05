@@ -7,5 +7,3 @@ Run Velociraptor artifact collection
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Velociraptor/velociraptor_flow.json)
-
----

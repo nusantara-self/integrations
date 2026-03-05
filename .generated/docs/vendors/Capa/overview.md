@@ -7,5 +7,3 @@ Analyze files with Capa
 - **License:** AGPL-V3
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Capa/Capa.json)
-
----

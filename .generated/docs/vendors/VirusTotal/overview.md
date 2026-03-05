@@ -31,5 +31,3 @@ Use VirusTotal to download the original file for an hash.
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal/VirusTotal_DownloadSample.json)
-
----

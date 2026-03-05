@@ -31,5 +31,3 @@ Syncs Slack channel conversations to TheHive task logs. Imports messages chronol
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_SyncChannel.json)
-
----

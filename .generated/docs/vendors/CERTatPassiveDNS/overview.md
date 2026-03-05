@@ -7,5 +7,3 @@ Checks CERT.at Passive DNS for a given domain.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json)
-
----

@@ -7,5 +7,3 @@ Mail a detailed status information of an incident case. The mail is sent to reci
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MailIncidentStatus/MailIncidentStatus.json)
-
----

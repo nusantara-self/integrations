@@ -7,5 +7,3 @@ Send a message to Telegram with information from TheHive case
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Telegram/Telegram.json)
-
----

@@ -7,5 +7,3 @@ Check if a  domain is sinkholed via DNS Sinkhole server
 - **License:** AGPL-V3
 - **Data Types:** `domain`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSSinkhole/DNSSinkhole.json)
-
----

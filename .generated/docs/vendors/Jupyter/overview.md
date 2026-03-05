@@ -19,5 +19,3 @@ Execute a parameterized notebook in Jupyter
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:case_artifact`, `thehive:alert`, `thehive:case_task`, `thehive:case_task_log`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Jupyter/Jupyter_Run_Notebook_Responder.json)
-
----

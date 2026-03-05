@@ -7,5 +7,3 @@ Use UnshortenLink to reveal the real URL.
 - **License:** AGPL-V3
 - **Data Types:** `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/UnshortenLink/UnshortenLink.json)
-
----

@@ -39,5 +39,3 @@ Remove a message filter for a given sender
 - **License:** MIT
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_UnblockSender.json)
-
----

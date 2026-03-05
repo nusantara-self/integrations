@@ -79,5 +79,3 @@ Use DomainTools to get a list of domain names that share the same primary or sec
 - **License:** AGPL-V3
 - **Data Types:** `domain`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_ReverseNameServer.json)
-
----

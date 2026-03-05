@@ -127,5 +127,3 @@ Unblock internal ip
 - **License:** AGPL-V3
 - **Data Types:** `thehive:alert`, `thehive:case_artifact`, `thehive:case`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json)
-
----

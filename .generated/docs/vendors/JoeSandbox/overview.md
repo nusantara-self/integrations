@@ -23,5 +23,3 @@ Joe Sandbox file analysis without Internet access.
 - **License:** AGPL-V3
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json)
-
----

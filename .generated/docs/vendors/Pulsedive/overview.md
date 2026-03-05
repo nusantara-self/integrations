@@ -7,5 +7,3 @@ Search Pulsedive.com for a giver domain name, hash, ip or url
 - **License:** AGPL-V3
 - **Data Types:** `url`, `domain`, `ip`, `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Pulsedive/Pulsedive_GetIndicator.json)
-
----

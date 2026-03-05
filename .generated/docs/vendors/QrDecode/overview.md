@@ -7,5 +7,3 @@ Extracts data from one or more QR codes.
 - **License:** AGPL-V3
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/QrDecode/QrDecode.json)
-
----

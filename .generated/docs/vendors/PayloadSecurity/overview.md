@@ -15,5 +15,3 @@ PayloadSecurity Sandbox Url Analysis
 - **License:** AGPL-V3
 - **Data Types:** `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json)
-
----

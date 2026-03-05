@@ -7,5 +7,3 @@ Search for MD5 hashes in Virusshare.com hash list
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Virusshare/Virusshare.json)
-
----
