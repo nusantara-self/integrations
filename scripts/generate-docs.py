@@ -115,7 +115,8 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(f"- **Data Types:** {data_types}")
 
             if analyzer.get('file'):
-                lines.append(f"- **Configuration:** [{analyzer['file']}]({analyzer['github_url']}) ([raw]({analyzer['url']}))")
+                lines.append(f"- **Configuration:** [View config]({analyzer['github_url']})")
+                # Raw link available: analyzer['url']
 
             lines.append("")
 
@@ -146,7 +147,8 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(f"- **Data Types:** {data_types}")
 
             if responder.get('file'):
-                lines.append(f"- **Configuration:** [{responder['file']}]({responder['github_url']}) ([raw]({responder['url']}))")
+                lines.append(f"- **Configuration:** [View config]({responder['github_url']})")
+                # Raw link available: responder['url']
 
             lines.append("")
 
@@ -173,7 +175,8 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             if func.get('mode'):
                 lines.append(f"- **Mode:** {func['mode']}")
             if func.get('file'):
-                lines.append(f"- **File:** [{func['file']}]({func['github_url']}) ([raw]({func['url']}))")
+                lines.append(f"- **Source:** [View code]({func['github_url']})")
+                # Raw link available: func['url']
 
             lines.append("")
 
@@ -204,7 +207,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
             # Documentation link
             if uc.get('documentation', {}).get('github_url'):
-                lines.append(f"- **Documentation:** [{uc['documentation']['file']}]"
+                lines.append(f"- **Documentation:** [View tutorial]"
                              f"({uc['documentation']['github_url']})")
 
             # Linked functions
@@ -215,7 +218,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                     func = function_lookup.get(linked_path)
                     if func:
                         func_name = func.get('name', 'Unknown')
-                        lines.append(f"- **Related Function:** [{func_name}]"
+                        lines.append(f"- **Related function:** [{func_name}]"
                                      f"({func.get('github_url', '#')})")
                     else:
                         # Just show the path if not found in functions
