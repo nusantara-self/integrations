@@ -91,8 +91,34 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     #         lines.append(f"- **Free Subscription Available:** {value}")
     #     lines.append("")
 
-    # Use Cases (first - shows users what they can do)
+    # Determine which sections have content (for smart dividers)
     use_cases = manifest.get('useCases', [])
+    analyzers = manifest.get('integrations', {}).get('analyzers', [])
+    responders = manifest.get('integrations', {}).get('responders', [])
+    functions = manifest.get('integrations', {}).get('functions', [])
+    external_integrations = manifest.get('externalIntegrations', [])
+
+    # Build ordered list of sections that have content
+    sections_with_content = []
+    if use_cases:
+        sections_with_content.append('use_cases')
+    if analyzers:
+        sections_with_content.append('analyzers')
+    if responders:
+        sections_with_content.append('responders')
+    if functions:
+        sections_with_content.append('functions')
+    if external_integrations:
+        sections_with_content.append('external_integrations')
+
+    def has_more_sections_after(current_section: str) -> bool:
+        """Check if there are more sections with content after the current one."""
+        if current_section not in sections_with_content:
+            return False
+        current_index = sections_with_content.index(current_section)
+        return current_index < len(sections_with_content) - 1
+
+    # Use Cases (first - shows users what they can do)
     if use_cases:
         lines.append(f"## Use Cases ({len(use_cases)})")
         lines.append("")
@@ -139,11 +165,12 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append("---")
                 lines.append("")
 
-        lines.append("---")
-        lines.append("")
+        # Only add section divider if more sections follow
+        if has_more_sections_after('use_cases'):
+            lines.append("---")
+            lines.append("")
 
     # Analyzers
-    analyzers = manifest.get('integrations', {}).get('analyzers', [])
     if analyzers:
         lines.append(f"## Analyzers ({len(analyzers)})")
         lines.append("")
@@ -167,15 +194,15 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
             if analyzer.get('file'):
                 lines.append(f"- **Configuration:** [View config]({analyzer['upstream_url']})")
-                # Local repo link: analyzer['github_url']
 
             lines.append("")
 
-        lines.append("---")
-        lines.append("")
+        # Only add section divider if more sections follow
+        if has_more_sections_after('analyzers'):
+            lines.append("---")
+            lines.append("")
 
     # Responders
-    responders = manifest.get('integrations', {}).get('responders', [])
     if responders:
         lines.append(f"## Responders ({len(responders)})")
         lines.append("")
@@ -199,15 +226,15 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
             if responder.get('file'):
                 lines.append(f"- **Configuration:** [View config]({responder['upstream_url']})")
-                # Local repo link: responder['github_url']
 
             lines.append("")
 
-        lines.append("---")
-        lines.append("")
+        # Only add section divider if more sections follow
+        if has_more_sections_after('responders'):
+            lines.append("---")
+            lines.append("")
 
     # Functions
-    functions = manifest.get('integrations', {}).get('functions', [])
     if functions:
         lines.append(f"## Functions ({len(functions)})")
         lines.append("")
@@ -228,15 +255,15 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             #     lines.append(f"- **Mode:** {func['mode']}")
             if func.get('file'):
                 lines.append(f"- **Source:** [View code]({func['github_url']})")
-                # Raw link available: func['url']
 
             lines.append("")
 
-        lines.append("---")
-        lines.append("")
+        # Only add section divider if more sections follow
+        if has_more_sections_after('functions'):
+            lines.append("---")
+            lines.append("")
 
     # External Integrations (integrations built by the vendor, community, or third parties)
-    external_integrations = manifest.get('externalIntegrations', [])
     if external_integrations:
         lines.append(f"## External Integrations ({len(external_integrations)})")
         lines.append("")
@@ -261,6 +288,8 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             if i < len(external_integrations) - 1:
                 lines.append("---")
                 lines.append("")
+
+        # External integrations is always last, so no trailing divider needed
 
     # Statistics (commented out — frontend uses stats from the JSON manifest)
     # stats = manifest.get('stats', {})
