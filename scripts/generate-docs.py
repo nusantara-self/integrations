@@ -91,6 +91,57 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     #         lines.append(f"- **Free Subscription Available:** {value}")
     #     lines.append("")
 
+    # Use Cases (first - shows users what they can do)
+    use_cases = manifest.get('useCases', [])
+    if use_cases:
+        lines.append(f"## Use Cases ({len(use_cases)})")
+        lines.append("")
+
+        # Build a lookup of functions by file path for linking
+        functions_list = manifest.get('integrations', {}).get('functions', [])
+        function_lookup = {f.get('file', ''): f for f in functions_list}
+
+        for i, uc in enumerate(use_cases):
+            lines.append(f"### {uc['name']}")
+            if uc.get('description'):
+                lines.append(uc['description'])
+            lines.append("")
+
+            # License and version requirements
+            if uc.get('license_required'):
+                lines.append(f"- **License required:** {uc['license_required'].capitalize()}")
+            if uc.get('thehive_version_required'):
+                lines.append(f"- **TheHive version required:** {uc['thehive_version_required']}+")
+
+            # Documentation link
+            if uc.get('documentation', {}).get('github_url'):
+                lines.append(f"- **Documentation:** [View tutorial]"
+                             f"({uc['documentation']['github_url']})")
+
+            # Linked functions
+            linked_to = uc.get('linked_to', [])
+            if linked_to:
+                for linked_path in linked_to:
+                    # Check if this links to a function in this vendor
+                    func = function_lookup.get(linked_path)
+                    if func:
+                        func_name = func.get('name', 'Unknown')
+                        lines.append(f"- **Related function:** [{func_name}]"
+                                     f"({func.get('github_url', '#')})")
+                    else:
+                        # Just show the path if not found in functions
+                        lines.append(f"- **Related:** `{linked_path}`")
+
+            lines.append("")
+
+            # Only add separator between items, not after the last one
+            if i < len(use_cases) - 1:
+                lines.append("---")
+                lines.append("")
+
+        lines.append("---")
+        lines.append("")
+
     # Analyzers
     analyzers = manifest.get('integrations', {}).get('analyzers', [])
     if analyzers:
@@ -170,10 +221,11 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(func['description'])
                 lines.append("")
 
-            if func.get('kind'):
-                lines.append(f"- **Kind:** {func['kind']}")
-            if func.get('mode'):
-                lines.append(f"- **Mode:** {func['mode']}")
+            # Kind/Mode commented out — not meaningful to most users
+            # if func.get('kind'):
+            #     lines.append(f"- **Kind:** {func['kind']}")
+            # if func.get('mode'):
+            #     lines.append(f"- **Mode:** {func['mode']}")
             if func.get('file'):
                 lines.append(f"- **Source:** [View code]({func['github_url']})")
                 # Raw link available: func['url']
@@ -182,54 +234,6 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
         lines.append("---")
         lines.append("")
-
-    # Use Cases
-    use_cases = manifest.get('useCases', [])
-    if use_cases:
-        lines.append(f"## Use Cases ({len(use_cases)})")
-        lines.append("")
-
-        # Build a lookup of functions by file path for linking
-        functions = manifest.get('integrations', {}).get('functions', [])
-        function_lookup = {f.get('file', ''): f for f in functions}
-
-        for i, uc in enumerate(use_cases):
-            lines.append(f"### {uc['name']}")
-            if uc.get('description'):
-                lines.append(uc['description'])
-            lines.append("")
-
-            # License and version requirements
-            if uc.get('license_required'):
-                lines.append(f"- **License required:** {uc['license_required'].capitalize()}")
-            if uc.get('thehive_version_required'):
-                lines.append(f"- **TheHive version required:** {uc['thehive_version_required']}+")
-
-            # Documentation link
-            if uc.get('documentation', {}).get('github_url'):
-                lines.append(f"- **Documentation:** [View tutorial]"
-                             f"({uc['documentation']['github_url']})")
-
-            # Linked functions
-            linked_to = uc.get('linked_to', [])
-            if linked_to:
-                for linked_path in linked_to:
-                    # Check if this links to a function in this vendor
-                    func = function_lookup.get(linked_path)
-                    if func:
-                        func_name = func.get('name', 'Unknown')
-                        lines.append(f"- **Related function:** [{func_name}]"
-                                     f"({func.get('github_url', '#')})")
-                    else:
-                        # Just show the path if not found in functions
-                        lines.append(f"- **Related:** `{linked_path}`")
-
-            lines.append("")
-
-            # Only add separator between items, not after the last one
-            if i < len(use_cases) - 1:
-                lines.append("---")
-                lines.append("")
 
     # External Integrations (integrations built by the vendor, community, or third parties)
     external_integrations = manifest.get('externalIntegrations', [])
