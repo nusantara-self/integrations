@@ -11,8 +11,4 @@
 
 ## Changes
 
-### 🔄 Updated Vendors (3)
-
-- **FalconCustomIOC**: 2 → 0 (-2)
-- **FalconSandbox**: 1 → 0 (-1)
-- **VirustotalDownloader**: 1 → 0 (-1)
+No changes detected.
