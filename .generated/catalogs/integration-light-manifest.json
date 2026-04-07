@@ -471,6 +471,30 @@
       "total": 2
     }
   },
+  "CheckPointHEC": {
+    "id": "CheckPointHEC",
+    "name": "CheckPointHEC",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": true,
+      "free": false,
+      "paid": true
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/CheckPointHEC/overview.md",
+    "stats": {
+      "totalAnalyzers": 5,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 5
+    }
+  },
   "CIRCLHashlookup": {
     "id": "CIRCLHashlookup",
     "name": "CIRCL Hash Lookup",
@@ -3196,6 +3220,30 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 1
+    }
+  },
+  "OvhCloud": {
+    "id": "OvhCloud",
+    "name": "OvhCloud",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/OvhCloud/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 2,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 3
     }
   },
   "PaloAltoCortexXDR": {

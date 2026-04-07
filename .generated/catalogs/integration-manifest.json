@@ -1045,6 +1045,115 @@
       "total": 2
     }
   },
+  "CheckPointHEC": {
+    "id": "CheckPointHEC",
+    "name": "CheckPointHEC",
+    "description": "",
+    "category": "",
+    "tags": [],
+    "homepage": "",
+    "logo": {},
+    "useCases": [],
+    "externalIntegrations": [],
+    "displayOnWebsite": true,
+    "visibility": "low",
+    "registration_required": true,
+    "subscription_required": true,
+    "free_subscription": false,
+    "integrations": {
+      "analyzers": [
+        {
+          "name": "CheckPointHEC_SearchByURL",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for all emails containing a specific URL in Check Point Harmony Email & Collaboration and retrieve their security verdicts.",
+          "dataTypes": [
+            "url"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
+          "integration_type": null
+        },
+        {
+          "name": "CheckPointHEC_SearchByDomain",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for all emails from a sender domain in Check Point Harmony Email & Collaboration. Accepts a domain observable or an .eml file (sender domain is extracted automatically, with forwarded email support).",
+          "dataTypes": [
+            "domain",
+            "file"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
+          "integration_type": null
+        },
+        {
+          "name": "CheckPointHEC_SearchEmail",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for an email in Check Point Harmony Email & Collaboration and retrieve its security verdict, phishing confidence, classification and scan results. Accepts an .eml file or a Message-ID as an 'other' observable.",
+          "dataTypes": [
+            "file",
+            "other"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+          "integration_type": null
+        },
+        {
+          "name": "CheckPointHEC_SearchBySender",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for all emails from a sender address in Check Point Harmony Email & Collaboration. Accepts a mail observable or an .eml file (sender is extracted automatically, with forwarded email support).",
+          "dataTypes": [
+            "mail",
+            "file"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
+          "integration_type": null
+        },
+        {
+          "name": "CheckPointHEC_SearchBySenderIP",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for all emails from a sender IP in Check Point Harmony Email & Collaboration. Accepts an IP observable or an .eml file (sender IP is extracted from Received headers, with forwarded email support).",
+          "dataTypes": [
+            "ip",
+            "file"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+          "integration_type": null
+        }
+      ],
+      "responders": [],
+      "functions": []
+    },
+    "stats": {
+      "totalAnalyzers": 5,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 5
+    }
+  },
   "CIRCLHashlookup": {
     "id": "CIRCLHashlookup",
     "name": "CIRCL Hash Lookup",
@@ -7979,6 +8088,81 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 1
+    }
+  },
+  "OvhCloud": {
+    "id": "OvhCloud",
+    "name": "OvhCloud",
+    "description": "",
+    "category": "",
+    "tags": [],
+    "homepage": "",
+    "logo": {},
+    "useCases": [],
+    "externalIntegrations": [],
+    "displayOnWebsite": true,
+    "visibility": "low",
+    "integrations": {
+      "analyzers": [
+        {
+          "name": "OVH_Domain_Check",
+          "version": "1.0",
+          "author": "THA-CERT",
+          "license": "AGPL-V3",
+          "description": "Check if a domain name is available for purchase on OVH Cloud.",
+          "dataTypes": [
+            "domain",
+            "fqdn",
+            "url"
+          ],
+          "file": ".upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OvhCloud/OvhDomainCheck.json",
+          "integration_type": null
+        }
+      ],
+      "responders": [
+        {
+          "name": "OVH_Domain_Order",
+          "version": "1.0",
+          "author": "THA-CERT",
+          "license": "AGPL-V3",
+          "description": "Buy an available Domain Name on OVH Cloud.",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud/OvhDomainOrder.json",
+          "integration_type": null
+        },
+        {
+          "name": "OVH_Domain_Redirection",
+          "version": "1.0",
+          "author": "THA-CERT",
+          "license": "AGPL-V3",
+          "description": "Redirect an owned Domain Name on OVH Cloud, to a specific URL.",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud/OvhDomainRedirection.json",
+          "integration_type": null
+        }
+      ],
+      "functions": []
+    },
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 2,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 3
     }
   },
   "PaloAltoCortexXDR": {

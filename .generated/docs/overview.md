@@ -17,12 +17,12 @@ Built something useful? Contributions are welcome!
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 192
-- **Total Analyzers:** 260
-- **Total Responders:** 137
+- **Total Vendors:** 194
+- **Total Analyzers:** 266
+- **Total Responders:** 139
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 414
+- **Total Integrations:** 422
 
 ## 📂 Vendors by Category
 
@@ -213,6 +213,7 @@ Built something useful? Contributions are welcome!
 - **[ChainAbuse](vendors/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CheckPhish](vendors/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CheckPoint](vendors/CheckPoint/overview.md)** - *Uncategorized* - 2 responders
+- **[CheckPointHEC](vendors/CheckPointHEC/overview.md)** - *Uncategorized* - 5 analyzers
 - **[CIRCL Hash Lookup](vendors/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Passive DNS](vendors/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Passive SSL](vendors/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
@@ -318,6 +319,7 @@ Built something useful? Contributions are welcome!
 - **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OpenCTI](vendors/OpenCTI/overview.md)** - *Uncategorized* - 2 analyzers
 - **[OrionMalware](vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
+- **[OvhCloud](vendors/OvhCloud/overview.md)** - *Uncategorized* - 1 analyzers, 2 responders
 - **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 3 responders
 - **[PAN Cortex XSOAR](vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - 1 external
 - **[PAN Next Generation Firewall](vendors/PaloAltoNGFW/overview.md)** - *Uncategorized* - 16 responders
