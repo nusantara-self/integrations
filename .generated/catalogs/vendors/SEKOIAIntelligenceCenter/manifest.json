@@ -16,25 +16,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "SEKOIAIntelligenceCenter_Context",
-        "version": "1.0",
-        "author": "SEKOIA",
-        "license": "AGPL-V3",
-        "description": "Query the Intelligence Center to retrieve the context of an observable",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "url",
-          "hash",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "integration_type": null
-      },
-      {
         "name": "SEKOIAIntelligenceCenter_Observables",
         "version": "1.0",
         "author": "SEKOIA",
@@ -70,6 +51,25 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
+        "integration_type": null
+      },
+      {
+        "name": "SEKOIAIntelligenceCenter_Context",
+        "version": "1.0",
+        "author": "SEKOIA",
+        "license": "AGPL-V3",
+        "description": "Query the Intelligence Center to retrieve the context of an observable",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "url",
+          "hash",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
         "integration_type": null
       }
     ],

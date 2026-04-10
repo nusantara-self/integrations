@@ -1,5 +1,13 @@
 ## Analyzers (4)
 
+### VirusTotal_Rescan `v3.1`
+Use VirusTotal to run new analysis on hash.
+
+- **Author:** CERT-LDO
+- **License:** AGPL-V3
+- **Data Types:** `hash`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal/VirusTotal_Rescan.json)
+
 ### VirusTotal_GetReport `v3.1`
 Get the latest VirusTotal report for a file, hash, domain or an IP address.
 
@@ -23,11 +31,3 @@ Use VirusTotal to download the original file for an hash.
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal/VirusTotal_DownloadSample.json)
-
-### VirusTotal_Rescan `v3.1`
-Use VirusTotal to run new analysis on hash.
-
-- **Author:** CERT-LDO
-- **License:** AGPL-V3
-- **Data Types:** `hash`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal/VirusTotal_Rescan.json)

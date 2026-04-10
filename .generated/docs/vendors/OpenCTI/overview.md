@@ -1,13 +1,5 @@
 ## Analyzers (2)
 
-### OpenCTI_SearchExactObservable `v2.0`
-Query multiple OpenCTI instances for a specific observable.
-
-- **Author:** ANSSI
-- **License:** AGPL-V3
-- **Data Types:** `domain`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json)
-
 ### OpenCTI_SearchObservables `v2.0`
 Query multiple OpenCTI instances for a list of observables matching a pattern.
 
@@ -15,3 +7,11 @@ Query multiple OpenCTI instances for a list of observables matching a pattern.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI/OpenCTI_SearchObservables.json)
+
+### OpenCTI_SearchExactObservable `v2.0`
+Query multiple OpenCTI instances for a specific observable.
+
+- **Author:** ANSSI
+- **License:** AGPL-V3
+- **Data Types:** `domain`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json)
