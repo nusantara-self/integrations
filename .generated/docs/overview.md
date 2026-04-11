@@ -19,10 +19,10 @@ Built something useful? Contributions are welcome!
 
 - **Total Vendors:** 194
 - **Total Analyzers:** 266
-- **Total Responders:** 139
+- **Total Responders:** 144
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 422
+- **Total Integrations:** 427
 
 ## 📂 Vendors by Category
 
@@ -320,7 +320,7 @@ Built something useful? Contributions are welcome!
 - **[OpenCTI](vendors/OpenCTI/overview.md)** - *Uncategorized* - 2 analyzers
 - **[OrionMalware](vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OvhCloud](vendors/OvhCloud/overview.md)** - *Uncategorized* - 1 analyzers, 2 responders
-- **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 3 responders
+- **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 8 responders
 - **[PAN Cortex XSOAR](vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - 1 external
 - **[PAN Next Generation Firewall](vendors/PaloAltoNGFW/overview.md)** - *Uncategorized* - 16 responders
 - **[PAN WildFire](vendors/PaloAltoWildFire/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
