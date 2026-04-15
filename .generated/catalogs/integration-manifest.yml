@@ -6686,6 +6686,31 @@ OpenCTI:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI/OpenCTI_SearchObservables.json
       integration_type: null
+    - name: OpenCTI_v6_SearchObservables
+      version: '2.0'
+      author: ANSSI
+      license: AGPL-V3
+      description: Query multiple OpenCTI v6 instances for a list of observables matching a pattern.
+      dataTypes:
+      - domain
+      - ip
+      - url
+      - fqdn
+      - uri_path
+      - user-agent
+      - hash
+      - mail
+      - mail_subject
+      - registry
+      - regexp
+      - other
+      - filename
+      - mail-subject
+      file: .upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json
+      integration_type: null
     - name: OpenCTI_SearchExactObservable
       version: '2.0'
       author: ANSSI
@@ -6711,15 +6736,40 @@ OpenCTI:
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
       integration_type: null
+    - name: OpenCTI_v6_SearchExactObservable
+      version: '2.0'
+      author: ANSSI
+      license: AGPL-V3
+      description: Query multiple OpenCTI v6 instances for a specific observable.
+      dataTypes:
+      - domain
+      - ip
+      - url
+      - fqdn
+      - uri_path
+      - user-agent
+      - hash
+      - mail
+      - mail_subject
+      - registry
+      - regexp
+      - other
+      - filename
+      - mail-subject
+      file: .upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json
+      integration_type: null
     responders: []
     functions: []
   stats:
-    totalAnalyzers: 2
+    totalAnalyzers: 4
     totalResponders: 0
     totalFunctions: 0
     totalUseCases: 0
     totalExternalIntegrations: 0
-    total: 2
+    total: 4
 OrionMalware:
   id: OrionMalware
   name: OrionMalware
