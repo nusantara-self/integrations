@@ -18,11 +18,11 @@ Built something useful? Contributions are welcome!
 ## 📊 Summary Statistics
 
 - **Total Vendors:** 194
-- **Total Analyzers:** 268
+- **Total Analyzers:** 274
 - **Total Responders:** 144
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 429
+- **Total Integrations:** 435
 
 ## 📂 Vendors by Category
 
@@ -199,7 +199,7 @@ Built something useful? Contributions are welcome!
 - **[AIL Onion-Lookup](vendors/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Airtable](vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions
 - **[AlienVault OTX](vendors/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers
-- **[AnyRun](vendors/AnyRun/overview.md)** - *Uncategorized* - 1 analyzers
+- **[AnyRun](vendors/AnyRun/overview.md)** - *Uncategorized* - 7 analyzers
 - **[Autofocus](vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
 - **[AWSLambda](vendors/AWSLambda/overview.md)** - *Uncategorized* - 1 responders
 - **[AWX](vendors/AWX/overview.md)** - *Uncategorized* - 1 responders

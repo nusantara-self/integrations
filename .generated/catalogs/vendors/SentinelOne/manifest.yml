@@ -18,19 +18,6 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: SentinelOne_DNSReverseLookup
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Query SentinelOne for DNS names that resolved to a given IP address. Returns the domains and the hosts that
-      made the DNS queries. Supports both SDL (Security Data Lake) API and legacy Deep Visibility API.
-    dataTypes:
-    - ip
-    file: .upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
-    integration_type: null
   - name: SentinelOne_DNSQuery
     version: '2.0'
     author: Joe Vasquez; Fabien Bloume, StrangeBee
@@ -45,6 +32,19 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne/SentinelOne_DNSQuery.json
+    integration_type: null
+  - name: SentinelOne_DNSReverseLookup
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Query SentinelOne for DNS names that resolved to a given IP address. Returns the domains and the hosts that
+      made the DNS queries. Supports both SDL (Security Data Lake) API and legacy Deep Visibility API.
+    dataTypes:
+    - ip
+    file: .upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
     integration_type: null
   - name: SentinelOne_DeepVisibility_DNSQuery
     version: '1.0'
