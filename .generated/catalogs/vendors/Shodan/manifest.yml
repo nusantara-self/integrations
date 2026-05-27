@@ -28,18 +28,41 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: Shodan_InfoDomain
+  - name: Shodan_ReverseDNS
     version: '1.0'
     author: ANSSI
     license: AGPL-V3
-    description: Retrieve key Shodan information on a domain.
+    description: Retrieve ip reverse DNS resolutions on Shodan.
     dataTypes:
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_InfoDomain.json
+    - ip
+    file: .upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_ReverseDNS.json
+    integration_type: null
+  - name: Shodan_Search
+    version: '2.0'
+    author: Sebastien Larinier @Sebdraven
+    license: AGPL-V3
+    description: Search query on Shodan
+    dataTypes:
+    - other
+    file: .upstream/cortex/analyzers/Shodan/Shodan_Search.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_Search.json
+    integration_type: null
+  - name: Shodan_Host_History
+    version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
+    description: Retrieve Shodan history scan results  for an IP address.
+    dataTypes:
+    - ip
+    file: .upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_Host_History.json
     integration_type: null
   - name: Shodan_DNSResolve
     version: '1.0'
@@ -54,17 +77,18 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_DNSResolve.json
     integration_type: null
-  - name: Shodan_ReverseDNS
+  - name: Shodan_InfoDomain
     version: '1.0'
     author: ANSSI
     license: AGPL-V3
-    description: Retrieve ip reverse DNS resolutions on Shodan.
+    description: Retrieve key Shodan information on a domain.
     dataTypes:
-    - ip
-    file: .upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_ReverseDNS.json
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_InfoDomain.json
     integration_type: null
   - name: Shodan_Host
     version: '1.0'
@@ -77,30 +101,6 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Host.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_Host.json
-    integration_type: null
-  - name: Shodan_Host_History
-    version: '1.0'
-    author: ANSSI
-    license: AGPL-V3
-    description: Retrieve Shodan history scan results  for an IP address.
-    dataTypes:
-    - ip
-    file: .upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_Host_History.json
-    integration_type: null
-  - name: Shodan_Search
-    version: '2.0'
-    author: Sebastien Larinier @Sebdraven
-    license: AGPL-V3
-    description: Search query on Shodan
-    dataTypes:
-    - other
-    file: .upstream/cortex/analyzers/Shodan/Shodan_Search.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_Search.json
     integration_type: null
   responders: []
   functions: []

@@ -18,6 +18,18 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
+  - name: AnyRun_Sandbox_File_Android
+    version: '1.0'
+    author: ANY.RUN Integrations Team
+    license: AGPL-V3
+    description: Run File analysis using Android VM
+    dataTypes:
+    - file
+    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
+    integration_type: null
   - name: AnyRun_Sandbox_URL_Linux
     version: '1.0'
     author: ANY.RUN Integrations Team
@@ -29,6 +41,18 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
+    integration_type: null
+  - name: AnyRun_Sandbox_URL_Windows
+    version: '1.0'
+    author: ANY.RUN Integrations Team
+    license: AGPL-V3
+    description: Run URL analysis using Windows VM
+    dataTypes:
+    - url
+    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
     integration_type: null
   - name: AnyRun_TI_Lookup
     version: '1.0'
@@ -45,30 +69,6 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_TI_Lookup.json
     integration_type: null
-  - name: AnyRun_Sandbox_URL_Android
-    version: '1.0'
-    author: ANY.RUN Integrations Team
-    license: AGPL-V3
-    description: Run URL analysis using Android VM
-    dataTypes:
-    - url
-    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
-    integration_type: null
-  - name: AnyRun_Sandbox_URL_Windows
-    version: '1.0'
-    author: ANY.RUN Integrations Team
-    license: AGPL-V3
-    description: Run URL analysis using Windows VM
-    dataTypes:
-    - url
-    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
-    integration_type: null
   - name: AnyRun_Sandbox_File_Linux
     version: '1.0'
     author: ANY.RUN Integrations Team
@@ -81,18 +81,6 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
     integration_type: null
-  - name: AnyRun_Sandbox_File_Android
-    version: '1.0'
-    author: ANY.RUN Integrations Team
-    license: AGPL-V3
-    description: Run File analysis using Android VM
-    dataTypes:
-    - file
-    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
-    integration_type: null
   - name: AnyRun_Sandbox_File_Windows
     version: '1.0'
     author: ANY.RUN Integrations Team
@@ -104,6 +92,18 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
+    integration_type: null
+  - name: AnyRun_Sandbox_URL_Android
+    version: '1.0'
+    author: ANY.RUN Integrations Team
+    license: AGPL-V3
+    description: Run URL analysis using Android VM
+    dataTypes:
+    - url
+    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
     integration_type: null
   responders: []
   functions: []
