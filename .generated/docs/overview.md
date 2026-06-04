@@ -19,10 +19,10 @@ Built something useful? Contributions are welcome!
 
 - **Total Vendors:** 194
 - **Total Analyzers:** 274
-- **Total Responders:** 144
+- **Total Responders:** 156
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 435
+- **Total Integrations:** 447
 
 ## 📂 Vendors by Category
 
@@ -387,7 +387,7 @@ Built something useful? Contributions are welcome!
 - **[YARA](vendors/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Yeti](vendors/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ZEROFOX](vendors/ZEROFOX/overview.md)** - *Uncategorized* - 2 responders
-- **[Zscaler](vendors/Zscaler/overview.md)** - *Uncategorized* - 2 analyzers
+- **[Zscaler](vendors/Zscaler/overview.md)** - *Uncategorized* - 2 analyzers, 12 responders
 
 ---
 

@@ -4,11 +4,13 @@
 
 - **Total Vendors:** 194
 - **Total Analyzers:** 274
-- **Total Responders:** 144
+- **Total Responders:** 156
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 435
+- **Total Integrations:** 447
 
 ## Changes
 
-No changes detected.
+### 🔄 Updated Vendors (1)
+
+- **Zscaler**: 2 → 14 (+12)
