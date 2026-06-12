@@ -13,19 +13,18 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DNSDB_NameHistory",
+        "name": "DNSDB_IPHistory",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DNSDB to fetch historical records for a fully-qualified domain name.",
+        "description": "Use DNSDB to fetch historical records for an IP address.",
         "dataTypes": [
-          "domain",
-          "fqdn"
+          "ip"
         ],
-        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB/DNSDB_IPHistory.json",
         "integration_type": null
       },
       {
@@ -45,18 +44,19 @@
         "integration_type": null
       },
       {
-        "name": "DNSDB_IPHistory",
+        "name": "DNSDB_NameHistory",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DNSDB to fetch historical records for an IP address.",
+        "description": "Use DNSDB to fetch historical records for a fully-qualified domain name.",
         "dataTypes": [
-          "ip"
+          "domain",
+          "fqdn"
         ],
-        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB/DNSDB_NameHistory.json",
         "integration_type": null
       }
     ],

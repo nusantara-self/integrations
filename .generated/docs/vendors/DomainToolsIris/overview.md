@@ -20,14 +20,6 @@ Use DomainTools Iris API to investigate a domain.
 
 ## Responders (2)
 
-### DomainToolsIris_AddRiskyDNSTag `v1.0`
-Add Tag saying that the case contains a risky DNS.
-
-- **Author:** DomainTools
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json)
-
 ### DomainToolsIris_CheckMaliciousTags `v1.0`
 Add Tag saying that the observable and case have a malicious tag in their Iris Tags.
 
@@ -35,3 +27,11 @@ Add Tag saying that the observable and case have a malicious tag in their Iris T
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json)
+
+### DomainToolsIris_AddRiskyDNSTag `v1.0`
+Add Tag saying that the case contains a risky DNS.
+
+- **Author:** DomainTools
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json)

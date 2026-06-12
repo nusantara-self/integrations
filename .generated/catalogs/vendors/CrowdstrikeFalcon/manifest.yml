@@ -58,45 +58,6 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: CrowdstrikeFalcon_Sandbox_Win11
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Send a file to CrowdstrikeFalcon Sandbox
-    dataTypes:
-    - file
-    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
-    integration_type: null
-  - name: CrowdstrikeFalcon_ThreatIntel
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Query threat intelligence indicators from Crowdstrike Falcon Intelligence
-    dataTypes:
-    - hash
-    - domain
-    - ip
-    - url
-    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
-    integration_type: null
-  - name: CrowdstrikeFalcon_Sandbox_Android
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Send a file to CrowdstrikeFalcon Sandbox
-    dataTypes:
-    - file
-    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
-    integration_type: null
   - name: CrowdstrikeFalcon_Sandbox_Linux
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -121,17 +82,20 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json
     integration_type: null
-  - name: CrowdstrikeFalcon_getDeviceAlerts
+  - name: CrowdstrikeFalcon_ThreatIntel
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Get Device alerts from Crowdstrike Falcon
+    description: Query threat intelligence indicators from Crowdstrike Falcon Intelligence
     dataTypes:
-    - hostname
-    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
+    - hash
+    - domain
+    - ip
+    - url
+    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
     integration_type: null
   - name: CrowdstrikeFalcon_getDeviceDetails
     version: '1.0'
@@ -157,6 +121,18 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json
     integration_type: null
+  - name: CrowdstrikeFalcon_Sandbox_Win10
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Send a file to CrowdstrikeFalcon Sandbox
+    dataTypes:
+    - file
+    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
+    integration_type: null
   - name: CrowdstrikeFalcon_Sandbox_MacOS
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -169,17 +145,41 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json
     integration_type: null
-  - name: CrowdstrikeFalcon_Sandbox_Win10
+  - name: CrowdstrikeFalcon_Sandbox_Android
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
     description: Send a file to CrowdstrikeFalcon Sandbox
     dataTypes:
     - file
-    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
+    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
+    integration_type: null
+  - name: CrowdstrikeFalcon_getDeviceAlerts
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Get Device alerts from Crowdstrike Falcon
+    dataTypes:
+    - hostname
+    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
+    integration_type: null
+  - name: CrowdstrikeFalcon_Sandbox_Win11
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Send a file to CrowdstrikeFalcon Sandbox
+    dataTypes:
+    - file
+    file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
     integration_type: null
   - name: CrowdstrikeFalcon_Sandbox_Win7
     version: '1.0'
@@ -194,30 +194,29 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json
     integration_type: null
   responders:
-  - name: CrowdStrikeFalcon_unsuppressDetections
+  - name: CrowdStrikeFalcon_AddIOC
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Allow detections for the host.
+    description: Add IOC to IoC Management on Crowdstrike - supports domain, url, IPs & different kind of hashes
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
+    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
     integration_type: null
-  - name: CrowdStrikeFalcon_HostContainment
+  - name: CrowdStrikeFalcon_LiftContainmentHost
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: This action contains the host, which stops any network communications to locations other than the CrowdStrike
-      cloud and IPs specified in your containment policy
+    description: This action lifts containment on the host, which returns its network communications to normal
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
+    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
     integration_type: null
   - name: CrowdStrikeFalcon_Sync
     version: '1.0'
@@ -232,41 +231,17 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json
     integration_type: null
-  - name: CrowdStrikeFalcon_LiftContainmentHost
+  - name: CrowdStrikeFalcon_suppressDetections
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: This action lifts containment on the host, which returns its network communications to normal
+    description: Supress detections for the host.
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
-    integration_type: null
-  - name: CrowdStrikeFalcon_AddIOC
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Add IOC to IoC Management on Crowdstrike - supports domain, url, IPs & different kind of hashes
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
-    integration_type: null
-  - name: CrowdStrikeFalcon_RemoveIOC
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: remove IOC from IoC Management on Crowdstrike
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
+    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
     integration_type: null
   - name: CrowdStrikeFalcon_unhideHost
     version: '1.0'
@@ -279,6 +254,18 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json
+    integration_type: null
+  - name: CrowdStrikeFalcon_RemoveIOC
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: remove IOC from IoC Management on Crowdstrike
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
     integration_type: null
   - name: CrowdStrikeFalcon_hideHost
     version: '1.0'
@@ -293,17 +280,30 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json
     integration_type: null
-  - name: CrowdStrikeFalcon_suppressDetections
+  - name: CrowdStrikeFalcon_HostContainment
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Supress detections for the host.
+    description: This action contains the host, which stops any network communications to locations other than the CrowdStrike
+      cloud and IPs specified in your containment policy
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
+    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
+    integration_type: null
+  - name: CrowdStrikeFalcon_unsuppressDetections
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Allow detections for the host.
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
     integration_type: null
   functions:
   - name: CRWDAlertIngestion

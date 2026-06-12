@@ -13,20 +13,20 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "PassiveTotal_Enrichment",
+        "name": "PassiveTotal_Whois_Details",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Enrichment Lookup.",
+        "description": "PassiveTotal Whois Details Lookup.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
         "integration_type": null
       },
       {
@@ -63,37 +63,20 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Passive_Dns",
-        "version": "2.1",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "PassiveTotal Passive DNS Lookup.",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
-        "integration_type": null
-      },
-      {
-        "name": "PassiveTotal_Host_Pairs",
+        "name": "PassiveTotal_Components",
         "version": "2.0",
         "author": "Brandon Dixon (9bplus)",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Host Pairs Lookup.",
+        "description": "PassiveTotal Components Lookup.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Components.json",
         "integration_type": null
       },
       {
@@ -114,20 +97,37 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Components",
+        "name": "PassiveTotal_Enrichment",
         "version": "2.0",
-        "author": "Brandon Dixon (9bplus)",
+        "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Components Lookup.",
+        "description": "PassiveTotal Enrichment Lookup.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Components.json",
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
+        "integration_type": null
+      },
+      {
+        "name": "PassiveTotal_Host_Pairs",
+        "version": "2.0",
+        "author": "Brandon Dixon (9bplus)",
+        "license": "AGPL-V3",
+        "description": "PassiveTotal Host Pairs Lookup.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
         "integration_type": null
       },
       {
@@ -165,20 +165,20 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Whois_Details",
-        "version": "2.0",
+        "name": "PassiveTotal_Passive_Dns",
+        "version": "2.1",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Whois Details Lookup.",
+        "description": "PassiveTotal Passive DNS Lookup.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
         "integration_type": null
       },
       {
