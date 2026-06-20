@@ -17,12 +17,12 @@ Built something useful? Contributions are welcome!
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 194
-- **Total Analyzers:** 274
+- **Total Vendors:** 195
+- **Total Analyzers:** 275
 - **Total Responders:** 156
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 447
+- **Total Integrations:** 448
 
 ## 📂 Vendors by Category
 
@@ -318,6 +318,7 @@ Built something useful? Contributions are welcome!
 - **[ONYPHE](vendors/Onyphe/overview.md)** - *Attack Surface Intelligence* - 5 analyzers
 - **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OpenCTI](vendors/OpenCTI/overview.md)** - *Uncategorized* - 4 analyzers
+- **[OpenCVE](vendors/OpenCVE/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OrionMalware](vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OvhCloud](vendors/OvhCloud/overview.md)** - *Uncategorized* - 1 analyzers, 2 responders
 - **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 8 responders
