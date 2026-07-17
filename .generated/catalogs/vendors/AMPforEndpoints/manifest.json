@@ -44,21 +44,6 @@
         "integration_type": null
       },
       {
-        "name": "AMPforEndpoints_IsolationStop",
-        "version": "1.0",
-        "author": "Cisco Security",
-        "license": "MIT",
-        "description": "Stop host isolation for an AMP for Endpoints connector",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
-        "integration_type": null
-      },
-      {
         "name": "AMPforEndpoints_IsolationStart",
         "version": "1.0",
         "author": "Cisco Security",
@@ -86,6 +71,21 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json",
+        "integration_type": null
+      },
+      {
+        "name": "AMPforEndpoints_IsolationStop",
+        "version": "1.0",
+        "author": "Cisco Security",
+        "license": "MIT",
+        "description": "Stop host isolation for an AMP for Endpoints connector",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json",
         "integration_type": null
       }
     ],

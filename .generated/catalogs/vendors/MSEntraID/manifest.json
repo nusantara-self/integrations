@@ -28,6 +28,36 @@
   "integrations": {
     "analyzers": [
       {
+        "name": "MSEntraID_GetDirectoryAuditLogs",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.",
+        "dataTypes": [
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
+        "integration_type": null
+      },
+      {
+        "name": "MSEntraID_GetSignIns",
+        "version": "1.0",
+        "author": "@jahamilto",
+        "license": "AGPL-V3",
+        "description": "Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.",
+        "dataTypes": [
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
+        "integration_type": null
+      },
+      {
         "name": "MSEntraID_GetUserInfo",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
@@ -59,36 +89,6 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
-        "integration_type": null
-      },
-      {
-        "name": "MSEntraID_GetDirectoryAuditLogs",
-        "version": "1.0",
-        "author": "Fabien Bloume, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.",
-        "dataTypes": [
-          "mail"
-        ],
-        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
-        "integration_type": null
-      },
-      {
-        "name": "MSEntraID_GetSignIns",
-        "version": "1.0",
-        "author": "@jahamilto",
-        "license": "AGPL-V3",
-        "description": "Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.",
-        "dataTypes": [
-          "mail"
-        ],
-        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID/MSEntraID_GetSignIns.json",
         "integration_type": null
       }
     ],
@@ -139,21 +139,6 @@
         "integration_type": null
       },
       {
-        "name": "MSEntraID_ForcePasswordResetWithMFA",
-        "version": "1.0",
-        "author": "nusatanra-self, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Force password reset at next login with MFA verification before password change for a User Principal Name. (mail)",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
-        "integration_type": null
-      },
-      {
         "name": "MSEntraID_disableUser",
         "version": "1.0",
         "author": "nusatanra-self, StrangeBee",
@@ -166,6 +151,21 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID/MSEntraID_disableUser.json",
+        "integration_type": null
+      },
+      {
+        "name": "MSEntraID_ForcePasswordResetWithMFA",
+        "version": "1.0",
+        "author": "nusatanra-self, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Force password reset at next login with MFA verification before password change for a User Principal Name. (mail)",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json",
         "integration_type": null
       }
     ],

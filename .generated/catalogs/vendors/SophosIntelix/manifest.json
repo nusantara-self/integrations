@@ -13,6 +13,21 @@
   "integrations": {
     "analyzers": [
       {
+        "name": "SophosIntelix_Submit_Static",
+        "version": "0.1",
+        "author": "SOL",
+        "license": "AGPL-V3",
+        "description": "Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you to see if the file is similar to known malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
+        "integration_type": null
+      },
+      {
         "name": "SophosIntelix_GetReport",
         "version": "0.3",
         "author": "SOL",
@@ -28,21 +43,6 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix/SophosIntelix_GetReport.json",
-        "integration_type": null
-      },
-      {
-        "name": "SophosIntelix_Submit_Static",
-        "version": "0.1",
-        "author": "SOL",
-        "license": "AGPL-V3",
-        "description": "Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you to see if the file is similar to known malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx",
-        "dataTypes": [
-          "file"
-        ],
-        "file": ".upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
         "integration_type": null
       },
       {
