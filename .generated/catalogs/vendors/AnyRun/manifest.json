@@ -16,6 +16,54 @@
   "integrations": {
     "analyzers": [
       {
+        "name": "AnyRun_TI_Lookup",
+        "version": "1.0",
+        "author": "ANY.RUN Integrations Team",
+        "license": "AGPL-V3",
+        "description": "Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "url",
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "integration_type": null
+      },
+      {
+        "name": "AnyRun_Sandbox_URL_Android",
+        "version": "1.0",
+        "author": "ANY.RUN Integrations Team",
+        "license": "AGPL-V3",
+        "description": "Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
+        "integration_type": null
+      },
+      {
+        "name": "AnyRun_Sandbox_URL_Linux",
+        "version": "1.0",
+        "author": "ANY.RUN Integrations Team",
+        "license": "AGPL-V3",
+        "description": "Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
+        "integration_type": null
+      },
+      {
         "name": "AnyRun_Sandbox_File_Android",
         "version": "1.0",
         "author": "ANY.RUN Integrations Team",
@@ -61,39 +109,6 @@
         "integration_type": null
       },
       {
-        "name": "AnyRun_Sandbox_URL_Linux",
-        "version": "1.0",
-        "author": "ANY.RUN Integrations Team",
-        "license": "AGPL-V3",
-        "description": "Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
-        "integration_type": null
-      },
-      {
-        "name": "AnyRun_TI_Lookup",
-        "version": "1.0",
-        "author": "ANY.RUN Integrations Team",
-        "license": "AGPL-V3",
-        "description": "Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.",
-        "dataTypes": [
-          "ip",
-          "domain",
-          "url",
-          "hash"
-        ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_TI_Lookup.json",
-        "integration_type": null
-      },
-      {
         "name": "AnyRun_Sandbox_File_Linux",
         "version": "1.0",
         "author": "ANY.RUN Integrations Team",
@@ -106,21 +121,6 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json",
-        "integration_type": null
-      },
-      {
-        "name": "AnyRun_Sandbox_URL_Android",
-        "version": "1.0",
-        "author": "ANY.RUN Integrations Team",
-        "license": "AGPL-V3",
-        "description": "Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
         "integration_type": null
       }
     ],

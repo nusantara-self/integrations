@@ -16,6 +16,30 @@ visibility: low
 integrations:
   analyzers: []
   responders:
+  - name: AMPforEndpoints_IsolationStop
+    version: '1.0'
+    author: Cisco Security
+    license: MIT
+    description: Stop host isolation for an AMP for Endpoints connector
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    integration_type: null
+  - name: AMPforEndpoints_SCDAdd
+    version: '1.0'
+    author: Cisco Security
+    license: MIT
+    description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    integration_type: null
   - name: AMPforEndpoints_MoveGUID
     version: '1.0'
     author: Cisco Security
@@ -51,30 +75,6 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-    integration_type: null
-  - name: AMPforEndpoints_SCDAdd
-    version: '1.0'
-    author: Cisco Security
-    license: MIT
-    description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    integration_type: null
-  - name: AMPforEndpoints_IsolationStop
-    version: '1.0'
-    author: Cisco Security
-    license: MIT
-    description: Stop host isolation for an AMP for Endpoints connector
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
     integration_type: null
   functions: []
 stats:

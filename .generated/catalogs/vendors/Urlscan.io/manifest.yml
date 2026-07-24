@@ -27,6 +27,20 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
+  - name: Urlscan.io_Scan
+    version: 0.2.0
+    author: ninoseki; Kyle Parrish (@arnydo); Fabien Bloume, StrangeBee
+    license: MIT
+    description: Scan URLs on urlscan.io
+    dataTypes:
+    - url
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io/Urlscan_Scan.json
+    integration_type: null
   - name: Urlscan.io_Search
     version: 0.2.0
     author: ninoseki, Kyle Parrish (@arnydo)
@@ -42,20 +56,6 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io/Urlscan_Search.json
-    integration_type: null
-  - name: Urlscan.io_Scan
-    version: 0.2.0
-    author: ninoseki; Kyle Parrish (@arnydo); Fabien Bloume, StrangeBee
-    license: MIT
-    description: Scan URLs on urlscan.io
-    dataTypes:
-    - url
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io/Urlscan_Scan.json
     integration_type: null
   responders: []
   functions: []

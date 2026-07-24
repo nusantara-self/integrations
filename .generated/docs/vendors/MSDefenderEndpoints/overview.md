@@ -16,13 +16,13 @@ Push IOC to Defender client. Alert mode. This mode is Deprecated and Audit shoul
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json)
 
-### MSDefender-PushIOC-Audit `v1.0`
-Push IOC to Defender client. Audit mode
+### MSDefender-AutoInvestigation `v1.0`
+Start an automated investigation on a device
 
-- **Author:** Vito Piserchia
+- **Author:** Keijo Korte, Louis-Maximilien Dupouy
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json)
 
 ### MSDefender-UnisolateMachine `v1.0`
 Unisolate machine with Microsoft Defender for Endpoints
@@ -32,13 +32,21 @@ Unisolate machine with Microsoft Defender for Endpoints
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json)
 
-### MSDefender-PushIOC-BlockAndRemediate `v1.0`
-Push IOC to Defender client. Block and Remediate mode
+### MSDefender-UnRestrictAppExecution `v1.0`
+Enable execution of any application on the device
+
+- **Author:** Keijo Korte, Louis-Maximilien Dupouy
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json)
+
+### MSDefender-PushIOC-Audit `v1.0`
+Push IOC to Defender client. Audit mode
 
 - **Author:** Vito Piserchia
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json)
 
 ### MSDefender-RestrictAppExecution `v1.0`
 Restrict execution of all applications on the device except a predefined set
@@ -48,21 +56,21 @@ Restrict execution of all applications on the device except a predefined set
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json)
 
-### MSDefender-IsolateMachine `v1.0`
-Isolate machine with Microsoft Defender for Endpoints
+### MSDefender-FullVirusscan `v1.0`
+Run full virus scan to machine with Microsoft Defender for Endpoints
 
 - **Author:** Keijo Korte
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json)
 
-### MSDefender-PushIOC-Allowed `v1.0`
-Push IOC to Defender client. Allowed mode
+### MSDefender-PushIOC-BlockAndRemediate `v1.0`
+Push IOC to Defender client. Block and Remediate mode
 
 - **Author:** Vito Piserchia
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json)
 
 ### MSDefender-PushIOC-Block `v2.1`
 Push IOC to Defender client. Block mode
@@ -72,26 +80,18 @@ Push IOC to Defender client. Block mode
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json)
 
-### MSDefender-AutoInvestigation `v1.0`
-Start an automated investigation on a device
+### MSDefender-PushIOC-Allowed `v1.0`
+Push IOC to Defender client. Allowed mode
 
-- **Author:** Keijo Korte, Louis-Maximilien Dupouy
+- **Author:** Vito Piserchia
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json)
 
-### MSDefender-UnRestrictAppExecution `v1.0`
-Enable execution of any application on the device
-
-- **Author:** Keijo Korte, Louis-Maximilien Dupouy
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json)
-
-### MSDefender-FullVirusscan `v1.0`
-Run full virus scan to machine with Microsoft Defender for Endpoints
+### MSDefender-IsolateMachine `v1.0`
+Isolate machine with Microsoft Defender for Endpoints
 
 - **Author:** Keijo Korte
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json)

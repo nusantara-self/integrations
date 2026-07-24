@@ -15,6 +15,19 @@ displayOnWebsite: true
 visibility: low
 integrations:
   analyzers:
+  - name: DomainTools_Reputation
+    version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
+    description: Use DomainTools to get a reputation score on a domain or fqdn
+    dataTypes:
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_Reputation.json
+    integration_type: null
   - name: DomainTools_ReverseIPWhois
     version: '2.0'
     author: ANSSI
@@ -29,6 +42,61 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
+    integration_type: null
+  - name: DomainTools_WhoisLookupUnparsed
+    version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
+    description: Use DomainTools to get the ownership record for an IP address or a domain without parsing.
+    dataTypes:
+    - ip
+    - domain
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
+    integration_type: null
+  - name: DomainTools_Risk
+    version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
+    description: Use DomainTools to get a risk score and evidence details on a domain or fqdn
+    dataTypes:
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_Risk.json
+    integration_type: null
+  - name: DomainTools_ReverseIP
+    version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
+    description: Use DomainTools to get a list of domain names sharing the same IP address.
+    dataTypes:
+    - ip
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_ReverseIP.json
+    integration_type: null
+  - name: DomainTools_ReverseWhois
+    version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
+    description: Use DomainTools to get a list of domain names which share the same registrant information.
+    dataTypes:
+    - mail
+    - ip
+    - domain
+    - other
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_ReverseWhois.json
     integration_type: null
   - name: DomainTools_WhoisHistory
     version: '2.0'
@@ -54,60 +122,6 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_HostingHistory.json
     integration_type: null
-  - name: DomainTools_WhoisLookupUnparsed
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: Use DomainTools to get the ownership record for an IP address or a domain without parsing.
-    dataTypes:
-    - ip
-    - domain
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
-    integration_type: null
-  - name: DomainTools_ReverseWhois
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: Use DomainTools to get a list of domain names which share the same registrant information.
-    dataTypes:
-    - mail
-    - ip
-    - domain
-    - other
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_ReverseWhois.json
-    integration_type: null
-  - name: DomainTools_Risk
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: Use DomainTools to get a risk score and evidence details on a domain or fqdn
-    dataTypes:
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_Risk.json
-    integration_type: null
-  - name: DomainTools_Reputation
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: Use DomainTools to get a reputation score on a domain or fqdn
-    dataTypes:
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_Reputation.json
-    integration_type: null
   - name: DomainTools_WhoisLookup
     version: '2.0'
     author: CERT-BDF
@@ -121,20 +135,6 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_WhoisLookup.json
-    integration_type: null
-  - name: DomainTools_ReverseIP
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: Use DomainTools to get a list of domain names sharing the same IP address.
-    dataTypes:
-    - ip
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools/DomainTools_ReverseIP.json
     integration_type: null
   - name: DomainTools_ReverseNameServer
     version: '2.0'
