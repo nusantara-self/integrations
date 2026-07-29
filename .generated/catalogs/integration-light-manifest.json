@@ -2912,6 +2912,30 @@
       "total": 9
     }
   },
+  "MSExchangeOnline": {
+    "id": "MSExchangeOnline",
+    "name": "MSExchangeOnline",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": true,
+      "free": false,
+      "paid": true
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/MSExchangeOnline/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 1,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 2
+    }
+  },
   "MsgParser": {
     "id": "MsgParser",
     "name": "MsgParser",
@@ -3412,6 +3436,30 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 2
+    }
+  },
+  "PDFPreview": {
+    "id": "PDFPreview",
+    "name": "PDFPreview",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/PDFPreview/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 1
     }
   },
   "PhishingInitiative": {

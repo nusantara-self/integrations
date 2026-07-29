@@ -2,13 +2,16 @@
 
 ## Statistics
 
-- **Total Vendors:** 195
-- **Total Analyzers:** 275
-- **Total Responders:** 156
+- **Total Vendors:** 197
+- **Total Analyzers:** 277
+- **Total Responders:** 157
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 448
+- **Total Integrations:** 451
 
 ## Changes
 
-No changes detected.
+### ✅ Added Vendors (2)
+
+- `MSExchangeOnline`
+- `PDFPreview`

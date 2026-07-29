@@ -1,10 +1,10 @@
 {
   "metadata": {
     "description": "Vendors sorted by visibility tier (high, medium, low), then alphabetically",
-    "totalVendors": 195,
+    "totalVendors": 197,
     "highCount": 20,
     "mediumCount": 0,
-    "lowCount": 175
+    "lowCount": 177
   },
   "high": [
     {
@@ -2655,7 +2655,7 @@
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
-            "description": "Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+            "description": "Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
             "dataTypes": [
               "url"
             ],
@@ -2670,7 +2670,7 @@
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
-            "description": "Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+            "description": "Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
             "dataTypes": [
               "url"
             ],
@@ -2685,7 +2685,7 @@
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
-            "description": "Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+            "description": "Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
             "dataTypes": [
               "file"
             ],
@@ -2700,7 +2700,7 @@
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
-            "description": "Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+            "description": "Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
             "dataTypes": [
               "file"
             ],
@@ -2715,7 +2715,7 @@
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
-            "description": "Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+            "description": "Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
             "dataTypes": [
               "url"
             ],
@@ -2730,7 +2730,7 @@
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
-            "description": "Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+            "description": "Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
             "dataTypes": [
               "file"
             ],
@@ -8647,6 +8647,67 @@
       }
     },
     {
+      "id": "MSExchangeOnline",
+      "name": "MSExchangeOnline",
+      "description": "",
+      "category": "",
+      "tags": [],
+      "homepage": "",
+      "logo": {},
+      "useCases": [],
+      "externalIntegrations": [],
+      "displayOnWebsite": true,
+      "visibility": "low",
+      "registration_required": true,
+      "subscription_required": true,
+      "free_subscription": false,
+      "integrations": {
+        "analyzers": [
+          {
+            "name": "MSExchangeOnline_GetInboxRules",
+            "version": "1.1",
+            "author": "Fabien Bloume ,StrangeBee",
+            "license": "AGPL-V3",
+            "description": "List a mailbox's inbox rules via Microsoft Graph and flag rules commonly abused after a mailbox compromise/BEC: external auto-forwarding, silent delete/move rules, keyword filters on security or financial terms, hiding folders (RSS Feeds...), obfuscated rule names.",
+            "dataTypes": [
+              "mail"
+            ],
+            "file": ".upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json",
+            "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json",
+            "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json",
+            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json",
+            "integration_type": null
+          }
+        ],
+        "responders": [
+          {
+            "name": "MSExchangeOnline_RemoveInboxRule",
+            "version": "1.0",
+            "author": "Fabien Bloume, StrangeBee",
+            "license": "AGPL-V3",
+            "description": "Removes a malicious Exchange Online inbox rule via Microsoft Graph. Reads the target mailbox UPN and Graph rule ID from a case custom field (name configurable, defaults to \"inbox-rule-input\"), formatted as \"<mailboxUPN>|<ruleId>\".",
+            "dataTypes": [
+              "thehive:case"
+            ],
+            "file": ".upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json",
+            "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json",
+            "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json",
+            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json",
+            "integration_type": null
+          }
+        ],
+        "functions": []
+      },
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalUseCases": 0,
+        "totalExternalIntegrations": 0,
+        "total": 2
+      }
+    },
+    {
       "id": "MsgParser",
       "name": "MsgParser",
       "description": "",
@@ -10192,6 +10253,50 @@
         "totalUseCases": 0,
         "totalExternalIntegrations": 0,
         "total": 2
+      }
+    },
+    {
+      "id": "PDFPreview",
+      "name": "PDFPreview",
+      "description": "",
+      "category": "",
+      "tags": [],
+      "homepage": "",
+      "logo": {},
+      "useCases": [],
+      "externalIntegrations": [],
+      "displayOnWebsite": true,
+      "visibility": "low",
+      "registration_required": false,
+      "subscription_required": false,
+      "integrations": {
+        "analyzers": [
+          {
+            "name": "PDFPreview",
+            "version": "1.0",
+            "author": "Fabien Bloume, StrangeBee",
+            "license": "AGPL-V3",
+            "description": "Minimal-attack-surface PDF preview: renders pages as images via poppler (and nothing more).",
+            "dataTypes": [
+              "file"
+            ],
+            "file": ".upstream/cortex/analyzers/PDFPreview/PDFPreview.json",
+            "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PDFPreview/PDFPreview.json",
+            "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PDFPreview/PDFPreview.json",
+            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PDFPreview/PDFPreview.json",
+            "integration_type": "local"
+          }
+        ],
+        "responders": [],
+        "functions": []
+      },
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalUseCases": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
       }
     },
     {
