@@ -2831,18 +2831,42 @@
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MSDefenderEndpoints/assets/logo.png",
     "visibility": "high",
     "subscription": {
-      "required": true,
+      "required": false,
       "free": false,
-      "paid": true
+      "paid": false
     },
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/MSDefenderEndpoints/overview.md",
     "stats": {
       "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 0
+    }
+  },
+  "MSDefenderForEndpoint": {
+    "id": "MSDefenderForEndpoint",
+    "name": "MSDefenderForEndpoint",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": true,
+      "free": false,
+      "paid": true
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/MSDefenderForEndpoint/overview.md",
+    "stats": {
+      "totalAnalyzers": 2,
       "totalResponders": 12,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
-      "total": 12
+      "total": 14
     }
   },
   "MSDefenderOffice365": {
@@ -2904,12 +2928,12 @@
     },
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/MSEntraID/overview.md",
     "stats": {
-      "totalAnalyzers": 4,
+      "totalAnalyzers": 7,
       "totalResponders": 5,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
-      "total": 9
+      "total": 12
     }
   },
   "MSExchangeOnline": {

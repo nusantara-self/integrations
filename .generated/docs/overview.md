@@ -17,12 +17,12 @@ Built something useful? Contributions are welcome!
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 197
-- **Total Analyzers:** 277
+- **Total Vendors:** 198
+- **Total Analyzers:** 282
 - **Total Responders:** 157
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 451
+- **Total Integrations:** 456
 
 ## 📂 Vendors by Category
 
@@ -61,7 +61,7 @@ Built something useful? Contributions are welcome!
 **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** (22 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
 
-**[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** (12 integrations)
+**[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** (0 integrations)
   Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, inv...
 
 
@@ -76,7 +76,7 @@ Built something useful? Contributions are welcome!
 
 ### Identity & Access Management
 
-**[Microsoft Entra ID](vendors/MSEntraID/overview.md)** (9 integrations)
+**[Microsoft Entra ID](vendors/MSEntraID/overview.md)** (12 integrations)
   Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access managem...
 
 
@@ -301,13 +301,14 @@ Built something useful? Contributions are welcome!
 - **[Malwares](vendors/Malwares/overview.md)** - *Uncategorized* - 2 analyzers
 - **[MaxMind](vendors/MaxMind/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[MetaDefender](vendors/MetaDefender/overview.md)** - *Uncategorized* - 5 analyzers
-- **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** - *EDR* - 12 responders
+- **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** - *EDR* - No integrations
 - **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 4 responders
-- **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
+- **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 7 analyzers, 5 responders
 - **[Minemeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
+- **[MSDefenderForEndpoint](vendors/MSDefenderForEndpoint/overview.md)** - *Uncategorized* - 2 analyzers, 12 responders
 - **[MSExchangeOnline](vendors/MSExchangeOnline/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[MsgParser](vendors/MsgParser/overview.md)** - *Uncategorized* - 1 analyzers
 - **[n8n](vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
