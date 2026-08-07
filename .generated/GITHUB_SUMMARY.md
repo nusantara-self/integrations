@@ -11,11 +11,4 @@
 
 ## Changes
 
-### ✅ Added Vendors (1)
-
-- `MSDefenderForEndpoint`
-
-### 🔄 Updated Vendors (2)
-
-- **Microsoft Entra ID**: 9 → 12 (+3)
-- **Microsoft Defender for Endpoint**: 12 → 0 (-12)
+No changes detected.
