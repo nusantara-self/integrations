@@ -17,18 +17,6 @@ registration_required: true
 subscription_required: true
 integrations:
   analyzers:
-  - name: JoeSandbox_File_Analysis_Inet
-    version: '3.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: Joe Sandbox file analysis with Internet access.
-    dataTypes:
-    - file
-    file: .upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
-    integration_type: null
   - name: JoeSandbox_File_Analysis_Noinet
     version: '3.0'
     author: CERT-BDF
@@ -52,6 +40,18 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
+    integration_type: null
+  - name: JoeSandbox_File_Analysis_Inet
+    version: '3.0'
+    author: CERT-BDF
+    license: AGPL-V3
+    description: Joe Sandbox file analysis with Internet access.
+    dataTypes:
+    - file
+    file: .upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
     integration_type: null
   responders: []
   functions: []

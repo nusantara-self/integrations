@@ -1,13 +1,5 @@
 ## Responders (2)
 
-### JAMFProtect_removeHashfromPreventList `v1.0`
-Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash
-
-- **Author:** Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json)
-
 ### JAMFProtect_addHashtoPreventList `v1.0`
 Add IOC to JAMF Protect - creates a custom prevent list for a hash
 
@@ -15,6 +7,14 @@ Add IOC to JAMF Protect - creates a custom prevent list for a hash
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json)
+
+### JAMFProtect_removeHashfromPreventList `v1.0`
+Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json)
 
 ---
 

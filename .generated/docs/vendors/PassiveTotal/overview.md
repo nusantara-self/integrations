@@ -1,28 +1,20 @@
 ## Analyzers (11)
 
-### PassiveTotal_Ssl_Certificate_Details `v2.0`
-PassiveTotal SSL Certificate Details Lookup.
-
-- **Author:** CERT-BDF
-- **License:** AGPL-V3
-- **Data Types:** `hash`, `ip`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json)
-
-### PassiveTotal_Passive_Dns `v2.1`
-PassiveTotal Passive DNS Lookup.
+### PassiveTotal_Enrichment `v2.0`
+PassiveTotal Enrichment Lookup.
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Enrichment.json)
 
-### PassiveTotal_Trackers `v2.0`
-PassiveTotal Trackers Lookup.
+### PassiveTotal_Host_Pairs `v2.0`
+PassiveTotal Host Pairs Lookup.
 
 - **Author:** Brandon Dixon (9bplus)
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Trackers.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json)
 
 ### PassiveTotal_Unique_Resolutions `v2.0`
 PassiveTotal Unique Resolutions Lookup.
@@ -31,6 +23,14 @@ PassiveTotal Unique Resolutions Lookup.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json)
+
+### PassiveTotal_Passive_Dns `v2.1`
+PassiveTotal Passive DNS Lookup.
+
+- **Author:** CERT-BDF
+- **License:** AGPL-V3
+- **Data Types:** `domain`, `fqdn`, `ip`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json)
 
 ### PassiveTotal_Malware `v2.0`
 PassiveTotal Malware Lookup.
@@ -48,14 +48,6 @@ PassiveTotal SSL Certificate History Lookup.
 - **Data Types:** `hash`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json)
 
-### PassiveTotal_Host_Pairs `v2.0`
-PassiveTotal Host Pairs Lookup.
-
-- **Author:** Brandon Dixon (9bplus)
-- **License:** AGPL-V3
-- **Data Types:** `domain`, `fqdn`, `ip`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json)
-
 ### PassiveTotal_Whois_Details `v2.0`
 PassiveTotal Whois Details Lookup.
 
@@ -63,6 +55,14 @@ PassiveTotal Whois Details Lookup.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json)
+
+### PassiveTotal_Ssl_Certificate_Details `v2.0`
+PassiveTotal SSL Certificate Details Lookup.
+
+- **Author:** CERT-BDF
+- **License:** AGPL-V3
+- **Data Types:** `hash`, `ip`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json)
 
 ### PassiveTotal_Components `v2.0`
 PassiveTotal Components Lookup.
@@ -80,10 +80,10 @@ PassiveTotal OSINT Lookup.
 - **Data Types:** `domain`, `fqdn`, `ip`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Osint.json)
 
-### PassiveTotal_Enrichment `v2.0`
-PassiveTotal Enrichment Lookup.
+### PassiveTotal_Trackers `v2.0`
+PassiveTotal Trackers Lookup.
 
-- **Author:** CERT-BDF
+- **Author:** Brandon Dixon (9bplus)
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Enrichment.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Trackers.json)

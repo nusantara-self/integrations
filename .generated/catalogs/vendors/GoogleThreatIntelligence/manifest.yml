@@ -44,22 +44,18 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
     integration_type: null
-  - name: GTI_GetIOCReport
+  - name: GTI_ScanFile
     version: '1.0'
     author: Google
     license: AGPL-V3
-    description: Get the latest Google Threat Intelligence report for a file, hash, url, domain or an IP address.
+    description: Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence
+      for scanning
     dataTypes:
     - file
-    - hash
-    - domain
-    - fqdn
-    - ip
-    - url
-    file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
+    file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
     integration_type: null
   - name: GTI_ScanPrivateFile
     version: '1.0'
@@ -87,18 +83,22 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
     integration_type: null
-  - name: GTI_ScanFile
+  - name: GTI_GetIOCReport
     version: '1.0'
     author: Google
     license: AGPL-V3
-    description: Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence
-      for scanning
+    description: Get the latest Google Threat Intelligence report for a file, hash, url, domain or an IP address.
     dataTypes:
     - file
-    file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
+    - hash
+    - domain
+    - fqdn
+    - ip
+    - url
+    file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
     integration_type: null
   responders: []
   functions: []
