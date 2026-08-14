@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### Ldap_Query `v3.0`
+### Ldap_Query `v3.1`
 Query your LDAP server to harvest informations about an user of your organization
 
 - **Author:** Florian Perret @cyber_pescadito & THA-CERT @tha_cert

@@ -10,6 +10,9 @@
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": "low",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
   "integrations": {
     "analyzers": [
       {
@@ -26,7 +29,7 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/NSRL/NSRL.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/NSRL/NSRL.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/NSRL/NSRL.json",
-        "integration_type": null
+        "integration_type": "local"
       }
     ],
     "responders": [],

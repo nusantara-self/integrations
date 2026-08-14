@@ -2,7 +2,7 @@
 
 ## Statistics
 
-- **Total Vendors:** 198
+- **Total Vendors:** 199
 - **Total Analyzers:** 282
 - **Total Responders:** 157
 - **Total Functions:** 7
@@ -11,4 +11,31 @@
 
 ## Changes
 
-No changes detected.
+### ✅ Added Vendors (10)
+
+- `CiscoAMPforEndpoints`
+- `CiscoDuo`
+- `CiscoTalosReputation`
+- `CiscoThreatGrid`
+- `CiscoUmbrellaInvestigate`
+- `CrowdstrikeFalconSandbox`
+- `FireHOL`
+- `MSRiskIQ`
+- `MSRiskIQPassiveTotal`
+- `PaloAltoAutofocus`
+
+### ❌ Removed Vendors (9)
+
+- `Autofocus`
+- `Duo_Security`
+- `FalconSandbox`
+- `FireHOLBlocklists`
+- `Investigate`
+- `PassiveTotal`
+- `RiskIQ`
+- `TalosReputation`
+- `ThreatGrid`
+
+### 🔄 Updated Vendors (1)
+
+- **Cisco Secure Endpoint (Formerly AMP for Endpoints)**: 5 → 0 (-5)

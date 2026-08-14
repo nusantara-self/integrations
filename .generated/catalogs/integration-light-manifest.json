@@ -120,11 +120,11 @@
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/AMPforEndpoints/overview.md",
     "stats": {
       "totalAnalyzers": 0,
-      "totalResponders": 5,
+      "totalResponders": 0,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
-      "total": 5
+      "total": 0
     }
   },
   "AnyRun": {
@@ -149,30 +149,6 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 7
-    }
-  },
-  "Autofocus": {
-    "id": "Autofocus",
-    "name": "Autofocus",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/Autofocus/overview.md",
-    "stats": {
-      "totalAnalyzers": 3,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 3
     }
   },
   "AWSLambda": {
@@ -591,6 +567,102 @@
       "total": 1
     }
   },
+  "CiscoAMPforEndpoints": {
+    "id": "CiscoAMPforEndpoints",
+    "name": "CiscoAMPforEndpoints",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/CiscoAMPforEndpoints/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 5,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 5
+    }
+  },
+  "CiscoDuo": {
+    "id": "CiscoDuo",
+    "name": "CiscoDuo",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/CiscoDuo/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 3,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 3
+    }
+  },
+  "CiscoTalosReputation": {
+    "id": "CiscoTalosReputation",
+    "name": "CiscoTalosReputation",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/CiscoTalosReputation/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 0
+    }
+  },
+  "CiscoThreatGrid": {
+    "id": "CiscoThreatGrid",
+    "name": "CiscoThreatGrid",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/CiscoThreatGrid/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 1
+    }
+  },
   "CiscoUmbrella": {
     "id": "CiscoUmbrella",
     "name": "CiscoUmbrella",
@@ -609,6 +681,30 @@
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 2
+    }
+  },
+  "CiscoUmbrellaInvestigate": {
+    "id": "CiscoUmbrellaInvestigate",
+    "name": "CiscoUmbrellaInvestigate",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/CiscoUmbrellaInvestigate/overview.md",
+    "stats": {
+      "totalAnalyzers": 2,
+      "totalResponders": 0,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
@@ -828,6 +924,30 @@
       "totalUseCases": 2,
       "totalExternalIntegrations": 1,
       "total": 22
+    }
+  },
+  "CrowdstrikeFalconSandbox": {
+    "id": "CrowdstrikeFalconSandbox",
+    "name": "CrowdstrikeFalconSandbox",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/CrowdstrikeFalconSandbox/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 0
     }
   },
   "Crtsh": {
@@ -1214,30 +1334,6 @@
       "total": 1
     }
   },
-  "Duo_Security": {
-    "id": "Duo_Security",
-    "name": "Duo Security",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/Duo_Security/overview.md",
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 3,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 3
-    }
-  },
   "EchoTrail": {
     "id": "EchoTrail",
     "name": "EchoTrail",
@@ -1422,30 +1518,6 @@
       "total": 0
     }
   },
-  "FalconSandbox": {
-    "id": "FalconSandbox",
-    "name": "FalconSandbox",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/FalconSandbox/overview.md",
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 0
-    }
-  },
   "FileInfo": {
     "id": "FileInfo",
     "name": "FileInfo",
@@ -1494,9 +1566,9 @@
       "total": 1
     }
   },
-  "FireHOLBlocklists": {
-    "id": "FireHOLBlocklists",
-    "name": "FireHOLBlocklists",
+  "FireHOL": {
+    "id": "FireHOL",
+    "name": "FireHOL",
     "description": "",
     "category": [],
     "tags": [],
@@ -1508,7 +1580,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/FireHOLBlocklists/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/FireHOL/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2090,30 +2162,6 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 1
-    }
-  },
-  "Investigate": {
-    "id": "Investigate",
-    "name": "Investigate",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/Investigate/overview.md",
-    "stats": {
-      "totalAnalyzers": 2,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 2
     }
   },
   "IP-API": {
@@ -2984,6 +3032,54 @@
       "total": 1
     }
   },
+  "MSRiskIQ": {
+    "id": "MSRiskIQ",
+    "name": "MSRiskIQ",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/MSRiskIQ/overview.md",
+    "stats": {
+      "totalAnalyzers": 16,
+      "totalResponders": 1,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 17
+    }
+  },
+  "MSRiskIQPassiveTotal": {
+    "id": "MSRiskIQPassiveTotal",
+    "name": "MSRiskIQPassiveTotal",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/MSRiskIQPassiveTotal/overview.md",
+    "stats": {
+      "totalAnalyzers": 11,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 11
+    }
+  },
   "n8n": {
     "id": "n8n",
     "name": "n8n",
@@ -3318,6 +3414,30 @@
       "total": 3
     }
   },
+  "PaloAltoAutofocus": {
+    "id": "PaloAltoAutofocus",
+    "name": "PaloAltoAutofocus",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/PaloAltoAutofocus/overview.md",
+    "stats": {
+      "totalAnalyzers": 3,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 3
+    }
+  },
   "PaloAltoCortexXDR": {
     "id": "PaloAltoCortexXDR",
     "name": "PAN Cortex XDR",
@@ -3388,30 +3508,6 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 2
-    }
-  },
-  "PassiveTotal": {
-    "id": "PassiveTotal",
-    "name": "PassiveTotal",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/PassiveTotal/overview.md",
-    "stats": {
-      "totalAnalyzers": 11,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 11
     }
   },
   "Patrowl": {
@@ -3671,30 +3767,6 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 1
-    }
-  },
-  "RiskIQ": {
-    "id": "RiskIQ",
-    "name": "RiskIQ",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/RiskIQ/overview.md",
-    "stats": {
-      "totalAnalyzers": 16,
-      "totalResponders": 1,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 17
     }
   },
   "Robtex": {
@@ -4161,30 +4233,6 @@
       "total": 1
     }
   },
-  "TalosReputation": {
-    "id": "TalosReputation",
-    "name": "TalosReputation",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/TalosReputation/overview.md",
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 0
-    }
-  },
   "TeamCymruMHR": {
     "id": "TeamCymruMHR",
     "name": "Malware Hash Registry (MHR)",
@@ -4340,30 +4388,6 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 0
-    }
-  },
-  "ThreatGrid": {
-    "id": "ThreatGrid",
-    "name": "ThreatGrid",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/ThreatGrid/overview.md",
-    "stats": {
-      "totalAnalyzers": 1,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
     }
   },
   "ThreatMiner": {

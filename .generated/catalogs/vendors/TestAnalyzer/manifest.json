@@ -38,7 +38,7 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer/DevTools_Echo.json",
-        "integration_type": null
+        "integration_type": "local"
       },
       {
         "name": "TestAnalyzer",
@@ -62,7 +62,7 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer/TestAnalyzer.json",
-        "integration_type": null
+        "integration_type": "local"
       }
     ],
     "responders": [],
