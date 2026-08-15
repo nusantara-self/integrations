@@ -39,96 +39,19 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Splunk_Search_File_Filename",
+        "name": "Splunk_Search_Mail_Subject",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a file/filename as argument",
+        "description": "Execute a savedsearch on a Splunk instance with a mail subject as argument",
         "dataTypes": [
-          "file",
-          "filename"
+          "mail_subject",
+          "mail-subject"
         ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk_Search_Mail_Email",
-        "version": "3.0",
-        "author": "Unit777, LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a mail/email as argument",
-        "dataTypes": [
-          "mail",
-          "email"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk_Search_URL_URI_Path",
-        "version": "3.0",
-        "author": "Unit777, LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with an URL or a URI path as argument",
-        "dataTypes": [
-          "url",
-          "uri_path"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk_Search_IP",
-        "version": "3.0",
-        "author": "Unit777, LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with an IP as argument",
-        "dataTypes": [
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_ip.json",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk_Search_Other",
-        "version": "3.0",
-        "author": "Unit777, LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with an unidentified data as argument",
-        "dataTypes": [
-          "other"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_other.json",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk_Search_Registry",
-        "version": "3.0",
-        "author": "Unit777, LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a registry data as argument",
-        "dataTypes": [
-          "registry"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_registry.json",
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_mail_subject.json",
         "integration_type": null
       },
       {
@@ -147,19 +70,18 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_Mail_Subject",
+        "name": "Splunk_Search_Registry",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a mail subject as argument",
+        "description": "Execute a savedsearch on a Splunk instance with a registry data as argument",
         "dataTypes": [
-          "mail_subject",
-          "mail-subject"
+          "registry"
         ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_mail_subject.json",
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_registry.json",
         "integration_type": null
       },
       {
@@ -179,18 +101,50 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_Hash",
+        "name": "Splunk_Search_IP",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a hash as argument",
+        "description": "Execute a savedsearch on a Splunk instance with an IP as argument",
         "dataTypes": [
-          "hash"
+          "ip"
         ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_hash.json",
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_ip.json",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk_Search_URL_URI_Path",
+        "version": "3.0",
+        "author": "Unit777, LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with an URL or a URI path as argument",
+        "dataTypes": [
+          "url",
+          "uri_path"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk_Search_File_Filename",
+        "version": "3.0",
+        "author": "Unit777, LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with a file/filename as argument",
+        "dataTypes": [
+          "file",
+          "filename"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_file_filename.json",
         "integration_type": null
       },
       {
@@ -206,6 +160,52 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_user_agent.json",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk_Search_Other",
+        "version": "3.0",
+        "author": "Unit777, LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with an unidentified data as argument",
+        "dataTypes": [
+          "other"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_other.json",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk_Search_Mail_Email",
+        "version": "3.0",
+        "author": "Unit777, LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with a mail/email as argument",
+        "dataTypes": [
+          "mail",
+          "email"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk_Search_Hash",
+        "version": "3.0",
+        "author": "Unit777, LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with a hash as argument",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk/Splunk_Search_hash.json",
         "integration_type": null
       }
     ],

@@ -16,29 +16,17 @@ visibility: low
 integrations:
   analyzers: []
   responders:
-  - name: Gmail_DeleteMessage
+  - name: Gmail_UnblockDomain
     version: '1.0'
     author: David Strassegger, @oscd_initiative
     license: MIT
-    description: Move a given message into the trash folder
+    description: Remove a message filter for a given domain
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_DeleteMessage.json
-    integration_type: null
-  - name: Gmail_UnblockSender
-    version: '1.0'
-    author: David Strassegger, @oscd_initiative
-    license: MIT
-    description: Remove a message filter for a given sender
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_UnblockSender.json
+    file: .upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_UnblockDomain.json
     integration_type: null
   - name: Gmail_BlockDomain
     version: '1.0'
@@ -52,17 +40,17 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_BlockDomain.json
     integration_type: null
-  - name: Gmail_UnblockDomain
+  - name: Gmail_UnblockSender
     version: '1.0'
     author: David Strassegger, @oscd_initiative
     license: MIT
-    description: Remove a message filter for a given domain
+    description: Remove a message filter for a given sender
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_UnblockDomain.json
+    file: .upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_UnblockSender.json
     integration_type: null
   - name: Gmail_BlockSender
     version: '1.0'
@@ -75,6 +63,18 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_BlockSender.json
+    integration_type: null
+  - name: Gmail_DeleteMessage
+    version: '1.0'
+    author: David Strassegger, @oscd_initiative
+    license: MIT
+    description: Move a given message into the trash folder
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_DeleteMessage.json
     integration_type: null
   functions: []
 stats:

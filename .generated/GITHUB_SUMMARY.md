@@ -11,31 +11,4 @@
 
 ## Changes
 
-### ✅ Added Vendors (10)
-
-- `CiscoAMPforEndpoints`
-- `CiscoDuo`
-- `CiscoTalosReputation`
-- `CiscoThreatGrid`
-- `CiscoUmbrellaInvestigate`
-- `CrowdstrikeFalconSandbox`
-- `FireHOL`
-- `MSRiskIQ`
-- `MSRiskIQPassiveTotal`
-- `PaloAltoAutofocus`
-
-### ❌ Removed Vendors (9)
-
-- `Autofocus`
-- `Duo_Security`
-- `FalconSandbox`
-- `FireHOLBlocklists`
-- `Investigate`
-- `PassiveTotal`
-- `RiskIQ`
-- `TalosReputation`
-- `ThreatGrid`
-
-### 🔄 Updated Vendors (1)
-
-- **Cisco Secure Endpoint (Formerly AMP for Endpoints)**: 5 → 0 (-5)
+No changes detected.
