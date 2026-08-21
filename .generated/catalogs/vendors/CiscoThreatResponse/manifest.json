@@ -1,6 +1,6 @@
 {
-  "id": "ThreatResponse",
-  "name": "ThreatResponse",
+  "id": "CiscoThreatResponse",
+  "name": "CiscoThreatResponse",
   "description": "",
   "category": "",
   "tags": [],
@@ -26,10 +26,10 @@
           "ip",
           "url"
         ],
-        "file": ".upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatResponse/ThreatResponse.json",
+        "file": ".upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoThreatResponse/ThreatResponse.json",
         "integration_type": null
       }
     ],

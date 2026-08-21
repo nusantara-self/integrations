@@ -3109,6 +3109,45 @@ low:
     totalUseCases: 0
     totalExternalIntegrations: 0
     total: 1
+- id: CiscoThreatResponse
+  name: CiscoThreatResponse
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
+  integrations:
+    analyzers:
+    - name: ThreatResponse
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Threat Response
+      dataTypes:
+      - domain
+      - filename
+      - fqdn
+      - hash
+      - ip
+      - url
+      file: .upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoThreatResponse/ThreatResponse.json
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    total: 1
 - id: CiscoUmbrella
   name: CiscoUmbrella
   description: ''
@@ -10084,45 +10123,6 @@ low:
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json
       github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/ThreatMiner/ThreatMiner.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatMiner/ThreatMiner.json
-      integration_type: null
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    total: 1
-- id: ThreatResponse
-  name: ThreatResponse
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: low
-  integrations:
-    analyzers:
-    - name: ThreatResponse
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Threat Response
-      dataTypes:
-      - domain
-      - filename
-      - fqdn
-      - hash
-      - ip
-      - url
-      file: .upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json
-      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatResponse/ThreatResponse.json
       integration_type: null
     responders: []
     functions: []

@@ -222,6 +222,7 @@ Built something useful? Contributions are welcome!
 - **[CiscoDuo](vendors/CiscoDuo/overview.md)** - *Uncategorized* - 3 responders
 - **[CiscoTalosReputation](vendors/CiscoTalosReputation/overview.md)** - *Uncategorized* - No integrations
 - **[CiscoThreatGrid](vendors/CiscoThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CiscoThreatResponse](vendors/CiscoThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CiscoUmbrella](vendors/CiscoUmbrella/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[CiscoUmbrellaInvestigate](vendors/CiscoUmbrellaInvestigate/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CISMCAP](vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
@@ -367,7 +368,6 @@ Built something useful? Contributions are welcome!
 - **[ThreatConnect](vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
 - **[Threatcrowd](vendors/Threatcrowd/overview.md)** - *Uncategorized* - No integrations
 - **[ThreatMiner](vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
-- **[ThreatResponse](vendors/ThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Thunderstorm](vendors/Thunderstorm/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Tines](vendors/Tines/overview.md)** - *SOAR & Automation* - 1 external
 - **[TorBlutmagie](vendors/TorBlutmagie/overview.md)** - *Uncategorized* - 1 analyzers
