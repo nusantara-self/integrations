@@ -17,12 +17,12 @@ Built something useful? Contributions are welcome!
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 199
-- **Total Analyzers:** 282
-- **Total Responders:** 157
+- **Total Vendors:** 200
+- **Total Analyzers:** 283
+- **Total Responders:** 161
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 456
+- **Total Integrations:** 461
 
 ## 📂 Vendors by Category
 
@@ -118,7 +118,7 @@ Built something useful? Contributions are welcome!
 
 ### SIEM & Analytics
 
-**[Elasticsearch](vendors/Elasticsearch/overview.md)** (2 integrations)
+**[Elasticsearch](vendors/Elasticsearch/overview.md)** (3 integrations)
   Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log ana...
 
 **[Splunk](vendors/Splunk/overview.md)** (14 integrations)
@@ -212,7 +212,7 @@ Built something useful? Contributions are welcome!
 - **[ChainAbuse](vendors/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CheckPhish](vendors/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CheckPoint](vendors/CheckPoint/overview.md)** - *Uncategorized* - 2 responders
-- **[CheckPointHEC](vendors/CheckPointHEC/overview.md)** - *Uncategorized* - 5 analyzers
+- **[CheckPointHEC](vendors/CheckPointHEC/overview.md)** - *Uncategorized* - 5 analyzers, 3 responders
 - **[CIRCL Hash Lookup](vendors/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Passive DNS](vendors/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Passive SSL](vendors/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
@@ -251,7 +251,7 @@ Built something useful? Contributions are welcome!
 - **[DShield](vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EchoTrail](vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQ](vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
-- **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 external
+- **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 responders, 1 external
 - **[EmailRep](vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
 - **[EmlParser](vendors/EmlParser/overview.md)** - *Uncategorized* - 1 analyzers
@@ -367,6 +367,7 @@ Built something useful? Contributions are welcome!
 - **[TestAnalyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
 - **[ThreatConnect](vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
 - **[Threatcrowd](vendors/Threatcrowd/overview.md)** - *Uncategorized* - No integrations
+- **[ThreatFox](vendors/ThreatFox/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Thunderstorm](vendors/Thunderstorm/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Tines](vendors/Tines/overview.md)** - *SOAR & Automation* - 1 external

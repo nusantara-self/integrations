@@ -27,8 +27,14 @@
   ],
   "displayOnWebsite": true,
   "visibility": "low",
-  "registration_required": false,
-  "subscription_required": false,
+  "registration_required": [
+    true,
+    false
+  ],
+  "subscription_required": [
+    true,
+    false
+  ],
   "free_subscription": true,
   "integrations": {
     "analyzers": [
@@ -58,15 +64,32 @@
         "integration_type": null
       }
     ],
-    "responders": [],
+    "responders": [
+      {
+        "name": "ElasticSecurity_AlertStatusSync",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Sync TheHive case/alert status back to the corresponding Elastic Security detection alert(s), including a closing reason",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:alert"
+        ],
+        "file": ".upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json",
+        "integration_type": "external_api"
+      }
+    ],
     "functions": []
   },
   "stats": {
     "totalAnalyzers": 1,
-    "totalResponders": 0,
+    "totalResponders": 1,
     "totalFunctions": 0,
     "totalUseCases": 0,
     "totalExternalIntegrations": 1,
-    "total": 2
+    "total": 3
   }
 }

@@ -10,6 +10,18 @@ Search for IoCs in Elasticsearch
 
 ---
 
+## Responders (1)
+
+### ElasticSecurity_AlertStatusSync `v1.0`
+Sync TheHive case/alert status back to the corresponding Elastic Security detection alert(s), including a closing reason
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`, `thehive:alert`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json)
+
+---
+
 ## External Integrations (1)
 
 External integrations that connect Elasticsearch with TheHive:

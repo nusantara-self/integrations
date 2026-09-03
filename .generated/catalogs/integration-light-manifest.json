@@ -464,11 +464,11 @@
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/CheckPointHEC/overview.md",
     "stats": {
       "totalAnalyzers": 5,
-      "totalResponders": 0,
+      "totalResponders": 3,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
-      "total": 5
+      "total": 8
     }
   },
   "CIRCLHashlookup": {
@@ -1424,18 +1424,18 @@
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Elasticsearch/assets/logo.png",
     "visibility": "low",
     "subscription": {
-      "required": false,
+      "required": true,
       "free": true,
-      "paid": false
+      "paid": true
     },
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/Elasticsearch/overview.md",
     "stats": {
       "totalAnalyzers": 1,
-      "totalResponders": 0,
+      "totalResponders": 1,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
-      "total": 2
+      "total": 3
     }
   },
   "EmailRep": {
@@ -4412,6 +4412,30 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 0
+    }
+  },
+  "ThreatFox": {
+    "id": "ThreatFox",
+    "name": "ThreatFox",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": true,
+      "free": true,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.generated/docs/vendors/ThreatFox/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "total": 1
     }
   },
   "ThreatMiner": {

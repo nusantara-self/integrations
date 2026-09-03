@@ -13,7 +13,7 @@ Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observa
 ## Responders (4)
 
 ### MSDefenderOffice365_disallow `v1.0`
-Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+Remove allow entries from the Tenant Allow/Block List in the Microsoft 365 Defender
 
 - **Author:** Vito Piserchia
 - **License:** AGPL-V3
@@ -21,7 +21,7 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json)
 
 ### MSDefenderOffice365_unblock `v1.0`
-Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+Remove block entries from the Tenant Allow/Block List in the Microsoft 365 Defender
 
 - **Author:** Joe Lazaro
 - **License:** AGPL-V3

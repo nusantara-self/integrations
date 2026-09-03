@@ -39,3 +39,31 @@ Search for all emails from a sender address in Check Point Harmony Email & Colla
 - **License:** AGPL-V3
 - **Data Types:** `mail`, `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json)
+
+---
+
+## Responders (3)
+
+### CheckPointHEC_Restore `v1.0`
+Restore (resend) a quarantined email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC/CheckPointHEC_Restore.json)
+
+### CheckPointHEC_QuarantineByMessageId `v1.0`
+Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID (text observable).
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json)
+
+### CheckPointHEC_Quarantine `v1.0`
+Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC/CheckPointHEC_Quarantine.json)

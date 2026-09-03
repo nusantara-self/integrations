@@ -95,15 +95,61 @@
         "integration_type": null
       }
     ],
-    "responders": [],
+    "responders": [
+      {
+        "name": "CheckPointHEC_Restore",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Restore (resend) a quarantined email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC/CheckPointHEC_Restore.json",
+        "integration_type": null
+      },
+      {
+        "name": "CheckPointHEC_QuarantineByMessageId",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID (text observable).",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json",
+        "integration_type": null
+      },
+      {
+        "name": "CheckPointHEC_Quarantine",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC/CheckPointHEC_Quarantine.json",
+        "integration_type": null
+      }
+    ],
     "functions": []
   },
   "stats": {
     "totalAnalyzers": 5,
-    "totalResponders": 0,
+    "totalResponders": 3,
     "totalFunctions": 0,
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
-    "total": 5
+    "total": 8
   }
 }
