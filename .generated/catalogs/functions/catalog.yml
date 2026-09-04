@@ -5,15 +5,6 @@ total_functions: 14
 generic_count: 7
 vendor_count: 7
 functions:
-- name: coldCaseAutomation
-  version: 1.0.0
-  description: This function will find the "New" or "InProgress" cases that were not updated since one month. For each case,
-    add a tag "cold-case"
-  type: API
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_API_coldCaseAutomation.js
-  vendor: Generic
 - name: computeCustomMetrics
   version: 1.0.0
   description: "This function computes two key response metrics for every case in TheHive:\n– **Time‑to‑Respond (TTR)**: delay\
@@ -56,13 +47,22 @@ functions:
   mode: Enabled
   file: integrations/generic/functions/function_notifier_automatedIgnoreSimilarityForNoisyObservables.js
   vendor: Generic
-- name: deleteIPObsFromAlert
+- name: coldCaseAutomation
   version: 1.0.0
-  description: This function will delete all the IP Observable from an alert
-  type: Action:Alert
+  description: This function will find the "New" or "InProgress" cases that were not updated since one month. For each case,
+    add a tag "cold-case"
+  type: API
   kind: function
   mode: Enabled
-  file: integrations/generic/functions/function_Action_deleteIPObsFromAlert.js
+  file: integrations/generic/functions/function_API_coldCaseAutomation.js
+  vendor: Generic
+- name: assignToMe
+  version: 1.0.0
+  description: This function changes the assignee of the Case and all the associated tasks to the user who launches the function
+  type: Action:Case
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_Action_assignToMe.js
   vendor: Generic
 - name: changeImportedAlertStatus
   version: 1.0.0
@@ -73,13 +73,13 @@ functions:
   mode: Enabled
   file: integrations/generic/functions/function_notifier_changeImportedAlertStatus.js
   vendor: Generic
-- name: assignToMe
+- name: deleteIPObsFromAlert
   version: 1.0.0
-  description: This function changes the assignee of the Case and all the associated tasks to the user who launches the function
-  type: Action:Case
+  description: This function will delete all the IP Observable from an alert
+  type: Action:Alert
   kind: function
   mode: Enabled
-  file: integrations/generic/functions/function_Action_assignToMe.js
+  file: integrations/generic/functions/function_Action_deleteIPObsFromAlert.js
   vendor: Generic
 - name: alertFromAirtable
   version: 1.0.0
@@ -128,16 +128,6 @@ functions:
   github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
   vendor: JIRA
   vendor_id: JIRA
-- name: alertFeeder_ProofPoint_messageDelivered
-  version: 1.0.0
-  description: Ingests ProofPoint messageDelivered alerts in TheHive
-  kind: function
-  mode: Enabled
-  file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
-  vendor: Proofpoint
-  vendor_id: Proofpoint
 - name: alertFeeder_ProofPoint_clicksPermitted
   version: 1.0.0
   description: Ingests ProofPoint clicksPermitted alerts in TheHive
@@ -146,6 +136,16 @@ functions:
   file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
   url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
   github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+  vendor: Proofpoint
+  vendor_id: Proofpoint
+- name: alertFeeder_ProofPoint_messageDelivered
+  version: 1.0.0
+  description: Ingests ProofPoint messageDelivered alerts in TheHive
+  kind: function
+  mode: Enabled
+  file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
   vendor: Proofpoint
   vendor_id: Proofpoint
 - name: createAlertFromSplunk

@@ -11,11 +11,4 @@
 
 ## Changes
 
-### ✅ Added Vendors (1)
-
-- `ThreatFox`
-
-### 🔄 Updated Vendors (2)
-
-- **CheckPointHEC**: 5 → 8 (+3)
-- **Elasticsearch**: 2 → 3 (+1)
+No changes detected.

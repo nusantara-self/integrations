@@ -29,22 +29,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "VirusTotal_Scan",
-        "version": "3.1",
-        "author": "CERT-BDF, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Use VirusTotal to scan a file or URL.",
-        "dataTypes": [
-          "file",
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "integration_type": null
-      },
-      {
         "name": "VirusTotal_Rescan",
         "version": "3.1",
         "author": "CERT-LDO",
@@ -92,6 +76,22 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
+        "integration_type": null
+      },
+      {
+        "name": "VirusTotal_Scan",
+        "version": "3.1",
+        "author": "CERT-BDF, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Use VirusTotal to scan a file or URL.",
+        "dataTypes": [
+          "file",
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal/VirusTotal_Scan.json",
         "integration_type": null
       }
     ],

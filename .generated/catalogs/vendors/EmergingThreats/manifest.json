@@ -32,21 +32,6 @@
         "integration_type": null
       },
       {
-        "name": "EmergingThreats_IPInfo",
-        "version": "1.0",
-        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
-        "license": "AGPL-V3",
-        "description": "Retrieve ET reputation, related malware, and IDS requests for a given IP address.",
-        "dataTypes": [
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
-        "integration_type": null
-      },
-      {
         "name": "EmergingThreats_DomainInfo",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
@@ -60,6 +45,21 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
+        "integration_type": null
+      },
+      {
+        "name": "EmergingThreats_IPInfo",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Retrieve ET reputation, related malware, and IDS requests for a given IP address.",
+        "dataTypes": [
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
         "integration_type": null
       }
     ],
