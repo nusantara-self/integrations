@@ -13,6 +13,22 @@
   "integrations": {
     "analyzers": [
       {
+        "name": "PassiveTotal_Ssl_Certificate_Details",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "PassiveTotal SSL Certificate Details Lookup.",
+        "dataTypes": [
+          "hash",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "integration_type": null
+      },
+      {
         "name": "PassiveTotal_Enrichment",
         "version": "2.0",
         "author": "CERT-BDF",
@@ -47,20 +63,19 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Malware",
+        "name": "PassiveTotal_Ssl_Certificate_History",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Malware Lookup.",
+        "description": "PassiveTotal SSL Certificate History Lookup.",
         "dataTypes": [
-          "domain",
-          "fqdn",
+          "hash",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
         "integration_type": null
       },
       {
@@ -81,53 +96,20 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Host_Pairs",
+        "name": "PassiveTotal_Unique_Resolutions",
         "version": "2.0",
-        "author": "Brandon Dixon (9bplus)",
+        "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Host Pairs Lookup.",
+        "description": "PassiveTotal Unique Resolutions Lookup.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
-        "integration_type": null
-      },
-      {
-        "name": "PassiveTotal_Osint",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "PassiveTotal OSINT Lookup.",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
-        "integration_type": null
-      },
-      {
-        "name": "PassiveTotal_Ssl_Certificate_History",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "PassiveTotal SSL Certificate History Lookup.",
-        "dataTypes": [
-          "hash",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
         "integration_type": null
       },
       {
@@ -148,6 +130,40 @@
         "integration_type": null
       },
       {
+        "name": "PassiveTotal_Osint",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "PassiveTotal OSINT Lookup.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
+        "integration_type": null
+      },
+      {
+        "name": "PassiveTotal_Malware",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "PassiveTotal Malware Lookup.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "integration_type": null
+      },
+      {
         "name": "PassiveTotal_Whois_Details",
         "version": "2.0",
         "author": "CERT-BDF",
@@ -165,36 +181,20 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Unique_Resolutions",
+        "name": "PassiveTotal_Host_Pairs",
         "version": "2.0",
-        "author": "CERT-BDF",
+        "author": "Brandon Dixon (9bplus)",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Unique Resolutions Lookup.",
+        "description": "PassiveTotal Host Pairs Lookup.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "integration_type": null
-      },
-      {
-        "name": "PassiveTotal_Ssl_Certificate_Details",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "PassiveTotal SSL Certificate Details Lookup.",
-        "dataTypes": [
-          "hash",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
         "integration_type": null
       }
     ],

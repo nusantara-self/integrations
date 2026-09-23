@@ -15,17 +15,17 @@ displayOnWebsite: true
 visibility: low
 integrations:
   analyzers:
-  - name: Robtex_Reverse_PDNS_Query
+  - name: Robtex_IP_Query
     version: '1.0'
     author: Nils Kuhnert
     license: AGPL-V3
-    description: Check IPs using the Robtex reverse passive DNS API.
+    description: Check IPs using the Robtex IP API.
     dataTypes:
     - ip
-    file: .upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
+    file: .upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex/Robtex_IP_Query.json
     integration_type: null
   - name: Robtex_Forward_PDNS_Query
     version: '1.0'
@@ -40,17 +40,17 @@ integrations:
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
     integration_type: null
-  - name: Robtex_IP_Query
+  - name: Robtex_Reverse_PDNS_Query
     version: '1.0'
     author: Nils Kuhnert
     license: AGPL-V3
-    description: Check IPs using the Robtex IP API.
+    description: Check IPs using the Robtex reverse passive DNS API.
     dataTypes:
     - ip
-    file: .upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex/Robtex_IP_Query.json
+    file: .upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
     integration_type: null
   responders: []
   functions: []

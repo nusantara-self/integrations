@@ -19,18 +19,6 @@ free_subscription: false
 integrations:
   analyzers: []
   responders:
-  - name: JAMFProtect_addHashtoPreventList
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Add IOC to JAMF Protect - creates a custom prevent list for a hash
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
-    integration_type: null
   - name: JAMFProtect_removeHashfromPreventList
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -42,6 +30,18 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
+    integration_type: null
+  - name: JAMFProtect_addHashtoPreventList
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Add IOC to JAMF Protect - creates a custom prevent list for a hash
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
     integration_type: null
   functions:
   - name: createAlertFromJAMFProtect
