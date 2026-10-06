@@ -17,12 +17,12 @@ Built something useful? Contributions are welcome!
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 200
-- **Total Analyzers:** 283
-- **Total Responders:** 161
+- **Total Vendors:** 205
+- **Total Analyzers:** 288
+- **Total Responders:** 163
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 461
+- **Total Integrations:** 468
 
 ## 📂 Vendors by Category
 
@@ -121,7 +121,7 @@ Built something useful? Contributions are welcome!
 **[Elasticsearch](vendors/Elasticsearch/overview.md)** (3 integrations)
   Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log ana...
 
-**[Splunk](vendors/Splunk/overview.md)** (14 integrations)
+**[Splunk](vendors/Splunk/overview.md)** (15 integrations)
   Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
 
 
@@ -294,6 +294,7 @@ Built something useful? Contributions are welcome!
 - **[LdapQuery](vendors/LdapQuery/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Lookyloo](vendors/Lookyloo/overview.md)** - *Uncategorized* - 1 analyzers
 - **[LupovisProwl](vendors/LupovisProwl/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Macadress](vendors/Macadress/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mailer](vendors/Mailer/overview.md)** - *Uncategorized* - 1 responders
 - **[MailIncidentStatus](vendors/MailIncidentStatus/overview.md)** - *Uncategorized* - 1 responders
 - **[Malpedia](vendors/Malpedia/overview.md)** - *Uncategorized* - 1 analyzers
@@ -342,10 +343,12 @@ Built something useful? Contributions are welcome!
 - **[Pulsedive](vendors/Pulsedive/overview.md)** - *Uncategorized* - 1 analyzers
 - **[QrDecode](vendors/QrDecode/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Rapid7 InsightConnect](vendors/InsightConnect/overview.md)** - *SOAR & Automation* - 1 external
+- **[RDAP](vendors/RDAP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Redmine](vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[Robtex](vendors/Robtex/overview.md)** - *Uncategorized* - 3 analyzers
 - **[RT4](vendors/RT4/overview.md)** - *Uncategorized* - 1 responders
+- **[ScanMalware](vendors/ScanMalware/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SecurityTrails](vendors/SecurityTrails/overview.md)** - *Uncategorized* - 2 analyzers
 - **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SendGrid](vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders
@@ -358,10 +361,11 @@ Built something useful? Contributions are welcome!
 - **[SophosIntelix](vendors/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](vendors/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SpamhausDBL](vendors/SpamhausDBL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Splunk](vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 functions, 2 external
+- **[Splunk](vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 responders, 1 functions, 2 external
 - **[StamusNetworks](vendors/StamusNetworks/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StaxxSearch](vendors/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StopForumSpam](vendors/StopForumSpam/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Suspicious](vendors/Suspicious/overview.md)** - *Uncategorized* - 1 responders
 - **[Telegram](vendors/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[TestAnalyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
@@ -390,6 +394,7 @@ Built something useful? Contributions are welcome!
 - **[Watcher](vendors/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 4 responders
 - **[Wazuh](vendors/Wazuh/overview.md)** - *Uncategorized* - 1 responders
 - **[WOT](vendors/WOT/overview.md)** - *Uncategorized* - 1 analyzers
+- **[XposedOrNot](vendors/XposedOrNot/overview.md)** - *Uncategorized* - 2 analyzers
 - **[YARA](vendors/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Yeti](vendors/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ZEROFOX](vendors/ZEROFOX/overview.md)** - *Uncategorized* - 2 responders

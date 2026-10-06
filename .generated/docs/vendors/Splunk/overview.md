@@ -90,6 +90,18 @@ Execute a savedsearch on a Splunk instance with a hash as argument
 
 ---
 
+## Responders (1)
+
+### SplunkES_NotableStatusSync `v1.0`
+Sync TheHive case/alert status back to the corresponding Splunk Enterprise Security notable event(s)
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`, `thehive:alert`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Splunk/SplunkES_NotableStatusSync.json)
+
+---
+
 ## Functions (1)
 
 ### createAlertFromSplunk `v1.0.0`

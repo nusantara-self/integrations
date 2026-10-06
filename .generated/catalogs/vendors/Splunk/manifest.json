@@ -33,9 +33,18 @@
   ],
   "displayOnWebsite": true,
   "visibility": "high",
-  "registration_required": false,
-  "subscription_required": false,
-  "free_subscription": true,
+  "registration_required": [
+    true,
+    false
+  ],
+  "subscription_required": [
+    true,
+    false
+  ],
+  "free_subscription": [
+    true,
+    false
+  ],
   "integrations": {
     "analyzers": [
       {
@@ -209,7 +218,24 @@
         "integration_type": null
       }
     ],
-    "responders": [],
+    "responders": [
+      {
+        "name": "SplunkES_NotableStatusSync",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Sync TheHive case/alert status back to the corresponding Splunk Enterprise Security notable event(s)",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:alert"
+        ],
+        "file": ".upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Splunk/SplunkES_NotableStatusSync.json",
+        "integration_type": "external_api"
+      }
+    ],
     "functions": [
       {
         "name": "createAlertFromSplunk",
@@ -225,10 +251,10 @@
   },
   "stats": {
     "totalAnalyzers": 11,
-    "totalResponders": 0,
+    "totalResponders": 1,
     "totalFunctions": 1,
     "totalUseCases": 0,
     "totalExternalIntegrations": 2,
-    "total": 14
+    "total": 15
   }
 }

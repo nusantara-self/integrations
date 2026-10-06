@@ -2,13 +2,23 @@
 
 ## Statistics
 
-- **Total Vendors:** 200
-- **Total Analyzers:** 283
-- **Total Responders:** 161
+- **Total Vendors:** 205
+- **Total Analyzers:** 288
+- **Total Responders:** 163
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 461
+- **Total Integrations:** 468
 
 ## Changes
 
-No changes detected.
+### ✅ Added Vendors (5)
+
+- `Macadress`
+- `RDAP`
+- `ScanMalware`
+- `Suspicious`
+- `XposedOrNot`
+
+### 🔄 Updated Vendors (1)
+
+- **Splunk**: 14 → 15 (+1)
