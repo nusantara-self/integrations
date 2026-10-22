@@ -20,53 +20,13 @@ Check a file hash (SHA1 or SHA256) against Microsoft Defender for Endpoint: orga
 
 ## Responders (12)
 
-### MSDefenderForEndpoint-IsolateMachine `v1.0`
-Isolate machine with Microsoft Defender for Endpoints
-
-- **Author:** Keijo Korte
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json)
-
-### MSDefenderForEndpoint-PushIOC-BlockAndRemediate `v1.0`
-Push IOC to Defender client. Block and Remediate mode
+### MSDefenderForEndpoint-PushIOC-Audit `v1.0`
+Push IOC to Defender client. Audit mode
 
 - **Author:** Vito Piserchia
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlockAndRemediate.json)
-
-### MSDefenderForEndpoint-RestrictAppExecution `v1.0`
-Restrict execution of all applications on the device except a predefined set
-
-- **Author:** Keijo Korte, Louis-Maximilien Dupouy
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json)
-
-### MSDefenderForEndpoint-AutoInvestigation `v1.0`
-Start an automated investigation on a device
-
-- **Author:** Keijo Korte, Louis-Maximilien Dupouy
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json)
-
-### MSDefenderForEndpoint-PushIOC-Allowed `v1.0`
-Push IOC to Defender client. Allowed mode
-
-- **Author:** Vito Piserchia
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json)
-
-### MSDefenderForEndpoint-UnisolateMachine `v1.0`
-Unisolate machine with Microsoft Defender for Endpoints
-
-- **Author:** Keijo Korte
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json)
 
 ### MSDefenderForEndpoint-PushIOC-Warn `v1.0`
 Push IOC to Defender client. Warn mode (Microsoft Defender for Cloud only)
@@ -76,13 +36,29 @@ Push IOC to Defender client. Warn mode (Microsoft Defender for Cloud only)
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json)
 
-### MSDefenderForEndpoint-PushIOC-Audit `v1.0`
-Push IOC to Defender client. Audit mode
+### MSDefenderForEndpoint-AutoInvestigation `v1.0`
+Start an automated investigation on a device
 
-- **Author:** Vito Piserchia
+- **Author:** Keijo Korte, Louis-Maximilien Dupouy
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json)
+
+### MSDefenderForEndpoint-IsolateMachine `v1.0`
+Isolate machine with Microsoft Defender for Endpoints
+
+- **Author:** Keijo Korte
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json)
+
+### MSDefenderForEndpoint-RestrictAppExecution `v1.0`
+Restrict execution of all applications on the device except a predefined set
+
+- **Author:** Keijo Korte, Louis-Maximilien Dupouy
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json)
 
 ### MSDefenderForEndpoint-UnRestrictAppExecution `v1.0`
 Enable execution of any application on the device
@@ -100,6 +76,22 @@ Push IOC to Defender client. Block mode
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlock.json)
 
+### MSDefenderForEndpoint-PushIOC-BlockAndRemediate `v1.0`
+Push IOC to Defender client. Block and Remediate mode
+
+- **Author:** Vito Piserchia
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlockAndRemediate.json)
+
+### MSDefenderForEndpoint-UnisolateMachine `v1.0`
+Unisolate machine with Microsoft Defender for Endpoints
+
+- **Author:** Keijo Korte
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json)
+
 ### MSDefenderForEndpoint-StopAndQuarantineFile `v1.0`
 Stop execution of a file and delete it on every machine where it was seen (SHA1 hashes only)
 
@@ -107,6 +99,14 @@ Stop execution of a file and delete it on every machine where it was seen (SHA1 
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json)
+
+### MSDefenderForEndpoint-PushIOC-Allowed `v1.0`
+Push IOC to Defender client. Allowed mode
+
+- **Author:** Vito Piserchia
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json)
 
 ### MSDefenderForEndpoint-FullVirusScan `v1.0`
 Run full virus scan to machine with Microsoft Defender for Endpoints
