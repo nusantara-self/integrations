@@ -1,6 +1,6 @@
 ## Analyzers (7)
 
-### AnyRun_Sandbox_URL_Android `v1.0`
+### AnyRun_Sandbox_URL_Android `v1.1`
 Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team
@@ -8,7 +8,7 @@ Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports an
 - **Data Types:** `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json)
 
-### AnyRun_Sandbox_File_Android `v1.0`
+### AnyRun_Sandbox_File_Android `v1.1`
 Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team
@@ -16,7 +16,7 @@ Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports a
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json)
 
-### AnyRun_Sandbox_URL_Linux `v1.0`
+### AnyRun_Sandbox_URL_Linux `v1.1`
 Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team
@@ -24,7 +24,7 @@ Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports and 
 - **Data Types:** `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json)
 
-### AnyRun_Sandbox_File_Linux `v1.0`
+### AnyRun_Sandbox_File_Linux `v1.1`
 Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team
@@ -32,7 +32,7 @@ Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and
 - **Data Types:** `file`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json)
 
-### AnyRun_TI_Lookup `v1.0`
+### AnyRun_TI_Lookup `v1.1`
 Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.
 
 - **Author:** ANY.RUN Integrations Team
@@ -40,7 +40,7 @@ Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.
 - **Data Types:** `ip`, `domain`, `url`, `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_TI_Lookup.json)
 
-### AnyRun_Sandbox_URL_Windows `v1.0`
+### AnyRun_Sandbox_URL_Windows `v1.1`
 Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team
@@ -48,7 +48,7 @@ Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports an
 - **Data Types:** `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json)
 
-### AnyRun_Sandbox_File_Windows `v1.0`
+### AnyRun_Sandbox_File_Windows `v1.1`
 Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team

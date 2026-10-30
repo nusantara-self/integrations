@@ -248,7 +248,7 @@
       "analyzers": [
         {
           "name": "AnyRun_Sandbox_URL_Android",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -263,7 +263,7 @@
         },
         {
           "name": "AnyRun_Sandbox_File_Android",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -278,7 +278,7 @@
         },
         {
           "name": "AnyRun_Sandbox_URL_Linux",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -293,7 +293,7 @@
         },
         {
           "name": "AnyRun_Sandbox_File_Linux",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -308,7 +308,7 @@
         },
         {
           "name": "AnyRun_TI_Lookup",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.",
@@ -326,7 +326,7 @@
         },
         {
           "name": "AnyRun_Sandbox_URL_Windows",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -341,7 +341,7 @@
         },
         {
           "name": "AnyRun_Sandbox_File_Windows",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
