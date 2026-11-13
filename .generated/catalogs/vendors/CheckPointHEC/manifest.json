@@ -32,6 +32,38 @@
         "integration_type": null
       },
       {
+        "name": "CheckPointHEC_SearchEmail",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Search for an email in Check Point Harmony Email & Collaboration and retrieve its security verdict, phishing confidence, classification and scan results. Accepts an .eml file or a Message-ID as an 'other' observable.",
+        "dataTypes": [
+          "file",
+          "other"
+        ],
+        "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+        "integration_type": null
+      },
+      {
+        "name": "CheckPointHEC_SearchBySenderIP",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Search for all emails from a sender IP in Check Point Harmony Email & Collaboration. Accepts an IP observable or an .eml file (sender IP is extracted from Received headers, with forwarded email support).",
+        "dataTypes": [
+          "ip",
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+        "integration_type": null
+      },
+      {
         "name": "CheckPointHEC_SearchBySender",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
@@ -61,41 +93,24 @@
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
         "integration_type": null
-      },
-      {
-        "name": "CheckPointHEC_SearchBySenderIP",
-        "version": "1.0",
-        "author": "Fabien Bloume, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Search for all emails from a sender IP in Check Point Harmony Email & Collaboration. Accepts an IP observable or an .eml file (sender IP is extracted from Received headers, with forwarded email support).",
-        "dataTypes": [
-          "ip",
-          "file"
-        ],
-        "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
-        "integration_type": null
-      },
-      {
-        "name": "CheckPointHEC_SearchEmail",
-        "version": "1.0",
-        "author": "Fabien Bloume, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Search for an email in Check Point Harmony Email & Collaboration and retrieve its security verdict, phishing confidence, classification and scan results. Accepts an .eml file or a Message-ID as an 'other' observable.",
-        "dataTypes": [
-          "file",
-          "other"
-        ],
-        "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
-        "integration_type": null
       }
     ],
     "responders": [
+      {
+        "name": "CheckPointHEC_Restore",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Restore (resend) a quarantined email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC/CheckPointHEC_Restore.json",
+        "integration_type": null
+      },
       {
         "name": "CheckPointHEC_QuarantineByMessageId",
         "version": "1.0",
@@ -124,21 +139,6 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC/CheckPointHEC_Quarantine.json",
-        "integration_type": null
-      },
-      {
-        "name": "CheckPointHEC_Restore",
-        "version": "1.0",
-        "author": "Fabien Bloume, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Restore (resend) a quarantined email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC/CheckPointHEC_Restore.json",
         "integration_type": null
       }
     ],

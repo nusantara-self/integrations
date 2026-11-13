@@ -1,13 +1,5 @@
 ## Responders (5)
 
-### AMPforEndpoints_SCDAdd `v1.0`
-Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
-
-- **Author:** Cisco Security
-- **License:** MIT
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json)
-
 ### AMPforEndpoints_IsolationStop `v1.0`
 Stop host isolation for an AMP for Endpoints connector
 
@@ -39,3 +31,11 @@ Move an AMP for Endpoints connector GUID to a different Group
 - **License:** MIT
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json)
+
+### AMPforEndpoints_SCDAdd `v1.0`
+Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
+
+- **Author:** Cisco Security
+- **License:** MIT
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json)

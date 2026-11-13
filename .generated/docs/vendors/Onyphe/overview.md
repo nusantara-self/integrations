@@ -16,13 +16,13 @@ Retrieve summary information Onyphe has for given ip, domain, or fqdn.
 - **Data Types:** `ip`, `domain`, `fqdn`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_Summary_API.json)
 
-### ONYPHE_Vulnscan `v1.1`
-Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS fingerprint)
+### ONYPHE_ASM `v1.1`
+Manage an attack surface from The Hive using ONYPHE riskscan category
 
 - **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_Vulnscan.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_ASM.json)
 
 ### ONYPHE_Search `v1.1`
 Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from specified category
@@ -32,10 +32,10 @@ Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sh
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_Search.json)
 
-### ONYPHE_ASM `v1.1`
-Manage an attack surface from The Hive using ONYPHE riskscan category
+### ONYPHE_Vulnscan `v1.1`
+Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS fingerprint)
 
 - **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_ASM.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_Vulnscan.json)
