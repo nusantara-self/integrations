@@ -16,21 +16,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "XposedOrNot_BreachAnalytics",
-        "version": "1.0",
-        "author": "XposedOrNot",
-        "license": "AGPL-V3",
-        "description": "Detailed XposedOrNot breach analytics for an email address: per-breach detail (date, records, exposed data classes, password-storage risk), first/latest exposure and overall risk. Free, no API key required.",
-        "dataTypes": [
-          "mail"
-        ],
-        "file": ".upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
-        "integration_type": null
-      },
-      {
         "name": "XposedOrNot_CheckEmail",
         "version": "1.0",
         "author": "XposedOrNot",
@@ -43,6 +28,21 @@
         "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json",
         "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json",
+        "integration_type": null
+      },
+      {
+        "name": "XposedOrNot_BreachAnalytics",
+        "version": "1.0",
+        "author": "XposedOrNot",
+        "license": "AGPL-V3",
+        "description": "Detailed XposedOrNot breach analytics for an email address: per-breach detail (date, records, exposed data classes, password-storage risk), first/latest exposure and overall risk. Free, no API key required.",
+        "dataTypes": [
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
         "integration_type": null
       }
     ],

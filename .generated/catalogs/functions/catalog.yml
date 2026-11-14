@@ -5,15 +5,6 @@ total_functions: 14
 generic_count: 7
 vendor_count: 7
 functions:
-- name: assignAlert
-  version: 1.0.0
-  description: This function is designed to trigger on alert creation event. It automatically assignes severity High & Critical
-    alerts to a given user
-  type: Notifier
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_notifier_assignAlert.js
-  vendor: Generic
 - name: assignToMe
   version: 1.0.0
   description: This function changes the assignee of the Case and all the associated tasks to the user who launches the function
@@ -22,14 +13,13 @@ functions:
   mode: Enabled
   file: integrations/generic/functions/function_Action_assignToMe.js
   vendor: Generic
-- name: changeImportedAlertStatus
+- name: deleteIPObsFromAlert
   version: 1.0.0
-  description: This function is designed to trigger on case closed event. It automatically changes imported alerts to a given
-    custom status
-  type: Notifier
+  description: This function will delete all the IP Observable from an alert
+  type: Action:Alert
   kind: function
   mode: Enabled
-  file: integrations/generic/functions/function_notifier_changeImportedAlertStatus.js
+  file: integrations/generic/functions/function_Action_deleteIPObsFromAlert.js
   vendor: Generic
 - name: automatedIgnoreSimilarityForNoisyObservables
   version: 1.0.0
@@ -41,14 +31,6 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/generic/functions/function_notifier_automatedIgnoreSimilarityForNoisyObservables.js
-  vendor: Generic
-- name: deleteIPObsFromAlert
-  version: 1.0.0
-  description: This function will delete all the IP Observable from an alert
-  type: Action:Alert
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_Action_deleteIPObsFromAlert.js
   vendor: Generic
 - name: computeCustomMetrics
   version: 1.0.0
@@ -80,6 +62,24 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/generic/functions/function_API_coldCaseAutomation.js
+  vendor: Generic
+- name: changeImportedAlertStatus
+  version: 1.0.0
+  description: This function is designed to trigger on case closed event. It automatically changes imported alerts to a given
+    custom status
+  type: Notifier
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_notifier_changeImportedAlertStatus.js
+  vendor: Generic
+- name: assignAlert
+  version: 1.0.0
+  description: This function is designed to trigger on alert creation event. It automatically assignes severity High & Critical
+    alerts to a given user
+  type: Notifier
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_notifier_assignAlert.js
   vendor: Generic
 - name: alertFromAirtable
   version: 1.0.0
