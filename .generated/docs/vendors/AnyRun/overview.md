@@ -1,20 +1,12 @@
 ## Analyzers (7)
 
-### AnyRun_Sandbox_File_Linux `v1.1`
-Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.
+### AnyRun_Sandbox_File_Windows `v1.1`
+Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json)
-
-### AnyRun_Sandbox_URL_Windows `v1.1`
-Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
-
-- **Author:** ANY.RUN Integrations Team
-- **License:** AGPL-V3
-- **Data Types:** `url`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json)
 
 ### AnyRun_TI_Lookup `v1.1`
 Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.
@@ -48,10 +40,18 @@ Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports an
 - **Data Types:** `url`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json)
 
-### AnyRun_Sandbox_File_Windows `v1.1`
-Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
+### AnyRun_Sandbox_File_Linux `v1.1`
+Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json)
+
+### AnyRun_Sandbox_URL_Windows `v1.1`
+Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
+
+- **Author:** ANY.RUN Integrations Team
+- **License:** AGPL-V3
+- **Data Types:** `url`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json)

@@ -34,12 +34,12 @@ Check URL, file, SHA256 against Proofpoint forensics
 
 ## Functions (2)
 
-### alertFeeder_ProofPoint_clicksPermitted `v1.0.0`
-Ingests ProofPoint clicksPermitted alerts in TheHive
-
-- **Source:** [View code](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js)
-
 ### alertFeeder_ProofPoint_messageDelivered `v1.0.0`
 Ingests ProofPoint messageDelivered alerts in TheHive
 
 - **Source:** [View code](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js)
+
+### alertFeeder_ProofPoint_clicksPermitted `v1.0.0`
+Ingests ProofPoint clicksPermitted alerts in TheHive
+
+- **Source:** [View code](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js)
