@@ -1,12 +1,20 @@
 ## Responders (5)
 
-### AMPforEndpoints_SCDAdd `v1.0`
-Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
+### AMPforEndpoints_MoveGUID `v1.0`
+Move an AMP for Endpoints connector GUID to a different Group
 
 - **Author:** Cisco Security
 - **License:** MIT
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json)
+
+### AMPforEndpoints_IsolationStart `v1.0`
+Start host isolation for an AMP for Endpoints connector
+
+- **Author:** Cisco Security
+- **License:** MIT
+- **Data Types:** `thehive:case_artifact`
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json)
 
 ### AMPforEndpoints_IsolationStop `v1.0`
 Stop host isolation for an AMP for Endpoints connector
@@ -24,18 +32,10 @@ Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
 - **Data Types:** `thehive:case_artifact`
 - **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDRemove.json)
 
-### AMPforEndpoints_IsolationStart `v1.0`
-Start host isolation for an AMP for Endpoints connector
+### AMPforEndpoints_SCDAdd `v1.0`
+Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
 
 - **Author:** Cisco Security
 - **License:** MIT
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json)
-
-### AMPforEndpoints_MoveGUID `v1.0`
-Move an AMP for Endpoints connector GUID to a different Group
-
-- **Author:** Cisco Security
-- **License:** MIT
-- **Data Types:** `thehive:case_artifact`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json)
+- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json)
