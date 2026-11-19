@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### Msg_Parser `v3.0`
+### Msg_Parser `v3.1`
 Parse Outlook MSG files and extract the main artifacts.
 
 - **Author:** CERT-BDF

@@ -63,7 +63,7 @@ Parse files in several formats such as OLE and OpenXML to detect VBA macros, ext
 </details>
 
 <details>
-<summary><strong>Msg_Parser</strong> <code>v3.0</code> [Local] - MsgParser</summary>
+<summary><strong>Msg_Parser</strong> <code>v3.1</code> [Local] - MsgParser</summary>
 
 **Vendor:** [MsgParser](vendors/MsgParser/overview)
 **Data Types:** `file`
