@@ -18,19 +18,6 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: XposedOrNot_CheckEmail
-    version: '1.0'
-    author: XposedOrNot
-    license: AGPL-V3
-    description: Fast check of an email address against the XposedOrNot data-breach database. Returns the list of breaches
-      the address appears in. Free, no API key required.
-    dataTypes:
-    - mail
-    file: .upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
-    integration_type: null
   - name: XposedOrNot_BreachAnalytics
     version: '1.0'
     author: XposedOrNot
@@ -43,6 +30,19 @@ integrations:
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json
     github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json
+    integration_type: null
+  - name: XposedOrNot_CheckEmail
+    version: '1.0'
+    author: XposedOrNot
+    license: AGPL-V3
+    description: Fast check of an email address against the XposedOrNot data-breach database. Returns the list of breaches
+      the address appears in. Free, no API key required.
+    dataTypes:
+    - mail
+    file: .upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
     integration_type: null
   responders: []
   functions: []
